@@ -1,0 +1,11 @@
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+NAME: multibuf
+DESCRIPTION: this abstraction helps you read sound files into buffer~'s.
+AUTHORS: Ali Momeni, Matt Wright, Michael Zbyszynski
+COPYRIGHT_YEARS: 2006
+SVN_REVISION: $LastChangedRevision: 904 $
+VERSION 1.4: Checked into SVN, mzed 30.viii.06
+VERSION 1.5:  WAVE to default types.  Fixed bug where user-specificd types load twice
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
