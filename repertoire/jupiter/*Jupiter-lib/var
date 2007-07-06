@@ -1,0 +1,1 @@
+max v2;#N vpatcher 250 477 551 650;#P inlet 41 16 15;#P newex 41 71 207 1 r $1;#P message 41 95 50 1 set \$1;#P outlet 41 120 15;#P newex 41 36 207 1 s $1;#P outlet 137 121 15;#P connect 3 0 2 0;#P connect 5 0 1 0;#P connect 4 0 3 0;#P connect 4 0 0 0;#P pop;

@@ -1,0 +1,1 @@
+max v2;#N vpatcher 439 248 839 548;#P message 196 69 135 196617 there's a 'set' in this patch!!;#P newex 196 45 45 196617 loadbang;#P newex 196 92 30 196617 print;#P outlet 87 108 15 0;#P inlet 87 38 15 0;#P newex 87 74 60 196617 prepend set;#P connect 1 0 0 0;#P connect 5 0 3 0;#P connect 0 0 2 0;#P connect 4 0 5 0;#P pop;
