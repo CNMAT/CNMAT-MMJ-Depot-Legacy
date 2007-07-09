@@ -36,7 +36,7 @@ Tool: A vague term we try to avoid when being precise. “What software isn’t a to
 
 Tutor: is a MMJ patch reference document that serves as a single collection point for the expanding communal wisdom on a particular MMJ object or programming topic.  For an advanced user it is a mnemonic aid and for entry level users it is learning space.  An example might be the coll-tutor.pat   Here you would find all kinds of tips of dealing with collections including elaborate strategies like David Wessel's Refer world.  Edmund's preference is that Tutors be formatted for digital projection; Max 5's patch zooming feature will make it unnecessary to build large-font patches.  (Old: A very small tutorial about one specific thing, e.g., a thorough explanation of MSP’s “DSP Status” window.)
 
-Tutorial: series of patches explaining and contextualizing a package for teaching purposes, e.g., CNMAT’s Spectral Tutorials. (Desired reaction: “I understand.”)
+Tutorial: series of patches explaining and contextualizing a package for teaching purposes, e.g., CNMAT’s Spectral Tutorials. Tutorials offer more opportunity for self-guided learning than Tutors.  (Desired reaction: “I understand.”)
 
 
 Working Copy: A copy of a subset of the repository where a user can inspect, run, and modify files, and eventually check new and improved versions back into the repository.
