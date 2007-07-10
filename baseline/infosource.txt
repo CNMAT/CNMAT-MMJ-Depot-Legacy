@@ -1,0 +1,10 @@
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+NAME: CNMAT MMJ-Depot baseline
+DESCRIPTION: A painstakingly selected package of useful patches that all the rest of the MMJ-Depot relies on.
+AUTHORS: Matt Wright, Michael Zbyszynski
+COPYRIGHT_YEARS: 2006, 7
+SVN_REVISION: $LastChangedRevision$
+VERSION 1.0-alpha: First public release
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
