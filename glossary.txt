@@ -12,7 +12,7 @@ Interface Patch: a patch providing a GUI for a module, often designed to be used
 
 Main patch: for Demos, Repertoire, Tutorials, and Tutors, the patch(es) that the user will open and interact with.  For modules, a patch whose name the Max programmer will type into an object box to use the module.
 
-Module: Generalized patch, to be used in an application, demo, tutor, or tutorial.  Modules should be addressable with OSC messages.
+Module: Generalized package, to be used in an application, demo, tutor, or tutorial.  Modules should be addressable with OSC messages.
 
 Object: General term meaning either patch or external written in C, Java, or Javascript
 
