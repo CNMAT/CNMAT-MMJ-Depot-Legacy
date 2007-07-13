@@ -13,5 +13,6 @@ VERSION 1.1: Added (de)interleave and peqbank~ tutorials
 VERSION 1.2: Added (de)interleave_2, resonant sdif, ftm+sdif, and sinusoids_bwe tutorials and SDIF overviews
 VERSION 1.2.1: Removed .svn files from released archive
 VERSION 1.3: Changed logo, new java vs lists tutorial
+VERSION 1.4: sin-synth is now a separate module; include that module in the download.
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
