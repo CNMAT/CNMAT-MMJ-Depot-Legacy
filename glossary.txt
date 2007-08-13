@@ -40,3 +40,13 @@ Tutorial: series of patches explaining and contextualizing a package for teachin
 
 
 Working Copy: A copy of a subset of the repository where a user can inspect, run, and modify files, and eventually check new and improved versions back into the repository.
+
+Patch Quality:
+
+Pre-Alpha:  A label for software that does not necessarily have any quality or integration with the MMJ-Depot.  This is typically for software used only by the author, often for work in progress.  Pre-alpha software should be stored in Subversion to maintain version history and in case somebody else ever wants to try to build on it.
+
+Alpha:  The bottom level of quality and integration with the MMJ-Depot that a package can have.  A package with alpha status is believed by its author to work reasonably well and be useful to other people.
+
+Beta: The middle level of quality and integration with the MMJ-Depot that a package can have, beyond alpha status.  A package with beta status was reviewed for correctness, style, generality, efficiency, and overall design by at least one expert MMJ programmer besides the author.
+
+Gamma: The highest level of quality and integration with the MMJ-Depot that a package can have, beyond beta status.  A package with gamma status has been used reliably by at least two different people.
