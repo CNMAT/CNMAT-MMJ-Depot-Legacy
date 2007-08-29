@@ -3,7 +3,7 @@
 OSC-bcf2000.js by John MacCallum
 
 Written by John MacCallum, The Center for New Music and Audio Technologies,
-University of California, Berkeley.  Copyright (c) 2006, The Regents of 
+University of California, Berkeley.  Copyright (c) 2006,07, The Regents of 
 the University of California (Regents).  
 
 Permission to use, copy, modify, distribute, and distribute modified versions
@@ -27,7 +27,7 @@ MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 NAME: OSC-bcf2000
 DESCRIPTION: OSC wrapper for the Behringer BCF2000 faderbox (javascript)
 AUTHORS: John MacCallum
-COPYRIGHT_YEARS: 2006
+COPYRIGHT_YEARS: 2006,07
 SVN_REVISION: $LastChangedRevision: 618 $
 VERSION 0.1: First release
 VERSION 0.1.2: Gratuitously incremented the version number
