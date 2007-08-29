@@ -1,1 +1,0 @@
-These are PRELIMINARY versions of tutorial patches by David Waxman.  A finalversion of the tutorial, with written documentation, is expected for April1993.
