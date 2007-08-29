@@ -1,1 +1,0 @@
-max v2;#N vpatcher 177 126 394 304;#P outlet 18 117 15 0;#P newex 40 85 98 1376266 tapin~ $2;#P newex 40 116 44 196617 send $1;#P inlet 40 55 15 0;#P connect 0 0 2 0;#P connect 2 0 1 0;#P pop;

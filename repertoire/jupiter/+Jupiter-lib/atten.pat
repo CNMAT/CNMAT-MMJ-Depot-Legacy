@@ -1,1 +1,0 @@
-max v2;#N vpatcher 150 599 474 750;#P outlet 46 106 15 0;#P inlet 46 27 15 0;#P newex 46 78 57 9 *~ $1;#P inlet 93 27 15 0;#P comment 159 54 95 196618 arg 1 : atten coef;#P connect 1 0 2 1;#P connect 2 0 4 0;#P connect 3 0 2 0;#P pop;
