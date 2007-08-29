@@ -30,9 +30,6 @@ University of California, Berkeley.
 
 */
 
-*/
-
-
 inlets = 1;
 outlets = 2;
 
