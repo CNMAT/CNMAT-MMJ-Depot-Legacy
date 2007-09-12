@@ -15,5 +15,6 @@ VERSION 1.2.1: Removed .svn files from released archive
 VERSION 1.3: Changed logo, new java vs lists tutorial
 VERSION 1.4: sin-synth is now a separate module; include that module in the download.
 VERSION 1.4.1: Patches that this module depends on (sin-synth) now appear properly in download.
+VERSION 2.0: Split off OSC tutorials, moved modules and demos into the MMJ Depot
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
