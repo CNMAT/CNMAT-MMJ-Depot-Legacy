@@ -7,5 +7,6 @@ COPYRIGHT_YEARS: 2006,07
 SVN_REVISION: $LastChangedRevision$
 VERSION 1.0: First release
 VERSION 1.01: Added panhandler and OSC-alias modules
+VERSION 1.02: Bug fixes, new repertoire, restored migrators demo, improved OSC tutorial
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
