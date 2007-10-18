@@ -18,5 +18,6 @@ VERSION 1.4.1: Patches that this module depends on (sin-synth) now appear proper
 VERSION 2.0: Split off OSC tutorials, moved modules and demos into the MMJ Depot
 VERSION 2.1: bug fixes to comply with MMJ Depot
 VERSION 2.1.1: updating banner
+VERSION 2.1.2: more matrix types explained
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
