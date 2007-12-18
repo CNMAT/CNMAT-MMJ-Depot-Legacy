@@ -13,5 +13,6 @@ VERSION 1.02: Bug fixes, new repertoire, restored migrators demo, improved OSC t
 VERSION 1.03: Put entire depot into "mmjdepot" subdirectory (for "everything" archives)
 VERSION 1.04: Numerous small fixes and improvements
 VERSION 1.05: Additions of repertoire (Ron Smith) and many others
+VERSION 1.06: Added repertoire/Michael_Zbyszynski/forFrancisMarieUitti and a lot of stuff (like modules/fx and modules/hex-fx) they use.
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
