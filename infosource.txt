@@ -1,10 +1,10 @@
 /*
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 NAME: CNMAT Max/MSP/Jitter Depot
-DESCRIPTION: <a href="http://cnmat.berkeley.edu/mmjdepot/">CNMAT's expanding collection of Max/MSP/Jitter patches</a> designed to assist composers and performers of electroacoustic music as well as music educators.
+DESCRIPTION: <a href="http://cnmat.berkeley.edu/library/mmjdepot/">CNMAT's expanding collection of Max/MSP/Jitter patches</a> designed to assist composers and performers of electroacoustic music as well as music educators.
 AUTHORS: Michael Zbyszynski, Matt Wright, Edmund Campion, Ali Momeni, Adrian Freed, David Wessel, Daniel Cullen, John MacCallum
 COPYRIGHT_YEARS: 2006,07
-PUBLICATION: ICMC 07 paper | http://cnmat.berkeley.edu/mmjdepot/CNMAT_Ped_Software.pdf
+PUBLICATION: ICMC 07 paper | http://www.cnmat.berkeley.edu/publication/design_and_implementation_cnmats_pedagogical_software
 PACKAGE: 1
 SVN_REVISION: $LastChangedRevision$
 VERSION 1.0: First release
@@ -14,5 +14,6 @@ VERSION 1.03: Put entire depot into "mmjdepot" subdirectory (for "everything" ar
 VERSION 1.04: Numerous small fixes and improvements
 VERSION 1.05: Additions of repertoire (Ron Smith) and many others
 VERSION 1.06: Added repertoire/Michael_Zbyszynski/forFrancisMarieUitti and a lot of stuff (like modules/fx and modules/hex-fx) they use.
+VERSION 1.07: Fixed links in infosource.txt.
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
