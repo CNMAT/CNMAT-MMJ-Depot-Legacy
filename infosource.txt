@@ -15,5 +15,6 @@ VERSION 1.04: Numerous small fixes and improvements
 VERSION 1.05: Additions of repertoire (Ron Smith) and many others
 VERSION 1.06: Added repertoire/Michael_Zbyszynski/forFrancisMarieUitti and a lot of stuff (like modules/fx and modules/hex-fx) they use.
 VERSION 1.07: Fixed links in infosource.txt. Changed names. Added overviews 
+VERSION 1.5: New badge with take notes feature, OSC namespace, in all modules 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
