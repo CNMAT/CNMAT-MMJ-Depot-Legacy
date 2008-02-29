@@ -18,5 +18,6 @@ VERSION 1.07: Fixed links in infosource.txt. Changed names. Added overviews
 VERSION 1.5: New badge with take notes feature, OSC namespace, in all modules 
 VERSION 1.51: New badge with take notes feature in all baseline
 VERSION 1.52: New badge with take notes feature in all tutors. Many additions to object-tutors and topic-tutors, stopwatch application, News Cycle in repertoire
+VERSION 1.53: Improvments to stepmetro, iSynth.
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
