@@ -20,5 +20,6 @@ VERSION 1.51: New badge with take notes feature in all baseline
 VERSION 1.52: New badge with take notes feature in all tutors. Many additions to object-tutors and topic-tutors, stopwatch application, News Cycle in repertoire
 VERSION 1.53: Improvments to stepmetro, iSynth.
 VERSION 1.54: CAC and FM tutorials added, improvements to groovewrap~.
+VERSION 1.55: Organized aLib into general categories, MSP Samplers added, wrappers for GPS, Wiiremote, and Wacom tablet.
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
