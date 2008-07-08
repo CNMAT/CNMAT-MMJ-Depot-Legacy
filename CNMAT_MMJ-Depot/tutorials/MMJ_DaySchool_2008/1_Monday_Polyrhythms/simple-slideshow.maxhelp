@@ -18,6 +18,109 @@
 		"metadata" : [  ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "p can't find images?",
+					"patching_rect" : [ 543.0, 470.0, 171.0, 27.0 ],
+					"id" : "obj-18",
+					"fontname" : "Arial",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"fontsize" : 18.0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"rect" : [ 25.0, 69.0, 537.0, 334.0 ],
+						"bglocked" : 0,
+						"defrect" : [ 25.0, 69.0, 537.0, 334.0 ],
+						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"metadata" : [  ],
+						"boxes" : [ 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "In order to manage paths, I have a folder called Max5_enabled that I have added to my File Preferences as in solution #2, above. I move things I want to work with into that folder, and then I move them out when I don't want them.",
+									"linecount" : 4,
+									"patching_rect" : [ 13.0, 199.0, 447.0, 71.0 ],
+									"id" : "obj-5",
+									"fontname" : "Arial",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"fontsize" : 14.0,
+									"presentation_rect" : [ 21.0, 164.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "Solution #2: Go to the Options menu and select \"File Preferences...\"  add the day school folder to the list of paths.",
+									"linecount" : 2,
+									"patching_rect" : [ 52.0, 135.0, 447.0, 39.0 ],
+									"id" : "obj-4",
+									"fontname" : "Arial",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"fontsize" : 14.0,
+									"presentation_rect" : [ 13.0, 124.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "Solution #1: Move the whole day school folder into /Max5/patches. Restart Max and try again.",
+									"linecount" : 2,
+									"patching_rect" : [ 52.0, 82.0, 447.0, 39.0 ],
+									"id" : "obj-3",
+									"fontname" : "Arial",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"fontsize" : 14.0,
+									"presentation_rect" : [ 15.0, 71.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "Max looks for files in specific places called the \"file path.\"  If max can't find these images, it is probably because they are not in its path.",
+									"linecount" : 2,
+									"patching_rect" : [ 13.0, 12.0, 447.0, 39.0 ],
+									"id" : "obj-2",
+									"fontname" : "Arial",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"fontsize" : 14.0
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"maxclass" : "message",
 					"text" : "major_dev.jpg",
 					"patching_rect" : [ 89.0, 281.0, 86.0, 18.0 ],
@@ -27,8 +130,7 @@
 					"numoutlets" : 1,
 					"bgcolor" : [ 0.964706, 0.831373, 0.839216, 1.0 ],
 					"fontsize" : 12.0,
-					"outlettype" : [ "" ],
-					"presentation_rect" : [ 103.0, 281.0, 0.0, 0.0 ]
+					"outlettype" : [ "" ]
 				}
 
 			}
@@ -43,8 +145,7 @@
 					"numoutlets" : 1,
 					"bgcolor" : [ 0.964706, 0.831373, 0.839216, 1.0 ],
 					"fontsize" : 12.0,
-					"outlettype" : [ "" ],
-					"presentation_rect" : [ 89.0, 260.0, 0.0, 0.0 ]
+					"outlettype" : [ "" ]
 				}
 
 			}
@@ -59,8 +160,7 @@
 					"numoutlets" : 1,
 					"bgcolor" : [ 0.964706, 0.831373, 0.839216, 1.0 ],
 					"fontsize" : 12.0,
-					"outlettype" : [ "" ],
-					"presentation_rect" : [ 71.0, 236.0, 0.0, 0.0 ]
+					"outlettype" : [ "" ]
 				}
 
 			}
@@ -437,7 +537,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"films" : [ "vino.jpg", "sunset.jpg", "colorwheel.jpg", "chilis.jpg", "speaker_sphere.jpg", "colorwheel.jpg", "speaker_sphere.jpg", "colorwheel.jpg", "speaker_sphere.jpg", "speaker_sphere.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "bare_speaker.jpg", "bare_speaker.jpg", "bare_speaker.jpg", "bare_speaker.jpg", "bare_speaker.jpg", "speaker_sphere.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "bare_speaker.jpg", "speaker_sphere.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "sunset.jpg", "bare_speaker.jpg", "sunset.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "vino.jpg", "vino.jpg", "bare_speaker.jpg", "speaker_sphere.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "vino.jpg", "bfd.jpg", "bfd.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "vino.jpg", "bfd.jpg", "bare_speaker.jpg", "vino.jpg", "bfd.jpg", "pbr.jpg", "speaker_sphere.jpg", "pbr.jpg", "pbr.jpg", "bfd.jpg", "speaker_sphere.jpg", "pbr.jpg", "bfd.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "vino.jpg", "bare_speaker.jpg", "speaker_sphere.jpg", "bfd.jpg", "pbr.jpg", "bare_speaker.jpg", "vino.jpg", "bfd.jpg", "pbr.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "vino.jpg", "bfd.jpg", "pbr.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "vino.jpg", "bfd.jpg", "pbr.jpg", "speaker_sphere.jpg", "bfd.jpg", "pbr.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "vino.jpg", "pbr.jpg", "pbr.jpg", "bfd.jpg", "speaker_sphere.jpg", "bare_speaker.jpg", "vino.jpg", "bare_speaker.jpg", "speaker_sphere.jpg", "bfd.jpg", "pbr.jpg" ]
+					"films" : [ "sunset.jpg", "colorwheel.jpg", "chilis.jpg", "colorwheel.jpg", "colorwheel.jpg", "sunset.jpg", "sunset.jpg", "bare_speaker.jpg", "vino.jpg", "bfd.jpg", "pbr.jpg", "speaker_sphere.jpg" ]
 				}
 
 			}
@@ -471,53 +571,44 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-14", 0 ],
-					"destination" : [ "obj-22", 1 ],
-					"hidden" : 0,
-					"midpoints" : [ 192.0, 328.0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-13", 0 ],
-					"destination" : [ "obj-22", 1 ],
-					"hidden" : 0,
-					"midpoints" : [ 195.0, 286.0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-17", 0 ],
+					"source" : [ "obj-3", 0 ],
 					"destination" : [ "obj-22", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 98.5, 348.0, 64.5, 348.0 ]
+					"midpoints" : [ 56.5, 348.0, 64.5, 348.0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-12", 0 ],
+					"source" : [ "obj-36", 0 ],
 					"destination" : [ "obj-22", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 84.5, 348.0, 64.5, 348.0 ]
+					"midpoints" : [ 560.5, 243.0, 441.0, 243.0, 441.0, 348.0, 64.5, 348.0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-6", 0 ],
+					"source" : [ "obj-31", 0 ],
 					"destination" : [ "obj-22", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 65.5, 348.0, 64.5, 348.0 ]
+					"midpoints" : [ 536.5, 243.0, 441.0, 243.0, 441.0, 348.0, 64.5, 348.0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-25", 0 ],
-					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-29", 0 ],
+					"destination" : [ "obj-22", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 498.5, 174.0, 441.0, 174.0, 441.0, 348.0, 64.5, 348.0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-22", 0 ],
+					"destination" : [ "obj-23", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
@@ -525,17 +616,53 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-4", 0 ],
-					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-21", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 537.5, 418.0, 64.5, 418.0 ]
+					"midpoints" : [ 509.5, 243.0, 441.0, 243.0, 441.0, 348.0, 64.5, 348.0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-22", 0 ],
-					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-15", 0 ],
+					"destination" : [ "obj-24", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-11", 0 ],
+					"destination" : [ "obj-26", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-28", 0 ],
+					"destination" : [ "obj-22", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 42.5, 348.0, 64.5, 348.0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-27", 0 ],
+					"destination" : [ "obj-22", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 29.5, 348.0, 64.5, 348.0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-26", 0 ],
+					"destination" : [ "obj-22", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
@@ -552,100 +679,73 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-26", 0 ],
+					"source" : [ "obj-22", 0 ],
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-4", 0 ],
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 537.5, 418.0, 64.5, 418.0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-25", 0 ],
+					"destination" : [ "obj-26", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-6", 0 ],
+					"destination" : [ "obj-22", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 65.5, 348.0, 64.5, 348.0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-12", 0 ],
+					"destination" : [ "obj-22", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 84.5, 348.0, 64.5, 348.0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-17", 0 ],
+					"destination" : [ "obj-22", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 98.5, 348.0, 64.5, 348.0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-13", 0 ],
 					"destination" : [ "obj-22", 1 ],
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"midpoints" : [ 195.0, 286.0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-27", 0 ],
-					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-14", 0 ],
+					"destination" : [ "obj-22", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 29.5, 348.0, 64.5, 348.0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-28", 0 ],
-					"destination" : [ "obj-22", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 42.5, 348.0, 64.5, 348.0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-11", 0 ],
-					"destination" : [ "obj-26", 1 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-15", 0 ],
-					"destination" : [ "obj-24", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-21", 0 ],
-					"destination" : [ "obj-22", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 509.5, 243.0, 441.0, 243.0, 441.0, 348.0, 64.5, 348.0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-22", 0 ],
-					"destination" : [ "obj-23", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-29", 0 ],
-					"destination" : [ "obj-22", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 498.5, 174.0, 441.0, 174.0, 441.0, 348.0, 64.5, 348.0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-31", 0 ],
-					"destination" : [ "obj-22", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 536.5, 243.0, 441.0, 243.0, 441.0, 348.0, 64.5, 348.0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-36", 0 ],
-					"destination" : [ "obj-22", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 560.5, 243.0, 441.0, 243.0, 441.0, 348.0, 64.5, 348.0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-3", 0 ],
-					"destination" : [ "obj-22", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 56.5, 348.0, 64.5, 348.0 ]
+					"midpoints" : [ 192.0, 328.0 ]
 				}
 
 			}
