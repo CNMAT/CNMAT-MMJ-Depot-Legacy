@@ -21,5 +21,6 @@ VERSION 1.52: New badge with take notes feature in all tutors. Many additions to
 VERSION 1.53: Improvments to stepmetro, iSynth.
 VERSION 1.54: CAC and FM tutorials added, improvements to groovewrap~.
 VERSION 1.55: Organized aLib into general categories, MSP Samplers added, wrappers for GPS, Wiiremote, and Wacom tablet.
+VERSION 1.56: MMJ Day School Materials
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
