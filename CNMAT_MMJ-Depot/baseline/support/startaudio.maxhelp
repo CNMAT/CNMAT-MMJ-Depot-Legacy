@@ -22,7 +22,7 @@
 					"offset" : [ -4.0, -23.0 ],
 					"outlettype" : [ "" ],
 					"lockeddragscroll" : 1,
-					"patching_rect" : [ 4.0, 0.0, 144.0, 60.0 ],
+					"patching_rect" : [ 4.0, 0.0, 131.0, 53.0 ],
 					"id" : "obj-1",
 					"name" : "startaudio.maxpat",
 					"args" : [  ],

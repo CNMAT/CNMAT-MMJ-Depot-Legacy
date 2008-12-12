@@ -20,7 +20,7 @@
 					"maxclass" : "tab",
 					"tabs" : [ "startwindow", "stop" ],
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 14.0, 49.0, 114.0, 23.0 ],
+					"patching_rect" : [ 11.0, 44.0, 114.0, 23.0 ],
 					"mode" : 1,
 					"id" : "obj-11",
 					"fontname" : "Arial",
@@ -51,7 +51,7 @@
 					"maxclass" : "led",
 					"bgcolor" : [ 0.35294, 0.35294, 0.35294, 1.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 88.0, 29.0, 17.0, 17.0 ],
+					"patching_rect" : [ 88.0, 27.0, 17.0, 17.0 ],
 					"id" : "obj-2",
 					"offcolor" : [ 0.0, 0.0, 0.466667, 1.0 ],
 					"numinlets" : 1,
@@ -91,7 +91,7 @@
 					"text" : "• start audio",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"patching_rect" : [ 18.0, 27.0, 89.0, 20.0 ],
+					"patching_rect" : [ 18.0, 25.0, 89.0, 20.0 ],
 					"id" : "obj-7",
 					"fontname" : "Arial",
 					"numinlets" : 1,
@@ -105,7 +105,7 @@
 					"maxclass" : "panel",
 					"bgcolor" : [ 0.588235, 0.588235, 0.705882, 1.0 ],
 					"shadow" : -1,
-					"patching_rect" : [ 6.0, 25.0, 138.0, 56.0 ],
+					"patching_rect" : [ 7.0, 24.0, 129.0, 51.0 ],
 					"id" : "obj-8",
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"numinlets" : 1,
@@ -117,10 +117,10 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-11", 1 ],
-					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-1", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"hidden" : 1,
-					"midpoints" : [  ]
+					"midpoints" : [ 259.5, 93.0, 156.0, 93.0, 156.0, 16.0, 97.5, 16.0 ]
 				}
 
 			}
@@ -135,10 +135,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-1", 0 ],
-					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-11", 1 ],
+					"destination" : [ "obj-4", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 259.5, 93.0, 156.0, 93.0, 156.0, 16.0, 97.5, 16.0 ]
+					"midpoints" : [  ]
 				}
 
 			}
