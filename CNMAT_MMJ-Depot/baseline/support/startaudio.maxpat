@@ -49,9 +49,9 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "led",
-					"bgcolor" : [ 0.35294, 0.35294, 0.35294, 1.0 ],
+					"bgcolor" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 88.0, 27.0, 17.0, 17.0 ],
+					"patching_rect" : [ 92.0, 26.0, 17.0, 17.0 ],
 					"id" : "obj-2",
 					"offcolor" : [ 0.0, 0.0, 0.466667, 1.0 ],
 					"numinlets" : 1,
@@ -91,7 +91,7 @@
 					"text" : "• start audio",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"patching_rect" : [ 18.0, 25.0, 89.0, 20.0 ],
+					"patching_rect" : [ 18.0, 24.0, 89.0, 20.0 ],
 					"id" : "obj-7",
 					"fontname" : "Arial",
 					"numinlets" : 1,
@@ -117,10 +117,19 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-1", 0 ],
-					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-2", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 259.5, 93.0, 156.0, 93.0, 156.0, 16.0, 97.5, 16.0 ]
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-11", 1 ],
+					"destination" : [ "obj-4", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ]
 				}
 
 			}
@@ -135,10 +144,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-11", 1 ],
-					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-1", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"hidden" : 1,
-					"midpoints" : [  ]
+					"midpoints" : [ 259.5, 93.0, 156.0, 93.0, 156.0, 16.0, 101.5, 16.0 ]
 				}
 
 			}
