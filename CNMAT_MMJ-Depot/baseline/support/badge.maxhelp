@@ -32,7 +32,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"patching_rect" : [ 51.0, 104.0, 337.0, 110.0 ],
+					"patching_rect" : [ 51.0, 104.0, 296.0, 86.0 ],
 					"id" : "obj-2",
 					"name" : "badge.maxpat",
 					"args" : [ "foo", 1.1, "Michael Zbyszynski", "foo", 6666 ],
