@@ -1,6 +1,6 @@
 Application: A generally useful patch with a complete enough GUI that it can be used without doing any Max programming.  In other words, an Application is a turnkey solution to some problem, not a reusable software component.   Apps might edit or reformat data, provide composer or audio engineering assistance, as well as operate on or perform digital sound in a specified way.  Apps are suggested when a composer or researcher desires to share an activity that has become habitual to the point where a fixed environment can exist.
 
-Baseline: The painstakingly selected package that we expect all users to have in their Max path and that all other software may depend on.
+Baseline: The painstakingly selected package that we expect all users to have in their Max path and that all other software may depend on. (Note: in December 2008, this category was painstakingly assimilated into modules. Sorry Matt.)
 
 Demo: patch that shows one (impressive) idea, not necessarily with enough flexibility or generality to be useful for extended work (Desired reaction: ÒWow!Ó).  It is specifically formatted for digital projection, and quick, reliable show and tell sessions.
 
