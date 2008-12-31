@@ -31,6 +31,7 @@ SVN_REVISION: $LastChangedRevision: ??? $
 VERSION 0.1: First release
 VERSION 0.2: First release
 VERSION 0.3: Adding flats
+VERSION 0.4: Minor font name edit for Max 5
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 */
@@ -196,7 +197,7 @@ function drawnotes()
                 fontsize(.15*height);
                 textalign("center","center");    
                 text("œ");
-                font("Tempera Regular");
+                font("Tempera");
                 fontsize(.09*height);
             }
             drawAccidentals(xpos, ypos, sharp);
