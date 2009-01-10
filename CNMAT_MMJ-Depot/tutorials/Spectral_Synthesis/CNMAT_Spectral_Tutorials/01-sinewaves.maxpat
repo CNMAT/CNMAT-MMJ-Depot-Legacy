@@ -183,7 +183,7 @@
 					"text" : "v",
 					"numoutlets" : 0,
 					"fontsize" : 12.0,
-					"patching_rect" : [ 442.0, 567.0, 20.0, 18.0 ],
+					"patching_rect" : [ 444.0, 567.0, 20.0, 18.0 ],
 					"frgb" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-11",
@@ -198,7 +198,7 @@
 					"text" : "_",
 					"numoutlets" : 0,
 					"fontsize" : 12.0,
-					"patching_rect" : [ 442.0, 568.0, 19.0, 18.0 ],
+					"patching_rect" : [ 444.0, 568.0, 19.0, 18.0 ],
 					"frgb" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-12",
@@ -411,7 +411,7 @@
 					"fontsize" : 12.0,
 					"patching_rect" : [ 224.0, 348.0, 66.0, 16.0 ],
 					"outlettype" : [ "" ],
-					"bgcolor" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
+					"bgcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-27",
 					"fontname" : "Helvetica",
@@ -909,7 +909,7 @@
 					"fontsize" : 12.0,
 					"patching_rect" : [ 202.0, 320.0, 72.0, 16.0 ],
 					"outlettype" : [ "" ],
-					"bgcolor" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
+					"bgcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-39",
 					"fontname" : "Helvetica",
@@ -925,7 +925,7 @@
 					"fontsize" : 12.0,
 					"patching_rect" : [ 194.0, 288.0, 74.0, 16.0 ],
 					"outlettype" : [ "" ],
-					"bgcolor" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
+					"bgcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-40",
 					"fontname" : "Helvetica",
@@ -1302,7 +1302,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-60", 0 ],
 					"destination" : [ "obj-49", 0 ],
-					"hidden" : 0,
+					"hidden" : 1,
 					"midpoints" : [ 70.5, 522.0, 198.0, 522.0, 198.0, 534.0, 203.5, 534.0 ]
 				}
 
