@@ -20,24 +20,24 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "uc_license",
-					"numoutlets" : 0,
 					"fontsize" : 9.0,
-					"patching_rect" : [ 142.0, 49.0, 57.0, 17.0 ],
-					"id" : "obj-1",
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"fontname" : "Arial",
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
-					"numinlets" : 0
+					"patching_rect" : [ 142.0, 49.0, 57.0, 17.0 ],
+					"id" : "obj-1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "fpic",
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 20.0, 109.0, 48.0 ],
 					"pic" : "cnmat_wht-blu.gif",
-					"id" : "obj-2",
-					"numinlets" : 1
+					"id" : "obj-2"
 				}
 
 			}
@@ -45,14 +45,14 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "mzed@cnmat.berkeley.edu",
-					"numoutlets" : 0,
 					"fontsize" : 10.0,
-					"patching_rect" : [ 285.0, 64.0, 133.0, 18.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-4",
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"fontname" : "Trebuchet MS",
-					"numinlets" : 1
+					"patching_rect" : [ 285.0, 64.0, 133.0, 18.0 ],
+					"id" : "obj-4"
 				}
 
 			}
@@ -60,14 +60,14 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "version 2.2 -- Michael Zbyszynski -- ©2006-9 UC Regents All Rights Reserved",
-					"numoutlets" : 0,
 					"fontsize" : 10.0,
-					"patching_rect" : [ 198.0, 48.0, 350.0, 18.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-5",
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"fontname" : "Trebuchet MS",
-					"numinlets" : 1
+					"patching_rect" : [ 198.0, 48.0, 350.0, 18.0 ],
+					"id" : "obj-5"
 				}
 
 			}
@@ -75,30 +75,30 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "CNMAT Spectral Synthesis Tutorials",
-					"numoutlets" : 0,
 					"fontsize" : 24.0,
-					"patching_rect" : [ 127.0, 14.0, 417.0, 34.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-6",
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"fontname" : "Trebuchet MS Bold",
-					"numinlets" : 1
+					"patching_rect" : [ 127.0, 14.0, 417.0, 34.0 ],
+					"id" : "obj-6"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "panel",
-					"numoutlets" : 0,
-					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
-					"patching_rect" : [ 1.0, 1.0, 805.0, 90.0 ],
-					"bgcolor" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
 					"rounded" : 40,
 					"grad1" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
 					"grad2" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
+					"bgcolor" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
+					"patching_rect" : [ 1.0, 1.0, 871.0, 89.0 ],
 					"shadow" : -1,
-					"id" : "obj-7",
-					"numinlets" : 1
+					"id" : "obj-7"
 				}
 
 			}
