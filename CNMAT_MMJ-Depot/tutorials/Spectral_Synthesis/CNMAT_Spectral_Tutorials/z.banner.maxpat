@@ -23,10 +23,10 @@
 					"fontsize" : 9.0,
 					"numinlets" : 0,
 					"numoutlets" : 0,
+					"id" : "obj-1",
 					"fontname" : "Arial",
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
-					"patching_rect" : [ 142.0, 49.0, 57.0, 17.0 ],
-					"id" : "obj-1"
+					"patching_rect" : [ 142.0, 49.0, 57.0, 17.0 ]
 				}
 
 			}
@@ -35,9 +35,9 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
+					"id" : "obj-2",
 					"patching_rect" : [ 12.0, 20.0, 109.0, 48.0 ],
-					"pic" : "cnmat_wht-blu.gif",
-					"id" : "obj-2"
+					"pic" : "cnmat_wht-blu.gif"
 				}
 
 			}
@@ -47,12 +47,12 @@
 					"text" : "mzed@cnmat.berkeley.edu",
 					"fontsize" : 10.0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numinlets" : 1,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numoutlets" : 0,
+					"id" : "obj-4",
 					"fontname" : "Trebuchet MS",
-					"patching_rect" : [ 285.0, 64.0, 133.0, 18.0 ],
-					"id" : "obj-4"
+					"patching_rect" : [ 285.0, 64.0, 133.0, 18.0 ]
 				}
 
 			}
@@ -62,12 +62,12 @@
 					"text" : "version 2.2 -- Michael Zbyszynski -- ©2006-9 UC Regents All Rights Reserved",
 					"fontsize" : 10.0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numinlets" : 1,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numoutlets" : 0,
+					"id" : "obj-5",
 					"fontname" : "Trebuchet MS",
-					"patching_rect" : [ 198.0, 48.0, 350.0, 18.0 ],
-					"id" : "obj-5"
+					"patching_rect" : [ 198.0, 48.0, 350.0, 18.0 ]
 				}
 
 			}
@@ -77,12 +77,12 @@
 					"text" : "CNMAT Spectral Synthesis Tutorials",
 					"fontsize" : 24.0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numinlets" : 1,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numoutlets" : 0,
+					"id" : "obj-6",
 					"fontname" : "Trebuchet MS Bold",
-					"patching_rect" : [ 127.0, 14.0, 417.0, 34.0 ],
-					"id" : "obj-6"
+					"patching_rect" : [ 127.0, 14.0, 417.0, 34.0 ]
 				}
 
 			}
@@ -90,15 +90,15 @@
 				"box" : 				{
 					"maxclass" : "panel",
 					"rounded" : 40,
-					"grad1" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
-					"grad2" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
 					"bgcolor" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
-					"patching_rect" : [ 1.0, 1.0, 871.0, 89.0 ],
+					"id" : "obj-7",
+					"grad1" : [ 0.588235, 0.588235, 0.709804, 1.0 ],
 					"shadow" : -1,
-					"id" : "obj-7"
+					"grad2" : [ 0.329412, 0.329412, 0.4, 1.0 ],
+					"patching_rect" : [ 1.0, 1.0, 871.0, 89.0 ],
+					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ]
 				}
 
 			}
