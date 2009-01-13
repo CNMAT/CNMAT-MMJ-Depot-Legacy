@@ -15,19 +15,20 @@
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
+		"metadata" : [  ],
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
 					"prototypename" : "cnmat_startaudio",
-					"offset" : [ -4.0, -23.0 ],
-					"outlettype" : [ "" ],
 					"lockeddragscroll" : 1,
-					"patching_rect" : [ 4.0, 0.0, 131.0, 53.0 ],
-					"id" : "obj-1",
-					"name" : "startaudio.maxpat",
 					"args" : [  ],
+					"patching_rect" : [ 4.0, 0.0, 134.0, 53.0 ],
+					"id" : "obj-1",
 					"numinlets" : 0,
-					"numoutlets" : 1
+					"offset" : [ -4.0, -23.0 ],
+					"name" : "startaudio.maxpat",
+					"numoutlets" : 1,
+					"outlettype" : [ "" ]
 				}
 
 			}
