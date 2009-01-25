@@ -2,7 +2,7 @@
 
 <pattrstorage name = "tune_ex">
 	<slot number = "1">
-		<patcher name = "tuna05.pat[1]">
+		<patcher name = "right_tuna">
 			<pattr name = "fold" value = "1" />
 			<pattr name = "fundamental" value = "261.62558" />
 			<pattr name = "gain~" value = "100" />
@@ -12,7 +12,7 @@
 			<pattr name = "step" value = "1" />
 			<pattr name = "u117000002" value = "-1" />
 		</patcher>
-		<patcher name = "tuna05.pat">
+		<patcher name = "left_tuna">
 			<pattr name = "fold" value = "1" />
 			<pattr name = "fundamental" value = "261.62558" />
 			<pattr name = "gain~" value = "100" />
