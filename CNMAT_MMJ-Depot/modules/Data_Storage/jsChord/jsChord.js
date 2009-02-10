@@ -220,7 +220,7 @@ function drawslider() {
         plane((0.9*aspect),0.01);
         glcolor(0., 0., 0.);
         shapeslice(1,1);
-        markPos = (-0.9*aspect)+(2*noteSpace);    
+        markPos = (-0.9*aspect)+(4*noteSpace);    
         
         moveto(markPos,-.87);    
         plane(0.03,0.03,0.,0.03); //triangle
@@ -615,7 +615,7 @@ function ondrag(x,y,but,cmd,shift,capslock,option,ctrl)
 
     drag = sketch.screentoworld(x,y);
     if (drag[1]<-0.8){
-         noteSpace = (drag[0]+1.)/2.
+         noteSpace = (drag[0]+1.5)/4.
         }
     if (noteSpace < 0.){
         noteSpace = 0.;

@@ -25,5 +25,6 @@ VERSION 1.56: MMJ Day School Materials
 VERSION 2.0: Updated to Max 5.0, restructuring folders
 VERSION 2.01: Adding Intro Course to Tutorials
 VERSION 2.02: French Spectral Tutorials (thanks to Michel Pascal at CIRM). More Max 5 updates. Additions to tutors from Campion's Depot School, etc.
+VERSION 2.03: fixed extensions on Spectral Tutorials.fr, added Intro_Course Unit 2
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
