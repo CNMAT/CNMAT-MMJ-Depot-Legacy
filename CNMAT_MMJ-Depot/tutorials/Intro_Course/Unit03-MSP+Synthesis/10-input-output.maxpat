@@ -17,14 +17,14 @@
 		"imprint" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "on_io-pat",
-					"id" : "obj-1",
-					"fontsize" : 18.0,
-					"numinlets" : 0,
 					"fontname" : "Arial",
-					"patching_rect" : [ 97.0, 90.0, 86.0, 27.0 ],
-					"numoutlets" : 0
+					"fontsize" : 18.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 97.0, 90.0, 96.0, 27.0 ],
+					"text" : "on_io(abs)"
 				}
 
 			}
