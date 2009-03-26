@@ -30,5 +30,6 @@ VERSION 2.04: Bug fixes to OSC teaching patches
 VERSION 2.05: about iMovie, stepmetro bug fixes.
 VERSION 2.06: Soundcheck patch, Intro Course additions, small bugs.
 VERSION 2.07: Fixed missing buffers in Intro_Course.
+VERSION 2.08: Basic Synthesis Tutorial Added.
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
