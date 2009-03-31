@@ -12,7 +12,7 @@ function getPatch($dir)
 			$ext = substr(strrchr($file, '.'), 1);
 			if ($ext == "maxhelp") {
 				echo "$file\n";
-				$test = implode("", file($file));
+				$test = implode("", file($file, FILE_USE_INCLUDE_PATH));
 				$obj = json_decode($test, true);
 				for ($i = 0; $i <= sizeof($obj['patcher']['boxes']); $i ++) {
 					if ($obj['patcher']['boxes'][$i]['box']['name'] == "banner.maxpat") {
