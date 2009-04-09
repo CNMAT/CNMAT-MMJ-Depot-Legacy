@@ -2251,18 +2251,6 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"name" : "badge.maxpat",
-					"numoutlets" : 0,
-					"args" : [ "OSC-wacom.help", "1.0a", "Michael Zbyszynski", "OSC-wacom", 6666 ],
-					"patching_rect" : [ 421.0, 479.0, 292.0, 86.0 ],
-					"id" : "obj-70",
-					"numinlets" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "bpatcher",
 					"offset" : [ -18.0, -68.0 ],
 					"name" : "banner.maxpat",
 					"numoutlets" : 0,
@@ -2270,6 +2258,18 @@
 					"args" : [ "OSC-wacom", "OSC Wrapper for wacom tablets" ],
 					"patching_rect" : [ 14.0, 8.0, 511.0, 76.0 ],
 					"id" : "obj-72",
+					"numinlets" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numoutlets" : 0,
+					"args" : [ "OSC-wacom.help", "1.0a", "Michael Zbyszynski", "OSC-wacom", 6666 ],
+					"patching_rect" : [ 421.0, 479.0, 292.0, 86.0 ],
+					"id" : "obj-70",
 					"numinlets" : 0
 				}
 

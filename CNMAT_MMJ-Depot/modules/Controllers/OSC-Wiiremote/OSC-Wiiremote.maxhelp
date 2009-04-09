@@ -44,18 +44,6 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"name" : "badge.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 267.0, 633.0, 292.0, 86.0 ],
-					"id" : "obj-3",
-					"args" : [ "OSC-Wiiremote.help", "1.0a", "Michael Zbyszynski", "OSC-Wiiremote", 6666 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "bpatcher",
 					"offset" : [ -18.0, -68.0 ],
 					"name" : "banner.maxpat",
 					"numinlets" : 0,
@@ -64,6 +52,18 @@
 					"patching_rect" : [ 11.0, 2.0, 511.0, 76.0 ],
 					"id" : "obj-5",
 					"args" : [ "OSC-Wiiremote", "OSC wrapper for the wii remote via tha aka.wiiremote object" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 267.0, 633.0, 292.0, 86.0 ],
+					"id" : "obj-3",
+					"args" : [ "OSC-Wiiremote.help", "1.0a", "Michael Zbyszynski", "OSC-Wiiremote", 6666 ]
 				}
 
 			}

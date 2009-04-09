@@ -1264,18 +1264,6 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"name" : "badge.maxpat",
-					"numoutlets" : 0,
-					"args" : [ "OSC-BU-353.help", "1.0a", "Michael Zbyszynski", "OSC-BU-353", 6666 ],
-					"patching_rect" : [ 268.0, 389.0, 292.0, 86.0 ],
-					"id" : "obj-31",
-					"numinlets" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "bpatcher",
 					"offset" : [ -18.0, -68.0 ],
 					"name" : "banner.maxpat",
 					"numoutlets" : 0,
@@ -1283,6 +1271,18 @@
 					"args" : [ "OSC-BU-353", "OSC Wrapper for bu-353 GPS module" ],
 					"patching_rect" : [ 9.0, 13.0, 511.0, 76.0 ],
 					"id" : "obj-33",
+					"numinlets" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numoutlets" : 0,
+					"args" : [ "OSC-BU-353.help", "1.0a", "Michael Zbyszynski", "OSC-BU-353", 6666 ],
+					"patching_rect" : [ 268.0, 389.0, 292.0, 86.0 ],
+					"id" : "obj-31",
 					"numinlets" : 0
 				}
 

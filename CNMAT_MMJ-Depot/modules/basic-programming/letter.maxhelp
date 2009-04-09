@@ -212,18 +212,6 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"numinlets" : 0,
-					"args" : [ "letter.help", "1.0a", "Michael Zbyszynski", "letter", 6666 ],
-					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 257.0, 292.0, 86.0 ],
-					"id" : "obj-15",
-					"name" : "badge.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "bpatcher",
 					"offset" : [ -18.0, -68.0 ],
 					"numinlets" : 0,
 					"lockeddragscroll" : 1,
@@ -232,6 +220,18 @@
 					"patching_rect" : [ 6.0, 8.0, 511.0, 76.0 ],
 					"id" : "obj-17",
 					"name" : "banner.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"numinlets" : 0,
+					"args" : [ "letter.help", "1.0a", "Michael Zbyszynski", "letter", 6666 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 222.0, 257.0, 292.0, 86.0 ],
+					"id" : "obj-15",
+					"name" : "badge.maxpat"
 				}
 
 			}
