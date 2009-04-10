@@ -48,7 +48,7 @@ function extractData($helpfile)
 
 chdir (".");
 echo "<table border=\"1\">\n";
-echo "<tr>\n";
+echo "<tr bgcolor=\"#CCCCCC\">\n";
 echo "<th>name</th><th>description</th><th>authors</th><th>version</th><th>link</th></tr>";
 getPatch ( ".");
 echo "</table>";
