@@ -1,10 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 76.0, 44.0, 640.0, 506.0 ],
-		"bgcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ],
+		"rect" : [ 63.0, 68.0, 699.0, 709.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 76.0, 44.0, 640.0, 506.0 ],
+		"defrect" : [ 63.0, 68.0, 699.0, 709.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -21,24 +20,43 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-29",
+					"id" : "obj-28",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 147.0, 247.0, 150.0, 34.0 ],
-					"text" : "turn off all signal processing"
+					"patching_rect" : [ 259.0, 546.0, 268.0, 34.0 ],
+					"presentation_rect" : [ 259.0, 546.0, 0.0, 0.0 ],
+					"text" : "It is also possible to change time without effecting the pitch.  Check out this example:"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-28",
-					"maxclass" : "toggle",
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-27",
+					"maxclass" : "comment",
 					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 317.0, 526.0, 112.0, 23.0 ],
+					"presentation_rect" : [ 317.0, 526.0, 0.0, 0.0 ],
+					"text" : "Phase Vocoder"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 121.0, 260.0, 20.0, 20.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 243.0, 581.0, 304.0, 25.0 ],
+					"text" : "load phase-vocoder-sampler.maxpat"
 				}
 
 			}
@@ -46,26 +64,124 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 288.0, 57.0, 18.0 ],
-					"text" : "/mute $1"
+					"patching_rect" : [ 243.0, 610.0, 53.0, 20.0 ],
+					"text" : "pcontrol"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "fft-pitch~", "1.0a", "Michael Zbyszynski", "fft-pitch~", 6666 ],
-					"id" : "obj-9",
-					"maxclass" : "bpatcher",
-					"name" : "badge.maxpat",
-					"numinlets" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-37",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 388.0, 296.0, 86.0 ],
-					"prototypename" : "cnmat_badge"
+					"patching_rect" : [ 266.0, 439.0, 268.0, 75.0 ],
+					"text" : "This is a good quality pitch shifting effect.  Since it moves peaks in the spectrum, it doesn't change the quality of the timbre as much as a granular approach. It preserves the ha.rmonic relationships of the partials."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-36",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 324.0, 271.0, 103.0, 23.0 ],
+					"text" : "Transposition"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-35",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 237.0, 217.0, 368.0, 48.0 ],
+					"text" : "Adding a constant value to each partial shifts the pitch up or down. It also changes the ratio relationship of the partials, generating inharmonicity."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-34",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 298.0, 81.0, 189.0, 23.0 ],
+					"text" : "Shifting all of the Partials"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-31",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 137.0, 465.0, 66.0, 20.0 ],
+					"text" : "processed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 31.0, 466.0, 48.0, 20.0 ],
+					"text" : "regular"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 80.0, 529.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-11",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 10.0, 596.0, 48.0 ],
+					"text" : "As you might imagine, the frequency domain is a good place to change the pitch of a sound.  Here are a couple of ways to change pitch."
 				}
 
 			}
@@ -79,7 +195,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 133.0, 210.0, 34.0 ],
+					"patching_rect" : [ 414.0, 142.0, 210.0, 34.0 ],
 					"text" : "Add a frequency to each bin (creates inharmonicity)"
 				}
 
@@ -93,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 179.0, 85.0, 20.0 ],
+					"patching_rect" : [ 323.0, 188.0, 85.0, 20.0 ],
 					"text" : "shift over time"
 				}
 
@@ -107,7 +223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 106.0, 138.0, 20.0 ],
+					"patching_rect" : [ 350.0, 115.0, 138.0, 20.0 ],
 					"text" : "frequency shift in Hz"
 				}
 
@@ -123,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 273.0, 106.0, 54.0, 20.0 ],
+					"patching_rect" : [ 287.0, 115.0, 67.0, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triscale" : 0.9
 				}
@@ -139,7 +255,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 159.0, 97.0, 18.0 ],
+					"patching_rect" : [ 303.0, 168.0, 97.0, 18.0 ],
 					"text" : "/shift -100. 1000",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -155,7 +271,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 273.0, 134.0, 53.0, 18.0 ],
+					"patching_rect" : [ 287.0, 143.0, 53.0, 18.0 ],
 					"text" : "/shift $1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -170,7 +286,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 232.0, 138.0, 20.0 ],
+					"patching_rect" : [ 304.0, 309.0, 138.0, 20.0 ],
 					"text" : "(0.01 half-step = 1 cent)"
 				}
 
@@ -185,7 +301,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.0, 307.0, 193.0, 48.0 ],
+					"patching_rect" : [ 298.0, 384.0, 193.0, 48.0 ],
 					"text" : "optional second argument is time (in ms) to reach the specified transposition amount"
 				}
 
@@ -199,7 +315,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 293.0, 216.0, 244.0, 20.0 ],
+					"patching_rect" : [ 233.0, 293.0, 244.0, 20.0 ],
 					"text" : "transposition in half-steps (floating point) +/-"
 				}
 
@@ -214,7 +330,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.0, 288.0, 129.0, 18.0 ],
+					"patching_rect" : [ 287.0, 365.0, 129.0, 18.0 ],
 					"text" : "/transposition -7. 6000",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -231,7 +347,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 327.0, 233.0, 40.0, 20.0 ],
+					"patching_rect" : [ 267.0, 310.0, 40.0, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triscale" : 0.9
 				}
@@ -247,39 +363,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 266.0, 99.0, 18.0 ],
+					"patching_rect" : [ 267.0, 343.0, 99.0, 18.0 ],
 					"text" : "/transposition $1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "fft-pitch~", "spectral processing on audio input" ],
-					"id" : "obj-2",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "banner.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ -18.0, -68.0 ],
-					"patching_rect" : [ 8.0, 6.0, 511.0, 76.0 ],
-					"prototypename" : "cnmat_banner"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [  ],
-					"id" : "obj-3",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "startaudio.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"offset" : [ -4.0, -23.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 396.0, 138.0, 54.0 ]
 				}
 
 			}
@@ -292,7 +378,7 @@
 					"numoutlets" : 2,
 					"orientation" : 2,
 					"outlettype" : [ "signal", "int" ],
-					"patching_rect" : [ 97.0, 365.0, 26.0, 81.0 ],
+					"patching_rect" : [ 111.0, 429.0, 26.0, 81.0 ],
 					"stripecolor" : [ 0.66667, 0.66667, 0.66667, 1.0 ]
 				}
 
@@ -306,7 +392,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 146.0, 37.0, 18.0 ],
+					"patching_rect" : [ 45.0, 161.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -320,7 +406,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 100.0, 124.0, 60.0, 20.0 ],
+					"patching_rect" : [ 115.0, 139.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -332,7 +418,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 65.0, 122.0, 20.0, 20.0 ]
+					"patching_rect" : [ 80.0, 137.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -345,7 +431,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 145.0, 135.0, 18.0 ],
+					"patching_rect" : [ 115.0, 160.0, 135.0, 18.0 ],
 					"text" : "open shafqat.aif, loop 1"
 				}
 
@@ -359,7 +445,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 65.0, 172.0, 49.0, 20.0 ],
+					"patching_rect" : [ 80.0, 187.0, 49.0, 20.0 ],
 					"save" : [ "#N", "sfplay~", "", 1, 120960, 0, "", ";" ],
 					"text" : "sfplay~"
 				}
@@ -374,7 +460,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 124.0, 47.0, 20.0 ],
+					"patching_rect" : [ 37.0, 139.0, 47.0, 20.0 ],
 					"text" : "play ->"
 				}
 
@@ -388,21 +474,8 @@
 					"numoutlets" : 2,
 					"orientation" : 2,
 					"outlettype" : [ "signal", "int" ],
-					"patching_rect" : [ 66.0, 365.0, 26.0, 81.0 ],
+					"patching_rect" : [ 80.0, 429.0, 26.0, 81.0 ],
 					"stripecolor" : [ 0.66667, 0.66667, 0.66667, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 456.0, 51.0, 20.0 ],
-					"text" : "dac~"
 				}
 
 			}
@@ -416,7 +489,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 98.0, 332.0, 57.0, 20.0 ],
+					"patching_rect" : [ 112.0, 396.0, 57.0, 20.0 ],
 					"text" : "fft-pitch~"
 				}
 
@@ -424,10 +497,10 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-28", 0 ]
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -469,33 +542,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 1 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 143.5, 451.0, 74.5, 451.0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -523,10 +569,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 130.5, 318.5, 107.5, 318.5 ],
-					"source" : [ "obj-13", 0 ]
+					"midpoints" : [  ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -534,8 +589,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 298.5, 200.5, 107.5, 200.5 ],
-					"source" : [ "obj-5", 0 ]
+					"midpoints" : [ 276.5, 385.0, 121.5, 385.0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -543,17 +598,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 282.5, 200.0, 107.5, 200.0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 74.5, 323.5, 107.5, 323.5 ],
-					"source" : [ "obj-22", 0 ]
+					"midpoints" : [ 296.5, 385.0, 121.5, 385.0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -570,8 +616,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 356.5, 318.0, 107.5, 318.0 ],
-					"source" : [ "obj-24", 0 ]
+					"midpoints" : [ 89.5, 385.5, 121.5, 385.5 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -579,8 +625,17 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 336.5, 318.0, 107.5, 318.0 ],
-					"source" : [ "obj-26", 0 ]
+					"midpoints" : [ 296.5, 215.0, 121.5, 215.0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 312.5, 215.5, 121.5, 215.5 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
