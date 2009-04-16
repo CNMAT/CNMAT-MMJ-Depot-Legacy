@@ -1,3 +1,5 @@
+36, 00.c_pizz_fo_c2.aif -12;
+37, 00.c_pizz_fo_c2.aif -11;
 48, 00.c_pizz_fo_c2.aif 0;
 49, 00.c_pizz_fo_c2.aif 1;
 50, 00.c_pizz_fo_c2.aif 2;
