@@ -32,6 +32,6 @@ VERSION 2.06: Soundcheck patch, Intro Course additions, small bugs.
 VERSION 2.07: Fixed missing buffers in Intro_Course.
 VERSION 2.08: Basic Synthesis Tutorial Added.
 VERSION 2.09: Unit 5 for intro course.
-VERSION 2.10: Added new repertoire "Strange Attraction 2"
+VERSION 2.11: Added new repertoire "Strange Attraction 2"
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
