@@ -1,7 +1,7 @@
 /*
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 NAME: CNMAT Max/MSP/Jitter Depot
-DESCRIPTION: <a href="http://cnmat.berkeley.edu/library/mmjdepot/">CNMAT's expanding collection of Max/MSP/Jitter patches</a> designed to assist composers and performers of electroacoustic music as well as music educators.
+DESCRIPTION: <a href="http://cnmat.berkeley.edu/library/max_msp_jitter_depot">CNMAT's expanding collection of Max/MSP/Jitter patches</a> designed to assist composers and performers of electroacoustic music as well as music educators.
 AUTHORS: Michael Zbyszynski, Matt Wright, Edmund Campion, Ali Momeni, Adrian Freed, David Wessel, Daniel Cullen, John MacCallum
 COPYRIGHT_YEARS: 2006-8
 PUBLICATION: ICMC 07 paper | http://www.cnmat.berkeley.edu/publication/design_and_implementation_cnmats_pedagogical_software
@@ -33,6 +33,6 @@ VERSION 2.07: Fixed missing buffers in Intro_Course.
 VERSION 2.08: Basic Synthesis Tutorial Added.
 VERSION 2.09: Unit 5 for intro course.
 VERSION 2.11: Added new repertoire "Strange Attraction 2"
-VERSION 2.12: rhythm demo,...
+VERSION 2.12: rhythm demo, fixed link,..
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
