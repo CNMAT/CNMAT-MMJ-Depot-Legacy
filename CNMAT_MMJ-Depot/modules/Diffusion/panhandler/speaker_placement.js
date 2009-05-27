@@ -31,6 +31,7 @@ COPYRIGHT_YEARS: 2007
 SVN_REVISION: $LastChangedRevision: ??? $
 VERSION 0.1: First release
 VERSION 0.2: Bug fix in output syntax (specified 2D)
+VERSION 0.3: fixed output length bug
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 */
@@ -202,6 +203,7 @@ function bang()
 
 function outputdef()
 {
+def_ls.length = 0;
 for (i = 0 ; i < all_speakers.length ; i ++)
         {
         def_ls[i] = all_speakers[i].angle;
