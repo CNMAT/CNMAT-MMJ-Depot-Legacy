@@ -152,7 +152,7 @@ function onclick(x,y,but,cmd,shift,capslock,option,ctrl)
             if (all_sliders[i].grav <  grav)
             {
                 hand = i;
-                outlet(0, hand);
+               // outlet(0, hand);
                 grav = all_sliders[i].grav;
             }
         }
