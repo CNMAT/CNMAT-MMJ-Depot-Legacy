@@ -1289,7 +1289,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 231.0, 312.0, 281.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 362.0, 157.0, 200.0, 118.0 ],
+					"presentation_rect" : [ 362.0, 157.0, 200.0, 140.0 ],
 					"tabcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
 					"tabs" : [ "Yu", "Shang", "Gong", "Jue", "Zhi" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1357,7 +1357,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 123.0, 244.0, 281.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 157.0, 130.0, 45.0 ],
+					"presentation_rect" : [ 28.0, 157.0, 130.0, 70.0 ],
 					"tabcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
 					"tabs" : [ "just major", "equal tempered major" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
