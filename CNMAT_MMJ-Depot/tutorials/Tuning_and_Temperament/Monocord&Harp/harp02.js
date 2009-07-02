@@ -38,12 +38,12 @@ slider.prototype.draw = drawslide;
 //starter slider
 var all_sliders = new Array();
 all_sliders[0] = new slider ("zero", 0., "1", 0., 0., 1., 1., 0., .9, 0., 0.);
-all_sliders[1] = new slider ("one", 0., "e", 0., 0., 1., 1., 0., .684, 0., 0.);
-all_sliders[2] = new slider ("two", 0., "+", 0., 0., 1., 1., 0., 0.54, 0., 0.);
-all_sliders[3] = new slider ("three", 0., "a", 0., 0., 1., 1., 0., 0.45, 0., 0.);
+all_sliders[1] = new slider ("one", 0., "e", 0.32, 0.72, .31, 1., 0., .684, 0., 0.);
+all_sliders[2] = new slider ("two", 0., "+", 0.32, 0.72, .31, 1., 0., 0.54, 0., 0.);
+all_sliders[3] = new slider ("three", 0., "a", 0.32, 0.72, .31, 1., 0., 0.45, 0., 0.);
 all_sliders[4] = new slider ("four", 0., "e", 0., 0., 1., 1., 0., .288, 0., 0.);
-all_sliders[5] = new slider ("five", 0., "+", 0., 0., 1., 1., 0., 0.18, 0., 0.);
-all_sliders[6] = new slider ("six", 0., "a", 0., 0., 1., 1., 0., .059, 0., 0.);
+all_sliders[5] = new slider ("five", 0., "+", 0.32, 0.72, .31, 1., 0., 0.18, 0., 0.);
+all_sliders[6] = new slider ("six", 0., "a", 0.32, 0.72, .31, 1., 0., .059, 0., 0.);
 all_sliders[7] = new slider ("seven", 0., "a", 0., 0., 1., 1., 0., 0., 0., 0.);
 
 //initial drawing
