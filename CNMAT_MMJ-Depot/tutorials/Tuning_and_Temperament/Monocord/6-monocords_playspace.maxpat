@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 29.0, 44.0, 1191.0, 714.0 ],
+		"rect" : [ 29.0, 44.0, 1181.0, 786.0 ],
 		"bgcolor" : [ 0.811765, 0.811765, 0.811765, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 29.0, 44.0, 1191.0, 714.0 ],
+		"defrect" : [ 29.0, 44.0, 1181.0, 786.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,7 +29,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.0, 391.0, 129.0, 23.0 ],
+					"patching_rect" : [ 284.0, 407.0, 129.0, 23.0 ],
 					"text" : "global controls:"
 				}
 
@@ -42,7 +42,7 @@
 					"name" : "monocords_transport.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 422.0, 387.0, 177.0, 67.0 ]
+					"patching_rect" : [ 408.0, 392.0, 177.0, 67.0 ]
 				}
 
 			}
@@ -54,7 +54,7 @@
 					"name" : "5-probability_player.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 614.0, 441.0, 517.0, 252.0 ],
+					"patching_rect" : [ 581.0, 495.0, 517.0, 252.0 ],
 					"varname" : "2a-player02[2]"
 				}
 
@@ -68,8 +68,8 @@
 					"name" : "3-tuner.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"offset" : [ -20.0, -6.0 ],
-					"patching_rect" : [ 601.0, 5.0, 570.0, 429.0 ],
+					"offset" : [ -19.0, -25.0 ],
+					"patching_rect" : [ 603.0, 5.0, 542.0, 476.0 ],
 					"varname" : "2a-player02[1]"
 				}
 
@@ -82,7 +82,7 @@
 					"name" : "4-sequencer.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 412.0, 526.0, 302.0 ],
+					"patching_rect" : [ 10.0, 456.0, 526.0, 302.0 ],
 					"varname" : "2a-player02"
 				}
 

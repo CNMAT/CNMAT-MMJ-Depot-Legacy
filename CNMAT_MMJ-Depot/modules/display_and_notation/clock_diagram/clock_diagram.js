@@ -17,7 +17,7 @@ function draw()
     
     with (sketch) {
         // erase background
-        glclearcolor(vbrgb);
+        glclearcolor(.81, .81, .81, 1.);
         glclear();            
         glenable("line_smooth");
         moveto(0,0);
