@@ -21,6 +21,31 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 367.0, 227.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 367.0, 268.0, 81.0, 18.0 ],
+					"text" : "circlefifths $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
@@ -28,7 +53,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 160.0, 74.0, 18.0 ],
+					"patching_rect" : [ 200.0, 156.0, 74.0, 18.0 ],
 					"text" : "0 2 4 6 8 10"
 				}
 
@@ -46,7 +71,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "clock-diagram", 1.0, "Michael Zbyszynski", "clock-diagram", 6666 ],
+					"args" : [ "clock-diagram", 1.1, "Michael Zbyszynski", "clock-diagram", 6666 ],
 					"id" : "obj-12",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
@@ -111,7 +136,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 186.0, 84.0, 18.0 ],
+					"patching_rect" : [ 204.0, 182.0, 84.0, 18.0 ],
 					"text" : "0 2 4 5 7 9 11"
 				}
 
@@ -138,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 292.0, 186.0, 47.0, 18.0 ],
+					"patching_rect" : [ 292.0, 182.0, 47.0, 18.0 ],
 					"text" : "0 1 4 6"
 				}
 
@@ -197,7 +222,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"midpoints" : [ 393.5, 210.0, 351.0, 210.0, 351.0, 204.0, 45.5, 204.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -217,6 +242,24 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 376.5, 308.0, 352.5, 308.0, 352.5, 209.0, 45.5, 209.0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

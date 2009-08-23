@@ -19,7 +19,7 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"title" : "Harp",
+		"title" : "monocords explorer",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
@@ -39,10 +39,10 @@
 					"args" : [  ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
-					"name" : "2d-transport.maxpat",
+					"name" : "monocords_transport.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 360.0, 384.0, 246.0, 33.0 ]
+					"patching_rect" : [ 422.0, 387.0, 177.0, 67.0 ]
 				}
 
 			}
@@ -51,10 +51,10 @@
 					"args" : [  ],
 					"id" : "obj-4",
 					"maxclass" : "bpatcher",
-					"name" : "2c-prob-player.maxpat",
+					"name" : "5-probability_player.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 592.0, 445.0, 517.0, 252.0 ],
+					"patching_rect" : [ 614.0, 441.0, 517.0, 252.0 ],
 					"varname" : "2a-player02[2]"
 				}
 
@@ -63,10 +63,12 @@
 				"box" : 				{
 					"args" : [  ],
 					"id" : "obj-3",
+					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "2b-tuner.maxpat",
+					"name" : "3-tuner.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
+					"offset" : [ -20.0, -6.0 ],
 					"patching_rect" : [ 601.0, 5.0, 570.0, 429.0 ],
 					"varname" : "2a-player02[1]"
 				}
@@ -77,7 +79,7 @@
 					"args" : [  ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"name" : "2a-player02.maxpat",
+					"name" : "4-sequencer.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 412.0, 526.0, 302.0 ],
@@ -90,7 +92,7 @@
 					"args" : [  ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "2-harp.maxpat",
+					"name" : "2-monocords.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 5.0, 626.0, 386.0 ]
