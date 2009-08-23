@@ -22,6 +22,18 @@
 		"title" : "monocords explorer",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [  ],
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "2-monocords.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2.0, 6.0, 593.0, 401.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -29,7 +41,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 407.0, 129.0, 23.0 ],
+					"patching_rect" : [ 284.0, 424.0, 129.0, 23.0 ],
 					"text" : "global controls:"
 				}
 
@@ -42,7 +54,7 @@
 					"name" : "monocords_transport.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 408.0, 392.0, 177.0, 67.0 ]
+					"patching_rect" : [ 408.0, 409.0, 177.0, 67.0 ]
 				}
 
 			}
@@ -63,12 +75,11 @@
 				"box" : 				{
 					"args" : [  ],
 					"id" : "obj-3",
-					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
 					"name" : "3-tuner.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"offset" : [ -19.0, -25.0 ],
+					"offset" : [ -15.0, -25.0 ],
 					"patching_rect" : [ 603.0, 5.0, 542.0, 476.0 ],
 					"varname" : "2a-player02[1]"
 				}
@@ -84,18 +95,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 456.0, 526.0, 302.0 ],
 					"varname" : "2a-player02"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [  ],
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "2-monocords.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 5.0, 626.0, 386.0 ]
 				}
 
 			}
