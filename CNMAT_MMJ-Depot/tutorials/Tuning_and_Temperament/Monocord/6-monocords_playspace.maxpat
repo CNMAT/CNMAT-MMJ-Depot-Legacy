@@ -25,7 +25,7 @@
 					"args" : [  ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "2-monocords.maxpat",
+					"name" : "monocords.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 6.0, 593.0, 401.0 ]
