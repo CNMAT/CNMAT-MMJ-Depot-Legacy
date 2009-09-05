@@ -44,7 +44,7 @@ function draw()
             endstroke();
     
             textalign("center","center");
-            fontsize(10);        
+            fontsize(12);        
             moveto (.94*x,.94* y);
             if (circFifths == 1) {
             text (letterNames[(i*7)%12]);
@@ -143,6 +143,16 @@ function circlefifths(n)
     bang();
 }
 
+function numbers(n)
+{
+    if(n==0){
+       letterNames = ["c", "c#/db","d","d#/eb","e","f","f#/gb","g","g#/ab","a","a#/bb","b"];
+    }
+    else {
+         letterNames = ["0", "1","2","3","4","5","6","7","8","9","10","11"];
+    }
+    bang();
+}
 
 function bang()
 {
