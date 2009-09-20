@@ -112,7 +112,7 @@ function drawslide()
         //this.displacement = this.displacement + 0.04;
         if (this.gain > 0.1) {
               this.offset = (0.1*this.gain) * Math.sin(this.displacement);
-            this.gain = this.gain*.95;
+            this.gain = this.gain*.975;
             this.displacement = this.displacement - (.9 + (1. - this.stop)*0.2);
             }
         else {

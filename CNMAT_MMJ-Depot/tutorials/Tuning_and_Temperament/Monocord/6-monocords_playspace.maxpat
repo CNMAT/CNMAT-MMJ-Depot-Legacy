@@ -23,6 +23,21 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"args" : [  ],
+					"id" : "obj-6",
+					"maxclass" : "bpatcher",
+					"name" : "monocords_timbre.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 3.0, -4.0 ],
+					"patching_rect" : [ 931.0, 260.0, 227.0, 102.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 369.0, 424.0, 222.0, 98.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [  ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "monocords.maxpat",
@@ -80,7 +95,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -15.0, -25.0 ],
-					"patching_rect" : [ 603.0, 5.0, 542.0, 476.0 ],
+					"patching_rect" : [ 603.0, 5.0, 542.0, 489.0 ],
 					"varname" : "2a-player02[1]"
 				}
 
