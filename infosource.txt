@@ -34,5 +34,6 @@ VERSION 2.08: Basic Synthesis Tutorial Added.
 VERSION 2.09: Unit 5 for intro course.
 VERSION 2.11: Added new repertoire "Strange Attraction 2"
 VERSION 2.12: rhythm demo, fixed link, reso-string~, tuning tutorial
+VERSION 2.12.1: minor bugfixes and improvements
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
