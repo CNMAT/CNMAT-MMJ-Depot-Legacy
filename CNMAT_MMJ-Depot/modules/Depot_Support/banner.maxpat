@@ -17,163 +17,165 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"maxclass" : "message",
-					"text" : "#1",
+					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"ignoreclick" : 1,
-					"numinlets" : 2,
-					"patching_rect" : [ 156.0, 83.0, 32.5, 25.0 ],
-					"numoutlets" : 1,
 					"id" : "obj-12",
-					"fontname" : "Arial",
+					"ignoreclick" : 1,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "comment",
-					"varname" : "myName",
-					"text" : "#2",
-					"fontsize" : 10.0,
-					"numinlets" : 1,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"patching_rect" : [ 156.0, 111.0, 357.0, 18.0 ],
-					"numoutlets" : 0,
-					"id" : "obj-1",
-					"fontname" : "Arial",
+					"patching_rect" : [ 156.0, 83.0, 32.5, 25.0 ],
+					"text" : "#1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 156.0, 111.0, 357.0, 18.0 ],
+					"text" : "#2",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "myName"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
+					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 78.0, 123.0, 58.0 ],
-					"pic" : "cnmat_wht-blu.gif",
-					"numoutlets" : 0,
-					"id" : "obj-2"
+					"pic" : "cnmat_wht-blu.gif"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "uc_license",
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"numinlets" : 0,
-					"patching_rect" : [ 199.0, 297.0, 57.0, 17.0 ],
-					"numoutlets" : 0,
 					"id" : "obj-4",
-					"fontname" : "Arial"
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 199.0, 297.0, 57.0, 17.0 ],
+					"text" : "uc_license"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "comment",
-					"text" : "do not put a bpatcher with badge.pat in this patch!",
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"numinlets" : 1,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patching_rect" : [ 179.0, 281.0, 233.0, 17.0 ],
-					"numoutlets" : 0,
 					"id" : "obj-5",
-					"fontname" : "Arial"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "thispatcher",
-					"fontsize" : 9.0,
-					"numinlets" : 1,
-					"patching_rect" : [ 41.0, 273.0, 61.0, 17.0 ],
-					"numoutlets" : 2,
-					"id" : "obj-6",
-					"fontname" : "Arial",
-					"outlettype" : [ "", "" ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "sprintf script send myName set %s",
-					"fontsize" : 9.0,
-					"numinlets" : 1,
-					"patching_rect" : [ 41.0, 233.0, 172.0, 17.0 ],
-					"numoutlets" : 1,
-					"id" : "obj-7",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "loadmess #2",
-					"fontsize" : 9.0,
-					"numinlets" : 1,
-					"patching_rect" : [ 41.0, 169.0, 67.0, 17.0 ],
-					"numoutlets" : 1,
-					"id" : "obj-8",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "banner version 2.0alpha by Michael Zbyszynski",
-					"fontsize" : 9.0,
 					"numinlets" : 1,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patching_rect" : [ 179.0, 266.0, 217.0, 17.0 ],
 					"numoutlets" : 0,
-					"id" : "obj-9",
-					"fontname" : "Arial"
+					"patching_rect" : [ 179.0, 281.0, 233.0, 17.0 ],
+					"text" : "do not put a bpatcher with badge.pat in this patch!"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 41.0, 273.0, 61.0, 17.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.0, 233.0, 172.0, 17.0 ],
+					"text" : "sprintf script send myName set %s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.0, 169.0, 67.0, 17.0 ],
+					"text" : "loadmess #2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 179.0, 266.0, 217.0, 17.0 ],
+					"text" : "banner version 2.0alpha by Michael Zbyszynski"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.588235, 0.588235, 0.705882, 1.0 ],
+					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
+					"id" : "obj-10",
 					"maxclass" : "panel",
 					"numinlets" : 1,
-					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
-					"patching_rect" : [ 22.0, 71.0, 500.0, 70.0 ],
 					"numoutlets" : 0,
-					"id" : "obj-10",
-					"rounded" : 20,
-					"background" : 1,
-					"bgcolor" : [ 0.588235, 0.588235, 0.705882, 1.0 ]
+					"patching_rect" : [ 22.0, 71.0, 500.0, 70.0 ],
+					"rounded" : 20
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-7", 0 ],
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"midpoints" : [  ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-8", 0 ],
 					"destination" : [ "obj-7", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"midpoints" : [  ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
