@@ -204,13 +204,18 @@ function ondrag (x,y,but,cmd,shift,capslock,option,ctrl)
    // all_sliders[hand].stop = (all_sliders[hand].x - worldx);
  // all_sliders[hand].stop = worldy;
     
-    if (worldy > -.9 && worldy < .9)
+    if (worldy > -.7 && worldy < .9)
     {    
         all_sliders[hand].stop = worldy;
       //  all_sliders[hand].stop = 0.;
     }
     
     var stringRatio = (all_sliders[hand].stop + .9) /1.8;
+    /*
+    if (stringRatio < 0.2){
+        stringRatio = 0.2;
+        }
+    */
     outlet(0, hand, stringRatio);
 
     bang();
