@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 317.0, 44.0, 154.0, 61.0 ],
+		"rect" : [ 317.0, 44.0, 155.0, 55.0 ],
 		"bgcolor" : [ 0.811765, 0.811765, 0.811765, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 317.0, 44.0, 154.0, 61.0 ],
+		"defrect" : [ 317.0, 44.0, 155.0, 55.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -98,22 +98,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 310.0, 81.0, 18.0 ],
-					"text" : "/switch[0-9] 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 105.0, 280.0, 36.0, 20.0 ],
-					"text" : "sel 0"
+					"patching_rect" : [ 105.0, 310.0, 247.0, 18.0 ],
+					"text" : "/8s/audition 0, /8s/probability 0, /8s/melody 0"
 				}
 
 			}
@@ -505,7 +491,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-8", 0 ]
+					"source" : [ "obj-82", 0 ]
 				}
 
 			}

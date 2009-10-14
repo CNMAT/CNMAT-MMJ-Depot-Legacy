@@ -204,7 +204,7 @@ function ondrag (x,y,but,cmd,shift,capslock,option,ctrl)
    // all_sliders[hand].stop = (all_sliders[hand].x - worldx);
  // all_sliders[hand].stop = worldy;
     
-    if (worldy > -.7 && worldy < .9)
+    if (worldy > -.9 && worldy < .9)
     {    
         all_sliders[hand].stop = worldy;
       //  all_sliders[hand].stop = 0.;
