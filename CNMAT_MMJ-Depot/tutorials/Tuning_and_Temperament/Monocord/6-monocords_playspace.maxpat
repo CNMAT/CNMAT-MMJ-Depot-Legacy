@@ -81,7 +81,7 @@
 					"name" : "5-probability_player.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 581.0, 495.0, 526.0, 275.0 ],
+					"patching_rect" : [ 585.0, 464.0, 534.0, 303.0 ],
 					"varname" : "2a-player02[2]"
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -15.0, -25.0 ],
-					"patching_rect" : [ 603.0, 5.0, 542.0, 489.0 ],
+					"patching_rect" : [ 603.0, 5.0, 542.0, 459.0 ],
 					"varname" : "2a-player02[1]"
 				}
 
