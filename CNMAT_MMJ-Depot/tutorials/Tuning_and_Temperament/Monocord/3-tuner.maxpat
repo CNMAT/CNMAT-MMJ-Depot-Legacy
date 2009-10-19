@@ -1437,7 +1437,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"framecolor" : [ 0.32, 0.71, 0.32, 1.0 ],
 					"id" : "obj-155",
 					"items" : [ "just", "major", ",", "equal", "tempered", "major" ],
 					"maxclass" : "umenu",
@@ -2235,7 +2234,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1202.0, 625.5, 62.0, 20.0 ],
-					"text" : "clip 0.2 1."
+					"text" : "clip 0.1 1."
 				}
 
 			}
@@ -2249,7 +2248,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1039.0, 632.5, 62.0, 20.0 ],
-					"text" : "clip 0.2 1."
+					"text" : "clip 0.1 1."
 				}
 
 			}
@@ -2262,8 +2261,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 876.0, 631.5, 62.0, 20.0 ],
-					"text" : "clip 0.2 1."
+					"patching_rect" : [ 876.0, 630.5, 62.0, 20.0 ],
+					"text" : "clip 0.1 1."
 				}
 
 			}
@@ -2277,7 +2276,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 707.0, 627.5, 62.0, 20.0 ],
-					"text" : "clip 0.2 1."
+					"text" : "clip 0.1 1."
 				}
 
 			}
@@ -2291,7 +2290,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 734.0, 758.5, 62.0, 20.0 ],
-					"text" : "clip 0.2 1."
+					"text" : "clip 0.1 1."
 				}
 
 			}
@@ -2305,7 +2304,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 575.0, 750.5, 62.0, 20.0 ],
-					"text" : "clip 0.2 1."
+					"text" : "clip 0.1 1."
 				}
 
 			}
@@ -2319,7 +2318,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 766.5, 62.0, 20.0 ],
-					"text" : "clip 0.2 1."
+					"text" : "clip 0.1 1."
 				}
 
 			}
@@ -2333,7 +2332,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 237.0, 755.5, 62.0, 20.0 ],
-					"text" : "clip 0.2 1."
+					"text" : "clip 0.1 1."
 				}
 
 			}
@@ -2473,7 +2472,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u094006218"
+					"varname" : "u242001774"
 				}
 
 			}
@@ -2503,9 +2502,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 411.0, 573.0, 143.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"storage_rect" : [ 365, 44, 1007, 355 ],
 						"parameter_enable" : 0,
-						"client_rect" : [ 4, 44, 358, 172 ],
-						"storage_rect" : [ 365, 44, 1007, 355 ]
+						"client_rect" : [ 4, 44, 358, 172 ]
 					}
 ,
 					"text" : "pattrstorage 8harp_tuner",

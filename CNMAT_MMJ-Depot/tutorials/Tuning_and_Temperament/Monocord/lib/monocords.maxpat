@@ -2453,7 +2453,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 623.0, 338.666656, 73.0, 20.0 ],
-									"text" : "clip -0.5 0.9"
+									"text" : "clip -0.9 0.9"
 								}
 
 							}
@@ -2467,7 +2467,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 669.0, 436.666656, 73.0, 20.0 ],
-									"text" : "clip -0.5 0.9"
+									"text" : "clip -0.9 0.9"
 								}
 
 							}
@@ -2481,7 +2481,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 854.0, 437.666656, 73.0, 20.0 ],
-									"text" : "clip -0.5 0.9"
+									"text" : "clip -0.9 0.9"
 								}
 
 							}
@@ -2495,7 +2495,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 808.0, 339.666656, 73.0, 20.0 ],
-									"text" : "clip -0.5 0.9"
+									"text" : "clip -0.9 0.9"
 								}
 
 							}
@@ -2509,7 +2509,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 762.0, 250.666672, 73.0, 20.0 ],
-									"text" : "clip -0.5 0.9"
+									"text" : "clip -0.9 0.9"
 								}
 
 							}
@@ -2523,7 +2523,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 577.0, 251.333328, 73.0, 20.0 ],
-									"text" : "clip -0.5 0.9"
+									"text" : "clip -0.9 0.9"
 								}
 
 							}
@@ -2537,7 +2537,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 716.0, 160.333328, 73.0, 20.0 ],
-									"text" : "clip -0.5 0.9"
+									"text" : "clip -0.9 0.9"
 								}
 
 							}
@@ -2551,7 +2551,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 531.0, 159.0, 73.0, 20.0 ],
-									"text" : "clip -0.5 0.9"
+									"text" : "clip -0.9 0.9"
 								}
 
 							}
@@ -3722,7 +3722,7 @@
 					"patching_rect" : [ 70.76796, 685.716187, 82.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 498.900024, 10.099998, 72.0, 165.0 ],
-					"stripecolor" : [ 0.31, 0.71, 0.32, 1.0 ]
+					"stripecolor" : [ 0.67, 0.67, 0.67, 1.0 ]
 				}
 
 			}
