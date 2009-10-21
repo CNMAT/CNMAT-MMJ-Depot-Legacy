@@ -2,7 +2,7 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"rect" : [ 72.0, 66.0, 728.0, 567.0 ],
-		"bgcolor" : [ 0.905882, 0.870588, 0.933333, 1.0 ],
+		"bgcolor" : [ 0.34902, 0.152941, 0.152941, 1.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 72.0, 66.0, 728.0, 567.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
@@ -195,8 +195,8 @@
 									"patching_rect" : [ 22.0, 71.0, 500.0, 70.0 ],
 									"bgcolor" : [ 0.588235, 0.588235, 0.705882, 1.0 ],
 									"id" : "obj-10",
-									"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 									"rounded" : 20,
+									"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"background" : 1
@@ -235,9 +235,9 @@
 					"patching_rect" : [ 84.0, 380.0, 97.0, 19.0 ],
 					"id" : "obj-16",
 					"fontname" : "Arial",
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.901961, 0.811765, 0.811765, 1.0 ],
+					"textcolor" : [ 0.901961, 0.811765, 0.811765, 1.0 ],
 					"numinlets" : 1,
-					"presentation_rect" : [ 85.0, 362.0, 0.0, 0.0 ],
 					"fontsize" : 11.0,
 					"numoutlets" : 0
 				}
@@ -250,7 +250,8 @@
 					"patching_rect" : [ 104.0, 284.0, 123.0, 19.0 ],
 					"id" : "obj-13",
 					"fontname" : "Arial",
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.901961, 0.811765, 0.811765, 1.0 ],
+					"textcolor" : [ 0.901961, 0.811765, 0.811765, 1.0 ],
 					"numinlets" : 1,
 					"fontsize" : 11.0,
 					"numoutlets" : 0
@@ -457,11 +458,11 @@
 									"patching_rect" : [ 308.0, 48.0, 50.0, 19.0 ],
 									"outlettype" : [ "int", "bang" ],
 									"id" : "obj-48",
-									"format" : 5,
 									"fontname" : "Arial",
 									"numinlets" : 1,
 									"fontsize" : 11.0,
-									"numoutlets" : 2
+									"numoutlets" : 2,
+									"format" : 5
 								}
 
 							}
@@ -582,12 +583,12 @@
 									"outlettype" : [ "int", "bang" ],
 									"presentation" : 1,
 									"id" : "obj-61",
-									"format" : 5,
 									"fontname" : "Arial",
 									"numinlets" : 1,
 									"presentation_rect" : [ 24.0, 192.0, 50.0, 19.0 ],
 									"fontsize" : 11.0,
-									"numoutlets" : 2
+									"numoutlets" : 2,
+									"format" : 5
 								}
 
 							}
@@ -897,11 +898,11 @@
 									"patching_rect" : [ 160.0, 56.0, 50.0, 19.0 ],
 									"outlettype" : [ "int", "bang" ],
 									"id" : "obj-4",
-									"format" : 5,
 									"fontname" : "Arial",
 									"numinlets" : 1,
 									"fontsize" : 11.0,
-									"numoutlets" : 2
+									"numoutlets" : 2,
+									"format" : 5
 								}
 
 							}
@@ -1258,12 +1259,13 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "To use key_lookup, you simply load a given mapping set and begin typing on your keyboard to play the notes for that particular mapping.  Because you don't have access to velocity on a computer keyboard, you can use the slider to adjust the output velocty as you play.  This can also be mapped by sending the message /vel n to the input of of the bpatcher abstraction.  key_lookup seeks to be expanded in the sense that other virtual keyboard mappings can be added to it via text files.  If you'd like to change the current mapping, simply open up the editor by clicking on the button and 'save as...' to a file which you can load by name afterward.",
-					"linecount" : 15,
-					"patching_rect" : [ 448.0, 340.0, 235.0, 196.0 ],
+					"linecount" : 14,
+					"patching_rect" : [ 288.0, 240.0, 241.0, 184.0 ],
 					"bgcolor" : [ 0.509804, 0.509804, 0.509804, 0.0 ],
 					"id" : "obj-24",
 					"fontname" : "Arial",
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.901961, 0.811765, 0.811765, 1.0 ],
+					"textcolor" : [ 0.901961, 0.811765, 0.811765, 1.0 ],
 					"numinlets" : 1,
 					"fontsize" : 11.0,
 					"numoutlets" : 0
