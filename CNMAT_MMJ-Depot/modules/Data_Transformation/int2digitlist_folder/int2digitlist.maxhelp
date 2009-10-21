@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 429.0, 133.0, 580.0, 347.0 ],
-		"bgcolor" : [ 0.435294, 0.501961, 0.443137, 1.0 ],
+		"rect" : [ 13.0, 54.0, 589.0, 419.0 ],
+		"bgcolor" : [ 0.25098, 0.278431, 0.258824, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 429.0, 133.0, 580.0, 347.0 ],
+		"defrect" : [ 13.0, 54.0, 589.0, 419.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -20,12 +20,12 @@
 		"enablevscroll" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
-					"maxclass" : "fpic",
-					"patching_rect" : [ 156.0, 288.0, 74.117645, 35.0 ],
-					"pic" : "cnmat_wht-trans.png",
-					"id" : "obj-17",
-					"autofit" : 1,
-					"numinlets" : 1,
+					"maxclass" : "bpatcher",
+					"patching_rect" : [ 20.0, 296.0, 296.0, 86.0 ],
+					"id" : "obj-21",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"args" : [ "int2digitlist", 1.0, "Matt Wright / Jeff Lubow", "int2digitlist", 6666 ],
 					"numoutlets" : 0
 				}
 
@@ -48,8 +48,7 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "(formerly int-to-list-of-digits)",
-					"linecount" : 2,
-					"patching_rect" : [ 144.0, 32.0, 102.0, 29.0 ],
+					"patching_rect" : [ 364.0, 36.0, 127.0, 18.0 ],
 					"id" : "obj-24",
 					"fontname" : "Arial",
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -63,7 +62,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "button",
-					"patching_rect" : [ 422.333344, 272.0, 20.0, 20.0 ],
+					"patching_rect" : [ 422.333344, 356.0, 20.0, 20.0 ],
 					"outlettype" : [ "bang" ],
 					"id" : "obj-20",
 					"numinlets" : 1,
@@ -74,7 +73,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "button",
-					"patching_rect" : [ 397.333344, 272.0, 20.0, 20.0 ],
+					"patching_rect" : [ 397.333344, 356.0, 20.0, 20.0 ],
 					"outlettype" : [ "bang" ],
 					"id" : "obj-18",
 					"numinlets" : 1,
@@ -85,7 +84,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "button",
-					"patching_rect" : [ 372.0, 272.0, 20.0, 20.0 ],
+					"patching_rect" : [ 372.0, 356.0, 20.0, 20.0 ],
 					"outlettype" : [ "bang" ],
 					"id" : "obj-16",
 					"numinlets" : 1,
@@ -114,7 +113,8 @@
 					"patching_rect" : [ 488.0, 164.0, 55.0, 19.0 ],
 					"id" : "obj-1",
 					"fontname" : "Arial",
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numinlets" : 1,
 					"fontsize" : 11.0,
 					"numoutlets" : 0
@@ -142,7 +142,8 @@
 					"patching_rect" : [ 412.0, 164.0, 76.0, 19.0 ],
 					"id" : "obj-3",
 					"fontname" : "Arial",
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numinlets" : 1,
 					"fontsize" : 11.0,
 					"numoutlets" : 0
@@ -171,7 +172,8 @@
 					"patching_rect" : [ 412.0, 108.0, 150.0, 32.0 ],
 					"id" : "obj-8",
 					"fontname" : "Arial",
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numinlets" : 1,
 					"fontsize" : 11.0,
 					"numoutlets" : 0
@@ -250,72 +252,10 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "uc_license",
-					"patching_rect" : [ 19.0, 307.0, 56.0, 17.0 ],
-					"bgcolor" : [ 0.07451, 0.078431, 0.082353, 1.0 ],
-					"id" : "obj-47",
-					"fontname" : "Arial",
-					"textcolor" : [ 0.933333, 0.811765, 0.792157, 1.0 ],
-					"numinlets" : 0,
-					"fontsize" : 9.426803,
-					"numoutlets" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "comment",
-					"text" : "v. 1.0 by Matt Wright",
-					"patching_rect" : [ 19.13118, 73.240753, 102.0, 18.0 ],
-					"id" : "obj-23",
-					"fontname" : "Arial",
-					"frgb" : [ 0.556863, 0.572549, 0.607843, 1.0 ],
-					"textcolor" : [ 0.556863, 0.572549, 0.607843, 1.0 ],
-					"numinlets" : 1,
-					"fontsize" : 9.569158,
-					"numoutlets" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "comment",
-					"text" : "int2digitlist help patch v. 1.0\nby Jeff Lubow 2009",
-					"linecount" : 2,
-					"patching_rect" : [ 19.13118, 89.240753, 174.0, 29.0 ],
-					"id" : "obj-12",
-					"fontname" : "Arial",
-					"frgb" : [ 0.556863, 0.572549, 0.607843, 1.0 ],
-					"textcolor" : [ 0.556863, 0.572549, 0.607843, 1.0 ],
-					"numinlets" : 1,
-					"fontsize" : 9.569158,
-					"numoutlets" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "comment",
-					"text" : "int2digitlist",
-					"patching_rect" : [ 20.0, 28.0, 216.0, 31.0 ],
-					"id" : "obj-27",
-					"fontname" : "Arial",
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"numinlets" : 1,
-					"fontface" : 3,
-					"fontsize" : 21.663095,
-					"numoutlets" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "This abstraction takes an input integer and converts it to it's separate numerical components for output.\n\nint2digitlist is useful  in order to pass an instruction set as a single message...\nOne should consider this abstraction for special case usage.",
 					"linecount" : 10,
-					"patching_rect" : [ 20.0, 128.0, 219.0, 153.0 ],
+					"patching_rect" : [ 24.0, 116.0, 219.0, 153.0 ],
 					"id" : "obj-26",
 					"fontname" : "Arial",
 					"frgb" : [ 0.662745, 0.741176, 0.807843, 1.0 ],
@@ -328,24 +268,15 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "panel",
-					"patching_rect" : [ 16.0, 68.0, 220.0, 260.0 ],
-					"bgcolor" : [ 0.215686, 0.309804, 0.32549, 1.0 ],
-					"id" : "obj-9",
-					"rounded" : 12,
-					"numinlets" : 1,
-					"numoutlets" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "panel",
-					"patching_rect" : [ 16.0, 24.0, 220.0, 72.0 ],
-					"bgcolor" : [ 0.231373, 0.6, 0.666667, 1.0 ],
-					"id" : "obj-10",
-					"rounded" : 27,
-					"numinlets" : 1,
+					"maxclass" : "bpatcher",
+					"prototypename" : "cnmat_banner",
+					"patching_rect" : [ 19.0, 19.0, 511.0, 76.0 ],
+					"id" : "obj-19",
+					"offset" : [ -18.0, -68.0 ],
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"args" : [ "int2digitlist", "intput int output as its components" ],
+					"lockeddragscroll" : 1,
 					"numoutlets" : 0
 				}
 
@@ -353,7 +284,52 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-2", 0 ],
+					"source" : [ "obj-7", 2 ],
+					"destination" : [ "obj-20", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-7", 1 ],
+					"destination" : [ "obj-18", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-15", 0 ],
+					"destination" : [ "obj-7", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-14", 0 ],
+					"destination" : [ "obj-15", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-6", 0 ],
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
@@ -362,16 +338,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-4", 0 ],
-					"destination" : [ "obj-14", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-13", 0 ],
+					"source" : [ "obj-5", 0 ],
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
@@ -389,7 +356,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-5", 0 ],
+					"source" : [ "obj-13", 0 ],
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
@@ -398,7 +365,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-6", 0 ],
+					"source" : [ "obj-4", 0 ],
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
@@ -407,44 +374,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-14", 0 ],
-					"destination" : [ "obj-15", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-15", 0 ],
-					"destination" : [ "obj-7", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-7", 0 ],
-					"destination" : [ "obj-16", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-7", 1 ],
-					"destination" : [ "obj-18", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-7", 2 ],
-					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-2", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
