@@ -25,7 +25,7 @@
 					"fontsize" : 9.0,
 					"color" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.0, 176.0, 85.0, 17.0 ],
+					"patching_rect" : [ 354.0, 160.0, 85.0, 17.0 ],
 					"id" : "obj-1",
 					"fontname" : "Arial",
 					"numinlets" : 2
@@ -40,25 +40,10 @@
 					"color" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 353.0, 157.0, 99.0, 17.0 ],
+					"patching_rect" : [ 353.0, 141.0, 99.0, 17.0 ],
 					"id" : "obj-2",
 					"fontname" : "Arial",
 					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "sampvoice",
-					"fontsize" : 9.0,
-					"color" : [ 0.4, 0.4, 0.8, 1.0 ],
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 139.0, 57.0, 17.0 ],
-					"id" : "obj-3",
-					"fontname" : "Arial",
-					"numinlets" : 1
 				}
 
 			}
@@ -326,11 +311,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "+OSC-sampler-test",
+					"text" : "OSC-sampler.maxhelp",
 					"fontsize" : 14.0,
 					"color" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.0, 93.0, 139.0, 23.0 ],
+					"patching_rect" : [ 318.0, 93.0, 152.0, 23.0 ],
 					"id" : "obj-22",
 					"fontname" : "Arial",
 					"numinlets" : 0
