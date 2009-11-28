@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 285.0, 102.0, 648.0, 454.0 ],
+		"rect" : [ 303.0, 230.0, 648.0, 454.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 285.0, 102.0, 648.0, 454.0 ],
+		"defrect" : [ 303.0, 230.0, 648.0, 454.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -171,11 +171,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "buffer~ screw i-screwed-up.aiff",
+					"text" : "buffer~ kyorei kyorei.aiff",
 					"fontsize" : 14.0,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 278.0, 328.0, 240.0, 25.0 ],
+					"patching_rect" : [ 272.0, 326.0, 178.0, 25.0 ],
 					"id" : "obj-4",
 					"fontname" : "Geneva",
 					"numinlets" : 1
@@ -297,11 +297,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "message",
-					"text" : "snake 60",
+					"text" : "shafqat 60",
 					"fontsize" : 12.0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 136.0, 63.0, 21.0 ],
+					"patching_rect" : [ 18.0, 136.0, 74.0, 21.0 ],
 					"id" : "obj-13",
 					"fontname" : "Geneva",
 					"numinlets" : 2
@@ -311,11 +311,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "buffer~ snake harveymandell-snake-1.aiff",
+					"text" : "buffer~ shafqat shafqat.aif",
 					"fontsize" : 14.0,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 278.0, 366.0, 314.0, 25.0 ],
+					"patching_rect" : [ 272.0, 364.0, 193.0, 25.0 ],
 					"id" : "obj-14",
 					"fontname" : "Geneva",
 					"numinlets" : 1
@@ -427,11 +427,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "buffer~ foo EngHorn-f-E3",
+					"text" : "buffer~ bass bass.aif",
 					"fontsize" : 14.0,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 271.0, 254.0, 191.0, 25.0 ],
+					"patching_rect" : [ 272.0, 256.0, 152.0, 25.0 ],
 					"id" : "obj-22",
 					"fontname" : "Geneva",
 					"numinlets" : 1
@@ -441,11 +441,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "buffer~ psg-fC_3.mnFL psg-fC_3.mnFL",
+					"text" : "buffer~ eroica eroica.aif",
 					"fontsize" : 14.0,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 271.0, 286.0, 284.0, 25.0 ],
+					"patching_rect" : [ 272.0, 288.0, 172.0, 25.0 ],
 					"id" : "obj-23",
 					"fontname" : "Geneva",
 					"numinlets" : 1
@@ -455,11 +455,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "message",
-					"text" : "foo 60",
+					"text" : "bass 60",
 					"fontsize" : 12.0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 33.0, 48.0, 21.0 ],
+					"patching_rect" : [ 16.0, 33.0, 57.0, 21.0 ],
 					"id" : "obj-24",
 					"fontname" : "Geneva",
 					"numinlets" : 2
@@ -497,11 +497,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "message",
-					"text" : "psg-fC_3.mnFL 60",
+					"text" : "kyorei 60",
 					"fontsize" : 12.0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 108.0, 121.0, 21.0 ],
+					"patching_rect" : [ 17.0, 108.0, 65.0, 21.0 ],
 					"id" : "obj-27",
 					"fontname" : "Geneva",
 					"numinlets" : 2
@@ -629,7 +629,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "message",
-					"text" : "screw 60",
+					"text" : "eroica 60",
 					"fontsize" : 12.0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

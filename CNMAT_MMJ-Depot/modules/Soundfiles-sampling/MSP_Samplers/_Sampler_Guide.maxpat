@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 81.0, 44.0, 785.0, 609.0 ],
+		"rect" : [ 322.0, 195.0, 785.0, 609.0 ],
 		"bglocked" : 1,
-		"defrect" : [ 81.0, 44.0, 785.0, 609.0 ],
+		"defrect" : [ 322.0, 195.0, 785.0, 609.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -152,11 +152,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "+test_poly~-msp",
+					"text" : "_test_poly~-msp",
 					"fontsize" : 18.0,
 					"color" : [ 0.8, 0.611765, 0.380392, 1.0 ],
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 120.0, 162.0, 27.0 ],
+					"patching_rect" : [ 30.0, 120.0, 143.0, 27.0 ],
 					"id" : "obj-10",
 					"fontname" : "Arial",
 					"numinlets" : 0
@@ -398,10 +398,10 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "multibuf.help",
+					"text" : "multibuf.maxhelp",
 					"fontsize" : 9.0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 532.0, 65.0, 17.0 ],
+					"patching_rect" : [ 36.0, 532.0, 79.0, 17.0 ],
 					"id" : "obj-27",
 					"fontname" : "Arial",
 					"numinlets" : 0
@@ -571,10 +571,10 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "Sampler Guide - 18 Dec 2003 - mzed",
-					"fontsize" : 20.0,
+					"text" : "Sampler Guide",
+					"fontsize" : 24.0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 6.0, 370.0, 29.0 ],
+					"patching_rect" : [ 28.0, 0.0, 435.0, 34.0 ],
 					"id" : "obj-39",
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
