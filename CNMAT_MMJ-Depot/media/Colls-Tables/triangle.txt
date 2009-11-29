@@ -1,12 +1,12 @@
 1,00silence.aif;
-2,01triangle1.aif;
-3,01triangle2.aif;
-4,01triangle3.aif;
-5,02triangle1.aif;
-6,02triangle2.aif;
-7,02triangle3.aif;
-8,03triangle1.aif;9,03triangle2.aif;
-10,03triangle3.aif;11,04triangle1.aif;
-12,04triangle2.aif;13,04triangle3.aif;14,05triangle1.aif;15,05triangle2.aif;
-16,05triangle3.aif;17,06triangle1.aif;18,06triangle2.aif;
-19,06triangle3.aif;
+2,01triangle-ring.aif;
+3,01triangle-mute.aif;
+4,01triangle-halfmute.aif;
+5,02triangle-ring.aif;
+6,02triangle-mute.aif;
+7,02triangle-halfmute.aif;
+8,03triangle-ring.aif;9,03triangle-mute.aif;
+10,03triangle-halfmute.aif;11,04triangle-ring.aif;
+12,04triangle-mute.aif;13,04triangle-halfmute.aif;14,05triangle-ring.aif;15,05triangle-mute.aif;
+16,05triangle-halfmute.aif;17,06triangle-ring.aif;18,06triangle-mute.aif;
+19,06triangle-halfmute.aif;
