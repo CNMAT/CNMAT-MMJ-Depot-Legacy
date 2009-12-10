@@ -551,6 +551,7 @@ function construct()
 			//const m=10,n=10;
 			const m = gridsize, n = gridsize;
 				var i,j;
+				post("m = ", m, ", n = ", n, "\n");
 			var gms = new Array(m*(n+1));
 			var sgms = new Array(m*(n+1));
 			const dx = 2.0*mysketch.aspect/(m-1);
@@ -585,6 +586,7 @@ function construct()
 					glbegin("quad_strip");
 					for(i=1,x=-mysketch.aspect+dx;i<m;++i,x +=dx)
 					{
+						//post("i = ", i, ", x = ", x, "\n");
 							glbegin("quad_strip");
 							
 							y=-1.0+dy;
@@ -595,6 +597,7 @@ function construct()
 	
 							for(j=1;j<n;++j,y+=dy)
 							{
+								//post("j = ", j, ", y = ", y, "\n");
 							glcolor(rr,gg,bb,gms[i*n+j]*sgms[i*n+j]);
 							glvertex(x,y);
 							glcolor(rr,gg,bb,gms[(i-1)*n+j]*sgms[(i-1)*n+j]);
