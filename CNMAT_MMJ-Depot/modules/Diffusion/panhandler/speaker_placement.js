@@ -32,6 +32,7 @@ SVN_REVISION: $LastChangedRevision: ??? $
 VERSION 0.1: First release
 VERSION 0.2: Bug fix in output syntax (specified 2D)
 VERSION 0.3: fixed output length bug
+VERSION 0.4: adjusted vbrgb alpha to work with snow leopard
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 */
@@ -41,8 +42,9 @@ inlets = 1;
 outlets = 2;
 
 sketch.default2d();
-var vbrgb = [0.,0.,0.,0.];
-var vfrgb = [0.5,0.5,0.5,0.];
+sketch.glblendfunc (6, 1);
+var vbrgb = [0.,0.,0.,1.];
+var vfrgb = [0.5,0.5,0.5,1.];
 var test = 0.;
 var grav = 999.;
 var shownames = 1;
@@ -167,6 +169,7 @@ function drawls()
     with (sketch) 
     {
         moveto (x, y);
+        glblendfunc (6, 1);
         glcolor (this.red, this.green, this.blue, this.alpha);
         circle (this.diam);
         switch (showlabels)
@@ -175,6 +178,7 @@ function drawls()
             textalign("center","center");
             fontsize(myfontsize);        
             moveto (x, y);
+            glcolor (this.red, this.green, this.blue, this.alpha);
             sketch.text (this.name);
             break;
         case 2:
