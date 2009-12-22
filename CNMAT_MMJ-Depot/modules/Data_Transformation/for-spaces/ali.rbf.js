@@ -98,6 +98,7 @@ function basis(x,y)
 	this.cm = new m22(); // covariance matrix
 	this.icm = new m22(); //its inverse
 	newcovariancematrix(this,0.125,0.0,0.0,0.125);
+	post(x, " ", y, "\n");
 }
 
 function setallvars(x,y)
@@ -359,7 +360,7 @@ function newcovariancematrix(t,a,b,c,d)
 {
 	var det = a*d -b*c;
 
-
+	post("t.mscale = ", t.mscale, "\n");
 	if(det!=0.0)
 	{
 		t.cm.a = a;
@@ -389,8 +390,10 @@ function gaussian(i,x,y)
 //	for(k in i)post(k+" "+i[k]+"\n");
 	x -= i.ux;
 	y -= i.uy;
-		return i.gscale * Math.exp(-0.5*(x*(i.icm.a*x+i.icm.c*y)
+		var g = i.gscale * Math.exp(-0.5*(x*(i.icm.a*x+i.icm.c*y)
 		+y*(i.icm.b*x+i.icm.d*y)));
+		post("i.gscale = ", i.gscale, " x = ", x, " y = ", y, " g = ", g, "\n");
+		return g;
 }
 var bases =  new Array();
 
@@ -551,11 +554,12 @@ function construct()
 			//const m=10,n=10;
 			const m = gridsize, n = gridsize;
 				var i,j;
-				post("m = ", m, ", n = ", n, "\n");
+				//post("m = ", m, ", n = ", n, "\n");
 			var gms = new Array(m*(n+1));
 			var sgms = new Array(m*(n+1));
 			const dx = 2.0*mysketch.aspect/(m-1);
 			const dy = 2.0/(n-1);
+			post("dx = ", dx, " dy = ", dy, "\n");
 				
 		
 			{
@@ -565,10 +569,13 @@ function construct()
 							var sum=0.0;
 							for(var g in bases)
 								 sum += gaussian(bases[g],x,y);
+							post("normalizing = ", normalizing, "\n");
 							if(normalizing ==0 || sum==0.0)
 								sgms[i*n+j] = 1.0;
 							else
 								sgms[i*n+j] =0.95/sum;
+
+							post("sgms[", i * n + j, "] = ", sgms[i * n + j], "\n");
 						}		
 			}		
 			
