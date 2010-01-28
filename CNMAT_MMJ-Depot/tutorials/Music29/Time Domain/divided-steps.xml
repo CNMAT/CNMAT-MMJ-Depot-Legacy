@@ -1,5 +1,194 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <pattrstorage name = "divided-steps">
+	<slot number = "1">
+		<patcher name = "stepcontroller-12_2">
+			<pattr name = "steplist" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+		</patcher>
+		<patcher name = "stepcontroller-8_3">
+			<pattr name = "steplist" value = "100 100 100 100 100 100 100 100" />
+		</patcher>
+		<patcher name = "stepcontroller-6_4">
+			<pattr name = "steplist" value = "11 11 11 11 11 11" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "24 0 99 11 24 0 24 11 99 0 24 11 24 0 99 11 24 0 24 11 99 0 24 11" />
+		</patcher>
+		<patcher name = "stepcontroller-4_6">
+			<pattr name = "steplist" value = "0 0 0 0" />
+		</patcher>
+		<patcher name = "stepcontroller-3_8">
+			<pattr name = "steplist" value = "34 34 34" />
+		</patcher>
+		<patcher name = "stepcontroller-2_12">
+			<pattr name = "steplist" value = "0 0" />
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<patcher name = "stepcontroller-12_2">
+			<pattr name = "steplist" value = "68 21 90 32 18 20 27 23 67 48 22 18" />
+		</patcher>
+		<patcher name = "stepcontroller-8_3">
+			<pattr name = "steplist" value = "84 24 21 17 10 23 90 0" />
+		</patcher>
+		<patcher name = "stepcontroller-6_4">
+			<pattr name = "steplist" value = "88 57 23 10 10 82" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "24 68 84 88 24 24 24 95 21 18 24 7 24 27 10 99 24 23 24 10 90 22 24 99" />
+		</patcher>
+		<patcher name = "stepcontroller-4_6">
+			<pattr name = "steplist" value = "67 24 85 0" />
+		</patcher>
+		<patcher name = "stepcontroller-3_8">
+			<pattr name = "steplist" value = "95 100 61" />
+		</patcher>
+		<patcher name = "stepcontroller-2_12">
+			<pattr name = "steplist" value = "7 100" />
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<patcher name = "stepcontroller-12_2">
+			<pattr name = "steplist" value = "100 30 11 7 94 55 29 10 100 66 51 26" />
+		</patcher>
+		<patcher name = "stepcontroller-8_3">
+			<pattr name = "steplist" value = "100 0 100 0 100 0 100 0" />
+		</patcher>
+		<patcher name = "stepcontroller-6_4">
+			<pattr name = "steplist" value = "88 57 23 10 10 82" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "24 99 99 30 24 68 24 95 99 94 24 99 24 29 99 0 24 85 24 66 99 51 24 28" />
+		</patcher>
+		<patcher name = "stepcontroller-4_6">
+			<pattr name = "steplist" value = "68 56 85 9" />
+		</patcher>
+		<patcher name = "stepcontroller-3_8">
+			<pattr name = "steplist" value = "95 0 100" />
+		</patcher>
+		<patcher name = "stepcontroller-2_12">
+			<pattr name = "steplist" value = "100 28" />
+		</patcher>
+	</slot>
+	<slot number = "4">
+		<patcher name = "stepcontroller-12_2">
+			<pattr name = "steplist" value = "98 87 61 45 29 18 12 21 27 39 62 84" />
+		</patcher>
+		<patcher name = "stepcontroller-8_3">
+			<pattr name = "steplist" value = "100 59 37 15 87 61 34 13" />
+		</patcher>
+		<patcher name = "stepcontroller-6_4">
+			<pattr name = "steplist" value = "27 27 27 27 27 27" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "24 98 99 87 24 59 24 39 37 29 24 15 24 12 87 39 24 61 24 39 34 62 24 39" />
+		</patcher>
+		<patcher name = "stepcontroller-4_6">
+			<pattr name = "steplist" value = "93 93 93 93" />
+		</patcher>
+		<patcher name = "stepcontroller-3_8">
+			<pattr name = "steplist" value = "39 39 39" />
+		</patcher>
+		<patcher name = "stepcontroller-2_12">
+			<pattr name = "steplist" value = "89 89" />
+		</patcher>
+	</slot>
+	<slot number = "5">
+		<patcher name = "stepcontroller-12_2">
+			<pattr name = "steplist" value = "100 100 100 100 100 100 100 100 100 100 100 100" />
+		</patcher>
+		<patcher name = "stepcontroller-8_3">
+			<pattr name = "steplist" value = "68 68 68 68 68 68 68 68" />
+		</patcher>
+		<patcher name = "stepcontroller-6_4">
+			<pattr name = "steplist" value = "0 0 0 0 0 0" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "24 99 68 99 24 68 24 99 68 99 24 68 24 99 68 99 24 68 24 99 68 99 24 68" />
+		</patcher>
+		<patcher name = "stepcontroller-4_6">
+			<pattr name = "steplist" value = "0 0 0 0" />
+		</patcher>
+		<patcher name = "stepcontroller-3_8">
+			<pattr name = "steplist" value = "65 65 65" />
+		</patcher>
+		<patcher name = "stepcontroller-2_12">
+			<pattr name = "steplist" value = "0 0" />
+		</patcher>
+	</slot>
+	<slot number = "6">
+		<patcher name = "stepcontroller-12_2">
+			<pattr name = "steplist" value = "72 33 72 17 72 7 72 23 72 48 72 93" />
+		</patcher>
+		<patcher name = "stepcontroller-8_3">
+			<pattr name = "steplist" value = "72 5 72 72 34 72 72 37" />
+		</patcher>
+		<patcher name = "stepcontroller-6_4">
+			<pattr name = "steplist" value = "28 12 9 72 20 72" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "72 72 72 28 72 72 72 12 72 72 72 9 72 72 34 72 72 72 72 20 72 72 72 72" />
+		</patcher>
+		<patcher name = "stepcontroller-4_6">
+			<pattr name = "steplist" value = "72 46 72 72" />
+		</patcher>
+		<patcher name = "stepcontroller-3_8">
+			<pattr name = "steplist" value = "72 17 72" />
+		</patcher>
+		<patcher name = "stepcontroller-2_12">
+			<pattr name = "steplist" value = "72 29" />
+		</patcher>
+	</slot>
+	<slot number = "7">
+		<patcher name = "stepcontroller-12_2">
+			<pattr name = "steplist" value = "86 86 86 86 86 86 86 86 86 86 86 86" />
+		</patcher>
+		<patcher name = "stepcontroller-8_3">
+			<pattr name = "steplist" value = "33 33 33 33 33 33 33 33" />
+		</patcher>
+		<patcher name = "stepcontroller-6_4">
+			<pattr name = "steplist" value = "0 0 0 0 0 0" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "0 86 33 86 0 33 0 23 33 86 0 33 0 86 33 23 0 33 0 86 33 86 0 23" />
+		</patcher>
+		<patcher name = "stepcontroller-4_6">
+			<pattr name = "steplist" value = "0 0 0 0" />
+		</patcher>
+		<patcher name = "stepcontroller-3_8">
+			<pattr name = "steplist" value = "23 23 23" />
+		</patcher>
+		<patcher name = "stepcontroller-2_12">
+			<pattr name = "steplist" value = "0 0" />
+		</patcher>
+	</slot>
 </pattrstorage>
 
