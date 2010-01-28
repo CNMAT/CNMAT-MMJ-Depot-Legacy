@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "beats_sliced.xml">
+	<slot number = "1">
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "1" />
+			<pattr name = "decay_time" value = "34" />
+			<pattr name = "diffusion" value = "67" />
+			<pattr name = "room_size" value = "34" />
+		</patcher>
+		<patcher name = "beat-divisor[19]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 76 84 94" />
+		</patcher>
+		<patcher name = "beat-divisor[18]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1" />
+			<pattr name = "seq_tone" value = "33 30" />
+		</patcher>
+		<patcher name = "beat-divisor[17]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 16 56" />
+		</patcher>
+		<patcher name = "beat-divisor[16]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[15]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[14]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1 1" />
+			<pattr name = "seq_tone" value = "63 23 29" />
+		</patcher>
+		<patcher name = "beat-divisor[13]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[12]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[11]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[10]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[9]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[8]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[7]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[6]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[5]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1" />
+			<pattr name = "seq_tone" value = "51" />
+		</patcher>
+		<patcher name = "beat-divisor[4]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[3]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 69 83" />
+		</patcher>
+		<patcher name = "beat-divisor[2]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[1]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "1" />
+			<pattr name = "decay_time" value = "34" />
+			<pattr name = "diffusion" value = "67" />
+			<pattr name = "room_size" value = "34" />
+		</patcher>
+		<patcher name = "beat-divisor[19]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 76 84 94" />
+		</patcher>
+		<patcher name = "beat-divisor[18]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1" />
+			<pattr name = "seq_tone" value = "33 30" />
+		</patcher>
+		<patcher name = "beat-divisor[17]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 16 56" />
+		</patcher>
+		<patcher name = "beat-divisor[16]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[15]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[14]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1 1" />
+			<pattr name = "seq_tone" value = "63 23 29" />
+		</patcher>
+		<patcher name = "beat-divisor[13]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[12]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[11]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[10]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[9]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[8]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[7]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[6]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[5]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1" />
+			<pattr name = "seq_tone" value = "51" />
+		</patcher>
+		<patcher name = "beat-divisor[4]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[3]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 69 83" />
+		</patcher>
+		<patcher name = "beat-divisor[2]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[1]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0" />
+			<pattr name = "seq_tone" value = "51 16 23 30 51 51 51 51 51 51 16 20 51 51 51 51 23 74 30 67 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "1" />
+			<pattr name = "decay_time" value = "34" />
+			<pattr name = "diffusion" value = "67" />
+			<pattr name = "room_size" value = "34" />
+		</patcher>
+		<patcher name = "beat-divisor[19]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 76 84 94" />
+		</patcher>
+		<patcher name = "beat-divisor[18]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1" />
+			<pattr name = "seq_tone" value = "33 30" />
+		</patcher>
+		<patcher name = "beat-divisor[17]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 16 56" />
+		</patcher>
+		<patcher name = "beat-divisor[16]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[15]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[14]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1 1" />
+			<pattr name = "seq_tone" value = "63 23 29" />
+		</patcher>
+		<patcher name = "beat-divisor[13]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[12]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[11]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[10]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[9]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[8]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0" />
+			<pattr name = "seq_tone" value = "14 14 17 21 51 51 51 51 51 51 51 51 51 23 23 23 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[7]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[6]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[5]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1" />
+			<pattr name = "seq_tone" value = "51" />
+		</patcher>
+		<patcher name = "beat-divisor[4]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[3]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 69 83" />
+		</patcher>
+		<patcher name = "beat-divisor[2]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[1]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+	</slot>
+	<slot number = "4">
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "1" />
+			<pattr name = "decay_time" value = "34" />
+			<pattr name = "diffusion" value = "67" />
+			<pattr name = "room_size" value = "34" />
+		</patcher>
+		<patcher name = "beat-divisor[19]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 76 84 94" />
+		</patcher>
+		<patcher name = "beat-divisor[18]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1" />
+			<pattr name = "seq_tone" value = "33 30" />
+		</patcher>
+		<patcher name = "beat-divisor[17]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 16 56" />
+		</patcher>
+		<patcher name = "beat-divisor[16]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[15]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[14]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1 1" />
+			<pattr name = "seq_tone" value = "63 23 29" />
+		</patcher>
+		<patcher name = "beat-divisor[13]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[12]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[11]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[10]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[9]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[8]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[7]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 0 1 0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 26 51 51 51 23" />
+		</patcher>
+		<patcher name = "beat-divisor[6]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[5]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1" />
+			<pattr name = "seq_tone" value = "46" />
+		</patcher>
+		<patcher name = "beat-divisor[4]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 16 16 43 27 4 74 51 51 51 51 51 51 67 67 11 14 19 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[3]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 69 83" />
+		</patcher>
+		<patcher name = "beat-divisor[2]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[1]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 1 1 1 1 1 1 1 0 0" />
+			<pattr name = "seq_tone" value = "9 9 11 51 51 29 17 9 66 1 1 51 26" />
+		</patcher>
+	</slot>
+	<slot number = "5">
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "35" />
+			<pattr name = "decay_time" value = "35" />
+			<pattr name = "diffusion" value = "79" />
+			<pattr name = "room_size" value = "114" />
+		</patcher>
+		<patcher name = "beat-divisor[19]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 76 84 94" />
+		</patcher>
+		<patcher name = "beat-divisor[18]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1" />
+			<pattr name = "seq_tone" value = "33 30" />
+		</patcher>
+		<patcher name = "beat-divisor[17]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 16 56" />
+		</patcher>
+		<patcher name = "beat-divisor[16]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[15]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[14]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1 1 1" />
+			<pattr name = "seq_tone" value = "63 23 29" />
+		</patcher>
+		<patcher name = "beat-divisor[13]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[12]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[11]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[10]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[9]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[8]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[7]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[6]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[5]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "1" />
+			<pattr name = "seq_tone" value = "51" />
+		</patcher>
+		<patcher name = "beat-divisor[4]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[3]">
+			<pattr name = "beat_divisor_mute" value = "0" />
+			<pattr name = "seq_mute" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 69 83" />
+		</patcher>
+		<patcher name = "beat-divisor[2]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor[1]">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+		<patcher name = "beat-divisor">
+			<pattr name = "beat_divisor_mute" value = "1" />
+			<pattr name = "seq_mute" value = "1 1 1 1 1 1 1 1 1 1 1 1 1" />
+			<pattr name = "seq_tone" value = "51 51 51 51 51 51 51 51 51 51 51 51 51" />
+		</patcher>
+	</slot>
+</pattrstorage>
+
