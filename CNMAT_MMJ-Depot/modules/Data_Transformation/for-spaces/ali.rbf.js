@@ -98,7 +98,7 @@ function basis(x,y)
 	this.cm = new m22(); // covariance matrix
 	this.icm = new m22(); //its inverse
 	newcovariancematrix(this,0.125,0.0,0.0,0.125);
-	post(x, " ", y, "\n");
+	//post(x, " ", y, "\n");
 }
 
 function setallvars(x,y)
@@ -360,7 +360,7 @@ function newcovariancematrix(t,a,b,c,d)
 {
 	var det = a*d -b*c;
 
-	post("t.mscale = ", t.mscale, "\n");
+//	post("t.mscale = ", t.mscale, "\n");
 	if(det!=0.0)
 	{
 		t.cm.a = a;
@@ -383,7 +383,7 @@ function newscale(t,s)
 {
 	t.mscale= s;
 	t.gscale  = t.mscale/(2.0*3.14159265358979*Math.sqrt(t.cm.a*t.cm.d-t.cm.b*t.cm.c));
-	post(t.mscale,t.gscale,"\n");
+//	post(t.mscale,t.gscale,"\n");
 }
 function gaussian(i,x,y)
 {
@@ -392,7 +392,7 @@ function gaussian(i,x,y)
 	y -= i.uy;
 		var g = i.gscale * Math.exp(-0.5*(x*(i.icm.a*x+i.icm.c*y)
 		+y*(i.icm.b*x+i.icm.d*y)));
-		post("i.gscale = ", i.gscale, " x = ", x, " y = ", y, " g = ", g, "\n");
+	//	post("i.gscale = ", i.gscale, " x = ", x, " y = ", y, " g = ", g, "\n");
 		return g;
 }
 var bases =  new Array();
@@ -559,7 +559,7 @@ function construct()
 			var sgms = new Array(m*(n+1));
 			const dx = 2.0*mysketch.aspect/(m-1);
 			const dy = 2.0/(n-1);
-			post("dx = ", dx, " dy = ", dy, "\n");
+		//	post("dx = ", dx, " dy = ", dy, "\n");
 				
 		
 			{
@@ -569,13 +569,13 @@ function construct()
 							var sum=0.0;
 							for(var g in bases)
 								 sum += gaussian(bases[g],x,y);
-							post("normalizing = ", normalizing, "\n");
+			//				post("normalizing = ", normalizing, "\n");
 							if(normalizing ==0 || sum==0.0)
 								sgms[i*n+j] = 1.0;
 							else
 								sgms[i*n+j] =0.95/sum;
 
-							post("sgms[", i * n + j, "] = ", sgms[i * n + j], "\n");
+			//				post("sgms[", i * n + j, "] = ", sgms[i * n + j], "\n");
 						}		
 			}		
 			
