@@ -149,7 +149,7 @@
 					"prototypename" : "cnmat_badge",
 					"patching_rect" : [ 224.0, 412.0, 296.0, 86.0 ],
 					"id" : "obj-36",
-					"args" : [ "simple-stereo-gain~", 1.0, "Jeff Lubow", "simple-stereo-gain~", 6666 ],
+					"args" : [ "simple-stereo-gain~", 1.1, "Jeff Lubow", "simple-stereo-gain~", 6666 ],
 					"numinlets" : 0,
 					"name" : "badge.maxpat",
 					"numoutlets" : 0
@@ -174,7 +174,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "simple-stereo-gain~ help patch v. 1.0\nby Jeff Lubow 2009",
+					"text" : "simple-stereo-gain~ help patch v. 1.1\nby Jeff Lubow 2009",
 					"linecount" : 2,
 					"fontname" : "Arial",
 					"frgb" : [ 0.137255, 0.141176, 0.14902, 1.0 ],
