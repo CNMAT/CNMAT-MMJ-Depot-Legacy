@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 17.0, 61.0, 959.0, 652.0 ],
+		"rect" : [ 15.0, 50.0, 957.0, 553.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 17.0, 61.0, 959.0, 652.0 ],
+		"defrect" : [ 15.0, 50.0, 957.0, 553.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -20,18 +20,166 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "route symbol",
+					"hidden" : 1,
+					"fontname" : "Arial",
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 244.0, 528.0, 79.0, 20.0 ],
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"numinlets" : 1,
+					"numoutlets" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "tab",
+					"clicktabcolor" : [ 0.27451, 0.443137, 0.690196, 1.0 ],
+					"tabs" : [ "sinewaves and sampling", "frequency domain intro", "frequency domain display", "the cycle object", "additive synthesis intro", "the harmonic series", "synthesis intro", "the singing voice", "pitch processing", "sequence creation", "computer keyboard & mouse synth" ],
+					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
+					"fontname" : "Arial",
+					"outlettype" : [ "int", "", "" ],
+					"button" : 1,
+					"patching_rect" : [ 12.0, 112.0, 208.0, 264.0 ],
+					"fontsize" : 12.0,
+					"id" : "obj-49",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "coll file_lookup",
+					"hidden" : 1,
+					"fontname" : "Arial",
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 244.0, 504.0, 89.0, 20.0 ],
+					"fontsize" : 12.0,
+					"id" : "obj-47",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"coll_data" : 					{
+						"count" : 23,
+						"data" : [ 							{
+								"key" : "sinewaves and sampling",
+								"value" : [ "02-sinewaves-sampling.maxpat" ]
+							}
+, 							{
+								"key" : "frequency domain intro",
+								"value" : [ "00-frequency_domain.maxpat" ]
+							}
+, 							{
+								"key" : "frequency domain display",
+								"value" : [ "Freq-Domain-display.maxhelp" ]
+							}
+, 							{
+								"key" : "the cycle object",
+								"value" : [ "03-MSP_cycle_object.maxpat" ]
+							}
+, 							{
+								"key" : "additive synthesis intro",
+								"value" : [ "06-additive-synthesis.maxpat" ]
+							}
+, 							{
+								"key" : "the harmonic series",
+								"value" : [ "07-harmonic-waves.maxpat" ]
+							}
+, 							{
+								"key" : "synthesis intro",
+								"value" : [ "08-Simple-synthesis.maxpat" ]
+							}
+, 							{
+								"key" : "the singing voice",
+								"value" : [ "singing-voice~.help.pat" ]
+							}
+, 							{
+								"key" : "pitch processing",
+								"value" : [ "03-pitch_processing.maxpat" ]
+							}
+, 							{
+								"key" : "sequence creation",
+								"value" : [ "Lucas-sequence-maker.maxhelp" ]
+							}
+, 							{
+								"key" : "computer keyboard & mouse synth",
+								"value" : [ "additive-keymouse-synthesizer.maxpat" ]
+							}
+, 							{
+								"key" : "sampling: recording and playback",
+								"value" : [ "samplemixer.maxpat" ]
+							}
+, 							{
+								"key" : "sampling: sound file interpolation",
+								"value" : [ "sfinterp.maxhelp" ]
+							}
+, 							{
+								"key" : "beat slicing",
+								"value" : [ "beat-slicer.maxpat" ]
+							}
+, 							{
+								"key" : "polyrhythms explorer",
+								"value" : [ "polyrhythm-explorer.maxpat" ]
+							}
+, 							{
+								"key" : "step sequencer with divisions",
+								"value" : [ "divided-step-sequencer.maxpat" ]
+							}
+, 							{
+								"key" : "the internal synthesizer",
+								"value" : [ "Internal_Synth_OSC.maxpat" ]
+							}
+, 							{
+								"key" : "scales of a chord",
+								"value" : [ "1-monocord_explorer.maxpat" ]
+							}
+, 							{
+								"key" : "multiple chords",
+								"value" : [ "2-monocords.maxpat" ]
+							}
+, 							{
+								"key" : "create and tune chords",
+								"value" : [ "3-tuner.maxpat" ]
+							}
+, 							{
+								"key" : "sequence chords",
+								"value" : [ "4-sequencer.maxpat" ]
+							}
+, 							{
+								"key" : "probability playback intro",
+								"value" : [ "5-probability_player.maxpat" ]
+							}
+, 							{
+								"key" : "chord playspace",
+								"value" : [ "6-monocords_playspace" ]
+							}
+ ]
+					}
+,
+					"saved_object_attributes" : 					{
+						"embed" : 1
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "full group of tools in one patch",
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 608.0, 257.0, 20.0 ],
-					"id" : "obj-82",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 680.0, 456.0, 257.0, 20.0 ],
 					"fontsize" : 12.0,
-					"presentation_rect" : [ 197.0, 606.0, 0.0, 0.0 ],
-					"numinlets" : 1
+					"id" : "obj-82",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -39,16 +187,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "intro to probabilistic sequence playback",
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 584.0, 257.0, 20.0 ],
-					"id" : "obj-81",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 680.0, 432.0, 257.0, 20.0 ],
 					"fontsize" : 12.0,
-					"presentation_rect" : [ 196.0, 583.0, 0.0, 0.0 ],
-					"numinlets" : 1
+					"id" : "obj-81",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -56,16 +203,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "intro to sequencing scale data",
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 560.0, 257.0, 20.0 ],
-					"id" : "obj-80",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 680.0, 408.0, 257.0, 20.0 ],
 					"fontsize" : 12.0,
-					"presentation_rect" : [ 197.0, 559.0, 0.0, 0.0 ],
-					"numinlets" : 1
+					"id" : "obj-80",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -73,16 +219,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "visualize and design scales",
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 536.0, 257.0, 20.0 ],
-					"id" : "obj-79",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 680.0, 384.0, 257.0, 20.0 ],
 					"fontsize" : 12.0,
-					"presentation_rect" : [ 195.0, 537.0, 0.0, 0.0 ],
-					"numinlets" : 1
+					"id" : "obj-79",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -90,15 +235,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "explore scales of multiple chords in sequence",
-					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 511.0, 257.0, 20.0 ],
-					"id" : "obj-78",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 679.0, 359.0, 257.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-78",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -106,16 +251,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "explore scales of a single chord",
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 488.0, 257.0, 20.0 ],
-					"id" : "obj-77",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 680.0, 336.0, 257.0, 20.0 ],
 					"fontsize" : 12.0,
-					"presentation_rect" : [ 194.0, 488.0, 0.0, 0.0 ],
-					"numinlets" : 1
+					"id" : "obj-77",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -123,16 +267,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "interpolate playback of from a folder of sounds",
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 416.0, 257.0, 20.0 ],
-					"id" : "obj-76",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 452.0, 257.0, 20.0 ],
 					"fontsize" : 12.0,
-					"presentation_rect" : [ 203.0, 419.0, 0.0, 0.0 ],
-					"numinlets" : 1
+					"id" : "obj-76",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -140,100 +283,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "choose soundfiles from a folder for playback ",
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 392.0, 249.0, 20.0 ],
-					"id" : "obj-75",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 428.0, 249.0, 20.0 ],
 					"fontsize" : 12.0,
-					"presentation_rect" : [ 204.0, 395.0, 0.0, 0.0 ],
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "6-monocords_playspace",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 608.0, 180.0, 18.0 ],
-					"id" : "obj-74",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "5-probability_player",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 584.0, 180.0, 18.0 ],
-					"id" : "obj-73",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "4-sequencer",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 560.0, 180.0, 18.0 ],
-					"id" : "obj-72",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "3-tuner",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 536.0, 180.0, 18.0 ],
-					"id" : "obj-38",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "2-monocords",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 512.0, 180.0, 18.0 ],
-					"id" : "obj-37",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "sfinterp.maxhelp",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 416.0, 180.0, 18.0 ],
-					"id" : "obj-36",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
+					"id" : "obj-75",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -241,41 +299,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "LAB - Tuning and Temperament Tools ",
-					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 456.0, 235.0, 20.0 ],
-					"id" : "obj-27",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 3,
+					"patching_rect" : [ 496.0, 304.0, 235.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "1-monocord_explorer",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 488.0, 180.0, 18.0 ],
-					"id" : "obj-28",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "panel",
-					"numoutlets" : 0,
-					"bgcolor" : [ 0.270588, 0.294118, 0.298039, 1.0 ],
-					"patching_rect" : [ 8.0, 452.0, 448.0, 180.0 ],
-					"id" : "obj-29",
-					"rounded" : 15,
-					"numinlets" : 1
+					"id" : "obj-27",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -284,31 +316,31 @@
 					"maxclass" : "comment",
 					"text" : "This patch provides access to the LAB Software for Music 29.  The actual software is located in the CNMAT MaxMSPJitter Depot software and is dependent on the CNMAT everything Download",
 					"linecount" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 16.0, 630.0, 39.0 ],
-					"id" : "obj-70",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 276.0, 16.0, 630.0, 39.0 ],
 					"fontsize" : 14.0,
-					"numinlets" : 1
+					"id" : "obj-70",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "Click on a given link (message box) to load the patch.  Keep in mind that some patches are larger than others, so you might need to wait a few moments for a given patch to load.",
-					"linecount" : 3,
-					"numoutlets" : 0,
-					"patching_rect" : [ 464.0, 588.0, 448.0, 48.0 ],
-					"id" : "obj-71",
+					"text" : "Click on a given link to load the patch.  Keep in mind that some patches are larger than others, so you might need to wait a few moments for a given patch to load.",
+					"linecount" : 2,
 					"fontname" : "Arial",
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 488.0, 492.0, 454.0, 34.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-71",
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -316,59 +348,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "visualization of frequency modulation",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 160.0, 243.0, 20.0 ],
+					"fontname" : "Arial",
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 2,
+					"patching_rect" : [ 220.0, 164.0, 207.0, 20.0 ],
+					"fontsize" : 12.0,
 					"id" : "obj-69",
-					"fontname" : "Arial",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : 2,
-					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "Freq-Domain-display.maxhelp",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 160.0, 184.0, 18.0 ],
-					"id" : "obj-68",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "comment",
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 348.0, 248.0, 20.0 ],
-					"id" : "obj-53",
-					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : 2,
-					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "comment",
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 324.0, 243.0, 20.0 ],
-					"id" : "obj-54",
-					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : 2,
-					"fontsize" : 12.0,
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -376,71 +364,31 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "use keyboard/mouse to play an additive synth",
-					"numoutlets" : 0,
-					"patching_rect" : [ 656.0, 300.0, 254.0, 20.0 ],
-					"id" : "obj-55",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 356.0, 254.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-55",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "Internal SYNTH player",
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 276.0, 243.0, 20.0 ],
-					"id" : "obj-56",
+					"text" : "your computer's MIDI synth",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 688.0, 240.0, 156.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"numoutlets" : 1,
-					"patching_rect" : [ 468.0, 348.0, 184.0, 18.0 ],
-					"id" : "obj-62",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"numoutlets" : 1,
-					"patching_rect" : [ 468.0, 324.0, 184.0, 18.0 ],
-					"id" : "obj-63",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "additive-keymouse-synthesizer",
-					"numoutlets" : 1,
-					"patching_rect" : [ 468.0, 300.0, 180.0, 18.0 ],
-					"id" : "obj-64",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
+					"id" : "obj-56",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -448,71 +396,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "LAB - Timbre and Texture Domain Tools",
-					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 244.0, 242.0, 20.0 ],
-					"id" : "obj-65",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 3,
+					"patching_rect" : [ 496.0, 208.0, 242.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "Internal_Synth_OSC.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 468.0, 276.0, 184.0, 18.0 ],
-					"id" : "obj-66",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "panel",
-					"numoutlets" : 0,
-					"bgcolor" : [ 0.270588, 0.294118, 0.298039, 1.0 ],
-					"patching_rect" : [ 464.0, 240.0, 444.0, 132.0 ],
-					"id" : "obj-67",
-					"rounded" : 15,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "comment",
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 208.0, 243.0, 20.0 ],
-					"id" : "obj-31",
-					"fontname" : "Arial",
+					"id" : "obj-65",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : 2,
-					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "comment",
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 184.0, 248.0, 20.0 ],
-					"id" : "obj-32",
-					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : 2,
-					"fontsize" : 12.0,
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -520,15 +412,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "control divisions of a master pattern",
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 160.0, 243.0, 20.0 ],
-					"id" : "obj-33",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 688.0, 164.0, 200.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-33",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -536,15 +428,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "independent rhythms in tandem",
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 136.0, 255.0, 20.0 ],
-					"id" : "obj-34",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 688.0, 140.0, 179.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-34",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -552,69 +444,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "dividing a beat into various segments",
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 112.0, 243.0, 20.0 ],
-					"id" : "obj-35",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 688.0, 116.0, 208.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"numoutlets" : 1,
-					"patching_rect" : [ 468.0, 208.0, 184.0, 18.0 ],
-					"id" : "obj-40",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"numoutlets" : 1,
-					"patching_rect" : [ 468.0, 184.0, 184.0, 18.0 ],
-					"id" : "obj-42",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "divided-step-sequencer.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 468.0, 160.0, 184.0, 18.0 ],
-					"id" : "obj-43",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "polyrhythm-explorer.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 468.0, 136.0, 184.0, 18.0 ],
-					"id" : "obj-44",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
+					"id" : "obj-35",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -622,41 +460,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "LAB - Time Domain Tools",
-					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 76.0, 209.0, 20.0 ],
-					"id" : "obj-45",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 3,
+					"patching_rect" : [ 496.0, 80.0, 209.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "beat-slicer.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 468.0, 112.0, 184.0, 18.0 ],
-					"id" : "obj-46",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "panel",
-					"numoutlets" : 0,
-					"bgcolor" : [ 0.270588, 0.294118, 0.298039, 1.0 ],
-					"patching_rect" : [ 464.0, 72.0, 456.0, 160.0 ],
-					"id" : "obj-48",
-					"rounded" : 15,
-					"numinlets" : 1
+					"id" : "obj-45",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -664,15 +476,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "sequence series generation",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 328.0, 243.0, 20.0 ],
-					"id" : "obj-26",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 332.0, 158.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-26",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -680,15 +492,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "altering pitch in real time",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 304.0, 244.0, 20.0 ],
-					"id" : "obj-25",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 308.0, 141.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-25",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -696,15 +508,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "vocal synthesis using harmonics",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 280.0, 243.0, 20.0 ],
-					"id" : "obj-24",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 284.0, 183.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-24",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -712,15 +524,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "basic synthesis explained",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 256.0, 243.0, 20.0 ],
-					"id" : "obj-23",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 260.0, 147.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-23",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -728,15 +540,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "harmonic series and partials of F0",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 232.0, 263.0, 20.0 ],
-					"id" : "obj-22",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 236.0, 191.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-22",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -744,15 +556,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "basics on creating rich sinusoidal waveforms",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 208.0, 248.0, 20.0 ],
-					"id" : "obj-21",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 212.0, 248.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-21",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -760,15 +572,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "how the cycle~ object relates to sine waves",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 184.0, 243.0, 20.0 ],
-					"id" : "obj-20",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 188.0, 241.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-20",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -776,15 +588,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "differences between time and freq",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 136.0, 243.0, 20.0 ],
-					"id" : "obj-19",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 140.0, 191.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-19",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -792,127 +604,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "the physics of sine waves",
-					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 112.0, 243.0, 20.0 ],
-					"id" : "obj-18",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
+					"patching_rect" : [ 220.0, 116.0, 147.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "Lucas-sequence-maker.maxhelp",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 328.0, 184.0, 18.0 ],
-					"id" : "obj-14",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "03-pitch_processing.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 304.0, 184.0, 18.0 ],
-					"id" : "obj-13",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "singing-voice~.help.pat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 280.0, 184.0, 18.0 ],
-					"id" : "obj-12",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "08-Simple-synthesis.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 256.0, 184.0, 18.0 ],
-					"id" : "obj-11",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "07-harmonic-waves.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 232.0, 184.0, 18.0 ],
-					"id" : "obj-10",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "06-additive-synthesis.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 208.0, 184.0, 18.0 ],
-					"id" : "obj-9",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "03-MSP_cycle_object.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 184.0, 184.0, 18.0 ],
-					"id" : "obj-8",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "00-frequency_domain.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 136.0, 184.0, 18.0 ],
-					"id" : "obj-7",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
+					"id" : "obj-18",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -920,29 +620,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "LAB - Frequency Domain Tools",
-					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 76.0, 209.0, 20.0 ],
-					"id" : "obj-5",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 3,
+					"patching_rect" : [ 12.0, 80.0, 209.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "02-sinewaves-sampling.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 12.0, 112.0, 184.0, 18.0 ],
-					"id" : "obj-6",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
+					"id" : "obj-5",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -950,15 +636,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "LAB - Sound File Interpolaton Tools",
-					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 364.0, 215.0, 20.0 ],
-					"id" : "obj-4",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 3,
+					"patching_rect" : [ 12.0, 400.0, 215.0, 20.0 ],
 					"fontsize" : 12.0,
-					"numinlets" : 1
+					"id" : "obj-4",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -966,29 +652,15 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "MUS29 Overview:  ",
-					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 20.0, 435.0, 35.0 ],
-					"id" : "obj-3",
 					"fontname" : "Arial",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 1,
+					"patching_rect" : [ 28.0, 20.0, 435.0, 35.0 ],
 					"fontsize" : 25.0,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "samplemixer.maxpat",
-					"numoutlets" : 1,
-					"patching_rect" : [ 13.0, 392.0, 179.0, 18.0 ],
-					"id" : "obj-2",
-					"fontname" : "Arial",
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
+					"id" : "obj-3",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
@@ -996,14 +668,14 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "pcontrol",
-					"numoutlets" : 1,
-					"patching_rect" : [ 260.0, 696.0, 43.0, 17.0 ],
-					"id" : "obj-1",
 					"hidden" : 1,
 					"fontname" : "Arial",
 					"outlettype" : [ "" ],
+					"patching_rect" : [ 244.0, 574.0, 43.0, 17.0 ],
 					"fontsize" : 9.0,
-					"numinlets" : 1
+					"id" : "obj-1",
+					"numinlets" : 1,
+					"numoutlets" : 1
 				}
 
 			}
@@ -1011,103 +683,166 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "prepend load",
-					"numoutlets" : 1,
-					"patching_rect" : [ 260.0, 669.0, 63.0, 17.0 ],
-					"id" : "obj-41",
 					"hidden" : 1,
 					"fontname" : "Arial",
 					"outlettype" : [ "" ],
+					"patching_rect" : [ 244.0, 552.0, 63.0, 17.0 ],
 					"fontsize" : 9.0,
-					"numinlets" : 1
+					"id" : "obj-41",
+					"numinlets" : 1,
+					"numoutlets" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "panel",
-					"numoutlets" : 0,
 					"bgcolor" : [ 0.270588, 0.294118, 0.298039, 1.0 ],
-					"patching_rect" : [ 8.0, 72.0, 448.0, 280.0 ],
+					"patching_rect" : [ 8.0, 76.0, 472.0, 308.0 ],
 					"id" : "obj-15",
 					"rounded" : 15,
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "panel",
-					"numoutlets" : 0,
-					"bgcolor" : [ 0.270588, 0.294118, 0.298039, 1.0 ],
-					"patching_rect" : [ 8.0, 360.0, 448.0, 84.0 ],
-					"id" : "obj-16",
-					"rounded" : 15,
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "panel",
-					"numoutlets" : 0,
 					"bgcolor" : [ 0.254902, 0.580392, 0.643137, 1.0 ],
-					"patching_rect" : [ 8.0, 8.0, 912.0, 56.0 ],
+					"patching_rect" : [ 8.0, 8.0, 928.0, 56.0 ],
 					"id" : "obj-17",
 					"rounded" : 15,
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "tab",
+					"clicktabcolor" : [ 0.27451, 0.443137, 0.690196, 1.0 ],
+					"tabs" : [ "sampling: recording and playback", "sampling: sound file interpolation" ],
+					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
+					"fontname" : "Arial",
+					"outlettype" : [ "int", "", "" ],
+					"button" : 1,
+					"patching_rect" : [ 12.0, 424.0, 208.0, 48.0 ],
+					"fontsize" : 12.0,
+					"id" : "obj-50",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "panel",
+					"bgcolor" : [ 0.270588, 0.294118, 0.298039, 1.0 ],
+					"patching_rect" : [ 8.0, 396.0, 472.0, 84.0 ],
+					"id" : "obj-16",
+					"rounded" : 15,
+					"numinlets" : 1,
+					"numoutlets" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "tab",
+					"clicktabcolor" : [ 0.27451, 0.443137, 0.690196, 1.0 ],
+					"tabs" : [ "beat slicing", "polyrhythms explorer", "step sequencer with divisions" ],
+					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
+					"fontname" : "Arial",
+					"outlettype" : [ "int", "", "" ],
+					"button" : 1,
+					"patching_rect" : [ 496.0, 116.0, 192.0, 68.0 ],
+					"fontsize" : 12.0,
+					"id" : "obj-51",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "panel",
+					"bgcolor" : [ 0.270588, 0.294118, 0.298039, 1.0 ],
+					"patching_rect" : [ 492.0, 76.0, 444.0, 116.0 ],
+					"id" : "obj-48",
+					"rounded" : 15,
+					"numinlets" : 1,
+					"numoutlets" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "tab",
+					"clicktabcolor" : [ 0.27451, 0.443137, 0.690196, 1.0 ],
+					"tabs" : [ "the internal synthesizer", " " ],
+					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
+					"fontname" : "Arial",
+					"outlettype" : [ "int", "", "" ],
+					"button" : 1,
+					"patching_rect" : [ 496.0, 240.0, 192.0, 44.0 ],
+					"fontsize" : 12.0,
+					"id" : "obj-52",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "panel",
+					"bgcolor" : [ 0.270588, 0.294118, 0.298039, 1.0 ],
+					"patching_rect" : [ 492.0, 204.0, 444.0, 84.0 ],
+					"id" : "obj-67",
+					"rounded" : 15,
+					"numinlets" : 1,
+					"numoutlets" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "tab",
+					"clicktabcolor" : [ 0.27451, 0.443137, 0.690196, 1.0 ],
+					"tabs" : [ "scales of a chord", "multiple chords", "create and tune chords", "sequence chords", "probability playback intro", "chord playspace" ],
+					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
+					"fontname" : "Arial",
+					"outlettype" : [ "int", "", "" ],
+					"button" : 1,
+					"patching_rect" : [ 496.0, 336.0, 184.0, 140.0 ],
+					"fontsize" : 12.0,
+					"id" : "obj-53",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "panel",
+					"bgcolor" : [ 0.270588, 0.294118, 0.298039, 1.0 ],
+					"patching_rect" : [ 492.0, 300.0, 448.0, 180.0 ],
+					"id" : "obj-29",
+					"rounded" : 15,
+					"numinlets" : 1,
+					"numoutlets" : 0
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-28", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-37", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-38", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-72", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-73", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-74", 0 ],
-					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-41", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
@@ -1124,7 +859,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-40", 0 ],
+					"source" : [ "obj-2", 1 ],
 					"destination" : [ "obj-41", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
@@ -1133,8 +868,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-42", 0 ],
-					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-47", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
@@ -1142,8 +877,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-66", 0 ],
-					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-52", 1 ],
+					"destination" : [ "obj-47", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
@@ -1151,8 +886,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-41", 0 ],
-					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-53", 1 ],
+					"destination" : [ "obj-47", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
@@ -1160,8 +895,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-6", 0 ],
-					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-51", 1 ],
+					"destination" : [ "obj-47", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
@@ -1169,8 +904,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-7", 0 ],
-					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-50", 1 ],
+					"destination" : [ "obj-47", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
@@ -1178,116 +913,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-8", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-9", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-10", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-11", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-12", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-13", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-14", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-68", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-46", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-44", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-43", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-36", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-64", 0 ],
-					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-49", 1 ],
+					"destination" : [ "obj-47", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
