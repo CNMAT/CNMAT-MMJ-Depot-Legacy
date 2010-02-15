@@ -23,7 +23,6 @@
 					"maxclass" : "comment",
 					"text" : "filters change the spectra we hear",
 					"fontname" : "Arial",
-					"presentation_rect" : [ 222.0, 379.0, 0.0, 0.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
 					"patching_rect" : [ 224.0, 380.0, 261.0, 20.0 ],
@@ -40,7 +39,6 @@
 					"maxclass" : "comment",
 					"text" : "deriving tuning from perfect intervals",
 					"fontname" : "Arial",
-					"presentation_rect" : [ 684.0, 402.0, 0.0, 0.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
 					"patching_rect" : [ 684.0, 408.0, 204.0, 20.0 ],
@@ -57,7 +55,6 @@
 					"maxclass" : "comment",
 					"text" : "build and hear complex harmonic waveforms",
 					"fontname" : "Arial",
-					"presentation_rect" : [ 222.0, 209.0, 0.0, 0.0 ],
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
 					"patching_rect" : [ 223.0, 212.0, 248.0, 20.0 ],
@@ -162,7 +159,7 @@
 							}
 , 							{
 								"key" : "the singing voice",
-								"value" : [ "singing-voice~.help.pat" ]
+								"value" : [ "singing-voice~.maxhelp" ]
 							}
 , 							{
 								"key" : "shifting harmonic spectra",
@@ -281,7 +278,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "interpolate playback of from a folder of sounds",
+					"text" : "interpolate playback from a folder of sounds",
 					"fontname" : "Arial",
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
@@ -824,8 +821,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-49", 1 ],
-					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-41", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
@@ -833,8 +830,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-50", 1 ],
-					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-2", 0 ],
+					"destination" : [ "obj-41", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
@@ -842,7 +839,25 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-51", 1 ],
+					"source" : [ "obj-2", 1 ],
+					"destination" : [ "obj-41", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-47", 0 ],
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-52", 1 ],
 					"destination" : [ "obj-47", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
@@ -860,7 +875,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-52", 1 ],
+					"source" : [ "obj-51", 1 ],
 					"destination" : [ "obj-47", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
@@ -869,8 +884,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-47", 0 ],
-					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-50", 1 ],
+					"destination" : [ "obj-47", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
@@ -878,26 +893,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-2", 1 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-2", 0 ],
-					"destination" : [ "obj-41", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-41", 0 ],
-					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-49", 1 ],
+					"destination" : [ "obj-47", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ]
 				}
