@@ -214,7 +214,7 @@
 								"value" : [ "6-monocords_playspace" ]
 							}
 , 							{
-								"key" : "tuning explorer",
+								"key" : "tuning from intervals",
 								"value" : [ "+tuning_explorer.maxpat" ]
 							}
  ]
