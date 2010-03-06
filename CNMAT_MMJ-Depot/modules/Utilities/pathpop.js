@@ -1,8 +1,15 @@
 outlets = 1;
 var numpops = jsarguments[1];
 
-function loadbang()
-{
+function bang(){
+    do_bang();
+}
+
+function loadbang(){
+    do_bang();
+}
+
+function do_bang(){
     var p = this.patcher;
     var path = p.filepath;
     var pary = path.split('/');
