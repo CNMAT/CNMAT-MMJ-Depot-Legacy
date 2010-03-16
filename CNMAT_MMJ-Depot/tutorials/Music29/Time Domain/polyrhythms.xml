@@ -2,18 +2,25 @@
 
 <pattrstorage name = "polyrhythms">
 	<slot number = "1">
+		<pattr name = "bpm" value = "50." />
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "1" />
+			<pattr name = "decay_time" value = "34" />
+			<pattr name = "diffusion" value = "0" />
+			<pattr name = "room_size" value = "34" />
+		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
@@ -27,8 +34,8 @@
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 1 1 0 0 0 0 1 1 1 1 0 0 1" />
-			<pattr name = "seq_timbre" value = "15 15 59 83 83 19 0 5 38 57 64 52 15 15 15" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
@@ -42,7 +49,7 @@
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_timbre" value = "10 71 10 10 10 83 10 52 10 10" />
+			<pattr name = "seq_timbre" value = "10 10 10 10 10 10 10 10 10 10" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module">
 			<pattr name = "main_onoff_state" value = "0" />
@@ -52,56 +59,62 @@
 			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 1 1 0" />
-			<pattr name = "seq_timbre" value = "78 50 52 42 24" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "1 1 0 0" />
-			<pattr name = "seq_timbre" value = "24 24 4 4" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 0" />
-			<pattr name = "seq_timbre" value = "3 71 3" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1" />
-			<pattr name = "seq_timbre" value = "2 83" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0" />
-			<pattr name = "seq_timbre" value = "47" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
-		<pattr name = "bpm" value = "0." />
 	</slot>
 	<slot number = "2">
+		<pattr name = "bpm" value = "50." />
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "1" />
+			<pattr name = "decay_time" value = "34" />
+			<pattr name = "diffusion" value = "0" />
+			<pattr name = "room_size" value = "34" />
+		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1" />
-			<pattr name = "seq_timbre" value = "71 47 5 0 0 0 0 0 0 0 71 52 31 14 7 2 0 0 0 0 60 60 60 60 90 75 64 52 35 28 26 24 17 9 5 0 0 60 60 78 50 38 17 7 2 0 0 0 0 0 0 0 0 28 35 42 57 73 83 60" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_timbre" value = "85 75 87 99 99 92 30 30 30 30 30 30 30 30 30 30 80 78 78 78 78 78 30 30 30 30 30 30 30 30" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "0" />
@@ -115,14 +128,14 @@
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_timbre" value = "15 15 59 83 83 19 0 5 38 57 64 52 15 15 15" />
+			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 0 0 1 0 0 0 1 1 0 0 0" />
-			<pattr name = "seq_timbre" value = "12 12 12 87 12 12 12 57 87 12 12 12" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
@@ -139,56 +152,62 @@
 			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 1 1 0" />
-			<pattr name = "seq_timbre" value = "78 50 52 42 24" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "1 1 0 0" />
-			<pattr name = "seq_timbre" value = "24 24 4 4" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 0" />
-			<pattr name = "seq_timbre" value = "3 71 3" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1" />
-			<pattr name = "seq_timbre" value = "2 83" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0" />
-			<pattr name = "seq_timbre" value = "47" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
-		<pattr name = "bpm" value = "0." />
 	</slot>
 	<slot number = "3">
+		<pattr name = "bpm" value = "50." />
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "1" />
+			<pattr name = "decay_time" value = "34" />
+			<pattr name = "diffusion" value = "0" />
+			<pattr name = "room_size" value = "34" />
+		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1" />
-			<pattr name = "seq_timbre" value = "71 47 5 0 0 0 0 0 0 0 71 52 31 14 7 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78 50 38 17 7 2 0 0 0 0 0 0 0 0 0 87 42 57 73 83 60" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_timbre" value = "85 75 87 99 99 92 30 30 30 30 30 30 30 30 30 30 80 78 78 78 78 78 30 30 30 30 30 30 30 30" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "0" />
@@ -202,14 +221,14 @@
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_timbre" value = "15 15 59 83 83 19 0 5 38 57 64 52 15 15 15" />
+			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 0 0 1 0 0 0 1 1 0 0 0" />
-			<pattr name = "seq_timbre" value = "12 12 12 87 12 12 12 57 87 12 12 12" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
@@ -222,45 +241,230 @@
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 0 1 1 1" />
-			<pattr name = "seq_timbre" value = "6 87 6 90 19 52" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 1 1 0" />
-			<pattr name = "seq_timbre" value = "78 50 52 42 24" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "1 1 0 0" />
-			<pattr name = "seq_timbre" value = "24 24 4 4" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1 0" />
-			<pattr name = "seq_timbre" value = "3 71 3" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
-			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_res" value = "20" />
-			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0 1" />
-			<pattr name = "seq_timbre" value = "2 83" />
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "4">
+		<pattr name = "bpm" value = "50." />
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "1" />
+			<pattr name = "decay_time" value = "34" />
+			<pattr name = "diffusion" value = "0" />
+			<pattr name = "room_size" value = "34" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
 			<pattr name = "main_res" value = "20" />
 			<pattr name = "main_timbre" value = "0" />
-			<pattr name = "seq_gate" value = "0" />
-			<pattr name = "seq_timbre" value = "47" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60" />
 		</patcher>
-		<pattr name = "bpm" value = "15." />
+		<patcher name = "polyrhythm_basic_module[5]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[4]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[3]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[2]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[1]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "10 10 10 10 10 10 10 10 10 10" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module[1]">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module[2]">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module[3]">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module[4]">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "5">
+		<pattr name = "bpm" value = "50." />
+		<patcher name = "reverb">
+			<pattr name = "HF_damping" value = "1" />
+			<pattr name = "decay_time" value = "34" />
+			<pattr name = "diffusion" value = "0" />
+			<pattr name = "room_size" value = "34" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[6]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60 60" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[5]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[4]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[3]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[2]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module[1]">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 1 1" />
+			<pattr name = "seq_timbre" value = "10 10 10 10 10 10 10 64 71 42" />
+		</patcher>
+		<patcher name = "polyrhythm_basic_module">
+			<pattr name = "main_onoff_state" value = "0" />
+			<pattr name = "main_res" value = "20" />
+			<pattr name = "main_timbre" value = "0" />
+			<pattr name = "seq_gate" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module[1]">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module[2]">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module[3]">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
+		<patcher name = "polyrhythm_small_module[4]">
+			<pattr name = "main_onoff_state" value = "" />
+			<pattr name = "main_res" value = "" />
+			<pattr name = "main_timbre" value = "" />
+			<pattr name = "seq_gate" value = "" />
+			<pattr name = "seq_timbre" value = "" />
+		</patcher>
 	</slot>
 </pattrstorage>
 
