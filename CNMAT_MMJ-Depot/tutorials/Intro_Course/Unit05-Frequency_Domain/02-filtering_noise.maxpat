@@ -94,7 +94,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "delay 400",
+									"text" : "delay 600",
 									"numinlets" : 2,
 									"fontsize" : 12.0,
 									"numoutlets" : 1,
