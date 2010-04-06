@@ -110,20 +110,6 @@
 						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"maxclass" : "newobj",
-									"text" : "sprintf script new buffer-%d newex 20 %d 400 196617 buffer~",
-									"outlettype" : [ "" ],
-									"fontsize" : 9.0,
-									"numinlets" : 2,
-									"patching_rect" : [ 252.0, 364.0, 301.0, 17.0 ],
-									"id" : "obj-2",
-									"fontname" : "Arial",
-									"numoutlets" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"patching_rect" : [ 520.0, 428.0, 25.0, 25.0 ],
@@ -329,7 +315,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "* 61",
+									"text" : "* 55",
 									"outlettype" : [ "int" ],
 									"fontsize" : 9.0,
 									"numinlets" : 2,
@@ -442,6 +428,24 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"source" : [ "obj-19", 0 ],
+									"destination" : [ "obj-10", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"source" : [ "obj-23", 1 ],
+									"destination" : [ "obj-19", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"source" : [ "obj-10", 0 ],
 									"destination" : [ "obj-43", 2 ],
@@ -562,24 +566,6 @@
 								"patchline" : 								{
 									"source" : [ "obj-5", 1 ],
 									"destination" : [ "obj-6", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"source" : [ "obj-23", 1 ],
-									"destination" : [ "obj-19", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"source" : [ "obj-19", 0 ],
-									"destination" : [ "obj-10", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ]
 								}
@@ -909,9 +895,9 @@
 					"maxclass" : "radiogroup",
 					"outlettype" : [ "" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"offset" : 61,
+					"offset" : 55,
 					"numinlets" : 1,
-					"patching_rect" : [ 12.0, 96.0, 18.0, 185.0 ],
+					"patching_rect" : [ 12.0, 96.0, 18.0, 167.0 ],
 					"hidden" : 1,
 					"id" : "obj-42",
 					"numoutlets" : 1,
