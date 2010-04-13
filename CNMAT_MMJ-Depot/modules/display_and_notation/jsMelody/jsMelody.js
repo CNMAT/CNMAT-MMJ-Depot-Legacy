@@ -60,7 +60,7 @@ function draw()
     aspect = width/height;
     
     with (sketch) {
-        glclearcolor(1,1,1);
+        glclearcolor(1,1,1,1);
         glclear();
         drawstaff(0, "&");
         drawstaff(-.29, "?");

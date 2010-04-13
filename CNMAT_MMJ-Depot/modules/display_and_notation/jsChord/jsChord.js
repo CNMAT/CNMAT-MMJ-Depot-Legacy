@@ -32,15 +32,16 @@ VERSION 0.1: First release
 VERSION 0.2: First release
 VERSION 0.3: Adding flats
 VERSION 0.4: Minor font name edit for Max 5
+VERSION 0.5: Added alpha to colors
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 */
 
 outlets = 2;
 sketch.default2d();
-var mybrgb = [1,1,1];
-var myfrgb = [0,0,0];
-var myrgb2 = [1,1,1];
+var mybrgb = [1,1,1,1];
+var myfrgb = [0,0,0,1];
+var myrgb2 = [1,1,1,1];
 
 var myfont = "Sonora";
 var notes = new Array();
@@ -61,7 +62,7 @@ function draw()
     aspect = width/height;
     
     with (sketch) {
-        glclearcolor(1,1,1);
+        glclearcolor(1,1,1,1);
         glclear();
         drawslider();
         drawstaff(0, "&");
@@ -100,7 +101,7 @@ function drawstaff(xpos, clef)
             newY = (i * 0.05) + xpos;
             linesegment(-newX, newY, 0.,  newX, newY, 0.);
         }
-        glcolor(0.,0.,0.);
+        glcolor(0.,0.,0.,0.);
         switch(clef)
         {
             case "&":
@@ -201,6 +202,8 @@ function drawnotes()
                 fontsize(.09*height);
             }
             drawAccidentals(xpos, ypos, sharp);
+            post("ledger: ",ledger);
+            post();
             ledgerlines(ledger,xpos);
             newX = newX-noteSpace;
         }
@@ -297,6 +300,7 @@ function drawAccidentals(xpos,ypos,sharp)
 function ledgerlines(ledger, xpos)
 {    
     with (sketch) {
+        glcolor(0.,0.,0.,1.);
         switch(ledger)
         {
         case 1:
