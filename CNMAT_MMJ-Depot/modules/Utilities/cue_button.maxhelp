@@ -198,7 +198,7 @@
 					"args" : [ 3, "my third cue" ],
 					"numoutlets" : 0,
 					"offset" : [ -1.0, -1.0 ],
-					"patching_rect" : [ 288.0, 140.0, 138.0, 189.0 ],
+					"patching_rect" : [ 232.0, 140.0, 106.0, 156.0 ],
 					"id" : "obj-38",
 					"name" : "cue_button.maxpat",
 					"numinlets" : 0
@@ -211,7 +211,7 @@
 					"args" : [ 2, "my second cue" ],
 					"numoutlets" : 0,
 					"offset" : [ -1.0, -1.0 ],
-					"patching_rect" : [ 148.0, 140.0, 138.0, 189.0 ],
+					"patching_rect" : [ 120.0, 140.0, 106.0, 156.0 ],
 					"id" : "obj-37",
 					"name" : "cue_button.maxpat",
 					"numinlets" : 0
@@ -281,7 +281,7 @@
 					"args" : [ 1, "my first cue" ],
 					"numoutlets" : 0,
 					"offset" : [ -1.0, -1.0 ],
-					"patching_rect" : [ 8.0, 140.0, 138.0, 189.0 ],
+					"patching_rect" : [ 8.0, 140.0, 106.0, 156.0 ],
 					"id" : "obj-14",
 					"name" : "cue_button.maxpat",
 					"numinlets" : 0
