@@ -1,0 +1,5 @@
+These are patches that refer to classic pieces from electronic and computer music repertoire.
+
+Right now they could use some cleaning up.
+
+- mzed 8 May 2009
