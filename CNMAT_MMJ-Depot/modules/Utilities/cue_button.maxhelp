@@ -20,16 +20,57 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"maxclass" : "comment",
+					"text" : "If the /inc flag is set, you can increment from the selected cue upward with the /next message.  Note that you _must_ select a cue to increment from after you have set the /inc flag to 1.",
+					"linecount" : 7,
+					"patching_rect" : [ 28.0, 360.0, 150.0, 87.0 ],
+					"id" : "obj-19",
+					"fontsize" : 10.0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "s osc",
+					"patching_rect" : [ 392.0, 436.0, 34.0, 18.0 ],
+					"id" : "obj-12",
+					"fontsize" : 10.0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"fontname" : "Arial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "message",
+					"text" : "/cues/togclear",
+					"patching_rect" : [ 392.0, 400.0, 74.0, 16.0 ],
+					"id" : "obj-11",
+					"fontsize" : 10.0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"fontname" : "Arial"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"maxclass" : "message",
 					"text" : "/next",
-					"numoutlets" : 1,
-					"fontsize" : 10.0,
-					"outlettype" : [ "" ],
-					"presentation_rect" : [ 240.0, 393.0, 0.0, 0.0 ],
 					"patching_rect" : [ 264.0, 400.0, 32.5, 16.0 ],
 					"id" : "obj-18",
-					"fontname" : "Arial",
-					"numinlets" : 2
+					"fontsize" : 10.0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"fontname" : "Arial"
 				}
 
 			}
@@ -37,13 +78,13 @@
 				"box" : 				{
 					"maxclass" : "message",
 					"text" : "/inc $1",
-					"numoutlets" : 1,
-					"fontsize" : 10.0,
-					"outlettype" : [ "" ],
 					"patching_rect" : [ 184.0, 408.0, 40.0, 16.0 ],
 					"id" : "obj-17",
-					"fontname" : "Arial",
-					"numinlets" : 2
+					"fontsize" : 10.0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"fontname" : "Arial"
 				}
 
 			}
@@ -51,12 +92,12 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "cue_manager",
-					"numoutlets" : 0,
-					"fontsize" : 10.0,
 					"patching_rect" : [ 184.0, 444.0, 72.0, 18.0 ],
 					"id" : "obj-13",
-					"fontname" : "Arial",
-					"numinlets" : 1
+					"fontsize" : 10.0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"fontname" : "Arial"
 				}
 
 			}
@@ -64,13 +105,13 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "sel 32",
-					"numoutlets" : 2,
-					"fontsize" : 10.0,
-					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 264.0, 372.0, 37.0, 18.0 ],
 					"id" : "obj-39",
-					"fontname" : "Arial",
-					"numinlets" : 2
+					"fontsize" : 10.0,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"fontname" : "Arial"
 				}
 
 			}
@@ -78,116 +119,116 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "key",
-					"numoutlets" : 4,
-					"fontsize" : 10.0,
-					"outlettype" : [ "int", "int", "int", "int" ],
 					"patching_rect" : [ 264.0, 348.0, 59.5, 18.0 ],
 					"id" : "obj-27",
-					"fontname" : "Arial",
-					"numinlets" : 0
+					"fontsize" : 10.0,
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"fontname" : "Arial"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "toggle",
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
 					"patching_rect" : [ 184.0, 348.0, 23.0, 23.0 ],
 					"id" : "obj-26",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"args" : [ 5, "my fifth cue" ],
-					"numoutlets" : 0,
-					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 456.0, 140.0, 106.0, 156.0 ],
 					"id" : "obj-31",
+					"args" : [ 5, "my fifth cue" ],
 					"name" : "cue_button.maxpat",
-					"numinlets" : 0
+					"offset" : [ -1.0, -1.0 ],
+					"numinlets" : 0,
+					"numoutlets" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"args" : [ 4, "my fourth cue" ],
-					"numoutlets" : 0,
-					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 344.0, 140.0, 106.0, 156.0 ],
 					"id" : "obj-30",
+					"args" : [ 4, "my fourth cue" ],
 					"name" : "cue_button.maxpat",
-					"numinlets" : 0
+					"offset" : [ -1.0, -1.0 ],
+					"numinlets" : 0,
+					"numoutlets" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "button",
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 836.0, 408.0, 20.0, 20.0 ],
 					"id" : "obj-4",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "button",
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 796.0, 408.0, 20.0, 20.0 ],
 					"id" : "obj-5",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "button",
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 756.0, 408.0, 20.0, 20.0 ],
 					"id" : "obj-7",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "toggle",
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
 					"patching_rect" : [ 836.0, 380.0, 20.0, 20.0 ],
 					"id" : "obj-8",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "toggle",
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
 					"patching_rect" : [ 796.0, 380.0, 20.0, 20.0 ],
 					"id" : "obj-9",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "toggle",
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
 					"patching_rect" : [ 756.0, 380.0, 20.0, 20.0 ],
 					"id" : "obj-10",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ]
 				}
 
 			}
@@ -195,13 +236,13 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "r cue3",
-					"numoutlets" : 1,
-					"fontsize" : 10.0,
-					"outlettype" : [ "" ],
 					"patching_rect" : [ 836.0, 348.0, 38.0, 18.0 ],
 					"id" : "obj-3",
-					"fontname" : "Arial",
-					"numinlets" : 0
+					"fontsize" : 10.0,
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"fontname" : "Arial"
 				}
 
 			}
@@ -209,13 +250,13 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "r cue2",
-					"numoutlets" : 1,
-					"fontsize" : 10.0,
-					"outlettype" : [ "" ],
 					"patching_rect" : [ 796.0, 348.0, 38.0, 18.0 ],
 					"id" : "obj-2",
-					"fontname" : "Arial",
-					"numinlets" : 0
+					"fontsize" : 10.0,
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"fontname" : "Arial"
 				}
 
 			}
@@ -223,105 +264,105 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "r cue1",
-					"numoutlets" : 1,
-					"fontsize" : 10.0,
-					"outlettype" : [ "" ],
 					"patching_rect" : [ 756.0, 348.0, 38.0, 18.0 ],
 					"id" : "obj-1",
-					"fontname" : "Arial",
-					"numinlets" : 0
+					"fontsize" : 10.0,
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"fontname" : "Arial"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "button",
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 800.0, 308.0, 20.0, 20.0 ],
 					"id" : "obj-51",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "button",
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 772.0, 308.0, 20.0, 20.0 ],
 					"id" : "obj-50",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "button",
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 744.0, 308.0, 20.0, 20.0 ],
 					"id" : "obj-49",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "toggle",
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
 					"patching_rect" : [ 800.0, 280.0, 20.0, 20.0 ],
 					"id" : "obj-47",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "toggle",
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
 					"patching_rect" : [ 772.0, 280.0, 20.0, 20.0 ],
 					"id" : "obj-46",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "toggle",
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
 					"patching_rect" : [ 744.0, 280.0, 20.0, 20.0 ],
 					"id" : "obj-45",
-					"numinlets" : 1
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"args" : [ 3, "my third cue" ],
-					"numoutlets" : 0,
-					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 232.0, 140.0, 106.0, 156.0 ],
 					"id" : "obj-38",
+					"args" : [ 3, "my third cue" ],
 					"name" : "cue_button.maxpat",
-					"numinlets" : 0
+					"offset" : [ -1.0, -1.0 ],
+					"numinlets" : 0,
+					"numoutlets" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"args" : [ 2, "my second cue" ],
-					"numoutlets" : 0,
-					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 120.0, 140.0, 106.0, 156.0 ],
 					"id" : "obj-37",
+					"args" : [ 2, "my second cue" ],
 					"name" : "cue_button.maxpat",
-					"numinlets" : 0
+					"offset" : [ -1.0, -1.0 ],
+					"numinlets" : 0,
+					"numoutlets" : 0
 				}
 
 			}
@@ -329,13 +370,13 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "osc-route /1 /2 /3",
-					"numoutlets" : 4,
-					"fontsize" : 10.0,
-					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 744.0, 236.0, 103.0, 18.0 ],
 					"id" : "obj-24",
-					"fontname" : "Arial",
-					"numinlets" : 1
+					"fontsize" : 10.0,
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"fontname" : "Arial"
 				}
 
 			}
@@ -343,13 +384,13 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "osc-route /cues",
-					"numoutlets" : 2,
-					"fontsize" : 10.0,
-					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 744.0, 188.0, 79.0, 18.0 ],
 					"id" : "obj-23",
-					"fontname" : "Arial",
-					"numinlets" : 1
+					"fontsize" : 10.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"fontname" : "Arial"
 				}
 
 			}
@@ -357,13 +398,13 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "r osc",
-					"numoutlets" : 1,
-					"fontsize" : 10.0,
-					"outlettype" : [ "" ],
 					"patching_rect" : [ 744.0, 160.0, 32.0, 18.0 ],
 					"id" : "obj-22",
-					"fontname" : "Arial",
-					"numinlets" : 0
+					"fontsize" : 10.0,
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"fontname" : "Arial"
 				}
 
 			}
@@ -372,26 +413,26 @@
 					"maxclass" : "comment",
 					"text" : "The cue button bpatcher takes 2 arguments.\n1. the id of the cue, which is used for osc routing, and\n2. the text that describes the cue (enclosed in quotes)\n\nWhen you click on a given cue, it sets the state for all other cues to be off and it's own state to be on.",
 					"linecount" : 6,
-					"numoutlets" : 0,
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patching_rect" : [ 12.0, 36.0, 247.0, 75.0 ],
 					"id" : "obj-15",
-					"fontname" : "Arial",
-					"numinlets" : 1
+					"fontsize" : 10.0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"args" : [ 1, "my first cue" ],
-					"numoutlets" : 0,
-					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 8.0, 140.0, 106.0, 156.0 ],
 					"id" : "obj-14",
+					"args" : [ 1, "my first cue" ],
 					"name" : "cue_button.maxpat",
-					"numinlets" : 0
+					"offset" : [ -1.0, -1.0 ],
+					"numinlets" : 0,
+					"numoutlets" : 0
 				}
 
 			}
@@ -399,14 +440,14 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "CUE BUTTON",
-					"numoutlets" : 0,
-					"fontface" : 3,
-					"fontsize" : 15.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patching_rect" : [ 12.0, 12.0, 112.0, 24.0 ],
 					"id" : "obj-6",
-					"fontname" : "Arial",
-					"numinlets" : 1
+					"fontface" : 3,
+					"fontsize" : 15.0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial"
 				}
 
 			}
@@ -577,6 +618,15 @@
 				"patchline" : 				{
 					"source" : [ "obj-47", 0 ],
 					"destination" : [ "obj-51", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-11", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
