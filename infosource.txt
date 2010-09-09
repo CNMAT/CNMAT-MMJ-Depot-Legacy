@@ -47,5 +47,6 @@ VERSION 2.20: Lots of enhancements to sfinterp
 VERSION 2.21: weekly update
 VERSION 2.22: Piecemaker updated to Max 5
 VERSION 2.23: Historical folder added to rep --MZ
+VERSION 2.24: version bump
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
