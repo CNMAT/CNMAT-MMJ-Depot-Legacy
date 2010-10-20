@@ -18,7 +18,7 @@ if(orient != "horiz" && orient != "vert" && orient != "square")
 
 function init()
 {
-    post("value of orient: " + orient + '\n');
+    //post("value of orient: " + orient + '\n');
 
     if(orient == "horiz")
     {
@@ -50,7 +50,7 @@ function setfontscale(a)
     draw();
     refresh();
 
-    post("font is sized to: " + fontsized + '\n');
+    //post("font is sized to: " + fontsized + '\n');
 }
 
 function setfont(a)
@@ -119,7 +119,7 @@ function onresize()
     if(orient != neworient)
     {
 	orient = neworient;
-	post("changed orientation to: " + orient + '\n');
+	//post("changed orientation to: " + orient + '\n');
     }
 
     init();
@@ -150,7 +150,7 @@ function osetup(a)
 function restoresize(a)
 {
     fontscale = a;
-    post("font size restored to: " + fontscale + '\n');
+    //post("font size restored to: " + fontscale + '\n');
 }
 
 function restorebg(a,b,c,d)
