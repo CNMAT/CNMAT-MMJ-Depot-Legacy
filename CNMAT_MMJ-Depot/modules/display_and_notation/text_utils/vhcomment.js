@@ -130,30 +130,30 @@ onresize.local = 1;
 
 function save()
 {
-    embedmessage("tsetup", mytext);
-    embedmessage("osetup", orient);
-    embedmessage("restoresize", fontscale);
-    embedmessage("restorebg", bgcolor[0], bgcolor[1], bgcolor[2], bgcolor[3]);
-    embedmessage("restoretype", fonttype);//relying on order-of-ops here... might not be safe.
+    embedmessage("r_words", mytext);
+    embedmessage("r_orient", orient);
+    embedmessage("r_size", fontscale);
+    embedmessage("r_bgc", bgcolor[0], bgcolor[1], bgcolor[2], bgcolor[3]);
+    embedmessage("r_font", fonttype);//relying on order-of-ops here... might not be safe.
 }
 
-function tsetup(a)
+function r_words(a)
 {
     mytext = a;
 }
 
-function osetup(a)
+function r_orient(a)
 {
     orient = a;
 }
 
-function restoresize(a)
+function r_size(a)
 {
     fontscale = a;
     //post("font size restored to: " + fontscale + '\n');
 }
 
-function restorebg(a,b,c,d)
+function r_bgc(a,b,c,d)
 {
     bgcolor[0] = a;
     bgcolor[1] = b;
@@ -161,7 +161,7 @@ function restorebg(a,b,c,d)
     bgcolor[3] = d;
 }
 
-function restoretype(a)
+function r_font(a)
 {
     fonttype = a;
 
@@ -170,8 +170,8 @@ function restoretype(a)
     refresh();
 }
 
-tsetup.local = 1;
-osetup.local = 1;
-restoresize.local = 1;
-restorebg.local = 1;
-restoretype.local = 1;
+r_words.local = 1;
+r_orient.local = 1;
+r_size.local = 1;
+r_bgc.local = 1;
+r_font.local = 1;

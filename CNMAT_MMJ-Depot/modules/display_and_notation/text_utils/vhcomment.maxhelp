@@ -37,8 +37,8 @@
 					"prototypename" : "cnmat_banner",
 					"args" : [ "vhcomment", "a vertical or horizontal comment." ],
 					"offset" : [ -18.0, -68.0 ],
-					"numinlets" : 0,
 					"lockeddragscroll" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 508.0, 511.0, 76.0 ],
 					"id" : "obj-18",
@@ -77,16 +77,14 @@
 				"box" : 				{
 					"maxclass" : "jsui",
 					"jsarguments" : [  ],
-					"presentation_rect" : [ 157.0, 159.0, 172.0, 172.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"patching_rect" : [ 64.0, 124.0, 65.0, 349.0 ],
+					"patching_rect" : [ 64.0, 124.0, 64.0, 318.0 ],
 					"border" : 0,
-					"presentation" : 1,
 					"id" : "obj-11",
-					"outlettype" : [ "" ],
 					"filename" : "vhcomment.js",
-					"embedstate" : [ [ "tsetup", "bam factor.." ], [ "osetup", "vert" ], [ "restoresize", 4.0 ], [ "restorebg", 0.2, 0.5, 0.3, 1 ], [ "restoretype", "Arial Bold" ] ]
+					"outlettype" : [ "" ],
+					"embedstate" : [ [ "r_words", "bam factor." ], [ "r_orient", "vert" ], [ "r_size", 3.1 ], [ "r_bgc", 0.2, 0.5, 0.3, 1 ], [ "r_font", "Arial Bold" ] ]
 				}
 
 			}
@@ -121,16 +119,14 @@
 				"box" : 				{
 					"maxclass" : "jsui",
 					"jsarguments" : [  ],
-					"presentation_rect" : [ 233.0, 190.0, 172.0, 172.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"patching_rect" : [ 140.0, 324.0, 241.0, 74.0 ],
+					"patching_rect" : [ 140.0, 324.0, 326.0, 77.0 ],
 					"border" : 0,
-					"presentation" : 1,
 					"id" : "obj-3",
-					"outlettype" : [ "" ],
 					"filename" : "vhcomment.js",
-					"embedstate" : [ [ "tsetup", "bam factor.." ], [ "osetup", "horiz" ], [ "restoresize", 1.097 ], [ "restorebg", 0.2, 0.2, 0.2, 1 ], [ "restoretype", "Webdings" ] ]
+					"outlettype" : [ "" ],
+					"embedstate" : [ [ "r_words", " factor." ], [ "r_orient", "horiz" ], [ "r_size", 1.014 ], [ "r_bgc", 0, 0, 0, 1 ], [ "r_font", "Webdings" ] ]
 				}
 
 			}
@@ -220,11 +216,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "message",
-					"text" : "settext \"factor the issues in?\", bgc 0.2 0.5 0.3, setfont \"Arial Bold\", setfontscale 0.8",
+					"text" : "settext \"bam factor.?\", bgc 0.2 0.5 0.3, setfont \"Arial Bold\", setfontscale 0.8",
 					"fontsize" : 10.0,
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"patching_rect" : [ 20.0, 20.0, 380.0, 16.0 ],
+					"patching_rect" : [ 20.0, 20.0, 464.0, 16.0 ],
 					"fontname" : "Arial",
 					"id" : "obj-5",
 					"outlettype" : [ "" ]
@@ -235,16 +231,14 @@
 				"box" : 				{
 					"maxclass" : "jsui",
 					"jsarguments" : [  ],
-					"presentation_rect" : [ 71.0, 399.0, 172.0, 172.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"patching_rect" : [ 20.0, 124.0, 47.0, 378.0 ],
+					"patching_rect" : [ 20.0, 124.0, 44.0, 380.0 ],
 					"border" : 0,
-					"presentation" : 1,
 					"id" : "obj-1",
-					"outlettype" : [ "" ],
 					"filename" : "vhcomment.js",
-					"embedstate" : [ [ "tsetup", "bam factor.." ], [ "osetup", "vert" ], [ "restoresize", 0.38 ], [ "restorebg", 0.2, 0.5, 0.3, 1 ], [ "restoretype", "Arial Bold" ] ]
+					"outlettype" : [ "" ],
+					"embedstate" : [ [ "r_words", "bam factor.?" ], [ "r_orient", "vert" ], [ "r_size", 0.49 ], [ "r_bgc", 0.2, 0.5, 0.3, 1 ], [ "r_font", "Arial Bold" ] ]
 				}
 
 			}
@@ -267,15 +261,6 @@
 				"patchline" : 				{
 					"source" : [ "obj-13", 0 ],
 					"destination" : [ "obj-12", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-12", 0 ],
-					"destination" : [ "obj-11", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
@@ -366,6 +351,15 @@
 				"patchline" : 				{
 					"source" : [ "obj-2", 0 ],
 					"destination" : [ "obj-1", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-12", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
