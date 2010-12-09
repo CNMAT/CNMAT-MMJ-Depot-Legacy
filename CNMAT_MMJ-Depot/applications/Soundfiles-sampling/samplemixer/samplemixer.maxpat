@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 34.0, 74.0, 1098.0, 624.0 ],
+		"rect" : [ 10.0, 46.0, 1098.0, 624.0 ],
 		"bgcolor" : [ 0.407843, 0.533333, 0.513726, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 34.0, 74.0, 1098.0, 624.0 ],
+		"defrect" : [ 10.0, 46.0, 1098.0, 624.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1805,7 +1805,7 @@
 					"name" : "banner.maxpat",
 					"offset" : [ -18.0, -68.0 ],
 					"numinlets" : 0,
-					"args" : [ "samplemixer", "create phrases with multichannel soundfile playback, then mix down (based on groovewrap~)" ],
+					"args" : [ "samplemixer", "create phrases with multichannel soundfile playback, then mix down" ],
 					"numoutlets" : 0,
 					"presentation_rect" : [ 9.0, 507.0, 511.0, 76.0 ],
 					"lockeddragscroll" : 1,
@@ -2288,15 +2288,15 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : ";\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal",
-									"linecount" : 13,
+									"text" : ";\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal;\rOSC signal",
+									"linecount" : 25,
 									"id" : "obj-20",
 									"fontsize" : 9.0,
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"fontname" : "Arial",
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 512.0, 138.0, 175.0, 139.0 ]
+									"patching_rect" : [ 512.0, 138.0, 175.0, 263.0 ]
 								}
 
 							}
