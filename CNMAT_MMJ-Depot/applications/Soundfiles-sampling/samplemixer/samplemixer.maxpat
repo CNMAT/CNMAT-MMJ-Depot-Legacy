@@ -31,8 +31,9 @@
 					"id" : "obj-34",
 					"outlettype" : [ "" ],
 					"fontsize" : 10.0,
+					"autorestore" : "samplemixerdemo.json",
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 10, 59, 650, 299 ],
+						"client_rect" : [ 10, 59, 742, 925 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 10, 59, 650, 299 ],
 						"paraminitmode" : 0
@@ -2253,7 +2254,7 @@
 				"box" : 				{
 					"maxclass" : "umenu",
 					"presentation_rect" : [ 400.0, 404.0, 128.0, 18.0 ],
-					"items" : "<empty>",
+					"items" : [ "womblitz_long_transient 001.wav", ",", "womblitz_long_transient 002.wav", ",", "womblitz_long_transient 003.wav", ",", "womblitz_long_transient 004.wav", ",", "womblitz_long_transient 005.wav", ",", "womblitz_long_transient 006.wav", ",", "womblitz_long_transient 007.wav", ",", "womblitz_long_transient 008.wav", ",", "womblitz_long_transient 009.wav", ",", "womblitz_long_transient 010.wav", ",", "womblitz_long_transient 011.wav", ",", "womblitz_long_transient 012.wav", ",", "womblitz_long_transient 013.wav", ",", "womblitz_long_transient 014.wav", ",", "womblitz_long_transient 015.wav", ",", "womblitz_long_transient 016.wav", ",", "womblitz_long_transient 017.wav", ",", "womblitz_long_transient 018.wav", ",", "womblitz_long_transient 019.wav", ",", "womblitz_long_transient 020.wav", ",", "womblitz_short_transient 001.wav", ",", "womblitz_short_transient 002.wav", ",", "womblitz_short_transient 003.wav", ",", "womblitz_short_transient 004.wav", ",", "womblitz_short_transient 005.wav", ",", "womblitz_short_transient 006.wav", ",", "womblitz_short_transient 007.wav", ",", "womblitz_short_transient 008.wav", ",", "womblitz_short_transient 009.wav", ",", "womblitz_short_transient 010.wav", ",", "womblitz_short_transient 011.wav", ",", "womblitz_short_transient 012.wav", ",", "womblitz_short_transient 013.wav", ",", "womblitz_short_transient 014.wav", ",", "womblitz_short_transient 015.wav", ",", "womblitz_short_transient 016.wav", ",", "womblitz_short_transient 017.wav", ",", "womblitz_short_transient 018.wav", ",", "womblitz_short_transient 019.wav", ",", "womblitz_short_transient 020.wav" ],
 					"numinlets" : 1,
 					"types" : [  ],
 					"patching_rect" : [ 396.0, 392.0, 128.0, 18.0 ],
@@ -2303,7 +2304,7 @@
 				"box" : 				{
 					"maxclass" : "umenu",
 					"presentation_rect" : [ 12.0, 404.0, 128.0, 18.0 ],
-					"items" : "<empty>",
+					"items" : [ "womblitz_long_transient 001.wav", ",", "womblitz_long_transient 002.wav", ",", "womblitz_long_transient 003.wav", ",", "womblitz_long_transient 004.wav", ",", "womblitz_long_transient 005.wav", ",", "womblitz_long_transient 006.wav", ",", "womblitz_long_transient 007.wav", ",", "womblitz_long_transient 008.wav", ",", "womblitz_long_transient 009.wav", ",", "womblitz_long_transient 010.wav", ",", "womblitz_long_transient 011.wav", ",", "womblitz_long_transient 012.wav", ",", "womblitz_long_transient 013.wav", ",", "womblitz_long_transient 014.wav", ",", "womblitz_long_transient 015.wav", ",", "womblitz_long_transient 016.wav", ",", "womblitz_long_transient 017.wav", ",", "womblitz_long_transient 018.wav", ",", "womblitz_long_transient 019.wav", ",", "womblitz_long_transient 020.wav", ",", "womblitz_short_transient 001.wav", ",", "womblitz_short_transient 002.wav", ",", "womblitz_short_transient 003.wav", ",", "womblitz_short_transient 004.wav", ",", "womblitz_short_transient 005.wav", ",", "womblitz_short_transient 006.wav", ",", "womblitz_short_transient 007.wav", ",", "womblitz_short_transient 008.wav", ",", "womblitz_short_transient 009.wav", ",", "womblitz_short_transient 010.wav", ",", "womblitz_short_transient 011.wav", ",", "womblitz_short_transient 012.wav", ",", "womblitz_short_transient 013.wav", ",", "womblitz_short_transient 014.wav", ",", "womblitz_short_transient 015.wav", ",", "womblitz_short_transient 016.wav", ",", "womblitz_short_transient 017.wav", ",", "womblitz_short_transient 018.wav", ",", "womblitz_short_transient 019.wav", ",", "womblitz_short_transient 020.wav" ],
 					"numinlets" : 1,
 					"types" : [  ],
 					"patching_rect" : [ 12.0, 392.0, 128.0, 18.0 ],
@@ -2353,7 +2354,7 @@
 				"box" : 				{
 					"maxclass" : "umenu",
 					"presentation_rect" : [ 404.0, 128.0, 128.0, 18.0 ],
-					"items" : "<empty>",
+					"items" : [ "womblitz_long_transient 001.wav", ",", "womblitz_long_transient 002.wav", ",", "womblitz_long_transient 003.wav", ",", "womblitz_long_transient 004.wav", ",", "womblitz_long_transient 005.wav", ",", "womblitz_long_transient 006.wav", ",", "womblitz_long_transient 007.wav", ",", "womblitz_long_transient 008.wav", ",", "womblitz_long_transient 009.wav", ",", "womblitz_long_transient 010.wav", ",", "womblitz_long_transient 011.wav", ",", "womblitz_long_transient 012.wav", ",", "womblitz_long_transient 013.wav", ",", "womblitz_long_transient 014.wav", ",", "womblitz_long_transient 015.wav", ",", "womblitz_long_transient 016.wav", ",", "womblitz_long_transient 017.wav", ",", "womblitz_long_transient 018.wav", ",", "womblitz_long_transient 019.wav", ",", "womblitz_long_transient 020.wav", ",", "womblitz_short_transient 001.wav", ",", "womblitz_short_transient 002.wav", ",", "womblitz_short_transient 003.wav", ",", "womblitz_short_transient 004.wav", ",", "womblitz_short_transient 005.wav", ",", "womblitz_short_transient 006.wav", ",", "womblitz_short_transient 007.wav", ",", "womblitz_short_transient 008.wav", ",", "womblitz_short_transient 009.wav", ",", "womblitz_short_transient 010.wav", ",", "womblitz_short_transient 011.wav", ",", "womblitz_short_transient 012.wav", ",", "womblitz_short_transient 013.wav", ",", "womblitz_short_transient 014.wav", ",", "womblitz_short_transient 015.wav", ",", "womblitz_short_transient 016.wav", ",", "womblitz_short_transient 017.wav", ",", "womblitz_short_transient 018.wav", ",", "womblitz_short_transient 019.wav", ",", "womblitz_short_transient 020.wav" ],
 					"numinlets" : 1,
 					"types" : [  ],
 					"patching_rect" : [ 404.0, 108.0, 128.0, 18.0 ],
@@ -2463,7 +2464,7 @@
 				"box" : 				{
 					"maxclass" : "umenu",
 					"presentation_rect" : [ 16.0, 128.0, 128.0, 18.0 ],
-					"items" : "<empty>",
+					"items" : [ "womblitz_long_transient 001.wav", ",", "womblitz_long_transient 002.wav", ",", "womblitz_long_transient 003.wav", ",", "womblitz_long_transient 004.wav", ",", "womblitz_long_transient 005.wav", ",", "womblitz_long_transient 006.wav", ",", "womblitz_long_transient 007.wav", ",", "womblitz_long_transient 008.wav", ",", "womblitz_long_transient 009.wav", ",", "womblitz_long_transient 010.wav", ",", "womblitz_long_transient 011.wav", ",", "womblitz_long_transient 012.wav", ",", "womblitz_long_transient 013.wav", ",", "womblitz_long_transient 014.wav", ",", "womblitz_long_transient 015.wav", ",", "womblitz_long_transient 016.wav", ",", "womblitz_long_transient 017.wav", ",", "womblitz_long_transient 018.wav", ",", "womblitz_long_transient 019.wav", ",", "womblitz_long_transient 020.wav", ",", "womblitz_short_transient 001.wav", ",", "womblitz_short_transient 002.wav", ",", "womblitz_short_transient 003.wav", ",", "womblitz_short_transient 004.wav", ",", "womblitz_short_transient 005.wav", ",", "womblitz_short_transient 006.wav", ",", "womblitz_short_transient 007.wav", ",", "womblitz_short_transient 008.wav", ",", "womblitz_short_transient 009.wav", ",", "womblitz_short_transient 010.wav", ",", "womblitz_short_transient 011.wav", ",", "womblitz_short_transient 012.wav", ",", "womblitz_short_transient 013.wav", ",", "womblitz_short_transient 014.wav", ",", "womblitz_short_transient 015.wav", ",", "womblitz_short_transient 016.wav", ",", "womblitz_short_transient 017.wav", ",", "womblitz_short_transient 018.wav", ",", "womblitz_short_transient 019.wav", ",", "womblitz_short_transient 020.wav" ],
 					"numinlets" : 1,
 					"types" : [  ],
 					"patching_rect" : [ 16.0, 108.0, 128.0, 18.0 ],
@@ -3333,7 +3334,7 @@
 									"numoutlets" : 2,
 									"fontname" : "Arial",
 									"id" : "obj-8",
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "bang" ],
 									"fontsize" : 9.0
 								}
 
