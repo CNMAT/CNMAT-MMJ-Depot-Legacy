@@ -157,7 +157,7 @@
 					"patching_rect" : [ 22.0, 71.0, 500.0, 70.0 ],
 					"numoutlets" : 0,
 					"id" : "obj-10",
-					"bgcolor" : [ 0.682353, 0.682353, 0.682353, 1.0 ],
+					"bgcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"rounded" : 20
 				}
 
@@ -165,8 +165,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-8", 0 ],
-					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-7", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
@@ -174,8 +174,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-7", 0 ],
-					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-8", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
