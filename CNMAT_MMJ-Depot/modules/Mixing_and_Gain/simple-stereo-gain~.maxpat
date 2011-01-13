@@ -20,6 +20,35 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"maxclass" : "comment",
+					"text" : "default level",
+					"numinlets" : 1,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"numoutlets" : 0,
+					"fontsize" : 10.0,
+					"presentation_rect" : [ 36.0, 4.0, 64.0, 18.0 ],
+					"patching_rect" : [ 396.0, 348.0, 150.0, 18.0 ],
+					"presentation" : 1,
+					"id" : "obj-28",
+					"fontname" : "Arial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"presentation_rect" : [ 4.0, 4.0, 16.0, 16.0 ],
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 356.0, 352.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"id" : "obj-26"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"hidden" : 1,
@@ -39,7 +68,7 @@
 					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"numoutlets" : 1,
 					"fontsize" : 10.0,
-					"presentation_rect" : [ 4.0, 124.0, 96.0, 16.0 ],
+					"presentation_rect" : [ 4.0, 144.0, 96.0, 16.0 ],
 					"outlettype" : [ "" ],
 					"bgcolor2" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"patching_rect" : [ 68.0, 248.0, 96.0, 16.0 ],
@@ -112,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"fontsize" : 10.0,
-					"presentation_rect" : [ 4.0, 144.0, 96.0, 16.0 ],
+					"presentation_rect" : [ 4.0, 164.0, 96.0, 16.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 268.0, 96.0, 16.0 ],
 					"presentation" : 1,
@@ -132,7 +161,7 @@
 					"coldcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"overloadcolor" : [ 1.0, 0.003922, 0.003922, 1.0 ],
 					"bordercolor" : [ 0.756863, 0.733333, 0.733333, 0.854902 ],
-					"presentation_rect" : [ 4.0, 164.0, 58.0, 12.0 ],
+					"presentation_rect" : [ 4.0, 184.0, 58.0, 12.0 ],
 					"outlettype" : [ "float" ],
 					"tepidcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"patching_rect" : [ 68.0, 288.0, 58.0, 12.0 ],
@@ -299,7 +328,7 @@
 					"maxclass" : "meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"presentation_rect" : [ 84.0, 4.0, 12.0, 116.0 ],
+					"presentation_rect" : [ 84.0, 24.0, 12.0, 116.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 148.0, 116.0, 12.0, 116.0 ],
 					"presentation" : 1,
@@ -312,7 +341,7 @@
 					"maxclass" : "meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 12.0, 116.0 ],
+					"presentation_rect" : [ 4.0, 24.0, 12.0, 116.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 68.0, 116.0, 12.0, 116.0 ],
 					"presentation" : 1,
@@ -368,7 +397,7 @@
 					"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"numoutlets" : 1,
 					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-					"presentation_rect" : [ 44.0, 4.0, 12.0, 116.0 ],
+					"presentation_rect" : [ 44.0, 24.0, 12.0, 116.0 ],
 					"outlettype" : [ "" ],
 					"size" : 158.0,
 					"patching_rect" : [ 108.0, 116.0, 12.0, 116.0 ],
@@ -385,11 +414,9 @@
 					"bgcolor" : [ 0.352941, 0.443137, 0.443137, 1.0 ],
 					"numoutlets" : 1,
 					"fontsize" : 10.0,
-					"presentation_rect" : [ 68.0, 164.0, 28.0, 16.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.0, 288.0, 28.0, 16.0 ],
+					"patching_rect" : [ 356.0, 376.0, 28.0, 16.0 ],
 					"gradient" : 0,
-					"presentation" : 1,
 					"id" : "obj-30",
 					"fontname" : "Arial",
 					"textcolor" : [ 0.92549, 0.882353, 0.866667, 1.0 ]
@@ -404,7 +431,7 @@
 					"numoutlets" : 2,
 					"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.380392, 0.392157, 0.431373, 1.0 ],
-					"presentation_rect" : [ 60.0, 4.0, 20.0, 116.0 ],
+					"presentation_rect" : [ 60.0, 24.0, 20.0, 116.0 ],
 					"outlettype" : [ "signal", "int" ],
 					"patching_rect" : [ 124.0, 116.0, 20.0, 116.0 ],
 					"presentation" : 1,
@@ -420,7 +447,7 @@
 					"numoutlets" : 2,
 					"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.380392, 0.392157, 0.431373, 1.0 ],
-					"presentation_rect" : [ 20.0, 4.0, 20.0, 116.0 ],
+					"presentation_rect" : [ 20.0, 24.0, 20.0, 116.0 ],
 					"outlettype" : [ "signal", "int" ],
 					"patching_rect" : [ 84.0, 116.0, 20.0, 116.0 ],
 					"presentation" : 1,
@@ -448,6 +475,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"source" : [ "obj-26", 0 ],
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"source" : [ "obj-14", 0 ],
 					"destination" : [ "obj-13", 0 ],
