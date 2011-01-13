@@ -64,12 +64,12 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "route bang list float",
+					"text" : "route bang list",
 					"numinlets" : 1,
-					"numoutlets" : 4,
+					"numoutlets" : 3,
 					"fontsize" : 9.0,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 44.0, 76.0, 87.0, 17.0 ],
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 44.0, 76.0, 67.0, 17.0 ],
 					"id" : "obj-3",
 					"fontname" : "Arial"
 				}
@@ -239,17 +239,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-3", 1 ],
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-3", 2 ],
-					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-10", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
@@ -266,8 +257,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-10", 0 ],
-					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-3", 2 ],
+					"destination" : [ "obj-4", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-3", 1 ],
+					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
