@@ -62,14 +62,14 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "message",
-					"text" : "audio on",
+					"text" : "audio off",
 					"numinlets" : 2,
-					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"numoutlets" : 1,
 					"fontsize" : 10.0,
 					"presentation_rect" : [ 2.0, 142.0, 96.0, 16.0 ],
 					"outlettype" : [ "" ],
-					"bgcolor2" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bgcolor2" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"patching_rect" : [ 68.0, 248.0, 96.0, 16.0 ],
 					"presentation" : 1,
 					"id" : "obj-22",
@@ -138,12 +138,12 @@
 					"maxclass" : "message",
 					"text" : "dsp status window",
 					"numinlets" : 2,
-					"bgcolor" : [ 0.356863, 0.356863, 0.356863, 0.0 ],
+					"bgcolor" : [ 0.341176, 0.341176, 0.341176, 1.0 ],
 					"numoutlets" : 1,
 					"fontsize" : 8.0,
 					"presentation_rect" : [ 1.862764, 172.0, 96.0, 14.0 ],
 					"outlettype" : [ "" ],
-					"bgcolor2" : [ 0.356863, 0.356863, 0.356863, 0.0 ],
+					"bgcolor2" : [ 0.341176, 0.341176, 0.341176, 1.0 ],
 					"patching_rect" : [ 68.0, 268.0, 79.0, 14.0 ],
 					"presentation" : 1,
 					"id" : "obj-33",
@@ -191,7 +191,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "message",
-					"text" : "set audio on, bgcolor 1. 0. 0. 1., bgcolor2 1. 0. 0. 1.",
+					"text" : "set audio off, bgcolor 1. 0. 0. 1., bgcolor2 1. 0. 0. 1.",
 					"numinlets" : 2,
 					"hidden" : 1,
 					"numoutlets" : 1,
@@ -206,7 +206,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "message",
-					"text" : "set audio off, bgcolor 0. 1. 0. 1., bgcolor2 0. 1. 0. 1.",
+					"text" : "set audio on, bgcolor 0. 1. 0. 1., bgcolor2 0. 1. 0. 1.",
 					"numinlets" : 2,
 					"hidden" : 1,
 					"numoutlets" : 1,
