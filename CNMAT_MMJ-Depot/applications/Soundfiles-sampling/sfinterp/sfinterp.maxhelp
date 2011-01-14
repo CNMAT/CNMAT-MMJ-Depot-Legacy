@@ -36,7 +36,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "loadmess 0",
+					"text" : "loadmess 1",
 					"fontsize" : 12.0,
 					"patching_rect" : [ 420.0, 148.0, 72.0, 20.0 ],
 					"numinlets" : 1,
@@ -3713,13 +3713,13 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "* NOTES: \nEach sound has a color.\nWhen dragging your cursor in the space, the loudness of that color is  based on how close you are to the middle of the color's circle.  The further you drag away from the middle, the softer the sound will be.  If you move into black away from a sound, it will become inaudible.  If you move the presets so that they overlap each other, consequentially you'll hear a mix of these sounds based on the proportion of colors you see in the space.",
-									"linecount" : 8,
-									"presentation_linecount" : 8,
+									"text" : "* NOTES: \nYou may only use ONE instance of a soundfile in a given space layout.  Choosing a second instance will override the first.\nEach sound has a color.\nWhen dragging your cursor in the space, the loudness of that color is  based on how close you are to the middle of the color's circle.  The further you drag away from the middle, the softer the sound will be.  If you move into black away from a sound, it will become inaudible.  If you move the presets so that they overlap each other, consequentially you'll hear a mix of these sounds based on the proportion of colors you see in the space.",
+									"linecount" : 9,
+									"presentation_linecount" : 10,
 									"fontsize" : 16.0,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"presentation_rect" : [ 866.0, 426.0, 555.0, 154.0 ],
-									"patching_rect" : [ 8.0, 452.0, 586.0, 154.0 ],
+									"presentation_rect" : [ 866.0, 426.0, 555.0, 190.0 ],
+									"patching_rect" : [ 8.0, 452.0, 785.0, 172.0 ],
 									"numinlets" : 1,
 									"presentation" : 1,
 									"id" : "obj-6",
@@ -5841,7 +5841,7 @@
 					"bordercolor" : [ 0.764706, 0.784314, 0.807843, 1.0 ],
 					"border" : 1.0,
 					"types" : [  ],
-					"patching_rect" : [ 524.0, 4.0, 124.0, 72.467529 ],
+					"patching_rect" : [ 468.0, 16.0, 124.0, 72.467529 ],
 					"numinlets" : 1,
 					"presentation" : 1,
 					"id" : "obj-2",
