@@ -916,7 +916,7 @@
 					"maxclass" : "umenu",
 					"fontsize" : 12.0,
 					"presentation_rect" : [ 768.0, 196.0, 204.0, 20.0 ],
-					"items" : [ "select", "a", "soundfile", ",", "rope_swishes_01.wav", ",", "swish_small_stick_x5_2.wav", ",", "swish_x_10.wav", ",", "swish_x_8_heavy.wav" ],
+					"items" : "<empty>",
 					"types" : [  ],
 					"patching_rect" : [ 988.0, 420.0, 100.0, 20.0 ],
 					"numinlets" : 1,
@@ -2042,7 +2042,7 @@
 					"fontsize" : 12.0,
 					"bgcolor" : [ 0.576471, 0.443137, 0.443137, 1.0 ],
 					"presentation_rect" : [ 764.0, 332.0, 212.0, 20.0 ],
-					"items" : "space",
+					"items" : "<empty>",
 					"arrowcolor" : [ 0.12549, 0.12549, 0.12549, 1.0 ],
 					"types" : [  ],
 					"patching_rect" : [ 672.0, 128.0, 98.0, 20.0 ],
@@ -3624,7 +3624,7 @@
 					"numoutlets" : 5,
 					"rbf" : 0,
 					"outlettype" : [ "", "", "", "", "" ],
-					"spaces" : [ "space", 3, 0.5, 0.5, "null", 0.0, 0.0, 0.0, 1.0, -0.666667, 0.125886, 1.0, 0.001, 1, 0.549435, 0.610169, "rope_swishes_01.wav", 0.75, 0.5625, 0.1875, 0.0, 3.841327, 113917408.0, 0.097048, 0.321839, 0, 0.412429, 0.580508, "swish_small_stick_x5_2.wav", 0.75, 0.75, 0.1875, 0.0, 2.749081, 453008.5, 0.069769, 0.372544, 0 ]
+					"spaces" : [ "space", 0 ]
 				}
 
 			}
