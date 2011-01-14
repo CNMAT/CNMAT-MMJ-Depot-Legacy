@@ -22,157 +22,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "p set_tog",
+					"text" : "loadmess 0",
 					"fontsize" : 12.0,
-					"patching_rect" : [ 352.0, 344.0, 60.0, 20.0 ],
+					"patching_rect" : [ 420.0, 148.0, 72.0, 20.0 ],
 					"numinlets" : 1,
-					"id" : "obj-76",
+					"id" : "obj-29",
 					"fontname" : "Arial",
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"rect" : [ 25.0, 69.0, 774.0, 707.0 ],
-						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 774.0, 707.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
-						"openinpresentation" : 0,
-						"default_fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 0,
-						"gridsize" : [ 4.0, 4.0 ],
-						"gridsnaponopen" : 0,
-						"toolbarvisible" : 1,
-						"boxanimatetime" : 200,
-						"imprint" : 0,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"maxclass" : "newobj",
-									"text" : "onebang 1",
-									"fontsize" : 12.0,
-									"patching_rect" : [ 52.0, 152.0, 67.0, 20.0 ],
-									"numinlets" : 2,
-									"id" : "obj-59",
-									"fontname" : "Arial",
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "bang" ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"maxclass" : "newobj",
-									"text" : "route mousedown bang",
-									"fontsize" : 12.0,
-									"patching_rect" : [ 52.0, 124.0, 136.0, 20.0 ],
-									"numinlets" : 1,
-									"id" : "obj-49",
-									"fontname" : "Arial",
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"maxclass" : "newobj",
-									"text" : "loadmess set 1",
-									"fontsize" : 12.0,
-									"patching_rect" : [ 52.0, 220.0, 92.0, 20.0 ],
-									"numinlets" : 1,
-									"id" : "obj-48",
-									"fontname" : "Arial",
-									"numoutlets" : 1,
-									"outlettype" : [ "" ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"maxclass" : "inlet",
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ],
-									"numinlets" : 0,
-									"id" : "obj-66",
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"comment" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"maxclass" : "outlet",
-									"patching_rect" : [ 162.0, 573.0, 25.0, 25.0 ],
-									"numinlets" : 1,
-									"id" : "obj-73",
-									"numoutlets" : 0,
-									"comment" : ""
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"source" : [ "obj-49", 1 ],
-									"destination" : [ "obj-59", 1 ],
-									"hidden" : 0,
-									"midpoints" : [  ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"source" : [ "obj-66", 0 ],
-									"destination" : [ "obj-49", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"source" : [ "obj-49", 0 ],
-									"destination" : [ "obj-59", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"source" : [ "obj-59", 0 ],
-									"destination" : [ "obj-48", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"source" : [ "obj-48", 0 ],
-									"destination" : [ "obj-73", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ]
-								}
-
-							}
- ]
-					}
-,
-					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
-						"fontface" : 0
-					}
-
+					"outlettype" : [ "" ]
 				}
 
 			}
@@ -443,7 +300,7 @@
 					"text" : "< looping on/off",
 					"fontsize" : 12.0,
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"presentation_rect" : [ 800.0, 260.0, 173.0, 20.0 ],
+					"presentation_rect" : [ 811.0, 262.0, 173.0, 20.0 ],
 					"patching_rect" : [ 72.0, 940.0, 172.0, 20.0 ],
 					"numinlets" : 1,
 					"presentation" : 1,
@@ -473,7 +330,7 @@
 				"box" : 				{
 					"maxclass" : "toggle",
 					"presentation_rect" : [ 768.0, 256.0, 32.0, 32.0 ],
-					"patching_rect" : [ 352.0, 372.0, 24.0, 24.0 ],
+					"patching_rect" : [ 420.0, 176.0, 24.0, 24.0 ],
 					"numinlets" : 1,
 					"presentation" : 1,
 					"id" : "obj-33",
@@ -1045,7 +902,7 @@
 					"maxclass" : "umenu",
 					"fontsize" : 12.0,
 					"presentation_rect" : [ 768.0, 196.0, 204.0, 20.0 ],
-					"items" : [ "select", "a", "soundfile", ",", "noise.01.wav", ",", "noise.02.wav" ],
+					"items" : "<empty>",
 					"types" : [  ],
 					"patching_rect" : [ 988.0, 420.0, 100.0, 20.0 ],
 					"numinlets" : 1,
@@ -2171,7 +2028,7 @@
 					"fontsize" : 12.0,
 					"bgcolor" : [ 0.576471, 0.443137, 0.443137, 1.0 ],
 					"presentation_rect" : [ 764.0, 332.0, 212.0, 20.0 ],
-					"items" : "space",
+					"items" : "<empty>",
 					"arrowcolor" : [ 0.12549, 0.12549, 0.12549, 1.0 ],
 					"types" : [  ],
 					"patching_rect" : [ 672.0, 128.0, 98.0, 20.0 ],
@@ -3753,7 +3610,7 @@
 					"numoutlets" : 5,
 					"rbf" : 0,
 					"outlettype" : [ "", "", "", "", "" ],
-					"spaces" : [ "space", 3, 0.5, 0.5, "null", 0.0, 0.0, 0.0, 1.0, -0.666667, 0.125886, 1.0, 0.001, 1, 0.451977, 0.676554, "noise.01.wav", 0.75, 0.5625, 0.1875, 0.0, 3.394725, 9656647.0, 0.081836, 0.317756, 0, 0.742938, 0.388418, "noise.02.wav", 0.75, 0.75, 0.1875, 0.0, 2.0, 2005.055786, 0.02, 0.2, 0 ]
+					"spaces" : [ "space", 1, 0.5, 0.5, "null", 0.0, 0.0, 0.0, 1.0, -0.666667, 0.125886, 1.0, 0.001, 1 ]
 				}
 
 			}
@@ -3804,9 +3661,9 @@
 					"fontface" : 1,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 35.0, 68.0, 745.0, 639.0 ],
+						"rect" : [ 35.0, 68.0, 807.0, 654.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 35.0, 68.0, 745.0, 639.0 ],
+						"defrect" : [ 35.0, 68.0, 807.0, 654.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -3842,13 +3699,13 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "* NOTES: \n\nEach sound has a color.\nWhen dragging your cursor in the space, the loudness of that color is  based on how close you are to the middle of the color's circle.  The further you drag away from the middle, the softer the sound will be.  If you move into black away from a sound, it will become inaudible.  If you move the presets so that they overlap each other, consequentially you'll hear a mix of these sounds based on the proportion of colors you see in the space.",
-									"linecount" : 9,
-									"presentation_linecount" : 9,
+									"text" : "* NOTES: \nEach sound has a color.\nWhen dragging your cursor in the space, the loudness of that color is  based on how close you are to the middle of the color's circle.  The further you drag away from the middle, the softer the sound will be.  If you move into black away from a sound, it will become inaudible.  If you move the presets so that they overlap each other, consequentially you'll hear a mix of these sounds based on the proportion of colors you see in the space.",
+									"linecount" : 8,
+									"presentation_linecount" : 8,
 									"fontsize" : 16.0,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"presentation_rect" : [ 866.0, 426.0, 555.0, 172.0 ],
-									"patching_rect" : [ 8.0, 440.0, 586.0, 172.0 ],
+									"presentation_rect" : [ 866.0, 426.0, 555.0, 154.0 ],
+									"patching_rect" : [ 8.0, 452.0, 586.0, 154.0 ],
 									"numinlets" : 1,
 									"presentation" : 1,
 									"id" : "obj-6",
@@ -3939,13 +3796,13 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "1. drag a folder with soundfiles from your computer to the drop area\n2. select soundfiles from the menu to audition, then click \"audition\" to preview\n3. select \"place\", then click in the 2-D space to add the representation for the selected soundfile to the mix.\n2. MANIPULATE A SPACE: hold shift and click-drag inner and outer rings of files to place in xy box\n3. AUDIO ON: click \"start\" and set to desired volume\n4. PLAY: click drag in space to hear interpolated playback of soundfile levels\n5. PAN: map panning for each soundfile by using panning interface: \n   a) set voice\n   b) set panning for voice\n   c) set output channel for voice\n6. RECORD: begin recording by clicking on the \"RECORD\" toggle.  click-drag in the xy box; click the toggle again to end the recording.\n   a) hit play to hear what you've recorded (or stop)\n   b) hit saveas to write the recording to disk with a filename\n   c) hit read to read in a previously saved xy recording\n7. SAVE SPACE CONFIG: save and/or recall presets by clicking \"save\"/\"load\"",
-									"linecount" : 17,
+									"text" : "1. drag a folder with soundfiles from your computer to the drop area\n2. select soundfiles from the menu to audition, then click \"audition\" to preview\n3. select \"place\", then click in the 2-D space to add the representation for the selected soundfile to the mix.\n2. MANIPULATE A SPACE: hold shift and click-drag inner and outer rings of files to place in xy box\n3. AUDIO ON: click \"start\" and set to desired volume\n4. PLAY: turn looping on, then click drag in space to hear interpolated playback of soundfile levels\n5. PAN: map panning for each soundfile by using panning interface: \n   a) set voice\n   b) set panning for voice\n   c) set output channel for voice\n6. RECORD: begin recording by clicking on the \"RECORD\" toggle.  click-drag in the xy box; click the toggle again to end the recording.\n   a) hit play to hear what you've recorded (or stop)\n   b) hit saveas to write the recording to disk with a filename\n   c) hit read to read in a previously saved xy recording\n7. SAVE SPACE CONFIG: save and/or recall presets by clicking \"save\"/\"load\"",
+									"linecount" : 16,
 									"presentation_linecount" : 20,
 									"fontsize" : 16.0,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"presentation_rect" : [ 851.0, 411.0, 554.0, 374.0 ],
-									"patching_rect" : [ 8.0, 128.0, 715.0, 319.0 ],
+									"presentation_rect" : [ 851.0, 411.0, 555.0, 374.0 ],
+									"patching_rect" : [ 8.0, 128.0, 771.0, 301.0 ],
 									"numinlets" : 1,
 									"presentation" : 1,
 									"id" : "obj-61",
@@ -6102,33 +5959,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-34", 1 ],
-					"destination" : [ "obj-76", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-4", 1 ],
-					"destination" : [ "obj-76", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-76", 0 ],
-					"destination" : [ "obj-33", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"source" : [ "obj-75", 0 ],
 					"destination" : [ "obj-144", 0 ],
 					"hidden" : 0,
@@ -6835,6 +6665,15 @@
 				"patchline" : 				{
 					"source" : [ "obj-32", 0 ],
 					"destination" : [ "obj-67", 2 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-29", 0 ],
+					"destination" : [ "obj-33", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
