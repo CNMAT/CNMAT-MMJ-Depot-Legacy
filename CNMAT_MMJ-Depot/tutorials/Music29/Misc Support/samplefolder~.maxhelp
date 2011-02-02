@@ -20,6 +20,24 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "coll allofthem",
+					"outlettype" : [ "", "", "", "" ],
+					"fontname" : "Arial",
+					"patching_rect" : [ 348.0, 140.0, 69.0, 18.0 ],
+					"fontsize" : 10.0,
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"id" : "obj-6",
+					"saved_object_attributes" : 					{
+						"embed" : 0
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "lubow™ 2011",
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -128,10 +146,10 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "create_scripts",
-					"text" : "samplefolder~ @append 1",
+					"text" : "samplefolder~ @append 1 @name allofthem",
 					"outlettype" : [ "", "" ],
 					"fontname" : "Arial",
-					"patching_rect" : [ 52.0, 116.0, 144.0, 19.0 ],
+					"patching_rect" : [ 52.0, 116.0, 236.0, 19.0 ],
 					"fontsize" : 11.297773,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -158,8 +176,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-14", 0 ],
-					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-24", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
@@ -167,7 +185,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-5", 0 ],
+					"source" : [ "obj-15", 0 ],
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
@@ -185,7 +203,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-15", 0 ],
+					"source" : [ "obj-5", 0 ],
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
@@ -194,8 +212,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-24", 0 ],
-					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-14", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
