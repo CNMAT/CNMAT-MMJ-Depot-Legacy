@@ -88,10 +88,10 @@
 					"id" : "obj-7",
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 39.0, 82.0, 996.0, 273.0 ],
+						"rect" : [ 39.0, 82.0, 1025.0, 513.0 ],
 						"bgcolor" : [ 0.631373, 0.756863, 0.745098, 1.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 39.0, 82.0, 996.0, 273.0 ],
+						"defrect" : [ 39.0, 82.0, 1025.0, 513.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -124,11 +124,11 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "• Drop a folder of soundfiles on the drop area\n• Experiment with the various parameters of each soundfile player (transposition, gain, loop start/end, etc)\n\n• If you like what you are hearing, you can record it with the recorder section.  \n1. simply click \"start record\" to start.  you will be presented with a dialog to name your soundfile on disk.  after you name the file and click \"ok\", your recording has begun.\n2. to stop click \"stop record\"  After you have made the recording, you can use the start/stop playback buttons to hear the actual file that you created on disk.\n*it's recommended to turn snap to zero on for ALL players, as to avoid clicks\n",
-									"linecount" : 9,
+									"text" : "• Drop a folder of soundfiles on the drop area (you can drop multiple different folders)\n• Experiment with the various parameters of each soundfile player (transposition, gain, loop start/end, etc)\n• If you like what you are hearing, you can record it with the recorder section.  \n        1. simply click \"start record\" to start.  you will be presented with a dialog to name your soundfile \n        on disk.  after you name the file and click \"ok\", your recording has begun.\n        2. to stop click \"stop record\"  After you have made the recording, you can use the \n        start/stop playback buttons to hear the actual file that you created on disk.\n• To create a score, double-click on the MUSIQUE-CONCRETE-SCORE box.  \n        1. Set the amount of time (in MS) that you would like your score to be\n        2. Set the number of presets - This must match the number you've stored\n        3. Click and drag to make new dots that represent the presets that you have made- \n        you can drag freely within the grid\n        4. When finished with your score, first hit the \"main playback\" button, \n        then click on the button (play) to hear your score.\n\n*it's recommended to turn snap to zero on for ALL players, as to avoid clicks\n*If you would like to start fresh, click the \"clear\" button at the top left",
+									"linecount" : 17,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : "Arial",
-									"patching_rect" : [ 8.0, 44.0, 967.0, 216.0 ],
+									"patching_rect" : [ 8.0, 56.0, 998.0, 402.0 ],
 									"fontface" : 2,
 									"fontsize" : 20.24342,
 									"numinlets" : 1,
@@ -921,7 +921,7 @@
 									"minor_x_tics" : [  ],
 									"showdurations" : 0,
 									"textcolor" : [  ],
-									"points" : [ 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, "0", 11, 0.0, 1.0, 1.0, 0.07538, 2.0, 0.666667, 0.11307, 3.0, 0.857143, 0.201014, 2.0, 0.818182, 0.33921, 1.0, 1.0, 0.439717, 2.0, 1.0, 0.477407, 1.0, 0.5, 0.628167, 3.0, 0.8, 0.690984, 1.0, 1.0, 0.766364, 4.0, 0.611111, 0.992504, 2.0, 1.0 ],
+									"points" : [ 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, "0", 0 ],
 									"major_x_tics" : [  ],
 									"major_y_grid_height" : 1.0,
 									"gridColor" : [ 0.0, 0.0, 0.0, 0.137255 ],
@@ -4669,6 +4669,26 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"source" : [ "obj-24", 0 ],
+					"destination" : [ "obj-31", 0 ],
+					"hidden" : 0,
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"midpoints" : [ 1097.5, 467.0, 1082.5, 467.0, 1082.5, 348.0, 1097.5, 348.0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-31", 0 ],
+					"destination" : [ "obj-34", 0 ],
+					"hidden" : 0,
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"source" : [ "obj-29", 0 ],
 					"destination" : [ "obj-69", 0 ],
 					"hidden" : 0,
@@ -4680,16 +4700,6 @@
 , 			{
 				"patchline" : 				{
 					"source" : [ "obj-32", 0 ],
-					"destination" : [ "obj-34", 0 ],
-					"hidden" : 0,
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-31", 0 ],
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 0,
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -4734,16 +4744,6 @@
 					"hidden" : 0,
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-24", 0 ],
-					"destination" : [ "obj-31", 0 ],
-					"hidden" : 0,
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"midpoints" : [ 1097.5, 467.0, 1082.5, 467.0, 1082.5, 348.0, 1097.5, 348.0 ]
 				}
 
 			}
