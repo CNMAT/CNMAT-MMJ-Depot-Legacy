@@ -97,7 +97,7 @@
 				"box" : 				{
 					"maxclass" : "bpatcher",
 					"presentation_rect" : [ 104.0, 640.0, 296.0, 86.0 ],
-					"args" : [ "audition-and-decide-II", "0.2a", "Campion & Lubow", "audition-and-decide-II", 6666 ],
+					"args" : [ "audition-and-decide-II", "0.3a", "Campion & Lubow", "audition-and-decide-II", 6666 ],
 					"numinlets" : 0,
 					"patching_rect" : [ 876.0, 612.0, 297.0, 83.0 ],
 					"presentation" : 1,
