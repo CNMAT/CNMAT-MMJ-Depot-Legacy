@@ -49,9 +49,9 @@
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 102.0, 601.0, 385.0, 50.0 ],
+						"rect" : [ 270.0, 693.0, 385.0, 50.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 102.0, 601.0, 385.0, 50.0 ],
+						"defrect" : [ 270.0, 693.0, 385.0, 50.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -183,7 +183,7 @@
 									"fontsize" : 18.0,
 									"arrowcolor" : [ 0.792157, 0.086275, 0.007843, 1.0 ],
 									"presentation_rect" : [ 92.0, 8.0, 153.0, 27.0 ],
-									"items" : "<empty>",
+									"items" : [ "zipper.aif", ",", "woodblock_hard-mallet.aif" ],
 									"types" : [  ],
 									"numinlets" : 1,
 									"patching_rect" : [ 152.0, 144.0, 153.0, 27.0 ],
@@ -4046,7 +4046,7 @@
 					"maxclass" : "umenu",
 					"fontsize" : 18.0,
 					"arrowcolor" : [ 0.792157, 0.086275, 0.007843, 1.0 ],
-					"items" : "<empty>",
+					"items" : [ "zipper.aif", ",", "woodblock_hard-mallet.aif" ],
 					"types" : [  ],
 					"numinlets" : 1,
 					"patching_rect" : [ 476.0, 576.0, 100.0, 27.0 ],
@@ -4079,17 +4079,19 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
+					"text" : "Current Soundfile: zipper.aif",
+					"linecount" : 3,
 					"fontsize" : 15.0,
-					"frgb" : [ 0.239216, 0.282353, 0.282353, 1.0 ],
+					"frgb" : [ 0.741176, 0.92549, 0.92549, 1.0 ],
 					"presentation_rect" : [ 100.0, 536.0, 1160.0, 24.0 ],
 					"numinlets" : 1,
-					"patching_rect" : [ 172.0, 612.0, 109.0, 24.0 ],
+					"patching_rect" : [ 172.0, 612.0, 109.0, 58.0 ],
 					"presentation" : 1,
 					"id" : "obj-58",
 					"fontname" : "Arial",
 					"numoutlets" : 0,
-					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"textcolor" : [ 0.239216, 0.282353, 0.282353, 1.0 ]
+					"bgcolor" : [ 0.290196, 0.286275, 0.286275, 1.0 ],
+					"textcolor" : [ 0.741176, 0.92549, 0.92549, 1.0 ]
 				}
 
 			}
@@ -4207,11 +4209,14 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
+					"text" : "Identify the ACTIVATOR (fabric, wood, metal, electronic, other), \nthe MODE OF EXCITATION (plucked, strum, struck, blown, electronic), \nand the SOURCE(metal, wood, skin, fabric, electronic, other).",
+					"linecount" : 6,
+					"presentation_linecount" : 3,
 					"fontsize" : 12.0,
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"presentation_rect" : [ 4.0, 112.0, 1256.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 112.0, 1256.0, 48.0 ],
 					"numinlets" : 1,
-					"patching_rect" : [ 732.0, 220.0, 258.0, 20.0 ],
+					"patching_rect" : [ 732.0, 220.0, 258.0, 89.0 ],
 					"presentation" : 1,
 					"id" : "obj-11",
 					"fontname" : "Arial",
