@@ -46,12 +46,12 @@
 					"id" : "obj-26",
 					"fontname" : "Arial",
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 270.0, 693.0, 385.0, 50.0 ],
+						"rect" : [ 180.0, 232.0, 394.0, 46.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 270.0, 693.0, 385.0, 50.0 ],
+						"defrect" : [ 180.0, 232.0, 394.0, 46.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -67,6 +67,20 @@
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"text" : "sprintf /play/%d",
+									"fontsize" : 10.0,
+									"numinlets" : 1,
+									"patching_rect" : [ 336.0, 256.0, 79.0, 18.0 ],
+									"id" : "obj-24",
+									"fontname" : "Arial",
+									"numoutlets" : 1,
+									"outlettype" : [ "" ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"maxclass" : "outlet",
 									"numinlets" : 1,
@@ -183,7 +197,7 @@
 									"fontsize" : 18.0,
 									"arrowcolor" : [ 0.792157, 0.086275, 0.007843, 1.0 ],
 									"presentation_rect" : [ 92.0, 8.0, 153.0, 27.0 ],
-									"items" : [ "zipper.aif", ",", "woodblock_hard-mallet.aif" ],
+									"items" : "<empty>",
 									"types" : [  ],
 									"numinlets" : 1,
 									"patching_rect" : [ 152.0, 144.0, 153.0, 27.0 ],
@@ -199,6 +213,24 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"source" : [ "obj-24", 0 ],
+									"destination" : [ "obj-12", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"source" : [ "obj-77", 0 ],
+									"destination" : [ "obj-24", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"source" : [ "obj-4", 0 ],
 									"destination" : [ "obj-77", 0 ],
@@ -238,15 +270,6 @@
 								"patchline" : 								{
 									"source" : [ "obj-11", 1 ],
 									"destination" : [ "obj-77", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"source" : [ "obj-77", 0 ],
-									"destination" : [ "obj-12", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ]
 								}
@@ -3711,7 +3734,7 @@
 					"maxclass" : "newobj",
 					"text" : "p auditioner",
 					"fontsize" : 10.0,
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"patching_rect" : [ 284.0, 524.0, 111.0, 18.0 ],
 					"id" : "obj-80",
 					"fontname" : "Arial",
@@ -3719,9 +3742,9 @@
 					"outlettype" : [ "signal", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 25.0, 69.0, 379.0, 351.0 ],
+						"rect" : [ 59.0, 110.0, 760.0, 372.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 379.0, 351.0 ],
+						"defrect" : [ 59.0, 110.0, 760.0, 372.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -3737,6 +3760,34 @@
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"maxclass" : "inlet",
+									"presentation_rect" : [ 416.0, 39.0, 0.0, 0.0 ],
+									"numinlets" : 0,
+									"patching_rect" : [ 416.0, 40.0, 25.0, 25.0 ],
+									"id" : "obj-6",
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"comment" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"text" : "audition-soundfiles~ 0.9 @verbose 1",
+									"fontsize" : 10.0,
+									"presentation_rect" : [ 401.0, 175.0, 0.0, 0.0 ],
+									"numinlets" : 1,
+									"patching_rect" : [ 400.0, 176.0, 173.0, 18.0 ],
+									"id" : "obj-5",
+									"fontname" : "Arial",
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "" ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"maxclass" : "newobj",
 									"text" : "t s 1",
@@ -3901,6 +3952,33 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"source" : [ "obj-22", 0 ],
+									"destination" : [ "obj-5", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"source" : [ "obj-5", 0 ],
+									"destination" : [ "obj-3", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"source" : [ "obj-6", 0 ],
+									"destination" : [ "obj-5", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"source" : [ "obj-16", 1 ],
 									"destination" : [ "obj-7", 1 ],
 									"hidden" : 0,
@@ -4046,7 +4124,7 @@
 					"maxclass" : "umenu",
 					"fontsize" : 18.0,
 					"arrowcolor" : [ 0.792157, 0.086275, 0.007843, 1.0 ],
-					"items" : [ "zipper.aif", ",", "woodblock_hard-mallet.aif" ],
+					"items" : "<empty>",
 					"types" : [  ],
 					"numinlets" : 1,
 					"patching_rect" : [ 476.0, 576.0, 100.0, 27.0 ],
@@ -4079,18 +4157,16 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "Current Soundfile: zipper.aif",
-					"linecount" : 3,
 					"fontsize" : 15.0,
 					"frgb" : [ 0.741176, 0.92549, 0.92549, 1.0 ],
 					"presentation_rect" : [ 100.0, 536.0, 1160.0, 24.0 ],
 					"numinlets" : 1,
-					"patching_rect" : [ 172.0, 612.0, 109.0, 58.0 ],
+					"patching_rect" : [ 172.0, 612.0, 109.0, 24.0 ],
 					"presentation" : 1,
 					"id" : "obj-58",
 					"fontname" : "Arial",
 					"numoutlets" : 0,
-					"bgcolor" : [ 0.290196, 0.286275, 0.286275, 1.0 ],
+					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textcolor" : [ 0.741176, 0.92549, 0.92549, 1.0 ]
 				}
 
@@ -4209,14 +4285,11 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "Identify the ACTIVATOR (fabric, wood, metal, electronic, other), \nthe MODE OF EXCITATION (plucked, strum, struck, blown, electronic), \nand the SOURCE(metal, wood, skin, fabric, electronic, other).",
-					"linecount" : 6,
-					"presentation_linecount" : 3,
 					"fontsize" : 12.0,
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"presentation_rect" : [ 4.0, 112.0, 1256.0, 48.0 ],
+					"presentation_rect" : [ 4.0, 112.0, 1256.0, 20.0 ],
 					"numinlets" : 1,
-					"patching_rect" : [ 732.0, 220.0, 258.0, 89.0 ],
+					"patching_rect" : [ 732.0, 220.0, 258.0, 20.0 ],
 					"presentation" : 1,
 					"id" : "obj-11",
 					"fontname" : "Arial",
@@ -4242,6 +4315,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"source" : [ "obj-26", 0 ],
+					"destination" : [ "obj-80", 2 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"source" : [ "obj-19", 0 ],
 					"destination" : [ "obj-26", 0 ],
@@ -4650,15 +4732,6 @@
 				"patchline" : 				{
 					"source" : [ "obj-28", 0 ],
 					"destination" : [ "obj-26", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-26", 0 ],
-					"destination" : [ "obj-24", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
