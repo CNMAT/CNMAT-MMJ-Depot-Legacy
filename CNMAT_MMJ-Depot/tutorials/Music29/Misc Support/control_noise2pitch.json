@@ -1,0 +1,101 @@
+{
+	"pattrstorage" : 	{
+		"name" : "control_noise2pitch",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"click1::mul" : [ 12 ],
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ 0.5 ],
+					"click1::bf" : [ 1 ],
+					"click2::mul" : [ 20 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ 0.5 ],
+					"click2::bf" : [ 1 ],
+					"click3::mul" : [ 12 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 1 ],
+					"click4::mul" : [ 15 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 0.5 ],
+					"click4::bf" : [ 1 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"click1::mul" : [ 3 ],
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ 0.5 ],
+					"click1::bf" : [ 30 ],
+					"click2::mul" : [ 2 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ 0.5 ],
+					"click2::bf" : [ 30 ],
+					"click3::mul" : [ 2 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 30 ],
+					"click4::mul" : [ 10 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 0.5 ],
+					"click4::bf" : [ 30 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"click1::mul" : [ 1.0 ],
+					"click1::amp" : [ 1.0002 ],
+					"click1::pan" : [ -1 ],
+					"click1::bf" : [ 1 ],
+					"click2::mul" : [ 1.0 ],
+					"click2::amp" : [ 1.0002 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 2 ],
+					"click3::mul" : [ 1.0 ],
+					"click3::amp" : [ 1.0002 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 3 ],
+					"click4::mul" : [ 1.0 ],
+					"click4::amp" : [ 1.0002 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 4 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"click1::mul" : [ 1 ],
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ 0.5 ],
+					"click1::bf" : [ 120 ],
+					"click2::mul" : [ 2 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ 0.5 ],
+					"click2::bf" : [ 120 ],
+					"click3::mul" : [ 2 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 120 ],
+					"click4::mul" : [ 10 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 0.5 ],
+					"click4::bf" : [ 120 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
