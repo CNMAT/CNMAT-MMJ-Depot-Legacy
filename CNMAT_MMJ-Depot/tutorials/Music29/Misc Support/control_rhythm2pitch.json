@@ -5,22 +5,22 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"click1::mul" : [ 12 ],
-					"click1::amp" : [ 1.0 ],
-					"click1::pan" : [ 0.5 ],
-					"click1::bf" : [ 1 ],
-					"click2::mul" : [ 20 ],
-					"click2::amp" : [ 1.0 ],
-					"click2::pan" : [ 0.5 ],
-					"click2::bf" : [ 1 ],
-					"click3::mul" : [ 12 ],
-					"click3::amp" : [ 1.0 ],
-					"click3::pan" : [ 0.5 ],
-					"click3::bf" : [ 1 ],
-					"click4::mul" : [ 15 ],
-					"click4::amp" : [ 1.0 ],
-					"click4::pan" : [ 0.5 ],
-					"click4::bf" : [ 1 ]
+					"click1::mul" : [ 1.0 ],
+					"click1::amp" : [ 0.0 ],
+					"click1::pan" : [ 0.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::mul" : [ 1.0 ],
+					"click2::amp" : [ 0.0 ],
+					"click2::pan" : [ 0.0 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::mul" : [ 1.0 ],
+					"click3::amp" : [ 0.0 ],
+					"click3::pan" : [ 0.0 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::mul" : [ 1.0 ],
+					"click4::amp" : [ 0.0 ],
+					"click4::pan" : [ 0.0 ],
+					"click4::bf" : [ 8.0 ]
 				}
 
 			}
@@ -28,22 +28,22 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"click1::mul" : [ 3 ],
-					"click1::amp" : [ 1.0 ],
-					"click1::pan" : [ 0.5 ],
-					"click1::bf" : [ 30 ],
-					"click2::mul" : [ 2 ],
-					"click2::amp" : [ 1.0 ],
-					"click2::pan" : [ 0.5 ],
-					"click2::bf" : [ 30 ],
-					"click3::mul" : [ 2 ],
-					"click3::amp" : [ 1.0 ],
-					"click3::pan" : [ 0.5 ],
-					"click3::bf" : [ 30 ],
-					"click4::mul" : [ 10 ],
-					"click4::amp" : [ 1.0 ],
-					"click4::pan" : [ 0.5 ],
-					"click4::bf" : [ 30 ]
+					"click1::mul" : [ 2.0 ],
+					"click1::amp" : [ 0.0 ],
+					"click1::pan" : [ 0.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::mul" : [ 2.0 ],
+					"click2::amp" : [ 0.0 ],
+					"click2::pan" : [ 0.0 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::mul" : [ 2.0 ],
+					"click3::amp" : [ 0.0 ],
+					"click3::pan" : [ 0.0 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::mul" : [ 2.0 ],
+					"click4::amp" : [ 0.0 ],
+					"click4::pan" : [ 0.0 ],
+					"click4::bf" : [ 8.0 ]
 				}
 
 			}
@@ -51,22 +51,22 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"click1::mul" : [ 1.0 ],
-					"click1::amp" : [ 1.0002 ],
-					"click1::pan" : [ -1 ],
-					"click1::bf" : [ 1 ],
-					"click2::mul" : [ 1.0 ],
-					"click2::amp" : [ 1.0002 ],
-					"click2::pan" : [ -0.5 ],
-					"click2::bf" : [ 2 ],
-					"click3::mul" : [ 1.0 ],
-					"click3::amp" : [ 1.0002 ],
-					"click3::pan" : [ 0.5 ],
-					"click3::bf" : [ 3 ],
-					"click4::mul" : [ 1.0 ],
-					"click4::amp" : [ 1.0002 ],
-					"click4::pan" : [ 1.0 ],
-					"click4::bf" : [ 4 ]
+					"click1::mul" : [ 4.0 ],
+					"click1::amp" : [ 0.0 ],
+					"click1::pan" : [ 0.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::mul" : [ 4.0 ],
+					"click2::amp" : [ 0.0 ],
+					"click2::pan" : [ 0.0 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::mul" : [ 4.0 ],
+					"click3::amp" : [ 0.0 ],
+					"click3::pan" : [ 0.0 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::mul" : [ 4.0 ],
+					"click4::amp" : [ 0.0 ],
+					"click4::pan" : [ 0.0 ],
+					"click4::bf" : [ 8.0 ]
 				}
 
 			}
@@ -74,22 +74,137 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
-					"click1::mul" : [ 1 ],
-					"click1::amp" : [ 1.0 ],
-					"click1::pan" : [ 0.5 ],
-					"click1::bf" : [ 120 ],
-					"click2::mul" : [ 2 ],
-					"click2::amp" : [ 1.0 ],
-					"click2::pan" : [ 0.5 ],
-					"click2::bf" : [ 120 ],
-					"click3::mul" : [ 2 ],
-					"click3::amp" : [ 1.0 ],
-					"click3::pan" : [ 0.5 ],
-					"click3::bf" : [ 120 ],
-					"click4::mul" : [ 10 ],
-					"click4::amp" : [ 1.0 ],
-					"click4::pan" : [ 0.5 ],
-					"click4::bf" : [ 120 ]
+					"click1::mul" : [ 8.0 ],
+					"click1::amp" : [ 0.0 ],
+					"click1::pan" : [ 0.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::mul" : [ 8.0 ],
+					"click2::amp" : [ 0.0 ],
+					"click2::pan" : [ 0.0 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::mul" : [ 8.0 ],
+					"click3::amp" : [ 0.0 ],
+					"click3::pan" : [ 0.0 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::mul" : [ 8.0 ],
+					"click4::amp" : [ 0.0 ],
+					"click4::pan" : [ 0.0 ],
+					"click4::bf" : [ 8.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"click1::mul" : [ 16.0 ],
+					"click1::amp" : [ 0.0 ],
+					"click1::pan" : [ 0.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::mul" : [ 16.0 ],
+					"click2::amp" : [ 0.0 ],
+					"click2::pan" : [ 0.0 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::mul" : [ 16.0 ],
+					"click3::amp" : [ 0.0 ],
+					"click3::pan" : [ 0.0 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::mul" : [ 16.0 ],
+					"click4::amp" : [ 0.0 ],
+					"click4::pan" : [ 0.0 ],
+					"click4::bf" : [ 8.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"click1::mul" : [ 32.0 ],
+					"click1::amp" : [ 0.0 ],
+					"click1::pan" : [ 0.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::mul" : [ 32.0 ],
+					"click2::amp" : [ 0.0 ],
+					"click2::pan" : [ 0.0 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::mul" : [ 32.0 ],
+					"click3::amp" : [ 0.0 ],
+					"click3::pan" : [ 0.0 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::mul" : [ 32.0 ],
+					"click4::amp" : [ 0.0 ],
+					"click4::pan" : [ 0.0 ],
+					"click4::bf" : [ 8.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"click1::mul" : [ 64.0 ],
+					"click1::amp" : [ 0.0 ],
+					"click1::pan" : [ 0.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::mul" : [ 64.0 ],
+					"click2::amp" : [ 0.0 ],
+					"click2::pan" : [ 0.0 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::mul" : [ 64.0 ],
+					"click3::amp" : [ 0.0 ],
+					"click3::pan" : [ 0.0 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::mul" : [ 64.0 ],
+					"click4::amp" : [ 0.0 ],
+					"click4::pan" : [ 0.0 ],
+					"click4::bf" : [ 8.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"click1::mul" : [ 128.0 ],
+					"click1::amp" : [ 0.0 ],
+					"click1::pan" : [ 0.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::mul" : [ 128.0 ],
+					"click2::amp" : [ 0.0 ],
+					"click2::pan" : [ 0.0 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::mul" : [ 128.0 ],
+					"click3::amp" : [ 0.0 ],
+					"click3::pan" : [ 0.0 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::mul" : [ 128.0 ],
+					"click4::amp" : [ 0.0 ],
+					"click4::pan" : [ 0.0 ],
+					"click4::bf" : [ 8.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"click1::mul" : [ 256.0 ],
+					"click1::amp" : [ 0.0 ],
+					"click1::pan" : [ 0.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::mul" : [ 256.0 ],
+					"click2::amp" : [ 0.0 ],
+					"click2::pan" : [ 0.0 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::mul" : [ 256.0 ],
+					"click3::amp" : [ 0.0 ],
+					"click3::pan" : [ 0.0 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::mul" : [ 256.0 ],
+					"click4::amp" : [ 0.0 ],
+					"click4::pan" : [ 0.0 ],
+					"click4::bf" : [ 8.0 ]
 				}
 
 			}
