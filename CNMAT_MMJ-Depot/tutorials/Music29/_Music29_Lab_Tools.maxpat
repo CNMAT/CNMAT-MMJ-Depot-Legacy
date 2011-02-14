@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 8.0, 48.0, 1067.0, 931.0 ],
+		"rect" : [ 8.0, 48.0, 968.0, 547.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 8.0, 48.0, 1067.0, 931.0 ],
+		"defrect" : [ 8.0, 48.0, 968.0, 547.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -330,7 +330,7 @@
 							}
 , 							{
 								"key" : "rhythm to pitch",
-								"value" : [ "29_rhythm_to_pitch.maxpat" ]
+								"value" : [ "29_rhythm2pitch.maxpat" ]
 							}
  ]
 					}
@@ -906,7 +906,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "tab",
-					"patching_rect" : [ 499.0, 335.0, 181.0, 117.0 ],
+					"patching_rect" : [ 503.0, 335.0, 177.0, 117.0 ],
 					"id" : "obj-53",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"button" : 1,
