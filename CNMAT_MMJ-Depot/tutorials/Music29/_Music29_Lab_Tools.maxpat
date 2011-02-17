@@ -250,7 +250,7 @@
 					"fontsize" : 12.0,
 					"numoutlets" : 4,
 					"coll_data" : 					{
-						"count" : 24,
+						"count" : 25,
 						"data" : [ 							{
 								"key" : "sinewaves",
 								"value" : [ "29_sinewaves.maxpat" ]
@@ -346,6 +346,10 @@
 , 							{
 								"key" : "rhythm to pitch",
 								"value" : [ "29_rhythm2pitch.maxpat" ]
+							}
+, 							{
+								"key" : "tempo tracker",
+								"value" : [ "tempo_tracker.maxpat" ]
 							}
  ]
 					}
