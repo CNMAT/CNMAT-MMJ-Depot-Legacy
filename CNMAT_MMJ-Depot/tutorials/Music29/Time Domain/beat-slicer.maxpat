@@ -21,6 +21,41 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"maxclass" : "comment",
+					"text" : "<-- BLINKS with Tactus (Main beat)",
+					"linecount" : 3,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"patching_rect" : [ 427.0, 767.0, 103.0, 48.0 ],
+					"presentation" : 1,
+					"id" : "obj-72",
+					"fontname" : "Arial",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numinlets" : 1,
+					"fontface" : 2,
+					"fontsize" : 12.0,
+					"numoutlets" : 0,
+					"presentation_rect" : [ 404.0, 772.0, 198.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "button",
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 648.0, 828.0, 20.0, 20.0 ],
+					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"presentation" : 1,
+					"id" : "obj-71",
+					"bgcolor" : [ 0.109804, 0.133333, 0.141176, 0.0 ],
+					"fgcolor" : [ 0.062745, 0.427451, 0.509804, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"presentation_rect" : [ 368.0, 764.0, 32.0, 32.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"maxclass" : "message",
 					"text" : "set $1",
 					"outlettype" : [ "" ],
@@ -598,7 +633,7 @@
 					"fontface" : 2,
 					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 428.0, 744.0, 124.0, 20.0 ]
+					"presentation_rect" : [ 420.0, 740.0, 124.0, 20.0 ]
 				}
 
 			}
@@ -719,13 +754,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor",
 					"args" : [ 13, 13 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1024.0, 216.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-39",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 12.0, 724.0, 332.0, 92.0 ]
 				}
 
@@ -735,13 +771,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[1]",
 					"args" : [ 22, 22 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1024.0, 88.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-37",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 732.0, 520.0, 332.0, 92.0 ]
 				}
 
@@ -751,13 +788,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[2]",
 					"args" : [ 11, 11 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1024.0, 0.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-38",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 732.0, 416.0, 332.0, 96.0 ]
 				}
 
@@ -767,13 +805,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[3]",
 					"args" : [ 18, 18 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 684.0, 396.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-36",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 372.0, 520.0, 332.0, 92.0 ]
 				}
 
@@ -783,13 +822,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[4]",
 					"args" : [ 28, 28 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 680.0, 188.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-35",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 12.0, 608.0, 332.0, 92.0 ]
 				}
 
@@ -799,13 +839,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[5]",
 					"args" : [ 1, 2 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 4.0, 4.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-32",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 732.0, 636.0, 332.0, 92.0 ]
 				}
 
@@ -882,13 +923,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[6]",
 					"args" : [ 14, 14 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 680.0, 96.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-15",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 12.0, 512.0, 332.0, 92.0 ]
 				}
 
@@ -898,13 +940,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[7]",
 					"args" : [ 7, 7 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 680.0, 4.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-16",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 12.0, 416.0, 332.0, 92.0 ]
 				}
 
@@ -914,13 +957,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[8]",
 					"args" : [ 20, 20 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 336.0, 576.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-17",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 732.0, 204.0, 332.0, 92.0 ]
 				}
 
@@ -930,13 +974,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[9]",
 					"args" : [ 10, 10 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 336.0, 484.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-18",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 732.0, 108.0, 332.0, 92.0 ]
 				}
 
@@ -946,13 +991,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[10]",
 					"args" : [ 5, 5 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 336.0, 392.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-19",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 732.0, 12.0, 332.0, 92.0 ]
 				}
 
@@ -962,13 +1008,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[11]",
 					"args" : [ 24, 24 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 340.0, 284.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-8",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 372.0, 300.0, 332.0, 92.0 ]
 				}
 
@@ -978,13 +1025,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[12]",
 					"args" : [ 12, 12 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 340.0, 188.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-11",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 372.0, 204.0, 332.0, 92.0 ]
 				}
 
@@ -994,13 +1042,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[13]",
 					"args" : [ 6, 6 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 340.0, 96.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-12",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 372.0, 108.0, 332.0, 92.0 ]
 				}
 
@@ -1010,13 +1059,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[14]",
 					"args" : [ 3, 3 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 340.0, 4.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-13",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 372.0, 12.0, 332.0, 92.0 ]
 				}
 
@@ -1026,13 +1076,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[15]",
 					"args" : [ 16, 16 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 4.0, 376.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-7",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 12.0, 300.0, 332.0, 92.0 ]
 				}
 
@@ -1042,13 +1093,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[16]",
 					"args" : [ 8, 8 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 4.0, 280.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-5",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 12.0, 204.0, 332.0, 92.0 ]
 				}
 
@@ -1058,13 +1110,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[17]",
 					"args" : [ 4, 4 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 4.0, 188.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-4",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 12.0, 108.0, 332.0, 92.0 ]
 				}
 
@@ -1074,13 +1127,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[18]",
 					"args" : [ 2, 2 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 4.0, 96.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-2",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 12.0, 12.0, 332.0, 92.0 ]
 				}
 
@@ -1090,13 +1144,14 @@
 					"maxclass" : "bpatcher",
 					"varname" : "beat-divisor[19]",
 					"args" : [ 9, 9 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 684.0, 304.0, 332.0, 93.0 ],
 					"presentation" : 1,
 					"id" : "obj-1",
 					"name" : "beat-divisor.maxpat",
 					"numinlets" : 0,
 					"offset" : [ -7.0, -6.0 ],
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"presentation_rect" : [ 372.0, 416.0, 332.0, 92.0 ]
 				}
 
@@ -1144,7 +1199,7 @@
 					"fontface" : 3,
 					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 428.0, 668.0, 115.0, 20.0 ]
+					"presentation_rect" : [ 420.0, 668.0, 115.0, 20.0 ]
 				}
 
 			}
@@ -1210,7 +1265,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"varname" : "u134006649",
+									"varname" : "u230005068",
 									"text" : "autopattr @autorestore 0",
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 204.0, 244.0, 144.0, 20.0 ],
@@ -1883,7 +1938,7 @@
 					"fontface" : 3,
 					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 428.0, 704.0, 83.0, 20.0 ]
+					"presentation_rect" : [ 420.0, 704.0, 83.0, 20.0 ]
 				}
 
 			}
@@ -1917,7 +1972,7 @@
 					"fontface" : 3,
 					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 428.0, 636.0, 96.0, 20.0 ]
+					"presentation_rect" : [ 420.0, 636.0, 96.0, 20.0 ]
 				}
 
 			}
@@ -1970,7 +2025,7 @@
 					"triscale" : 0.9,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
-					"presentation_rect" : [ 372.0, 744.0, 48.0, 20.0 ]
+					"presentation_rect" : [ 372.0, 740.0, 48.0, 20.0 ]
 				}
 
 			}
@@ -2193,6 +2248,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"source" : [ "obj-32", 0 ],
+					"destination" : [ "obj-71", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"source" : [ "obj-49", 0 ],
 					"destination" : [ "obj-30", 0 ],
