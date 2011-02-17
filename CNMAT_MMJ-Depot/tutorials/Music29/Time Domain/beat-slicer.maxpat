@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 8.0, 44.0, 1099.0, 747.0 ],
+		"rect" : [ 8.0, 44.0, 1087.0, 888.0 ],
 		"bgcolor" : [ 0.556863, 0.537255, 0.537255, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 8.0, 44.0, 1099.0, 747.0 ],
+		"defrect" : [ 8.0, 44.0, 1087.0, 888.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
