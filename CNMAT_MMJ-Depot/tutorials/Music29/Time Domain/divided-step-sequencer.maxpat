@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 62.0, 67.0, 1070.0, 654.0 ],
+		"rect" : [ 12.0, 44.0, 1070.0, 654.0 ],
 		"bgcolor" : [ 0.196078, 0.270588, 0.309804, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 62.0, 67.0, 1070.0, 654.0 ],
+		"defrect" : [ 12.0, 44.0, 1070.0, 654.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -458,7 +458,7 @@
 					"presentation_rect" : [ 756.0, 464.0, 299.855408, 86.0 ],
 					"offset" : [ -0.385543, 0.771087 ],
 					"id" : "obj-2",
-					"args" : [ "divided-step-sequencer", 1.0, "E.Campion & J.Lubow", "divided-step-sequencer", 6666 ]
+					"args" : [ "divided-step-sequencer", 1.1, "E.Campion & J.Lubow", "divided-step-sequencer", 6666 ]
 				}
 
 			}
