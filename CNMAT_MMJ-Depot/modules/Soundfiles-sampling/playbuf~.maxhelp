@@ -524,7 +524,7 @@
 					"id" : "obj-17",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
-					"args" : [ "playbuf.help", 1.0, "Campion" ],
+					"args" : [ "playbuf.help", 1.0, "Campion/Lubow" ],
 					"numoutlets" : 0
 				}
 
