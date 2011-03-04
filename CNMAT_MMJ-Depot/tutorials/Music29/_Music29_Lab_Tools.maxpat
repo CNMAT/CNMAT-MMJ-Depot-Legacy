@@ -21,7 +21,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "view frequency analysis of complex waveforms",
+					"text" : "adjust harmonics gradually to noise",
 					"fontname" : "Arial",
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 2,
