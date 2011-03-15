@@ -340,7 +340,7 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "Stop soundfile",
-					"patching_rect" : [ 556.0, 128.0, 109.0, 23.0 ],
+					"patching_rect" : [ 556.0, 128.0, 95.0, 20.0 ],
 					"presentation" : 1,
 					"id" : "obj-24",
 					"frgb" : [ 0.815686, 0.917647, 0.909804, 1.0 ],
@@ -348,9 +348,9 @@
 					"textcolor" : [ 0.815686, 0.917647, 0.909804, 1.0 ],
 					"numinlets" : 1,
 					"fontface" : 3,
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 52.0, 172.0, 109.0, 23.0 ]
+					"presentation_rect" : [ 52.0, 176.0, 95.0, 20.0 ]
 				}
 
 			}
@@ -373,7 +373,7 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "Play soundfile",
-					"patching_rect" : [ 516.0, 92.0, 106.0, 23.0 ],
+					"patching_rect" : [ 516.0, 92.0, 93.0, 20.0 ],
 					"presentation" : 1,
 					"id" : "obj-22",
 					"frgb" : [ 0.815686, 0.917647, 0.909804, 1.0 ],
@@ -381,9 +381,9 @@
 					"textcolor" : [ 0.815686, 0.917647, 0.909804, 1.0 ],
 					"numinlets" : 1,
 					"fontface" : 3,
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 52.0, 136.0, 106.0, 23.0 ]
+					"presentation_rect" : [ 52.0, 140.0, 93.0, 20.0 ]
 				}
 
 			}
@@ -406,7 +406,7 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "Load tempo-based soundfile",
-					"patching_rect" : [ 468.0, 56.0, 202.0, 23.0 ],
+					"patching_rect" : [ 468.0, 56.0, 175.0, 20.0 ],
 					"presentation" : 1,
 					"id" : "obj-20",
 					"frgb" : [ 0.815686, 0.917647, 0.909804, 1.0 ],
@@ -414,9 +414,9 @@
 					"textcolor" : [ 0.815686, 0.917647, 0.909804, 1.0 ],
 					"numinlets" : 1,
 					"fontface" : 3,
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 52.0, 100.0, 202.0, 23.0 ]
+					"presentation_rect" : [ 52.0, 104.0, 175.0, 20.0 ]
 				}
 
 			}
@@ -461,6 +461,7 @@
 					"id" : "obj-2",
 					"fontname" : "Arial",
 					"numinlets" : 1,
+					"fontface" : 3,
 					"fontsize" : 21.640991,
 					"numoutlets" : 2,
 					"presentation_rect" : [ 20.0, 244.0, 131.0, 31.0 ],
@@ -513,7 +514,7 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"text" : "Hit spacebar (or button) repeatedly",
-					"patching_rect" : [ 48.0, 68.0, 355.0, 23.0 ],
+					"patching_rect" : [ 48.0, 68.0, 307.0, 20.0 ],
 					"presentation" : 1,
 					"id" : "obj-4",
 					"frgb" : [ 0.815686, 0.917647, 0.909804, 1.0 ],
@@ -521,9 +522,9 @@
 					"textcolor" : [ 0.815686, 0.917647, 0.909804, 1.0 ],
 					"numinlets" : 1,
 					"fontface" : 3,
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 52.0, 208.0, 244.0, 23.0 ]
+					"presentation_rect" : [ 52.0, 212.0, 211.0, 20.0 ]
 				}
 
 			}
