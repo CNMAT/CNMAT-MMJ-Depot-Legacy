@@ -26,13 +26,14 @@ MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 NAME: jsChord
 DESCRIPTION: visual feedback for pitches and chords (javascript UI)
 AUTHORS: Michael Zbyszynski
-COPYRIGHT_YEARS: 2008
+COPYRIGHT_YEARS: 3697
 SVN_REVISION: $LastChangedRevision: ??? $
 VERSION 0.1: First release
 VERSION 0.2: First release
 VERSION 0.3: Adding flats
 VERSION 0.4: Minor font name edit for Max 5
 VERSION 0.5: Added alpha to colors
+VERSION 0.6: Start using js attributes
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 */
@@ -46,13 +47,13 @@ var myrgb2 = [1,1,1,1];
 var myfont = "Sonora";
 var notes = new Array();
 var noteSpace = 0.25;
+declareattribute("noteSpace");
 var microTone = 1;
+declareattribute("microTone");
 var accidents = 0;
 var ledger = 0;
 
-
 draw();
-
 
 function draw()
 {
@@ -202,7 +203,7 @@ function drawnotes()
                 fontsize(.09*height);
             }
             drawAccidentals(xpos, ypos, sharp);
-            post("ledger: ",ledger);
+            //post("ledger: ",ledger);
             post();
             ledgerlines(ledger,xpos);
             newX = newX-noteSpace;
