@@ -28,15 +28,14 @@ NAME: speaker_placement
 DESCRIPTION: interface for arbitrary speaker placement (javascript UI)
 AUTHORS: Michael Zbyszynski
 COPYRIGHT_YEARS: 2007
-SVN_REVISION: $LastChangedRevision: ??? $
+SVN_REVISION: 3607
 VERSION 0.1: First release
 VERSION 0.2: Bug fix in output syntax (specified 2D)
 VERSION 0.3: fixed output length bug
 VERSION 0.4: adjusted vbrgb alpha to work with snow leopard
+VERSION 0.5: tidied up code, better error reporting, etc.
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
 */
-
 
 inlets = 1;
 outlets = 2;
@@ -44,14 +43,11 @@ outlets = 2;
 sketch.default2d();
 sketch.glblendfunc (6, 1);
 var vbrgb = [0.,0.,0.,1.];
-var vfrgb = [0.5,0.5,0.5,1.];
-var test = 0.;
 var grav = 999.;
 var shownames = 1;
-var myfontsize = 18;
+var myFontsize = 18;
 var hand = 0;
-var hand2 = 0;
-var osc = "/oops";
+var osc = "/error";
 var radius = 0.7;
 var x = 0.;
 var y = 0.;
@@ -60,8 +56,7 @@ var angle = "0";
 var showlabels = 1;
 var speakerNum = 8;
 if(jsarguments.length > 1) speakerNum = jsarguments[1];
-
-
+var def_ls = new Array(); //array of locations, this list will be output
 
 //ls object
 function ls (n, x, d, r, g, b, a, h, q)
@@ -79,79 +74,22 @@ function ls (n, x, d, r, g, b, a, h, q)
 }
 
 //prototype ls with draw method
-new ls ("1", -45., 0.1, 1., 1., 0., 0.6, 1.,0.);
 ls.prototype.draw = drawls;
 
-//an array of starter locations
+//an array of ls starter locations
 var all_speakers = new Array();
-switch (speakerNum)
-    {
-    case 2:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    break;
-    case 3:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", 180., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    break;
-    case 4:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", 225., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 135., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    break;
-    case 5:
-    all_speakers[0] = new ls ("1", -25., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 25., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", 250., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 110., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    all_speakers[4] = new ls ("5", 0., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    break;
-    case 6:
-    all_speakers[0] = new ls ("1", -30., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 30., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
-    break;
-    case 7:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
-    all_speakers[6] = new ls ("7", 0., 0.1, 0, 0., 1., 0.6, 1.,0.);
-    break;
-    case 8:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 0., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", 45., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    all_speakers[4] = new ls ("5", 135., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    all_speakers[5] = new ls ("6", 180., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
-    all_speakers[6] = new ls ("7", 225., 0.1, 0, 0., 1., 0.6, 1.,0.);
-    all_speakers[7] = new ls ("8", 270., 0.1, 0.5, 0., 1., 0.6, 1.,0.);
-    break;
-    }
+setSpeakers(); 
 
-//array of locations
-var def_ls = new Array();
-for (i = 0 ; i < all_speakers.length ; i ++)
-    {
-    def_ls[i] = all_speakers[i].angle;
-    }
 
 //initial drawing
 clear();
 for (i = 0 ; i < all_speakers.length ; i ++)
-    {
-    all_speakers[i].draw();
-    }
+{
+	all_speakers[i].draw();
+}
 refresh();
 
+//functions
 function clear()
 {
     with (sketch) 
@@ -174,20 +112,20 @@ function drawls()
         circle (this.diam);
         switch (showlabels)
         {
-        case 1:
-            textalign("center","center");
-            fontsize(myfontsize);        
-            moveto (x, y);
-            glcolor (this.red, this.green, this.blue, this.alpha);
-            sketch.text (this.name);
-            break;
-        case 2:
-            textalign("center","center");
-            fontsize(myfontsize);        
-            moveto (x, y);
-            angle = (this.angle);
-            sketch.text (angle.toPrecision(3));
-            break;
+        	case 1:
+        		textalign("center","center");
+       		    fontsize(myFontsize);        
+            	moveto (x, y);
+            	glcolor (this.red, this.green, this.blue, this.alpha);
+            	sketch.text (this.name);
+            	break;
+        	case 2:
+            	textalign("center","center");
+            	fontsize(myFontsize);        
+            	moveto (x, y);
+            	angle = (this.angle);
+            	sketch.text (angle.toPrecision(3));
+            	break;
         }
         moveto (0, 0);
         glcolor (0.7, 0.7, 0.7, 0.7);
@@ -198,24 +136,25 @@ function drawls()
 
 function bang()
 {
-    outputdef()
+    outputdef();
     clear();
     for (i = 0 ; i < all_speakers.length ; i ++)
-    all_speakers[i].draw();
+    {
+    	all_speakers[i].draw();
+    }
     refresh();
 }
 
 function outputdef()
 {
-def_ls.length = 0;
-for (i = 0 ; i < all_speakers.length ; i ++)
+	def_ls.length = 0;
+	for (i = 0 ; i < all_speakers.length ; i ++)
         {
-        def_ls[i] = all_speakers[i].angle;
+        	def_ls[i] = all_speakers[i].angle; //make a list to output
         }
     outlet(1, osc, all_speakers[hand].angle);    
-        outlet(0, "/define_loudspeakers", 2, def_ls);
+    outlet(0, "/define_loudspeakers", 2, def_ls);
 }        
-
 
 function fsaa(v)
 {
@@ -223,78 +162,81 @@ function fsaa(v)
     bang();
 }
 
-function speakers(v)
+function speakers(v) //change the number of speakers
 {
-    speakerNum = v;
-    all_speakers.length = 0;
-    switch (speakerNum)
+    if (v>1 && v<9)
     {
-    case 2:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    break;
-    case 3:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", 180., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    break;
-    case 4:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", 225., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 135., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    break;
-    case 5:
-    all_speakers[0] = new ls ("1", -25., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 25., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", 250., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 110., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    all_speakers[4] = new ls ("5", 0., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    break;
-    case 6:
-    all_speakers[0] = new ls ("1", -30., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 30., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
-    break;
-    case 7:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
-    all_speakers[6] = new ls ("7", 0., 0.1, 0, 0., 1., 0.6, 1.,0.);
-    break;
-    case 8:
-    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    all_speakers[1] = new ls ("2", 0., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    all_speakers[2] = new ls ("3", 45., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    all_speakers[4] = new ls ("5", 135., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    all_speakers[5] = new ls ("6", 180., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
-    all_speakers[6] = new ls ("7", 225., 0.1, 0, 0., 1., 0.6, 1.,0.);
-    all_speakers[7] = new ls ("8", 270., 0.1, 0.5, 0., 1., 0.6, 1.,0.);
-    break;
+    	speakerNum = v;
+    	setSpeakers();
+    	bang();
     }
-    bang();
+    else
+    {
+    	post("This interface only supports 2-8 speakers.\n");
+    }
+}
+
+function setSpeakers()
+{
+	all_speakers.length = 0;
+	switch (speakerNum)
+    {
+    	case 2:
+    		all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+    		all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
+    		break;
+    	case 3:
+   			all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+    		all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
+    		all_speakers[2] = new ls ("3", 180., 0.1, 1., 1., 0, 0.6, 1.,0.);
+    		break;
+   		case 4:
+    		all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+    		all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
+    		all_speakers[2] = new ls ("3", 225., 0.1, 1., 1., 0, 0.6, 1.,0.);
+    		all_speakers[3] = new ls ("4", 135., 0.1, 0., 1., 0., 0.6, 1.,0.);
+    		break;
+   		case 5:
+   			all_speakers[0] = new ls ("1", -25., 0.1, 1., 0., 0., 0.6, 1.,0.);
+    		all_speakers[1] = new ls ("2", 25., 0.1, 1., .5, 0., 0.6, 1.,0.);
+    		all_speakers[2] = new ls ("3", 250., 0.1, 1., 1., 0, 0.6, 1.,0.);
+    		all_speakers[3] = new ls ("4", 110., 0.1, 0., 1., 0., 0.6, 1.,0.);
+    		all_speakers[4] = new ls ("5", 0., 0.1, 0, 1., .5, 0.6, 1.,0.);
+    		break;
+    	case 6:
+    		all_speakers[0] = new ls ("1", -30., 0.1, 1., 0., 0., 0.6, 1.,0.);
+    		all_speakers[1] = new ls ("2", 30., 0.1, 1., .5, 0., 0.6, 1.,0.);
+    		all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
+    		all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
+    		all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
+    		all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
+   			 break;
+   		case 7:
+   			all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+    		all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
+    		all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
+    		all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
+    		all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
+    		all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
+    		all_speakers[6] = new ls ("7", 0., 0.1, 0, 0., 1., 0.6, 1.,0.);
+   			break;
+    	case 8:
+    		all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+    		all_speakers[1] = new ls ("2", 0., 0.1, 1., .5, 0., 0.6, 1.,0.);
+   			all_speakers[2] = new ls ("3", 45., 0.1, 1., 1., 0, 0.6, 1.,0.);
+   			all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
+    		all_speakers[4] = new ls ("5", 135., 0.1, 0, 1., .5, 0.6, 1.,0.);
+    		all_speakers[5] = new ls ("6", 180., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
+    		all_speakers[6] = new ls ("7", 225., 0.1, 0, 0., 1., 0.6, 1.,0.);
+    		all_speakers[7] = new ls ("8", 270., 0.1, 0.5, 0., 1., 0.6, 1.,0.);
+    		break;
+    }
 }
 
 function labels(v)
 {
     showlabels = v;
     bang();
-}
-
-function frgb(r,g,b)
-{
-    vfrgb[0] = r/255.;
-    vfrgb[1] = g/255.;
-    vfrgb[2] = b/255.;
-    draw();
-    refresh();
 }
 
 function name(c,d)
@@ -304,9 +246,9 @@ function name(c,d)
     refresh();
 }
 
-function speaker(c,d)
+function speaker(c,d) //moves one speaker
 {
-    if (c>0 && c <= speakerNum)
+    if (c>0 && c<=speakerNum)
     {
         hand = c-1;
         all_speakers[c-1].angle = d;
@@ -316,19 +258,23 @@ function speaker(c,d)
         refresh();
     }
     else
-
     {
-    post ("•error: No speaker number", c);
-    post();
+    	post ("•error: No speaker number", c,"\n");
     }
 }
 function fontsize(v)
 {
-    myfontsize = v;
-    bang();
-    refresh();
+    if(v > 0 && v<145)
+    {
+    	myFontsize = v;
+    	bang();
+    	refresh();
+    }
+    else
+    {
+    	post(v, " is a bad font size. \n");
+    }
 }
-
 
 function rgb(c,r,g,b)
 {
@@ -366,15 +312,15 @@ onresize.local = 1; //private
 
 function onclick(x,y,but,cmd,shift,capslock,option,ctrl)
 {
-    worldx = sketch.screentoworld(x,y)[0];
-     worldy = sketch.screentoworld(x,y)[1];
+    worldX = sketch.screentoworld(x,y)[0];
+    worldY = sketch.screentoworld(x,y)[1];
 
-//find the angle of the click
-    theta = ((Math.atan2(worldy, worldx) * 57.2957795 - 90) * -1);
+	//find the angle of the click
+    theta = ((Math.atan2(worldY, worldX) * 57.2957795 - 90) * -1);
 
-//put the distance in each speaker
-for (i = 0 ; i < all_speakers.length ; i ++)
-        {
+	//put the distance in each speaker
+	for (i = 0 ; i < all_speakers.length ; i ++)
+    {
         if ((Math.abs(theta - all_speakers[i].angle)) < (Math.abs((theta-360) - all_speakers[i].angle)) && (Math.abs(theta - all_speakers[i].angle)) < (Math.abs(theta - (all_speakers[i].angle-360))))
             {
             all_speakers[i].grav = Math.abs(theta - all_speakers[i].angle);
@@ -387,27 +333,26 @@ for (i = 0 ; i < all_speakers.length ; i ++)
             {
             all_speakers[i].grav = Math.abs(theta - (all_speakers[i].angle - 360));
             }
-        }
+    }
         
-// bubble sort
-        grav = 999.
-        for (i = 0 ; i < all_speakers.length ; i ++)
+	// bubble sort
+    grav = 999.
+    for (i = 0 ; i < all_speakers.length ; i ++)
+    {
+    	if (all_speakers[i].grav < grav)
         {
-            if (all_speakers[i].grav <  grav)
-            {
-                hand = i;
-                hand2 = 0;
-                grav = all_speakers[i].grav;
-            }
-        }    
+        	hand = i;
+      	    grav = all_speakers[i].grav;
+        }
+    }    
 }
 onclick.local = 1; //private
 
 function ondrag (x,y,but,cmd,shift,capslock,option,ctrl)
 {
-    worldx = sketch.screentoworld(x,y)[0];
-     worldy = sketch.screentoworld(x,y)[1];
-     theta = ((Math.atan2(worldy, worldx) * 57.2957795 - 90) * -1);
+    worldX = sketch.screentoworld(x,y)[0];
+    worldY = sketch.screentoworld(x,y)[1];
+    theta = ((Math.atan2(worldY, worldX) * 57.2957795 - 90) * -1);
     all_speakers[hand].angle = theta;
     osc = "/" + all_speakers[hand].name+"/angle" ;
     outputdef();
