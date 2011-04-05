@@ -5,7 +5,7 @@
 		"bglocked" : 0,
 		"defrect" : [ 420.0, 44.0, 1027.0, 832.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -21,7 +21,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"varname" : "u156001377",
+					"varname" : "u141004426",
 					"text" : "autopattr @autoname 0 @autorestore 0",
 					"id" : "obj-24",
 					"fontname" : "Arial",
@@ -34,9 +34,9 @@
 						"fold" : [ 0 ],
 						"fundamental" : [ 110.0 ],
 						"interval" : [ 12 ],
-						"key" : [ "q" ],
-						"key[1]" : [ "1" ],
+						"key_selection" : [ "q" ],
 						"keyboard" : [ 45 ],
+						"num_selection" : [ "1" ],
 						"step" : [ 1 ]
 					}
 
@@ -133,7 +133,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "umenu",
-					"varname" : "key[1]",
+					"varname" : "num_selection",
 					"presentation_rect" : [ 260.0, 308.0, 47.0, 20.0 ],
 					"textcolor2" : [ 0.121569, 0.121569, 0.121569, 1.0 ],
 					"bgcolor2" : [ 0.917647, 0.917647, 0.917647, 1.0 ],
@@ -435,7 +435,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "umenu",
-					"varname" : "key",
+					"varname" : "key_selection",
 					"presentation_rect" : [ 260.0, 286.0, 38.0, 20.0 ],
 					"textcolor2" : [ 0.121569, 0.121569, 0.121569, 1.0 ],
 					"bgcolor2" : [ 0.917647, 0.917647, 0.917647, 1.0 ],
