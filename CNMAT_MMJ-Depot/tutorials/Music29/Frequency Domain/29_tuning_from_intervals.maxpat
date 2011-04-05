@@ -273,7 +273,7 @@
 					"id" : "obj-2",
 					"fontname" : "Arial",
 					"numinlets" : 1,
-					"patching_rect" : [ 403.0, 6.0, 112.0, 20.0 ],
+					"patching_rect" : [ 510.0, 135.0, 112.0, 20.0 ],
 					"hidden" : 1,
 					"numoutlets" : 1,
 					"fontsize" : 12.0,
