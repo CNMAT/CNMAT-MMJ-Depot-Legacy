@@ -1,0 +1,72 @@
+{
+	"pattrstorage" : 	{
+		"name" : "tune",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"tuna_01::fold" : [ 0 ],
+					"tuna_01::fundamental" : [ 110.0 ],
+					"tuna_01::interval" : [ 12 ],
+					"tuna_01::key_selection" : [ "q" ],
+					"tuna_01::keyboard" : [ 45 ],
+					"tuna_01::num_selection" : [ "1" ],
+					"tuna_01::step" : [ 1 ],
+					"tuna_02::fold" : [ 0 ],
+					"tuna_02::fundamental" : [ 110.0 ],
+					"tuna_02::interval" : [ 12 ],
+					"tuna_02::key_selection" : [ "q" ],
+					"tuna_02::keyboard" : [ 45 ],
+					"tuna_02::num_selection" : [ "1" ],
+					"tuna_02::step" : [ 1 ],
+					"tuna_03::fold" : [ 0 ],
+					"tuna_03::fundamental" : [ 110.0 ],
+					"tuna_03::interval" : [ 12 ],
+					"tuna_03::key_selection" : [ "q" ],
+					"tuna_03::keyboard" : [ 45 ],
+					"tuna_03::num_selection" : [ "1" ],
+					"tuna_03::step" : [ 1 ],
+					"tuna_04::fold" : [ 0 ],
+					"tuna_04::fundamental" : [ 110.0 ],
+					"tuna_04::interval" : [ 12 ],
+					"tuna_04::key_selection" : [ "q" ],
+					"tuna_04::keyboard" : [ 45 ],
+					"tuna_04::num_selection" : [ "1" ],
+					"tuna_04::step" : [ 1 ],
+					"tuna_05::fold" : [ 0 ],
+					"tuna_05::fundamental" : [ 110.0 ],
+					"tuna_05::interval" : [ 12 ],
+					"tuna_05::key_selection" : [ "q" ],
+					"tuna_05::keyboard" : [ 45 ],
+					"tuna_05::num_selection" : [ "1" ],
+					"tuna_05::step" : [ 1 ],
+					"tuna_06::fold" : [ 0 ],
+					"tuna_06::fundamental" : [ 110.0 ],
+					"tuna_06::interval" : [ 12 ],
+					"tuna_06::key_selection" : [ "q" ],
+					"tuna_06::keyboard" : [ 45 ],
+					"tuna_06::num_selection" : [ "1" ],
+					"tuna_06::step" : [ 1 ],
+					"tuna_07::fold" : [ 0 ],
+					"tuna_07::fundamental" : [ 110.0 ],
+					"tuna_07::interval" : [ 12 ],
+					"tuna_07::key_selection" : [ "q" ],
+					"tuna_07::keyboard" : [ 45 ],
+					"tuna_07::num_selection" : [ "1" ],
+					"tuna_07::step" : [ 1 ],
+					"tuna_08::fold" : [ 0 ],
+					"tuna_08::fundamental" : [ 110.0 ],
+					"tuna_08::interval" : [ 12 ],
+					"tuna_08::key_selection" : [ "q" ],
+					"tuna_08::keyboard" : [ 45 ],
+					"tuna_08::num_selection" : [ "1" ],
+					"tuna_08::step" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
