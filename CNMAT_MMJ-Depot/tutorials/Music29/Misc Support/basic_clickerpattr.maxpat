@@ -21,6 +21,48 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "newobj",
+					"text" : "t b f",
+					"fontname" : "Geneva",
+					"numinlets" : 1,
+					"id" : "obj-41",
+					"patching_rect" : [ 112.0, 308.0, 32.5, 20.0 ],
+					"numoutlets" : 2,
+					"fontsize" : 10.0,
+					"outlettype" : [ "bang", "float" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "* 1.",
+					"fontname" : "Geneva",
+					"numinlets" : 2,
+					"id" : "obj-35",
+					"patching_rect" : [ 64.0, 356.0, 32.5, 20.0 ],
+					"numoutlets" : 1,
+					"fontsize" : 10.0,
+					"outlettype" : [ "float" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "r scalar",
+					"fontname" : "Geneva",
+					"numinlets" : 0,
+					"id" : "obj-5",
+					"patching_rect" : [ 112.0, 276.0, 46.0, 20.0 ],
+					"numoutlets" : 1,
+					"fontsize" : 10.0,
+					"outlettype" : [ "" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "newobj",
 					"text" : "loadmess 0",
 					"fontname" : "Arial",
 					"numinlets" : 1,
@@ -746,15 +788,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-16", 0 ],
-					"destination" : [ "obj-18", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"source" : [ "obj-18", 0 ],
 					"destination" : [ "obj-12", 0 ],
 					"hidden" : 0,
@@ -1090,6 +1123,51 @@
 				"patchline" : 				{
 					"source" : [ "obj-26", 0 ],
 					"destination" : [ "obj-7", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-16", 0 ],
+					"destination" : [ "obj-35", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-35", 0 ],
+					"destination" : [ "obj-18", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-5", 0 ],
+					"destination" : [ "obj-41", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-41", 1 ],
+					"destination" : [ "obj-35", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-41", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
