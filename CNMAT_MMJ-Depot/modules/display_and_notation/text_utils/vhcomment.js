@@ -46,7 +46,6 @@ function settext(a)
 function setfontscale(a)
 {
     fontscale = a;
-    init();
     draw();
     refresh();
 
@@ -73,7 +72,6 @@ function bgc(r, g, b)
 
 function draw()
 {
-
     with(mysketch)
     {
 	font(fonttype);
