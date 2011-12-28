@@ -29,6 +29,39 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"border" : 1,
+					"bordercolor" : [ 0.269213, 0.269213, 0.269213, 1.0 ],
+					"borderoncolor" : [ 0.269213, 0.269213, 0.269213, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 696.0, -1.0, 136.0, 76.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 716.0, 4.0, 220.0, 108.0 ],
+					"rounded" : 10.0,
+					"text" : "click to load layout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"id" : "obj-2",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"patching_rect" : [ 606.0, 40.0, 33.0, 42.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-18",
@@ -2451,23 +2484,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-46",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 920.0, 109.0, 34.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 765.5, 48.0, 121.0, 20.0 ],
-					"text" : "Click to load layout"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-43",
@@ -4151,21 +4167,6 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.313726, 0.329412, 0.333333, 1.0 ],
-					"id" : "obj-55",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 628.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 716.0, 4.0, 220.0, 108.0 ],
-					"rounded" : 15
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.313726, 0.329412, 0.333333, 1.0 ],
 					"id" : "obj-57",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -4343,6 +4344,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
