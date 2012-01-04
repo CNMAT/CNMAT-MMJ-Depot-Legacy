@@ -51,7 +51,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 764.0, 24.0, 150.0, 20.0 ],
+					"patching_rect" : [ 797.0, 52.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 748.0, 16.0, 120.0, 20.0 ],
 					"text" : "< generate a layout?",
@@ -1434,7 +1434,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-144",
-					"items" : [ "select", "a", "soundfile", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9012,6 +9012,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-104", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
