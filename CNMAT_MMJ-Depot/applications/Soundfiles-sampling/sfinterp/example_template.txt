@@ -1,1 +1,1 @@
-order, bass bassdrum bird bowl1 gbell gsax;1, burning.aif;2, isthatyou.aif;3, bird.aif;4, eroica.aif;5, gbell.aif;6, gsax.aif;
+order, bass bassdrum bird bowl1 gbell gsax;description_xLxR_yLyR, tiny large "" "";1, burning.aif;2, isthatyou.aif;3, bird.aif;4, eroica.aif;5, gbell.aif;6, gsax.aif;
