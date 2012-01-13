@@ -786,8 +786,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 99.0, 15.0, 15.0 ],
-									"presentation_rect" : [ 61.0, 98.0, 0.0, 0.0 ]
+									"patching_rect" : [ 60.0, 99.0, 15.0, 15.0 ]
 								}
 
 							}
