@@ -7,7 +7,7 @@
 			"revision" : 2
 		}
 ,
-		"rect" : [ 20.0, 53.0, 531.0, 490.0 ],
+		"rect" : [ 33.0, 56.0, 531.0, 490.0 ],
 		"bgcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -65,7 +65,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 231.0, 68.0, 18.0 ],
-					"presentation_rect" : [ 228.0, 207.0, 0.0, 0.0 ],
 					"text" : "freq-dist $1"
 				}
 
