@@ -7772,8 +7772,8 @@
 													"numinlets" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 348.0, 227.0, 20.0 ],
-													"text" : "sprintf add_point name %s coords %f %f"
+													"patching_rect" : [ 50.0, 348.0, 413.0, 20.0 ],
+													"text" : "sprintf add_point name %s coords %f %f inner_radius 0.02 outer_radius 0.2"
 												}
 
 											}
