@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 2
+			"revision" : 4
 		}
 ,
 		"rect" : [ 330.0, 117.0, 640.0, 480.0 ],
@@ -35,7 +35,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 265.5, 134.0, 18.0 ],
+					"patching_rect" : [ 255.5, 335.0, 134.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 134.0, 18.0 ],
 					"text" : "send to #1"
@@ -134,13 +134,13 @@
 					"presentation_rect" : [ 0.0, 5.0, 140.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_unitstyle" : 4,
+							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_type" : 0,
 							"parameter_shortname" : " ",
-							"parameter_longname" : "live.gain~",
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
