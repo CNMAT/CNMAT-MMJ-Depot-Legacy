@@ -7851,13 +7851,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-46",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 920.0, 109.0, 20.0 ],
+					"patching_rect" : [ 72.0, 920.0, 109.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 776.0, 48.0, 110.0, 20.0 ],
-					"text" : "Drop Folder Here"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 740.0, 32.0, 188.0, 34.0 ],
+					"text" : "Select a type of layout below, then drop a folder Here"
 				}
 
 			}
