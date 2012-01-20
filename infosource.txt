@@ -2,7 +2,7 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 NAME: CNMAT Max/MSP/Jitter Depot
 DESCRIPTION: <a href="http://cnmat.berkeley.edu/library/max_msp_jitter_depot">CNMAT's expanding collection of Max/MSP/Jitter patches</a> designed to assist composers and performers of electroacoustic music as well as music educators.
-AUTHORS: Michael Zbyszynski, Matt Wright, Edmund Campion, Ali Momeni, Adrian Freed, David Wessel, Daniel Cullen, John MacCallum
+AUTHORS: Michael Zbyszynski, Matt Wright, Edmund Campion, Ali Momeni, Adrian Freed, David Wessel, John MacCallum, Jeff Lubow
 COPYRIGHT_YEARS: 2006-8
 PUBLICATION: ICMC 07 paper | http://www.cnmat.berkeley.edu/publication/design_and_implementation_cnmats_pedagogical_software
 PACKAGE: 1
