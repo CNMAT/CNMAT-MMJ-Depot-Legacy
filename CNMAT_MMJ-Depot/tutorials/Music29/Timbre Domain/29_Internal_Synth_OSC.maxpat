@@ -10998,7 +10998,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Internal_Synth_OSC (29v.)", "control your computer's internal synth with OSC-style messages" ],
+					"args" : [ "Internal_Synth_OSC (29v.)", "control your computer's internal synth" ],
 					"id" : "obj-108",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
