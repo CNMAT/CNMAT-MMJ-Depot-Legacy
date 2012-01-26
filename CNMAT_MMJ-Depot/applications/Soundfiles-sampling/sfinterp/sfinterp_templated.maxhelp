@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 2
+			"revision" : 4
 		}
 ,
 		"rect" : [ 13.0, 48.0, 1052.0, 715.0 ],
@@ -266,7 +266,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 395.0, 124.0, 518.0, 564.0 ],
@@ -324,7 +324,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 217.0, 374.0 ],
@@ -555,16 +555,16 @@
 ,
 									"patching_rect" : [ 239.0, 130.0, 87.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
 										"fontname" : "Arial",
-										"tags" : "",
-										"globalpatchername" : "",
-										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"globalpatchername" : "",
+										"tags" : "",
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p grab_coords"
@@ -966,16 +966,16 @@
 ,
 					"patching_rect" : [ 864.0, 383.0, 88.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
 						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : "",
+						"tags" : "",
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p detect_order"
@@ -1047,8 +1047,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 708.0, 708.0 ],
 					"sqc" : [ 0.364706, 0.956863, 0.109804, 1.0 ],
-					"xdivisions" : 12,
-					"ydivisions" : 12
+					"xdivisions" : 2,
+					"ydivisions" : 2
 				}
 
 			}
@@ -1095,7 +1095,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 25.0, 69.0, 509.0, 451.0 ],
@@ -1291,16 +1291,16 @@
 ,
 					"patching_rect" : [ 656.0, 560.0, 72.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
 						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"globalpatchername" : "",
+						"tags" : "",
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p init_audio"
@@ -1398,7 +1398,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 376.0, 137.0, 331.0, 367.0 ],
@@ -1626,16 +1626,16 @@
 ,
 					"patching_rect" : [ 72.0, 532.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
 						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"globalpatchername" : "",
+						"tags" : "",
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p catch_blobs"
@@ -1673,7 +1673,7 @@
 					"patching_rect" : [ 72.0, 172.0, 267.0, 267.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 708.0, 708.0 ],
-					"spaces" : [ "space", 0 ],
+					"spaces" : [ "space", 7, 0.5, 0.5, "null", 0.0, 0.0, 0.0, 1.0, -0.666667, 0.125886, 1.0, 0.001, 1, 0.125, 0.5, "burning.aif", 0.75, 0.75, 0.1875, 0.0, 7.597588, 23457129562112.0, 0.06, 0.11, 0, 0.25, 0.5, "isthatyou.aif", 0.5625, 0.75, 0.1875, 0.0, 7.597588, 23457129562112.0, 0.06, 0.11, 0, 0.608757, 0.502825, "bird.aif", 0.375, 0.75, 0.1875, 0.0, 7.597588, 23457129562112.0, 0.06, 0.11, 0, 0.5, 0.5, "eroica.aif", 0.1875, 0.75, 0.1875, 0.0, 7.597588, 23457129562112.0, 0.06, 0.11, 0, 0.916667, 0.491525, "gbell.aif", 0.1875, 0.75, 0.375, 0.0, 7.597588, 23457129562112.0, 0.06, 0.11, 0, 0.75, 0.5, "gsax.aif", 0.1875, 0.75, 0.5625, 0.0, 7.597588, 23457129562112.0, 0.06, 0.11, 0 ],
 					"varname" : "rbfi"
 				}
 
@@ -1722,7 +1722,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 30.0, 73.0, 908.0, 631.0 ],
@@ -1908,16 +1908,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 720.0, 120.0, 210.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
 						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"globalpatchername" : "",
+						"tags" : "",
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p dbl-click:instructions"
@@ -2010,7 +2010,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 255.0, 70.0, 1207.0, 786.0 ],
@@ -3181,16 +3181,16 @@
 ,
 					"patching_rect" : [ 191.0, 88.0, 148.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
 						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : "",
+						"tags" : "",
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p save_and_load_presets"
@@ -3227,7 +3227,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 424.0, 370.0, 1079.0, 609.0 ],
@@ -3431,7 +3431,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 336.0, 81.0, 566.0, 634.0 ],
@@ -3569,7 +3569,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 2
+															"revision" : 4
 														}
 ,
 														"rect" : [ 25.0, 69.0, 350.0, 304.0 ],
@@ -3776,21 +3776,27 @@
 
 															}
  ],
-														"dependency_cache" : [  ]
+														"dependency_cache" : [ 															{
+																"name" : "example_template.txt",
+																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling/sfinterp",
+																"type" : "TEXT",
+																"implicit" : 1
+															}
+ ]
 													}
 ,
 													"patching_rect" : [ 44.0, 135.0, 118.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
 														"fontname" : "Arial",
-														"tags" : "",
-														"globalpatchername" : "",
-														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"default_fontsize" : 12.0
+														"globalpatchername" : "",
+														"tags" : "",
+														"default_fontface" : 0,
+														"digest" : ""
 													}
 ,
 													"text" : "p coll_handler"
@@ -4334,21 +4340,27 @@
 
 											}
  ],
-										"dependency_cache" : [  ]
+										"dependency_cache" : [ 											{
+												"name" : "example_template.txt",
+												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling/sfinterp",
+												"type" : "TEXT",
+												"implicit" : 1
+											}
+ ]
 									}
 ,
 									"patching_rect" : [ 100.5, 160.0, 80.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
 										"fontname" : "Arial",
-										"tags" : "",
-										"globalpatchername" : "",
-										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"globalpatchername" : "",
+										"tags" : "",
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p create_row"
@@ -4870,21 +4882,27 @@
 
 							}
  ],
-						"dependency_cache" : [  ]
+						"dependency_cache" : [ 							{
+								"name" : "example_template.txt",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling/sfinterp",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 464.0, 100.0, 71.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
 						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : "",
+						"tags" : "",
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p load_files"
@@ -5414,9 +5432,44 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pan2S.maxpat",
-				"bootpath" : "/Applications/Max6/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../../../../../../../../../../../../Applications/Max6/examples/spatialization/panning/lib",
+				"name" : "pan+amp~.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Diffusion",
+				"patcherrelativepath" : "../../../modules/Diffusion",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
