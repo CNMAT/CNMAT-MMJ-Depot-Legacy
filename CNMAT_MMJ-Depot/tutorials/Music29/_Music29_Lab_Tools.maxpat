@@ -356,7 +356,7 @@
 							}
 , 							{
 								"key" : "the internal synthesizer",
-								"value" : [ "Internal_Synth_OSC.maxpat" ]
+								"value" : [ "29_Internal_Synth_OSC.maxpat" ]
 							}
 , 							{
 								"key" : "plucked string simulation",
