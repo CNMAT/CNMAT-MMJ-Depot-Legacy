@@ -1121,7 +1121,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 25.0, 15.5, 758.0, 49.0 ],
-									"text" : "Big Chord Playspace assigns notes to different timbres according to user key strokes.\nThe notes below to large chordal structures, which are built into a preset",
+									"text" : "Big Chord Playspace assigns notes to different timbres according to user key strokes.\nThe notes form large chordal structures, which are accumulated in a preset.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
