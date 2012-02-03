@@ -29,7 +29,7 @@
 		"title" : "additive synthesis intro",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "sonogram" ],
+					"args" : [ "music29" ],
 					"id" : "obj-19",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",
