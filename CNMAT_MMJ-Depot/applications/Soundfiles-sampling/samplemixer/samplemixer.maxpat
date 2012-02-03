@@ -148,7 +148,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-5",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -6316,7 +6316,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-11",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -14977,7 +14977,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-90",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -21145,7 +21145,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-96",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -21736,8 +21736,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 450.0, 230.0, 244.0, 18.0 ],
-																	"text" : "do-not-worry"
+																	"patching_rect" : [ 450.0, 230.0, 244.0, 18.0 ]
 																}
 
 															}
@@ -21764,8 +21763,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 19.0, 230.0, 251.0, 18.0 ],
-																	"text" : "do-not-worry"
+																	"patching_rect" : [ 19.0, 230.0, 251.0, 18.0 ]
 																}
 
 															}
@@ -22862,7 +22860,7 @@
 									"patching_rect" : [ 494.777832, 311.0, 82.0, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 76.0, 228.0, 308.0, 15.0 ],
-									"text" : "0.997732 ms"
+									"text" : "1467.619019 ms"
 								}
 
 							}
@@ -23664,7 +23662,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 243.0, 144.0, 18.0, 18.0 ],
 									"size" : 1,
-									"values" : [ 0 ]
+									"values" : [ 1 ]
 								}
 
 							}
@@ -23717,6 +23715,7 @@
 									"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 									"id" : "obj-28",
 									"maxclass" : "flonum",
+									"maximum" : 1467.619019,
 									"minimum" : 0.0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -23934,6 +23933,7 @@
 									"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 									"id" : "obj-47",
 									"maxclass" : "flonum",
+									"maximum" : 1467.619019,
 									"minimum" : 0.0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -24117,7 +24117,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1460.0, 24.0, 72.0, 18.0 ],
-									"restore" : [ 0.0 ],
+									"restore" : [ 329.183685 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -24137,7 +24137,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 817.777832, 131.0, 69.0, 18.0 ],
-									"restore" : [ 1.0 ],
+									"restore" : [ 428.684814 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -24157,7 +24157,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 675.555603, 131.0, 58.0, 18.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -24202,7 +24202,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 177.777832, 117.0, 131.0, 17.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ "elec-reverseFADE-L3.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -25570,13 +25570,15 @@
 									"fontsize" : 9.0,
 									"gradient" : 1,
 									"id" : "obj-95",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 201.777832, 215.0, 82.542229, 15.0 ],
+									"patching_rect" : [ 201.777832, 215.0, 82.542229, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 124.0, 346.0, 15.0 ],
+									"text" : "elec-reverseFADE-L3.aif",
 									"textcolor" : [ 0.087009, 0.78308, 0.78308, 1.0 ]
 								}
 
@@ -27313,7 +27315,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-22",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -27926,8 +27928,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 450.0, 230.0, 244.0, 18.0 ],
-																	"text" : "do-not-worry"
+																	"patching_rect" : [ 450.0, 230.0, 244.0, 18.0 ]
 																}
 
 															}
@@ -27954,8 +27955,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 19.0, 230.0, 251.0, 18.0 ],
-																	"text" : "do-not-worry"
+																	"patching_rect" : [ 19.0, 230.0, 251.0, 18.0 ]
 																}
 
 															}
@@ -29052,7 +29052,7 @@
 									"patching_rect" : [ 494.777832, 311.0, 82.0, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 76.0, 228.0, 308.0, 15.0 ],
-									"text" : "0.997732 ms"
+									"text" : "1583.968262 ms"
 								}
 
 							}
@@ -29854,7 +29854,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 243.0, 144.0, 18.0, 18.0 ],
 									"size" : 1,
-									"values" : [ 0 ]
+									"values" : [ 1 ]
 								}
 
 							}
@@ -29907,6 +29907,7 @@
 									"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 									"id" : "obj-28",
 									"maxclass" : "flonum",
+									"maximum" : 1583.968262,
 									"minimum" : 0.0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -30124,6 +30125,7 @@
 									"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 									"id" : "obj-47",
 									"maxclass" : "flonum",
+									"maximum" : 1583.968262,
 									"minimum" : 0.0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -30307,7 +30309,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1460.0, 24.0, 72.0, 18.0 ],
-									"restore" : [ 0.0 ],
+									"restore" : [ 180.929718 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -30327,7 +30329,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 817.777832, 131.0, 69.0, 18.0 ],
-									"restore" : [ 1.0 ],
+									"restore" : [ 297.981873 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -30347,7 +30349,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 675.555603, 131.0, 58.0, 18.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -30392,7 +30394,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 177.777832, 117.0, 131.0, 17.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ "Cannon-L3.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -31767,6 +31769,7 @@
 									"patching_rect" : [ 201.777832, 215.0, 82.542229, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 124.0, 346.0, 15.0 ],
+									"text" : "Cannon-L3.aif",
 									"textcolor" : [ 0.087009, 0.78308, 0.78308, 1.0 ]
 								}
 
@@ -33582,7 +33585,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-12",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -34942,8 +34945,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 450.0, 230.0, 244.0, 18.0 ],
-																	"text" : "do-not-worry"
+																	"patching_rect" : [ 450.0, 230.0, 244.0, 18.0 ]
 																}
 
 															}
@@ -34970,8 +34972,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 19.0, 230.0, 251.0, 18.0 ],
-																	"text" : "do-not-worry"
+																	"patching_rect" : [ 19.0, 230.0, 251.0, 18.0 ]
 																}
 
 															}
@@ -36068,7 +36069,7 @@
 									"patching_rect" : [ 494.777832, 311.0, 82.0, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 76.0, 228.0, 308.0, 15.0 ],
-									"text" : "0.997732 ms"
+									"text" : "580.408142 ms"
 								}
 
 							}
@@ -36870,7 +36871,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 243.0, 144.0, 18.0, 18.0 ],
 									"size" : 1,
-									"values" : [ 0 ]
+									"values" : [ 1 ]
 								}
 
 							}
@@ -36923,6 +36924,7 @@
 									"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 									"id" : "obj-28",
 									"maxclass" : "flonum",
+									"maximum" : 580.408142,
 									"minimum" : 0.0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -37140,6 +37142,7 @@
 									"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 									"id" : "obj-47",
 									"maxclass" : "flonum",
+									"maximum" : 580.408142,
 									"minimum" : 0.0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -37323,7 +37326,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1460.0, 24.0, 72.0, 18.0 ],
-									"restore" : [ 0.0 ],
+									"restore" : [ 14.875284 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -37343,7 +37346,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 817.777832, 131.0, 69.0, 18.0 ],
-									"restore" : [ 1.0 ],
+									"restore" : [ 50.43084 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -37363,7 +37366,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 675.555603, 131.0, 58.0, 18.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -37408,7 +37411,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 177.777832, 117.0, 131.0, 17.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ "iceinglass-L3.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -38783,6 +38786,7 @@
 									"patching_rect" : [ 201.777832, 215.0, 82.542229, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 124.0, 346.0, 15.0 ],
+									"text" : "iceinglass-L3.aif",
 									"textcolor" : [ 0.087009, 0.78308, 0.78308, 1.0 ]
 								}
 
