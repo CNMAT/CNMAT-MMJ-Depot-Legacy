@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 8.0, 48.0, 971.0, 590.0 ],
+		"rect" : [ 8.0, 48.0, 971.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,23 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-37",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 224.0, 561.0, 257.0, 20.0 ],
+					"presentation_rect" : [ 224.0, 560.0, 0.0, 0.0 ],
+					"text" : "view and play a sound file with annotations",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
@@ -101,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 224.0, 537.0, 257.0, 20.0 ],
-					"text" : "Preview a folder of soundfiles",
+					"text" : "preview a folder of soundfiles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -285,7 +302,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 27,
+						"count" : 28,
 						"data" : [ 							{
 								"key" : "sinewaves",
 								"value" : [ "29_sinewaves.maxpat" ]
@@ -394,6 +411,10 @@
 								"key" : "harmonicity vs. inharmonicity",
 								"value" : [ "29_harm_inharm.maxpat" ]
 							}
+, 							{
+								"key" : "sound file presenter",
+								"value" : [ "soundfile-presenter.maxpat" ]
+							}
  ]
 					}
 ,
@@ -489,7 +510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 489.0, 249.0, 20.0 ],
-					"text" : "Mix and Mashup soundfiles",
+					"text" : "mix and mashup soundfiles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -792,7 +813,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 80.0, 209.0, 20.0 ],
+					"patching_rect" : [ 14.0, 80.0, 209.0, 20.0 ],
 					"text" : "LAB - Frequency Domain Tools",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -898,9 +919,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 487.0, 209.0, 70.0 ],
+					"patching_rect" : [ 11.0, 487.0, 205.0, 94.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
-					"tabs" : [ "sound file mixer", "sound file interpolation space", "audition soundfiles" ],
+					"tabs" : [ "sound file mixer", "sound file interpolation space", "audition soundfiles", "sound file presenter" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -913,7 +934,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 457.0, 476.0, 104.0 ],
+					"patching_rect" : [ 8.0, 458.0, 476.0, 130.0 ],
 					"rounded" : 15
 				}
 
