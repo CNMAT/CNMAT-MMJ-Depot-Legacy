@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 8.0, 48.0, 971.0, 598.0 ],
+		"rect" : [ 8.0, 48.0, 971.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,23 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-38",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 224.0, 588.0, 257.0, 20.0 ],
+					"presentation_rect" : [ 225.0, 590.0, 0.0, 0.0 ],
+					"text" : "audition and evaluate sound files",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
@@ -302,7 +319,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 28,
+						"count" : 29,
 						"data" : [ 							{
 								"key" : "sinewaves",
 								"value" : [ "29_sinewaves.maxpat" ]
@@ -414,6 +431,10 @@
 , 							{
 								"key" : "sound file presenter",
 								"value" : [ "soundfile-presenter.maxpat" ]
+							}
+, 							{
+								"key" : "audition and decide II",
+								"value" : [ "audition-and-decide-II.maxpat" ]
 							}
  ]
 					}
@@ -919,9 +940,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 487.0, 205.0, 94.0 ],
+					"patching_rect" : [ 11.0, 487.0, 205.0, 121.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
-					"tabs" : [ "sound file mixer", "sound file interpolation space", "audition soundfiles", "sound file presenter" ],
+					"tabs" : [ "sound file mixer", "sound file interpolation space", "audition soundfiles", "sound file presenter", "audition and decide II" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -934,7 +955,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 458.0, 476.0, 130.0 ],
+					"patching_rect" : [ 8.0, 458.0, 476.0, 155.0 ],
 					"rounded" : 15
 				}
 
