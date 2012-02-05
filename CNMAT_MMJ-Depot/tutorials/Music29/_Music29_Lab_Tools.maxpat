@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 588.0, 257.0, 20.0 ],
+					"patching_rect" : [ 224.0, 587.25, 257.0, 20.0 ],
 					"presentation_rect" : [ 225.0, 590.0, 0.0, 0.0 ],
 					"text" : "audition and evaluate sound files",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 561.0, 257.0, 20.0 ],
+					"patching_rect" : [ 224.0, 562.25, 257.0, 20.0 ],
 					"presentation_rect" : [ 224.0, 560.0, 0.0, 0.0 ],
 					"text" : "view and play a sound file with annotations",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -134,7 +134,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 537.0, 257.0, 20.0 ],
+					"patching_rect" : [ 224.0, 537.25, 257.0, 20.0 ],
 					"text" : "preview a folder of soundfiles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -514,7 +514,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 513.0, 257.0, 20.0 ],
+					"patching_rect" : [ 224.0, 512.25, 257.0, 20.0 ],
 					"text" : "navigate  through a space of soundfiles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -530,7 +530,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 489.0, 249.0, 20.0 ],
+					"patching_rect" : [ 224.0, 487.0, 249.0, 20.0 ],
 					"text" : "mix and mashup soundfiles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
