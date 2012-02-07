@@ -29,15 +29,15 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 655.0, 472.0, 100.0, 20.0 ],
-					"text" : "send~ sonogram"
+					"args" : [ "music29" ],
+					"id" : "obj-3",
+					"maxclass" : "bpatcher",
+					"name" : "aux_send.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 649.0, 524.5, 140.0, 58.0 ],
+					"prototypename" : "aux_send"
 				}
 
 			}
@@ -220,16 +220,16 @@
 ,
 					"patching_rect" : [ 900.0, 405.0, 72.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
-						"digest" : "",
 						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : ""
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p init_audio"
@@ -678,16 +678,16 @@
 ,
 					"patching_rect" : [ 618.0, 138.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
-						"digest" : "",
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p notes"
@@ -1954,16 +1954,16 @@
 ,
 									"patching_rect" : [ 145.0, 145.0, 314.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"tags" : "",
-										"globalpatchername" : "",
-										"default_fontface" : 0,
 										"fontface" : 0,
-										"digest" : "",
 										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : ""
+										"description" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p FM_wavemaker"
@@ -2306,16 +2306,16 @@
 ,
 									"patching_rect" : [ 68.0, 439.0, 60.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"tags" : "",
-										"globalpatchername" : "",
-										"default_fontface" : 0,
 										"fontface" : 0,
-										"digest" : "",
 										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : ""
+										"description" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p lcdformat"
@@ -2827,16 +2827,16 @@
 ,
 									"patching_rect" : [ 149.0, 357.0, 78.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"tags" : "",
-										"globalpatchername" : "",
-										"default_fontface" : 0,
 										"fontface" : 0,
-										"digest" : "",
 										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : ""
+										"description" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p abs.peak.float"
@@ -3296,16 +3296,16 @@
 ,
 					"patching_rect" : [ 728.0, 288.0, 142.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
-						"digest" : "",
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p wavemaker_Richard_Dudas"
@@ -3544,7 +3544,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-3", 1 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-45", 0 ]
@@ -3696,6 +3705,10 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-3::obj-24" : [ "live.gain~", " ", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "badge.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
@@ -3749,6 +3762,13 @@
 				"name" : "simple-stereo-gain~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "aux_send.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
+				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
