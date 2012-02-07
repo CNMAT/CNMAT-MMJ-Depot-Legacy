@@ -29,34 +29,6 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "music29" ],
-					"background" : 0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"embed" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"hidden" : 0,
-					"id" : "obj-43",
-					"ignoreclick" : 0,
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"modulemode" : 0,
-					"name" : "aux_send.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 564.0, 16.0, 140.0, 58.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 520.0, 8.0, 140.0, 58.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "mus29" ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -4698,7 +4670,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u495002767"
+									"varname" : "u086003846"
 								}
 
 							}
@@ -10866,7 +10838,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u181002769"
+									"varname" : "u556003848"
 								}
 
 							}
@@ -19523,7 +19495,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u147002771"
+									"varname" : "u393003850"
 								}
 
 							}
@@ -25693,7 +25665,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u861002773"
+									"varname" : "u461003852"
 								}
 
 							}
@@ -31884,7 +31856,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u161002775"
+									"varname" : "u630003854"
 								}
 
 							}
@@ -38901,7 +38873,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u276002777"
+									"varname" : "u063003856"
 								}
 
 							}
@@ -41000,35 +40972,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"arrow_orientation" : 0,
-					"background" : 0,
-					"bgcolor" : [ 0.66667, 0.66667, 0.66667, 1.0 ],
-					"border" : 0,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"drag_window" : 0,
-					"grad1" : [ 0.75, 0.79, 0.93, 1.0 ],
-					"grad2" : [ 0.66, 0.66, 0.72, 1.0 ],
-					"hidden" : 0,
-					"horizontal_direction" : 0,
-					"id" : "obj-44",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 556.0, 8.0, 140.0, 58.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 520.0, 8.0, 140.0, 58.0 ],
-					"rounded" : 8,
-					"shadow" : 0,
-					"shape" : 0,
-					"vertical_direction" : 0
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -41463,26 +41406,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.8, 0.8, 0.8, 0.9 ],
-					"destination" : [ "obj-43", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-71", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.8, 0.8, 0.8, 0.9 ],
-					"destination" : [ "obj-43", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-71", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
@@ -41613,7 +41536,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-43::obj-24" : [ "live.gain~[1]", " ", 0 ],
 			"obj-35::obj-24" : [ "live.gain~", " ", 0 ]
 		}
 ,
