@@ -302,16 +302,16 @@
 ,
 					"patching_rect" : [ 532.0, 256.0, 32.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p sel"
@@ -620,7 +620,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 100 ],
+					"args" : [ 120 ],
 					"id" : "obj-9",
 					"maxclass" : "bpatcher",
 					"name" : "simple-stereo-gain~.maxpat",
@@ -3831,16 +3831,16 @@
 ,
 					"patching_rect" : [ 60.0, 340.0, 107.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p additive-synthesizer"
@@ -4433,16 +4433,16 @@
 ,
 					"patching_rect" : [ 60.0, 216.0, 60.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p controller"

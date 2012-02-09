@@ -29,6 +29,21 @@
 		"title" : "filtering noise",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 495.0, 480.0, 79.0, 20.0 ],
+					"text" : "loadmess 60"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
@@ -403,16 +418,16 @@
 ,
 					"patching_rect" : [ 120.0, 400.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p multiple_copies"
@@ -577,16 +592,16 @@
 ,
 					"patching_rect" : [ 911.0, 521.0, 42.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p limit"
@@ -826,7 +841,7 @@
 			}
 , 			{
 				"box" : 				{
-					"hint" : "x 16 y 50",
+					"hint" : "x 4 y 111",
 					"id" : "obj-42",
 					"maxclass" : "itable",
 					"name" : "specEQ",
@@ -1007,11 +1022,11 @@
 									"patching_rect" : [ 92.0, 131.0, 83.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"range" : 128,
-										"embed" : 0,
 										"showeditor" : 0,
-										"size" : 256,
+										"embed" : 0,
 										"parameter_enable" : 0,
-										"name" : "specEQ"
+										"name" : "specEQ",
+										"size" : 256
 									}
 ,
 									"showeditor" : 0,
@@ -1167,16 +1182,16 @@
 ,
 					"patching_rect" : [ 94.0, 625.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p buffer_filler"
@@ -2737,16 +2752,16 @@
 ,
 					"patching_rect" : [ 444.0, 686.0, 260.0, 33.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p a_small_musical_score"
@@ -3582,6 +3597,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
