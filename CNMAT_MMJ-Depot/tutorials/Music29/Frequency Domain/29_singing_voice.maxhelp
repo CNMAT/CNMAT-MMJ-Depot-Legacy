@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 13.0, 59.0, 790.0, 761.0 ],
+		"rect" : [ 100.0, 100.0, 790.0, 761.0 ],
 		"bgcolor" : [ 0.972549, 0.972549, 0.784314, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -28,21 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-75",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.0, 464.0, 94.0, 18.0 ],
-					"text" : "loadmess gain 80"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-78",
@@ -71,6 +56,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 80 ],
 					"id" : "obj-82",
 					"maxclass" : "bpatcher",
 					"name" : "simple-stereo-gain~.maxpat",
@@ -792,7 +778,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u633002299"
+					"varname" : "u640004461"
 				}
 
 			}
@@ -1945,15 +1931,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-71", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-82", 2 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-75", 0 ]
 				}
 
 			}
