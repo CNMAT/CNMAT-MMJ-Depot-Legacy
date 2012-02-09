@@ -29,21 +29,6 @@
 		"title" : "hearing and frequency",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.5, 464.0, 111.0, 20.0 ],
-					"text" : "loadmess gain 120"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-15",
 					"maxclass" : "bpatcher",
@@ -57,6 +42,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 120 ],
 					"id" : "obj-4",
 					"maxclass" : "bpatcher",
 					"name" : "simple-stereo-gain~.maxpat",
@@ -2015,15 +2001,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 2 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
