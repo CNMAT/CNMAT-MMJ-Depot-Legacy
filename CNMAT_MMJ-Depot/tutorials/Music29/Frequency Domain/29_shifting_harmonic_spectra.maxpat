@@ -28,6 +28,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 196.0, 488.0, 110.0, 20.0 ],
+					"text" : "loadmess gain 110"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-78",
 					"maxclass" : "bpatcher",
@@ -118,16 +132,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 380.0, 336.0, 188.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p other_information_on_fft-pitch~"
@@ -726,6 +740,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 311.5, 239.0, 129.5, 239.0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
