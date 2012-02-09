@@ -483,16 +483,16 @@
 ,
 					"patching_rect" : [ 618.0, 138.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p notes"
@@ -1759,16 +1759,16 @@
 ,
 									"patching_rect" : [ 145.0, 145.0, 314.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"tags" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p FM_wavemaker"
@@ -2111,16 +2111,16 @@
 ,
 									"patching_rect" : [ 68.0, 439.0, 60.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"tags" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p lcdformat"
@@ -2632,16 +2632,16 @@
 ,
 									"patching_rect" : [ 149.0, 357.0, 78.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"tags" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p abs.peak.float"
@@ -3101,16 +3101,16 @@
 ,
 					"patching_rect" : [ 728.0, 288.0, 142.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p wavemaker_Richard_Dudas"
