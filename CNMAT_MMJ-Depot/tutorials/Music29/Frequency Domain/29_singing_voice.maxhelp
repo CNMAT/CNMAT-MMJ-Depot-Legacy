@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 17.0, 46.0, 790.0, 761.0 ],
+		"rect" : [ 13.0, 59.0, 790.0, 761.0 ],
 		"bgcolor" : [ 0.972549, 0.972549, 0.784314, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 282.0, 464.0, 94.0, 18.0 ],
+					"text" : "loadmess gain 80"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-78",
@@ -760,24 +775,24 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 507.0, 615.0, 53.0, 17.0 ],
 					"restore" : 					{
-						"babbler" : [ 1 ],
-						"babblerate" : [ 112.413795 ],
+						"babbler" : [ 0 ],
+						"babblerate" : [ 720.689636 ],
 						"glottis" : [ 0.868966 ],
-						"gruffness" : [ -0.6 ],
+						"gruffness" : [ -0.613793 ],
 						"midinote" : [ 50 ],
-						"noise" : [ 0.0 ],
+						"noise" : [ 0.296552 ],
 						"range" : [ 0 ],
 						"roundness" : [ 0.0 ],
-						"sharpness" : [ 1.0 ],
+						"sharpness" : [ 0.276596 ],
 						"smoothness" : [ 2.0 ],
 						"vibrato" : [ 1 ],
-						"vibratodepth" : [ 0.482759 ],
-						"vibratorate" : [ 7.3 ],
-						"vowel" : [ 0 ]
+						"vibratodepth" : [ 0.744828 ],
+						"vibratorate" : [ 6.886207 ],
+						"vowel" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u737000771"
+					"varname" : "u633002299"
 				}
 
 			}
@@ -1930,6 +1945,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 2 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-75", 0 ]
 				}
 
 			}
