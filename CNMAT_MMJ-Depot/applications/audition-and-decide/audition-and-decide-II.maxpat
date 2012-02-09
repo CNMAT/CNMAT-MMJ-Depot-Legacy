@@ -251,7 +251,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 24.0, 12.0, 25.0, 25.0 ]
 								}
 
@@ -1720,7 +1720,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 102.0, 118.0, 25.0, 25.0 ]
 								}
 
@@ -2021,6 +2021,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 120 ],
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "simple-stereo-gain~.maxpat",
@@ -4405,34 +4406,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-27",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.5, 492.0, 57.0, 18.0 ],
-					"text" : "gain 120"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-30",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 168.5, 468.0, 60.0, 20.0 ],
-					"text" : "loadbang"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -4653,15 +4626,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4693,15 +4657,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-30", 0 ]
 				}
 
 			}
