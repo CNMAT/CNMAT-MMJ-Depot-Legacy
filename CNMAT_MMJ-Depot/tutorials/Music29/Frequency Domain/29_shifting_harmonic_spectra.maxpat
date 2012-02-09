@@ -28,20 +28,6 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.0, 488.0, 110.0, 20.0 ],
-					"text" : "loadmess gain 110"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-78",
 					"maxclass" : "bpatcher",
@@ -180,6 +166,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 110 ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "simple-stereo-gain~.maxpat",
@@ -740,15 +727,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 311.5, 239.0, 129.5, 239.0 ],
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-12", 0 ]
 				}
 
 			}
