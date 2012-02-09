@@ -500,16 +500,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 792.0, 616.0, 288.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p instructions",
@@ -1122,16 +1122,16 @@
 ,
 									"patching_rect" : [ 476.0, 124.0, 78.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"tags" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p update_yaxis"
@@ -1494,16 +1494,16 @@
 ,
 									"patching_rect" : [ 176.0, 124.0, 93.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"tags" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p format_bpf_view"
@@ -2160,16 +2160,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 792.0, 584.0, 289.0, 27.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p MUSIQUE-CONCRETE-SCORE",
@@ -2328,16 +2328,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p init",
@@ -2443,6 +2443,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 120 ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -3482,16 +3483,16 @@
 ,
 									"patching_rect" : [ 512.0, 98.0, 81.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"tags" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p tomessagebox"
@@ -3687,16 +3688,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p collect-current-state-of-all-groovewraps",
@@ -4262,16 +4263,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p prepare-and-load-buffers",
