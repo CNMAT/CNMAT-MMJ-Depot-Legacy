@@ -506,16 +506,16 @@
 ,
 					"patching_rect" : [ 845.0, 125.0, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p store_priority"
@@ -705,16 +705,16 @@
 ,
 					"patching_rect" : [ 860.0, 80.0, 70.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"tags" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p 1stpreset"
@@ -768,6 +768,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "tune.json",
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
@@ -779,44 +780,44 @@
 					"priority" : 					{
 						"tuna_01::fundamental" : 1,
 						"tuna_01::interval" : 2,
-						"tuna_01::key_selection" : 5,
 						"tuna_01::keyboard" : 3,
 						"tuna_01::num_selection" : 4,
+						"tuna_01::key_selection" : 5,
 						"tuna_02::fundamental" : 1,
 						"tuna_02::interval" : 2,
-						"tuna_02::key_selection" : 5,
 						"tuna_02::keyboard" : 3,
 						"tuna_02::num_selection" : 4,
+						"tuna_02::key_selection" : 5,
 						"tuna_03::fundamental" : 1,
 						"tuna_03::interval" : 2,
-						"tuna_03::key_selection" : 5,
 						"tuna_03::keyboard" : 3,
 						"tuna_03::num_selection" : 4,
+						"tuna_03::key_selection" : 5,
 						"tuna_04::fundamental" : 1,
 						"tuna_04::interval" : 2,
-						"tuna_04::key_selection" : 5,
 						"tuna_04::keyboard" : 3,
 						"tuna_04::num_selection" : 4,
+						"tuna_04::key_selection" : 5,
 						"tuna_05::fundamental" : 1,
 						"tuna_05::interval" : 2,
-						"tuna_05::key_selection" : 5,
 						"tuna_05::keyboard" : 3,
 						"tuna_05::num_selection" : 4,
+						"tuna_05::key_selection" : 5,
 						"tuna_06::fundamental" : 1,
 						"tuna_06::interval" : 2,
-						"tuna_06::key_selection" : 5,
 						"tuna_06::keyboard" : 3,
 						"tuna_06::num_selection" : 4,
+						"tuna_06::key_selection" : 5,
 						"tuna_07::fundamental" : 1,
 						"tuna_07::interval" : 2,
-						"tuna_07::key_selection" : 5,
 						"tuna_07::keyboard" : 3,
 						"tuna_07::num_selection" : 4,
+						"tuna_07::key_selection" : 5,
 						"tuna_08::fundamental" : 1,
 						"tuna_08::interval" : 2,
-						"tuna_08::key_selection" : 5,
 						"tuna_08::keyboard" : 3,
-						"tuna_08::num_selection" : 4
+						"tuna_08::num_selection" : 4,
+						"tuna_08::key_selection" : 5
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -861,6 +862,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 110 ],
 					"id" : "obj-51",
 					"maxclass" : "bpatcher",
 					"name" : "simple-stereo-gain~.maxpat",
@@ -1201,6 +1203,13 @@
 				"name" : "simple-stereo-gain~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tune.json",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
