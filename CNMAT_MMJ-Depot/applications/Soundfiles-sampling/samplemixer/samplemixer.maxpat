@@ -148,7 +148,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-5",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -247,7 +247,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-11",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -433,14 +433,14 @@
 					"presentation_rect" : [ 792.0, 616.0, 288.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : ""
 					}
 ,
@@ -558,8 +558,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 10, 59, 650, 299 ],
 						"parameter_enable" : 0,
+						"client_rect" : [ 10, 59, 650, 299 ],
 						"storage_rect" : [ 10, 59, 650, 299 ]
 					}
 ,
@@ -664,7 +664,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1056,14 +1055,14 @@
 									"patching_rect" : [ 476.0, 124.0, 78.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
+										"tags" : "",
 										"fontface" : 0,
+										"globalpatchername" : "",
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
-										"tags" : "",
 										"digest" : ""
 									}
 ,
@@ -1428,14 +1427,14 @@
 									"patching_rect" : [ 176.0, 124.0, 93.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontname" : "Arial",
-										"default_fontsize" : 10.0,
 										"fontname" : "Arial",
+										"default_fontsize" : 10.0,
 										"description" : "",
-										"globalpatchername" : "",
+										"tags" : "",
 										"fontface" : 0,
+										"globalpatchername" : "",
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"tags" : "",
 										"digest" : ""
 									}
 ,
@@ -1753,7 +1752,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "list", "list", "list" ],
 									"patching_rect" : [ 112.0, 172.0, 1190.0, 180.0 ],
-									"points" : [ 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, "0", 4, 0.0, 1.0, 0.193548, 2421.875, 2.0, 0.6, 4375.0, 1.0, 1.0, 4687.5, 1.0, 1.0 ],
+									"points" : [ 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, "0", 0 ],
 									"pointsize" : 12.0,
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 32.0, 1184.0, 180.0 ],
@@ -2094,14 +2093,14 @@
 					"presentation_rect" : [ 792.0, 584.0, 289.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : ""
 					}
 ,
@@ -2262,14 +2261,14 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : ""
 					}
 ,
@@ -2516,14 +2515,14 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : ""
 					}
 ,
@@ -2848,7 +2847,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-90",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -2947,7 +2946,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-96",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -3046,7 +3045,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-22",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -3246,7 +3245,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-12",
 					"ignoreclick" : 0,
-					"items" : [ "aximpact-L3.aif", ",", "BassClar-A2-FADE-L3.aif", ",", "bubbles-L3.aif", ",", "Cannon-L3.aif", ",", "carcrash-L3.aif", ",", "cicada-FADE-L3.aif", ",", "coinspin-L3.aif", ",", "doorclose-L3.aif", ",", "elec-FADE-L-3.aif", ",", "elec-longFADE-L3.aif", ",", "elec-reverseFADE-L3.aif", ",", "elec2-FADE-L3.aif", ",", "Elec3-FADE-L3.aif", ",", "electric-FADE-L3.aif", ",", "fan-FADE-L3.aif", ",", "fillingbottle-L3.aif", ",", "flashbulb-L3.aif", ",", "flashbulb2-L3.aif", ",", "garbagecan-hardstick-L3.aif", ",", "garbagecan-wirebrush-L3.aif", ",", "gun-hi-L3.aif", ",", "gun-L3.aif", ",", "harpsichord-FADE-L3.aif", ",", "hiss-FADE-L3.aif", ",", "iceinglass-L3.aif", ",", "membrane-impact-L3.aif", ",", "metalcrash-L3.aif", ",", "metalcrash2-L3.aif", ",", "metalcrash3-L3.aif", ",", "metalglasscrash-L3.aif", ",", "metalstrike-L3.aif", ",", "newbassknock1-L3.aif", ",", "newbassknock3-L3.aif", ",", "noise-FADE-L3.aif", ",", "potterycrash-L3.aif", ",", "raindrop2-L3.aif", ",", "sax-FADE-L3.aif", ",", "sea-FADE-L3.aif", ",", "seawave-L3.aif", ",", "shutter-L3.aif", ",", "shutter2-L3.aif", ",", "shutter3-L3.aif", ",", "stepinwater-L3.aif", ",", "swish2-L3.aif", ",", "swish3-L3.aif", ",", "tone-FADE-L3.aif", ",", "voice-FADE-L3.aif", ",", "water-FADE-L3.aif", ",", "waterdrop-L3.aif", ",", "wood-crash2-L3.aif", ",", "woodblock-softmallet-L3.aif", ",", "woodblock_hard-mallet-L3.aif", ",", "zipper-L3.aif", ",", "zipper2-L3.aif" ],
+					"items" : "<empty>",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -3643,14 +3642,14 @@
 									"patching_rect" : [ 512.0, 98.0, 81.0, 17.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
+										"tags" : "",
 										"fontface" : 0,
+										"globalpatchername" : "",
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
-										"tags" : "",
 										"digest" : ""
 									}
 ,
@@ -3848,14 +3847,14 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : ""
 					}
 ,
@@ -4423,14 +4422,14 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : ""
 					}
 ,
