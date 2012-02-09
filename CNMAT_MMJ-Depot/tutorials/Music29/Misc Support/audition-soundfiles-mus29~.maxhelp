@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 56.0, 66.0, 520.0, 535.0 ],
+		"rect" : [ 100.0, 100.0, 520.0, 535.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -569,6 +569,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 120 ],
 					"id" : "obj-27",
 					"maxclass" : "bpatcher",
 					"name" : "simple-stereo-gain~.maxpat",
