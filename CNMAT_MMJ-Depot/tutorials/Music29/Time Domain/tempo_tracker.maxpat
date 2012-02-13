@@ -30,6 +30,113 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 71.5, 93.0, 62.0, 18.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.573117, 0.965617, 0.988949, 1.0 ],
+					"id" : "obj-31",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 171.5, 116.0, 150.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 335.0, 212.0, 153.0, 18.0 ],
+					"text" : "< How many taps within a beat?",
+					"textcolor" : [ 0.573117, 0.965617, 0.988949, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 12.0, 164.0, 32.5, 18.0 ],
+					"text" : "* 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"coll_data" : 					{
+						"count" : 5,
+						"data" : [ 							{
+								"key" : "Beat",
+								"value" : [ 1.0 ]
+							}
+, 							{
+								"key" : "X2",
+								"value" : [ 0.5 ]
+							}
+, 							{
+								"key" : "X4",
+								"value" : [ 0.25 ]
+							}
+, 							{
+								"key" : "X8",
+								"value" : [ 0.125 ]
+							}
+, 							{
+								"key" : "X16",
+								"value" : [ 0.0625 ]
+							}
+ ]
+					}
+,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 112.0, 144.0, 67.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1
+					}
+,
+					"text" : "coll divisions"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"items" : [ "Beat", ",", "X2", ",", "X4", ",", "X8", ",", "X16" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 71.5, 116.0, 100.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 268.0, 212.0, 60.0, 18.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-57",
 					"maxclass" : "newobj",
@@ -463,7 +570,7 @@
 ,
 					"patching_rect" : [ 136.0, 36.0, 143.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 273.0, 143.0, 23.0 ],
+					"presentation_rect" : [ 323.5, 288.0, 143.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"tags" : "",
 						"default_fontface" : 0,
@@ -790,7 +897,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "tempo tracker", 0.1, "Edmund Campion / Jeff Lubow", "tempo tracker", 6666 ],
+					"args" : [ "tempo tracker", 1.1, "Edmund Campion / Jeff Lubow", "tempo tracker", 6666 ],
 					"id" : "obj-29",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
@@ -1066,12 +1173,14 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 732.0, 69.0, 104.0, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 104.0, 236.0, 84.0 ]
+					"presentation_rect" : [ 252.0, 104.0, 236.0, 84.0 ],
+					"rounded" : 20.0
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.098527, 0.650945, 0.666667, 1.0 ],
 					"id" : "obj-56",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -1079,7 +1188,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 468.0, 344.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 104.0, 236.0, 84.0 ]
+					"presentation_rect" : [ 252.0, 104.0, 236.0, 84.0 ],
+					"rounded" : 20
 				}
 
 			}
@@ -1115,10 +1225,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1218,6 +1355,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -1394,7 +1540,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-80", 0 ]
