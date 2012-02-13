@@ -45,7 +45,7 @@
 ,
 						"rect" : [ 647.0, 51.0, 124.0, 287.0 ],
 						"bglocked" : 0,
-						"openinpresentation" : 0,
+						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -465,14 +465,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 345.0, 273.0, 143.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -924,13 +924,14 @@
 					"fontsize" : 14.513037,
 					"frgb" : [ 0.776471, 0.945098, 1.0, 1.0 ],
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 179.0, 165.0, 23.0 ],
+					"patching_rect" : [ 28.0, 179.0, 165.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 182.582779, 248.0, 153.834442, 23.0 ],
-					"text" : "<- Resulting Tempo",
+					"presentation_rect" : [ 182.582779, 248.0, 198.0, 23.0 ],
+					"text" : "<- Resulting Tempo in BPM",
 					"textcolor" : [ 0.776471, 0.945098, 1.0, 1.0 ]
 				}
 
