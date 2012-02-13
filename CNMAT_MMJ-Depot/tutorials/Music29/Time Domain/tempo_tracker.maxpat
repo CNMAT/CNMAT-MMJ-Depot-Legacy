@@ -465,16 +465,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 345.0, 273.0, 143.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p audition_soundfiles"
@@ -505,7 +505,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 214.0, 58.0, 16.0 ],
-					"presentation_rect" : [ 625.0, 480.0, 0.0, 0.0 ],
 					"text" : "set ttsingle"
 				}
 
@@ -687,7 +686,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-15",
-					"items" : [ "randomsquare.01", ",", "randomsquare.02", ",", "randomsquare.03", ",", "randomsquare.04", ",", "randomsquare.05", ",", "randomsquare.06", ",", "randomsquare.07", ",", "randomsquare.08", ",", "randomsquare.09", ",", "randomsquare.10", ",", "randomsquare.11" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
