@@ -412,7 +412,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 206.0, 274.0, 88.0, 15.0 ],
-					"text" : "/vibratodepth $1"
+					"text" : "/vibratodepth $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -740,8 +741,8 @@
 					"patching_rect" : [ 507.0, 593.0, 130.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"storage_rect" : [ 0, 0, 640, 240 ],
-						"parameter_enable" : 0,
-						"client_rect" : [ 10, 59, 618, 455 ]
+						"client_rect" : [ 10, 59, 618, 455 ],
+						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattrstorage singing-voice",
@@ -764,11 +765,11 @@
 						"babbler" : [ 0 ],
 						"babblerate" : [ 720.689636 ],
 						"glottis" : [ 0.868966 ],
-						"gruffness" : [ -0.613793 ],
+						"gruffness" : [ -0.724138 ],
 						"midinote" : [ 50 ],
 						"noise" : [ 0.296552 ],
 						"range" : [ 0 ],
-						"roundness" : [ 0.0 ],
+						"roundness" : [ 0.186207 ],
 						"sharpness" : [ 0.276596 ],
 						"smoothness" : [ 2.0 ],
 						"vibrato" : [ 1 ],
@@ -778,7 +779,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u640004461"
+					"varname" : "u246001950"
 				}
 
 			}
@@ -849,7 +850,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 435.0, 54.0, 15.0 ],
-					"text" : "/noise $1"
+					"text" : "/noise $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -864,7 +866,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 74.0, 417.0, 60.0, 15.0 ],
-					"text" : "/glottis $1"
+					"text" : "/glottis $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -879,7 +882,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 449.0, 410.0, 83.0, 15.0 ],
-					"text" : "/smoothness $1"
+					"text" : "/smoothness $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -954,7 +958,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 449.0, 353.0, 76.0, 15.0 ],
-					"text" : "/sharpness $1"
+					"text" : "/sharpness $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1045,7 +1050,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 449.0, 261.0, 78.0, 15.0 ],
-					"text" : "/babblerate $1"
+					"text" : "/babblerate $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1078,7 +1084,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 449.0, 198.0, 64.0, 15.0 ],
-					"text" : "/babbler $1"
+					"text" : "/babbler $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1134,7 +1141,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 157.0, 348.0, 74.0, 15.0 ],
-					"text" : "/gruffness $1"
+					"text" : "/gruffness $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1149,7 +1157,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 71.0, 331.0, 76.0, 15.0 ],
-					"text" : "/roundness $1"
+					"text" : "/roundness $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1219,7 +1228,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 274.0, 64.0, 15.0 ],
-					"text" : "/vibrato $1"
+					"text" : "/vibrato $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1247,7 +1257,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 274.0, 83.0, 15.0 ],
-					"text" : "/vibratorate $1"
+					"text" : "/vibratorate $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1290,7 +1301,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 36.0, 228.0, 53.0, 15.0 ],
-					"text" : "/pitch $1"
+					"text" : "/pitch $1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
