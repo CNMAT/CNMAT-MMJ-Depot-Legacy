@@ -48,14 +48,13 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.573117, 0.965617, 0.988949, 1.0 ],
 					"id" : "obj-31",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 171.5, 116.0, 150.0, 29.0 ],
+					"patching_rect" : [ 171.5, 116.0, 150.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.0, 212.0, 153.0, 18.0 ],
-					"text" : "< How many taps within a beat?",
+					"presentation_rect" : [ 364.0, 212.0, 92.0, 18.0 ],
+					"text" : "< Slow tempo by...",
 					"textcolor" : [ 0.573117, 0.965617, 0.988949, 1.0 ]
 				}
 
@@ -122,7 +121,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
-					"items" : [ "Beat", ",", "X2", ",", "X4", ",", "X8", ",", "X16" ],
+					"items" : [ "Beat", "(none)", ",", "1/2", ",", "1/4", ",", "1/8", ",", "1/16" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -130,7 +129,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 71.5, 116.0, 100.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 268.0, 212.0, 60.0, 18.0 ]
+					"presentation_rect" : [ 268.0, 212.0, 91.0, 18.0 ]
 				}
 
 			}
