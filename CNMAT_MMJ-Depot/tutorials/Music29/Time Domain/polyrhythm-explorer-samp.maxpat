@@ -853,16 +853,16 @@
 ,
 									"patching_rect" : [ 452.0, 288.0, 53.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"tags" : "",
 										"fontname" : "Arial",
 										"default_fontsize" : 10.0,
-										"tags" : "",
 										"description" : "",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p admin"
@@ -1306,16 +1306,16 @@
 ,
 					"patching_rect" : [ 216.0, 512.0, 117.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p prepare-and-load-buffers"
@@ -1564,16 +1564,16 @@
 ,
 					"patching_rect" : [ 240.0, 184.0, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p init"
@@ -2241,7 +2241,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u911005253"
+									"varname" : "u097009353"
 								}
 
 							}
@@ -2609,16 +2609,16 @@
 ,
 					"patching_rect" : [ 8.0, 208.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p reverb",
@@ -3193,6 +3193,13 @@
 				"name" : "clicker~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Timing/stepmetro",
 				"patcherrelativepath" : "../../../modules/Timing/stepmetro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shuffle_polybuf_vector.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
