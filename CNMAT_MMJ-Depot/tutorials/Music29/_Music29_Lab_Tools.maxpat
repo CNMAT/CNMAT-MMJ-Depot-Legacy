@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 224.0, 587.25, 257.0, 20.0 ],
-					"presentation_rect" : [ 225.0, 590.0, 0.0, 0.0 ],
 					"text" : "audition and evaluate sound files",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -54,7 +53,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 224.0, 562.25, 257.0, 20.0 ],
-					"presentation_rect" : [ 224.0, 560.0, 0.0, 0.0 ],
 					"text" : "view and play a sound file with annotations",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -70,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 424.0, 261.0, 20.0 ],
+					"patching_rect" : [ 224.0, 422.00293, 261.0, 20.0 ],
 					"text" : "adjust harmonics gradually to noise",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -86,7 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 402.0, 261.0, 20.0 ],
+					"patching_rect" : [ 224.0, 396.378723, 261.0, 20.0 ],
 					"text" : "view frequency analysis of complex waveforms",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -228,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 380.0, 261.0, 20.0 ],
+					"patching_rect" : [ 224.0, 370.754517, 261.0, 20.0 ],
 					"text" : "filters change the spectra we hear",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -260,7 +258,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 212.0, 248.0, 20.0 ],
+					"patching_rect" : [ 223.0, 191.385101, 248.0, 20.0 ],
 					"text" : "build and hear complex harmonic waveforms",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -276,7 +274,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 187.0, 221.0, 20.0 ],
+					"patching_rect" : [ 223.0, 165.760895, 221.0, 20.0 ],
 					"text" : "construct  harmonic waveforms from F0",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -311,7 +309,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 14.0, 114.0, 202.0, 328.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
-					"tabs" : [ "sinewaves", "viewing sound", "hearing and frequency", "additive synthesis intro", "partials display", "the harmonic series", "performing timbres", "the singing voice", "shifting harmonic spectra", "inharmonic spectra", "computer keyboard & mouse synth", "filtering noise", "sonogram analysis", "harmonicity vs. inharmonicity" ],
+					"tabs" : [ "sinewaves", "hearing and frequency", "additive synthesis intro", "partials display", "the harmonic series", "performing timbres", "the singing voice", "shifting harmonic spectra", "inharmonic spectra", "computer keyboard & mouse synth", "filtering noise", "sonogram analysis", "harmonicity vs. inharmonicity" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -690,7 +688,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 356.0, 255.0, 20.0 ],
+					"patching_rect" : [ 223.0, 345.13031, 255.0, 20.0 ],
 					"text" : "pitch and gain control = expressive instrument",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -706,7 +704,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 332.0, 261.0, 20.0 ],
+					"patching_rect" : [ 223.0, 319.506104, 261.0, 20.0 ],
 					"text" : "inharmonic waves  are everywhere in the world",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -722,7 +720,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 308.0, 259.0, 20.0 ],
+					"patching_rect" : [ 223.0, 293.881927, 259.0, 20.0 ],
 					"text" : "harmonic waves are the exception, not the rule",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -738,7 +736,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 284.0, 207.0, 20.0 ],
+					"patching_rect" : [ 223.0, 268.257721, 207.0, 20.0 ],
 					"text" : "vocal synthesis and resonant filtering",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -754,7 +752,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 259.0, 257.0, 20.0 ],
+					"patching_rect" : [ 223.0, 242.633514, 257.0, 20.0 ],
 					"text" : "play complex waveforms using western scales",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -770,7 +768,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 236.0, 248.0, 20.0 ],
+					"patching_rect" : [ 223.0, 217.009308, 248.0, 20.0 ],
 					"text" : "build and hear complex harmonic waveforms",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -786,24 +784,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 164.0, 241.0, 20.0 ],
+					"patching_rect" : [ 223.0, 140.136688, 241.0, 20.0 ],
 					"text" : "human hearing and sound",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-19",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 140.0, 243.0, 20.0 ],
-					"text" : "freq-domain vs. time-domain representation",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -818,7 +800,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 116.0, 250.0, 20.0 ],
+					"patching_rect" : [ 223.0, 114.0, 250.0, 20.0 ],
 					"text" : "understanding sound waves and frequency",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
