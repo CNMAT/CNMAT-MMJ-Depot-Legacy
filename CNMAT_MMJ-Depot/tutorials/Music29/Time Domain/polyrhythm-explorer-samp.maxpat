@@ -2241,7 +2241,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u097009353"
+									"varname" : "u276003266"
 								}
 
 							}
@@ -2630,16 +2630,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.178571,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : [ 0.050527, 0.064039, 0.19692, 1.0 ],
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 436.0, 95.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 272.0, 93.882355, 18.0 ],
+					"presentation_rect" : [ 256.0, 272.0, 93.882355, 18.0 ],
 					"text" : "audio must be on",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.050527, 0.064039, 0.19692, 1.0 ]
 				}
 
 			}
