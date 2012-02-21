@@ -286,6 +286,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 735.0, 256.0, 128.0, 18.0 ],
+					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 538.0, 88.0, 128.0, 18.0 ],
 					"varname" : "umenu[1]"
@@ -641,16 +642,16 @@
 ,
 					"patching_rect" : [ 32.0, 216.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p hidefunction"
@@ -758,11 +759,11 @@
 						"seq_gate" : [ 0 ],
 						"seq_gate[1]" : [ 0 ],
 						"seq_timbre" : [ 0 ],
-						"umenu[1]" : [ 0 ]
+						"umenu[1]" : [ "" ]
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u750004266"
+					"varname" : "u351001671"
 				}
 
 			}
@@ -1100,16 +1101,16 @@
 ,
 					"patching_rect" : [ 724.0, 470.0, 72.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p format_tabs"
@@ -2642,16 +2643,16 @@
 ,
 					"patching_rect" : [ 256.5, 418.0, 343.5, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p division"
