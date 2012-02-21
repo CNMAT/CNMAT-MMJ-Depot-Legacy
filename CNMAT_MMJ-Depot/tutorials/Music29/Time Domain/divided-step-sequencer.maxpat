@@ -29,7 +29,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ 60, "beat" ],
+					"args" : [ 24, "beat" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "polyrhythm_basic_module.maxpat",
@@ -724,6 +724,7 @@
 ,
 					"patching_rect" : [ 1212.0, 430.0, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
@@ -732,8 +733,7 @@
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontface" : 0
 					}
 ,
 					"text" : "p init"
@@ -785,8 +785,8 @@
 					"patching_rect" : [ 1024.0, 410.0, 126.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
-						"parameter_enable" : 0,
-						"storage_rect" : [ 365, 44, 816, 172 ]
+						"storage_rect" : [ 365, 44, 816, 172 ],
+						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattrstorage divided-steps",
@@ -880,7 +880,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u972001963"
+									"varname" : "u862004607"
 								}
 
 							}
@@ -1546,6 +1546,7 @@
 ,
 					"patching_rect" : [ 16.0, 340.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
@@ -1554,8 +1555,7 @@
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontface" : 0
 					}
 ,
 					"text" : "p reverb",
