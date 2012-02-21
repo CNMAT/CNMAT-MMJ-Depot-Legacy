@@ -317,14 +317,10 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 29,
+						"count" : 28,
 						"data" : [ 							{
 								"key" : "sinewaves",
 								"value" : [ "29_sinewaves.maxpat" ]
-							}
-, 							{
-								"key" : "viewing sound",
-								"value" : [ "29_viewing_sound.maxpat" ]
 							}
 , 							{
 								"key" : "hearing and frequency",
