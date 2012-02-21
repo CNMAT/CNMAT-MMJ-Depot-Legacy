@@ -31,6 +31,38 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 850.0, 230.0, 68.0, 18.0 ],
+					"text" : "route symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 850.0, 208.0, 100.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0
+					}
+,
+					"text" : "coll #3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -47,7 +79,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
-					"items" : "<empty>",
+					"items" : "--- none ---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -416,14 +448,14 @@
 					"patching_rect" : [ 68.0, 284.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
+						"tags" : "",
 						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
 						"fontsize" : 10.0
 					}
 ,
@@ -509,7 +541,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u973003064"
+					"varname" : "u590003476"
 				}
 
 			}
@@ -834,14 +866,14 @@
 					"patching_rect" : [ 554.0, 208.0, 72.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
+						"tags" : "",
 						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
 						"fontsize" : 10.0
 					}
 ,
@@ -924,7 +956,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 987.0, 119.0, 693.0, 697.0 ],
+						"rect" : [ 418.0, 215.0, 693.0, 671.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1308,7 +1340,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 4.0, 16.0, 25.0, 25.0 ]
 								}
 
@@ -2146,14 +2178,14 @@
 					"patching_rect" : [ 360.0, 428.0, 468.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontface" : 0,
+						"tags" : "",
 						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
 						"fontsize" : 12.0
 					}
 ,
@@ -2415,7 +2447,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1604", 5 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-22", 1 ]
@@ -2464,6 +2496,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -2581,6 +2622,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1604", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1604", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

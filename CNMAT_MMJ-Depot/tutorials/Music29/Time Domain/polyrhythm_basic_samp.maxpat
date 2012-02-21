@@ -30,6 +30,38 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 648.0, 326.0, 68.0, 18.0 ],
+					"text" : "route symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 648.0, 296.0, 100.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0
+					}
+,
+					"text" : "coll #3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -512,14 +544,14 @@
 					"patching_rect" : [ 32.0, 274.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"tags" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
 						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
 						"fontsize" : 10.0
 					}
 ,
@@ -587,12 +619,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-13",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 180.0, 328.0, 30.0 ],
-					"text" : "arg1: number of sliders\narg2: type of subbeat (one, beat, etc)"
+					"patching_rect" : [ 684.0, 180.0, 328.0, 41.0 ],
+					"text" : "arg1: number of sliders\narg2: type of subbeat (one, beat, etc)\narg3: name of coll for samplemapping involving polybuffer~"
 				}
 
 			}
@@ -632,7 +664,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u478001631"
+					"varname" : "u109001702"
 				}
 
 			}
@@ -971,14 +1003,14 @@
 					"patching_rect" : [ 724.0, 470.0, 72.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"tags" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
 						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
 						"fontsize" : 10.0
 					}
 ,
@@ -1460,7 +1492,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 4.0, 16.0, 25.0, 25.0 ]
 								}
 
@@ -2298,14 +2330,14 @@
 					"patching_rect" : [ 360.0, 490.0, 187.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"tags" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontface" : 0,
 						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
 						"fontsize" : 12.0
 					}
 ,
@@ -2528,6 +2560,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2591,7 +2632,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1604", 5 ],
+					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-22", 1 ]
@@ -2640,6 +2681,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1604", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1604", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
