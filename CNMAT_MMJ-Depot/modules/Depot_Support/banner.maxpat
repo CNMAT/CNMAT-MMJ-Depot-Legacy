@@ -207,7 +207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 179.0, 266.0, 217.0, 17.0 ],
-					"text" : "banner version 1.0 by Jeff Lubow"
+					"text" : "banner version 1.0 by MZED / Jeff Lubow"
 				}
 
 			}
