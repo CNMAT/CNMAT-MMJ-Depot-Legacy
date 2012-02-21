@@ -8,7 +8,7 @@
 		}
 ,
 		"rect" : [ 24.0, 65.0, 792.0, 682.0 ],
-		"bgcolor" : [ 0.109804, 0.12549, 0.141176, 1.0 ],
+		"bgcolor" : [ 0.973975, 1.0, 0.972394, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-21",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 200.0, 320.0, 150.0, 62.0 ],
+					"text" : "args: \n1. name of patch\n2. description of patch\n3. color of panel"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -179,8 +193,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 169.0, 67.0, 17.0 ],
-					"text" : "loadmess #2"
+					"patching_rect" : [ 41.0, 169.0, 62.0, 17.0 ],
+					"text" : "loadmess #1"
 				}
 
 			}
