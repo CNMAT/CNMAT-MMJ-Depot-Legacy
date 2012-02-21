@@ -125,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 156.0, 111.0, 357.0, 18.0 ],
-					"text" : "#2",
+					"text" : "#1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "myName"
 				}
@@ -194,7 +194,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 169.0, 62.0, 17.0 ],
-					"text" : "loadmess #1"
+					"text" : "loadmess #2"
 				}
 
 			}
@@ -214,7 +214,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-10",
 					"ignoreclick" : 1,
