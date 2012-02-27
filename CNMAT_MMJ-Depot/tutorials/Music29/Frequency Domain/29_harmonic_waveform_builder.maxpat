@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 599.0, 211.0, 194.0, 39.0 ],
+					"patching_rect" : [ 624.0, 211.0, 194.0, 39.0 ],
 					"text" : "As higher partials are added \nthe pitch becomes brighter."
 				}
 
@@ -50,7 +50,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 599.0, 163.0, 371.0, 39.0 ],
+					"patching_rect" : [ 624.0, 163.0, 309.0, 39.0 ],
 					"text" : "Since all the partials share a common fate, they perceptually fuse into a single event - a pitch."
 				}
 
