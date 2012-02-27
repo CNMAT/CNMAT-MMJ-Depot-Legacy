@@ -7,7 +7,8 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 7.0, 48.0, 967.0, 735.0 ],
+		"rect" : [ 7.0, 48.0, 954.0, 718.0 ],
+		"bgcolor" : [ 0.760797, 0.835078, 0.877472, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
