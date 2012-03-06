@@ -2401,7 +2401,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 290.0, 140.0, 17.0, 17.0 ]
+					"patching_rect" : [ 290.0, 140.0, 14.301197, 14.301197 ]
 				}
 
 			}
@@ -2413,7 +2413,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 290.0, 124.0, 17.0, 17.0 ]
+					"patching_rect" : [ 290.0, 124.0, 14.301197, 14.301197 ]
 				}
 
 			}
@@ -2439,7 +2439,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 290.0, 109.0, 17.0, 17.0 ]
+					"patching_rect" : [ 290.0, 109.0, 14.301197, 14.301197 ]
 				}
 
 			}
