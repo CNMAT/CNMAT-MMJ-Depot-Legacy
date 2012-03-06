@@ -364,15 +364,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-10",
-					"linecount" : 14,
+					"linecount" : 13,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 896.0, 604.0, 823.0, 216.0 ],
+					"patching_rect" : [ 896.0, 604.0, 823.0, 201.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 7.0, 146.0, 928.0, 171.0 ],
-					"text" : "The auditory system breaks down complex waveforms into a discrete number of fixed frequencies. In science, when a complex waveform is broken down into individual sinetone components it is called a frequency domain representation of the sound.  The frequency domain representation of a sound plots the amount of energy present at any given time for all active frequencies.  Imagine a movie film with 44,100 frames per second. Each frame contains the spectral information needed to recreate a sound.  When the frames are read one after the other the exact sound is reproduced.\n\nThe individual sine tone components of a complex sound are called the partials of that sound.  By calculating the frequency ratio between the lowest partial,called the fundamental or first partial, and the upper partials, an estimation of the relative harmonic or inharmonic charateristics of the sound is obtained.  \n\nIf the upper partials are all roughly in whole number ratios to the fundamental or first partial, then the sound is termed \"harmonic\".  Al stretched \nstring and blown tube  instruments generate mostly harmonic waveforms. The more the upper partials move away from the whole number ratios the more inharmonic the sound becomes. Gongs and bells feature inharmonic partials.  "
+					"presentation_rect" : [ 7.0, 146.0, 938.0, 171.0 ],
+					"text" : "The auditory system breaks down complex waveforms into a discrete number of fixed frequencies. In science, when a complex waveform is broken down into individual sinetone components it is called a frequency domain representation of the sound.  The frequency domain representation of a sound plots the amount of energy present at any given time for all active frequencies.  Imagine a movie film with 44,100 frames per second. Each frame contains the spectral information needed to recreate a sound.  When the frames are read one after the other the exact sound is reproduced.\n\nThe individual sine tone components of a complex sound are called the partials of that sound.  By calculating the frequency ratio between the lowest partial,called the fundamental or first partial, and the upper partials, an estimation of the relative harmonic or inharmonic charateristics of the sound is obtained.  \n\nIf the upper partials are all roughly in whole number ratios to the fundamental or first partial, then the sound is termed \"harmonic\".  A stretched \nstring and blown tube  instruments generate mostly harmonic waveforms. The more the upper partials move away from the whole number ratios the more inharmonic the sound becomes. Gongs and bells feature inharmonic partials.  "
 				}
 
 			}
@@ -955,7 +955,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 894.0, 649.0, 823.0, 66.0 ],
+					"patching_rect" : [ 894.0, 649.0, 824.0, 66.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 5.0, 329.0, 914.0, 66.0 ],
