@@ -46,11 +46,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 312.0, 84.0, 98.0, 18.0 ],
-					"text" : "route newbutton led"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 312.0, 84.0, 120.0, 18.0 ],
+					"text" : "route newbutton led load"
 				}
 
 			}
@@ -976,12 +976,6 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "audition_decide_admin.txt",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
 								"name" : "OSC-route.mxo",
 								"type" : "iLaX"
 							}
@@ -990,16 +984,16 @@
 ,
 					"patching_rect" : [ 455.5, 340.0, 258.0, 65.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
 						"fontname" : "Arial",
+						"description" : "",
 						"tags" : "",
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p load_test"
@@ -1190,6 +1184,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1262,13 +1265,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "audition_decide_admin.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
-				"patcherrelativepath" : "../lib/admin_files",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
