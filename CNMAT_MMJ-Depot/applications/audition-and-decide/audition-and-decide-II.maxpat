@@ -336,7 +336,7 @@
 									"fontsize" : 18.0,
 									"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 									"id" : "obj-77",
-									"items" : [ "14-29review.aif", ",", "12-29review.aif", ",", "11-29review.aif", ",", "08-29review.aif", ",", "06-29review.aif", ",", "05-29review.aif", ",", "04-29review.aif", ",", "03-29review.aif", ",", "02-29review.aif", ",", "01-29review.aif", ",", "18-29review.wav", ",", "17-29review.wav", ",", "15-29review.wav", ",", "13-29review.wav", ",", "09-29review.wav", ",", "07-29review.wav", ",", "16-29review.aiff", ",", "14-29review.aif", ",", "12-29review.aif", ",", "11-29review.aif", ",", "08-29review.aif", ",", "06-29review.aif", ",", "05-29review.aif", ",", "04-29review.aif", ",", "03-29review.aif", ",", "02-29review.aif", ",", "01-29review.aif", ",", "18-29review.wav", ",", "17-29review.wav", ",", "15-29review.wav", ",", "13-29review.wav", ",", "09-29review.wav", ",", "07-29review.wav", ",", "16-29review.aiff" ],
+									"items" : [ "sound 567.aif", ",", "sound37.aif" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -481,16 +481,16 @@
 ,
 					"patching_rect" : [ 236.0, 436.0, 46.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
+						"fontname" : "Arial",
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p admin"
@@ -1153,16 +1153,16 @@
 ,
 													"patching_rect" : [ 40.0, 96.0, 107.0, 18.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
 														"default_fontsize" : 10.0,
+														"fontname" : "Arial",
 														"description" : "",
+														"tags" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
-														"fontsize" : 10.0
+														"fontsize" : 10.0,
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p find_item-corr_pairs"
@@ -1529,16 +1529,16 @@
 ,
 									"patching_rect" : [ 260.0, 156.0, 171.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 10.0,
+										"fontname" : "Arial",
 										"description" : "",
+										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p group_type_of_answer_for_option"
@@ -1899,16 +1899,16 @@
 ,
 					"patching_rect" : [ 304.0, 460.0, 53.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
+						"fontname" : "Arial",
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p choices"
@@ -2336,16 +2336,16 @@
 ,
 									"patching_rect" : [ 108.0, 460.0, 116.5, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 10.0,
+										"fontname" : "Arial",
 										"description" : "",
+										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p defunct-currently"
@@ -2946,16 +2946,16 @@
 ,
 									"patching_rect" : [ 20.0, 388.0, 73.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 10.0,
+										"fontname" : "Arial",
 										"description" : "",
+										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p give-options"
@@ -3460,15 +3460,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-42", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3784,6 +3775,12 @@
 							}
  ],
 						"dependency_cache" : [ 							{
+								"name" : "audition_decide_II_admin.txt",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
 								"name" : "OSC-route.mxo",
 								"type" : "iLaX"
 							}
@@ -3792,16 +3789,16 @@
 ,
 					"patching_rect" : [ 436.0, 612.0, 171.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
+						"fontname" : "Arial",
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p grab_current_soundfile_info"
@@ -4135,6 +4132,12 @@
 							}
  ],
 						"dependency_cache" : [ 							{
+								"name" : "audition_coll_ex_II.txt",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/collection_files",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
 								"name" : "audition-soundfiles~.maxpat",
 								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 								"type" : "JSON",
@@ -4197,16 +4200,16 @@
 ,
 					"patching_rect" : [ 284.0, 524.0, 111.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
+						"fontname" : "Arial",
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p auditioner"
@@ -4849,6 +4852,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "audition_coll_ex_II.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/collection_files",
+				"patcherrelativepath" : "../audition-and-decide/lib/collection_files",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "audition-soundfiles~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 				"patcherrelativepath" : "../Soundfiles-sampling",
@@ -4909,6 +4919,13 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../modules/basic-programming",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "audition_decide_II_admin.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
+				"patcherrelativepath" : "../audition-and-decide/lib/admin_files",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
