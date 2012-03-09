@@ -31,6 +31,48 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-43",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 646.0, 216.0, 32.5, 16.0 ],
+					"text" : "load"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 646.0, 190.5, 43.0, 18.0 ],
+					"text" : "sel 108"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 646.0, 172.0, 59.5, 18.0 ],
+					"text" : "key"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2134,7 +2176,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 737.0, 40.0, 62.0, 62.0 ]
+									"patching_rect" : [ 746.5, 40.0, 62.0, 62.0 ]
 								}
 
 							}
@@ -2202,7 +2244,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "int" ],
+									"outlettype" : [ "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -2211,7 +2253,7 @@
 											"revision" : 4
 										}
 ,
-										"rect" : [ 25.0, 69.0, 742.0, 639.0 ],
+										"rect" : [ 637.0, 140.0, 742.0, 639.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -2232,7 +2274,91 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"comment" : "",
+													"fontname" : "Arial",
+													"fontsize" : 10.0,
+													"id" : "obj-10",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "int", "int" ],
+													"patching_rect" : [ 312.0, 196.0, 32.5, 18.0 ],
+													"text" : "t i i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 10.0,
+													"id" : "obj-8",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 656.0, 376.0, 53.0, 16.0 ],
+													"text" : "checkbox"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 10.0,
+													"id" : "obj-51",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 596.0, 388.0, 33.0, 16.0 ],
+													"text" : "radio"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 10.0,
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "bang", "" ],
+													"patching_rect" : [ 596.0, 268.0, 46.0, 18.0 ],
+													"text" : "sel 1 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 10.0,
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 596.0, 244.0, 32.5, 18.0 ],
+													"text" : "== 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 10.0,
+													"id" : "obj-35",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 596.0, 420.0, 114.0, 18.0 ],
+													"text" : "prepend selection_type"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "(symbol) either radio or checkbox selection_type",
 													"id" : "obj-7",
 													"maxclass" : "outlet",
 													"numinlets" : 1,
@@ -2321,7 +2447,7 @@
 															"revision" : 4
 														}
 ,
-														"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+														"rect" : [ 25.0, 69.0, 276.0, 276.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
@@ -2349,7 +2475,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 176.0, 180.0, 34.0, 18.0 ],
+																	"patching_rect" : [ 150.0, 156.0, 35.0, 18.0 ],
 																	"text" : "zl len"
 																}
 
@@ -2363,7 +2489,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 4,
 																	"outlettype" : [ "", "clear", "", "zlclear" ],
-																	"patching_rect" : [ 50.0, 100.0, 79.0, 18.0 ],
+																	"patching_rect" : [ 24.0, 76.0, 80.0, 18.0 ],
 																	"text" : "t l clear l zlclear"
 																}
 
@@ -2377,7 +2503,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "list" ],
-																	"patching_rect" : [ 50.0, 128.0, 58.0, 18.0 ],
+																	"patching_rect" : [ 24.0, 104.0, 59.0, 18.0 ],
 																	"text" : "listfunnel 1"
 																}
 
@@ -2391,7 +2517,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "int", "bang" ],
-																	"patching_rect" : [ 50.0, 160.0, 46.0, 18.0 ],
+																	"patching_rect" : [ 24.0, 136.0, 47.0, 18.0 ],
 																	"save" : [ "#N", "funbuff", 0, ";" ],
 																	"text" : "funbuff"
 																}
@@ -2405,7 +2531,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+																	"patching_rect" : [ 24.0, 15.0, 26.0, 26.0 ]
 																}
 
 															}
@@ -2417,7 +2543,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 80.0, 40.0, 25.0, 25.0 ]
+																	"patching_rect" : [ 224.0, 15.0, 26.0, 26.0 ]
 																}
 
 															}
@@ -2428,7 +2554,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 45.0, 238.0, 25.0, 25.0 ]
+																	"patching_rect" : [ 19.0, 213.0, 26.0, 26.0 ]
 																}
 
 															}
@@ -2439,7 +2565,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 196.0, 244.0, 25.0, 25.0 ]
+																	"patching_rect" : [ 150.0, 213.0, 26.0, 26.0 ]
 																}
 
 															}
@@ -2888,10 +3014,56 @@
 											}
 , 											{
 												"patchline" : 												{
+													"color" : [ 0.2258, 0.8, 0.3293, 1.0 ],
+													"destination" : [ "obj-48", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-10", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-53", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-74", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-51", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-4", 1 ]
 												}
 
 											}
@@ -2910,6 +3082,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-46", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}
@@ -2937,6 +3118,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-50", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-35", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-51", 0 ]
 												}
 
 											}
@@ -3032,15 +3222,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-7", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-64", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-64", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -3068,6 +3249,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-10", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-74", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-49", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -3077,10 +3267,10 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-53", 1 ],
+													"destination" : [ "obj-35", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-74", 1 ]
+													"source" : [ "obj-8", 0 ]
 												}
 
 											}
@@ -3404,7 +3594,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 324.0, 512.0, 120.0, 27.0 ],
+									"patching_rect" : [ 324.0, 268.0, 120.0, 27.0 ],
 									"text" : "bgcolor 0.3 0.3 0.3, set Current Soundfile: $1"
 								}
 
@@ -3524,7 +3714,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "(anything) set messages up",
 									"id" : "obj-42",
 									"maxclass" : "outlet",
 									"numinlets" : 1,
@@ -3759,7 +3949,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "(list) options out",
+									"comment" : "(anything) to eval panel",
 									"id" : "obj-85",
 									"maxclass" : "outlet",
 									"numinlets" : 1,
@@ -4239,6 +4429,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-85", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-57", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -4392,6 +4591,12 @@
 							}
  ],
 						"dependency_cache" : [ 							{
+								"name" : "audition_decide_admin.txt",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
 								"name" : "OSC-route.mxo",
 								"type" : "iLaX"
 							}
@@ -4710,7 +4915,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 					"id" : "obj-77",
-					"items" : "<empty>",
+					"items" : [ "eroica.aif", ",", "bassdrum.aif", ",", "burning.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4730,7 +4935,7 @@
 					"numoutlets" : 1,
 					"offset" : [ -10.0, -94.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 277.5, 166.0, 26.5 ],
+					"patching_rect" : [ 454.0, 280.0, 166.0, 26.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 216.0, 1256.0, 316.0 ]
 				}
@@ -4749,6 +4954,7 @@
 					"patching_rect" : [ 272.0, 612.0, 195.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 536.0, 1160.0, 24.0 ],
+					"text" : "<waiting for input>...",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -4856,12 +5062,15 @@
 					"fontsize" : 18.0,
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-11",
+					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 488.5, 612.0, 248.0, 27.0 ],
+					"patching_rect" : [ 488.5, 612.0, 248.0, 193.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 112.0, 1264.0, 27.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 4.0, 112.0, 1264.0, 48.0 ],
+					"text" : "This is a description of all of the sounds in a given collection.  The files referenced in the collection needs to be in the Max search path to load.  Keep in mind that sounds occur over time, which could inform your answer.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -5271,6 +5480,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5377,6 +5613,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "audition_coll_ex.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/collection_files",
+				"patcherrelativepath" : "../audition-and-decide/lib/collection_files",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "audition-soundfiles~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 				"patcherrelativepath" : "../Soundfiles-sampling",
@@ -5437,6 +5680,13 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../modules/basic-programming",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "audition_decide_admin.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
+				"patcherrelativepath" : "../audition-and-decide/lib/admin_files",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
