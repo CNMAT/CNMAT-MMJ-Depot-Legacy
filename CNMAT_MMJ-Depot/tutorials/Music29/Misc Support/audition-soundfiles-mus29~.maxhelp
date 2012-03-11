@@ -57,6 +57,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.785318, 0.917272, 0.975796, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-15",
@@ -65,7 +66,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 287.5, 268.0, 77.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 386.0, 77.0, 18.0 ],
+					"presentation_rect" : [ 77.0, 386.0, 121.0, 18.0 ],
 					"text" : "loop playback?"
 				}
 
@@ -101,6 +102,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.785318, 0.917272, 0.975796, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-52",
@@ -116,6 +118,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.785318, 0.917272, 0.975796, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-51",
@@ -124,7 +127,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 63.75, 52.0, 150.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 432.0, 103.0, 18.0 ],
+					"presentation_rect" : [ 77.0, 432.0, 121.0, 18.0 ],
 					"text" : "turn on rapid choices"
 				}
 
@@ -543,6 +546,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.785318, 0.917272, 0.975796, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-19",
@@ -551,7 +555,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 88.0, 104.0, 111.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 410.0, 111.0, 18.0 ],
+					"presentation_rect" : [ 77.0, 410.0, 121.0, 18.0 ],
 					"text" : "play one of the files"
 				}
 
