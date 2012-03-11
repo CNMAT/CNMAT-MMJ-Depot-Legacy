@@ -35,7 +35,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 332.0, 188.0, 20.0 ],
+					"patching_rect" : [ 708.0, 308.0, 188.0, 20.0 ],
 					"presentation_rect" : [ 829.0, 448.0, 0.0, 0.0 ],
 					"text" : "non-transposing, looping",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
@@ -51,7 +51,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 308.0, 87.0, 18.0 ],
+					"patching_rect" : [ 708.0, 332.0, 87.0, 18.0 ],
 					"presentation_rect" : [ 829.0, 424.0, 0.0, 0.0 ],
 					"text" : "samp-nt-l.voi"
 				}
@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 620.0, 188.0, 20.0 ],
+					"patching_rect" : [ 708.0, 596.0, 188.0, 20.0 ],
 					"text" : "non-looping with decay",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 596.0, 141.0, 18.0 ],
+					"patching_rect" : [ 708.0, 620.0, 141.0, 18.0 ],
 					"text" : "sampler-voice-s-nl-d.vox"
 				}
 
@@ -95,7 +95,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 572.0, 188.0, 20.0 ],
+					"patching_rect" : [ 708.0, 548.0, 188.0, 20.0 ],
 					"text" : "non-looping",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -110,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 548.0, 147.0, 18.0 ],
+					"patching_rect" : [ 708.0, 572.0, 147.0, 18.0 ],
 					"text" : "sampler-voice-noloop.vox"
 				}
 
@@ -124,7 +124,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 524.0, 209.0, 20.0 ],
+					"patching_rect" : [ 708.0, 500.0, 209.0, 20.0 ],
 					"text" : "non-looping",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -139,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 500.0, 131.0, 18.0 ],
+					"patching_rect" : [ 708.0, 524.0, 131.0, 18.0 ],
 					"text" : "sampler-nl-mcents.vox"
 				}
 
@@ -153,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 476.0, 188.0, 20.0 ],
+					"patching_rect" : [ 708.0, 452.0, 188.0, 20.0 ],
 					"text" : "transposing, random looping",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -168,7 +168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 452.0, 77.0, 18.0 ],
+					"patching_rect" : [ 708.0, 476.0, 77.0, 18.0 ],
 					"text" : "samp-t-rl.voi"
 				}
 
@@ -182,7 +182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 428.0, 188.0, 20.0 ],
+					"patching_rect" : [ 708.0, 404.0, 188.0, 20.0 ],
 					"text" : "transposing, non-looping",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -197,7 +197,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 404.0, 79.0, 18.0 ],
+					"patching_rect" : [ 708.0, 428.0, 79.0, 18.0 ],
 					"text" : "samp-t-nl.voi"
 				}
 
@@ -211,7 +211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 380.0, 203.0, 20.0 ],
+					"patching_rect" : [ 708.0, 356.0, 203.0, 20.0 ],
 					"text" : "transposing, non-looping, panning",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -226,7 +226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 356.0, 90.0, 18.0 ],
+					"patching_rect" : [ 708.0, 380.0, 90.0, 18.0 ],
 					"text" : "samp-t-nl-p.voi"
 				}
 
@@ -240,7 +240,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 284.0, 188.0, 20.0 ],
+					"patching_rect" : [ 708.0, 260.0, 188.0, 20.0 ],
 					"text" : "non-transposing, non-looping",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -255,7 +255,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 260.0, 86.0, 18.0 ],
+					"patching_rect" : [ 708.0, 284.0, 86.0, 18.0 ],
 					"text" : "samp-nt-nl.voi"
 				}
 
@@ -269,7 +269,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 236.0, 240.0, 20.0 ],
+					"patching_rect" : [ 708.0, 212.0, 240.0, 20.0 ],
 					"text" : "non-transposing, non-looping, with panning",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -284,7 +284,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 212.0, 97.0, 18.0 ],
+					"patching_rect" : [ 708.0, 236.0, 97.0, 18.0 ],
 					"text" : "samp-nt-nl-p.voi"
 				}
 
@@ -298,7 +298,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 188.0, 188.0, 20.0 ],
+					"patching_rect" : [ 708.0, 164.0, 188.0, 20.0 ],
 					"text" : "transposing with random looping",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -313,7 +313,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 164.0, 121.0, 18.0 ],
+					"patching_rect" : [ 708.0, 188.0, 121.0, 18.0 ],
 					"text" : "poly-trans-randloop2"
 				}
 
@@ -327,7 +327,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 140.0, 184.0, 20.0 ],
+					"patching_rect" : [ 708.0, 116.0, 184.0, 20.0 ],
 					"text" : "non-transposing sampler",
 					"textcolor" : [ 0.070588, 0.65098, 0.0, 1.0 ]
 				}
@@ -342,7 +342,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 116.0, 112.0, 18.0 ],
+					"patching_rect" : [ 708.0, 140.0, 112.0, 18.0 ],
 					"text" : "nt-sampplay-extdel"
 				}
 
