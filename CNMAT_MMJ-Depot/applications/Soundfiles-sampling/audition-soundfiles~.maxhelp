@@ -48,7 +48,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 320.5, 288.0, 46.0, 16.0 ],
-					"presentation_rect" : [ 585.0, 354.0, 0.0, 0.0 ],
 					"text" : "/loop $1"
 				}
 
@@ -1003,8 +1002,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 244.0, 404.0, 167.0, 16.0 ],
-					"text" : "sound340.aif 30 0.8"
+					"patching_rect" : [ 244.0, 404.0, 199.0, 16.0 ]
 				}
 
 			}
@@ -1076,7 +1074,7 @@
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 269.5, 399.5, 401.5, 399.5 ],
+					"midpoints" : [ 269.5, 399.5, 433.5, 399.5 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
