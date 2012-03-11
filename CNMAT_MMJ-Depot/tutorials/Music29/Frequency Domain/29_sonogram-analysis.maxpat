@@ -58,7 +58,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 208.0, 275.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -86,7 +86,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 95.0, 130.0, 32.5, 18.0 ],
+									"patching_rect" : [ 85.0, 135.0, 32.5, 18.0 ],
 									"text" : "0"
 								}
 
@@ -100,7 +100,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 55.0, 130.0, 32.5, 18.0 ],
+									"patching_rect" : [ 50.0, 135.0, 32.5, 18.0 ],
 									"text" : "1"
 								}
 
@@ -172,6 +172,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -183,21 +201,21 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 535.0, 310.0, 19.0, 20.0 ],
+					"patching_rect" : [ 535.0, 310.0, 43.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontname" : "Arial"
 					}
 ,
-					"text" : "p"
+					"text" : "p 4sfp"
 				}
 
 			}
@@ -216,7 +234,6 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 308.0, 197.0, 200.0, 20.0 ],
-					"presentation_rect" : [ 444.0, 29.0, 0.0, 0.0 ],
 					"tabs" : [ "stop", "play", "open" ]
 				}
 
@@ -236,7 +253,6 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.944966, 129.0, 213.134628, 20.0 ],
-					"presentation_rect" : [ 212.0, 35.0, 0.0, 0.0 ],
 					"tabs" : [ "sinewave", "complex_waveform" ]
 				}
 
@@ -955,16 +971,16 @@
 ,
 					"patching_rect" : [ 33.0, 84.0, 43.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p junk"
@@ -989,7 +1005,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 518.0, 256.0, 613.0, 452.0 ],
+						"rect" : [ 512.0, 218.0, 613.0, 452.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2338,16 +2354,16 @@
 ,
 					"patching_rect" : [ 24.0, 256.5, 487.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -2540,7 +2556,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.0, 171.5, 246.0, 50.5 ],
-					"presentation_rect" : [ 291.0, 2.0, 0.0, 0.0 ],
 					"rounded" : 16
 				}
 
@@ -2553,7 +2568,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.0, 82.0, 246.0, 80.0 ],
-					"presentation_rect" : [ 5.0, 154.0, 0.0, 0.0 ],
 					"rounded" : 16
 				}
 
