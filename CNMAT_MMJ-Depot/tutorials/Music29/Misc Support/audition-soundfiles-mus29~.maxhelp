@@ -402,7 +402,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "audition-soundfiles-29~", "preview a folder of sounds" ],
+					"args" : [ "audition-soundfiles-29~", "preview a group of sounds" ],
 					"id" : "obj-29",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
