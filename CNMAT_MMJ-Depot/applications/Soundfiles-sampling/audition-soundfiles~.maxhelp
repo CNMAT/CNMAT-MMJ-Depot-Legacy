@@ -354,12 +354,37 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"id" : "obj-12",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 52.5, 101.0, 128.0, 29.0 ],
+									"text" : "click me to change the current soundfile set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 24.5, 101.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
 									"id" : "obj-7",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 312.0, 236.0, 142.0, 64.0 ],
+									"patching_rect" : [ 256.0, 232.0, 142.0, 64.0 ],
 									"text" : "...the format for such a coll is\n1, \"name of soundfile.aif\";\n2, name-of-soundfile.aif;\n\n... depending on the filename."
 								}
 
@@ -385,7 +410,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 120.0, 260.0, 53.0, 18.0 ],
+									"patching_rect" : [ 112.5, 220.0, 53.0, 18.0 ],
 									"text" : "s AS-help"
 								}
 
@@ -398,7 +423,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 36.0, 164.0, 84.0, 18.0 ],
+									"patching_rect" : [ 28.5, 193.0, 84.0, 18.0 ],
 									"text" : "(and loading) -->"
 								}
 
@@ -426,7 +451,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 120.0, 164.0, 103.0, 16.0 ],
+									"patching_rect" : [ 112.5, 193.0, 103.0, 16.0 ],
 									"text" : "/coll audition_coll_ex"
 								}
 
@@ -439,7 +464,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 104.0, 128.0, 18.0 ],
+									"patching_rect" : [ 52.5, 133.0, 128.0, 18.0 ],
 									"text" : "automatically via naming..."
 								}
 
@@ -466,7 +491,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 64.0, 124.0, 103.0, 18.0 ],
+									"patching_rect" : [ 56.5, 153.0, 103.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
@@ -529,7 +554,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 36.0, 96.0, 192.0, 92.0 ]
+									"patching_rect" : [ 16.0, 94.0, 204.0, 174.0 ]
 								}
 
 							}
@@ -552,6 +577,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
 								}
 
 							}
@@ -731,7 +765,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-20",
-					"items" : [ "womblitz_long_transient 001.wav", ",", "womblitz_long_transient 002.wav", ",", "womblitz_long_transient 003.wav", ",", "womblitz_long_transient 004.wav", ",", "womblitz_long_transient 005.wav", ",", "womblitz_long_transient 006.wav", ",", "womblitz_long_transient 007.wav", ",", "womblitz_long_transient 008.wav", ",", "womblitz_long_transient 009.wav", ",", "womblitz_long_transient 010.wav", ",", "womblitz_long_transient 011.wav", ",", "womblitz_long_transient 012.wav", ",", "womblitz_long_transient 013.wav", ",", "womblitz_long_transient 014.wav", ",", "womblitz_long_transient 015.wav", ",", "womblitz_long_transient 016.wav", ",", "womblitz_long_transient 017.wav", ",", "womblitz_long_transient 018.wav", ",", "womblitz_long_transient 019.wav", ",", "womblitz_long_transient 020.wav", ",", "womblitz_short_transient 001.wav", ",", "womblitz_short_transient 002.wav", ",", "womblitz_short_transient 003.wav", ",", "womblitz_short_transient 004.wav", ",", "womblitz_short_transient 005.wav", ",", "womblitz_short_transient 006.wav", ",", "womblitz_short_transient 007.wav", ",", "womblitz_short_transient 008.wav", ",", "womblitz_short_transient 009.wav", ",", "womblitz_short_transient 010.wav", ",", "womblitz_short_transient 011.wav", ",", "womblitz_short_transient 012.wav", ",", "womblitz_short_transient 013.wav", ",", "womblitz_short_transient 014.wav", ",", "womblitz_short_transient 015.wav", ",", "womblitz_short_transient 016.wav", ",", "womblitz_short_transient 017.wav", ",", "womblitz_short_transient 018.wav", ",", "womblitz_short_transient 019.wav", ",", "womblitz_short_transient 020.wav" ],
+					"items" : [ "eroica.aif", ",", "bassdrum.aif", ",", "burning.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1002,7 +1036,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 244.0, 404.0, 199.0, 16.0 ]
+					"patching_rect" : [ 244.0, 404.0, 199.0, 16.0 ],
+					"text" : "eroica.aif 1 0.8"
 				}
 
 			}
@@ -1339,6 +1374,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "audition_coll_ex.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/collection_files",
+				"patcherrelativepath" : "../audition-and-decide/lib/collection_files",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "badge.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
@@ -1399,13 +1441,6 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "audition_coll_ex.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/collection_files",
-				"patcherrelativepath" : "../audition-and-decide/lib/collection_files",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
