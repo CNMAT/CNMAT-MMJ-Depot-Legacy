@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 11.0, 48.0, 525.0, 494.0 ],
+		"rect" : [ 11.0, 48.0, 526.0, 485.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -27,6 +27,108 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-44",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.0, 368.0, 38.0, 16.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 338.0, 188.0, 86.0, 18.0 ],
+					"text" : "prepend /append"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 338.0, 121.0, 32.0, 18.0 ],
+					"text" : "t b s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 338.0, 150.0, 48.0, 18.0 ],
+					"text" : "zl reg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 338.0, 92.0, 48.0, 18.0 ],
+					"text" : "splitpath"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 342.5, 60.0, 97.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 131.75, 198.0, 93.0, 20.0 ],
+					"text" : "Drop File Here"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 1.0,
+					"bordercolor" : [ 0.764706, 0.784314, 0.807843, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 338.0, 56.0, 106.0, 28.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 128.5, 192.0, 99.5, 32.0 ],
+					"rounded" : 20.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -95,7 +197,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 263.5, 296.0, 46.0, 16.0 ],
-					"presentation_rect" : [ 517.0, 193.0, 0.0, 0.0 ],
 					"text" : "/loop $1"
 				}
 
@@ -109,7 +210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.5, 76.0, 150.0, 18.0 ],
+					"patching_rect" : [ 156.5, 76.0, 121.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 458.0, 121.0, 18.0 ],
 					"text" : "speed of choices (in MS)"
@@ -125,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.75, 52.0, 150.0, 18.0 ],
+					"patching_rect" : [ 63.75, 52.0, 103.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 432.0, 121.0, 18.0 ],
 					"text" : "turn on rapid choices"
@@ -267,7 +368,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 263.5, 156.0, 32.5, 18.0 ],
+					"patching_rect" : [ 74.5, 188.0, 32.5, 18.0 ],
 					"text" : "t s s"
 				}
 
@@ -280,7 +381,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 277.0, 202.0, 47.0, 18.0 ],
+					"patching_rect" : [ 88.0, 268.0, 47.0, 18.0 ],
 					"text" : "addpath"
 				}
 
@@ -431,7 +532,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 382.5, 128.0, 109.0, 18.0 ],
+					"patching_rect" : [ 193.5, 160.0, 109.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 254.0, 109.0, 18.0 ],
 					"text" : "play and override gain"
@@ -525,7 +626,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.5, 180.0, 78.0, 18.0 ],
+					"patching_rect" : [ 74.5, 212.0, 78.0, 18.0 ],
 					"text" : "prepend /folder"
 				}
 
@@ -553,7 +654,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 88.0, 104.0, 111.0, 18.0 ],
+					"patching_rect" : [ 88.0, 104.0, 97.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 410.0, 121.0, 18.0 ],
 					"text" : "play one of the files"
@@ -568,7 +669,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.5, 180.0, 86.0, 18.0 ],
+					"patching_rect" : [ 154.5, 212.0, 86.0, 18.0 ],
 					"text" : "<< drop folder in "
 				}
 
@@ -615,7 +716,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 244.0, 404.0, 167.0, 16.0 ],
-					"text" : "randomsquare.01.wav 1 0.4"
+					"text" : "brush_slow.WAV 5 0.8"
 				}
 
 			}
@@ -643,7 +744,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.5, 128.0, 109.0, 20.0 ],
+					"patching_rect" : [ 74.5, 160.0, 109.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 71.0, 131.0, 110.0, 20.0 ],
 					"text" : "Drop Folder Here"
@@ -659,7 +760,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 263.5, 128.0, 109.0, 20.0 ],
+					"patching_rect" : [ 74.5, 160.0, 109.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 96.0, 204.0, 90.0 ],
 					"rounded" : 20.0
@@ -710,6 +811,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -797,15 +907,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -869,6 +970,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -887,10 +1006,55 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-41", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-44", 0 ]
 				}
 
 			}
@@ -1015,6 +1179,13 @@
 				"name" : "take_notes.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "splitpath.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"patcherrelativepath" : "../../../modules/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
