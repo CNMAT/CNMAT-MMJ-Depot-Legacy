@@ -385,8 +385,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 120.0, 260.0, 171.0, 18.0 ],
-									"text" : "s to-my-audition-soundfiles-instance"
+									"patching_rect" : [ 120.0, 260.0, 53.0, 18.0 ],
+									"text" : "s AS-help"
 								}
 
 							}
@@ -621,7 +621,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "audition-soundfiles~", "1.0a", "Lubow & Campion", "audition-soundfiles~", 6666 ],
+					"args" : [ "audition-soundfiles~", "1.1a", "Lubow & Campion", "audition-soundfiles~", 6666 ],
 					"id" : "obj-32",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
