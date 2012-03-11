@@ -315,13 +315,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.5, 236.0, 188.0, 18.0 ],
+					"patching_rect" : [ 287.5, 236.0, 189.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 262.0, 162.0, 57.0, 41.0 ],
