@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 20.0, 66.0, 744.0, 641.0 ],
+		"rect" : [ 12.0, 54.0, 624.0, 604.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -27,6 +27,33 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 320.5, 260.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-37",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 320.5, 288.0, 46.0, 16.0 ],
+					"presentation_rect" : [ 585.0, 354.0, 0.0, 0.0 ],
+					"text" : "/loop $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -284,7 +311,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 292.0, 52.0, 18.0 ],
+					"patching_rect" : [ 60.0, 288.0, 52.0, 18.0 ],
 					"text" : "r AS-help"
 				}
 
@@ -1068,7 +1095,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 261.5, 329.5, 49.5, 329.5 ],
+					"midpoints" : [ 261.5, 324.669739, 49.5, 324.669739 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1144,7 +1171,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 405.5, 329.5, 49.5, 329.5 ],
+					"midpoints" : [ 405.5, 336.851501, 49.5, 336.851501 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -1173,7 +1200,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 461.5, 334.5, 49.5, 334.5 ],
+					"midpoints" : [ 461.5, 341.5, 49.5, 341.5 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -1210,7 +1237,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 377.5, 329.5, 49.5, 329.5 ],
+					"midpoints" : [ 377.5, 332.372711, 49.5, 332.372711 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -1238,7 +1265,26 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 105.5, 329.5, 49.5, 329.5 ],
+					"midpoints" : [ 330.0, 328.345459, 49.5, 328.345459 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 69.5, 310.827423, 49.5, 310.827423 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -1257,7 +1303,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 213.5, 329.5, 49.5, 329.5 ],
+					"midpoints" : [ 213.5, 315.854645, 49.5, 315.854645 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1267,7 +1313,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 237.5, 329.5, 49.5, 329.5 ],
+					"midpoints" : [ 237.5, 320.642487, 49.5, 320.642487 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -1330,7 +1376,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "samp-nt-nl.voi.maxpat",
+				"name" : "samp-nt-l.voi.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"patcherrelativepath" : "../../modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"type" : "JSON",
