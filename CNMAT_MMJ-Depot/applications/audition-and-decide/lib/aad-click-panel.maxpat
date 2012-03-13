@@ -279,6 +279,47 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 78.0, 112.0, 70.0, 18.0 ],
+									"text" : "prepend read"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 281.0, 112.0, 47.0, 18.0 ],
+									"text" : "addpath"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 78.0, 60.0, 88.0, 18.0 ],
+									"text" : "opendialog TEXT"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
 									"id" : "obj-19",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -420,7 +461,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 172.0, 72.0, 31.0, 18.0 ],
+									"patching_rect" : [ 179.5, 112.0, 31.0, 18.0 ],
 									"text" : "s init"
 								}
 
@@ -432,10 +473,10 @@
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 78.0, 72.0, 32.5, 18.0 ],
-									"text" : "t s b"
+									"numoutlets" : 3,
+									"outlettype" : [ "", "bang", "" ],
+									"patching_rect" : [ 78.0, 86.0, 222.0, 18.0 ],
+									"text" : "t s b s"
 								}
 
 							}
@@ -448,7 +489,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 316.0, 288.0, 47.0, 18.0 ],
+									"patching_rect" : [ 316.0, 328.0, 47.0, 18.0 ],
 									"text" : "prepend"
 								}
 
@@ -462,7 +503,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 312.0, 212.0, 68.0, 18.0 ],
+									"patching_rect" : [ 316.0, 252.0, 68.0, 18.0 ],
 									"text" : "route symbol"
 								}
 
@@ -476,7 +517,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 364.0, 256.0, 63.0, 18.0 ],
+									"patching_rect" : [ 364.0, 296.0, 63.0, 18.0 ],
 									"text" : "prepend set"
 								}
 
@@ -489,7 +530,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 328.0, 364.0, 58.0, 18.0 ],
+									"patching_rect" : [ 316.0, 368.0, 58.0, 18.0 ],
 									"text" : "s q_details"
 								}
 
@@ -503,7 +544,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "" ],
-									"patching_rect" : [ 176.0, 300.0, 32.5, 18.0 ],
+									"patching_rect" : [ 176.0, 340.0, 32.5, 18.0 ],
 									"text" : "t 1 s"
 								}
 
@@ -517,7 +558,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 68.0, 176.0, 22.0, 18.0 ],
+									"patching_rect" : [ 68.0, 216.0, 22.0, 18.0 ],
 									"text" : "t 2"
 								}
 
@@ -531,7 +572,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 68.0, 212.0, 38.0, 18.0 ],
+									"patching_rect" : [ 68.0, 252.0, 38.0, 18.0 ],
 									"text" : "gate 2"
 								}
 
@@ -545,7 +586,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 218.0, 134.5, 36.0, 16.0 ],
+									"patching_rect" : [ 218.0, 174.5, 36.0, 16.0 ],
 									"text" : "dump"
 								}
 
@@ -572,7 +613,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 68.0, 316.0, 47.0, 18.0 ],
+									"patching_rect" : [ 68.0, 356.0, 47.0, 18.0 ],
 									"text" : "prepend"
 								}
 
@@ -586,7 +627,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 176.0, 276.0, 63.0, 18.0 ],
+									"patching_rect" : [ 176.0, 316.0, 63.0, 18.0 ],
 									"text" : "prepend set"
 								}
 
@@ -600,7 +641,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 152.0, 152.0, 81.0, 18.0 ],
+									"patching_rect" : [ 152.0, 192.0, 81.0, 18.0 ],
 									"text" : "route symbol int"
 								}
 
@@ -614,7 +655,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 68.0, 240.0, 68.0, 18.0 ],
+									"patching_rect" : [ 68.0, 280.0, 68.0, 18.0 ],
 									"text" : "route symbol"
 								}
 
@@ -628,7 +669,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 78.0, 106.5, 231.0, 18.0 ],
+									"patching_rect" : [ 78.0, 146.5, 231.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
@@ -644,8 +685,8 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 78.0, 40.0, 25.0, 25.0 ]
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 78.0, 28.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -706,15 +747,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -724,10 +756,37 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -832,6 +891,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -922,7 +990,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
+									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-68", 0 ]
@@ -976,6 +1044,18 @@
 							}
  ],
 						"dependency_cache" : [ 							{
+								"name" : "_harmonic-inharmonic_admin.txt",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "addpath.maxpat",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
 								"name" : "OSC-route.mxo",
 								"type" : "iLaX"
 							}
@@ -984,16 +1064,16 @@
 ,
 					"patching_rect" : [ 455.5, 340.0, 258.0, 65.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p load_test"
@@ -1060,20 +1140,6 @@
 					"patching_rect" : [ 106.5, 264.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 52.0, 52.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-4",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 455.5, 316.0, 32.5, 16.0 ],
-					"text" : "read"
 				}
 
 			}
@@ -1148,7 +1214,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -1238,15 +1304,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1265,6 +1322,20 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "_harmonic-inharmonic_admin.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+				"patcherrelativepath" : "../../../../../../../../../../current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "addpath.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"patcherrelativepath" : "../../../modules/Utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
