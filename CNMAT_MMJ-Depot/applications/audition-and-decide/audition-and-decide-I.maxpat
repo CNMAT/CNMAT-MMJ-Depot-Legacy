@@ -92,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 57.666668, 184.0, 32.5, 18.0 ],
+					"patching_rect" : [ 4.0, 204.0, 32.5, 18.0 ],
 					"text" : "b"
 				}
 
@@ -118,7 +118,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 940.0, 280.0, 60.0, 18.0 ],
+					"patching_rect" : [ 892.0, 268.0, 60.0, 18.0 ],
 					"text" : "print wrong"
 				}
 
@@ -132,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 812.0, 244.0, 48.0, 18.0 ],
+					"patching_rect" : [ 812.0, 244.0, 99.0, 18.0 ],
 					"text" : "sel aad1"
 				}
 
@@ -606,16 +606,16 @@
 ,
 					"patching_rect" : [ 176.0, 656.0, 46.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p admin"
@@ -644,7 +644,7 @@
 					"name" : "banner.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"offset" : [ -18.0, -68.0 ],
+					"offset" : [ -21.0, -68.0 ],
 					"patching_rect" : [ 900.0, 404.0, 126.0, 63.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 752.0, 648.0, 511.0, 76.0 ],
@@ -1233,16 +1233,16 @@
 ,
 													"patching_rect" : [ 40.0, 96.0, 107.0, 18.0 ],
 													"saved_object_attributes" : 													{
+														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : "",
 														"default_fontface" : 0,
 														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial"
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p find_item-corr_pairs"
@@ -1609,16 +1609,16 @@
 ,
 									"patching_rect" : [ 260.0, 156.0, 171.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontface" : 0,
 										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial"
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p group_type_of_answer_for_option"
@@ -1970,16 +1970,16 @@
 ,
 					"patching_rect" : [ 32.0, 380.0, 53.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p choices"
@@ -1994,35 +1994,21 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 153.5, 119.0, 18.0 ],
+					"patching_rect" : [ 309.25, 172.0, 119.0, 18.0 ],
 					"text" : "<<    clear"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.858824, 0.631373, 0.094118, 1.0 ],
+					"bgcolor" : [ 0.326741, 0.239582, 0.032602, 1.0 ],
 					"fgcolor" : [ 0.858824, 0.631373, 0.094118, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 317.0, 153.5, 55.0, 55.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-26",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 244.0, 32.5, 16.0 ],
-					"text" : "clear"
+					"patching_rect" : [ 284.0, 172.0, 21.25, 21.25 ]
 				}
 
 			}
@@ -2657,16 +2643,16 @@
 ,
 													"patching_rect" : [ 91.0, 171.0, 195.0, 18.0 ],
 													"saved_object_attributes" : 													{
+														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : "",
 														"default_fontface" : 0,
 														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial"
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p store-correct-ans-with-lookup"
@@ -2846,16 +2832,16 @@
 ,
 													"patching_rect" : [ 33.0, 74.0, 89.0, 18.0 ],
 													"saved_object_attributes" : 													{
+														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : "",
 														"default_fontface" : 0,
 														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial"
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p input-to-listofids"
@@ -3280,16 +3266,16 @@
 ,
 									"patching_rect" : [ 585.5, 116.0, 60.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontface" : 0,
 										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial"
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p list-sorter"
@@ -4591,12 +4577,6 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "_harmonic-inharmonic_admin.txt",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
 								"name" : "OSC-route.mxo",
 								"type" : "iLaX"
 							}
@@ -4605,16 +4585,16 @@
 ,
 					"patching_rect" : [ 317.0, 518.0, 171.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p grab_current_soundfile_info"
@@ -4829,12 +4809,6 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "harm-inharm-noise-coll.txt",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
 								"name" : "audition-soundfiles~.maxpat",
 								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 								"type" : "JSON",
@@ -4903,16 +4877,16 @@
 ,
 					"patching_rect" : [ 32.0, 420.0, 111.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p auditioner"
@@ -4927,13 +4901,13 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 					"id" : "obj-77",
-					"items" : "<empty>",
+					"items" : [ "18-h-in-nse.aif", ",", "17-h-in-nse.aif", ",", "16-h-in-nse.aif", ",", "15-h-in-nse.aif", ",", "14-h-in-nse.aif", ",", "12-h-in-nse.aif", ",", "11-h-in-nse.aif", ",", "10-h-in-nse.aif", ",", "09-h-in-nse.aif", ",", "07-h-in-nse.aif", ",", "06-h-in-nse.aif", ",", "05-h-in-nse.aif", ",", "04-h-in-nse.aif", ",", "03-exam.aif", ",", "02-harm-inharm.aif", ",", "01-maresz.aif", ",", "00-maresz.aif", ",", "13-h-in-nse.wav", ",", "08-h-in-nse.wav", ",", "19-h-in-nse.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 386.25, 319.5, 153.0, 27.0 ]
+					"patching_rect" : [ 386.25, 319.5, 233.75, 27.0 ]
 				}
 
 			}
@@ -4966,7 +4940,6 @@
 					"patching_rect" : [ 272.0, 612.0, 195.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 536.0, 1160.0, 24.0 ],
-					"text" : "<waiting for input>...",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -4980,7 +4953,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 217.0, 32.5, 16.0 ],
+					"patching_rect" : [ 32.0, 232.0, 32.5, 16.0 ],
 					"text" : "clear"
 				}
 
@@ -5079,7 +5052,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 488.5, 612.0, 248.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 112.0, 1264.0, 27.0 ],
+					"presentation_rect" : [ 4.0, 112.0, 1265.0, 27.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -5120,19 +5093,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
+					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 1 ]
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
+					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
@@ -5345,15 +5318,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5435,7 +5399,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
+					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
@@ -5622,13 +5586,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "harm-inharm-noise-coll.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
-				"patcherrelativepath" : "../../../../../../../../../current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "audition-soundfiles~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 				"patcherrelativepath" : "../Soundfiles-sampling",
@@ -5696,13 +5653,6 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../modules/basic-programming",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_harmonic-inharmonic_admin.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
-				"patcherrelativepath" : "../../../../../../../../../current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
