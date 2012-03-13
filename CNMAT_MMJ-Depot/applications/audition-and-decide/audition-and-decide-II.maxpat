@@ -31,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 236.0, 176.0, 22.0, 18.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-33",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -537,16 +551,16 @@
 ,
 					"patching_rect" : [ 236.0, 436.0, 46.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p admin"
@@ -1209,16 +1223,16 @@
 ,
 													"patching_rect" : [ 40.0, 96.0, 107.0, 18.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : ""
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p find_item-corr_pairs"
@@ -1585,16 +1599,16 @@
 ,
 									"patching_rect" : [ 260.0, 156.0, 171.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : ""
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p group_type_of_answer_for_option"
@@ -1955,16 +1969,16 @@
 ,
 					"patching_rect" : [ 301.0, 336.0, 53.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p choices"
@@ -2392,16 +2406,16 @@
 ,
 									"patching_rect" : [ 108.0, 460.0, 116.5, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : ""
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p defunct-currently"
@@ -3002,16 +3016,16 @@
 ,
 									"patching_rect" : [ 20.0, 388.0, 73.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : ""
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p give-options"
@@ -3840,16 +3854,16 @@
 ,
 					"patching_rect" : [ 436.0, 612.0, 171.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p grab_current_soundfile_info"
@@ -4251,16 +4265,16 @@
 ,
 					"patching_rect" : [ 284.0, 524.0, 111.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p auditioner"
@@ -4778,6 +4792,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4818,6 +4859,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -5037,6 +5087,13 @@
 				"name" : "aad-click-panel.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib",
 				"patcherrelativepath" : "../audition-and-decide/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "addpath.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"patcherrelativepath" : "../../modules/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
