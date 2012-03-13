@@ -461,7 +461,7 @@
 									"fontsize" : 18.0,
 									"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 									"id" : "obj-77",
-									"items" : [ "sound 567.aif", ",", "sound1.aif", ",", "sound18.aif" ],
+									"items" : [ "18-h-in-nse.aif", ",", "17-h-in-nse.aif", ",", "16-h-in-nse.aif", ",", "15-h-in-nse.aif", ",", "14-h-in-nse.aif", ",", "12-h-in-nse.aif", ",", "11-h-in-nse.aif", ",", "10-h-in-nse.aif", ",", "09-h-in-nse.aif", ",", "07-h-in-nse.aif", ",", "06-h-in-nse.aif", ",", "05-h-in-nse.aif", ",", "04-h-in-nse.aif", ",", "03-exam.aif", ",", "02-harm-inharm.aif", ",", "01-maresz.aif", ",", "00-maresz.aif", ",", "13-h-in-nse.wav", ",", "08-h-in-nse.wav", ",", "19-h-in-nse.aif" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -607,15 +607,15 @@
 					"patching_rect" : [ 176.0, 656.0, 46.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p admin"
@@ -1234,15 +1234,15 @@
 													"patching_rect" : [ 40.0, 96.0, 107.0, 18.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontsize" : 10.0,
-														"fontname" : "Arial",
 														"description" : "",
-														"tags" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
+														"tags" : "",
 														"default_fontface" : 0,
 														"digest" : "",
-														"default_fontname" : "Arial"
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p find_item-corr_pairs"
@@ -1610,15 +1610,15 @@
 									"patching_rect" : [ 260.0, 156.0, 171.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontsize" : 10.0,
-										"fontname" : "Arial",
 										"description" : "",
-										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
+										"tags" : "",
 										"default_fontface" : 0,
 										"digest" : "",
-										"default_fontname" : "Arial"
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p group_type_of_answer_for_option"
@@ -1971,15 +1971,15 @@
 					"patching_rect" : [ 32.0, 380.0, 53.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p choices"
@@ -2658,15 +2658,15 @@
 													"patching_rect" : [ 91.0, 171.0, 195.0, 18.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontsize" : 10.0,
-														"fontname" : "Arial",
 														"description" : "",
-														"tags" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
+														"tags" : "",
 														"default_fontface" : 0,
 														"digest" : "",
-														"default_fontname" : "Arial"
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p store-correct-ans-with-lookup"
@@ -2847,15 +2847,15 @@
 													"patching_rect" : [ 33.0, 74.0, 89.0, 18.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontsize" : 10.0,
-														"fontname" : "Arial",
 														"description" : "",
-														"tags" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
+														"tags" : "",
 														"default_fontface" : 0,
 														"digest" : "",
-														"default_fontname" : "Arial"
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p input-to-listofids"
@@ -3281,15 +3281,15 @@
 									"patching_rect" : [ 585.5, 116.0, 60.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontsize" : 10.0,
-										"fontname" : "Arial",
 										"description" : "",
-										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
+										"tags" : "",
 										"default_fontface" : 0,
 										"digest" : "",
-										"default_fontname" : "Arial"
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p list-sorter"
@@ -4591,8 +4591,8 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "audition_decide_admin.txt",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
+								"name" : "_harmonic-inharmonic_admin.txt",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -4606,15 +4606,15 @@
 					"patching_rect" : [ 317.0, 518.0, 171.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p grab_current_soundfile_info"
@@ -4829,6 +4829,12 @@
 							}
  ],
 						"dependency_cache" : [ 							{
+								"name" : "harm-inharm-noise-coll.txt",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
 								"name" : "audition-soundfiles~.maxpat",
 								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 								"type" : "JSON",
@@ -4871,7 +4877,13 @@
 								"implicit" : 1
 							}
 , 							{
-								"name" : "samp-nt-nl.voi.maxpat",
+								"name" : "splitpath.maxpat",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "samp-nt-l.voi.maxpat",
 								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
 								"type" : "JSON",
 								"implicit" : 1
@@ -4892,15 +4904,15 @@
 					"patching_rect" : [ 32.0, 420.0, 111.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p auditioner"
@@ -4915,7 +4927,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 					"id" : "obj-77",
-					"items" : [ "eroica.aif", ",", "bassdrum.aif", ",", "burning.aif" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5062,15 +5074,12 @@
 					"fontsize" : 18.0,
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-11",
-					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 488.5, 612.0, 248.0, 193.0 ],
+					"patching_rect" : [ 488.5, 612.0, 248.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 4.0, 112.0, 1264.0, 48.0 ],
-					"text" : "This is a description of all of the sounds in a given collection.  The files referenced in the collection needs to be in the Max search path to load.  Keep in mind that sounds occur over time, which could inform your answer.",
+					"presentation_rect" : [ 4.0, 112.0, 1264.0, 27.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -5613,9 +5622,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audition_coll_ex.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/collection_files",
-				"patcherrelativepath" : "../audition-and-decide/lib/collection_files",
+				"name" : "harm-inharm-noise-coll.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+				"patcherrelativepath" : "../../../../../../../../../current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -5669,7 +5678,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "samp-nt-nl.voi.maxpat",
+				"name" : "splitpath.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"patcherrelativepath" : "../../modules/Utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "samp-nt-l.voi.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"patcherrelativepath" : "../../modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"type" : "JSON",
@@ -5683,9 +5699,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audition_decide_admin.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
-				"patcherrelativepath" : "../audition-and-decide/lib/admin_files",
+				"name" : "_harmonic-inharmonic_admin.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+				"patcherrelativepath" : "../../../../../../../../../current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -5714,6 +5730,13 @@
 				"name" : "aad-click-panel.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib",
 				"patcherrelativepath" : "../audition-and-decide/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "addpath.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"patcherrelativepath" : "../../modules/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

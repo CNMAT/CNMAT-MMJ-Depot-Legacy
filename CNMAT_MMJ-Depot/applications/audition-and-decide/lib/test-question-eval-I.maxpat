@@ -372,15 +372,15 @@
 					"patching_rect" : [ 120.0, 272.0, 86.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p fake_checkbox"
@@ -457,7 +457,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 669.0, 80.0, 32.5, 17.0 ],
+					"patching_rect" : [ 678.0, 84.0, 32.5, 17.0 ],
 					"text" : "t l 0"
 				}
 
@@ -1122,15 +1122,15 @@
 					"patching_rect" : [ 428.0, 109.0, 99.333336, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p scripting"
@@ -1238,11 +1238,11 @@
 					"hidden" : 1,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 428.0, 48.0, 260.0, 17.0 ],
-					"text" : "route clear another_chance selection_type"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 428.0, 48.0, 269.0, 17.0 ],
+					"text" : "route clear another_chance selection_type expose_other_choice"
 				}
 
 			}
@@ -1518,7 +1518,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-3", 3 ]
+					"source" : [ "obj-3", 4 ]
 				}
 
 			}
