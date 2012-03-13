@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 9.0, 50.0, 1280.0, 726.0 ],
+		"rect" : [ 0.0, 44.0, 1279.0, 744.0 ],
 		"bgcolor" : [ 0.870588, 0.890196, 0.835294, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -31,12 +31,68 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-33",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 108.0, 204.0, 32.0, 16.0 ],
+					"text" : "load"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 108.0, 180.0, 43.0, 18.0 ],
+					"text" : "sel 108"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 108.0, 156.0, 59.5, 18.0 ],
+					"text" : "key"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 301.333344, 176.0, 32.5, 18.0 ],
+					"text" : "b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 196.0, 388.0, 32.5, 18.0 ],
+					"patching_rect" : [ 301.0, 392.0, 32.5, 18.0 ],
 					"text" : "- 1"
 				}
 
@@ -49,7 +105,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 484.0, 184.0, 82.0, 18.0 ],
+					"patching_rect" : [ 796.0, 228.0, 82.0, 18.0 ],
 					"text" : "print unmatched"
 				}
 
@@ -481,16 +537,16 @@
 ,
 					"patching_rect" : [ 236.0, 436.0, 46.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p admin"
@@ -534,7 +590,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 412.0, 392.0, 96.0, 18.0 ],
+					"patching_rect" : [ 416.5, 392.0, 96.0, 18.0 ],
 					"text" : "prepend newbutton"
 				}
 
@@ -548,7 +604,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 272.0, 224.0, 111.0, 18.0 ],
+					"patching_rect" : [ 264.0, 136.0, 131.0, 18.0 ],
 					"text" : "route reset repeat new"
 				}
 
@@ -593,7 +649,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 272.0, 248.0, 63.5, 18.0 ],
+					"patching_rect" : [ 264.0, 220.0, 131.0, 18.0 ],
 					"text" : "b"
 				}
 
@@ -620,7 +676,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 412.0, 360.0, 66.0, 16.0 ],
+					"patching_rect" : [ 416.5, 308.0, 66.0, 16.0 ],
 					"text" : "ignoreclick 0"
 				}
 
@@ -634,7 +690,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 444.0, 416.0, 66.0, 16.0 ],
+					"patching_rect" : [ 335.0, 364.0, 66.0, 16.0 ],
 					"text" : "ignoreclick 1"
 				}
 
@@ -650,7 +706,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 428.0, 195.0, 23.0 ],
+					"patching_rect" : [ 664.0, 431.0, 195.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 192.0, 1256.0, 23.0 ],
 					"text" : "The following sound is:",
@@ -1153,16 +1209,16 @@
 ,
 													"patching_rect" : [ 40.0, 96.0, 107.0, 18.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontsize" : 10.0,
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"default_fontsize" : 10.0,
 														"description" : "",
-														"tags" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial"
+														"tags" : ""
 													}
 ,
 													"text" : "p find_item-corr_pairs"
@@ -1529,16 +1585,16 @@
 ,
 									"patching_rect" : [ 260.0, 156.0, 171.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"default_fontsize" : 10.0,
 										"description" : "",
-										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial"
+										"tags" : ""
 									}
 ,
 									"text" : "p group_type_of_answer_for_option"
@@ -1897,18 +1953,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 304.0, 460.0, 53.0, 18.0 ],
+					"patching_rect" : [ 301.0, 336.0, 53.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p choices"
@@ -2014,7 +2070,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.0, 584.0, 205.0, 16.0 ],
+					"patching_rect" : [ 264.0, 264.0, 205.0, 16.0 ],
 					"text" : "bgcolor 0.5 0.5 0.5, set <waiting for input>..."
 				}
 
@@ -2051,7 +2107,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 277.0, 137.0, 1139.0, 683.0 ],
+						"rect" : [ 289.0, 137.0, 872.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -2336,16 +2392,16 @@
 ,
 									"patching_rect" : [ 108.0, 460.0, 116.5, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"default_fontsize" : 10.0,
 										"description" : "",
-										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial"
+										"tags" : ""
 									}
 ,
 									"text" : "p defunct-currently"
@@ -2361,7 +2417,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 600.0, 424.0, 231.0, 16.0 ],
+									"patching_rect" : [ 565.5, 425.0, 231.0, 16.0 ],
 									"text" : "bgcolor 0.3125 0.058594 0. 1., textcolor 1. 1. 1. 1."
 								}
 
@@ -2514,7 +2570,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 552.0, 96.0, 32.5, 18.0 ],
+									"patching_rect" : [ 552.0, 96.0, 43.0, 18.0 ],
 									"text" : "gate"
 								}
 
@@ -2946,16 +3002,16 @@
 ,
 									"patching_rect" : [ 20.0, 388.0, 73.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"default_fontsize" : 10.0,
 										"description" : "",
-										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial"
+										"tags" : ""
 									}
 ,
 									"text" : "p give-options"
@@ -3081,7 +3137,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 536.0, 340.0, 32.5, 18.0 ],
+									"patching_rect" : [ 516.0, 344.0, 68.5, 18.0 ],
 									"text" : "b 2"
 								}
 
@@ -3109,7 +3165,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 356.0, 364.0, 43.0, 16.0 ],
+									"patching_rect" : [ 356.0, 384.0, 43.0, 16.0 ],
 									"text" : "\"Yes --\""
 								}
 
@@ -3123,7 +3179,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 536.0, 364.0, 40.0, 16.0 ],
+									"patching_rect" : [ 516.0, 368.0, 40.0, 16.0 ],
 									"text" : "\"No --\""
 								}
 
@@ -3137,7 +3193,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 536.0, 420.0, 47.0, 18.0 ],
+									"patching_rect" : [ 516.0, 424.0, 47.0, 18.0 ],
 									"text" : "pack s s"
 								}
 
@@ -3151,7 +3207,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 536.0, 444.0, 63.0, 18.0 ],
+									"patching_rect" : [ 516.0, 448.0, 63.0, 18.0 ],
 									"text" : "prepend set"
 								}
 
@@ -3161,11 +3217,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-60",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 372.0, 344.0, 220.0, 16.0 ],
+									"patching_rect" : [ 372.0, 344.0, 128.0, 27.0 ],
 									"text" : "bgcolor 0. 0.25 0.027344 1., textcolor 1. 1. 1. 1."
 								}
 
@@ -3177,7 +3234,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 368.0, 516.0, 25.0, 25.0 ]
+									"patching_rect" : [ 368.0, 496.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -3300,7 +3357,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.0, 484.0, 25.0, 25.0 ]
+									"patching_rect" : [ 20.0, 496.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -3775,12 +3832,6 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "audition_decide_II_admin.txt",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
 								"name" : "OSC-route.mxo",
 								"type" : "iLaX"
 							}
@@ -3789,16 +3840,16 @@
 ,
 					"patching_rect" : [ 436.0, 612.0, 171.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p grab_current_soundfile_info"
@@ -4132,12 +4183,6 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "audition_coll_ex_II.txt",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/collection_files",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
 								"name" : "audition-soundfiles~.maxpat",
 								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 								"type" : "JSON",
@@ -4180,7 +4225,13 @@
 								"implicit" : 1
 							}
 , 							{
-								"name" : "samp-nt-nl.voi.maxpat",
+								"name" : "splitpath.maxpat",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "samp-nt-l.voi.maxpat",
 								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
 								"type" : "JSON",
 								"implicit" : 1
@@ -4200,16 +4251,16 @@
 ,
 					"patching_rect" : [ 284.0, 524.0, 111.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
-						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p auditioner"
@@ -4240,7 +4291,7 @@
 					"id" : "obj-76",
 					"maxclass" : "bpatcher",
 					"name" : "test-question-eval_II.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -10.0, -94.0 ],
 					"outlettype" : [ "" ],
@@ -4289,7 +4340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 316.0, 416.0, 32.5, 16.0 ],
+					"patching_rect" : [ 376.0, 308.0, 32.5, 16.0 ],
 					"text" : "clear"
 				}
 
@@ -4303,7 +4354,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 272.0, 416.0, 20.0, 20.0 ]
+					"patching_rect" : [ 338.666656, 176.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -4316,7 +4367,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 304.0, 488.0, 79.0, 18.0 ],
+					"patching_rect" : [ 328.5, 420.0, 79.0, 18.0 ],
 					"text" : "sprintf /play/%d"
 				}
 
@@ -4344,7 +4395,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 344.0, 63.0, 18.0 ],
+					"patching_rect" : [ 664.0, 228.0, 63.0, 18.0 ],
 					"text" : "prepend set"
 				}
 
@@ -4358,7 +4409,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 296.0, 32.0, 18.0 ],
+					"patching_rect" : [ 664.0, 176.0, 32.0, 18.0 ],
 					"text" : "r osc"
 				}
 
@@ -4372,7 +4423,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 416.0, 204.0, 151.0, 18.0 ],
+					"patching_rect" : [ 664.0, 204.0, 151.0, 18.0 ],
 					"text" : "osc-route /textmessage /textcoll"
 				}
 
@@ -4387,7 +4438,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 732.0, 220.0, 258.0, 20.0 ],
+					"patching_rect" : [ 664.0, 344.0, 258.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 112.0, 1256.0, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -4433,7 +4484,6 @@
 					"destination" : [ "obj-80", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 491.5, 341.5, 385.5, 341.5 ],
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -4620,10 +4670,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -4665,6 +4742,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4692,6 +4778,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4710,28 +4805,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-80", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 1 ]
 				}
 
 			}
@@ -4755,7 +4841,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
@@ -4774,15 +4860,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 1 ]
@@ -4852,13 +4929,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audition_coll_ex_II.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/collection_files",
-				"patcherrelativepath" : "../audition-and-decide/lib/collection_files",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "audition-soundfiles~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 				"patcherrelativepath" : "../Soundfiles-sampling",
@@ -4908,7 +4978,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "samp-nt-nl.voi.maxpat",
+				"name" : "splitpath.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"patcherrelativepath" : "../../modules/Utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "samp-nt-l.voi.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"patcherrelativepath" : "../../modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"type" : "JSON",
@@ -4919,13 +4996,6 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../modules/basic-programming",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "audition_decide_II_admin.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib/admin_files",
-				"patcherrelativepath" : "../audition-and-decide/lib/admin_files",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
