@@ -4577,6 +4577,12 @@
 							}
  ],
 						"dependency_cache" : [ 							{
+								"name" : "_harmonic-inharmonic_admin.txt",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
 								"name" : "OSC-route.mxo",
 								"type" : "iLaX"
 							}
@@ -4809,6 +4815,12 @@
 							}
  ],
 						"dependency_cache" : [ 							{
+								"name" : "harm-inharm-noise-coll.txt",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
 								"name" : "audition-soundfiles~.maxpat",
 								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 								"type" : "JSON",
@@ -4901,7 +4913,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 					"id" : "obj-77",
-					"items" : [ "18-h-in-nse.aif", ",", "17-h-in-nse.aif", ",", "16-h-in-nse.aif", ",", "15-h-in-nse.aif", ",", "14-h-in-nse.aif", ",", "12-h-in-nse.aif", ",", "11-h-in-nse.aif", ",", "10-h-in-nse.aif", ",", "09-h-in-nse.aif", ",", "07-h-in-nse.aif", ",", "06-h-in-nse.aif", ",", "05-h-in-nse.aif", ",", "04-h-in-nse.aif", ",", "03-exam.aif", ",", "02-harm-inharm.aif", ",", "01-maresz.aif", ",", "00-maresz.aif", ",", "13-h-in-nse.wav", ",", "08-h-in-nse.wav", ",", "19-h-in-nse.aif" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4921,7 +4933,7 @@
 					"numoutlets" : 1,
 					"offset" : [ -10.0, -94.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 280.0, 166.0, 26.5 ],
+					"patching_rect" : [ 469.0, 280.0, 166.0, 26.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 216.0, 1256.0, 316.0 ]
 				}
@@ -4940,6 +4952,7 @@
 					"patching_rect" : [ 272.0, 612.0, 195.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 536.0, 1160.0, 24.0 ],
+					"text" : "<waiting for input>...",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -5586,6 +5599,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "harm-inharm-noise-coll.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+				"patcherrelativepath" : "../../../../../../../../../current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "audition-soundfiles~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
 				"patcherrelativepath" : "../Soundfiles-sampling",
@@ -5653,6 +5673,13 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../modules/basic-programming",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_harmonic-inharmonic_admin.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+				"patcherrelativepath" : "../../../../../../../../../current_duties/MUS_29/mus29_html/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB9-Audition-Decide-MU29SP12/AAD-1-harmonic-inharm-noise",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
