@@ -117,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 692.0, 160.0, 237.0, 20.0 ],
+					"patching_rect" : [ 700.0, 166.0, 237.0, 20.0 ],
 					"text" : "tap tempo and send info out",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -589,7 +589,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 692.0, 240.0, 156.0, 20.0 ],
+					"patching_rect" : [ 700.0, 240.0, 156.0, 20.0 ],
 					"text" : "your computer's MIDI synth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -621,7 +621,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 692.0, 140.0, 200.0, 20.0 ],
+					"patching_rect" : [ 700.0, 144.0, 200.0, 20.0 ],
 					"text" : "control divisions of a master pattern",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -637,7 +637,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 692.0, 120.0, 179.0, 20.0 ],
+					"patching_rect" : [ 700.0, 122.0, 179.0, 20.0 ],
 					"text" : "independent rhythms in tandem",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -653,7 +653,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 692.0, 100.0, 208.0, 20.0 ],
+					"patching_rect" : [ 700.0, 100.0, 208.0, 20.0 ],
 					"text" : "dividing a beat into various segments",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -893,7 +893,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 500.0, 100.0, 192.0, 79.0 ],
+					"patching_rect" : [ 500.0, 100.0, 192.0, 86.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "beat slicing", "polyrhythms explorer", "step sequencer with divisions", "tempo tracker" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
