@@ -1346,8 +1346,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 389.0, 53.0, 18.0 ],
-					"text" : "/stop $1"
+					"patching_rect" : [ 300.0, 389.0, 37.0, 18.0 ],
+					"text" : "/stop"
 				}
 
 			}
