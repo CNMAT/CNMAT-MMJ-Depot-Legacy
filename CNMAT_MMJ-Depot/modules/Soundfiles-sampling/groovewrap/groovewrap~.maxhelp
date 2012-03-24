@@ -686,16 +686,16 @@
 ,
 					"patching_rect" : [ 429.0, 381.0, 81.0, 34.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"digest" : ""
 					}
 ,
 					"text" : "p general messages"
@@ -826,7 +826,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-17",
@@ -1039,16 +1038,16 @@
 ,
 									"patching_rect" : [ 300.0, 99.0, 56.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"fontsize" : 12.0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"digest" : ""
 									}
 ,
 									"text" : "p findlen"
@@ -1118,7 +1117,7 @@
 									"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "flonum",
-									"maximum" : 2008.344727,
+									"maximum" : 3451.065674,
 									"minimum" : 0.0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -1152,7 +1151,7 @@
 									"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "flonum",
-									"maximum" : 2008.344727,
+									"maximum" : 3451.065674,
 									"minimum" : 0.0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -1295,16 +1294,16 @@
 ,
 					"patching_rect" : [ 364.0, 390.0, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"digest" : ""
 					}
 ,
 					"text" : "p looping"
