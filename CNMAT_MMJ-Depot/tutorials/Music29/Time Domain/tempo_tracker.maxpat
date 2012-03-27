@@ -78,23 +78,23 @@
 					"coll_data" : 					{
 						"count" : 5,
 						"data" : [ 							{
-								"key" : "Beat",
+								"key" : 0,
 								"value" : [ 1.0 ]
 							}
 , 							{
-								"key" : "X2",
+								"key" : 1,
 								"value" : [ 0.5 ]
 							}
 , 							{
-								"key" : "X4",
+								"key" : 2,
 								"value" : [ 0.25 ]
 							}
 , 							{
-								"key" : "X8",
+								"key" : 3,
 								"value" : [ 0.125 ]
 							}
 , 							{
-								"key" : "X16",
+								"key" : 4,
 								"value" : [ 0.0625 ]
 							}
  ]
@@ -170,6 +170,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -253,10 +254,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 280.0, 172.0, 41.0 ],
+									"patching_rect" : [ 210.0, 280.0, 174.0, 41.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
-									"presentation_rect" : [ 2.5, 33.875, 102.5, 53.0 ],
+									"presentation_rect" : [ 2.5, 33.875, 106.0, 53.0 ],
 									"text" : "drop folder of sounds\nsoundfile will play every time you tap the beat"
 								}
 
@@ -704,7 +705,7 @@
 								"implicit" : 1
 							}
 , 							{
-								"name" : "samp-nt-nl.voi.maxpat",
+								"name" : "samp-nt-l.voi.maxpat",
 								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
 								"type" : "JSON",
 								"implicit" : 1
@@ -732,16 +733,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 364.0, 321.0, 196.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
+						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p \"assign a sound to the beat\""
@@ -1388,7 +1389,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-11", 1 ]
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -1797,7 +1798,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "samp-nt-nl.voi.maxpat",
+				"name" : "samp-nt-l.voi.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"patcherrelativepath" : "../../../modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"type" : "JSON",
