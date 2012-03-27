@@ -29,6 +29,96 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 22.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 4
+						}
+,
+						"rect" : [ 42.0, 68.0, 1037.0, 778.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 5.0, 5.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 22.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 10.0, 10.0, 429.0, 32.0 ],
+									"presentation_rect" : [ 11.0, 18.0, 0.0, 0.0 ],
+									"text" : "polyrhythm-explorer-samp instructions:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"linecount" : 49,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 10.0, 45.0, 1010.0, 683.0 ],
+									"text" : "This patch is an overview including various divisions of a beat (tactus).  \n\nYou'll notice that there are 12 layers, which include divisions of the tactus by 60, 30, 20, 15, 12, 10, 6, 5, 4, 3, 2, and the tactus itself (1)\nthere are two sections to each of the 12 layers.\n\nTo play, first turn patch on by clicking on the [audio off] button and/or making sure that it reads [audio on].  You'll notice that the various sequencers begin advancing through their cycles.\n\nEditing clicks on a given layer:\n\n1. Make sure the level is unmuted by un-checking the mute toggle (it may already be unmuted).\n2. Click on the bottom array of sliders to enable some notes (they are either on or off; red squares mean \"on\".  To turn all notes on, click on the pink box and click-drag/enter \"1\".\n3. You should hear some clicks, at a given (fairly arbitrary) frequency.\n4. To change the frequency for each click, you can click-drag on the gray sliders. To edit all frequencies at once, click-drag (or enter a number into) the gray number box for that level.\n5. You can alter the overall characteristic of the click by editing that layer's \"res\" parameter, which is a representation of how resonant the click will end up being.  The smaller the number, the more \"clicky\" and aprupt the transient will end, the larger the number, the more the sound will ring out.\n6. On other layers, try combining varous on and off steps, and editing the values described above to gain an interesting polyrhythm for the duration of the phrase.\n\nEditing samples on a given layer:\n\n1. Drag a folder of sounds (all sounds must be in a flat directory structure) to the drop area on the top-left portion of the screen.\n2. Click on the \"choose sample\" menu.  You'll notice that all the sounds you've dragged in are now available for that layer.\n3. To enable a specific sound, choose a sample from this menu\n4. Enable the \"view sample placement component\" toggle\n5. Enable some notes by clicking on the bottom (blue) array of sliders that has appeared.  To turn all notes on, click on the blue box and click-drag/enter \"1\".\n6. To choose randomly from your folder of sounds on each step, click on the \"random steps\" button.\n\nGeneral controls for a given layer:\n\nGlobal controls:\n\n- click on \"clear all soundfiles from memory\" to clear.  This will also wipe all soundfile names from the various menus.\n- global steps on/off: Enable/disable all steps at once.  Only do this if you don't mind discarding all your previously edited steps.\n- global seq mute: Mutes all layers of sequencer, but allows sequencer to remain cycling.\n- global click mute: Change mute states for clicks on all layers at once.\n- global sample mute: Change mute states for samples on all layers at once.  \n- global timbre: Change timbre for all layers at once.  Only edit this if you don't mind discarding previously edited timbres.\n- global resonance: Change resonance for all layers at once.  Only edit this if you don't mind discarding previously edited resonances.\n- new (immediate) tactus: Enter in a new bpm for the beat/phrase.\n- setup_reverb: This opens up an area with various controls for adding reverb to the overall mix of the layers.\n- stop: Stops the polyrhythm explorer from playing\n\nglobal preset storage/recall:\n\nIf you'd like to store something (a global snapshot of) that you've edited, you can place it into a preset slot.\n\n1. Hold control+option.  You'll notice that the numbers of the preset slots turn red.  This means that storage mode is active. \n2. While holding those keys, click on a given number to store the current state into a recallable snapshot.\n3. Resume editing until you have another state you like the sound of, and repeat the above steps as necessary.\n4. To recall a given preset, simply click the green numbers (no keys enabled)."
+								}
+
+							}
+ ],
+						"lines" : [  ],
+						"dependency_cache" : [  ]
+					}
+,
+					"patching_rect" : [ 104.0, 960.0, 159.0, 32.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 12.0, 460.0, 159.0, 32.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
+					}
+,
+					"text" : "p instructions"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-44",
 					"maxclass" : "bpatcher",
@@ -632,6 +722,19 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 200.0, 124.0, 67.0, 20.0 ],
+									"text" : "s bufmenu"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -857,8 +960,8 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 10.0,
+										"tags" : "",
 										"description" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
@@ -1113,6 +1216,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1310,8 +1422,8 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
+						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
@@ -1568,8 +1680,8 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
+						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
@@ -1655,8 +1767,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 644.0, 121.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"storage_rect" : [ 10, 59, 650, 299 ],
 						"parameter_enable" : 0,
+						"storage_rect" : [ 10, 59, 650, 299 ],
 						"client_rect" : [ 10, 59, 650, 299 ]
 					}
 ,
@@ -2241,7 +2353,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u411004594"
+									"varname" : "u614005519"
 								}
 
 							}
@@ -2613,8 +2725,8 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
+						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
