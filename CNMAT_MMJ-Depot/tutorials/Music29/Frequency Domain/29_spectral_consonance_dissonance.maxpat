@@ -155,17 +155,20 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 0.42 ],
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.5, 538.333374, 150.0, 20.0 ],
+					"patching_rect" : [ 312.5, 538.333374, 161.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 186.466339, 175.0, 125.533661, 34.0 ],
-					"text" : "set fundamental frequency"
+					"presentation_rect" : [ 186.466339, 175.0, 135.0, 34.0 ],
+					"text" : "set fundamental frequency",
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.42 ]
 				}
 
 			}
@@ -966,35 +969,36 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"fontface" : 2,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 11.0,
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 901.0, 538.333374, 70.0, 20.0 ],
+					"patching_rect" : [ 901.0, 538.333374, 61.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.932678, 62.5, 70.0, 20.0 ],
-					"text" : "Waveform",
+					"presentation_rect" : [ 17.295416, 65.049049, 100.0, 19.0 ],
+					"text" : "Waveform Display",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"fontface" : 2,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 11.0,
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 780.0, 538.333374, 108.0, 20.0 ],
+					"patching_rect" : [ 780.0, 538.333374, 95.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.932678, 12.5, 108.0, 20.0 ],
+					"presentation_rect" : [ 17.295416, 15.049047, 95.0, 19.0 ],
 					"text" : "Select Waveform",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1634,7 +1638,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 340.0, 117.0, 198.0, 70.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.932678, 80.5, 213.134628, 70.5 ],
+					"presentation_rect" : [ 17.932678, 85.049049, 213.134628, 65.950951 ],
 					"ruler" : 0,
 					"selectioncolor" : [ 0.0, 0.0, 0.0, 0.17 ],
 					"setmode" : 1,
