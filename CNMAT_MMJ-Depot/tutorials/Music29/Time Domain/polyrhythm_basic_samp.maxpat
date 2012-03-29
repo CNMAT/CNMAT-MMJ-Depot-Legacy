@@ -36,7 +36,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 540.75, 516.0, 32.5, 16.0 ],
-					"presentation_rect" : [ 540.75, 520.0, 0.0, 0.0 ],
 					"text" : "set 1"
 				}
 
@@ -783,16 +782,16 @@
 ,
 					"patching_rect" : [ 32.0, 216.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
-						"default_fontname" : "Arial",
 						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"fontface" : 0,
-						"digest" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p hidefunction"
@@ -827,14 +826,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 151.0, 78.0, 48.0 ],
+					"patching_rect" : [ 32.0, 151.0, 78.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 398.0, 86.0, 198.0, 20.0 ],
-					"text" : "view sample placement component"
+					"presentation_rect" : [ 398.0, 86.0, 110.0, 20.0 ],
+					"text" : "sample view on/off"
 				}
 
 			}
@@ -904,7 +903,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u461005813"
+					"varname" : "u451001682"
 				}
 
 			}
@@ -1242,16 +1241,16 @@
 ,
 					"patching_rect" : [ 724.0, 470.0, 72.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
-						"default_fontname" : "Arial",
 						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"fontface" : 0,
-						"digest" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p format_tabs"
@@ -2784,16 +2783,16 @@
 ,
 					"patching_rect" : [ 256.5, 418.0, 343.5, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
 						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"fontface" : 0,
-						"digest" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p division"
