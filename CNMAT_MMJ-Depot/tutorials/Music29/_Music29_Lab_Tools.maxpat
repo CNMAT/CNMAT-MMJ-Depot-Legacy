@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 452.0, 208.0, 20.0 ],
+					"patching_rect" : [ 684.0, 456.200012, 208.0, 20.0 ],
 					"presentation_rect" : [ 686.0, 453.0, 0.0, 0.0 ],
 					"text" : "spectral consonance and dissonance",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -149,7 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 432.0, 204.0, 20.0 ],
+					"patching_rect" : [ 684.0, 432.200012, 204.0, 20.0 ],
 					"text" : "rhythm to pitch continuum",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -275,7 +275,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 408.0, 204.0, 20.0 ],
+					"patching_rect" : [ 684.0, 408.200012, 204.0, 20.0 ],
 					"text" : "deriving tuning from perfect intervals",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -360,7 +360,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 384.0, 257.0, 20.0 ],
+					"patching_rect" : [ 684.0, 384.200012, 257.0, 20.0 ],
 					"text" : "explore tunings and playing of scales",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -376,7 +376,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 360.0, 257.0, 20.0 ],
+					"patching_rect" : [ 684.0, 360.200012, 257.0, 20.0 ],
 					"text" : "tuned strings and fusion/harmony/chord",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
