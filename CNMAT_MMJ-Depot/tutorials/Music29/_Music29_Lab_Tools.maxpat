@@ -7,8 +7,8 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 8.0, 44.0, 954.0, 693.0 ],
-		"bglocked" : 1,
+		"rect" : [ 8.0, 44.0, 968.0, 669.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -27,6 +27,23 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 684.0, 452.0, 208.0, 20.0 ],
+					"presentation_rect" : [ 686.0, 453.0, 0.0, 0.0 ],
+					"text" : "spectral consonance and dissonance",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
@@ -324,7 +341,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 296.0, 664.0, 114.0, 20.0 ],
+					"patching_rect" : [ 296.0, 664.0, 113.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -813,9 +830,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 503.0, 335.0, 177.0, 117.0 ],
+					"patching_rect" : [ 503.0, 335.0, 181.0, 145.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
-					"tabs" : [ "plucked string simulation", "low-order harmonic ratios", "plucked-string play space", "tuning from intervals", "rhythm to pitch" ],
+					"tabs" : [ "plucked string simulation", "low-order harmonic ratios", "plucked-string play space", "tuning from intervals", "rhythm to pitch", "spectral c/d" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -871,7 +888,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 300.0, 448.0, 180.0 ],
+					"patching_rect" : [ 496.0, 300.0, 445.0, 192.0 ],
 					"rounded" : 15
 				}
 
