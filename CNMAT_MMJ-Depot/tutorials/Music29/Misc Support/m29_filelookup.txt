@@ -26,3 +26,4 @@
 "sound file presenter", soundfile-presenter.maxpat;
 "audition and decide I", audition-and-decide-I.maxpat;
 "audition and decide II", audition-and-decide-II.maxpat;
+"spectral c/d", 29_spectral_consonance_dissonance.maxpat;
