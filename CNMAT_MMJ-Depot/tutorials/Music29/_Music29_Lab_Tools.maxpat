@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 214.5, 586.0, 63.0, 64.0 ],
-					"presentation_rect" : [ 288.0, 622.0, 0.0, 0.0 ],
 					"text" : ">",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -317,123 +316,6 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 28,
-						"data" : [ 							{
-								"key" : "sinewaves and hearing",
-								"value" : [ "29_sinewaves_and_hearing.maxpat" ]
-							}
-, 							{
-								"key" : "hearing and frequency",
-								"value" : [ "29_hearing_and_freq.maxpat" ]
-							}
-, 							{
-								"key" : "additive synthesis intro",
-								"value" : [ "29_additive_synth_intro.maxpat" ]
-							}
-, 							{
-								"key" : "harmonic waveforms",
-								"value" : [ "29_harmonic_waveform_builder.maxpat" ]
-							}
-, 							{
-								"key" : "performing timbres",
-								"value" : [ "29_performing_timbres.maxpat" ]
-							}
-, 							{
-								"key" : "the singing voice",
-								"value" : [ "29_singing_voice.maxhelp" ]
-							}
-, 							{
-								"key" : "shifting harmonic spectra",
-								"value" : [ "29_shifting_harmonic_spectra.maxpat" ]
-							}
-, 							{
-								"key" : "inharmonic spectra",
-								"value" : [ "29_inharmonic_spectra.maxhelp" ]
-							}
-, 							{
-								"key" : "computer keyboard & mouse synth",
-								"value" : [ "additive-keymouse-synthesizer.maxpat" ]
-							}
-, 							{
-								"key" : "filtering noise",
-								"value" : [ "29_filtering_noise.maxpat" ]
-							}
-, 							{
-								"key" : "sound file mixer",
-								"value" : [ "samplemixer.maxpat" ]
-							}
-, 							{
-								"key" : "sound file interpolation space",
-								"value" : [ "sfinterp.maxhelp" ]
-							}
-, 							{
-								"key" : "beat slicing",
-								"value" : [ "beat-slicer.maxpat" ]
-							}
-, 							{
-								"key" : "polyrhythms explorer",
-								"value" : [ "polyrhythm-explorer-samp.maxpat" ]
-							}
-, 							{
-								"key" : "step sequencer with divisions",
-								"value" : [ "divided-step-sequencer.maxpat" ]
-							}
-, 							{
-								"key" : "the internal synthesizer",
-								"value" : [ "29_Internal_Synth_OSC.maxpat" ]
-							}
-, 							{
-								"key" : "plucked string simulation",
-								"value" : [ "29_ps_simulation.maxpat" ]
-							}
-, 							{
-								"key" : "low-order harmonic ratios",
-								"value" : [ "29_low_order_harm_ratios.maxpat" ]
-							}
-, 							{
-								"key" : "plucked-string play space",
-								"value" : [ "29_ps_playspace.maxpat" ]
-							}
-, 							{
-								"key" : "tuning from intervals",
-								"value" : [ "29_tuning_from_intervals.maxpat" ]
-							}
-, 							{
-								"key" : "audition soundfiles",
-								"value" : [ "audition-soundfiles-mus29~.maxhelp" ]
-							}
-, 							{
-								"key" : "rhythm to pitch",
-								"value" : [ "29_rhythm2pitch.maxpat" ]
-							}
-, 							{
-								"key" : "tempo tracker",
-								"value" : [ "tempo_tracker.maxpat" ]
-							}
-, 							{
-								"key" : "sonogram analysis",
-								"value" : [ "29_sonogram-analysis.maxpat" ]
-							}
-, 							{
-								"key" : "harmonicity vs. inharmonicity",
-								"value" : [ "29_harm_inharm.maxpat" ]
-							}
-, 							{
-								"key" : "sound file presenter",
-								"value" : [ "soundfile-presenter.maxpat" ]
-							}
-, 							{
-								"key" : "audition and decide I",
-								"value" : [ "audition-and-decide-I.maxpat" ]
-							}
-, 							{
-								"key" : "audition and decide II",
-								"value" : [ "audition-and-decide-II.maxpat" ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
@@ -442,12 +324,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 296.0, 664.0, 89.0, 20.0 ],
+					"patching_rect" : [ 296.0, 664.0, 114.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
-					"text" : "coll file_lookup"
+					"text" : "coll m29_filelookup"
 				}
 
 			}
@@ -1128,6 +1010,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "m29_filelookup.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../Music29/Misc Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pathpop.js",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
 				"patcherrelativepath" : "../../modules/Utilities",
