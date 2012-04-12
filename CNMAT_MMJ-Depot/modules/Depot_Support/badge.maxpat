@@ -458,7 +458,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.407585, 0.407585, 0.407585, 1.0 ],
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
