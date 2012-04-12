@@ -302,16 +302,16 @@
 ,
 					"patching_rect" : [ 532.0, 256.0, 32.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"default_fontsize" : 10.0,
+						"fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p sel"
@@ -3817,16 +3817,16 @@
 ,
 					"patching_rect" : [ 60.0, 340.0, 107.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"default_fontsize" : 10.0,
+						"fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p additive-synthesizer"
@@ -3878,7 +3878,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "bang" ],
+					"outlettype" : [ "", "float", "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -3927,8 +3927,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 425.0, 496.0, 123.0, 18.0 ],
-									"presentation_rect" : [ 426.0, 498.0, 0.0, 0.0 ]
+									"patching_rect" : [ 425.0, 496.0, 123.0, 18.0 ]
 								}
 
 							}
@@ -3984,8 +3983,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 340.0, 496.0, 50.0, 18.0 ],
-									"presentation_rect" : [ 341.0, 477.0, 0.0, 0.0 ]
+									"patching_rect" : [ 340.0, 496.0, 50.0, 18.0 ]
 								}
 
 							}
@@ -4152,8 +4150,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 156.0, 384.0, 60.0, 18.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 36.0, 612.0, 60.0, 18.0 ],
 									"text" : "enable grid"
 								}
 
@@ -4166,9 +4162,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.0, 384.0, 20.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 612.0, 20.0, 20.0 ]
+									"patching_rect" : [ 128.0, 384.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -4884,16 +4878,16 @@
 ,
 					"patching_rect" : [ 60.0, 216.0, 60.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"default_fontsize" : 10.0,
+						"fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p controller"
