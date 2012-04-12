@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 8.0, 44.0, 968.0, 669.0 ],
+		"rect" : [ 22.0, 56.0, 968.0, 669.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,8 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 456.200012, 208.0, 20.0 ],
-					"presentation_rect" : [ 686.0, 453.0, 0.0, 0.0 ],
+					"patching_rect" : [ 684.0, 481.0, 208.0, 20.0 ],
 					"text" : "spectral consonance and dissonance",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -149,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 432.200012, 204.0, 20.0 ],
+					"patching_rect" : [ 684.0, 452.0, 204.0, 20.0 ],
 					"text" : "rhythm to pitch continuum",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -275,7 +274,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 408.200012, 204.0, 20.0 ],
+					"patching_rect" : [ 684.0, 423.0, 204.0, 20.0 ],
 					"text" : "deriving tuning from perfect intervals",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -360,7 +359,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 384.200012, 257.0, 20.0 ],
+					"patching_rect" : [ 684.0, 394.0, 257.0, 20.0 ],
 					"text" : "explore tunings and playing of scales",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -376,7 +375,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 360.200012, 257.0, 20.0 ],
+					"patching_rect" : [ 684.0, 365.0, 257.0, 20.0 ],
 					"text" : "tuned strings and fusion/harmony/chord",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -473,7 +472,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 492.0, 492.0, 454.0, 34.0 ],
+					"patching_rect" : [ 496.0, 541.0, 454.0, 34.0 ],
 					"text" : "Click on a given link to load the patch.  Keep in mind that some patches are larger than others, so you might need to wait a few moments for a given patch to load."
 				}
 
@@ -830,7 +829,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 503.0, 335.0, 181.0, 145.0 ],
+					"patching_rect" : [ 503.0, 335.0, 181.0, 168.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "plucked string simulation", "low-order harmonic ratios", "plucked-string play space", "tuning from intervals", "rhythm to pitch", "spectral c/d" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -888,7 +887,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 300.0, 445.0, 192.0 ],
+					"patching_rect" : [ 496.0, 300.0, 444.0, 234.0 ],
 					"rounded" : 15
 				}
 
