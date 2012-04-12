@@ -302,16 +302,16 @@
 ,
 					"patching_rect" : [ 532.0, 256.0, 32.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"default_fontsize" : 10.0,
 						"fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"tags" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sel"
@@ -3817,16 +3817,16 @@
 ,
 					"patching_rect" : [ 60.0, 340.0, 107.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"default_fontsize" : 10.0,
 						"fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"tags" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p additive-synthesizer"
@@ -4878,16 +4878,16 @@
 ,
 					"patching_rect" : [ 60.0, 216.0, 60.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"default_fontsize" : 10.0,
 						"fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"tags" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p controller"
