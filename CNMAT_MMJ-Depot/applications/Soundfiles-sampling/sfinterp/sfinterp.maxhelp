@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 19.0, 60.0, 1064.0, 719.0 ],
+		"rect" : [ 15.0, 51.0, 1064.0, 719.0 ],
 		"bgcolor" : [ 0.443137, 0.439216, 0.439216, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -497,11 +497,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -782,11 +782,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -1597,11 +1597,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -1885,11 +1885,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -2930,11 +2930,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -3589,11 +3589,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -4863,11 +4863,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -5150,11 +5150,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -5311,11 +5311,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -5592,11 +5592,11 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"tags" : "",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
 										"globalpatchername" : "",
+										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -5835,11 +5835,11 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"tags" : "",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
 										"globalpatchername" : "",
+										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -6466,11 +6466,11 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"tags" : "",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
 										"globalpatchername" : "",
+										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -6672,11 +6672,11 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"tags" : "",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
 										"globalpatchername" : "",
+										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -7753,11 +7753,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -8351,11 +8351,11 @@
 																		"default_fontface" : 0,
 																		"digest" : "",
 																		"default_fontname" : "Arial",
-																		"fontname" : "Arial",
 																		"tags" : "",
+																		"fontname" : "Arial",
 																		"default_fontsize" : 12.0,
-																		"description" : "",
 																		"globalpatchername" : "",
+																		"description" : "",
 																		"fontface" : 0,
 																		"fontsize" : 12.0
 																	}
@@ -9050,11 +9050,11 @@
 														"default_fontface" : 0,
 														"digest" : "",
 														"default_fontname" : "Arial",
-														"fontname" : "Arial",
 														"tags" : "",
+														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"description" : "",
 														"globalpatchername" : "",
+														"description" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0
 													}
@@ -9828,11 +9828,11 @@
 																		"default_fontface" : 0,
 																		"digest" : "",
 																		"default_fontname" : "Arial",
-																		"fontname" : "Arial",
 																		"tags" : "",
+																		"fontname" : "Arial",
 																		"default_fontsize" : 10.0,
-																		"description" : "",
 																		"globalpatchername" : "",
+																		"description" : "",
 																		"fontface" : 0,
 																		"fontsize" : 10.0
 																	}
@@ -10156,11 +10156,11 @@
 														"default_fontface" : 0,
 														"digest" : "",
 														"default_fontname" : "Arial",
-														"fontname" : "Arial",
 														"tags" : "",
+														"fontname" : "Arial",
 														"default_fontsize" : 10.0,
-														"description" : "",
 														"globalpatchername" : "",
+														"description" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0
 													}
@@ -10550,11 +10550,11 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"tags" : "",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
 										"globalpatchername" : "",
+										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -10711,11 +10711,11 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"tags" : "",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
 										"globalpatchername" : "",
+										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -11460,11 +11460,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
