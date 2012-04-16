@@ -170,7 +170,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -736,11 +735,11 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"tags" : "",
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
