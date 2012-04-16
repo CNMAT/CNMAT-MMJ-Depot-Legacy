@@ -4983,6 +4983,33 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "sfinterp_player", "navigate through a space of sound files" ],
+									"id" : "obj-9",
+									"lockeddragscroll" : 1,
+									"maxclass" : "bpatcher",
+									"name" : "banner.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ -20.611549, -70.176292 ],
+									"patching_rect" : [ 8.0, 8.0, 511.0, 76.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "sfinterp_player", "0.1a", "EJC / JML / JAM", "sfinterp_player", 6666 ],
+									"id" : "obj-8",
+									"maxclass" : "bpatcher",
+									"name" : "badge.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 2.0, 4.0 ],
+									"patching_rect" : [ 600.0, 92.0, 298.0, 89.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 16.0,
 									"id" : "obj-7",
@@ -4990,7 +5017,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 8.0, 686.0, 80.0 ],
+									"patching_rect" : [ 8.0, 92.0, 576.0, 80.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 5,
 									"presentation_rect" : [ 8.0, 26.0, 554.0, 98.0 ],
@@ -5008,7 +5035,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 372.0, 787.0, 173.0 ],
+									"patching_rect" : [ 8.0, 456.0, 787.0, 173.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 10,
 									"presentation_rect" : [ 866.0, 426.0, 555.0, 191.0 ],
@@ -5025,7 +5052,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 96.0, 97.0, 31.0 ],
+									"patching_rect" : [ 8.0, 180.0, 97.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 46.0, -1.0, 651.0, 31.0 ],
 									"text" : "STEPS:"
@@ -5041,7 +5068,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 80.0, 652.0, 52.0, 18.0 ],
+									"patching_rect" : [ 80.0, 884.0, 52.0, 18.0 ],
 									"text" : "loadbang"
 								}
 
@@ -5058,7 +5085,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 272.0, 620.0, 250.0, 16.0 ],
+									"patching_rect" : [ 272.0, 852.0, 250.0, 16.0 ],
 									"text" : "window flags nofloat, window flags grow, window exec"
 								}
 
@@ -5073,7 +5100,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 620.0, 250.0, 16.0 ],
+									"patching_rect" : [ 16.0, 852.0, 250.0, 16.0 ],
 									"text" : "window flags float, window flags nogrow, window exec"
 								}
 
@@ -5087,7 +5114,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 16.0, 676.0, 59.0, 18.0 ],
+									"patching_rect" : [ 16.0, 908.0, 59.0, 18.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -5103,7 +5130,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 128.0, 866.0, 228.0 ],
+									"patching_rect" : [ 8.0, 212.0, 866.0, 228.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 15,
 									"presentation_rect" : [ 851.0, 411.0, 562.0, 283.0 ],
@@ -5140,7 +5167,49 @@
 
 							}
  ],
-						"dependency_cache" : [  ]
+						"dependency_cache" : [ 							{
+								"name" : "badge.maxpat",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "uc_license.maxpat",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "cnmat_blue.gif",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+								"type" : "GIFf",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "myNotes.js",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "take_notes.maxpat",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "banner.maxpat",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "cnmat_wht-trans.png",
+								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+								"type" : "PNG ",
+								"implicit" : 1
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 280.0, 732.0, 209.0, 27.0 ],
@@ -12794,6 +12863,20 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
