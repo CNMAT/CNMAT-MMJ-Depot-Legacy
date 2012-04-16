@@ -29,6 +29,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "music29" ],
+					"id" : "obj-14",
+					"maxclass" : "bpatcher",
+					"name" : "aux_send.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 283.0, 514.0, 140.0, 58.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 114.539246, 384.0, 140.0, 58.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 24, "beat" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
@@ -946,7 +961,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u626010333"
+									"varname" : "u788002831"
 								}
 
 							}
@@ -1871,6 +1886,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2005,6 +2038,10 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-14::obj-24" : [ "live.gain~", " ", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "tempo~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Timing/stepmetro",
@@ -2149,6 +2186,13 @@
 				"name" : "polyrhythm_basic_module.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Time Domain",
 				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "aux_send.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
+				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
