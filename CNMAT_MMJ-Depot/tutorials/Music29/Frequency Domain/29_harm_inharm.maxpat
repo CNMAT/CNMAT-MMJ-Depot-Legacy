@@ -442,7 +442,7 @@
 					"patching_rect" : [ 1256.0, 848.0, 209.0, 25.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "0.098 0.211 0.461 0.138 0.861 0.875 0.649 0.552 0.299 0.927 0.937 0.2 0.683 0.053 0.639 0.409",
+					"text" : "0.654 0.657 0.332 0.045 0.136 0.641 0.627 0.719 0.648 0.468 0.729 0.41 0.056 0.043 0.57 0.331",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -467,7 +467,7 @@
 					"patching_rect" : [ 1208.0, 452.0, 209.0, 25.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "0.098 0.211 0.461 0.138 0.861 0.875 0.649 0.552 0.299 0.927 0.937 0.2 0.683 0.053 0.639 0.409",
+					"text" : "0.654 0.657 0.332 0.045 0.136 0.641 0.627 0.719 0.648 0.468 0.729 0.41 0.056 0.043 0.57 0.331",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -627,8 +627,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 844.0, 4.0, 65.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 662.0, 12.0, 97.0, 29.0 ],
-					"text" : "HITKEYS",
+					"presentation_rect" : [ 662.0, 12.0, 103.0, 29.0 ],
+					"text" : "HIT KEYS",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"underline" : 0
 				}
@@ -2257,16 +2257,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
+						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"fontsize" : 10.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p genrandamps",
@@ -2435,16 +2435,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
+						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"fontsize" : 10.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p list2selectinglist",
@@ -2472,7 +2472,7 @@
 					"patching_rect" : [ 452.0, 732.0, 200.0, 36.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "391. 782. 1173. 1564. 1955. 2346. 2737. 3128. 3519. 3910. 4301. 4692. 5083. 5474. 5865. 6256.",
+					"text" : "261. 522. 783. 1044. 1305. 1566. 1827. 2088. 2349. 2610. 2871. 3132. 3393. 3654. 3915. 4176.",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -3193,16 +3193,16 @@
 ,
 									"patching_rect" : [ 340.0, 76.0, 77.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
 										"default_fontface" : 0,
-										"tags" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
-										"fontface" : 0,
+										"tags" : "",
+										"fontname" : "Arial",
 										"default_fontsize" : 10.0,
-										"fontsize" : 10.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"description" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p build_scalars"
@@ -3547,16 +3547,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
+						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"fontsize" : 10.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p genrandfreqs",
