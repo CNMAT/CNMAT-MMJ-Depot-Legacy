@@ -18,7 +18,7 @@
 "low-order harmonic ratios", 29_low_order_harm_ratios.maxpat;
 "plucked-string play space", 29_ps_playspace.maxpat;
 "tuning from intervals", 29_tuning_from_intervals.maxpat;
-"audition soundfiles", audition-soundfiles-mus29~.maxhelp;
+"audition soundfiles", audition-soundfiles-mus29~.maxpat;
 "rhythm to pitch", 29_rhythm2pitch.maxpat;
 "tempo tracker", tempo_tracker.maxpat;
 "sonogram analysis", 29_sonogram-analysis.maxpat;
