@@ -9,7 +9,7 @@
 "computer keyboard & mouse synth", additive-keymouse-synthesizer.maxpat;
 "filtering noise", 29_filtering_noise.maxpat;
 "sound file mixer", samplemixer.maxpat;
-"sound file interpolation space", sfinterp.maxhelp;
+"sound file interpolation space", sfinterp_player.maxpat;
 "beat slicing", beat-slicer.maxpat;
 "polyrhythms explorer", polyrhythm-explorer-samp.maxpat;
 "step sequencer with divisions", divided-step-sequencer.maxpat;
