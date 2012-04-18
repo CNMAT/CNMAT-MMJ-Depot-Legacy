@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 11.0, 48.0, 526.0, 485.0 ],
+		"rect" : [ 8.0, 54.0, 522.0, 485.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -30,12 +30,41 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 843.75, 196.0, 32.5, 18.0 ],
+					"text" : "- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-48",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 743.0, 306.0, 38.0, 16.0 ],
+					"presentation_rect" : [ 783.0, 303.0, 0.0, 0.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-44",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 760.0, 368.0, 38.0, 16.0 ],
+					"patching_rect" : [ 843.75, 220.0, 38.0, 16.0 ],
 					"text" : "set $1"
 				}
 
@@ -137,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 776.25, 220.0, 52.0, 18.0 ],
+					"patching_rect" : [ 743.75, 196.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -303,7 +332,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 743.75, 302.0, 50.0, 18.0 ],
+					"patching_rect" : [ 743.0, 329.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 444.0, 98.0, 50.0, 18.0 ]
 				}
@@ -318,7 +347,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 639.75, 220.0, 32.5, 18.0 ],
+					"patching_rect" : [ 639.75, 196.0, 32.5, 18.0 ],
 					"text" : "t b f"
 				}
 
@@ -334,7 +363,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 509.25, 172.0, 280.0, 18.0 ],
+					"patching_rect" : [ 509.25, 163.666672, 280.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 272.0, 326.0, 24.0 ],
 					"tabs" : [ "0.100000", "0.200000", "0.300000", "0.400000", "0.500000", "0.600000", "0.700000", "0.800000", "0.900000", "1" ]
@@ -472,7 +501,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 793.75, 302.0, 150.0, 29.0 ],
+					"patching_rect" : [ 904.0, 206.5, 150.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 240.0, 116.0, 253.0, 18.0 ],
 					"text" : "explicityly choose a sound to play, by number of name."
@@ -488,7 +517,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 743.75, 284.0, 32.5, 18.0 ],
+					"patching_rect" : [ 743.0, 283.0, 33.0, 18.0 ],
 					"text" : "+ 1"
 				}
 
@@ -502,7 +531,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 743.75, 328.0, 79.0, 18.0 ],
+					"patching_rect" : [ 743.0, 352.0, 79.0, 18.0 ],
 					"text" : "sprintf /play/%d"
 				}
 
@@ -532,7 +561,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 160.0, 109.0, 18.0 ],
+					"patching_rect" : [ 608.0, 145.666672, 109.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 254.0, 109.0, 18.0 ],
 					"text" : "play and override gain"
@@ -544,11 +573,10 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
-					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 728.0, 552.0, 47.0, 64.0 ],
+					"patching_rect" : [ 553.0, 240.0, 183.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 296.0, 183.0, 18.0 ],
 					"text" : "change gain for the next sound played "
@@ -845,7 +873,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
-					"hidden" : 1,
+					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -898,7 +926,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
@@ -909,7 +937,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
-					"hidden" : 1,
+					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1051,9 +1079,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 752.5, 349.0, 893.25, 349.0, 893.25, 189.0, 853.25, 189.0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -1087,6 +1116,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1100,6 +1138,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 0 ]
 				}
 
 			}
