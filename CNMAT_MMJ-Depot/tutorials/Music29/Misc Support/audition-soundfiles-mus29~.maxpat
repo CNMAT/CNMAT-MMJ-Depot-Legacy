@@ -50,7 +50,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 743.0, 306.0, 38.0, 16.0 ],
-					"presentation_rect" : [ 783.0, 303.0, 0.0, 0.0 ],
 					"text" : "set $1"
 				}
 
@@ -531,7 +530,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 743.0, 352.0, 79.0, 18.0 ],
+					"patching_rect" : [ 653.0, 368.0, 79.0, 18.0 ],
 					"text" : "sprintf /play/%d"
 				}
 
@@ -541,7 +540,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-20",
-					"items" : "<empty>",
+					"items" : [ "tone.07.wav", ",", "tone.08.wav", ",", "tone.09.wav", ",", "tone.10.wav", ",", "tone.11.wav", ",", "tone_clink.wav", ",", "tone_pitchdip.wav", ",", "wombflow.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -921,6 +920,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
