@@ -743,7 +743,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 244.0, 404.0, 167.0, 16.0 ],
-					"text" : "blikita.wav 1 0.8"
+					"text" : "tone.11.wav 5 0.8"
 				}
 
 			}
