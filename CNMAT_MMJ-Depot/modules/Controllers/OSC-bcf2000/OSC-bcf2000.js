@@ -93,7 +93,7 @@ function osc_tag(a)
 
 function getOSCtag(v)
 {
-	var nameArray = Array("rot1", "rot2", "rot3", "rot4", "rbut1", "rbut2", "rbut3", "rbut4", "but1", "but2", "fad", "glo" );
+	var nameArray = Array("rot", "rot1", "rot2", "rot3", "rbut", "rbut1", "rbut2", "rbut3", "but", "but1", "fad", "glo" );
 	var name = nameArray[Math.floor((v - 1) / 8)];
 	var element = v - (8 * Math.floor((v - 1) / 8));
 	return ("/" + name + element);
