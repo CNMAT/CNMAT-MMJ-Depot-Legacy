@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 44.0, 99.0, 707.0, 622.0 ],
+		"rect" : [ 600.0, 323.0, 707.0, 622.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -156,6 +156,7 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"gradient" : 0,
 					"id" : "obj-31",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -174,6 +175,7 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"gradient" : 0,
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -191,6 +193,7 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"gradient" : 0,
 					"id" : "obj-28",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -209,6 +212,7 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"gradient" : 0,
 					"id" : "obj-27",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -443,6 +447,7 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"gradient" : 0,
 					"id" : "obj-29",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -458,7 +463,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.407585, 0.407585, 0.407585, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
