@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 24.0, 65.0, 792.0, 682.0 ],
+		"rect" : [ 33.0, 81.0, 792.0, 682.0 ],
 		"bgcolor" : [ 0.973975, 1.0, 0.972394, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -145,6 +145,7 @@
 					"bgcolor2" : [ 0.258824, 0.239216, 0.239216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
+					"gradient" : 0,
 					"id" : "obj-12",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -256,7 +257,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.468973, 0.468973, 0.468973, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"grad2" : [ 0.461005, 0.463776, 0.506057, 1.0 ],
 					"id" : "obj-10",
