@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 10.0, 52.0, 1135.0, 895.0 ],
@@ -148,7 +148,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 898.0, 293.0, 640.0, 480.0 ],
@@ -549,7 +549,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -822,8 +822,8 @@
 ,
 					"saved_object_attributes" : 					{
 						"storage_rect" : [ 583, 69, 1034, 197 ],
-						"parameter_enable" : 0,
-						"client_rect" : [ 4, 44, 358, 172 ]
+						"client_rect" : [ 4, 44, 358, 172 ],
+						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattrstorage tune",
@@ -875,7 +875,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Tuning_Explorer", "explore tunings derived from perfect intervals" ],
+					"args" : [ "Tuning_From_Intervals", "explore tunings derived from perfect intervals" ],
 					"id" : "obj-23",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -890,7 +890,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "tuning_explorer", 1.0, "Zbyszynski / Campion / Lubow", "tuning_explorer", 3022 ],
+					"args" : [ "Tuning_From_Intervals", 1.0, "Zbyszynski / Campion / Lubow", "Tuning_From_Intervals", 3022 ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
