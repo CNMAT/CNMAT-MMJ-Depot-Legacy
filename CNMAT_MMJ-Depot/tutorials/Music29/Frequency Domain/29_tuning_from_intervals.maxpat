@@ -875,7 +875,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Tuning_From_Intervals", "explore tunings derived from perfect intervals" ],
+					"args" : [ "Tuning_From_Intervals", "29: explore tunings derived from perfect intervals" ],
 					"id" : "obj-23",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -883,7 +883,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -20.0, -70.0 ],
-					"patching_rect" : [ 5.0, 5.0, 360.0, 75.0 ],
+					"patching_rect" : [ 5.0, 5.0, 366.0, 74.0 ],
 					"prototypename" : "cnmat_banner"
 				}
 
