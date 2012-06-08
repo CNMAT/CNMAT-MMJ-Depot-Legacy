@@ -9191,7 +9191,7 @@
 					"bordercolor" : [ 0.415686, 0.239216, 0.109804, 1.0 ],
 					"button" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "tab",
 					"numinlets" : 1,
