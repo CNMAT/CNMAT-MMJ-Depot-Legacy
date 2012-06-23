@@ -2665,7 +2665,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 250.0, 618.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1050.0, 150.0, 52.0, 20.0 ],
+					"presentation_rect" : [ 1060.0, 150.0, 52.0, 20.0 ],
 					"text" : "min:sec",
 					"textcolor" : [ 0.624881, 0.966599, 0.897716, 1.0 ]
 				}
@@ -2682,7 +2682,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.0, 240.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1192.5, 150.0, 81.0, 20.0 ],
+					"presentation_rect" : [ 1202.5, 150.0, 81.0, 20.0 ],
 					"text" : "total seconds",
 					"textcolor" : [ 0.624881, 0.966599, 0.897716, 1.0 ]
 				}
@@ -10863,7 +10863,7 @@
 					"patching_rect" : [ 1075.5, 837.0, 35.0, 37.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 907.0, 141.8125, 381.0, 100.6875 ],
-					"rounded" : 20
+					"rounded" : 25
 				}
 
 			}
