@@ -72,8 +72,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 954.75, 9.5, 130.25, 23.166687 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1153.959961, 502.5, 134.040039, 20.0 ],
-					"text" : "text projection settings",
+					"presentation_rect" : [ 1153.959961, 522.5, 134.040039, 20.0 ],
+					"text" : "text projection setting",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textoveroncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1146,7 +1146,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 808.5, 9.5, 115.5, 23.166687 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1153.959961, 474.930664, 134.040039, 20.0 ],
+					"presentation_rect" : [ 1153.959961, 494.930664, 134.040039, 20.0 ],
 					"text" : "open live text box"
 				}
 
@@ -1631,8 +1631,7 @@
 									"patching_rect" : [ 224.0, 358.0, 259.0, 60.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 12.0, 1233.0, 60.0 ],
-									"text" : "•",
-									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
+									"text" : "•"
 								}
 
 							}
@@ -3814,8 +3813,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1428.5, 520.0, 72.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 781.0, 85.0, 20.0 ],
-					"text" : "clear",
+					"presentation_rect" : [ 280.0, 781.0, 150.0, 20.0 ],
+					"text" : "clear text edit window",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -5488,16 +5487,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 19.0,
+					"fontsize" : 17.0,
 					"id" : "obj-88",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1321.0, 886.0, 247.0, 50.0 ],
+					"patching_rect" : [ 1321.0, 886.0, 222.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 777.0, 326.0, 28.0 ],
-					"text" : "Edit Text for a given marker below:"
+					"presentation_rect" : [ 10.0, 777.0, 248.0, 26.0 ],
+					"text" : "Edit Text for selected marker:"
 				}
 
 			}
@@ -5519,7 +5518,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 915.368408, 251.5, 364.631592, 22.0 ],
 					"rounded" : 20.0,
-					"text" : "open a file"
+					"text" : "open a new soundfile"
 				}
 
 			}
@@ -6624,7 +6623,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1386.0, 886.0, 139.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 920.368408, 324.0, 90.0, 19.0 ],
+					"presentation_rect" : [ 1020.0, 325.0, 90.0, 19.0 ],
 					"text" : "playback speed:"
 				}
 
@@ -10024,7 +10023,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 750.0, 190.0, 18.5 ],
 					"rounded" : 15.0,
-					"text" : "delete selected marker",
+					"text" : "DELETE selected marker",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
