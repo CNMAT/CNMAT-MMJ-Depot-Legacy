@@ -101,15 +101,20 @@ function getOSCtag(v)
 
 function getMIDInumber(n)
 {
-	var nameArray = Array("rot1", "rot2", "rot3", "rot4", "rbut1", "rbut2", "rbut3", "rbut4", "but1", "but2", "fad", "glo" );
+	post('midi number in is ' + n + '\n');
+	var nameArray = Array("rot", "rot1", "rot2", "rot3", "rbut", "rbut1", "rbut2", "rbut3", "but", "but1", "fad", "glo" );
+	//var nameArray = Array("rot1", "rot2", "rot3", "rot4", "rbut1", "rbut2", "rbut3", "rbut4", "but1", "but2", "fad", "glo" );
 
 	var controller = n.substring(0, n.length - 1);
+	post('controller: ' + controller + '\n')
 	var number = n.charAt(n.length - 1);
+	post('number: ' + number + '\n');
 	var controllerNumber = 0;
 
 	for ( i = 0; i < nameArray.length; i++ ) {
 		if (controller == nameArray[i]) {
 			controllerNumber = i;
+			post('controller number: ' + controller + '\n');
 			break;
 		}
 	}
