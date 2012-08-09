@@ -1097,11 +1097,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.5, 577.5, 376.0, 87.0 ],
+					"patching_rect" : [ 527.5, 577.5, 379.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 9,
-					"presentation_rect" : [ 248.0, 183.5, 225.299072, 127.0 ],
-					"text" : "As you click through these frequencies from low to high, the sounding interval between each appears closer together even through the differece between frequencies stays constant. It is the ratio between the two frequencies that  determines what  interval we hear.  If you click multiple frequencies (set by the number below), you can hear a chord.",
+					"presentation_linecount" : 10,
+					"presentation_rect" : [ 248.0, 183.5, 224.0, 141.0 ],
+					"text" : "As you click through these frequencies from low to high, the sounding interval between each appears closer together even through the differece between frequencies stays constant. It is the ratio between the two frequencies that  determines what  interval we hear.  If you set the number below to something above 1 and click multiple frequencies , you can hear a chord.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
