@@ -371,8 +371,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 325.0, 308.5, 79.0, 20.0 ],
-									"text" : "loadmess 32"
+									"patching_rect" : [ 325.0, 313.5, 79.0, 20.0 ],
+									"text" : "loadmess 64"
 								}
 
 							}
@@ -1332,6 +1332,7 @@
 					"interval" : 15,
 					"markercolor" : [ 0.721569, 0.721569, 0.721569, 1.0 ],
 					"maxclass" : "spectroscope~",
+					"monochrome" : 0,
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
