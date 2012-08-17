@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
 		"rect" : [ 8.0, 54.0, 522.0, 485.0 ],
@@ -128,15 +128,18 @@
 				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-10",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 342.5, 60.0, 97.0, 20.0 ],
+					"patching_rect" : [ 342.5, 60.0, 83.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 131.75, 198.0, 93.0, 20.0 ],
-					"text" : "Drop File Here"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 138.75, 193.5, 79.0, 29.0 ],
+					"text" : "drop single soundfile here"
 				}
 
 			}
@@ -190,6 +193,7 @@
 					"bgcolor" : [ 0.785318, 0.917272, 0.975796, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -234,6 +238,7 @@
 					"bgcolor" : [ 0.785318, 0.917272, 0.975796, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-52",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -250,6 +255,7 @@
 					"bgcolor" : [ 0.785318, 0.917272, 0.975796, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-51",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -310,6 +316,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -450,6 +457,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -457,7 +465,7 @@
 					"patching_rect" : [ 287.5, 236.0, 189.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 262.0, 162.0, 57.0, 41.0 ],
+					"presentation_rect" : [ 262.0, 162.0, 57.0, 40.0 ],
 					"text" : "play the last sound chosen"
 				}
 
@@ -495,6 +503,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -540,7 +549,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-20",
-					"items" : [ "tone.07.wav", ",", "tone.08.wav", ",", "tone.09.wav", ",", "tone.10.wav", ",", "tone.11.wav", ",", "tone_clink.wav", ",", "tone_pitchdip.wav", ",", "wombflow.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -556,6 +565,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -571,6 +581,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -586,12 +597,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-21",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 420.0, 183.0, 41.0 ],
+					"patching_rect" : [ 252.0, 420.0, 183.0, 40.0 ],
 					"text" : "verbose mode includes the current file (playing or stopped), readout of the current file playing its id, and its gain"
 				}
 
@@ -630,7 +642,6 @@
 					"bgcolor2" : [ 0.258011, 0.763959, 0.866667, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 1,
 					"id" : "obj-7",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -677,6 +688,7 @@
 					"bgcolor" : [ 0.785318, 0.917272, 0.975796, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -692,6 +704,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -767,14 +780,17 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 74.5, 160.0, 109.0, 20.0 ],
+					"patching_rect" : [ 74.5, 160.0, 109.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.0, 131.0, 110.0, 20.0 ],
-					"text" : "Drop Folder Here"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 40.5, 124.5, 171.0, 33.0 ],
+					"text" : "drop folder containing soundfiles here (.wav or .aif)"
 				}
 
 			}
