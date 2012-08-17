@@ -96,42 +96,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-38",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 616.0, 44.0, 174.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 137.200928, 397.0, 174.0, 20.0 ],
-					"text" : "number of frequencies entered",
-					"textcolor" : [ 0.661283, 0.952235, 0.975252, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bordercolor" : [ 0.959719, 0.935653, 0.670463, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-31",
-					"ignoreclick" : 1,
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 556.0, 36.0, 50.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 78.700928, 397.0, 55.0, 19.0 ],
-					"triangle" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -372,7 +336,8 @@
 					"fontsize" : 11.0,
 					"id" : "obj-18",
 					"maxclass" : "number",
-					"maximum" : 30,
+					"maximum" : 8,
+					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
@@ -1097,11 +1062,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.5, 577.5, 379.0, 87.0 ],
+					"patching_rect" : [ 527.5, 577.5, 381.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 248.0, 183.5, 224.0, 141.0 ],
-					"text" : "As you click through these frequencies from low to high, the sounding interval between each appears closer together even through the differece between frequencies stays constant. It is the ratio between the two frequencies that  determines what  interval we hear.  If you set the number below to something above 1 and click multiple frequencies , you can hear a chord.",
+					"presentation_rect" : [ 248.0, 183.5, 226.0, 141.0 ],
+					"text" : "As you click through these frequencies from low to high, the sounding interval between each appears closer together even through the differece between frequencies stays constant. It is the ratio between the two frequencies that  determines what  interval we hear.  If you set the number below to something above 1 and click multiple frequencies, you can hear a chord.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -2186,15 +2151,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
 				}
 
 			}
