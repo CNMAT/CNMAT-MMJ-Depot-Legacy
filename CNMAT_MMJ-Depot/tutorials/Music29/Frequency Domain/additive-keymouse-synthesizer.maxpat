@@ -740,6 +740,8 @@
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 					"id" : "obj-85",
 					"maxclass" : "flonum",
+					"maximum" : 50.0,
+					"minimum" : 0.4,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
