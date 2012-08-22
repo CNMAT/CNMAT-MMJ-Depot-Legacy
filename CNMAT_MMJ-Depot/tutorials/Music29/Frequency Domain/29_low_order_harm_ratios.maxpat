@@ -30,6 +30,21 @@
 		"title" : "low-order harmonic ratios",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 410.0, 140.0, 131.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 235.0, 540.0, 131.0, 20.0 ],
+					"text" : "29_sonogram-analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-187",
 					"maxclass" : "bpatcher",
@@ -1068,7 +1083,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
+					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 1712.209961, 552.369995, 90.0, 20.0 ],
 					"text" : "one_string 2 1."
 				}
@@ -1291,7 +1306,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
+					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 1525.209961, 557.369995, 90.0, 20.0 ],
 					"text" : "one_string 2 1."
 				}
@@ -1514,7 +1529,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
+					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 1338.209961, 562.369995, 90.0, 20.0 ],
 					"text" : "one_string 2 1."
 				}
@@ -1737,7 +1752,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
+					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 1151.209961, 567.369995, 90.0, 20.0 ],
 					"text" : "one_string 2 1."
 				}
@@ -1960,7 +1975,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
+					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 964.210022, 572.369995, 90.0, 20.0 ],
 					"text" : "one_string 2 1."
 				}
@@ -2374,7 +2389,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
+					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 777.210022, 577.369995, 90.0, 20.0 ],
 					"text" : "one_string 2 1."
 				}
@@ -2945,7 +2960,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
+					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 63.209991, 511.369995, 90.0, 20.0 ],
 					"text" : "one_string 1 1."
 				}
@@ -5195,6 +5210,13 @@
 				"name" : "aux_send.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "29_sonogram-analysis.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
