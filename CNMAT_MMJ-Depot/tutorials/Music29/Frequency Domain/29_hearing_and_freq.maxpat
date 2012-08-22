@@ -30,6 +30,21 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 548.0, 452.0, 131.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 594.0, 44.0, 131.0, 20.0 ],
+					"text" : "29_sonogram-analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 30.0,
 					"frgb" : 0.0,
 					"id" : "obj-35",
@@ -1062,7 +1077,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.5, 577.5, 381.0, 87.0 ],
+					"patching_rect" : [ 527.5, 577.5, 383.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
 					"presentation_rect" : [ 248.0, 183.5, 226.0, 141.0 ],
@@ -2602,6 +2617,13 @@
 				"name" : "hf_sine~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "29_sonogram-analysis.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
