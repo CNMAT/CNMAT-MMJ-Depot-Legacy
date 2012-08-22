@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
 		"rect" : [ 23.0, 66.0, 891.0, 742.0 ],
@@ -28,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 240.0, 690.0, 131.0, 20.0 ],
+					"text" : "29_sonogram-analysis"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -199,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.0, 88.0, 316.0, 26.0 ],
+					"patching_rect" : [ 553.0, 88.0, 316.0, 25.0 ],
 					"text" : ";\rmax launch_browser http://en.wikipedia.org/wiki/Lucas_sequence"
 				}
 
@@ -208,6 +221,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -264,6 +278,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -277,6 +292,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -290,11 +306,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 36.0,
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.0, 279.0, 39.0, 48.0 ],
+					"patching_rect" : [ 267.0, 279.0, 39.0, 47.0 ],
 					"text" : "{"
 				}
 
@@ -303,6 +320,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -370,7 +388,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : [ 0.4, 0.4, 0.8, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -400,6 +418,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -413,6 +432,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -564,6 +584,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-44",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -577,6 +598,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -590,6 +612,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -603,6 +626,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-47",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -616,12 +640,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-48",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 116.0, 412.0, 130.0, 34.0 ],
+					"patching_rect" : [ 116.0, 412.0, 130.0, 33.0 ],
 					"text" : "<-- choose your \"fundamental\" here"
 				}
 
@@ -630,6 +655,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-49",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1044,6 +1070,20 @@
 				"name" : "aux_send.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "29_sonogram-analysis.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "simple-stereo-gain~.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Mixing_and_Gain",
+				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
