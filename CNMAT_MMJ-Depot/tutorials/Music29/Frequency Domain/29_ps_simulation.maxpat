@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
 		"rect" : [ 11.0, 51.0, 747.0, 421.0 ],
@@ -29,6 +29,21 @@
 		"tags" : "",
 		"title" : "plucked string simulation",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-95",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 495.0, 345.0, 131.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 483.0, 340.0, 131.0, 20.0 ],
+					"text" : "29_sonogram-analysis"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-108",
@@ -62,12 +77,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-94",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 219.0, 186.0, 34.0 ],
+					"patching_rect" : [ 198.5, 35.0, 186.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 218.0, 306.0, 20.0 ],
 					"text" : "altering scale steps 3, 6, and 7  forms a minor scale"
@@ -192,11 +208,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-88",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 550.0, 305.0, 150.0, 20.0 ],
+					"patching_rect" : [ 207.0, 35.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 643.0, 370.0, 81.0, 20.0 ],
 					"text" : "adjust octave"
@@ -207,11 +224,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-68",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 307.0, 150.0, 20.0 ],
+					"patching_rect" : [ 189.0, 49.75, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 32.0, 372.0, 91.0, 20.0 ],
 					"text" : "adjust octave"
@@ -372,6 +390,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -387,14 +406,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-51",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 849.0, 7.0, 195.0, 39.0 ],
+					"patching_rect" : [ 234.0, 46.0, 195.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.0, 392.0, 198.0, 23.0 ],
+					"presentation_rect" : [ 190.0, 392.0, 198.0, 22.0 ],
 					"text" : "adjust the fundamental tuning:"
 				}
 
@@ -450,11 +470,10 @@
 					"border" : 3,
 					"bordercolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"id" : "obj-4",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 177.0, 128.0, 128.0 ],
+					"patching_rect" : [ 399.0, 46.0, 52.0, 27.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 44.0, 53.0, 209.0 ],
 					"rounded" : 14
@@ -465,11 +484,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 286.0, 186.0, 20.0 ],
+					"patching_rect" : [ 226.5, 49.75, 186.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 266.0, 8.0, 169.0, 20.0 ],
 					"text" : "space bar  plucks both strings"
@@ -508,6 +528,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-135",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -523,11 +544,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-134",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 361.0, 150.0, 20.0 ],
+					"patching_rect" : [ 198.5, 35.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.0, 285.0, 91.0, 20.0 ],
 					"text" : "press [ to pluck"
@@ -540,11 +562,10 @@
 					"border" : 3,
 					"bordercolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"id" : "obj-132",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 647.0, 46.0, 128.0, 128.0 ],
+					"patching_rect" : [ 399.0, 46.0, 52.0, 27.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 648.0, 44.0, 53.0, 209.0 ],
 					"rounded" : 14
@@ -583,11 +604,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-127",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 561.0, 237.0, 186.0, 20.0 ],
+					"patching_rect" : [ 264.5, 49.75, 186.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 556.0, 252.0, 67.0, 20.0 ],
 					"text" : "right string"
@@ -598,11 +620,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-126",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 464.0, 265.0, 186.0, 20.0 ],
+					"patching_rect" : [ 226.5, 35.0, 186.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 466.0, 250.0, 59.0, 20.0 ],
 					"text" : "left string"
@@ -613,11 +636,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-125",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 693.0, 466.0, 186.0, 20.0 ],
+					"patching_rect" : [ 198.5, 49.75, 186.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 544.0, 210.0, 97.0, 20.0 ],
 					"text" : "_____________"
@@ -747,12 +771,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-106",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 797.0, 594.0, 37.0, 48.0 ],
+					"patching_rect" : [ 375.5, 35.0, 37.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 635.0, 0.0, 82.0, 20.0 ],
 					"text" : "decimal ratio:"
@@ -1103,11 +1128,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-86",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 419.0, 396.0, 186.0, 20.0 ],
+					"patching_rect" : [ 226.5, 35.0, 186.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 237.0, 312.0, 116.0, 20.0 ],
 					"text" : "A chinese Yu scale."
@@ -1325,11 +1351,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 458.0, 186.0, 20.0 ],
+					"patching_rect" : [ 198.5, 49.75, 186.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 454.0, 172.0, 142.0, 20.0 ],
 					"text" : "• Create your own ratios:"
@@ -1340,12 +1367,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-63",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 382.0, 117.0, 186.0, 34.0 ],
+					"patching_rect" : [ 189.0, 28.0, 186.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 154.0, 163.0, 226.0, 20.0 ],
 					"text" : "These ratios make up a just major scale."
@@ -1711,12 +1739,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-19",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 182.0, 109.0, 186.0, 34.0 ],
+					"patching_rect" : [ 179.0, 35.0, 186.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 95.0, 142.0, 303.0, 20.0 ],
 					"text" : "• Click to tune the string to a specific ratio:"
@@ -1727,15 +1756,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-17",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 61.0, 186.0, 48.0 ],
+					"patching_rect" : [ 179.0, 28.0, 186.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 94.0, 106.0, 303.0, 34.0 ],
+					"presentation_rect" : [ 94.0, 106.0, 303.0, 33.0 ],
 					"text" : "• The string can be tuned. Move the stopper to change the tuning of the string."
 				}
 
@@ -1744,15 +1774,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 28.0, 186.0, 48.0 ],
+					"patching_rect" : [ 179.0, 28.0, 186.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 94.0, 70.0, 303.0, 34.0 ],
+					"presentation_rect" : [ 94.0, 70.0, 303.0, 33.0 ],
 					"text" : "• Click the \"pluck\" button to hear the string (make sure audio is on and the volume is up)."
 				}
 
@@ -1761,12 +1792,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 86.0, 153.0, 34.0 ],
+					"patching_rect" : [ 189.0, 28.0, 153.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 452.0, 148.0, 193.0, 20.0 ],
 					"text" : "Turn on audio & adjust the volume"
@@ -1777,14 +1809,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 516.0, 175.0, 39.0 ],
+					"patching_rect" : [ 179.0, 28.0, 175.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 44.0, 295.0, 23.0 ],
+					"presentation_rect" : [ 92.0, 44.0, 295.0, 22.0 ],
 					"text" : "This is a simulation of a single, plucked string."
 				}
 
@@ -1849,6 +1882,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"id" : "obj-38",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -1865,12 +1899,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-36",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 500.0, 37.0, 48.0 ],
+					"patching_rect" : [ 20.0, 500.0, 37.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.0, 0.0, 82.0, 20.0 ],
 					"text" : "decimal ratio:"
@@ -1977,11 +2012,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-65",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 504.0, 186.0, 20.0 ],
+					"patching_rect" : [ 234.0, 49.75, 186.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 443.0, 210.0, 97.0, 20.0 ],
 					"text" : "_____________"
@@ -3266,6 +3302,34 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "29_sonogram-analysis.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "simple-stereo-gain~.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Mixing_and_Gain",
+				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
