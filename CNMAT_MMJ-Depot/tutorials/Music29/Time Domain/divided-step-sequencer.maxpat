@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
 		"rect" : [ 6.0, 51.0, 1437.0, 588.0 ],
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 444.0, 524.0, 131.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 114.539246, 442.0, 140.0, 20.0 ],
+					"text" : "29_sonogram-analysis"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-14",
@@ -100,7 +115,6 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"gradient" : 1,
 					"id" : "obj-74",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -120,7 +134,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.564706, 0.564706, 0.564706, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -144,9 +158,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 821.5, 558.0, 35.0, 21.0 ],
+					"patching_rect" : [ 821.5, 558.0, 35.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 551.789246, 517.0, 77.0, 21.0 ],
+					"presentation_rect" : [ 551.789246, 517.0, 77.0, 20.0 ],
 					"text" : "40",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -165,9 +179,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 821.5, 622.0, 94.0, 23.0 ],
+					"patching_rect" : [ 821.5, 622.0, 94.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 703.789246, 541.0, 94.0, 23.0 ],
+					"presentation_rect" : [ 703.789246, 541.0, 94.0, 22.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triscale" : 0.9
 				}
@@ -184,9 +198,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 941.5, 558.0, 37.0, 21.0 ],
+					"patching_rect" : [ 941.5, 558.0, 37.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 823.789307, 517.0, 78.0, 21.0 ],
+					"presentation_rect" : [ 823.789307, 517.0, 78.0, 20.0 ],
 					"text" : "240",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -203,9 +217,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 861.5, 558.0, 35.0, 21.0 ],
+					"patching_rect" : [ 861.5, 558.0, 35.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 639.789246, 517.0, 83.0, 21.0 ],
+					"presentation_rect" : [ 639.789246, 517.0, 83.0, 20.0 ],
 					"text" : "80",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -222,9 +236,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 901.5, 558.0, 37.0, 21.0 ],
+					"patching_rect" : [ 901.5, 558.0, 37.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 735.789246, 517.0, 78.0, 21.0 ],
+					"presentation_rect" : [ 735.789246, 517.0, 78.0, 20.0 ],
 					"text" : "120",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -241,9 +255,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1060.0, 610.0, 46.0, 21.0 ],
+					"patching_rect" : [ 1060.0, 610.0, 46.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 867.789307, 541.0, 43.0, 21.0 ],
+					"presentation_rect" : [ 867.789307, 541.0, 43.0, 20.0 ],
 					"text" : "/stop",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -253,7 +267,6 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-65",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -414,7 +427,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-75",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -466,7 +479,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-151",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -484,7 +497,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-150",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -492,7 +505,7 @@
 					"patching_rect" : [ 63.5, 156.5, 117.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 162.539246, 514.0, 82.0, 34.0 ],
+					"presentation_rect" : [ 162.539246, 514.0, 82.0, 33.0 ],
 					"text" : "global steps on/off",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -519,7 +532,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-147",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -558,7 +571,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.490196, 0.490196, 0.490196, 1.0 ],
 					"id" : "obj-48",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -653,7 +665,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 509.0, 451.0 ],
@@ -814,22 +826,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 1212.0, 462.0, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p init"
@@ -921,7 +932,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 658.0, 98.0, 365.0, 123.0 ],
@@ -961,7 +972,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u788002831"
+									"varname" : "u650007926"
 								}
 
 							}
@@ -1042,6 +1053,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-43",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1105,6 +1117,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-39",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1324,6 +1337,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-17",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1339,6 +1353,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-18",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1593,50 +1608,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "OSC-yafr2~.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "yafr2.maxpat",
-								"bootpath" : "/Applications/Max6/examples/effects/reverb/lib",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "uc_disclaimer.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "cnmat_blue.gif",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "GIFf",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "OSC-route.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 16.0, 340.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p reverb",
@@ -1684,7 +1670,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 524.0, 74.0, 67.0 ],
+					"patching_rect" : [ 172.0, 524.0, 74.0, 65.0 ],
 					"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 64;\rdsp iovs 64;\rdsp sr 44100",
 					"textcolor" : [ 0.011765, 0.015686, 0.015686, 1.0 ]
 				}
@@ -2193,6 +2179,13 @@
 				"name" : "aux_send.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "29_sonogram-analysis.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"patcherrelativepath" : "../Frequency Domain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
