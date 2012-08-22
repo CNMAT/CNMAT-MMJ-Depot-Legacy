@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
 		"rect" : [ 14.0, 60.0, 635.0, 611.0 ],
@@ -28,6 +28,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 184.0, 484.0, 131.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 36.0, 246.0, 140.0, 20.0 ],
+					"text" : "29_sonogram-analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-78",
 					"maxclass" : "bpatcher",
@@ -45,12 +60,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-41",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 308.0, 612.0, 268.0, 34.0 ],
+					"patching_rect" : [ 308.0, 612.0, 268.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 580.0, 440.0, 20.0 ],
 					"text" : "* go to view>presentation and uncheck presentation to see the guts of this patch."
@@ -70,7 +86,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 271.0, 222.0 ],
@@ -96,22 +112,22 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-15",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 8.0, 193.0, 48.0 ],
+									"patching_rect" : [ 8.0, 8.0, 193.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 297.0, 399.0, 193.0, 48.0 ],
+									"presentation_rect" : [ 297.0, 399.0, 193.0, 47.0 ],
 									"text" : "optional second argument is time (in ms) to reach the specified transposition amount"
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 348.0, 472.0, 187.0, 20.0 ],
@@ -119,15 +135,15 @@
 					"presentation_rect" : [ 380.0, 336.0, 188.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p other_information_on_fft-pitch~"
@@ -138,6 +154,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -153,6 +170,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -183,15 +201,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 546.0, 268.0, 34.0 ],
+					"patching_rect" : [ 259.0, 546.0, 268.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 208.0, 468.0, 268.0, 34.0 ],
+					"presentation_rect" : [ 208.0, 468.0, 268.0, 33.0 ],
 					"text" : "It is also possible to change time without effecting the pitch.  Check out this example:"
 				}
 
@@ -200,13 +219,14 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 526.0, 112.0, 23.0 ],
+					"patching_rect" : [ 317.0, 526.0, 112.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.0, 446.0, 112.0, 23.0 ],
+					"presentation_rect" : [ 205.0, 446.0, 112.0, 22.0 ],
 					"text" : "Phase Vocoder"
 				}
 
@@ -245,15 +265,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-37",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 396.0, 268.0, 75.0 ],
+					"patching_rect" : [ 340.0, 396.0, 268.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 200.0, 388.0, 413.0, 48.0 ],
+					"presentation_rect" : [ 200.0, 388.0, 413.0, 47.0 ],
 					"text" : ">> This is a good quality pitch shifting effect.  Since it moves peaks in the spectrum, it doesn't change the quality of the timbre as much as a granular approach. It preserves the ha.rmonic relationships of the partials."
 				}
 
@@ -262,13 +283,14 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-36",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 270.0, 103.0, 23.0 ],
+					"patching_rect" : [ 326.0, 270.0, 103.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.0, 196.0, 103.0, 23.0 ],
+					"presentation_rect" : [ 204.0, 196.0, 103.0, 22.0 ],
 					"text" : "Transposition"
 				}
 
@@ -277,15 +299,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.0, 188.0, 212.0, 62.0 ],
+					"patching_rect" : [ 424.0, 188.0, 212.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 204.0, 216.0, 368.0, 48.0 ],
+					"presentation_rect" : [ 204.0, 216.0, 368.0, 47.0 ],
 					"text" : "Adding a constant value to each partial shifts the pitch up or down. It also changes the ratio relationship of the partials, generating inharmonicity."
 				}
 
@@ -294,13 +317,14 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.0, 72.0, 189.0, 23.0 ],
+					"patching_rect" : [ 300.0, 72.0, 189.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.0, 74.0, 189.0, 23.0 ],
+					"presentation_rect" : [ 204.0, 74.0, 189.0, 22.0 ],
 					"text" : "Shifting all of the Partials"
 				}
 
@@ -310,7 +334,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.984314, 0.984314, 0.984314, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -328,7 +352,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.984314, 0.984314, 0.984314, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -345,15 +369,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 15.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 10.0, 592.0, 41.0 ],
+					"patching_rect" : [ 12.0, 10.0, 592.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 24.0, 16.0, 592.0, 41.0 ],
+					"presentation_rect" : [ 24.0, 16.0, 592.0, 40.0 ],
 					"text" : "As you might imagine, the frequency domain is a good place to change the pitch of a sound.  Here are a couple of ways to change pitch."
 				}
 
@@ -362,12 +387,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 133.0, 210.0, 34.0 ],
+					"patching_rect" : [ 416.0, 133.0, 210.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 208.0, 92.0, 285.0, 20.0 ],
 					"text" : "Add a frequency to each bin (creates inharmonicity)"
@@ -378,6 +404,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -393,6 +420,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -463,6 +491,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -478,6 +507,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -624,9 +654,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 120.0, 392.0, 208.0, 56.0 ],
+					"patching_rect" : [ 120.0, 392.0, 208.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 328.0, 176.0, 56.0 ],
+					"presentation_rect" : [ 200.0, 328.0, 176.0, 54.0 ],
 					"text" : "fft-pitch~"
 				}
 
@@ -635,7 +665,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.341176, 0.666667, 0.72549, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -649,7 +678,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.341176, 0.666667, 0.72549, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -663,7 +691,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.176471, 0.372549, 0.407843, 1.0 ],
 					"id" : "obj-33",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -677,7 +704,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.866667, 0.866667, 0.196078, 1.0 ],
 					"id" : "obj-39",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -691,7 +717,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.529412, 0.647059, 0.666667, 1.0 ],
 					"id" : "obj-40",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -917,6 +942,27 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "29_sonogram-analysis.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
