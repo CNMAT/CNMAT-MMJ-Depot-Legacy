@@ -713,7 +713,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 10.0, 52.0, 1215.0, 387.0 ],
+						"rect" : [ 10.0, 52.0, 1275.0, 381.0 ],
 						"bgcolor" : [ 0.631373, 0.756863, 0.745098, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -734,6 +734,22 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-57",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1207.0, 237.0, 75.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1198.0, 200.0, 65.0, 18.0 ],
+									"text" : "<--- preset 0"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -846,7 +862,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 52.0, 328.0, 176.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 506.0, 296.0, 65.0, 20.0 ],
+									"presentation_rect" : [ 508.0, 296.0, 65.0, 20.0 ],
 									"text" : "quick-edit"
 								}
 
@@ -2282,15 +2298,15 @@
 									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-5",
-									"linecount" : 5,
+									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 348.5, 386.0, 358.0, 85.0 ],
+									"patching_rect" : [ 348.5, 386.0, 358.0, 100.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
 									"presentation_rect" : [ 12.0, 296.0, 472.0, 69.0 ],
-									"text" : "To edit:  Click anywhere in the rectangle below.  Your shape will be recorded and will play the various presets over time.  To address multiple events at once at a time (there are 50), you can use the quick-edit mode.  Clearing sets all steps to 0, which is ignored as a preset.",
+									"text" : "To edit:  Click anywhere in the rectangle below.  Your shape will be recorded and will play the various presets over time.  To address multiple events at once at a time (there are 50), you can use the quick-edit mode.  Clearing sets all steps to 0, which is ignored as an event (rest).",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
