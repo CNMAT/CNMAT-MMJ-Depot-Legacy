@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 2
+			"revision" : 7
 		}
 ,
-		"rect" : [ 16.0, 57.0, 457.0, 238.0 ],
+		"rect" : [ 16.0, 57.0, 535.0, 430.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,14 +28,42 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "list-average", "0.1a", "Jeff Lubow", "list-average", 6666 ],
+					"id" : "obj-2",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 2.0, 4.0 ],
+					"patching_rect" : [ 215.0, 320.0, 298.0, 89.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "list-average", "compute the average value for input list elements" ],
+					"id" : "obj-1",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -20.611549, -70.176292 ],
+					"patching_rect" : [ 15.0, 15.0, 504.0, 76.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-49",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 35.0, 244.0, 48.0 ],
+					"patching_rect" : [ 190.0, 115.0, 244.0, 47.0 ],
 					"text" : "argument: \n1 - means use zeros for averaging (default)\n0 - means omit zeros for averaging"
 				}
 
@@ -47,7 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 45.0, 23.0, 20.0, 20.0 ]
+					"patching_rect" : [ 105.0, 103.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -61,8 +89,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 220.0, 185.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 299.0, 412.0, 0.0, 0.0 ]
+					"patching_rect" : [ 280.0, 265.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -75,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 220.0, 135.0, 83.0, 20.0 ],
+					"patching_rect" : [ 280.0, 215.0, 83.0, 20.0 ],
 					"text" : "list-average 0"
 				}
 
@@ -90,8 +117,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 130.0, 185.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 165.0, 416.0, 0.0, 0.0 ]
+					"patching_rect" : [ 190.0, 265.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -104,7 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 130.0, 135.0, 83.0, 20.0 ],
+					"patching_rect" : [ 190.0, 215.0, 83.0, 20.0 ],
 					"text" : "list-average 1"
 				}
 
@@ -118,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 45.0, 135.0, 73.0, 20.0 ],
+					"patching_rect" : [ 105.0, 215.0, 73.0, 20.0 ],
 					"text" : "list-average"
 				}
 
@@ -132,8 +158,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 85.0, 43.0, 15.0 ],
-					"presentation_rect" : [ 78.0, 93.0, 0.0, 0.0 ],
+					"patching_rect" : [ 105.0, 165.0, 43.0, 15.0 ],
 					"text" : "1 0 0 7"
 				}
 
@@ -148,7 +173,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 185.0, 50.0, 20.0 ]
+					"patching_rect" : [ 105.0, 265.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -219,8 +244,57 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "list-average.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Lists",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Lists",
 				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
