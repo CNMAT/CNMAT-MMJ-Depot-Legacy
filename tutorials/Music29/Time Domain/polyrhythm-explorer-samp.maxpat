@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1467.0, 781.0 ],
+		"rect" : [ 2.0, 45.0, 1446.0, 781.0 ],
 		"bgcolor" : [ 0.87451, 0.87451, 0.87451, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -239,132 +239,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-76",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1377.0, 859.0, 210.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1384.0, 860.0, 44.0, 27.0 ],
-					"text" : "/ 6",
-					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-71",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1377.0, 743.0, 210.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1376.0, 744.0, 44.0, 27.0 ],
-					"text" : "/ 10",
-					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-70",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1377.0, 627.0, 210.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1376.0, 628.0, 44.0, 27.0 ],
-					"text" : "/ 12",
-					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-63",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1377.0, 511.0, 210.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1376.0, 512.0, 44.0, 27.0 ],
-					"text" : "/ 15",
-					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-59",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1377.0, 395.0, 210.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1376.0, 396.0, 44.0, 27.0 ],
-					"text" : "/ 20",
-					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-58",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1377.0, 279.0, 210.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1376.0, 280.0, 44.0, 27.0 ],
-					"text" : "/ 30",
-					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-57",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1377.0, 92.0, 41.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1376.0, 164.0, 44.0, 27.0 ],
-					"text" : "/ 60",
-					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-52",
@@ -515,7 +389,7 @@
 					"offset" : [ -2.911785, -2.397242 ],
 					"patching_rect" : [ 1289.0, 880.0, 184.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1172.0, 900.0, 272.0, 152.0 ],
+					"presentation_rect" : [ 1172.0, 756.0, 272.0, 152.0 ],
 					"varname" : "polyrhythm_small_module[4]"
 				}
 
@@ -532,7 +406,7 @@
 					"offset" : [ -2.549046, -2.230416 ],
 					"patching_rect" : [ 1066.0, 880.0, 184.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 972.0, 900.0, 252.0, 152.0 ],
+					"presentation_rect" : [ 972.0, 756.0, 252.0, 152.0 ],
 					"varname" : "polyrhythm_small_module[3]"
 				}
 
@@ -549,7 +423,7 @@
 					"offset" : [ -2.230416, -2.230416 ],
 					"patching_rect" : [ 843.0, 880.0, 184.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 772.0, 900.0, 252.0, 152.0 ],
+					"presentation_rect" : [ 772.0, 756.0, 252.0, 152.0 ],
 					"varname" : "polyrhythm_small_module[2]"
 				}
 
@@ -566,7 +440,7 @@
 					"offset" : [ -2.230416, -2.549046 ],
 					"patching_rect" : [ 620.0, 880.0, 184.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 572.0, 900.0, 252.0, 152.0 ],
+					"presentation_rect" : [ 572.0, 756.0, 252.0, 152.0 ],
 					"varname" : "polyrhythm_small_module[1]"
 				}
 
@@ -583,7 +457,7 @@
 					"offset" : [ -2.230416, -1.911785 ],
 					"patching_rect" : [ 400.0, 884.0, 182.0, 126.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.0, 900.0, 250.0, 152.0 ],
+					"presentation_rect" : [ 372.0, 756.0, 250.0, 152.0 ],
 					"varname" : "polyrhythm_small_module"
 				}
 
@@ -599,7 +473,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 404.0, 760.0, 1068.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.0, 780.0, 1068.0, 122.0 ],
+					"presentation_rect" : [ 372.0, 656.0, 1068.0, 122.0 ],
 					"varname" : "polyrhythm_basic_module[7]"
 				}
 
@@ -615,7 +489,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 404.0, 636.0, 1068.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.0, 660.0, 1068.0, 122.0 ],
+					"presentation_rect" : [ 372.0, 560.5, 1068.0, 122.0 ],
 					"varname" : "polyrhythm_basic_module[5]"
 				}
 
@@ -631,7 +505,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 404.0, 512.0, 1068.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.0, 544.0, 1068.0, 122.0 ],
+					"presentation_rect" : [ 372.0, 464.0, 1068.0, 122.0 ],
 					"varname" : "polyrhythm_basic_module[4]"
 				}
 
@@ -647,7 +521,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 404.0, 388.0, 1068.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.0, 428.0, 1068.0, 122.0 ],
+					"presentation_rect" : [ 372.0, 368.0, 1068.0, 122.0 ],
 					"varname" : "polyrhythm_basic_module[3]"
 				}
 
@@ -663,7 +537,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 404.0, 264.0, 1068.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.0, 312.0, 1068.0, 122.0 ],
+					"presentation_rect" : [ 372.0, 272.0, 1068.0, 122.0 ],
 					"varname" : "polyrhythm_basic_module[2]"
 				}
 
@@ -679,7 +553,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 404.0, 140.0, 1068.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.0, 196.0, 1068.0, 122.0 ],
+					"presentation_rect" : [ 372.0, 176.0, 1068.0, 122.0 ],
 					"varname" : "polyrhythm_basic_module[1]"
 				}
 
@@ -2338,7 +2212,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u997009350"
+									"varname" : "u829003179"
 								}
 
 							}
@@ -3143,21 +3017,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tempo~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Timing/stepmetro",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Timing/stepmetro",
 				"patcherrelativepath" : "../../../modules/Timing/stepmetro",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3165,140 +3039,147 @@
 , 			{
 				"name" : "OSC-unroute.js",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
-				"patcherrelativepath" : "../../../../../../../../../../../../../2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
+				"patcherrelativepath" : "../../../../../../../../../2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "newrev~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_disclaimer.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polyrhythm_basic_samp.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Time Domain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fixlist.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sub-beat.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Timing/stepmetro",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Timing/stepmetro",
 				"patcherrelativepath" : "../../../modules/Timing/stepmetro",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clicker-poly-samp.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Time Domain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clicker~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Timing/stepmetro",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Timing/stepmetro",
 				"patcherrelativepath" : "../../../modules/Timing/stepmetro",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shuffle_polybuf_vector.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Mixing_and_Gain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pstore-simple-storage.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Data_Storage/pstore-simple-storage",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Data_Storage/pstore-simple-storage",
 				"patcherrelativepath" : "../../../modules/Data_Storage/pstore-simple-storage",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polyrhythms.xml",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Time Domain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polyrhythm_small_samp.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Time Domain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "29_sonogram-analysis.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
 				"patcherrelativepath" : "../Frequency Domain",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "noise-gate~.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
+				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
