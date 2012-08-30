@@ -132,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.0, 166.0, 237.0, 20.0 ],
+					"patching_rect" : [ 700.0, 154.0, 237.0, 20.0 ],
 					"text" : "tap tempo and send info out",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -489,7 +489,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.0, 240.0, 156.0, 20.0 ],
+					"patching_rect" : [ 700.0, 236.0, 156.0, 20.0 ],
 					"text" : "your computer's MIDI synth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -517,27 +517,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
-					"id" : "obj-33",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 700.0, 144.0, 200.0, 20.0 ],
-					"text" : "control divisions of a master pattern",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.0, 122.0, 179.0, 20.0 ],
+					"patching_rect" : [ 700.0, 133.0, 179.0, 20.0 ],
 					"text" : "independent rhythms in tandem",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -553,7 +537,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.0, 100.0, 208.0, 20.0 ],
+					"patching_rect" : [ 700.0, 112.0, 208.0, 20.0 ],
 					"text" : "dividing a beat into various segments",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -792,9 +776,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 500.0, 100.0, 192.0, 86.0 ],
+					"patching_rect" : [ 500.0, 112.0, 192.0, 64.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
-					"tabs" : [ "beat slicing", "polyrhythms explorer", "step sequencer with divisions", "tempo tracker" ],
+					"tabs" : [ "beat slicing", "polyrhythms explorer", "tempo tracker" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -811,7 +795,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 500.0, 240.0, 192.0, 44.0 ],
+					"patching_rect" : [ 500.0, 236.0, 192.0, 44.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "the internal synthesizer", " " ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1023,14 +1007,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "m29_filelookup.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Music29/Misc Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pathpop.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Utilities",
 				"patcherrelativepath" : "../../modules/Utilities",
 				"type" : "TEXT",
 				"implicit" : 1
