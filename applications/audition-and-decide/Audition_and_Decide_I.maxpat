@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
-		"rect" : [ 9.0, 45.0, 1405.0, 753.0 ],
+		"rect" : [ 9.0, 45.0, 1272.0, 753.0 ],
 		"bgcolor" : [ 0.819608, 0.87451, 0.858824, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -210,7 +210,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 290.0, 164.0, 417.0, 54.0 ],
@@ -414,6 +414,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-7",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -429,6 +430,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -600,22 +602,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 176.0, 656.0, 46.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p admin"
@@ -764,7 +765,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 312.0, 260.0, 545.0, 472.0 ],
@@ -800,7 +801,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 564.0, 600.0 ],
@@ -831,7 +832,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "int" ],
-													"patching_rect" : [ 248.0, 388.0, 32.5, 20.0 ],
+													"patching_rect" : [ 248.0, 388.0, 32.5, 19.0 ],
 													"text" : "t b i"
 												}
 
@@ -845,7 +846,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 180.0, 412.0, 39.0, 20.0 ],
+													"patching_rect" : [ 180.0, 412.0, 39.0, 19.0 ],
 													"text" : "zl reg"
 												}
 
@@ -873,7 +874,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 248.0, 360.0, 50.0, 20.0 ],
+													"patching_rect" : [ 248.0, 360.0, 50.0, 19.0 ],
 													"text" : "random"
 												}
 
@@ -887,7 +888,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 180.0, 440.0, 41.0, 20.0 ],
+													"patching_rect" : [ 180.0, 440.0, 41.0, 19.0 ],
 													"text" : "zl mth"
 												}
 
@@ -901,7 +902,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 200.0, 300.0, 32.5, 20.0 ],
+													"patching_rect" : [ 200.0, 300.0, 32.5, 19.0 ],
 													"text" : "t l l"
 												}
 
@@ -915,7 +916,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 280.0, 324.0, 38.0, 20.0 ],
+													"patching_rect" : [ 280.0, 324.0, 38.0, 19.0 ],
 													"text" : "zl len"
 												}
 
@@ -929,7 +930,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 156.0, 236.0, 32.5, 20.0 ],
+													"patching_rect" : [ 156.0, 236.0, 32.5, 19.0 ],
 													"text" : "sel"
 												}
 
@@ -938,6 +939,7 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
+													"frgb" : 0.0,
 													"id" : "obj-37",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -951,6 +953,7 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
+													"frgb" : 0.0,
 													"id" : "obj-36",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -1011,7 +1014,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "int" ],
-													"patching_rect" : [ 212.0, 140.0, 32.5, 20.0 ],
+													"patching_rect" : [ 212.0, 140.0, 32.5, 19.0 ],
 													"text" : "t b i"
 												}
 
@@ -1020,12 +1023,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
+													"frgb" : 0.0,
 													"id" : "obj-6",
 													"linecount" : 11,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 354.0, 180.0, 164.0, 133.0 ],
+													"patching_rect" : [ 354.0, 180.0, 164.0, 129.0 ],
 													"text" : "<< current item should go here so show which current mostcorr is selected.  this allows for the find feature to work better--- the find feature can find all of the other mostcorrs and build the group based on that.\n\nthe group is then chosen from (with the exclusion of the current id) at random"
 												}
 
@@ -1044,7 +1048,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 7
 														}
 ,
 														"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1223,26 +1227,21 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "OSC-route.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 40.0, 96.0, 107.0, 18.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"digest" : "",
 														"default_fontname" : "Arial",
-														"tags" : "",
-														"fontname" : "Arial",
 														"default_fontsize" : 10.0,
-														"globalpatchername" : "",
 														"description" : "",
+														"digest" : "",
 														"fontface" : 0,
-														"fontsize" : 10.0
+														"fontname" : "Arial",
+														"fontsize" : 10.0,
+														"globalpatchername" : "",
+														"tags" : ""
 													}
 ,
 													"text" : "p find_item-corr_pairs"
@@ -1258,7 +1257,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 302.0, 184.0, 44.0, 18.0 ],
+													"patching_rect" : [ 302.0, 184.0, 44.0, 17.0 ],
 													"text" : "zlclear"
 												}
 
@@ -1272,7 +1271,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "int", "bang" ],
-													"patching_rect" : [ 156.0, 212.0, 46.0, 20.0 ],
+													"patching_rect" : [ 156.0, 212.0, 46.0, 19.0 ],
 													"save" : [ "#N", "funbuff", 0, ";" ],
 													"text" : "funbuff"
 												}
@@ -1287,7 +1286,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 168.0, 140.0, 36.0, 18.0 ],
+													"patching_rect" : [ 168.0, 140.0, 36.0, 17.0 ],
 													"text" : "clear"
 												}
 
@@ -1301,7 +1300,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 228.0, 176.0, 45.0, 18.0 ],
+													"patching_rect" : [ 228.0, 176.0, 45.0, 17.0 ],
 													"text" : "find $1"
 												}
 
@@ -1315,7 +1314,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 200.0, 272.0, 81.0, 20.0 ],
+													"patching_rect" : [ 200.0, 272.0, 81.0, 19.0 ],
 													"text" : "zl 2048 group"
 												}
 
@@ -1599,26 +1598,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "OSC-route.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 260.0, 156.0, 171.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"tags" : "",
-										"fontname" : "Arial",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontname" : "Arial",
+										"fontsize" : 10.0,
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p group_type_of_answer_for_option"
@@ -1643,6 +1637,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-61",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1661,7 +1656,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 272.0, 232.0, 32.5, 20.0 ],
+									"patching_rect" : [ 272.0, 232.0, 32.5, 19.0 ],
 									"text" : "- 1"
 								}
 
@@ -1675,7 +1670,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 260.0, 184.0, 32.5, 20.0 ],
+									"patching_rect" : [ 260.0, 184.0, 32.5, 19.0 ],
 									"text" : "t i i"
 								}
 
@@ -1684,6 +1679,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-57",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -1713,6 +1709,7 @@
 									"bgcolor" : [ 0.784314, 0.105882, 0.105882, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-27",
 									"linecount" : 3,
 									"maxclass" : "comment",
@@ -1755,12 +1752,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-4",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 96.0, 40.0, 183.0, 64.0 ],
+									"patching_rect" : [ 96.0, 40.0, 183.0, 63.0 ],
 									"text" : "user click into try again\ndoesn't get it\nuser clicks on hear another from group\nthere are groups that are pre-alloted\nuser "
 								}
 
@@ -1948,38 +1946,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "urn-r.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "list-inc.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Lists",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "OSC-route.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 32.0, 380.0, 53.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p choices"
@@ -1990,6 +1971,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2133,7 +2115,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 198.0, 44.0, 1236.0, 829.0 ],
@@ -2236,7 +2218,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 7
 										}
 ,
 										"rect" : [ 637.0, 140.0, 742.0, 639.0 ],
@@ -2430,7 +2412,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 7
 														}
 ,
 														"rect" : [ 25.0, 69.0, 276.0, 276.0 ],
@@ -2637,22 +2619,21 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [  ]
+ ]
 													}
 ,
 													"patching_rect" : [ 91.0, 171.0, 195.0, 18.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"digest" : "",
 														"default_fontname" : "Arial",
-														"tags" : "",
-														"fontname" : "Arial",
 														"default_fontsize" : 10.0,
-														"globalpatchername" : "",
 														"description" : "",
+														"digest" : "",
 														"fontface" : 0,
-														"fontsize" : 10.0
+														"fontname" : "Arial",
+														"fontsize" : 10.0,
+														"globalpatchername" : "",
+														"tags" : ""
 													}
 ,
 													"text" : "p store-correct-ans-with-lookup"
@@ -2673,7 +2654,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 7
 														}
 ,
 														"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2826,22 +2807,21 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [  ]
+ ]
 													}
 ,
 													"patching_rect" : [ 33.0, 74.0, 89.0, 18.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"digest" : "",
 														"default_fontname" : "Arial",
-														"tags" : "",
-														"fontname" : "Arial",
 														"default_fontsize" : 10.0,
-														"globalpatchername" : "",
 														"description" : "",
+														"digest" : "",
 														"fontface" : 0,
-														"fontsize" : 10.0
+														"fontname" : "Arial",
+														"fontsize" : 10.0,
+														"globalpatchername" : "",
+														"tags" : ""
 													}
 ,
 													"text" : "p input-to-listofids"
@@ -3260,22 +3240,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 585.5, 116.0, 60.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"tags" : "",
-										"fontname" : "Arial",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontname" : "Arial",
+										"fontsize" : 10.0,
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p list-sorter"
@@ -3292,7 +3271,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 653.5, 385.0, 130.0, 62.0 ],
+									"patching_rect" : [ 653.5, 385.0, 130.0, 60.0 ],
 									"text" : "set \"Yes, that is correct but several selections are correct here. Please keep trying to find all the correct answers\""
 								}
 
@@ -3426,6 +3405,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-36",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4575,26 +4555,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "OSC-route.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 317.0, 518.0, 171.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p grab_current_soundfile_info"
@@ -4615,7 +4590,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 500.0, 420.0, 379.0, 351.0 ],
@@ -4807,80 +4782,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "audition-soundfiles~.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "multibuf.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/multibuf",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "badge.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "uc_license.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "cnmat_blue.gif",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "GIFf",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "myNotes.js",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "take_notes.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "samp-nt-l.voi.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "nothing.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "OSC-route.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 32.0, 420.0, 111.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p auditioner"
@@ -4926,15 +4842,14 @@
 					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 15.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-58",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.0, 612.0, 195.0, 24.0 ],
+					"patching_rect" : [ 272.0, 612.0, 195.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 536.0, 1160.0, 24.0 ],
-					"text" : "<waiting for input>...",
+					"presentation_rect" : [ 100.0, 536.0, 1160.0, 23.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -5040,7 +4955,7 @@
 					"bgcolor" : [ 0.235294, 0.203922, 0.203922, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5056,7 +4971,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.117647, 0.231373, 0.309804, 1.0 ],
 					"id" : "obj-40",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5575,126 +5489,126 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "test-question-eval-I.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/audition-and-decide/lib",
 				"patcherrelativepath" : "../audition-and-decide/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audition-soundfiles~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/Soundfiles-sampling",
 				"patcherrelativepath" : "../Soundfiles-sampling",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multibuf.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/multibuf",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Soundfiles-sampling/multibuf",
 				"patcherrelativepath" : "../../modules/Soundfiles-sampling/multibuf",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "samp-nt-l.voi.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"patcherrelativepath" : "../../modules/Soundfiles-sampling/MSP_Samplers/voices",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Mixing_and_Gain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "urn-r.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/audition-and-decide/lib",
 				"patcherrelativepath" : "../audition-and-decide/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "list-inc.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Lists",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Lists",
 				"patcherrelativepath" : "../../modules/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aad-click-panel.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/audition-and-decide/lib",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/audition-and-decide/lib",
 				"patcherrelativepath" : "../audition-and-decide/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "addpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Utilities",
 				"patcherrelativepath" : "../../modules/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "splitpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Utilities",
 				"patcherrelativepath" : "../../modules/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
