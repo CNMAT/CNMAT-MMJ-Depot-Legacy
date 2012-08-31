@@ -17,7 +17,7 @@
 "tuning from intervals", Tuning_from_Intervals.maxpat;
 "audition soundfiles", Audition_Soundfiles.maxpat;
 "rhythm to pitch", Rhythm_to_Pitch.maxpat;
-"tempo tracker", tempo_tracker.maxpat;
+"tempo tracker", Tempo_Tracker.maxpat;
 "sonogram analysis", Frequency_Domain_Analysis.maxpat;
 "harmonicity vs. inharmonicity", Harmonicity_vs_Inharmonicity.maxpat;
 "sound file presenter", Soundfile_Presenter.maxpat;
