@@ -35,10 +35,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 541.0, 131.0, 20.0 ],
+					"patching_rect" : [ 72.0, 541.0, 167.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 304.0, 140.0, 20.0 ],
-					"text" : "29_sonogram-analysis"
+					"presentation_rect" : [ 16.0, 304.0, 167.0, 20.0 ],
+					"text" : "Frequency_Domain_Analysis"
 				}
 
 			}
@@ -2212,7 +2212,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u829003179"
+									"varname" : "u634011023"
 								}
 
 							}
@@ -3170,7 +3170,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "29_sonogram-analysis.maxpat",
+				"name" : "Frequency_Domain_Analysis.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
 				"patcherrelativepath" : "../Frequency Domain",
 				"type" : "JSON",
