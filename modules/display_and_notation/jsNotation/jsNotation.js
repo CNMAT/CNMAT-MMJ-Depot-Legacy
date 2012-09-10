@@ -173,7 +173,7 @@ function draw_staff(y, clef, offset)
 
 function draw_notes()
 {
-    newX = (-.85*aspect);
+    newX = (.25-aspect);
     if (notes.length > 0)
     {
      	i = 0;

@@ -39,8 +39,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 119.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 782.0, 581.0, 0.0, 0.0 ]
+					"patching_rect" : [ 36.0, 119.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -60,7 +59,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 354.0, 107.0, 1022.0, 769.0 ],
 						"bgcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -171,7 +170,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 65.0, 212.0, 500.0, 300.0 ],
+									"patching_rect" : [ 65.0, 212.0, 489.0, 237.0 ],
 									"presentation_rect" : [ 15.0, 15.0, 500.0, 300.0 ],
 									"varname" : "jsui"
 								}
