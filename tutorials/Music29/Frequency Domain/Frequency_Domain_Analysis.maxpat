@@ -30,74 +30,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-11",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 350.0, 169.0, 153.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 374.0, 140.0, 153.0, 20.0 ],
-					"text" : "noise elimination threshold"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.5, 143.0, 95.0, 20.0 ],
-					"text" : "loadmess 0.001"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-9",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 267.5, 169.0, 58.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 310.0, 140.0, 58.0, 20.0 ],
-					"triscale" : 0.9
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.5, 196.0, 80.0, 18.0 ],
-					"text" : "/threshold $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 250.0, 295.0, 74.0, 20.0 ],
-					"text" : "noise-gate~"
+					"patching_rect" : [ 110.0, 326.0, 50.0, 20.0 ],
+					"text" : "nothing"
 				}
 
 			}
@@ -2091,34 +2030,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-51", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
+					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
@@ -2151,101 +2063,6 @@
 					"source" : [ "obj-4", 0 ]
 				}
 
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
-				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "noise-gate~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
