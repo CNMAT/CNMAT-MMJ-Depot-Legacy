@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 19.0, 261.0, 1296.0, 624.0 ],
+		"rect" : [ 12.0, 61.0, 1296.0, 624.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,7 +39,7 @@
 					"patching_rect" : [ 928.0, 496.0, 210.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1022.0, 63.5, 48.0, 27.0 ],
-					"text" : "/ 6",
+					"text" : "/ 1",
 					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
 				}
 
@@ -202,16 +202,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 11.0,
 					"frgb" : 0.0,
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 914.0, 286.0, 188.0, 20.0 ],
+					"patching_rect" : [ 914.0, 286.0, 173.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 848.0, 67.0, 83.0, 20.0 ],
-					"text" : "random steps"
+					"presentation_rect" : [ 848.0, 67.0, 166.0, 19.0 ],
+					"text" : "random assignment of soundfile"
 				}
 
 			}
@@ -429,7 +429,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.0, 149.0, 181.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 728.0, 67.0, 91.0, 20.0 ],
+					"presentation_rect" : [ 714.0, 67.0, 91.0, 20.0 ],
 					"text" : "choose sample"
 				}
 
@@ -449,7 +449,7 @@
 					"patching_rect" : [ 735.0, 256.0, 128.0, 18.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 598.0, 69.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 584.0, 69.0, 128.0, 18.0 ],
 					"varname" : "umenu[1]"
 				}
 
@@ -925,7 +925,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u226004073"
+					"varname" : "u672004634"
 				}
 
 			}
@@ -1099,8 +1099,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 164.0, 290.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 164.0, 287.0, 0.0, 0.0 ]
+									"patching_rect" : [ 164.0, 290.0, 25.0, 25.0 ]
 								}
 
 							}
