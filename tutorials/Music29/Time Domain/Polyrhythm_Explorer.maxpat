@@ -1329,14 +1329,15 @@
 					"fontsize" : 15.0,
 					"frgb" : 0.0,
 					"id" : "obj-12",
-					"linecount" : 4,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 410.0, 73.0, 74.0 ],
+					"patching_rect" : [ 220.0, 410.0, 73.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.0, 127.0, 200.0, 23.0 ],
-					"text" : "drop folder of sounds here",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 26.75, 120.5, 213.5, 40.0 ],
+					"text" : "drop folder containing soundfiles here (.wav or .aif)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -2212,7 +2213,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u634011023"
+									"varname" : "u800004451"
 								}
 
 							}
@@ -3177,9 +3178,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "noise-gate~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"name" : "nothing.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"patcherrelativepath" : "../../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
