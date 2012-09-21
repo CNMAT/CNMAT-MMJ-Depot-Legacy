@@ -1,8 +1,8 @@
 /*
 
-jsMelody.js by Michael Zbyszynski, 0800809
+jsNotation.js by Michael Zbyszynski, 110329
 Written by Michael Zbyszynski, The Center for New Music and Audio Technologies,
-University of California, Berkeley.  Copyright (c) 2008, The Regents of 
+University of California, Berkeley.  Copyright (c) 2011, The Regents of 
 the University of California (Regents).  
 
 Permission to use, copy, modify, distribute, and distribute modified versions
@@ -23,34 +23,35 @@ HEREUNDER IS PROVIDED "AS IS". REGENTS HAS NO OBLIGATION TO PROVIDE
 MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-NAME: jsChord
-DESCRIPTION: visual feedback for rhythms and melodies (javascript UI)
+NAME: jsNotation
+DESCRIPTION: display music notation (javascript UI)
 AUTHORS: Michael Zbyszynski
-COPYRIGHT_YEARS: 2008
-SVN_REVISION: $LastChangedRevision: ??? $
-VERSION 0.1: First release
-VERSION 0.2: Cosmetic fixes
-VERSION 0.3: Added flats
-VERSION 0.4: tweaks for Max 5
+COPYRIGHT_YEARS: 2008-2011
+SVN_REVISION: $LastChangedRevision: 3697 $
+VERSION 1.0: Combined jsChord.js and jsMelody.js into one
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 */
 
 outlets = 2;
 sketch.default2d();
-var mybrgb = [1,1,1];
-var myfrgb = [0,0,0];
-var myrgb2 = [1,1,1];
+var mybrgb = [1,1,1,1];
+var myfrgb = [0,0,0,1];
+var myrgb2 = [1,1,1,1];
 
 var myfont = "Sonora";
 var notes = new Array();
 var noteSpace = 0.25;
+declareattribute("noteSpace");
 var microTone = 1;
+declareattribute("microTone");
 var accidents = 0;
+var ledger = 0;
 
+var mode = "chord"; //defaults to chords
+declareattribute("mode");
 
 draw();
-
 
 function draw()
 {
@@ -62,11 +63,14 @@ function draw()
     with (sketch) {
         glclearcolor(1,1,1,1);
         glclear();
+        if(mode=="chord")
+        {
+        	drawslider();
+        }
         drawstaff(0, "&");
         drawstaff(-.29, "?");
         drawstaff(-.625, "?");
         drawstaff(.34, "&");
-
         xpos = -.7
         drawnotes();
     }
@@ -88,10 +92,8 @@ function drawstaff(xpos, clef)
     height = box.rect[3] - box.rect[1]; 
     width = box.rect[2] - box.rect[0]; 
     aspect = width/height;
-    
-    
     with (sketch) 
-    {    
+    {
         glcolor(0,0,0);
         newX = 1. * aspect
         moveto(0,0);
@@ -100,18 +102,21 @@ function drawstaff(xpos, clef)
             newY = (i * 0.05) + xpos;
             linesegment(-newX, newY, 0.,  newX, newY, 0.);
         }
-
-        glcolor(0.,0.,0.);
-        switch(clef){
+        glcolor(0.,0.,0.,0.);
+        switch(clef)
+        {
             case "&":
             xpos = xpos+.05;
             break;
             case "?":
             xpos = xpos+.15;
             break;
-            case "t":
+            case "t": //I'm not using these last two
             xpos = xpos+.15;
             break;
+   			case "‚Ä ":         
+   			xpos = xpos+.05;
+    		break;
         }
         moveto((-newX+.1), xpos);
         font(myfont);
@@ -121,16 +126,17 @@ function drawstaff(xpos, clef)
     }
 }
 
-function drawnotes() 
+function drawnotes()
 {
     var str,width,height,aspect;
     height = box.rect[3] - box.rect[1]; 
     width = box.rect[2] - box.rect[0]; 
     aspect = width/height;
-    newX = 1. * aspect;
+    newX = 1. * aspect
     if (notes.length > 0)
     {
-         for (i=0 ; i < notes.length ; i=i+2)
+     	i = 0;
+     	while (i < notes.length)
         {
             currentDur = notes[i+1];
             currentNote = notes[i];
@@ -171,57 +177,109 @@ function drawnotes()
                 ledger = -1;
                 break;
                 case 39.5:
-                ledger = -2;
+                ledger = -2
                 break;
                 case 81:
                 ledger = 2;
                 break;
-                case 83:
+                case 82.5:
                 ledger = 2;
                 break;
                 case 84:
-                ledger = 3
+                ledger = 3;
                 break;
                 case 86:
                 ledger = 3;
                 break;
             }
-            ypos = ((currentNote-60)*.014)-.07;
+            if(mode=="chord")
+            {
+            	ypos = ((currentNote-60)*.014)-.0465;
+            }
+            else
+            {
+            	ypos = ((currentNote-60)*.014)-.07;
+            }
             xpos = -newX+0.3;
             with (sketch) 
             {
+                glcolor(0,0,0)
                 moveto(xpos, ypos);
                 font(myfont);
                 fontsize(.15*height);
                 textalign("center","center");
-                if (currentNote==0)
+                //noteheads
+                if(mode=="chord")
                 {
-                    text(" ");
+                	text("œ");
                 }
                 else
-                {    
-                    text("q");
+                {
+                	if (currentNote==0)
+                	{
+                  	  text(" ");
+              		}
+               		else
+                	{    
+                    	text("q");
+                	}
+                	//duration beam
+                	durX = xpos+.01;
+                	quad(durX,ypos+.18,0.,durX,ypos+.2,0., durX+currentDur,ypos+.2,0.,durX+currentDur,ypos+.18,0.);
                 }
-                //duration beam
-                durX = xpos+.01;
-                quad(durX,ypos+.18,0.,durX,ypos+.2,0., durX+currentDur,ypos+.2,0.,                durX+currentDur,ypos+.18,0.);
                 font("Tempera");
                 fontsize(.09*height);
-            
+                
                 drawAccidentals(xpos, ypos, sharp);
                 ledgerlines(ledger,xpos);
-            
-                newX = newX-currentDur;
             }
-        }    
-    }    
+      
+            
+            if(mode=="chord")
+            {
+            	newX = newX-noteSpace;
+            	i++;
+            }
+            else
+            {
+            	newX = newX-currentDur;
+            	i = i + 2;
+            }          
+        }
+    }
+}
+
+function drawslider() {
+    var str,width,height,aspect;
+    height = box.rect[3] - box.rect[1]; 
+    width = box.rect[2] - box.rect[0]; 
+    aspect = width/height;
+    with (sketch) 
+    {
+        glcolor(0.5, 0.5, 0.5);
+        shapeslice(1,1);
+        moveto(0,-.9);
+        plane((0.9*aspect),0.01);
+        glcolor(0., 0., 0.);
+        shapeslice(1,1);
+        markPos = (-0.9*aspect)+(4*noteSpace);   
+        moveto(markPos,-.87);    
+        plane(0.03,0.03,0.,0.03); //triangle       
+	}
 }
 
 function drawAccidentals(xpos,ypos,sharp)
 {
     with (sketch) 
     {
-        moveto (xpos-.09, ypos+.025)
+    	if(mode=="chord")
+    	{
+    		moveto (xpos-.09, ypos);
+    	}
+    	else
+    	{
+    		moveto (xpos-.09, ypos+.025);
+    	}
         switch(sharp)
         {    
             case .25:
@@ -266,13 +324,14 @@ function drawAccidentals(xpos,ypos,sharp)
             case -1.75:
                 text("P");
                 break;
-            }
+    	}
     }
 }
 
 function ledgerlines(ledger, xpos)
 {    
     with (sketch) {
+        glcolor(0.,0.,0.,1.);
         switch(ledger)
         {
         case 1:
@@ -370,7 +429,6 @@ function notePos(pitchClass) //This takes the pitchClass and figures out what po
 
 function flatnotePos(pitchClass) //This takes the pitchClass and figures out what position and accidental it needs
 {
-    //post("black",black);
     currentNote =  Math.abs(currentNote);
     //pitchClass =  Math.abs(pitchClass);
     
@@ -500,16 +558,16 @@ function flatnotePos(pitchClass) //This takes the pitchClass and figures out wha
                 if (fracTone <= -.125 && fracTone > -.375)
                 {
                     currentNote = currentNote+1;
-                    sharp = -1.25;
+                    sharp = -0.25;
                 }
                 else if (fracTone <= -.375 && fracTone > -.625)
                 {
-                    sharp = -1.5;
+                    sharp = -0.5;
                     currentNote = currentNote+1;
                 }
                 else if (fracTone <= -.625 && fracTone > -.875)
                 {
-                    sharp = -1.75;
+                    sharp = -0.75;
                     currentNote = currentNote+1;
                 }    
                 else if (fracTone <= -.875)
@@ -531,7 +589,11 @@ function flatnotePos(pitchClass) //This takes the pitchClass and figures out wha
     return(currentNote, sharp);
 }
 
-
+function space(s)
+{
+    noteSpace = s;
+    bang();
+}
 
 function accidentals(a)
 {
@@ -545,6 +607,12 @@ function micromode(m)
     bang();
 }
 
+function displaymode(d)
+{
+	notes.length = 0;
+	mode = d;
+	bang();
+}
 
 function bang()
 {
@@ -563,7 +631,7 @@ function bang()
 
 function rhythmic_output() 
 { 
-outlet(1,notes[arguments.callee.task.iterations]); 
+	outlet(1,notes[arguments.callee.task.iterations]); 
 } 
 
 function onresize(w,h)
@@ -585,18 +653,23 @@ onclick.local = 1; //private
 function ondrag(x,y,but,cmd,shift,capslock,option,ctrl)
 {
     var dragX;
-
-    drag = sketch.screentoworld(x,y);
-    if (drag[1]<-0.8){
-         noteSpace = (drag[0]+1.)/2.
+    if(mode=="chord")
+    {
+    	drag = sketch.screentoworld(x,y);
+    	if (drag[1]<-0.8)
+    	{
+        	 noteSpace = (drag[0]+1.5)/4.
+       	 }
+    	if (noteSpace < 0.)
+    	{
+        	noteSpace = 0.;
         }
-    if (noteSpace < 0.){
-        noteSpace = 0.;
+   		if (noteSpace > .8)
+   		{
+        	noteSpace = .8;
         }
-    if (noteSpace > .8){
-        noteSpace = .8;
-        }
-    draw();
-    refresh();
+    	draw();
+    	refresh();
+    }
 }
 ondrag.local = 1;
