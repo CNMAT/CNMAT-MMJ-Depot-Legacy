@@ -389,7 +389,7 @@
 					"offset" : [ -2.911785, -2.397242 ],
 					"patching_rect" : [ 1289.0, 880.0, 184.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1172.0, 756.0, 272.0, 152.0 ],
+					"presentation_rect" : [ 1172.0, 756.0, 201.0, 148.0 ],
 					"varname" : "polyrhythm_small_module[4]"
 				}
 
@@ -406,7 +406,7 @@
 					"offset" : [ -2.549046, -2.230416 ],
 					"patching_rect" : [ 1066.0, 880.0, 184.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 972.0, 756.0, 252.0, 152.0 ],
+					"presentation_rect" : [ 972.0, 756.0, 199.0, 148.0 ],
 					"varname" : "polyrhythm_small_module[3]"
 				}
 
@@ -423,7 +423,7 @@
 					"offset" : [ -2.230416, -2.230416 ],
 					"patching_rect" : [ 843.0, 880.0, 184.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 772.0, 756.0, 252.0, 152.0 ],
+					"presentation_rect" : [ 772.0, 756.0, 199.0, 148.0 ],
 					"varname" : "polyrhythm_small_module[2]"
 				}
 
@@ -440,7 +440,7 @@
 					"offset" : [ -2.230416, -2.549046 ],
 					"patching_rect" : [ 620.0, 880.0, 184.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 572.0, 756.0, 252.0, 152.0 ],
+					"presentation_rect" : [ 572.0, 756.0, 199.0, 148.0 ],
 					"varname" : "polyrhythm_small_module[1]"
 				}
 
@@ -457,7 +457,7 @@
 					"offset" : [ -2.230416, -1.911785 ],
 					"patching_rect" : [ 400.0, 884.0, 182.0, 126.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.0, 756.0, 250.0, 152.0 ],
+					"presentation_rect" : [ 372.0, 756.0, 197.0, 148.0 ],
 					"varname" : "polyrhythm_small_module"
 				}
 
