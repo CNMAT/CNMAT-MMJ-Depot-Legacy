@@ -972,7 +972,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-5",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "sound 567.aif", ",", "sound1.aif", ",", "sound1.wav", ",", "sound10.aif", ",", "sound11", ",", "sound12", ",", "sound12.aif", ",", "sound123.aif", ",", "sound13.aif", ",", "sound14.AIFF", ",", "sound15.aif", ",", "sound16", ",", "sound17", ",", "sound18.aif", ",", "sound19.aif", ",", "sound20.aif", ",", "sound21.aif", ",", "sound22", ",", "sound23.aif", ",", "sound24.aif", ",", "sound25.aif", ",", "sound26.aif", ",", "sound27", ",", "sound28.aif", ",", "sound29.aif", ",", "sound3.aif", ",", "sound30", ",", "sound31", ",", "sound32", ",", "sound339.aif", ",", "sound340.aif", ",", "sound341.aif", ",", "sound343.aif", ",", "sound344.aif", ",", "sound345.aif", ",", "sound35.aif", ",", "sound36.aif", ",", "sound37.aif", ",", "sound38.aif", ",", "sound4", ",", "sound450.aif", ",", "sound460.aif", ",", "sound500.aif", ",", "sound550.wav", ",", "sound567.aif", ",", "sound6.aif", ",", "sound600.aif", ",", "sound7.aiff", ",", "sound789.aif", ",", "sound8.aif" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -985,7 +985,7 @@
 					"prefix" : "",
 					"prefix_mode" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 392.0, 667.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 392.0, 635.0, 128.0, 18.0 ],
 					"rounded" : 8,
 					"showdotfiles" : 0,
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
@@ -1021,7 +1021,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 404.0, 692.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 392.0, 687.0, 384.0, 250.0 ],
+					"presentation_rect" : [ 392.0, 655.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~6"
 				}
 
@@ -1071,7 +1071,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-11",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "sound 567.aif", ",", "sound1.aif", ",", "sound1.wav", ",", "sound10.aif", ",", "sound11", ",", "sound12", ",", "sound12.aif", ",", "sound123.aif", ",", "sound13.aif", ",", "sound14.AIFF", ",", "sound15.aif", ",", "sound16", ",", "sound17", ",", "sound18.aif", ",", "sound19.aif", ",", "sound20.aif", ",", "sound21.aif", ",", "sound22", ",", "sound23.aif", ",", "sound24.aif", ",", "sound25.aif", ",", "sound26.aif", ",", "sound27", ",", "sound28.aif", ",", "sound29.aif", ",", "sound3.aif", ",", "sound30", ",", "sound31", ",", "sound32", ",", "sound339.aif", ",", "sound340.aif", ",", "sound341.aif", ",", "sound343.aif", ",", "sound344.aif", ",", "sound345.aif", ",", "sound35.aif", ",", "sound36.aif", ",", "sound37.aif", ",", "sound38.aif", ",", "sound4", ",", "sound450.aif", ",", "sound460.aif", ",", "sound500.aif", ",", "sound550.wav", ",", "sound567.aif", ",", "sound6.aif", ",", "sound600.aif", ",", "sound7.aiff", ",", "sound789.aif", ",", "sound8.aif" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -1084,7 +1084,7 @@
 					"prefix" : "",
 					"prefix_mode" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 667.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 635.0, 128.0, 18.0 ],
 					"rounded" : 8,
 					"showdotfiles" : 0,
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
@@ -1120,7 +1120,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 12.0, 692.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 687.0, 384.0, 250.0 ],
+					"presentation_rect" : [ 4.0, 655.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~5"
 				}
 
@@ -4280,7 +4280,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-90",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "sound 567.aif", ",", "sound1.aif", ",", "sound1.wav", ",", "sound10.aif", ",", "sound11", ",", "sound12", ",", "sound12.aif", ",", "sound123.aif", ",", "sound13.aif", ",", "sound14.AIFF", ",", "sound15.aif", ",", "sound16", ",", "sound17", ",", "sound18.aif", ",", "sound19.aif", ",", "sound20.aif", ",", "sound21.aif", ",", "sound22", ",", "sound23.aif", ",", "sound24.aif", ",", "sound25.aif", ",", "sound26.aif", ",", "sound27", ",", "sound28.aif", ",", "sound29.aif", ",", "sound3.aif", ",", "sound30", ",", "sound31", ",", "sound32", ",", "sound339.aif", ",", "sound340.aif", ",", "sound341.aif", ",", "sound343.aif", ",", "sound344.aif", ",", "sound345.aif", ",", "sound35.aif", ",", "sound36.aif", ",", "sound37.aif", ",", "sound38.aif", ",", "sound4", ",", "sound450.aif", ",", "sound460.aif", ",", "sound500.aif", ",", "sound550.wav", ",", "sound567.aif", ",", "sound6.aif", ",", "sound600.aif", ",", "sound7.aiff", ",", "sound789.aif", ",", "sound8.aif" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4293,7 +4293,7 @@
 					"prefix" : "",
 					"prefix_mode" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 396.0, 392.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 396.0, 376.0, 128.0, 18.0 ],
 					"rounded" : 8,
 					"showdotfiles" : 0,
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
@@ -4329,7 +4329,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 404.0, 412.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 392.0, 412.0, 384.0, 250.0 ],
+					"presentation_rect" : [ 392.0, 396.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~4"
 				}
 
@@ -4379,7 +4379,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-96",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "sound 567.aif", ",", "sound1.aif", ",", "sound1.wav", ",", "sound10.aif", ",", "sound11", ",", "sound12", ",", "sound12.aif", ",", "sound123.aif", ",", "sound13.aif", ",", "sound14.AIFF", ",", "sound15.aif", ",", "sound16", ",", "sound17", ",", "sound18.aif", ",", "sound19.aif", ",", "sound20.aif", ",", "sound21.aif", ",", "sound22", ",", "sound23.aif", ",", "sound24.aif", ",", "sound25.aif", ",", "sound26.aif", ",", "sound27", ",", "sound28.aif", ",", "sound29.aif", ",", "sound3.aif", ",", "sound30", ",", "sound31", ",", "sound32", ",", "sound339.aif", ",", "sound340.aif", ",", "sound341.aif", ",", "sound343.aif", ",", "sound344.aif", ",", "sound345.aif", ",", "sound35.aif", ",", "sound36.aif", ",", "sound37.aif", ",", "sound38.aif", ",", "sound4", ",", "sound450.aif", ",", "sound460.aif", ",", "sound500.aif", ",", "sound550.wav", ",", "sound567.aif", ",", "sound6.aif", ",", "sound600.aif", ",", "sound7.aiff", ",", "sound789.aif", ",", "sound8.aif" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4392,7 +4392,7 @@
 					"prefix" : "",
 					"prefix_mode" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 392.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 8.0, 376.0, 128.0, 18.0 ],
 					"rounded" : 8,
 					"showdotfiles" : 0,
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
@@ -4428,7 +4428,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 12.0, 412.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 412.0, 384.0, 250.0 ],
+					"presentation_rect" : [ 4.0, 396.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~3"
 				}
 
@@ -4478,7 +4478,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-22",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "sound 567.aif", ",", "sound1.aif", ",", "sound1.wav", ",", "sound10.aif", ",", "sound11", ",", "sound12", ",", "sound12.aif", ",", "sound123.aif", ",", "sound13.aif", ",", "sound14.AIFF", ",", "sound15.aif", ",", "sound16", ",", "sound17", ",", "sound18.aif", ",", "sound19.aif", ",", "sound20.aif", ",", "sound21.aif", ",", "sound22", ",", "sound23.aif", ",", "sound24.aif", ",", "sound25.aif", ",", "sound26.aif", ",", "sound27", ",", "sound28.aif", ",", "sound29.aif", ",", "sound3.aif", ",", "sound30", ",", "sound31", ",", "sound32", ",", "sound339.aif", ",", "sound340.aif", ",", "sound341.aif", ",", "sound343.aif", ",", "sound344.aif", ",", "sound345.aif", ",", "sound35.aif", ",", "sound36.aif", ",", "sound37.aif", ",", "sound38.aif", ",", "sound4", ",", "sound450.aif", ",", "sound460.aif", ",", "sound500.aif", ",", "sound550.wav", ",", "sound567.aif", ",", "sound6.aif", ",", "sound600.aif", ",", "sound7.aiff", ",", "sound789.aif", ",", "sound8.aif" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4549,7 +4549,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 404.0, 132.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.0, 136.0, 384.0, 250.0 ],
+					"presentation_rect" : [ 396.0, 136.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~2"
 				}
 
@@ -4678,7 +4678,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-12",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "sound 567.aif", ",", "sound1.aif", ",", "sound1.wav", ",", "sound10.aif", ",", "sound11", ",", "sound12", ",", "sound12.aif", ",", "sound123.aif", ",", "sound13.aif", ",", "sound14.AIFF", ",", "sound15.aif", ",", "sound16", ",", "sound17", ",", "sound18.aif", ",", "sound19.aif", ",", "sound20.aif", ",", "sound21.aif", ",", "sound22", ",", "sound23.aif", ",", "sound24.aif", ",", "sound25.aif", ",", "sound26.aif", ",", "sound27", ",", "sound28.aif", ",", "sound29.aif", ",", "sound3.aif", ",", "sound30", ",", "sound31", ",", "sound32", ",", "sound339.aif", ",", "sound340.aif", ",", "sound341.aif", ",", "sound343.aif", ",", "sound344.aif", ",", "sound345.aif", ",", "sound35.aif", ",", "sound36.aif", ",", "sound37.aif", ",", "sound38.aif", ",", "sound4", ",", "sound450.aif", ",", "sound460.aif", ",", "sound500.aif", ",", "sound550.wav", ",", "sound567.aif", ",", "sound6.aif", ",", "sound600.aif", ",", "sound7.aiff", ",", "sound789.aif", ",", "sound8.aif" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -5478,7 +5478,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 12.0, 132.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 136.0, 384.0, 250.0 ],
+					"presentation_rect" : [ 8.0, 136.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~1"
 				}
 
@@ -5867,18 +5867,19 @@
 					"bubbletextmargin" : 5,
 					"fontface" : 3,
 					"fontname" : "Arial",
-					"fontsize" : 15.0,
+					"fontsize" : 13.0,
 					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-72",
 					"ignoreclick" : 1,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 816.0, 180.0, 200.0, 23.0 ],
+					"patching_rect" : [ 816.0, 180.0, 175.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 820.0, 16.0, 204.0, 23.0 ],
-					"text" : "drop folder of sounds here",
+					"presentation_rect" : [ 746.0, 17.5, 332.0, 21.0 ],
+					"text" : "drop folder containing soundfiles here (.wav or .aif)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"underline" : 0
 				}
