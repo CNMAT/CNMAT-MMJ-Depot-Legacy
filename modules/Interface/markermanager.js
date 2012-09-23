@@ -1,50 +1,85 @@
 autowatch = 1;
-outlets = 1;
+outlets = 2;
 
-var this_width, this_height;
 var all_lines = new Array(1);
-var alt_color = 'rgb(254, 52, 205)';
-var main_color = 'rgb(0, 114, 199)';
+var alt_color = [0.996, 0.204, 0.804];
+var main_color = [0., 0.447, 0.780];
 var activeval = -1; //inactive
-var ctx = new MaxCanvas(this).getContext('max-2d')
-var smallsz = 1;
-var largesz = 3;
+var smallsz = 0.01;
+var largesz = 0.03;
+var width, height;
+var r, s = new Array(2);
+var fl;
+var currfont;
 
-//ctx.font = '20pt Arial';
-ctx.textAlign = 'left';
-ctx.baseLine = 'bottom';
+mgraphics.init();
+mgraphics.autofill = 0;
+mgraphics.relative_coords = 1;
+
+function loadbang(){
+    calc_rect();
+    fl = mgraphics.getfontlist();
+    for(i=0; i<fl.length-1; i++){
+	if(fl[i] == "Helvetica"){
+	    currfont = fl[i];
+	    break;
+	}else if(fl[i] == "Arial"){
+	    currfont = fl[i];
+	    break;
+	}
+    }
+}
+
+function calc_rect(){
+    width = box.rect[2] - box.rect[0];
+    height = box.rect[3] - box.rect[1];
+}
 
 function paint(){
     if(all_lines.length){
 	var loc = new Number();
-	for(i = 0; i < all_lines.length; i++){
-	    var currlineval = all_lines[i];
-	    loc = Math.floor(currlineval * ctx.width);
-	    temptext = (i + 1).toString();
-	    if(activeval > -1){ 
-		if(i == activeval){
-		    drawline(loc, alt_color, temptext, largesz);
+
+	with(mgraphics){
+	    for(i = 0; i < all_lines.length; i++){
+		var currlineval = all_lines[i];
+		loc = Math.floor(currlineval * width);
+		temptext = (i + 1).toString();
+		if(activeval > -1){ 
+		    if(i == activeval){
+			drawline(loc, alt_color, temptext, largesz);
+		    }else{
+			drawline(loc, main_color, temptext, smallsz);
+		    }
 		}else{
 		    drawline(loc, main_color, temptext, smallsz);
 		}
-	    }else{
-		drawline(loc, main_color, temptext, smallsz);
 	    }
 	}
     }
 }
 
 function drawline(xloc, colortype, text, size){
-    ctx.fillStyle = colortype;
-    ctx.fillRect(xloc, 0, size, ctx.height);   
-    ctx.fillText(text, xloc + 5, 10);
+    r = sketch.screentoworld(xloc, 0);
+    t = sketch.screentoworld(xloc + 4, 10);
+    s = sketch.screentoworld(xloc, height);
+
+    mgraphics.set_source_rgb(colortype);
+    mgraphics.set_line_width(size);
+    mgraphics.move_to(r[0], r[1]);
+    mgraphics.line_to(s[0], s[1]);
+    mgraphics.stroke();
+    mgraphics.move_to(t[0], t[1]);
+    mgraphics.select_font_face(currfont);
+    mgraphics.set_font_size(9);
+    mgraphics.text_path(text);
+    mgraphics.fill();
 }
 
 function anything(){
-  var a = arrayfromargs(arguments);
-  activeval = -1;
-  all_lines = a;
-  ctx.redraw();
+    var a = arrayfromargs(arguments);
+    activeval = -1;
+    all_lines = a;
+    mgraphics.redraw();
 }
 
 function getmarkers(){
@@ -66,7 +101,7 @@ function getmarkers(){
 function move(a){
     activeval = a - 1;
     outlet(0, "current", activeval + 1, all_lines[activeval]);
-    ctx.redraw();
+    mgraphics.redraw();
 }
 
 function getmarker(a){
@@ -75,15 +110,15 @@ function getmarker(a){
 }
 
 function ondrag(x, y){
-    thisx = x / ctx.width;
-    all_lines[activeval] = thisx
-    ctx.redraw();
+    thisx = x / width;
+    all_lines[activeval] = thisx;
+    calc_rect();
+    mgraphics.redraw();
     outlet(0, "current", activeval + 1, all_lines[activeval])
 }
 
 function clear(){
-    //ctx.clearRect(0, 0, ctx.width, ctx.height);
     activeval = -1;
     all_lines = new Array();
-    ctx.redraw();
+    mgraphics.redraw();
 }

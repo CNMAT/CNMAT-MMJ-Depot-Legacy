@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 11.0, 55.0, 891.0, 420.0 ],
+		"rect" : [ 11.0, 55.0, 893.0, 465.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,6 +30,34 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 790.0, 110.0, 52.0, 18.0 ],
+					"text" : "compile"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 700.0, 110.0, 60.0, 18.0 ],
+					"text" : "printfonts"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -47,12 +75,11 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-10",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 503.875, 50.0, 330.0, 31.0 ],
+					"patching_rect" : [ 503.875, 50.0, 626.125, 18.0 ],
 					"text" : "0.986842 0.582857 0.730263 0.877143 0.789474 0.842105 0.075714 0.032895 0.144737 0.276316 0.342105 0"
 				}
 
@@ -67,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 109.666672, 350.0, 100.0, 18.0 ],
-					"text" : "8 0.63"
+					"text" : "6 0.842105"
 				}
 
 			}
@@ -351,15 +378,16 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubblepoint" : 0.29,
+					"bubbletextmargin" : 13,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-34",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 521.0, 340.0, 300.0, 51.0 ],
+					"patching_rect" : [ 521.0, 340.0, 268.0, 80.0 ],
 					"text" : "if you want to program the \"currently active\" state from the outside, you now have to set [getmarker n] then take the result and prepend move."
 				}
 
@@ -562,8 +590,8 @@
 					"id" : "obj-1",
 					"maxclass" : "jsui",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 10.0, 160.0, 700.0, 140.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 363.0, 363.0 ]
@@ -582,7 +610,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 10.0, 160.0, 700.0, 140.0 ],
+					"patching_rect" : [ 9.0, 160.0, 700.0, 140.0 ],
 					"ruler" : 0,
 					"selectioncolor" : [ 0.188235, 1.0, 0.619608, 0.0 ],
 					"waveformcolor" : [ 0.6441, 0.662032, 0.594634, 0.39 ]
@@ -623,6 +651,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -722,6 +759,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
