@@ -5578,6 +5578,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5593,6 +5594,7 @@
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-53",
 					"ignoreclick" : 1,
 					"maxclass" : "flonum",
@@ -5613,15 +5615,13 @@
 					"fontsize" : 16.0,
 					"id" : "obj-122",
 					"ignoreclick" : 1,
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 755.0, 123.0, 40.0 ],
+					"patching_rect" : [ 24.0, 755.0, 123.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 79.003357, 975.0, 22.0 ],
-					"text" : "Grisey-Partiels.wav",
 					"textcolor" : [ 0.002622, 0.058228, 0.339979, 1.0 ]
 				}
 
@@ -6172,6 +6172,7 @@
 , 			{
 				"box" : 				{
 					"bgtransparent" : 1,
+					"hidden" : 1,
 					"id" : "obj-29",
 					"idle" : 1,
 					"maxclass" : "lcd",
@@ -10234,8 +10235,8 @@
 , 			{
 				"box" : 				{
 					"automouse" : 0,
-					"coldef" : [ [ 0, 20, 1, 4901321.0, 4901321.0, 4901321.0, 1.0, 1065353216, 0.0, 4901321.0, 4901321.0, 1.0, 1249836799, 1065353216, -1 ], [ 1, 54, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 2, 65, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 3, 625, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 4,
+					"coldef" : [ [ 0, 20, 1, 4901321.0, 4901321.0, 4901321.0, 1.0, 1065353216, 0.0, 4901321.0, 4901321.0, 1.0, 1249836799, 1065353216, -1 ] ],
+					"cols" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gridlinecolor" : [ 0.197043, 0.235507, 0.501961, 1.0 ],
@@ -10251,7 +10252,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 208.0, 159.5, 690.0, 580.5 ],
 					"rowhead" : 1,
-					"rows" : 36,
+					"rows" : 1,
 					"selmode" : 3,
 					"selsync" : 0,
 					"sgcolor" : [ 0.498523, 0.777383, 0.980392, 1.0 ],
@@ -11010,7 +11011,6 @@
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-101",
-					"linecount" : 8,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -11021,8 +11021,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 787.0, 1278.0, 121.0 ],
 					"rounded" : 20.0,
-					"tabmode" : 0,
-					"text" : "We hear a low note -- it is harmonic -- then we hear very high material -- resonance -- like overtones ringing out and then dying away"
+					"tabmode" : 0
 				}
 
 			}
