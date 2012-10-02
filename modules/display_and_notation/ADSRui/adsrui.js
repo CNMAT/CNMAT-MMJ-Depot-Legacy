@@ -1,10 +1,46 @@
+/*
+
+adsrui.js by Michael Zbyszynski & Peter Nyboer, 121002
+ 
+Permission to use, copy, modify, distribute, and distribute modified versions
+of this software and its documentation without fee and without a signed
+licensing agreement, is hereby granted, provided that the above copyright
+notice, this paragraph and the following two paragraphs appear in all copies,
+modifications, and distributions.
+
+IN NO EVENT SHALL UC REGENTS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING
+OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF REGENTS HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+REGENTS SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE. THE SOFTWARE AND ACCOMPANYING DOCUMENTATION, IF ANY, PROVIDED
+HEREUNDER IS PROVIDED "AS IS". REGENTS HAS NO OBLIGATION TO PROVIDE
+MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+NAME: adsrui
+DESCRIPTION: user interface for adsr~ (javascript UI)
+AUTHORS: Michael Zbyszynski & Peter Nyboer
+COPYRIGHT_YEARS: 2008-2016
+SVN_REVISION: $LastChangedRevision: 666 $
+VERSION 0.1: initial mz checkin
+VERSION 1.0: Peter added set, duration adjust, etc.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+*/
+
+autowatch = 1;
+outlets=2;
 mgraphics.init();
 mgraphics.relative_coords = 1;
 mgraphics.autofill = 0;
 
+var doout=1;
 var brgb = [0.,0.,0.,1.];
 declareattribute("brgb");
-var lineWidth = 0.02;
+var lineWidth = 0.05;
 var aspect = calcAspect();
 var circleColor=[1.,1.,0.,1.];
 declareattribute("circleColor");
@@ -17,6 +53,9 @@ var label=0;
 declareattribute("label",null,"setlabel",1);
 var curvy=1;
 declareattribute("curvy",null,"setcurvy",1);
+var fontsize=10;
+declareattribute("fontsize",null,"setfontsize",1);
+
 function point (x,y,d) {
 	this.x = x;
 	this.y = y;
@@ -32,11 +71,11 @@ function initPoints(){
 }
 
 var adsr_list = new Array();
+var adsr_rel = new Array();
 
 //initial drawing
 initPoints();
 mgraphics.redraw();
-refresh();
 
 function paint()
 {
@@ -70,7 +109,7 @@ function paint()
 			rectangle(points[2].x-halfSide, points[2].y+halfSide,side,side);
 			rectangle(points[4].x-halfSide, points[4].y+halfSide,side,side);
 			if(label>0){
-				set_font_size(10);
+				set_font_size(fontsize);
 				move_to(points[1].x+.07, points[1].y);
 				coords="(" + adsr_list[0].toFixed(1) + ",1.)";
 				show_text(coords);
@@ -92,17 +131,56 @@ function paint()
 
 }
 
+//legacy, in case pete's stuff needs this.
+function setlist(){
+	doout=0;
+	list(arguments);
+}
+
+function set(){
+	doout=0;
+	list(arguments);
+}
+
+//relative to current duration
+function list_rel(){
+	var a=arrayfromargs(arguments);
+	if(a.length==1) a=a[0]; //if we call list from setlist, we need to flatten the array 
+	adsr_rel=a.slice(0); //clone to adsr_rel
+	var proc_list=[];
+	for(var i=0;i<adsr_rel.length;i++){
+		if(i!=2){
+			proc_list[i]=adsr_rel[i]*duration;
+			//post("\nproc",i,proc_list[i]);
+		}else{
+			proc_list[i]=adsr_rel[i]; //S of ADSR
+		}
+	}
+	dodur = 0;
+	list(proc_list);
+	dodur = 1;
+}
+
+var dodur=1; //bleh
 function list(l) {
 	listIn = new Array();
     listIn.length = 0;
-    for ( i=0 ; i < arguments.length ; i++)
+	var a=arrayfromargs(arguments);
+	if(a.length==1) a=a[0]; //if we call list from setlist or scalelist, we need to flatten the array
+    for ( i=0 ; i < a.length ; i++)
     {
-        listIn[i] = arguments [i];
+        listIn[i] = a[i];
     }
-	if((listIn[0]+listIn[1])>(duration*0.5) || listIn[3]>(duration*0.5)) {
-		post("Error: envelope exceeds current duration.\n");
-		return 0;
-	}	
+    if(dodur) {
+    	var durtmp;
+    	if ((listIn[0]+listIn[1]) > listIn[3]) {
+			durtmp = 2*(listIn[0]+listIn[1]);
+		} else {
+			durtmp = 2 * listIn[3];
+		}
+		duration = durtmp+( 1000-(durtmp%1000) ); //round up to nearest 1000.
+		this.box.message("duration", duration); //zomg what a stupid hack.
+    }
 	points[2].y = (listIn[2]*1.7)-0.9;
 	points[3].y = points[2].y;
 	points[1].x = DurtoRelX(listIn[0]);
@@ -115,7 +193,6 @@ function bang()
 {
 	output();
   	mgraphics.redraw();
-    refresh();
 }
 
 function relXtoDur(x) {
@@ -136,10 +213,23 @@ function output() {
 	adsr_list[1]=relXtoDur(points[2].x)-adsr_list[0];
 	adsr_list[2]=(points[2].y+.9)*.58823;
 	adsr_list[3]=((points[4].x-(aspect*0.1))/(aspect*.85))*(duration*.5);
-	outlet(0, adsr_list);
+	adsr_rel[0]=adsr_list[0]/duration;
+	adsr_rel[1]=adsr_list[1]/duration; 
+	adsr_rel[2]=adsr_list[2];
+	adsr_rel[3]=adsr_list[3]/duration;
+	if(doout){
+		outlet(1, adsr_rel);
+		outlet(0, adsr_list);
+	}else{
+		doout=1;
+	}
 }
- 
 
+/* 
+function dur(){
+	post("\ndur",duration);
+}
+*/
 function fsaa(v)
 {
     sketch.fsaa = v;
@@ -147,13 +237,12 @@ function fsaa(v)
 }
 
 
-function fontsize(v)
+function setfontsize(v)
 {
     if(v > 0 && v<145)
     {
-    	myFontsize = v;
+    	fontsize = v;
     	bang();
-    	refresh();
     }
     else
     {
@@ -176,6 +265,7 @@ function setlabel(l)
 function setcurvy(c)
 {
     curvy=c;
+	notifyclients();
     bang();
 }
 
@@ -214,7 +304,6 @@ function onresize(w,h)
 	}
 	initPoints();
 	bang();
-	refresh();
 }
 onresize.local = 1; //private
 
