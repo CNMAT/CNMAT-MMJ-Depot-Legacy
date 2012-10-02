@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 213.0, 190.0, 784.0, 572.0 ],
+		"rect" : [ 417.0, 158.0, 784.0, 572.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,29 +28,16 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "fontsize",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-26",
-					"maxclass" : "flonum",
+					"id" : "obj-24",
+					"maxclass" : "attrui",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 495.0, 347.0, 50.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-23",
-					"maxclass" : "message",
-					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 505.0, 386.0, 69.0, 18.0 ],
-					"text" : "fontsize $1"
+					"patching_rect" : [ 505.0, 457.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 487.0, 487.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -557,7 +544,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-23", 0 ]
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -567,15 +554,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -708,7 +686,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "adsrui.js",
-				"bootpath" : "/Users/mzed/Desktop/adsr-ui05",
+				"bootpath" : "/Users/mzed/CNMAT/depot/modules/display_and_notation/ADSRui",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -716,42 +694,42 @@
 , 			{
 				"name" : "nothing.maxpat",
 				"bootpath" : "/Users/mzed/CNMAT/depot/modules/basic-programming",
-				"patcherrelativepath" : "../../CNMAT/depot/modules/basic-programming",
+				"patcherrelativepath" : "../../basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
 				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../CNMAT/depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
 				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../CNMAT/depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
 				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../CNMAT/depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
 				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../CNMAT/depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
 				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../CNMAT/depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
