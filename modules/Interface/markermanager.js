@@ -57,7 +57,6 @@ function paint(){
 	with(mgraphics){
 	    for(i = 0; i < all_lines.length; i++){
 		var currlineval = all_lines[i];
-		post('curr line: ', all_lines[i]);
 		loc = Math.floor(currlineval * width);
 		temptext = (i + offset).toString();
 		if(activeval > -1){ 
