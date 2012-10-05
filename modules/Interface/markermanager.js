@@ -2,17 +2,20 @@ autowatch = 1;
 outlets = 2;
 
 var all_lines = new Array(0);
-var alt_color = [0.996, 0.204, 0.804];
-var main_color = [0., 0.447, 0.780];
 var activeval = -1; //-1 means inactive
 var offset = 0;
 var ssize = 0.01;
 var lsize = 0.03;
-var width, halfwidth, height, aspect = new Number();
-var lineloc, moveloc, textloc = new Array(2);
-var fl;
+var width, height, aspect = new Number();
 var currfont;
 var mouseflag = new Boolean();
+
+var alt_color = [0.996, 0.204, 0.804, 1.];
+var main_color = [0., 0.447, 0.780, 1.];
+
+//these might not work w/r/t copying states of the object itself.
+//declareattribute("alt_color");
+//declareattribute("main_color");
 
 mgraphics.init();
 mgraphics.autofill = 0;
@@ -23,8 +26,8 @@ function output_ondrag(a){
 }
 
 function loadbang(){
-    calc_rect();
-    fl = mgraphics.getfontlist();
+    recalc();
+    var fl = mgraphics.getfontlist();
     for(i=0; i<fl.length-1; i++){
 	if(fl[i] == "Helvetica"){
 	    currfont = fl[i];
@@ -38,18 +41,13 @@ function loadbang(){
 
 function offset(a){
     offset = a;
+    //recalc();
     mgraphics.redraw();
 }
 
-function calc_rect(){
-    width = box.rect[2] - box.rect[0];
-    halfwidth = width / 2;
-    height = box.rect[3] - box.rect[1];
-    aspect = width / height;
-}
-
-function norm2signed(a){
-    return (a * 2) - 1.0;
+function recalc(){
+    width = mgraphics.size[0];
+    height = mgraphics.size[1];
 }
 
 function paint(){
@@ -59,6 +57,7 @@ function paint(){
 	with(mgraphics){
 	    for(i = 0; i < all_lines.length; i++){
 		var currlineval = all_lines[i];
+		post('curr line: ', all_lines[i]);
 		loc = Math.floor(currlineval * width);
 		temptext = (i + offset).toString();
 		if(activeval > -1){ 
@@ -75,13 +74,20 @@ function paint(){
     }
 }
 
-function drawline(xloc, colortype, text, size){
-    moveloc = sketch.screentoworld(xloc, 0);
-    lineloc = sketch.screentoworld(xloc, height);
-    textloc = sketch.screentoworld(xloc + 4, 10);
+function s2w(x, y){
+    return sketch.screentoworld(x, y);
+}
 
-    mgraphics.set_source_rgb(colortype);
+function drawline(xloc, colortype, text, size){
+
+    var moveloc = s2w(xloc, 0);
+    var lineloc = s2w(xloc, height);
+    var textloc = s2w(xloc + 4, 10);
+
+    mgraphics.set_source_rgba(colortype);
     mgraphics.set_line_width(size);
+
+    //scale x to aspect and leave y alone
     mgraphics.move_to(moveloc[0], moveloc[1]);
     mgraphics.line_to(lineloc[0], lineloc[1]);
     mgraphics.stroke();
@@ -96,7 +102,7 @@ function anything(){
     var a = arrayfromargs(arguments);
     activeval = -1;
     all_lines = a;
-    calc_rect();
+    recalc();
     mgraphics.redraw();
 }
 
@@ -140,7 +146,6 @@ function ondrag(x, y, button){
 
 function handleclick(x){
     if(all_lines.length && activeval > -1){
-	calc_rect();
 	thisx = x / width;
 	all_lines[activeval] = thisx;
 	mgraphics.redraw();
@@ -149,7 +154,7 @@ function handleclick(x){
 }
 
 function onresize(){
-    calc_rect();
+    recalc();
     mgraphics.redraw();
 }
 

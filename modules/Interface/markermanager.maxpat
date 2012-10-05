@@ -28,15 +28,12 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-10",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 503.875, 20.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 540.0, 30.0, 20.0, 20.0 ]
+					"patching_rect" : [ 503.875, 20.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -58,7 +55,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 298.0, 238.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -126,7 +123,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 188.5, 70.0, 20.0 ],
+									"patching_rect" : [ 50.0, 190.0, 70.0, 20.0 ],
 									"text" : "zl group 10"
 								}
 
@@ -296,27 +293,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-9",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.0, 110.0, 60.0, 18.0 ],
-					"text" : "printfonts"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-24",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 109.666672, 350.0, 100.0, 18.0 ],
-					"text" : "6 0.188571"
+					"text" : "3 0.125714"
 				}
 
 			}
@@ -668,13 +651,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-7",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 325.0, 45.0 ],
-									"text" : "1 0.986842 2 0.582857 3 0.730263 4 0.877143 5 0.789474 6 0.842105 7 0.075714 8 0.032895 9 0.144737 10 0.276316 11 0.342105 12 0"
+									"patching_rect" : [ 50.0, 100.0, 325.0, 31.0 ],
+									"text" : "0 0.082082 1 0.998999 2 0.630631 3 0.125714 4 0.337337 5 0.92 6 0.597598 7 0.481481 8 0.377377 9 0.720721"
 								}
 
 							}
@@ -982,15 +965,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}
