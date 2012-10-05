@@ -37,7 +37,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 910.0, 512.5, 130.0, 20.0 ],
-					"presentation_rect" : [ 779.0, 547.5, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -3016,7 +3015,6 @@
 										"digest" : "",
 										"tags" : "",
 										"title" : "•",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -3083,7 +3081,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 660.0, 300.0, 175.0, 18.0 ],
-													"presentation_rect" : [ 361.0, 232.0, 0.0, 0.0 ],
 													"text" : "textcolor 0.053711 0. 0.6875 1."
 												}
 
@@ -3339,16 +3336,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 48.0,
 													"id" : "obj-3",
-													"linecount" : 18,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 224.0, 358.0, 259.0, 970.0 ],
+													"patching_rect" : [ 224.0, 358.0, 280.0, 58.0 ],
 													"presentation" : 1,
-													"presentation_linecount" : 3,
-													"presentation_rect" : [ 10.0, 12.0, 1233.0, 165.0 ],
-													"text" : "there is no clear local beat pattern -- the low note does have a slight pulse -- focus is on the large scale time cycle-- it is somewhat periodic -- but not precise at all",
+													"presentation_rect" : [ 10.0, 12.0, 1233.0, 58.0 ],
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -5826,15 +5820,14 @@
 					"fontsize" : 16.0,
 					"id" : "obj-122",
 					"ignoreclick" : 1,
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 755.0, 123.0, 40.0 ],
+					"patching_rect" : [ 24.0, 755.0, 123.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 79.003357, 975.0, 22.0 ],
-					"text" : "Grisey-Partiels.wav",
+					"text" : "•",
 					"textcolor" : [ 0.002622, 0.058228, 0.339979, 1.0 ]
 				}
 
@@ -9103,7 +9096,7 @@
 					"buffername" : "mrkrplyr",
 					"chanoffset" : 1,
 					"fontsize" : 11.0,
-					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
+					"frozen_box_attributes" : [ "buffername", "chanoffset" ],
 					"grid" : 0.0,
 					"id" : "obj-37",
 					"labelbgcolor" : [ 0.478431, 0.709804, 0.317647, 1.0 ],
@@ -9126,7 +9119,7 @@
 					"buffername" : "mrkrplyr",
 					"chanoffset" : 1,
 					"fontsize" : 11.0,
-					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
+					"frozen_box_attributes" : [ "buffername", "chanoffset" ],
 					"grid" : 0.0,
 					"id" : "obj-36",
 					"labelbgcolor" : [ 0.262745, 0.431373, 0.501961, 1.0 ],
@@ -10449,8 +10442,8 @@
 , 			{
 				"box" : 				{
 					"automouse" : 0,
-					"coldef" : [ [ 0, 20, 1, 4901321.0, 4901321.0, 4901321.0, 1.0, 1065353216, 0.0, 4901321.0, 4901321.0, 1.0, 1249836799, 1065353216, -1 ], [ 1, 54, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 2, 65, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 3, 625, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 4,
+					"coldef" : [ [ 0, 20, 1, 4901321.0, 4901321.0, 4901321.0, 1.0, 1065353216, 0.0, 4901321.0, 4901321.0, 1.0, 1249836799, 1065353216, -1 ] ],
+					"cols" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gridlinecolor" : [ 0.197043, 0.235507, 0.501961, 1.0 ],
@@ -10466,7 +10459,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 208.0, 159.5, 690.0, 580.5 ],
 					"rowhead" : 1,
-					"rows" : 37,
+					"rows" : 1,
 					"selmode" : 3,
 					"selsync" : 0,
 					"sgcolor" : [ 0.498523, 0.777383, 0.980392, 1.0 ],
@@ -11225,7 +11218,6 @@
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-101",
-					"linecount" : 10,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -11236,8 +11228,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 787.0, 1278.0, 121.0 ],
 					"rounded" : 20.0,
-					"tabmode" : 0,
-					"text" : "there is no clear local beat pattern -- the low note does have a slight pulse -- focus is on the large scale time cycle-- it is somewhat periodic -- but not precise at all"
+					"tabmode" : 0
 				}
 
 			}
@@ -13930,13 +13921,6 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Grisey-Partiels_sfp",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/website/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB4-Hearing-MU29SP12",
-				"patcherrelativepath" : "../../../../../../current_duties/MUS_29/website/site_builder/MUSIC29-MUSICNOW-SP12/MUSIC29_LABS-SP2012/LAB4-Hearing-MU29SP12",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
