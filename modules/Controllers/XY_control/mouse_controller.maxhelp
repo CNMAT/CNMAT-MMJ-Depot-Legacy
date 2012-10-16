@@ -28,6 +28,58 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 134.5, 350.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 136.0, 352.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 40.0, 350.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 150.0, 300.0, 54.0, 20.0 ],
+					"presentation_rect" : [ 140.0, 340.0, 0.0, 0.0 ],
+					"text" : "y param"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 55.0, 300.0, 54.0, 20.0 ],
+					"text" : "x param"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "mouse controller", "translate mouse coordinates to float values", "0.296 0.594 0.784" ],
 					"id" : "obj-3",
 					"lockeddragscroll" : 1,
@@ -63,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 265.0, 320.0, 150.0, 33.0 ],
+					"patching_rect" : [ 260.0, 320.0, 150.0, 33.0 ],
 					"text" : "notification that window has been closed"
 				}
 
@@ -243,7 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 235.0, 320.0, 20.0, 20.0 ]
+					"patching_rect" : [ 229.0, 320.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -257,7 +309,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 137.5, 320.0, 50.0, 20.0 ]
+					"patching_rect" : [ 134.5, 320.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -284,8 +336,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "bang" ],
-					"patching_rect" : [ 40.0, 260.0, 214.0, 20.0 ],
-					"text" : "mouse_controller @xmin 2 @xmax 10"
+					"patching_rect" : [ 40.0, 260.0, 208.0, 20.0 ],
+					"text" : "mouse_controller @xmin 0 @xmax 1"
 				}
 
 			}
@@ -404,6 +456,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
