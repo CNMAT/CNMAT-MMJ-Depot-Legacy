@@ -875,7 +875,7 @@
 					"patching_rect" : [ 60.0, 178.666672, 97.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 57.0, 402.0, 165.0, 18.0 ],
-					"text" : "play a random soundfile"
+					"text" : "play a soundfile at random"
 				}
 
 			}
