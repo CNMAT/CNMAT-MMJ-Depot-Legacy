@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 6.0, 49.0, 738.0, 496.0 ],
+		"rect" : [ 6.0, 49.0, 524.0, 496.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -127,9 +127,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 712.0, 536.0, 286.0, 120.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 524.0, 86.5, 204.0, 391.5 ]
+					"patching_rect" : [ 712.0, 536.0, 286.0, 120.0 ]
 				}
 
 			}
@@ -184,7 +182,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 968.0, 346.5, 184.0, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 524.0, 24.092247, 204.0, 51.815506 ],
+					"presentation_rect" : [ 348.5, 24.092247, 159.5, 51.815506 ],
 					"ruler" : 0,
 					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.0 ],
 					"vticks" : 0
@@ -221,7 +219,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.5, 74.0, 114.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 216.0, 114.0, 39.0 ],
+					"presentation_rect" : [ 80.0, 216.0, 114.0, 39.0 ],
 					"text" : "load single soundfile"
 				}
 
@@ -236,7 +234,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 476.0, 32.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 192.0, 32.0, 32.0 ]
+					"presentation_rect" : [ 80.0, 192.0, 32.0, 32.0 ]
 				}
 
 			}
@@ -264,7 +262,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 364.0, 208.0, 141.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 220.0, 366.0, 141.0, 18.0 ],
+					"presentation_rect" : [ 248.0, 362.0, 141.0, 18.0 ],
 					"text" : "Frequency_Domain_Analysis"
 				}
 
@@ -367,7 +365,7 @@
 					"patching_rect" : [ 349.5, 27.0, 83.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 138.75, 193.5, 79.0, 29.0 ],
+					"presentation_rect" : [ 126.75, 193.5, 79.0, 29.0 ],
 					"text" : "drop single soundfile here"
 				}
 
@@ -383,7 +381,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 338.0, 56.0, 106.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.5, 192.0, 99.5, 32.0 ],
+					"presentation_rect" : [ 116.5, 192.0, 99.5, 32.0 ],
 					"rounded" : 20.0
 				}
 
@@ -429,7 +427,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 287.5, 268.0, 77.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 386.0, 140.75, 18.0 ],
+					"presentation_rect" : [ 57.0, 378.0, 165.0, 18.0 ],
 					"text" : "loop playback?"
 				}
 
@@ -444,7 +442,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 263.5, 268.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 384.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 7.5, 376.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -469,13 +467,14 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-52",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.5, 12.0, 142.0, 18.0 ],
+					"patching_rect" : [ 129.5, 12.0, 142.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 458.0, 140.75, 18.0 ],
-					"text" : "speed of new choices (in MS)"
+					"presentation_rect" : [ 57.0, 458.0, 165.0, 18.0 ],
+					"text" : "silence between soundfiles (in MS)"
 				}
 
 			}
@@ -486,13 +485,15 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-51",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.75, 50.0, 103.0, 18.0 ],
+					"patching_rect" : [ 35.75, 50.0, 103.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 432.0, 140.75, 18.0 ],
-					"text" : "turn on rapid choices"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 57.0, 424.0, 165.0, 29.0 ],
+					"text" : "play files continuously in random order"
 				}
 
 			}
@@ -509,7 +510,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 77.0, 12.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 458.0, 50.0, 18.0 ]
+					"presentation_rect" : [ 7.5, 458.0, 47.0, 18.0 ]
 				}
 
 			}
@@ -523,7 +524,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 12.0, 50.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 432.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 7.5, 424.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -538,7 +539,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.5, 496.0, 150.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 342.0, 112.0, 18.0 ],
+					"presentation_rect" : [ 49.0, 342.0, 112.0, 18.0 ],
 					"text" : "number of files loaded"
 				}
 
@@ -587,7 +588,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 509.25, 163.666672, 280.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 272.0, 326.0, 24.0 ],
+					"presentation_rect" : [ 12.0, 272.0, 326.0, 24.0 ],
 					"tabs" : [ "0.100000", "0.200000", "0.300000", "0.400000", "0.500000", "0.600000", "0.700000", "0.800000", "0.900000", "1" ]
 				}
 
@@ -604,7 +605,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 580.0, 260.0, 152.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 315.0, 326.0, 18.0 ],
+					"presentation_rect" : [ 12.0, 315.0, 326.0, 18.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"slidercolor" : [ 0.033526, 0.090183, 0.339448, 1.0 ]
 				}
@@ -691,14 +692,16 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-26",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 743.75, 220.0, 32.5, 16.0 ],
+					"patching_rect" : [ 743.75, 220.0, 32.5, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 192.0, 32.5, 16.0 ],
-					"text" : "clear"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 12.0, 192.0, 60.0, 27.0 ],
+					"text" : "clear all soundfiles"
 				}
 
 			}
@@ -738,7 +741,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-20",
-					"items" : [ "recollage_01", ",", "recollage_02", ",", "recollage_03", ",", "recollage_04", ",", "recollage_05", ",", "recollage_06", ",", "recollage_07", ",", "recollage_08", ",", "recollage_09", ",", "recollage_10" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -761,7 +764,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 608.0, 145.666672, 109.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 254.0, 109.0, 18.0 ],
+					"presentation_rect" : [ 12.0, 254.0, 109.0, 18.0 ],
 					"text" : "play and override gain"
 				}
 
@@ -777,7 +780,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 553.0, 240.0, 183.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 296.0, 183.0, 18.0 ],
+					"presentation_rect" : [ 12.0, 296.0, 183.0, 18.0 ],
 					"text" : "change gain for the next sound played "
 				}
 
@@ -824,7 +827,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 178.666672, 47.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 410.0, 47.0, 16.0 ],
+					"presentation_rect" : [ 7.5, 402.0, 47.0, 16.0 ],
 					"text" : "/choose",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -865,13 +868,14 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-19",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 178.666672, 97.0, 18.0 ],
+					"patching_rect" : [ 60.0, 178.666672, 97.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 410.0, 140.75, 18.0 ],
-					"text" : "play one of the files"
+					"presentation_rect" : [ 57.0, 402.0, 165.0, 18.0 ],
+					"text" : "play a random soundfile"
 				}
 
 			}
@@ -902,7 +906,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 270.0, 496.0, 35.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 342.0, 35.0, 18.0 ],
+					"presentation_rect" : [ 12.0, 342.0, 35.0, 18.0 ],
 					"triangle" : 0
 				}
 
@@ -950,7 +954,7 @@
 					"patching_rect" : [ 188.5, 140.0, 109.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 40.5, 124.5, 171.0, 33.0 ],
+					"presentation_rect" : [ 28.5, 124.5, 171.0, 33.0 ],
 					"text" : "drop folder containing soundfiles here (.wav or .aif)"
 				}
 
@@ -966,7 +970,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 74.5, 140.0, 109.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 96.0, 204.0, 90.0 ],
+					"presentation_rect" : [ 12.0, 96.0, 204.0, 90.0 ],
 					"rounded" : 20.0
 				}
 
@@ -982,19 +986,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 968.0, 318.5, 74.0, 20.0 ],
 					"text" : "prepend set"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-53",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 524.0, 312.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 524.0, 12.0, 204.0, 466.0 ],
-					"rounded" : 20
 				}
 
 			}
