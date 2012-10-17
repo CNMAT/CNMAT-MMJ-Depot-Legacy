@@ -26,6 +26,7 @@ function output_ondrag(a){
 }
 
 function loadbang(){
+    //post('loadbang got called\n');
     recalc();
     var fl = mgraphics.getfontlist();
     for(i=0; i<fl.length-1; i++){
@@ -48,6 +49,8 @@ function offset(a){
 function recalc(){
     width = mgraphics.size[0];
     height = mgraphics.size[1];
+    aspect = width / height;
+    //post('aspect is: ', aspect, '\n');
 }
 
 function paint(){
@@ -79,18 +82,33 @@ function s2w(x, y){
 
 function drawline(xloc, colortype, text, size){
 
-    var moveloc = s2w(xloc, 0);
-    var lineloc = s2w(xloc, height);
-    var textloc = s2w(xloc + 4, 10);
+    var aspectc = new Array(2);
 
     mgraphics.set_source_rgba(colortype);
     mgraphics.set_line_width(size);
 
-    //scale x to aspect and leave y alone
+    //scale x to -aspect to aspect and leave y alone
+
+    var moveloc = s2w(xloc, 0);
+    //aspectc[0] = aspect * moveloc[0];
+    //aspectc[1] = moveloc[1];
+    //mgraphics.move_to(aspectc[0], aspectc[1]);
     mgraphics.move_to(moveloc[0], moveloc[1]);
+
+    var lineloc = s2w(xloc, height);
+    //aspectc[0] = aspect * moveloc[0];
+    //aspectc[1] = lineloc[1];
+    //mgraphics.line_to(aspectc[0], aspectc[1]);
     mgraphics.line_to(lineloc[0], lineloc[1]);
+
     mgraphics.stroke();
+
+    var textloc = s2w(xloc + 4, 10);
+    //aspectc[0] = aspect * textloc[0];
+    //aspectc[1] = textloc[1];
+    //mgraphics.move_to(aspectc[0], aspectc[1]);
     mgraphics.move_to(textloc[0], textloc[1]);
+
     mgraphics.select_font_face(currfont);
     mgraphics.set_font_size(9);
     mgraphics.text_path(text);
@@ -152,10 +170,12 @@ function handleclick(x){
     }
 }
 
+/*
 function onresize(){
     recalc();
     mgraphics.redraw();
 }
+*/
 
 function clear(){
     activeval = -1;
