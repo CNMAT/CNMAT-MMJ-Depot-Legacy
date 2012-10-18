@@ -98,7 +98,7 @@
 					"offset" : [ 2.0, 4.0 ],
 					"patching_rect" : [ 94.0, 584.0, 298.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 476.0, 298.0, 89.0 ]
+					"presentation_rect" : [ 8.0, 484.0, 298.0, 89.0 ]
 				}
 
 			}
@@ -642,8 +642,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 76.0, 16.0, 275.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 520.0, 12.0, 275.0, 27.0 ],
-					"text" : "Amplitiudes of Harmonics 1 to 15",
+					"presentation_rect" : [ 537.0, 12.0, 263.0, 27.0 ],
+					"text" : "Harmonics 1 to 15 (Amplitudes)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3890,7 +3890,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.0, 372.0, 344.0, 96.0 ],
+					"patching_rect" : [ 344.5, 310.0, 344.0, 96.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 16.0, 156.0, 460.0, 108.0 ],
 					"rounded" : 0
@@ -4603,15 +4603,15 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-4",
-					"linecount" : 14,
+					"linecount" : 15,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 516.0, 392.0, 168.0, 164.0 ],
+					"patching_rect" : [ 516.0, 392.0, 168.0, 175.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 16.0, 376.0, 306.0, 96.0 ],
-					"text" : "INSTRUCTIONS:\n1. turn audio on\n2. play some keys based on the legend in the \"keys\" section\n3. change the number and ratio of the harmonics in the multislider \n4. try taking the fundamental away by decreasing its level\n5. view the way the partials graph out in the spectrogram\n6. open up the xy controller window and experiment with changing the frequency and timbre of the harmonics you've set",
+					"presentation_linecount" : 9,
+					"presentation_rect" : [ 16.0, 376.0, 312.0, 108.0 ],
+					"text" : "INSTRUCTIONS:\n1. turn audio on\n2. play some keys based on the legend in the \"keys\" section\n3. change the ratio/presence of the harmonics in the light blue area above with click-drag\n4. try taking the fundamental away by decreasing its level\n5. view the way the partials graph out in the spectrogram\n6. open up the xy controller window and experiment with changing the frequency and timbre of the harmonics you've set",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -4636,9 +4636,22 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 568.0, 584.0, 86.0, 40.0 ],
+					"patching_rect" : [ 609.5, 592.0, 48.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 660.0, 507.0, 140.0, 58.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.374141, 0.661788, 0.776471, 1.0 ],
+					"id" : "obj-11",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 684.0, 592.0, 48.0, 44.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 60.0, 12.0, 744.0, 100.0 ]
 				}
 
 			}
@@ -5075,9 +5088,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "noise-gate~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"name" : "nothing.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"patcherrelativepath" : "../../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
