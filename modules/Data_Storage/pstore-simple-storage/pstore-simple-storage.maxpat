@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
 		"rect" : [ 508.0, 177.0, 836.0, 588.0 ],
@@ -55,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -156,7 +156,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "int", "int", "int", "int", "int" ],
-									"patching_rect" : [ 56.0, 136.0, 152.0, 37.0 ],
+									"patching_rect" : [ 56.0, 136.0, 152.0, 36.0 ],
 									"text" : "modifiers"
 								}
 
@@ -288,22 +288,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 60.0, 88.0, 48.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 10.0,
 						"globalpatchername" : "",
-						"tags" : "",
-						"default_fontface" : 0,
-						"digest" : ""
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -368,16 +367,16 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.0, 432.0, 152.0, 48.0 ],
+					"patching_rect" : [ 300.0, 432.0, 152.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 140.0, 20.0, 193.0, 35.0 ],
+					"presentation_rect" : [ 140.0, 20.0, 193.0, 34.0 ],
 					"text" : "click green to recall preset\nhold control+option to store (red)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -648,6 +647,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -691,7 +691,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-38",
-					"items" : [ "storagewindow", ",", "read", ",", "write", ",", "writeagain" ],
+					"items" : [ "storagewindow", ",", "clientwindow", ",", "read", ",", "write", ",", "writeagain" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -718,7 +718,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.431373, 0.431373, 0.431373, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
