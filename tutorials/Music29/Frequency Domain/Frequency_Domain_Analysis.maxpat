@@ -122,7 +122,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 505.0, 526.5, 38.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 483.0, 677.0, 38.0, 21.0 ],
+					"presentation_rect" : [ 7.0, 677.0, 38.0, 21.0 ],
 					"text" : "0 Hz"
 				}
 
@@ -139,7 +139,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 425.0, 526.5, 67.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 677.0, 67.0, 21.0 ],
+					"presentation_rect" : [ 464.0, 677.0, 67.0, 21.0 ],
 					"text" : "15000 Hz"
 				}
 
