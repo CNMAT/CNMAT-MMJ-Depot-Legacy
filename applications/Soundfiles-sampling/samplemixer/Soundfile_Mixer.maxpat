@@ -36,6 +36,337 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 0,
+					"id" : "obj-15",
+					"ignoreclick" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 7
+						}
+,
+						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 191.25, 330.0, 139.0, 20.0 ],
+									"text" : "sprintf /gw%d/play bang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 191.25, 380.0, 46.0, 20.0 ],
+									"text" : "s OSC"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 301.0, 190.0, 20.0, 18.0 ],
+									"text" : "6"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-20",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 279.0, 190.0, 20.0, 18.0 ],
+									"text" : "5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-19",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 257.0, 190.0, 20.0, 18.0 ],
+									"text" : "4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 235.0, 190.0, 20.0, 18.0 ],
+									"text" : "3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-17",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 213.0, 190.0, 20.0, 18.0 ],
+									"text" : "2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 191.25, 190.0, 20.5, 18.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 7,
+									"numoutlets" : 7,
+									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "" ],
+									"patching_rect" : [ 190.0, 120.0, 150.399994, 20.0 ],
+									"text" : "sel 49 50 51 52 53 54"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "int", "int", "int" ],
+									"patching_rect" : [ 190.0, 90.0, 59.5, 20.0 ],
+									"text" : "key"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1064.0, 240.0, 45.0, 20.0 ],
+					"presentation" : 0,
+					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p keys",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.576471, 0.576471, 0.576471, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 0,
 					"id" : "obj-66",
 					"ignoreclick" : 0,
 					"maxclass" : "newobj",
@@ -972,7 +1303,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-5",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -1071,7 +1402,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-11",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -1240,12 +1571,12 @@
 									"fontsize" : 15.88499,
 									"frgb" : 0.0,
 									"id" : "obj-2",
-									"linecount" : 30,
+									"linecount" : 29,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 56.0, 790.0, 540.0 ],
-									"text" : "• Drop a folder of soundfiles on the drop area (you can drop multiple different folders)\n\n• Choose a sample from one of the sample players for playback\n\n• Click on the play button to audition\n\n• Experiment with the various parameters of each soundfile player (transposition, gain, loop start/end, etc)\n\n• Experiment with loop settings on a number of simultaneously playing soundfiles - \n        Change gain to mix the samples' levels\n\n• Hit \"global play\" to hear all sound files playing in tandem\n\n• Hit \"global stop\" to stop all sound files from playing\n\n• If you like what you are hearing, you can record it with the recorder section.  \n        1. simply click \"start record\" to start.  you will be presented with a dialog to name your soundfile \n        on disk.  after you name the file and click \"ok\", your recording has begun.\n        2. to stop click \"stop record\"  After you have made the recording, you can use the \n        start/stop playback buttons to hear the actual file that you created on disk.\n\n• To create a score, double-click on the MUSIQUE-CONCRETE-SCORE box.  \n        1. Set the amount of time (in MS) that you would like your score to be\n        2. Set the number of presets - This must match the number you've stored\n        3. Click and drag to make new dots that represent the presets that you have made- \n        you can drag freely within the grid\n        4. When finished with your score, click on the button (play) to hear your score.\n\n*it's recommended to turn snap to zero on for ALL players, as to avoid clicks\n*If you would like to start fresh, click the \"clear\" button at the top left"
+									"patching_rect" : [ 8.0, 56.0, 790.0, 522.0 ],
+									"text" : "• Drop a folder of soundfiles on the drop area (you can drop multiple different folders)\n\n• Choose a sample from one of the sample players for playback\n\n• Click on the play button to audition\n\n• Experiment with the various parameters of each soundfile player (transposition, gain, loop start/end, etc)\n\n• Experiment with loop settings on a number of simultaneously playing soundfiles - \n        Change gain to mix the samples' levels\n\n• Hit \"global play\" to hear all sound files playing in tandem\n\n• Hit \"global stop\" to stop all sound files from playing\n\n• If you like what you are hearing, you can record it with the recorder section.  \n        1. simply click \"start record\" to start.  you will be presented with a dialog to name your soundfile \n        on disk.  after you name the file and click \"ok\", your recording has begun.\n        2. to stop click \"stop record\"  After you have made the recording, you can use the \n        start/stop playback buttons to hear the actual file that you created on disk.\n\n• To create a score, double-click on the MUSIQUE-CONCRETE-SCORE box.  \n        1. Set the amount of time (in MS) that you would like your score to be\n        2. Set the number of presets - This must match the number you've stored\n        3. Click and drag to make new dots that represent the presets that you have made- \n        you can drag freely within the grid\n        4. When finished with your score, click on the button (play) to hear your score.\n\n*If you would like to start fresh, click the \"clear\" button at the top right"
 								}
 
 							}
@@ -1415,7 +1746,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 25.0, 78.0, 1275.0, 381.0 ],
+						"rect" : [ 159.0, 414.0, 1275.0, 381.0 ],
 						"bgcolor" : [ 0.631373, 0.756863, 0.745098, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1696,7 +2027,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 197.0, 1190.0, 20.0 ],
 									"tabcolor" : [ 0.050391, 0.242884, 0.228552, 1.0 ],
-									"tabs" : [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "8", "9", "10", "10", "10", "10", "9", "8", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5", "6", "6", "6", "6", "2", "2", "3", "3", "3", "3", "3", "0", "0", "0" ],
+									"tabs" : [ "2", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
 									"textcolor" : [ 0.454902, 0.870588, 0.917647, 1.0 ]
 								}
 
@@ -3858,7 +4189,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-90",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -3957,7 +4288,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-96",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4056,7 +4387,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-22",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4256,7 +4587,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-12",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -5084,7 +5415,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 725.0, 300.0, 664.0, 496.0 ],
+						"rect" : [ 132.0, 344.0, 664.0, 496.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5141,20 +5472,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 84.0, 136.0, 54.0, 20.0 ],
 									"text" : "addpath"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 391.0, 72.0, 67.0, 20.0 ],
-									"text" : "route clear"
 								}
 
 							}
