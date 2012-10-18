@@ -64,7 +64,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 350.0, 526.5, 63.0, 18.0 ],
-					"presentation_rect" : [ 351.0, 554.0, 0.0, 0.0 ],
 					"text" : "hidden $1"
 				}
 
@@ -93,7 +92,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 455.0, 635.0, 41.0, 20.0 ],
-					"presentation_rect" : [ 455.0, 637.0, 0.0, 0.0 ],
 					"text" : "y axis"
 				}
 
@@ -1790,7 +1788,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
