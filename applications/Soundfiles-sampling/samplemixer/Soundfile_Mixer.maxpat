@@ -5237,8 +5237,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 532.0, 340.0, 103.0, 15.0 ],
-									"text" : "clear, append ---none---"
+									"patching_rect" : [ 532.0, 340.0, 115.0, 15.0 ],
+									"text" : "clear, append ---none---, 0"
 								}
 
 							}
