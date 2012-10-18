@@ -2006,8 +2006,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 250.0, 105.0, 115.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 86.5, 115.0, 20.0 ],
 					"text" : "receive~ music29L"
 				}
 
