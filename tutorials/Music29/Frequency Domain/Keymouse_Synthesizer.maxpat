@@ -4610,8 +4610,8 @@
 					"patching_rect" : [ 516.0, 392.0, 168.0, 175.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 16.0, 376.0, 312.0, 108.0 ],
-					"text" : "INSTRUCTIONS:\n1. turn audio on\n2. play some keys based on the legend in the \"keys\" section\n3. change the ratio/presence of the harmonics in the light blue area above with click-drag\n4. try taking the fundamental away by decreasing its level\n5. view the way the partials graph out in the spectrogram\n6. open up the xy controller window and experiment with changing the frequency and timbre of the harmonics you've set",
+					"presentation_rect" : [ 16.0, 376.0, 327.0, 108.0 ],
+					"text" : "INSTRUCTIONS:\n1. turn audio on\n2. play some keys based on the legend in the \"keys\" section\n3. change the ratio/presence of the harmonics in the light blue area above with click-drag\n4. try taking the fundamental away by decreasing its level\n5. view the way the partials graph out in [Frequency Domain Analysis]\n6. open up the mouse controller window and experiment with changing the frequency and timbre of the harmonics you've set",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
