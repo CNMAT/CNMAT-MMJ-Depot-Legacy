@@ -1,11 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 29.0, 44.0, 1181.0, 786.0 ],
+		"appversion" : 		{
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 7
+		}
+,
+		"rect" : [ 9.0, 51.0, 1181.0, 786.0 ],
 		"bgcolor" : [ 0.811765, 0.811765, 0.811765, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 29.0, 44.0, 1181.0, 786.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -13,112 +17,273 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"title" : "plucked string playspace",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
 					"maxclass" : "bpatcher",
-					"args" : [  ],
-					"offset" : [ 3.0, -4.0 ],
-					"presentation_rect" : [ 369.0, 424.0, 222.0, 98.0 ],
+					"name" : "monocords_timbre.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
+					"offset" : [ 3.0, -4.0 ],
 					"patching_rect" : [ 951.0, 2.0, 227.0, 102.0 ],
 					"presentation" : 1,
-					"id" : "obj-6",
-					"name" : "monocords_timbre.maxpat"
+					"presentation_rect" : [ 369.0, 424.0, 222.0, 98.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "bpatcher",
-					"args" : [  ],
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 6.0, 593.0, 401.0 ],
 					"id" : "obj-1",
-					"name" : "monocords.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "comment",
-					"text" : "global controls:",
-					"fontsize" : 14.0,
-					"numinlets" : 1,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 424.0, 129.0, 23.0 ],
-					"fontname" : "Arial Bold",
-					"id" : "obj-7"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"maxclass" : "bpatcher",
-					"args" : [  ],
+					"name" : "monocords.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 408.0, 409.0, 177.0, 67.0 ],
-					"id" : "obj-5",
-					"name" : "monocords_transport.maxpat"
+					"patching_rect" : [ 2.0, 6.0, 593.0, 401.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 284.0, 424.0, 129.0, 22.0 ],
+					"text" : "global controls:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
 					"maxclass" : "bpatcher",
-					"varname" : "2a-player02[2]",
-					"args" : [  ],
+					"name" : "monocords_transport.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 408.0, 409.0, 177.0, 67.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "bpatcher",
+					"name" : "5-probability_player.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 585.0, 464.0, 534.0, 303.0 ],
-					"id" : "obj-4",
-					"name" : "5-probability_player.maxpat"
+					"varname" : "2a-player02[2]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"id" : "obj-3",
 					"maxclass" : "bpatcher",
-					"varname" : "2a-player02[1]",
-					"args" : [  ],
-					"offset" : [ -15.0, -25.0 ],
+					"name" : "3-tuner.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
+					"offset" : [ -15.0, -25.0 ],
 					"patching_rect" : [ 603.0, 5.0, 542.0, 459.0 ],
-					"id" : "obj-3",
-					"name" : "3-tuner.maxpat"
+					"varname" : "2a-player02[1]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"varname" : "2a-player02",
-					"args" : [  ],
+					"name" : "4-sequencer.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 456.0, 526.0, 302.0 ],
-					"id" : "obj-2",
-					"name" : "4-sequencer.maxpat"
+					"varname" : "2a-player02"
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"parameters" : 		{
-
-		}
-
+		"dependency_cache" : [ 			{
+				"name" : "4-sequencer.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "8harp_player.xml",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord/lib",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "3-tuner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "clock_diagram.js",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/display_and_notation/clock_diagram",
+				"patcherrelativepath" : "../../../modules/display_and_notation/clock_diagram",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "8harp_tuner.xml",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord/lib",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monocords_fundamental.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-unroute.js",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
+				"patcherrelativepath" : "../../../../../../../../../2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "5-probability_player.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "probabilties.xml",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord/lib",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monocords_transport.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monocords.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "harp02.js",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord/lib",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "one_string.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reso-string~.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Synthesis/reso-string~",
+				"patcherrelativepath" : "../../../modules/Synthesis/reso-string~",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "coll-listdumper.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Data_Storage",
+				"patcherrelativepath" : "../../../modules/Data_Storage",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "letter.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Interface",
+				"patcherrelativepath" : "../../../modules/Interface",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monocords_timbre.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../Tuning_and_Temperament/Monocord/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "resonators~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "res-transform.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }
