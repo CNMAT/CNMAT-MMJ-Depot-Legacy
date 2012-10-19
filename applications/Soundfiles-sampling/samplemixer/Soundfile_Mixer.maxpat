@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 8.0, 55.0, 1095.0, 711.0 ],
+		"rect" : [ 8.0, 44.0, 1095.0, 722.0 ],
 		"bgcolor" : [ 0.223529, 0.223529, 0.223529, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -826,7 +826,7 @@
 					"patching_rect" : [ 1284.0, 22.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 830.0, 216.0, 150.0, 20.0 ],
-					"text" : "open file",
+					"text" : "open a file for recording",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"underline" : 0
 				}
@@ -1373,7 +1373,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-5",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -1472,7 +1472,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-11",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -1599,7 +1599,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 21.0, 60.0, 808.0, 649.0 ],
+						"rect" : [ 23.0, 54.0, 954.0, 690.0 ],
 						"bgcolor" : [ 0.631373, 0.756863, 0.745098, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -1645,8 +1645,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 56.0, 790.0, 593.0 ],
-									"text" : "• Drop a folder of soundfiles on the drop area (you can drop multiple different folders)\n\n• Choose a sample from one of the sample players for playback\n\n• Click on the play button to audition\n\n• Experiment with the various parameters of each soundfile player (transposition, gain, loop start/end, etc)\n\n• Experiment with loop settings on a number of simultaneously playing soundfiles - \n        Change gain to mix the samples' levels\n\n• Hit \"global play\" to hear all sound files playing in tandem\n\n• Hit \"global stop\" to stop all sound files from playing\n\n• If you like what you are hearing, you can record it with the recorder section.  \n        1. simply click \"start record\" to start.  you will be presented with a dialog to name your soundfile \n        on disk.  after you name the file and click \"ok\", your recording has begun.\n        2. to stop click \"stop record\"  After you have made the recording, you can use the \n        start/stop playback buttons to hear the actual file that you created on disk.\n\n• To create a score, double-click on the MUSIQUE-CONCRETE-SCORE box.  \n        1. Set the amount of time (in MS) that you would like your score to be\n        2. Set the number of presets - This must match the number you've stored\n        3. Click and drag to make new dots that represent the presets that you have made- \n        you can drag freely within the grid\n        4. When finished with your score, click on the button (play) to hear your score.\n\n*If you would like to start fresh, click the \"clear\" button at the top right\n\nKEYS: 1-6 play the corresponding soundfile\nspace: play\nreturn: stop"
+									"patching_rect" : [ 8.0, 56.0, 938.0, 593.0 ],
+									"text" : "• Drop a folder of soundfiles on the drop area (you can drop multiple different folders)\n\n• Choose a sample from one of the sample players for playback\n\n• Click on the play button to audition\n\n• Experiment with the various parameters of each soundfile player (transposition, gain, loop start/end, etc)\n\n• Experiment with loop settings on a number of simultaneously playing soundfiles - \n        Change gain to mix the samples' levels\n\n• Hit \"global play\" to hear all sound files playing in tandem\n\n• Hit \"global stop\" to stop all sound files from playing\n\n• If you like what you are hearing, you can record it with the recorder section.  \n        1. Simply click \"open a file for recording\" to open a file to disk.  \n        You will be presented with a dialog to name your soundfile and designate a location on disk.  \n        After you name the file and click \"ok\", your recording has begun.\n        2. Enable recording upon playback/stop with the toggle, and a recording will be made based on you playing and stopping.\n\n• To create a score, double-click on the MUSIQUE-CONCRETE-SCORE box.  \n        1. Set the amount of time (in MS) that you would like your score to be\n        2. Set the number of presets - This must match the number you've stored\n        3. Click and drag to make new dots that represent the presets that you have made- \n        you can drag freely within the grid\n        4. When finished with your score, click on the button (play) to hear your score (you can also record this as audio).\n\n*If you would like to start fresh, click the \"clear\" button at the top right\n\nKEYS: 1-6 play the corresponding soundfile\nspace: play\nreturn: stop"
 								}
 
 							}
@@ -2386,7 +2386,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "int" ],
 													"patching_rect" : [ 516.5, 360.0, 32.5, 18.0 ],
-													"presentation_rect" : [ 623.0, 420.0, 0.0, 0.0 ],
 													"text" : "t b i"
 												}
 
@@ -4260,7 +4259,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-90",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4359,7 +4358,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-96",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4458,7 +4457,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-22",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4658,7 +4657,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-12",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "randomsquare.01.wav", ",", "randomsquare.02.wav", ",", "randomsquare.03.wav", ",", "randomsquare.04.wav", ",", "randomsquare.05.wav", ",", "randomsquare.06.wav", ",", "randomsquare.07.wav", ",", "randomsquare.08.wav", ",", "randomsquare.09.wav", ",", "randomsquare.10.wav", ",", "randomsquare.11.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
