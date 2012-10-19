@@ -31,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1096.0, 300.0, 37.0, 18.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1692,7 +1706,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-144",
-					"items" : [ "select", "a", "soundfile", ",", "recollage_01.wav", ",", "recollage_02.wav", ",", "recollage_03.wav", ",", "recollage_04.wav", ",", "recollage_05.wav", ",", "recollage_06.wav", ",", "recollage_07.wav", ",", "recollage_08.wav", ",", "recollage_09.wav", ",", "recollage_10.wav", ",", "select", "a", "soundfile", ",", "recollage_01.wav", ",", "recollage_02.wav", ",", "recollage_03.wav", ",", "recollage_04.wav", ",", "recollage_05.wav", ",", "recollage_06.wav", ",", "recollage_07.wav", ",", "recollage_08.wav", ",", "recollage_09.wav", ",", "recollage_10.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4863,7 +4877,7 @@
 					"patching_rect" : [ 72.0, 172.0, 267.0, 267.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 708.0, 708.0 ],
-					"spaces" : [ "space", 1, 0.0, 0.0, "null", 0.0, 0.0, 0.0, 1.0, -0.666667, 0.241171, 1.0, 0.001, 1 ],
+					"spaces" : [ "space", 0 ],
 					"varname" : "rbfi",
 					"xmin" : -1.0,
 					"ymin" : -1.0
@@ -11918,6 +11932,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-144", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
