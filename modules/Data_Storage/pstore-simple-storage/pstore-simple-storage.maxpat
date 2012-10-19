@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 54.0, 75.0, 836.0, 588.0 ],
+		"rect" : [ 30.0, 65.0, 836.0, 588.0 ],
 		"bgcolor" : [ 0.56114, 0.56114, 0.56114, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -81,12 +81,26 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 130.75, 180.5, 52.25, 18.0 ],
+									"text" : "||"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 24.0, 268.0, 32.5, 18.0 ],
+									"patching_rect" : [ 97.5, 218.0, 52.25, 18.0 ],
 									"text" : "+"
 								}
 
@@ -100,7 +114,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 24.0, 324.0, 32.5, 18.0 ],
+									"patching_rect" : [ 97.5, 252.0, 32.5, 18.0 ],
 									"text" : "== 2"
 								}
 
@@ -114,7 +128,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 56.0, 72.0, 102.0, 18.0 ],
+									"patching_rect" : [ 31.0, 50.0, 102.0, 18.0 ],
 									"text" : "loadmess interval 50"
 								}
 
@@ -156,7 +170,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "int", "int", "int", "int", "int" ],
-									"patching_rect" : [ 56.0, 136.0, 152.0, 36.0 ],
+									"patching_rect" : [ 31.0, 106.5, 152.0, 37.0 ],
 									"text" : "modifiers"
 								}
 
@@ -182,7 +196,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 391.0, 25.0, 25.0 ]
+									"patching_rect" : [ 97.5, 315.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -213,6 +227,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -272,7 +295,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 1 ],
+									"destination" : [ "obj-12", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-7", 4 ]
@@ -281,7 +304,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 1 ],
+									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-7", 3 ]
@@ -300,7 +323,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 60.0, 88.0, 48.0, 18.0 ],
+					"patching_rect" : [ 60.0, 88.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -314,7 +337,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p"
+					"text" : "p handleKeys"
 				}
 
 			}
@@ -382,7 +405,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.0, 432.0, 152.0, 47.0 ],
+					"patching_rect" : [ 300.0, 432.0, 159.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 140.0, 20.0, 193.0, 34.0 ],
@@ -662,7 +685,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 216.0, 156.0, 41.0 ],
+					"patching_rect" : [ 436.0, 216.0, 162.0, 41.0 ],
 					"text" : "arg1: file to load by default\narg2: number of slots to manage\narg3: store/recall flag"
 				}
 
@@ -1023,8 +1046,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
+				"name" : "OSC-route.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}
