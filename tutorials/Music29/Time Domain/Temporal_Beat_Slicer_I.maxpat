@@ -31,6 +31,21 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 312.0, 840.0, 93.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 364.0, 828.0, 93.0, 20.0 ],
+					"text" : "Tempo_Tracker"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1078,7 +1093,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u346009571"
+									"varname" : "u037012510"
 								}
 
 							}
@@ -2529,9 +2544,44 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "noise-gate~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"name" : "nothing.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"patcherrelativepath" : "../../../modules/basic-programming",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tempo_Tracker.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "audition-soundfiles~.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/Soundfiles-sampling",
+				"patcherrelativepath" : "../../../applications/Soundfiles-sampling",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multibuf.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Soundfiles-sampling/multibuf",
+				"patcherrelativepath" : "../../../modules/Soundfiles-sampling/multibuf",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "samp-nt-l.voi.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
+				"patcherrelativepath" : "../../../modules/Soundfiles-sampling/MSP_Samplers/voices",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "addpath.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Utilities",
+				"patcherrelativepath" : "../../../modules/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
