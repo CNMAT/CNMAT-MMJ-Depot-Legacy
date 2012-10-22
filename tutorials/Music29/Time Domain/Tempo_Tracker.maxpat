@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 21.0, 60.0, 619.0, 381.0 ],
+		"rect" : [ 12.0, 55.0, 619.0, 381.0 ],
 		"bgcolor" : [ 0.262535, 0.297531, 0.33485, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -150,7 +150,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 648.0, 61.0, 113.0, 328.0 ],
+						"rect" : [ 648.0, 60.0, 113.0, 328.0 ],
 						"bgcolor" : [ 0.931175, 1.0, 0.910122, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -170,7 +170,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
