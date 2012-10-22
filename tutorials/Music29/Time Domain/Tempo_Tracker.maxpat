@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 21.0, 61.0, 619.0, 381.0 ],
+		"rect" : [ 21.0, 60.0, 619.0, 381.0 ],
 		"bgcolor" : [ 0.262535, 0.297531, 0.33485, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -920,7 +920,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "tempo_tracker", "tap tempo spacebar and send resulting tempo out", "0. 0. 0." ],
+					"args" : [ "tempo_tracker", "tap tempo spacebar and send resulting tempo out", "0.131 0.38 0.514" ],
 					"id" : "obj-30",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
