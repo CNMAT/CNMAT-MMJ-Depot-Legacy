@@ -8,7 +8,7 @@
 		}
 ,
 		"rect" : [ 2.0, 45.0, 1446.0, 781.0 ],
-		"bgcolor" : [ 0.87451, 0.87451, 0.87451, 1.0 ],
+		"bgcolor" : [ 0.468856, 0.672921, 0.8, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 204.0, 304.0, 93.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 215.0, 304.0, 93.0, 20.0 ],
+					"text" : "Tempo_Tracker"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -114,7 +129,7 @@
 ,
 					"patching_rect" : [ 104.0, 960.0, 159.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 488.0, 159.0, 31.0 ],
+					"presentation_rect" : [ 12.0, 488.0, 352.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -380,7 +395,6 @@
 , 			{
 				"box" : 				{
 					"args" : [ 1, 2, "pes_sampmap" ],
-					"bgmode" : 1,
 					"id" : "obj-34",
 					"maxclass" : "bpatcher",
 					"name" : "polyrhythm_small_samp.maxpat",
@@ -397,7 +411,6 @@
 , 			{
 				"box" : 				{
 					"args" : [ 2, 2, "pes_sampmap" ],
-					"bgmode" : 1,
 					"id" : "obj-35",
 					"maxclass" : "bpatcher",
 					"name" : "polyrhythm_small_samp.maxpat",
@@ -414,7 +427,6 @@
 , 			{
 				"box" : 				{
 					"args" : [ 3, 3, "pes_sampmap" ],
-					"bgmode" : 1,
 					"id" : "obj-36",
 					"maxclass" : "bpatcher",
 					"name" : "polyrhythm_small_samp.maxpat",
@@ -431,7 +443,6 @@
 , 			{
 				"box" : 				{
 					"args" : [ 4, 4, "pes_sampmap" ],
-					"bgmode" : 1,
 					"id" : "obj-37",
 					"maxclass" : "bpatcher",
 					"name" : "polyrhythm_small_samp.maxpat",
@@ -448,7 +459,6 @@
 , 			{
 				"box" : 				{
 					"args" : [ 5, 5, "pes_sampmap" ],
-					"bgmode" : 1,
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "polyrhythm_small_samp.maxpat",
@@ -1561,7 +1571,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 228.0, 216.0, 61.0, 20.0 ],
-					"restore" : [ 120.0 ],
+					"restore" : [ 141.588196 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2213,7 +2223,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u800004451"
+									"varname" : "u964003290"
 								}
 
 							}
@@ -2652,7 +2662,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Polyrhythm-Explorer-Samp", "explore rhythmic levels in a 60 beat cycle" ],
+					"args" : [ "Polyrhythm-Explorer-Samp", "explore rhythmic levels in a 60 beat cycle", "1 1 1 0." ],
 					"id" : "obj-31",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -2662,7 +2672,7 @@
 					"offset" : [ -18.0, -67.0 ],
 					"patching_rect" : [ 12.0, 16.0, 348.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 373.0, 72.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 404.0, 72.0 ],
 					"prototypename" : "cnmat_banner"
 				}
 
@@ -3181,6 +3191,41 @@
 				"name" : "nothing.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../../modules/basic-programming",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tempo_Tracker.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "audition-soundfiles~.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/Soundfiles-sampling",
+				"patcherrelativepath" : "../../../applications/Soundfiles-sampling",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multibuf.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Soundfiles-sampling/multibuf",
+				"patcherrelativepath" : "../../../modules/Soundfiles-sampling/multibuf",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "samp-nt-l.voi.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
+				"patcherrelativepath" : "../../../modules/Soundfiles-sampling/MSP_Samplers/voices",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "addpath.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Utilities",
+				"patcherrelativepath" : "../../../modules/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

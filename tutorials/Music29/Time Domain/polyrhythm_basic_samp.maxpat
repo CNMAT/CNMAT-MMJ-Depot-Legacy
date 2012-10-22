@@ -925,7 +925,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u672004634"
+					"varname" : "u928003822"
 				}
 
 			}
@@ -2931,20 +2931,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 196.0, 67.0, 20.0, 20.0 ],
 					"varname" : "mute-state"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.803922, 0.85098, 0.858824, 1.0 ],
-					"id" : "obj-3",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 12.0, 28.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 1068.0, 106.871056 ],
-					"rounded" : 4
 				}
 
 			}
