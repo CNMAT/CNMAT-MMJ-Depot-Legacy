@@ -184,7 +184,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -234,8 +233,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 546.5, 195.0, 50.0, 20.0 ],
-									"presentation_rect" : [ 547.0, 193.0, 0.0, 0.0 ]
+									"patching_rect" : [ 546.5, 195.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -973,7 +971,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-15",
-					"items" : [ "sminimark1", ",", "sminimark2", ",", "sminimark3", ",", "sminimark4", ",", "sminimark5", ",", "sminimark6", ",", "sminimark7", ",", "sminimarkTW1", ",", "sminimarkTW2", ",", "sminimarkTW3", ",", "sminimarkTW4", ",", "sminimarkTW5", ",", "tw_minimark1" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
