@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 0
 		}
 ,
 		"rect" : [ 354.0, 81.0, 1022.0, 795.0 ],
@@ -55,8 +55,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 0
 						}
 ,
 						"rect" : [ 354.0, 107.0, 1022.0, 769.0 ],
@@ -170,7 +170,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 65.0, 212.0, 489.0, 237.0 ],
+									"patching_rect" : [ 65.0, 212.0, 500.0, 300.0 ],
 									"presentation_rect" : [ 15.0, 15.0, 500.0, 300.0 ],
 									"varname" : "jsui"
 								}
@@ -384,8 +384,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 0
 										}
 ,
 										"rect" : [ 25.0, 69.0, 807.0, 529.0 ],
@@ -407,6 +407,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -601,8 +602,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 0
 														}
 ,
 														"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -1037,8 +1038,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 0
 														}
 ,
 														"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -2755,6 +2756,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-56", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2833,8 +2843,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 0
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1022.0, 769.0 ],
