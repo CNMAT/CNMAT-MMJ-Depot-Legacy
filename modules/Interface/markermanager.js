@@ -13,10 +13,6 @@ var mouseflag = new Boolean();
 var alt_color = [0.996, 0.204, 0.804, 1.];
 var main_color = [0., 0.447, 0.780, 1.];
 
-//these might not work w/r/t copying states of the object itself.
-//declareattribute("alt_color");
-//declareattribute("main_color");
-
 mgraphics.init();
 mgraphics.autofill = 0;
 mgraphics.relative_coords = 1;
@@ -26,8 +22,6 @@ function output_ondrag(a){
 }
 
 function loadbang(){
-    //post('loadbang got called\n');
-    recalc();
     var fl = mgraphics.getfontlist();
     for(i=0; i<fl.length-1; i++){
 	if(fl[i] == "Helvetica"){
@@ -42,26 +36,23 @@ function loadbang(){
 
 function offset(a){
     offset = a;
-    //recalc();
     mgraphics.redraw();
 }
 
-function recalc(){
+function paint(){
+
     width = mgraphics.size[0];
     height = mgraphics.size[1];
     aspect = width / height;
-    //post('aspect is: ', aspect, '\n');
-}
 
-function paint(){
     if(all_lines.length){
 	var loc = new Number();
 
 	with(mgraphics){
 	    for(i = 0; i < all_lines.length; i++){
-		var currlineval = all_lines[i];
-		loc = Math.floor(currlineval * width);
+		var loc = all_lines[i];
 		temptext = (i + offset).toString();
+
 		if(activeval > -1){ 
 		    if(i == activeval){
 			drawline(loc, alt_color, temptext, lsize);
@@ -76,39 +67,15 @@ function paint(){
     }
 }
 
-function s2w(x, y){
-    return sketch.screentoworld(x, y);
-}
-
 function drawline(xloc, colortype, text, size){
-
-    var aspectc = new Array(2);
-
     mgraphics.set_source_rgba(colortype);
     mgraphics.set_line_width(size);
-
-    //scale x to -aspect to aspect and leave y alone
-
-    var moveloc = s2w(xloc, 0);
-    //aspectc[0] = aspect * moveloc[0];
-    //aspectc[1] = moveloc[1];
-    //mgraphics.move_to(aspectc[0], aspectc[1]);
-    mgraphics.move_to(moveloc[0], moveloc[1]);
-
-    var lineloc = s2w(xloc, height);
-    //aspectc[0] = aspect * moveloc[0];
-    //aspectc[1] = lineloc[1];
-    //mgraphics.line_to(aspectc[0], aspectc[1]);
-    mgraphics.line_to(lineloc[0], lineloc[1]);
-
+    var placex = xloc * aspect;
+    mgraphics.move_to(placex, -1);
+    mgraphics.line_to(placex, 1);
     mgraphics.stroke();
-
-    var textloc = s2w(xloc + 4, 10);
-    //aspectc[0] = aspect * textloc[0];
-    //aspectc[1] = textloc[1];
-    //mgraphics.move_to(aspectc[0], aspectc[1]);
-    mgraphics.move_to(textloc[0], textloc[1]);
-
+    var textloc = placex + 0.031;
+    mgraphics.move_to(textloc, 1 * 0.85);
     mgraphics.select_font_face(currfont);
     mgraphics.set_font_size(9);
     mgraphics.text_path(text);
@@ -117,9 +84,12 @@ function drawline(xloc, colortype, text, size){
 
 function anything(){
     var a = arrayfromargs(arguments);
+    //scale array
+    for(i=0; i<a.length; i++){
+	a[i] = (a[i] * 2.) - 1.;
+    }
     activeval = -1;
     all_lines = a;
-    recalc();
     mgraphics.redraw();
 }
 
@@ -130,7 +100,7 @@ function getmarkers(){
 	var currval = 0;
 	for(i=0; i<doublelen; i+=2){
 	    outarray[i] = currval + offset;
-	    outarray[i+1] = all_lines[currval]
+	    outarray[i+1] = (all_lines[currval] * 0.5) + 0.5;
 	    currval++;
 	}
 	outlet(0, "markers", outarray);
@@ -140,7 +110,7 @@ function getmarkers(){
 }
 
 function getmarker(a){
-    var currval = all_lines[a - offset];
+    var currval = (all_lines[a - offset] * 0.5) + 0.5;
     outlet(0, "marker", a, currval);
 }
 
@@ -164,18 +134,11 @@ function ondrag(x, y, button){
 function handleclick(x){
     if(all_lines.length && activeval > -1){
 	thisx = x / width;
-	all_lines[activeval] = thisx;
+	all_lines[activeval] = (thisx * 2.) - 1.;
 	mgraphics.redraw();
 	outlet(0, "current", activeval + offset, all_lines[activeval])
     }
 }
-
-/*
-function onresize(){
-    recalc();
-    mgraphics.redraw();
-}
-*/
 
 function clear(){
     activeval = -1;
