@@ -36,7 +36,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 430.0, 225.0, 72.0, 20.0 ],
-					"text" : "loadmess 0"
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -129,6 +129,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"frgb" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -145,6 +146,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"frgb" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2074,7 +2076,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"frgb" : 0.0,
-					"hidden" : 1,
 					"id" : "obj-72",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2105,7 +2106,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"frgb" : 0.0,
-					"hidden" : 1,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2127,7 +2127,6 @@
 					"interval" : 15,
 					"markercolor" : [ 0.721569, 0.721569, 0.721569, 1.0 ],
 					"maxclass" : "spectroscope~",
-					"monochrome" : 0,
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -2138,6 +2137,7 @@
 					"range" : [ 0.0, 1.068065 ],
 					"rounded" : 0,
 					"scroll" : 3,
+					"sono" : 1,
 					"sonomedcolor" : [ 0.0, 0.74902, 0.498039, 1.0 ],
 					"sonomedhicolor" : [ 1.0, 0.74902, 0.0, 1.0 ],
 					"sonomedlocolor" : [ 0.498039, 0.0, 0.498039, 1.0 ]
