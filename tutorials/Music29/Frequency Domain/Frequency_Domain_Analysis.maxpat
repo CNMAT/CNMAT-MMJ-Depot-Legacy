@@ -30,20 +30,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 263.0, 145.0, 124.0, 20.0 ],
-					"text" : "receive~ aux_receive"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -951,7 +937,6 @@
 								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "jit.pwindow",
-									"name" : "spect",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
@@ -2030,8 +2015,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 250.0, 105.0, 176.0, 20.0 ],
-					"text" : "receive~ freq_domain_analysis"
+					"patching_rect" : [ 250.0, 105.0, 184.0, 20.0 ],
+					"text" : "receive~ freq_domain_analysisL"
 				}
 
 			}
@@ -2394,15 +2379,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}
