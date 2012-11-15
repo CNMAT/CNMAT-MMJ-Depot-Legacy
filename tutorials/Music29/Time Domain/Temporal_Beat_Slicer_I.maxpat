@@ -59,7 +59,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "music29" ],
+					"args" : [ "freq_domain_analysis" ],
 					"id" : "obj-65",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",
@@ -1093,7 +1093,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u037012510"
+									"varname" : "u930006434"
 								}
 
 							}

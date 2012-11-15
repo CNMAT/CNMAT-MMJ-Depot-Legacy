@@ -556,7 +556,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "music29" ],
+					"args" : [ "freq_domain_analysis" ],
 					"background" : 0,
 					"bgcolor" : [ 0.571038, 0.680207, 0.680207, 1.0 ],
 					"bgmode" : 2,
@@ -4427,16 +4427,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "noise-gate~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"name" : "nothing.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"patcherrelativepath" : "../../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4455,20 +4448,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sinusoids~.mxo",
 				"type" : "iLaX"
 			}
@@ -4478,10 +4457,6 @@
 			}
 , 			{
 				"name" : "list-interpolate.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
  ]

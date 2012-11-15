@@ -363,7 +363,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "music29" ],
+					"args" : [ "freq_domain_analysis" ],
 					"id" : "obj-19",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",
@@ -430,7 +430,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 896.0, 604.0, 833.0, 195.0 ],
+					"patching_rect" : [ 896.0, 604.0, 834.0, 195.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
 					"presentation_rect" : [ 7.0, 146.0, 964.0, 166.0 ],
@@ -1094,38 +1094,6 @@
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "noise-gate~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

@@ -58,7 +58,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "music29" ],
+					"args" : [ "freq_domain_analysis" ],
 					"id" : "obj-22",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",

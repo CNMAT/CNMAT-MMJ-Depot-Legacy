@@ -36,7 +36,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 349.5, 296.0, 35.0, 16.0 ],
-					"presentation_rect" : [ 756.75, 103.0, 0.0, 0.0 ],
 					"text" : "/clear"
 				}
 
@@ -448,7 +447,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "music29" ],
+					"args" : [ "freq_domain_analysis" ],
 					"id" : "obj-17",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",

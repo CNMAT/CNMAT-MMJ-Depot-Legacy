@@ -211,7 +211,6 @@
 					}
 ,
 					"patching_rect" : [ 340.0, 80.0, 73.0, 20.0 ],
-					"presentation_rect" : [ 353.0, 76.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -298,8 +297,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 210.0, 140.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 323.0, 124.0, 0.0, 0.0 ]
+									"patching_rect" : [ 210.0, 140.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -471,7 +469,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1028.0, 630.0 ],
+						"rect" : [ 25.0, 95.0, 1028.0, 630.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -492,6 +490,21 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 420.0, 430.0, 130.0, 18.0 ],
+									"presentation_rect" : [ 421.0, 429.0, 0.0, 0.0 ],
+									"text" : "strawberries"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -631,6 +644,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -642,7 +664,6 @@
 					}
 ,
 					"patching_rect" : [ 420.0, 80.0, 63.0, 20.0 ],
-					"presentation_rect" : [ 64.0, 178.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -676,7 +697,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 25.0, 95.0, 1028.0, 630.0 ],
+						"rect" : [ 0.0, 26.0, 1028.0, 630.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -700,13 +721,27 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-52",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 410.0, 460.0, 150.0, 114.0 ],
+									"text" : "a dictionary can be given a name as its argument, which allows you to access its data by reference.  you can change this name dynamically by using the name \"x\" message."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-50",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 740.0, 190.0, 117.0, 18.0 ],
-									"presentation_rect" : [ 665.25, 166.0, 0.0, 0.0 ]
+									"patching_rect" : [ 740.0, 190.0, 117.0, 18.0 ]
 								}
 
 							}
@@ -719,7 +754,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 670.0, 190.0, 56.0, 20.0 ],
-									"presentation_rect" : [ 615.0, 232.5, 0.0, 0.0 ],
 									"text" : "dict.print"
 								}
 
@@ -812,7 +846,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 740.0, 458.0, 44.0, 18.0 ],
-									"presentation_rect" : [ 711.25, 319.0, 0.0, 0.0 ],
 									"text" : "get $1"
 								}
 
@@ -855,7 +888,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 624.583313, 498.0, 57.0, 20.0 ],
-									"presentation_rect" : [ 855.0, 461.0, 0.0, 0.0 ],
 									"text" : "zl slice 1"
 								}
 
@@ -874,7 +906,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 729.0, 278.0, 208.0, 88.0 ],
-									"presentation_rect" : [ 971.0, 335.0, 0.0, 0.0 ],
 									"text" : "if a list of values exists as the value field of a given key, we can access these data just like we would with an array in other languages with square brackets."
 								}
 
@@ -888,8 +919,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 260.0, 550.0, 110.0, 18.0 ],
-									"presentation_rect" : [ 193.0, 531.0, 0.0, 0.0 ]
+									"patching_rect" : [ 260.0, 550.0, 110.0, 18.0 ]
 								}
 
 							}
@@ -934,7 +964,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 336.0, 335.0, 208.0, 88.0 ],
-									"presentation_rect" : [ 344.0, 330.0, 0.0, 0.0 ],
 									"text" : "to output a value that is set in a dictionary, we use the get message.  notice that the key also comes out.  I typically deal with this by using [zl slice 1]."
 								}
 
@@ -949,7 +978,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 230.0, 370.0, 103.0, 18.0 ],
-									"presentation_rect" : [ 227.0, 368.0, 0.0, 0.0 ],
 									"text" : "get just_numbers"
 								}
 
@@ -963,8 +991,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 96.0, 510.0, 190.0, 18.0 ],
-									"presentation_rect" : [ 150.0, 429.0, 0.0, 0.0 ]
+									"patching_rect" : [ 96.0, 510.0, 190.0, 18.0 ]
 								}
 
 							}
@@ -979,7 +1006,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 766.25, 531.5, 91.0, 31.0 ],
-									"presentation_rect" : [ 820.0, 302.0, 0.0, 0.0 ],
 									"text" : "numbers one two three"
 								}
 
@@ -994,7 +1020,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 624.583313, 531.5, 57.0, 18.0 ],
-									"presentation_rect" : [ 697.0, 323.0, 0.0, 0.0 ],
 									"text" : "4"
 								}
 
@@ -1009,7 +1034,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 606.25, 348.0, 117.0, 18.0 ],
-									"presentation_rect" : [ 674.0, 185.0, 0.0, 0.0 ],
 									"text" : "get just_numbers[3]"
 								}
 
@@ -1045,8 +1069,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 310.0, 144.0, 260.0, 88.0 ],
-									"presentation_rect" : [ 198.0, 143.0, 0.0, 0.0 ],
+									"patching_rect" : [ 310.0, 144.0, 236.0, 88.0 ],
 									"text" : "herea are various differing ways to store what dictionaries refer to as \"keys\".  notice the difference in usage between coll's \"insert\" or \"store\" messages.  pretty simple."
 								}
 
@@ -1090,7 +1113,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 160.0, 290.0, 190.0, 18.0 ],
-									"presentation_rect" : [ 224.0, 283.0, 0.0, 0.0 ],
 									"text" : "set numbers_as_both \"1 2\" 3"
 								}
 
@@ -1105,7 +1127,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 140.0, 200.0, 146.0, 18.0 ],
-									"presentation_rect" : [ 143.0, 220.0, 0.0, 0.0 ],
 									"text" : "numbers_as_both \"1 2\" 3"
 								}
 
@@ -1120,7 +1141,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 110.0, 170.0, 143.0, 18.0 ],
-									"presentation_rect" : [ 116.0, 168.0, 0.0, 0.0 ],
 									"text" : "just_numbers 1 2 3 4 5 6"
 								}
 
@@ -1352,7 +1372,6 @@
 					}
 ,
 					"patching_rect" : [ 60.0, 80.0, 49.0, 20.0 ],
-					"presentation_rect" : [ 63.0, 80.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",

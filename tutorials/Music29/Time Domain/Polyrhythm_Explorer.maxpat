@@ -149,7 +149,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "music29" ],
+					"args" : [ "freq_domain_analysis" ],
 					"id" : "obj-44",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",
@@ -627,7 +627,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 136.0, 380.0, 85.0, 20.0 ],
-									"presentation_rect" : [ 133.25, 383.0, 0.0, 0.0 ],
 									"text" : "prepend store"
 								}
 
@@ -2292,7 +2291,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u320002027"
+									"varname" : "u306008136"
 								}
 
 							}

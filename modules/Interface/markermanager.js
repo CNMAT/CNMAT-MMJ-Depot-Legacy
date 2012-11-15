@@ -1,17 +1,22 @@
-autowatch = 1;
+//autowatch = 1;
 outlets = 2;
 
 var all_lines = new Array(0);
 var activeval = -1; //-1 means inactive
 var offset = 0;
 var ssize = 0.01;
+var msize = 0.02;
 var lsize = 0.03;
-var width, height, aspect = new Number();
+var width, height, aspect, cursor = new Number();
 var currfont;
 var mouseflag = new Boolean();
-
 var alt_color = [0.996, 0.204, 0.804, 1.];
 var main_color = [0., 0.447, 0.780, 1.];
+var cursor_color = [0., 0., 0., 1.];
+
+declareattribute("alt_color");
+declareattribute("main_color");
+declareattribute("cursor_color");
 
 mgraphics.init();
 mgraphics.autofill = 0;
@@ -40,15 +45,27 @@ function offset(a){
 }
 
 function paint(){
-
     width = mgraphics.size[0];
     height = mgraphics.size[1];
     aspect = width / height;
 
-    if(all_lines.length){
-	var loc = new Number();
+    with(mgraphics){
 
-	with(mgraphics){
+	//draw cursor
+	if(cursor){
+	    var placex = scalenum(cursor) * aspect;
+
+	    set_source_rgba(cursor_color);
+	    set_line_width(msize);
+	    move_to(placex, -1);
+	    line_to(placex, 1); 
+	    stroke();
+	}
+
+	if(all_lines.length){
+	    var loc = new Number();
+
+	    //draw markers
 	    for(i = 0; i < all_lines.length; i++){
 		var loc = all_lines[i];
 		temptext = (i + offset).toString();
@@ -67,6 +84,10 @@ function paint(){
     }
 }
 
+function scalenum(a){
+    return (a * 2.) - 1.;
+}
+
 function drawline(xloc, colortype, text, size){
     mgraphics.set_source_rgba(colortype);
     mgraphics.set_line_width(size);
@@ -75,7 +96,7 @@ function drawline(xloc, colortype, text, size){
     mgraphics.line_to(placex, 1);
     mgraphics.stroke();
     var textloc = placex + 0.031;
-    mgraphics.move_to(textloc, 1 * 0.85);
+    mgraphics.move_to(textloc, 1 * 0.8);
     mgraphics.select_font_face(currfont);
     mgraphics.set_font_size(9);
     mgraphics.text_path(text);
@@ -86,11 +107,16 @@ function anything(){
     var a = arrayfromargs(arguments);
     //scale array
     for(i=0; i<a.length; i++){
-	a[i] = (a[i] * 2.) - 1.;
+	a[i] = scalenum(a[i]);
     }
     activeval = -1;
     all_lines = a;
     mgraphics.redraw();
+}
+
+function msg_float(a){
+    cursor = a;
+    mgraphics.redraw(); 
 }
 
 function getmarkers(){
@@ -134,7 +160,7 @@ function ondrag(x, y, button){
 function handleclick(x){
     if(all_lines.length && activeval > -1){
 	thisx = x / width;
-	all_lines[activeval] = (thisx * 2.) - 1.;
+	all_lines[activeval] = scalenum(thisx);
 	mgraphics.redraw();
 	outlet(0, "current", activeval + offset, all_lines[activeval])
     }

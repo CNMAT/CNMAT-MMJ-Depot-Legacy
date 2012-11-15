@@ -43,7 +43,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "music29" ],
+					"args" : [ "freq_domain_analysis" ],
 					"id" : "obj-25",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",
@@ -1250,9 +1250,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "noise-gate~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"name" : "nothing.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"patcherrelativepath" : "../../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
-		"rect" : [ 330.0, 117.0, 640.0, 480.0 ],
+		"rect" : [ 910.0, 449.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -35,8 +35,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 310.0, 142.0, 20.0 ],
-					"text" : "loadmess set send to #1"
+					"patching_rect" : [ 255.5, 305.0, 142.0, 20.0 ],
+					"text" : "loadmess set to: #1"
 				}
 
 			}
@@ -45,14 +45,15 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 255.5, 335.0, 134.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 134.0, 18.0 ],
-					"text" : "send to #1"
+					"presentation_rect" : [ 0.0, 0.0, 160.0, 18.0 ],
+					"text" : "to: #1"
 				}
 
 			}
@@ -143,9 +144,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 35.0, 250.0, 135.0, 49.0 ],
+					"patching_rect" : [ 35.0, 250.0, 135.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 5.0, 140.0, 49.0 ],
+					"presentation_rect" : [ 0.0, 5.0, 140.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_unitstyle" : 4,
@@ -171,7 +172,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 320.0, 122.0, 20.0 ],
+					"patching_rect" : [ 64.0, 320.0, 141.0, 20.0 ],
 					"text" : "send~ #1R"
 				}
 
@@ -184,7 +185,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 350.0, 110.0, 20.0 ],
+					"patching_rect" : [ 35.0, 350.0, 150.0, 20.0 ],
 					"text" : "send~ #1L"
 				}
 

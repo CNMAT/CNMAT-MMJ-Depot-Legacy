@@ -69,7 +69,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 635.75, 155.0, 32.5, 18.0 ],
-					"presentation_rect" : [ 639.0, 159.0, 0.0, 0.0 ],
 					"text" : "0"
 				}
 
@@ -804,7 +803,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "music29" ],
+					"args" : [ "freq_domain_analysis" ],
 					"id" : "obj-15",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",
@@ -1625,7 +1624,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 233.25, 165.0, 46.0, 15.0 ],
-									"presentation_rect" : [ 385.0, 61.0, 0.0, 0.0 ],
 									"text" : "0 0"
 								}
 
@@ -1638,8 +1636,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 390.0, 15.0, 15.0, 15.0 ],
-									"presentation_rect" : [ 394.0, 25.0, 0.0, 0.0 ]
+									"patching_rect" : [ 390.0, 15.0, 15.0, 15.0 ]
 								}
 
 							}
