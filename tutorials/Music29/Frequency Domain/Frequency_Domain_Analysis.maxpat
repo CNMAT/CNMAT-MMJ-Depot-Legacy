@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 4
 		}
 ,
-		"rect" : [ 11.0, 56.0, 645.0, 717.0 ],
+		"rect" : [ 15.0, 99.0, 645.0, 717.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,23 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-7",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 531.0, 232.0, 117.0, 38.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 17.5, 88.25, 131.0, 28.0 ],
+					"text" : "Send~ signal from anywhere \nin Max for analysis."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -100,7 +117,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -114,7 +130,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -128,7 +143,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
-					"frgb" : 0.0,
 					"hidden" : 1,
 					"id" : "obj-17",
 					"maxclass" : "comment",
@@ -145,7 +159,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
-					"frgb" : 0.0,
 					"hidden" : 1,
 					"id" : "obj-21",
 					"maxclass" : "comment",
@@ -193,7 +206,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -277,7 +289,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
 						"rect" : [ 416.0, 250.0, 1355.0, 714.0 ],
@@ -695,21 +707,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 110.0, 295.0, 89.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p demosounds"
@@ -721,6 +734,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -729,10 +743,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
-						"rect" : [ 109.0, 72.0, 584.0, 443.0 ],
+						"rect" : [ 18.0, 283.0, 584.0, 443.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -751,6 +765,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -783,7 +798,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-37",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -860,7 +874,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 741.0, 283.0 ],
@@ -886,33 +900,33 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 18.235268,
-													"frgb" : 0.0,
 													"id" : "obj-2",
 													"linecount" : 10,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 30.0, 15.0, 691.0, 210.0 ],
+													"patching_rect" : [ 30.0, 15.0, 691.0, 216.0 ],
 													"text" : "Four different modes are possible: in mode 0, all data since the last output is output in a one-dimensional matrix. In mode 1 the amount of buffered data that fits into a multiple of the framesize is output in two dimensions; data not output will be saved for the next time. In these first two modes, every sample collected should be output once and only once. In mode 2 a framesize of the most recent data is output. Mode 3 causes jit.catch~ to behave like an oscilloscope, triggering on channel trigchan when the signal crosses triglevel in the direction trigdir. If the threshold has not been passed for the duration of the entire internal data buffer (100 ms), jit.catch~ reverts temporarily to mode 2 behavior and outputs the most recent data until the threshold is crossed again."
 												}
 
 											}
  ],
-										"lines" : [  ]
+										"lines" : [  ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 30.0, 620.0, 101.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
+										"fontname" : "Arial",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
 										"globalpatchername" : "",
-										"tags" : ""
+										"description" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"tags" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p jitcatch_modes"
@@ -937,6 +951,7 @@
 								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "jit.pwindow",
+									"name" : "spect",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
@@ -1285,7 +1300,7 @@
 									"numinlets" : 9,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 30.0, 560.0, 210.0, 47.0 ],
+									"patching_rect" : [ 30.0, 560.0, 210.0, 48.0 ],
 									"text" : "jit.gl.mesh spect @lighting_enable 1 @auto_normals 1 @auto_colors 1 @draw_mode quad_grid"
 								}
 
@@ -1342,7 +1357,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 263.333313, 221.5, 201.666672, 68.0 ],
+									"patching_rect" : [ 263.333313, 221.5, 201.666672, 70.0 ],
 									"text" : "jit.gl.render spect @depth_enable 1 @erase_color 0. 0. 0. 1 @lighting_enable 1 @position 0. 0. -0.32 @rotate 80.35939 -0.644937 -0.461307 -0.6093"
 								}
 
@@ -1708,26 +1723,27 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 350.0, 480.0, 34.0, 20.0 ],
+					"patching_rect" : [ 350.0, 480.0, 34.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 532.0, 10.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 532.0, 10.0, 107.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : ""
 					}
 ,
-					"text" : "p 3d"
+					"text" : "p 3d-Spectrogram"
 				}
 
 			}
@@ -1779,7 +1795,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
 						"rect" : [ 633.0, 197.0, 208.0, 275.0 ],
@@ -1964,21 +1980,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 86.0, 180.0, 43.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p 4sfp"
@@ -2008,6 +2025,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.048516, 0.84, 0.069721, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
@@ -2015,8 +2033,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 250.0, 105.0, 184.0, 20.0 ],
-					"text" : "receive~ freq_domain_analysisL"
+					"patching_rect" : [ 310.0, 125.0, 99.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 154.0, 92.25, 99.0, 20.0 ],
+					"text" : "receive~ signalX"
 				}
 
 			}
@@ -2024,7 +2044,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2056,16 +2076,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-74",
 					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.0, 380.0, 117.0, 77.0 ],
+					"patching_rect" : [ 425.0, 380.0, 117.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 532.0, 328.0, 117.0, 77.0 ],
+					"presentation_rect" : [ 532.0, 328.0, 117.0, 79.0 ],
 					"text" : " sonogram analysis\nbreaks down and displays \nthe various partials or \nharmonics  of a complex \nwaveform that is \noscillating in the \nfrequency domain"
 				}
 
@@ -2074,7 +2093,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
-					"frgb" : 0.0,
 					"id" : "obj-72",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2104,7 +2122,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
-					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2146,6 +2163,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2385,44 +2403,30 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
-				"patcherrelativepath" : "../../../modules/basic-programming",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "GIFf",
+				"name" : "nothing",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/MELT_ME_OSX_120601/MeltME-viola_cello_OSX/viola-objects-abstractions",
+				"patcherrelativepath" : "../../../../MELT_ME_OSX_120601/MeltME-viola_cello_OSX/viola-objects-abstractions",
+				"type" : "maxb",
 				"implicit" : 1
 			}
  ]
