@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 523.0, 481.0 ],
@@ -447,7 +447,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "freq_domain_analysis" ],
+					"args" : [ "signalX" ],
 					"id" : "obj-17",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",

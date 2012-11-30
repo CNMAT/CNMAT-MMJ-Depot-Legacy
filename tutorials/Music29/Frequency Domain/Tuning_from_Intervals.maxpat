@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 10.0, 52.0, 1135.0, 895.0 ],
@@ -43,7 +43,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "freq_domain_analysis" ],
+					"args" : [ "signalX" ],
 					"id" : "obj-25",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",
@@ -163,7 +163,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 898.0, 293.0, 640.0, 480.0 ],
@@ -562,7 +562,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],

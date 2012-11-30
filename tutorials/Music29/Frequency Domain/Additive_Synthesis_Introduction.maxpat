@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 23.0, 56.0, 979.0, 720.0 ],
@@ -363,7 +363,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "freq_domain_analysis" ],
+					"args" : [ "signalX" ],
 					"id" : "obj-19",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",
@@ -430,7 +430,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 896.0, 604.0, 834.0, 195.0 ],
+					"patching_rect" : [ 896.0, 604.0, 838.0, 195.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
 					"presentation_rect" : [ 7.0, 146.0, 964.0, 166.0 ],

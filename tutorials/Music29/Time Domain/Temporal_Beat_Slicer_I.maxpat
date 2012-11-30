@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 8.0, 44.0, 1087.0, 888.0 ],
@@ -59,7 +59,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "freq_domain_analysis" ],
+					"args" : [ "signalX" ],
 					"id" : "obj-65",
 					"maxclass" : "bpatcher",
 					"name" : "aux_send.maxpat",
@@ -1053,7 +1053,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 721.0, 223.0, 378.0, 118.0 ],
@@ -1093,7 +1093,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u930006434"
+									"varname" : "u614009355"
 								}
 
 							}
