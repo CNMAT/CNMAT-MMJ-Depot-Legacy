@@ -30,6 +30,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 690.0, 30.0, 150.0, 20.0 ],
+					"text" : "-jml 2012"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-54",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -318,7 +332,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 56.5, 350.0, 86.0, 20.0 ],
-					"restore" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"restore" : [ 0.0, 0.0, 0.051282, -0.230769, -0.25641, -0.25641, -0.25641, -0.25641, -0.25641, -0.205128, -0.128205, -0.102564, -0.076923, -0.076923, 0.025641, 0.461538 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
