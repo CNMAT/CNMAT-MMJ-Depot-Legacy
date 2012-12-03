@@ -71,7 +71,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 39.0, 57.0, 618.0, 642.0 ],
+						"rect" : [ 39.0, 57.0, 613.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -93,6 +93,24 @@
 						"title" : "sinewave",
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 130.0, 730.0, 150.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 447.0, 607.0, 109.0, 24.0 ],
+									"text" : "frequency in hz"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -101,7 +119,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 200.0, 700.0, 50.0, 20.0 ]
+									"patching_rect" : [ 310.0, 720.0, 50.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 556.0, 608.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -127,7 +147,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
 									"patching_rect" : [ 50.0, 730.0, 50.0, 20.0 ],
-									"presentation_rect" : [ 48.0, 726.0, 0.0, 0.0 ],
 									"text" : "line~ 0."
 								}
 
@@ -142,7 +161,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 680.0, 47.0, 18.0 ],
-									"presentation_rect" : [ 240.0, 721.0, 0.0, 0.0 ],
 									"text" : "$1 100"
 								}
 
@@ -157,7 +175,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 33.0, 800.0, 36.0, 20.0 ],
-									"presentation_rect" : [ 222.0, 792.0, 0.0, 0.0 ],
 									"text" : "*~ 0."
 								}
 
@@ -245,7 +262,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ 220, 10200, 0, 2 ],
+									"args" : [ 100, 10200, 0, 2 ],
 									"id" : "obj-3",
 									"maxclass" : "bpatcher",
 									"name" : "mouse_controller.maxpat",
@@ -253,9 +270,9 @@
 									"numoutlets" : 3,
 									"offset" : [ -17.0, -17.0 ],
 									"outlettype" : [ "", "", "bang" ],
-									"patching_rect" : [ 190.0, 40.0, 610.0, 630.0 ],
+									"patching_rect" : [ 190.0, 40.0, 610.0, 610.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 610.0, 630.0 ]
+									"presentation_rect" : [ 0.0, 0.0, 610.0, 609.0 ]
 								}
 
 							}
@@ -1761,7 +1778,7 @@
 					"domain" : [ 0.0, 15000.0 ],
 					"fgcolor" : [ 1.0, 0.231373, 0.701961, 1.0 ],
 					"id" : "obj-36",
-					"interval" : 15,
+					"interval" : 0,
 					"markercolor" : [ 0.721569, 0.721569, 0.721569, 1.0 ],
 					"maxclass" : "spectroscope~",
 					"numinlets" : 2,
