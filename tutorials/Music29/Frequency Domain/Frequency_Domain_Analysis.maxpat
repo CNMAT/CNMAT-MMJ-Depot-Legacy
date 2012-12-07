@@ -71,7 +71,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 39.0, 57.0, 613.0, 636.0 ],
+						"rect" : [ 580.0, 131.0, 613.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -92,6 +92,20 @@
 						"tags" : "",
 						"title" : "sinewave",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 33.0, 790.0, 42.0, 20.0 ],
+									"text" : "*~ 0.4"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"bubbleside" : 3,
@@ -174,7 +188,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 33.0, 800.0, 36.0, 20.0 ],
+									"patching_rect" : [ 33.0, 760.0, 36.0, 20.0 ],
 									"text" : "*~ 0."
 								}
 
@@ -262,7 +276,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ 100, 10200, 0, 2 ],
+									"args" : [ 0, 2, 100, 10200 ],
 									"id" : "obj-3",
 									"maxclass" : "bpatcher",
 									"name" : "mouse_controller.maxpat",
@@ -334,7 +348,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
+									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-12", 0 ]
@@ -373,7 +387,7 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-3", 1 ]
 								}
 
 							}
@@ -382,7 +396,7 @@
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-3", 1 ]
 								}
 
 							}
@@ -391,7 +405,7 @@
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-3", 1 ]
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -401,6 +415,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -1778,7 +1801,7 @@
 					"domain" : [ 0.0, 15000.0 ],
 					"fgcolor" : [ 1.0, 0.231373, 0.701961, 1.0 ],
 					"id" : "obj-36",
-					"interval" : 0,
+					"interval" : 15,
 					"markercolor" : [ 0.721569, 0.721569, 0.721569, 1.0 ],
 					"maxclass" : "spectroscope~",
 					"numinlets" : 2,
