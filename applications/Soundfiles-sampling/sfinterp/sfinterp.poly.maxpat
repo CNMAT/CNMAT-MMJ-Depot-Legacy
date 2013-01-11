@@ -91,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 48.0, 236.0, 58.75, 20.0 ],
+					"patching_rect" : [ 86.25, 192.0, 58.75, 20.0 ],
 					"text" : "gate 2 1"
 				}
 
@@ -634,7 +634,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 87.75, 264.0, 126.0, 20.0 ],
+					"patching_rect" : [ 126.0, 220.0, 126.0, 20.0 ],
 					"text" : "regexp ^\\\\d\\\\d\\\\d_(.*)$"
 				}
 
@@ -922,10 +922,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.0, 640.0, 44.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -940,10 +936,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 668.0, 12.0, 30.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 3"
 				}
 
@@ -1028,10 +1020,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 441.0, 12.0, 30.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -1158,10 +1146,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.5, 12.0, 30.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -1224,15 +1208,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1246,6 +1221,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 1 ]
 				}
 
 			}
@@ -1399,15 +1383,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1741,15 +1716,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-63", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-64", 1 ]
 				}
 
 			}
