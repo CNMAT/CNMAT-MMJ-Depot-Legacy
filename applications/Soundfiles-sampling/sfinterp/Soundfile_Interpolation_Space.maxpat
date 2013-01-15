@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 4.0, 47.0, 1087.0, 726.0 ],
+		"rect" : [ 4.0, 47.0, 1065.0, 782.0 ],
 		"bgcolor" : [ 0.443137, 0.439216, 0.439216, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -28,6 +28,36 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-119",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 761.0, 880.0, 167.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 889.0, 720.0, 167.0, 20.0 ],
+					"text" : "Frequency_Domain_Analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "signalX" ],
+					"id" : "obj-116",
+					"maxclass" : "bpatcher",
+					"name" : "aux_send.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 761.0, 805.0, 140.0, 58.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 716.0, 712.0, 140.0, 58.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
@@ -337,13 +367,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-53",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 130.333344, 170.0, 32.0, 31.0 ],
-													"text" : "-0.01"
+													"patching_rect" : [ 130.333344, 170.0, 32.0, 18.0 ],
+													"text" : "-0.2"
 												}
 
 											}
@@ -357,7 +386,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 170.333344, 170.0, 32.0, 18.0 ],
-													"text" : "0.01"
+													"text" : "0.2"
 												}
 
 											}
@@ -366,13 +395,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-17",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 170.0, 32.5, 31.0 ],
-													"text" : "-0.01"
+													"patching_rect" : [ 50.0, 170.0, 32.5, 18.0 ],
+													"text" : "-0.2"
 												}
 
 											}
@@ -386,7 +414,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 90.333344, 170.0, 32.0, 18.0 ],
-													"text" : "0.01"
+													"text" : "0.2"
 												}
 
 											}
@@ -1426,19 +1454,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-51",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 824.0, 336.0, 77.0, 20.0 ],
-					"text" : "print exped?"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-85",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1895,7 +1910,6 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
-					"hidden" : 1,
 					"id" : "obj-90",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1912,7 +1926,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-91",
 					"maxclass" : "flonum",
 					"maximum" : 0.85,
@@ -1994,21 +2007,8 @@
 					"patching_rect" : [ 1146.5, 520.0, 152.0, 219.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 22,
-					"presentation_rect" : [ 940.0, 257.0, 116.0, 253.0 ],
+					"presentation_rect" : [ 940.0, 257.0, 120.0, 253.0 ],
 					"text" : "To get started:\n\nEither enable the layout mode or leave as is.\nDrop a folder of soundfiles onto the drop area.\nAfter sounds have loaded, you have options:\n\nIf layout: Select a soundfile and set its pan location, then audition it\nIf no layout: Click on 'place' and then click in the 2d space to place it.  Repeat until satisfied with the space setup.  Click-drag around the space to hear the sound files being mixed."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 624.0, 796.0, 100.0, 20.0 ],
-					"text" : "send~ sonogram"
 				}
 
 			}
@@ -2411,6 +2411,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-98",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -2457,6 +2458,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-73",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -2472,6 +2474,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-59",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -2528,6 +2531,7 @@
 , 			{
 				"box" : 				{
 					"floatoutput" : 1,
+					"hidden" : 1,
 					"id" : "obj-38",
 					"maxclass" : "slider",
 					"mult" : 0.01,
@@ -3026,6 +3030,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-154",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -3043,6 +3048,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-144",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
@@ -4327,6 +4333,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4347,6 +4354,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"hidden" : 1,
 					"id" : "obj-8",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
@@ -6215,7 +6223,7 @@
 					"patching_rect" : [ 72.0, 172.0, 267.0, 267.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 708.0, 708.0 ],
-					"spaces" : [ "space", 1, 0.0, 0.0, " ", 0.0, 0.0, 0.0, 1.0, -0.666667, 0.241171, 1.0, 0.001, 1 ],
+					"spaces" : [ "space", 0 ],
 					"varname" : "rbfi",
 					"xmin" : -1.0,
 					"ymin" : -1.0
@@ -6349,7 +6357,7 @@
 									"patching_rect" : [ 8.0, 444.0, 891.0, 179.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 16,
-									"presentation_rect" : [ 866.0, 426.0, 478.0, 258.0 ],
+									"presentation_rect" : [ 866.0, 426.0, 480.0, 258.0 ],
 									"text" : "* NOTES: \nYou may only use ONE instance of a soundfile in a given space layout.  Choosing a second instance will override the first.\nEach sound has a color.\n\nWhen dragging your cursor in the space, the loudness of that color is  based on how close you are to the middle of the color's circle.  The further you drag away from the middle, the softer the sound will be.  If you move into black away from a sound, it will become inaudible.  If you move the presets so that they overlap each other, consequentially you'll hear a mix of these sounds based on the proportion of colors you see in the space.\n\nIf you prefer, you may use the up/down/left/right arrow keys to navigate the space more carefully.  You can change the step size and time it takes to get to the new destination on the bottom right of the main screen, in the area named \"arrow key behavior\""
 								}
 
@@ -6446,7 +6454,7 @@
 									"patching_rect" : [ 8.0, 212.0, 856.0, 179.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 14,
-									"presentation_rect" : [ 851.0, 411.0, 620.0, 226.0 ],
+									"presentation_rect" : [ 851.0, 411.0, 623.0, 226.0 ],
 									"text" : "1. drag a folder with soundfiles from your computer to the drop area\n2. select soundfiles from the menu to audition, then click \"audition\" to preview\n3. shift-click-drag on the inner circle to position the soundfile\n* optional: set a panning position for the soundfile (click on 'set to center pan' button to center the pan)\n4. select \"place\", then click in the 2-D space to add the representation for the selected soundfile to the mix.\n5. MANIPULATE A SPACE: hold shift and click-drag inner and outer rings of files to place in xy box\n6. RECORD: begin recording by clicking on the \"RECORD\" toggle.  click-drag in the xy box; click the toggle again to end the recording.\n   a) hit play to hear what you've recorded (or stop)\n   b) hit saveas to write the recording to disk with a filename\n   c) hit read to read in a previously saved xy recording\n7. SAVE SPACE CONFIG: save and/or recall presets by clicking \"save\"/\"load\""
 								}
 
@@ -6513,7 +6521,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 468.0, 520.0, 100.0, 192.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 944.0, 8.0, 100.0, 192.0 ]
+					"presentation_rect" : [ 944.0, 8.0, 100.0, 161.0 ]
 				}
 
 			}
@@ -12321,7 +12329,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 684.0, 340.0, 28.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 6
+					"size" : 8
 				}
 
 			}
@@ -12356,6 +12364,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.580392, 0.623529, 0.635294, 1.0 ],
+					"hidden" : 1,
 					"id" : "obj-62",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -13355,15 +13364,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-82", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -13508,6 +13508,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-116", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-116", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-67", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -13598,15 +13616,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-95", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -13633,6 +13642,10 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-116::obj-24" : [ "live.gain~", " ", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "sfinterp.poly.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/Soundfiles-sampling/sfinterp",
@@ -13735,6 +13748,34 @@
 				"name" : "uc_disclaimer.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "aux_send.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
+				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Frequency_Domain_Analysis.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"patcherrelativepath" : "../../../tutorials/Music29/Frequency Domain",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nothing.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"patcherrelativepath" : "../../../modules/basic-programming",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mouse_controller.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Controllers/XY_control",
+				"patcherrelativepath" : "../../../modules/Controllers/XY_control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
