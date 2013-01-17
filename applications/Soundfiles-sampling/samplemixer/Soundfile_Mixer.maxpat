@@ -69,7 +69,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "(signal) audio to aux_send",
@@ -2447,7 +2446,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 197.0, 1190.0, 20.0 ],
 									"tabcolor" : [ 0.050391, 0.242884, 0.228552, 1.0 ],
-									"tabs" : [ "2", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+									"tabs" : [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
 									"textcolor" : [ 0.454902, 0.870588, 0.917647, 1.0 ]
 								}
 
@@ -3726,15 +3725,15 @@
 									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-5",
-									"linecount" : 6,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 300.0, 212.0, 362.0, 100.0 ],
+									"patching_rect" : [ 300.0, 212.0, 362.0, 85.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
-									"presentation_rect" : [ 12.0, 288.0, 479.0, 69.0 ],
-									"text" : "To edit:  click / click-drag anywhere in the rectangle above.  Your shape will be recorded and will play the various presets over time.  To address multiple events at once at a time (there are 50), you can use the quick-edit mode.  Clearing sets all steps to 0, which is ignored as an event.",
+									"presentation_rect" : [ 12.0, 288.0, 476.0, 69.0 ],
+									"text" : "To edit:  click / click-drag anywhere in the rectangle above.  Your shape will be recorded and will play the various presets over time.  Setting steps to 0 means that they will be ignored as events (previously playing events will still play).",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
