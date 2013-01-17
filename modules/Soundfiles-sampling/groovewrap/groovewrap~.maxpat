@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 14.0, 61.0, 399.0, 253.0 ],
+		"rect" : [ 14.0, 61.0, 405.0, 264.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4909,7 +4909,7 @@
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u151011818"
+					"varname" : "u556007177"
 				}
 
 			}
@@ -6240,6 +6240,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-82", 0 ]
