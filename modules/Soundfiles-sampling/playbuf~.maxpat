@@ -262,16 +262,16 @@
 ,
 					"patching_rect" : [ 436.0, 616.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"tags" : "",
-						"fontname" : "Arial",
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p detect_channels"
@@ -725,7 +725,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 75.0, 550.0, 39.0, 20.0 ],
+					"patching_rect" : [ 56.0, 529.0, 326.0, 20.0 ],
 					"text" : "line~"
 				}
 
@@ -887,6 +887,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -900,15 +909,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-18", 2 ]
 				}
 
 			}
