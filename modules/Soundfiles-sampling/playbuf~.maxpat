@@ -262,16 +262,16 @@
 ,
 					"patching_rect" : [ 436.0, 616.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"digest" : "",
+						"fontsize" : 10.0,
+						"tags" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p detect_channels"
@@ -711,8 +711,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "" ],
-					"patching_rect" : [ 393.0, 334.0, 135.0, 20.0 ],
-					"text" : "info~ foo"
+					"patching_rect" : [ 393.0, 333.0, 113.5, 20.0 ],
+					"text" : "info~ do-not-worry"
 				}
 
 			}
@@ -739,8 +739,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 76.0, 596.0, 139.509598, 20.0 ],
-					"text" : "play~ foo 2"
+					"patching_rect" : [ 76.0, 596.0, 120.0, 20.0 ],
+					"text" : "play~ do-not-worry 2"
 				}
 
 			}
