@@ -37,8 +37,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 343.0, 464.0, 180.0, 20.0 ],
-					"text" : "buffer~ do-not-worry @samps 1"
+					"patching_rect" : [ 343.0, 464.0, 145.0, 20.0 ],
+					"text" : "buffer~ do-not-worry 0.01"
 				}
 
 			}
