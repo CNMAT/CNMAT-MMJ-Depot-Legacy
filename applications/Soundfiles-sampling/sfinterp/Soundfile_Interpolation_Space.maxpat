@@ -6517,7 +6517,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 468.0, 520.0, 100.0, 192.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 944.0, 8.0, 100.0, 161.0 ]
+					"presentation_rect" : [ 944.0, 8.0, 100.0, 190.0 ]
 				}
 
 			}
