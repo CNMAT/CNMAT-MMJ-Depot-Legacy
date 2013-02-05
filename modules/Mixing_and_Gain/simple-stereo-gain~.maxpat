@@ -292,6 +292,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"ghostbar" : 100,
 					"id" : "obj-27",
 					"maxclass" : "multislider",
@@ -388,8 +390,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor2" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"bgcolor2" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
@@ -400,7 +402,7 @@
 					"patching_rect" : [ 392.0, 244.0, 96.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 142.0, 96.0, 16.0 ],
-					"text" : "audio off",
+					"text" : "audio on",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
