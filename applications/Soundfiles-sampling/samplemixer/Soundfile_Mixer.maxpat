@@ -4948,7 +4948,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "samplemixer", "1.0b", "Campion/Zbyszynski/Lubow", "samplemixer", 2512 ],
+					"args" : [ "Soundfile_Mixer", "1.0b", "Campion/Zbyszynski/Lubow", "samplemixer", 2512 ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -4976,7 +4976,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "samplemixer", "create phrases with multichannel soundfile playback, then mix down" ],
+					"args" : [ "Soundfile_Mixer", "create phrases with multichannel soundfile playback, then mix down" ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
