@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 14.0, 61.0, 405.0, 264.0 ],
+		"rect" : [ 167.0, 124.0, 505.0, 345.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,7 +27,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"title" : "#1",
+		"title" : "gw1",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -2655,7 +2655,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 243.0, 144.0, 18.0, 18.0 ],
 					"size" : 1,
-					"values" : [ 0 ]
+					"values" : [ 1 ]
 				}
 
 			}
@@ -2835,7 +2835,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 113.777832, 259.0, 81.0, 20.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0, 3000 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2870,6 +2870,7 @@
 					"fontsize" : 8.0,
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 					"id" : "obj-43",
+					"ignoreclick" : 1,
 					"maxclass" : "flonum",
 					"minimum" : 0.0,
 					"numinlets" : 1,
@@ -2879,6 +2880,7 @@
 					"patching_rect" : [ 329.777832, 283.0, 75.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 132.0, 208.0, 80.0, 15.0 ],
+					"triangle" : 0,
 					"triscale" : 0.9
 				}
 
@@ -3099,7 +3101,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1460.0, 24.0, 72.0, 18.0 ],
-					"restore" : [ 864.285767 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -3119,7 +3121,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 817.777832, 131.0, 69.0, 18.0 ],
-					"restore" : [ 1117.505737 ],
+					"restore" : [ 3451.065674 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -3139,7 +3141,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 675.555603, 131.0, 58.0, 18.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -3184,7 +3186,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 72.277832, 145.5, 131.0, 17.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ "sho" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -4932,11 +4934,11 @@
 					"patching_rect" : [ 780.0, 532.0, 125.0, 17.0 ],
 					"restore" : 					{
 						"delaystart" : [ 0.0 ],
-						"transposition" : [ 0.0 ]
+						"transposition" : [ 85.0 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u063008121"
+					"varname" : "u581001826"
 				}
 
 			}
@@ -6660,60 +6662,6 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
-				"patcherrelativepath" : "../../basic-programming",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pan+amp~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Diffusion",
-				"patcherrelativepath" : "../../Diffusion",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route..mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
