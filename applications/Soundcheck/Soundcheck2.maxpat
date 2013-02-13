@@ -171,6 +171,7 @@
 			}
 , 			{
 				"box" : 				{
+					"button" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-3",
