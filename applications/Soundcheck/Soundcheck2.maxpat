@@ -943,7 +943,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-78",
 					"items" : [ "OFF", ",", "WHITE", "NOISE", ",", "PINK", "NOISE", ",", "SOUND", "FILE" ],
 					"maxclass" : "umenu",
@@ -951,9 +951,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 651.0, 95.0, 296.0, 27.0 ],
+					"patching_rect" : [ 651.0, 95.0, 296.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 109.0, 198.0, 27.0 ]
+					"presentation_rect" : [ 15.0, 109.5, 192.0, 24.0 ]
 				}
 
 			}
