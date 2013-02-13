@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 11.0, 44.0, 1028.0, 652.0 ],
@@ -26,7 +26,8 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"showontab" : 1,
+		"showrootpatcherontab" : 0,
+		"showontab" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -40,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 100.0, 144.0, 640.0, 480.0 ],
@@ -139,7 +140,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -169,8 +170,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 110.0, 40.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 180.0, 13.0, 0.0, 0.0 ]
+									"patching_rect" : [ 110.0, 40.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -184,7 +184,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
 									"patching_rect" : [ 110.0, 80.0, 32.5, 20.0 ],
-									"presentation_rect" : [ 180.0, 53.0, 0.0, 0.0 ],
 									"text" : "b"
 								}
 
@@ -224,7 +223,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 70.0, 150.0, 137.0, 18.0 ],
-									"presentation_rect" : [ 297.0, 86.0, 0.0, 0.0 ],
 									"text" : "1 two, 3 four, 5 six 7 8 9"
 								}
 
@@ -439,7 +437,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -890,7 +888,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -1117,10 +1115,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
+						"rect" : [ 11.0, 70.0, 1028.0, 626.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1492,7 +1490,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 310.0, 144.0, 242.0, 88.0 ],
+									"patching_rect" : [ 310.0, 144.0, 236.0, 88.0 ],
 									"text" : "here are various differing ways to store what dictionaries refer to as \"keys\".  notice the difference in usage between coll's \"insert\" or \"store\" messages.  pretty simple."
 								}
 
@@ -1825,10 +1823,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
-						"rect" : [ 11.0, 70.0, 1028.0, 626.0 ],
+						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1858,7 +1856,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 290.0, 133.0, 270.0, 87.0 ],
+									"patching_rect" : [ 290.0, 133.0, 271.0, 87.0 ],
 									"text" : "in Max6, the triggers attribute is an increasingly pervasive option across many objects.  Here we can use it to set which inlets of dict.pack we'll use to trigger output.  You can also input a list for triggering, specifying multiple inlets, adjacent or non."
 								}
 
@@ -2029,7 +2027,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -2063,7 +2061,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 180.0, 126.0, 174.0, 74.0 ],
-									"presentation_rect" : [ 293.0, 62.0, 0.0, 0.0 ],
 									"text" : "convert a dictionary into a text descriptor.  for the various formats of how to do this, please see the dict.serialize help file."
 								}
 
@@ -2108,7 +2105,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 247.5, 220.0, 32.5, 18.0 ],
-									"presentation_rect" : [ 48.736855, 87.657875, 0.0, 0.0 ],
 									"text" : "set"
 								}
 
@@ -2123,7 +2119,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 460.0, 214.0, 258.0, 18.0 ],
-									"presentation_rect" : [ 272.0, 72.0, 0.0, 0.0 ],
 									"text" : "cows : 50 germs : 30 40 50 nails : beans"
 								}
 
@@ -2172,7 +2167,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 120.0, 300.0, 160.0, 85.0 ],
-									"presentation_rect" : [ 162.0, 166.0, 0.0, 0.0 ],
 									"text" : "\"0\" : strawberries \"1\" : raspberries \"2\" : blackberries \"3\" : grapes \"4\" : blueberries \"5\" : currants extra : honeysuckle avocado watermelon"
 								}
 
