@@ -60,11 +60,12 @@ function setfont(a)
     refresh();
 }
 
-function bgc(r, g, b)
+function bgc(r, g, b, a)
 {
     bgcolor[0] = r;
     bgcolor[1] = g;
     bgcolor[2] = b;
+	bgcolor[3] = a;
 
     draw();
     refresh();
