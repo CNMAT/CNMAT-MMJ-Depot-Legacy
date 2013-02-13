@@ -414,7 +414,6 @@
 					"patching_rect" : [ 400.0, 865.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 865.0, 1278.0, 20.0 ],
-					"text" : "•",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
 
