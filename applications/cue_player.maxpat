@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 14.0, 53.0, 677.0, 650.0 ],
+		"rect" : [ 14.0, 53.0, 416.0, 413.0 ],
 		"bgcolor" : [ 0.294118, 0.294118, 0.392157, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -186,7 +186,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 465.0, 8.0, 141.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.0, 9.0, 141.0, 33.0 ],
+					"presentation_rect" : [ 206.0, 6.0, 141.0, 33.0 ],
 					"text" : "Cue Player",
 					"textcolor" : [ 0.611765, 0.701961, 1.0, 1.0 ]
 				}
