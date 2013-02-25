@@ -10,7 +10,7 @@
 ,
 		"rect" : [ 0.0, 44.0, 1680.0, 662.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -106,7 +106,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 161.0, 260.0, 69.0, 18.0 ],
-									"presentation_rect" : [ 209.0, 356.0, 0.0, 0.0 ],
 									"text" : "select 0 $1"
 								}
 
@@ -121,7 +120,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 91.0, 260.0, 69.0, 18.0 ],
-									"presentation_rect" : [ 145.0, 357.0, 0.0, 0.0 ],
 									"text" : "select 0 $1"
 								}
 
@@ -136,7 +134,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 21.0, 260.0, 70.0, 18.0 ],
-									"presentation_rect" : [ 223.0, 158.0, 0.0, 0.0 ],
 									"text" : "select 0 $1"
 								}
 
@@ -171,8 +168,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 91.0, 310.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 135.0, 412.0, 0.0, 0.0 ]
+									"patching_rect" : [ 91.0, 310.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -893,8 +889,8 @@
 , 			{
 				"box" : 				{
 					"automouse" : 0,
-					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 1270, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 2,
+					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"cols" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
@@ -905,7 +901,7 @@
 					"patching_rect" : [ 680.0, 70.0, 990.0, 270.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 350.0, 60.0, 1320.0, 270.0 ],
-					"rows" : 11,
+					"rows" : 1,
 					"selmode" : 3
 				}
 
@@ -913,8 +909,8 @@
 , 			{
 				"box" : 				{
 					"automouse" : 0,
-					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 1608, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 2,
+					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"cols" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
@@ -925,7 +921,7 @@
 					"patching_rect" : [ 10.0, 390.0, 1660.0, 260.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 339.0, 1660.0, 301.0 ],
-					"rows" : 12,
+					"rows" : 1,
 					"selmode" : 3
 				}
 
@@ -969,8 +965,8 @@
 , 			{
 				"box" : 				{
 					"automouse" : 0,
-					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 280, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 2,
+					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"cols" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
@@ -981,7 +977,7 @@
 					"patching_rect" : [ 10.0, 70.0, 661.0, 260.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 60.0, 330.0, 270.0 ],
-					"rows" : 38,
+					"rows" : 1,
 					"selmode" : 3
 				}
 
@@ -1078,21 +1074,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "_MU29-ADD2-morphology_admin.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
-				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_MU29-ADD2-morphology_coll.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
-				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ]
+		"dependency_cache" : [  ]
 	}
 
 }
