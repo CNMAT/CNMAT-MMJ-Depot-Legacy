@@ -30,6 +30,50 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1090.0, 10.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1074.0, 10.0, 41.0, 20.0 ],
+					"text" : "re-init"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 740.0, 700.0, 69.0, 20.0 ],
+					"text" : "s dumpinfo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.305882, 0.380392, 0.415686, 0.0 ],
+					"fgcolor" : [ 0.764706, 0.325437, 0.213317, 1.0 ],
+					"id" : "obj-4",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 700.0, 710.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1050.0, 10.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-59",
 					"maxclass" : "newobj",
@@ -874,7 +918,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 					"id" : "obj-77",
-					"items" : [ "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav" ],
+					"items" : [ "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav", ",", "string-longnote4.wav", ",", "guitar-glissup.wav", ",", "Harp-sharptone2.wav", ",", "woodnote-high.wav", ",", "Bellsound.wav", ",", "string-longnote1.wav", ",", "harp-sharptone1.wav", ",", "tone-low-drone.wav", ",", "pianonote-low", ",", "pianonote-high.wav", ",", "pianonote-mid.wav", ",", "Harp-sharptone3.wav", ",", "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav", ",", "string-longnote4.wav", ",", "guitar-glissup.wav", ",", "Harp-sharptone2.wav", ",", "woodnote-high.wav", ",", "Bellsound.wav", ",", "string-longnote1.wav", ",", "harp-sharptone1.wav", ",", "tone-low-drone.wav", ",", "pianonote-low", ",", "pianonote-high.wav", ",", "pianonote-mid.wav", ",", "Harp-sharptone3.wav", ",", "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav", ",", "string-longnote4.wav", ",", "guitar-glissup.wav", ",", "Harp-sharptone2.wav", ",", "woodnote-high.wav", ",", "Bellsound.wav", ",", "string-longnote1.wav", ",", "harp-sharptone1.wav", ",", "tone-low-drone.wav", ",", "pianonote-low", ",", "pianonote-high.wav", ",", "pianonote-mid.wav", ",", "Harp-sharptone3.wav", ",", "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav", ",", "string-longnote4.wav", ",", "guitar-glissup.wav", ",", "Harp-sharptone2.wav", ",", "woodnote-high.wav", ",", "Bellsound.wav", ",", "string-longnote1.wav", ",", "harp-sharptone1.wav", ",", "tone-low-drone.wav", ",", "pianonote-low", ",", "pianonote-high.wav", ",", "pianonote-mid.wav", ",", "Harp-sharptone3.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -889,8 +933,8 @@
 , 			{
 				"box" : 				{
 					"automouse" : 0,
-					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 1,
+					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 1270, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"cols" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
@@ -901,7 +945,7 @@
 					"patching_rect" : [ 680.0, 70.0, 990.0, 270.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 350.0, 60.0, 1320.0, 270.0 ],
-					"rows" : 1,
+					"rows" : 11,
 					"selmode" : 3
 				}
 
@@ -909,8 +953,8 @@
 , 			{
 				"box" : 				{
 					"automouse" : 0,
-					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 1,
+					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 1608, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"cols" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
@@ -921,7 +965,7 @@
 					"patching_rect" : [ 10.0, 390.0, 1660.0, 260.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 339.0, 1660.0, 301.0 ],
-					"rows" : 1,
+					"rows" : 12,
 					"selmode" : 3
 				}
 
@@ -965,8 +1009,8 @@
 , 			{
 				"box" : 				{
 					"automouse" : 0,
-					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 1,
+					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 280, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"cols" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
@@ -977,7 +1021,7 @@
 					"patching_rect" : [ 10.0, 70.0, 661.0, 260.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 60.0, 330.0, 270.0 ],
-					"rows" : 1,
+					"rows" : 50,
 					"selmode" : 3
 				}
 
@@ -1016,6 +1060,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1074,7 +1127,21 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "_MU29-ADD2-morphology_admin_ED.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
+				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_MU29-ADD2-morphology_coll_ED.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
+				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }
