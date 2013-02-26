@@ -8,7 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1680.0, 662.0 ],
+		"rect" : [ 0.0, 44.0, 1676.0, 956.0 ],
+		"bgcolor" : [ 0.557569, 0.557569, 0.557569, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +29,25 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"automouse" : 0,
+					"coldef" : [ [ 0, 28, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 250, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "jit.cellblock",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "list", "", "", "" ],
+					"patching_rect" : [ 10.0, 790.0, 1660.0, 260.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 810.0, 60.0, 860.0, 270.0 ],
+					"rows" : 59,
+					"selmode" : 5
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -96,8 +116,8 @@
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -107,7 +127,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 304.0, 425.0, 516.0, 341.0 ],
+						"rect" : [ 253.0, 210.0, 896.0, 481.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -130,6 +150,91 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 490.0, 310.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 380.0, 330.0, 70.0, 18.0 ],
+									"presentation_rect" : [ 381.0, 327.0, 0.0, 0.0 ],
+									"text" : "select 0 $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-13",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 500.0, 250.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 500.0, 280.0, 84.0, 18.0 ],
+									"presentation_rect" : [ 469.0, 296.0, 0.0, 0.0 ],
+									"text" : "col 1 width $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 231.0, 200.0, 238.0, 18.0 ],
+									"presentation_rect" : [ 236.0, 197.0, 0.0, 0.0 ],
+									"text" : "col 0 width 28, col 1 width 250, refer admin"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-5",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 250.0, 310.0, 25.0, 25.0 ],
+									"presentation_rect" : [ 248.0, 314.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-28",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -144,40 +249,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-18",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 161.0, 260.0, 69.0, 18.0 ],
-									"text" : "select 0 $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-17",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 91.0, 260.0, 69.0, 18.0 ],
-									"text" : "select 0 $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-10",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 260.0, 70.0, 18.0 ],
+									"patching_rect" : [ 21.0, 168.0, 70.0, 18.0 ],
 									"text" : "select 0 $1"
 								}
 
@@ -323,6 +400,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -359,19 +445,28 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-17", 0 ]
+									"source" : [ "obj-13", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
+									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-18", 0 ]
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
 								}
 
 							}
@@ -413,6 +508,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -440,25 +544,25 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-9", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-9", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-9", 0 ]
@@ -468,7 +572,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 20.0, 60.0, 20.0 ],
+					"patching_rect" : [ 390.0, 350.0, 60.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -918,7 +1022,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 					"id" : "obj-77",
-					"items" : [ "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav", ",", "string-longnote4.wav", ",", "guitar-glissup.wav", ",", "Harp-sharptone2.wav", ",", "woodnote-high.wav", ",", "Bellsound.wav", ",", "string-longnote1.wav", ",", "harp-sharptone1.wav", ",", "tone-low-drone.wav", ",", "pianonote-low", ",", "pianonote-high.wav", ",", "pianonote-mid.wav", ",", "Harp-sharptone3.wav", ",", "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav", ",", "string-longnote4.wav", ",", "guitar-glissup.wav", ",", "Harp-sharptone2.wav", ",", "woodnote-high.wav", ",", "Bellsound.wav", ",", "string-longnote1.wav", ",", "harp-sharptone1.wav", ",", "tone-low-drone.wav", ",", "pianonote-low", ",", "pianonote-high.wav", ",", "pianonote-mid.wav", ",", "Harp-sharptone3.wav", ",", "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav", ",", "string-longnote4.wav", ",", "guitar-glissup.wav", ",", "Harp-sharptone2.wav", ",", "woodnote-high.wav", ",", "Bellsound.wav", ",", "string-longnote1.wav", ",", "harp-sharptone1.wav", ",", "tone-low-drone.wav", ",", "pianonote-low", ",", "pianonote-high.wav", ",", "pianonote-mid.wav", ",", "Harp-sharptone3.wav", ",", "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav", ",", "string-longnote4.wav", ",", "guitar-glissup.wav", ",", "Harp-sharptone2.wav", ",", "woodnote-high.wav", ",", "Bellsound.wav", ",", "string-longnote1.wav", ",", "harp-sharptone1.wav", ",", "tone-low-drone.wav", ",", "pianonote-low", ",", "pianonote-high.wav", ",", "pianonote-mid.wav", ",", "Harp-sharptone3.wav" ],
+					"items" : [ "zipper2-L3.wav", ",", "zipper-L3.wav", ",", "woodblock_hard-mallet-L3.wav", ",", "woodblock-softmallet-L3.wav", ",", "wood-crash2-L3.wav", ",", "waterdrop-L3.wav", ",", "water-FADE-L3.wav", ",", "voice-FADE-L3.wav", ",", "tone-FADE-L3.wav", ",", "swish3-L3.wav", ",", "swish2-L3.wav", ",", "stepinwater-L3.wav", ",", "shutter3-L3.wav", ",", "shutter2-L3.wav", ",", "shutter-L3.wav", ",", "seawave-L3.wav", ",", "sea-FADE-L3.wav", ",", "sax-FADE-L3.wav", ",", "raindrop2-L3.wav", ",", "potterycrash-L3.wav", ",", "noise-FADE-L3.wav", ",", "newbassknock3-L3.wav", ",", "newbassknock1-L3.wav", ",", "metalstrike-L3.wav", ",", "metalglasscrash-L3.wav", ",", "metalcrash3-L3.wav", ",", "metalcrash2-L3.wav", ",", "metalcrash-L3.wav", ",", "membrane-impact-L3.wav", ",", "iceinglass-L3.wav", ",", "hiss-FADE-L3.wav", ",", "harpsichord-FADE-L3.wav", ",", "gun-L3.wav", ",", "gun-hi-L3.wav", ",", "garbagecan-wirebrush-L3.wav", ",", "garbagecan-hardstick-L3.wav", ",", "flashbulb2-L3.wav", ",", "flashbulb-L3.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -944,8 +1048,8 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 680.0, 70.0, 990.0, 270.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 350.0, 60.0, 1320.0, 270.0 ],
-					"rows" : 11,
+					"presentation_rect" : [ 350.0, 60.0, 450.0, 270.0 ],
+					"rows" : 9,
 					"selmode" : 3
 				}
 
@@ -965,7 +1069,6 @@
 					"patching_rect" : [ 10.0, 390.0, 1660.0, 260.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 339.0, 1660.0, 301.0 ],
-					"rows" : 12,
 					"selmode" : 3
 				}
 
@@ -1021,7 +1124,7 @@
 					"patching_rect" : [ 10.0, 70.0, 661.0, 260.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 60.0, 330.0, 270.0 ],
-					"rows" : 50,
+					"rows" : 38,
 					"selmode" : 3
 				}
 
@@ -1092,6 +1195,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1128,14 +1240,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "_MU29-ADD2-morphology_admin_ED.txt",
+				"name" : "_MU29-ADD2-morphology_admin_jml.txt",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
 				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "_MU29-ADD2-morphology_coll_ED.txt",
+				"name" : "_MU29-ADD2-morphology_coll.txt",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
 				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
 				"type" : "TEXT",

@@ -281,13 +281,26 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"id" : "obj-37",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 272.0, 128.0, 58.0, 18.0 ],
+									"text" : "r dumpinfo"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
 									"id" : "obj-35",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 316.0, 552.0, 72.0, 18.0 ],
-									"presentation_rect" : [ 322.0, 551.0, 0.0, 0.0 ],
 									"text" : "prepend store"
 								}
 
@@ -1099,6 +1112,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1482,7 +1504,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "_MU29-ADD2-morphology_admin.txt",
+				"name" : "_MU29-ADD2-morphology_admin_ED.txt",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
 				"patcherrelativepath" : "../../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
 				"type" : "TEXT",
@@ -1503,7 +1525,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route..mxo",
+				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
  ]
