@@ -1415,8 +1415,11 @@
 			}
 , 			{
 				"box" : 				{
+					"arrowcolor" : [ 0.163095, 0.214003, 0.317647, 1.0 ],
+					"bgcolor" : [ 0.441008, 0.917825, 1.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"framecolor" : [ 0.415686, 0.156863, 0.156863, 0.0 ],
 					"id" : "obj-49",
 					"items" : [ "sine", ",", "square" ],
 					"maxclass" : "umenu",
@@ -1913,8 +1916,11 @@
 			}
 , 			{
 				"box" : 				{
+					"arrowcolor" : [ 0.163095, 0.214003, 0.317647, 1.0 ],
+					"bgcolor" : [ 0.441008, 0.917825, 1.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"framecolor" : [ 0.415686, 0.156863, 0.156863, 0.0 ],
 					"id" : "obj-4",
 					"items" : [ "off", ",", "sinewave", ",", "sawtooth", "wave", ",", "rectangular", "wave" ],
 					"maxclass" : "umenu",
@@ -1924,7 +1930,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 110.0, 250.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 518.25, 30.5, 122.25, 20.0 ]
+					"presentation_rect" : [ 522.0, 26.5, 118.5, 20.0 ]
 				}
 
 			}
