@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 4
 		}
 ,
-		"rect" : [ 12.0, 61.0, 1296.0, 624.0 ],
+		"rect" : [ 135.0, 45.0, 1183.0, 599.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -29,15 +29,108 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-60",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 853.0, 180.0, 173.0, 32.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1042.0, 71.0, 37.0, 32.0 ],
+					"text" : "samp  \ngain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 24.0,
+					"id" : "obj-62",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 500.0, 58.0, 36.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 462.0, 57.0, 31.0, 34.0 ],
+					"text" : "|"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 24.0,
+					"id" : "obj-61",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 157.0, 54.0, 36.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 178.0, 58.0, 31.0, 34.0 ],
+					"text" : "|"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-59",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 486.0, 108.0, 78.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 626.0, 49.0, 104.0, 20.0 ],
+					"text" : "samples all on/off"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-57",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 239.0, 119.0, 27.0, 89.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 286.0, 49.0, 90.0, 20.0 ],
+					"text" : "click frequency"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 196.0, 133.0, 27.0, 75.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 195.0, 49.0, 88.0, 20.0 ],
+					"text" : "clicks all on/off"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-56",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 462.0, 50.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 514.0, 70.0, 63.0, 16.0 ]
+					"patching_rect" : [ 614.0, 462.0, 50.0, 16.0 ]
 				}
 
 			}
@@ -46,14 +139,14 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.32549, 0.215686, 0.32549, 1.0 ],
 					"id" : "obj-54",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 928.0, 496.0, 210.0, 27.0 ],
+					"patching_rect" : [ 928.0, 496.0, 211.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1022.0, 63.5, 48.0, 27.0 ],
+					"presentation_rect" : [ 11.0, 7.0, 50.0, 27.0 ],
 					"text" : "/ 1",
 					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
 				}
@@ -132,15 +225,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-58",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.0, 294.25, 37.0, 20.0 ],
+					"patching_rect" : [ 362.0, 294.25, 40.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 67.0, 37.0, 20.0 ],
-					"text" : "solo"
+					"presentation_rect" : [ 121.0, 49.0, 64.0, 20.0 ],
+					"text" : "voice solo"
 				}
 
 			}
@@ -196,7 +289,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 336.0, 294.25, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 67.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 121.0, 67.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -218,15 +311,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
 					"id" : "obj-45",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 914.0, 286.0, 173.0, 19.0 ],
+					"patching_rect" : [ 914.0, 286.0, 173.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 848.0, 67.0, 166.0, 19.0 ],
-					"text" : "random assignment of soundfile"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 927.0, 49.0, 91.0, 32.0 ],
+					"text" : "random sample \nassign on/off"
 				}
 
 			}
@@ -267,7 +361,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 888.0, 286.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 826.0, 67.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 1011.0, 55.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -370,7 +464,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 256.5, 200.0, 24.5, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1046.0, 4.0, 20.0, 50.0 ],
+					"presentation_rect" : [ 1047.0, 31.0, 20.0, 40.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.219608, 0.596078, 0.756863, 1.0 ]
@@ -437,14 +531,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.0, 149.0, 181.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 714.0, 67.0, 91.0, 20.0 ],
+					"presentation_rect" : [ 737.0, 49.0, 91.0, 20.0 ],
 					"text" : "choose sample"
 				}
 
@@ -464,7 +557,7 @@
 					"patching_rect" : [ 735.0, 256.0, 128.0, 18.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 584.0, 69.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 737.0, 68.0, 185.0, 18.0 ],
 					"varname" : "umenu[1]"
 				}
 
@@ -494,7 +587,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 44.0, 516.0, 141.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 89.0, 1040.0, 8.0 ],
+					"presentation_rect" : [ 50.0, 88.0, 995.0, 10.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1
 				}
@@ -557,7 +650,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 119.5, 131.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 322.0, 67.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 626.0, 67.0, 50.0, 20.0 ],
 					"varname" : "main_onoff_state[1]"
 				}
 
@@ -604,7 +697,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -812,21 +905,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 32.0, 216.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
+						"tags" : "",
 						"fontname" : "Arial",
-						"fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"digest" : ""
 					}
 ,
 					"text" : "p hidefunction"
@@ -846,7 +940,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 32.0, 284.5, 100.0, 39.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 38.0, 1040.0, 11.0 ],
+					"presentation_rect" : [ 50.0, 20.25, 995.0, 12.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
@@ -860,16 +954,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-26",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 151.0, 78.0, 33.0 ],
+					"patching_rect" : [ 32.0, 151.0, 78.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 398.0, 67.0, 110.0, 20.0 ],
-					"text" : "sample view on/off"
+					"presentation_rect" : [ 481.0, 49.0, 133.0, 20.0 ],
+					"text" : "sample view front/back"
 				}
 
 			}
@@ -884,7 +977,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 32.0, 125.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 376.0, 67.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 481.0, 67.0, 20.0, 20.0 ],
 					"varname" : "mute-state[1]"
 				}
 
@@ -893,13 +986,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-13",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 848.0, 180.0, 328.0, 52.0 ],
+					"patching_rect" : [ 848.0, 180.0, 328.0, 53.0 ],
 					"text" : "(all args required)\narg1: number of sliders\narg2: type of subbeat (one, beat, etc)\narg3: name of coll for samplemapping involving polybuffer~"
 				}
 
@@ -940,7 +1032,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u959006229"
+					"varname" : "u001012794"
 				}
 
 			}
@@ -948,13 +1040,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-16",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 848.0, 139.0, 328.0, 40.0 ],
+					"patching_rect" : [ 848.0, 139.0, 328.0, 41.0 ],
 					"text" : "this patch is a demo patch, for the most part.  the reason for this being that the number of sliders > 64 will break the visual display alignment of the leading-zero numbers."
 				}
 
@@ -1071,7 +1162,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
 						"rect" : [ 25.0, 69.0, 332.0, 353.0 ],
@@ -1316,21 +1407,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 724.0, 470.0, 72.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
+						"tags" : "",
 						"fontname" : "Arial",
-						"fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"digest" : ""
 					}
 ,
 					"text" : "p format_tabs"
@@ -1351,7 +1443,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 724.0, 496.0, 180.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 50.0, 1032.0, 16.0 ],
+					"presentation_rect" : [ 45.0, 31.0, 1004.0, 21.25 ],
 					"rounded" : 1.0,
 					"spacing_x" : 8.0,
 					"tabcolor" : [ 0.423529, 0.415686, 0.415686, 1.0 ],
@@ -1365,20 +1457,21 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-76",
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 694.0, 264.0, 27.0, 20.0 ],
+					"patching_rect" : [ 694.0, 264.0, 27.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 67.0, 27.0, 20.0 ],
-					"text" : "res"
+					"presentation_rect" : [ 378.0, 49.0, 93.0, 20.0 ],
+					"text" : "click resonance"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.37037, 0.664958, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-46",
@@ -1391,7 +1484,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 642.0, 264.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 67.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 381.0, 67.0, 50.0, 20.0 ],
 					"varname" : "main_res"
 				}
 
@@ -1400,15 +1493,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-1605",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.0, 264.0, 37.0, 20.0 ],
+					"patching_rect" : [ 336.0, 264.0, 40.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.0, 67.0, 37.0, 20.0 ],
-					"text" : "mute"
+					"presentation_rect" : [ 50.0, 49.0, 69.0, 20.0 ],
+					"text" : "voice mute"
 				}
 
 			}
@@ -1426,7 +1519,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
 						"rect" : [ 457.0, 221.0, 950.0, 724.0 ],
@@ -1462,7 +1555,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1576,21 +1669,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 764.875, 508.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
+										"tags" : "",
 										"fontname" : "Arial",
-										"fontsize" : 12.0,
+										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"tags" : ""
+										"digest" : ""
 									}
 ,
 									"text" : "p collsymbol"
@@ -1611,7 +1705,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1735,21 +1829,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 764.875, 536.0, 100.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
+										"tags" : "",
 										"fontname" : "Arial",
-										"fontsize" : 12.0,
+										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"tags" : ""
+										"digest" : ""
 									}
 ,
 									"text" : "p string_truncate"
@@ -3158,21 +3253,78 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "sub-beat.maxpat",
+								"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/timing/stepmetro",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "badge.maxpat",
+								"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "uc_license.maxpat",
+								"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "cnmat_blue.gif",
+								"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+								"type" : "GIFf",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "myNotes.js",
+								"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "take_notes.maxpat",
+								"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "clicker-poly-samp.maxpat",
+								"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "clicker~.maxpat",
+								"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/timing/stepmetro",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "OSC-route.mxo",
+								"type" : "iLaX"
+							}
+, 							{
+								"name" : "cambio~.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
 					"patching_rect" : [ 256.5, 418.0, 343.5, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
+						"tags" : "",
 						"fontname" : "Arial",
-						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"digest" : ""
 					}
 ,
 					"text" : "p division"
@@ -3192,9 +3344,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 446.0, 149.0, 50.0, 20.0 ],
+					"patching_rect" : [ 446.0, 149.0, 51.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 67.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 200.0, 67.0, 51.0, 20.0 ],
 					"varname" : "main_onoff_state"
 				}
 
@@ -3215,7 +3367,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
+					"bgcolor" : [ 0.988235, 0.360179, 0.612192, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
@@ -3228,7 +3380,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 588.0, 149.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 67.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 291.0, 67.0, 50.0, 20.0 ],
 					"varname" : "main_timbre"
 				}
 
@@ -3258,7 +3410,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 566.0, 180.0, 183.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 1040.0, 32.0 ],
+					"presentation_rect" : [ 50.0, 7.0, 995.0, 13.0 ],
 					"setminmax" : [ 0.0, 99.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
@@ -3278,7 +3430,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 446.0, 236.0, 163.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 38.0, 1040.0, 11.0 ],
+					"presentation_rect" : [ 50.0, 20.25, 995.0, 11.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
@@ -3299,7 +3451,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 312.0, 264.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 196.0, 67.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 50.0, 67.0, 20.0, 20.0 ],
 					"varname" : "mute-state"
 				}
 
@@ -3866,71 +4018,71 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "fixlist.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sub-beat.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Timing/stepmetro",
-				"patcherrelativepath" : "../../../modules/Timing/stepmetro",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/timing/stepmetro",
+				"patcherrelativepath" : "../../../modules/timing/stepmetro",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clicker-poly-samp.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clicker~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Timing/stepmetro",
-				"patcherrelativepath" : "../../../modules/Timing/stepmetro",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/timing/stepmetro",
+				"patcherrelativepath" : "../../../modules/timing/stepmetro",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shuffle_polybuf_vector.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
-				"patcherrelativepath" : "../Misc Support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/soundfiles_sampling/polybuffer",
+				"patcherrelativepath" : "../../../modules/soundfiles_sampling/polybuffer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
