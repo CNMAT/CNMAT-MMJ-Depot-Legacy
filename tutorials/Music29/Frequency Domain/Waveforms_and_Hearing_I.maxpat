@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 6.0, 44.0, 889.0, 731.0 ],
@@ -202,8 +203,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -383,8 +385,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 57.0, 44.0, 817.0, 553.0 ],
@@ -734,8 +737,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 193.0, 83.0, 385.0, 395.0 ],
@@ -1525,12 +1529,13 @@
 					"ignoreclick" : 1,
 					"interval" : 250.0,
 					"maxclass" : "number~",
-					"mode" : 1,
+					"mode" : 2,
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 608.0, 576.0, 149.0, 40.0 ],
-					"sig" : 0.0
+					"sig" : 0.0,
+					"sigoutmode" : 0
 				}
 
 			}
@@ -2219,8 +2224,8 @@
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
-				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/mixing_and_gain",
+				"patcherrelativepath" : "../../../modules/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
