@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 526.0, 276.0, 707.0, 622.0 ],
@@ -152,7 +153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 41.0, 200.0, 16.0 ],
-					"text" : "© 2007-12 UC Regents, all rights reserved",
+					"text" : "© 2007-13 UC Regents, all rights reserved",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -395,7 +396,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "panel",
@@ -518,28 +519,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
