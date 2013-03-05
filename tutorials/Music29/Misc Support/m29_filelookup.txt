@@ -10,7 +10,7 @@
 "sound file interpolation space", Soundfile_Interpolation_Space.maxpat;
 "beat slicing", Temporal_Beat_Slicer_I.maxpat;
 "polyrhythms explorer", Polyrhythm_Explorer.maxpat;
-"the internal synthesizer", Internal_Synthesizer.maxpat;
+"the internal synthesizer", Internal_Synth.maxpat;
 "plucked string simulation", Plucked_String_Simulation.maxpat;
 "low-order harmonic ratios", Low_Order_Harmonic_Ratios.maxpat;
 "plucked-string play space", Plucked_String_Playspace.maxpat;
