@@ -1574,7 +1574,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 272.0, 148.0, 61.0, 20.0 ],
-					"restore" : [ 120.0 ],
+					"restore" : [ 20.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1761,7 +1761,7 @@
 					"patching_rect" : [ 759.0, 520.857117, 147.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 91.0, 389.5, 152.0, 20.0 ],
-					"text" : "BPM of tactus (one cycle)",
+					"text" : "BPM of one cycle",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -2132,7 +2132,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u848012192"
+									"varname" : "u729012218"
 								}
 
 							}
