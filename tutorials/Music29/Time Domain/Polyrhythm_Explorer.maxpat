@@ -163,13 +163,14 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-46",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 759.0, 578.857117, 58.0, 20.0 ],
+					"patching_rect" : [ 759.0, 578.857117, 58.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 388.0, 36.0, 58.0, 20.0 ],
-					"text" : "TACTUS",
+					"presentation_rect" : [ 388.0, 36.0, 64.0, 20.0 ],
+					"text" : "One cycle",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1712,7 +1713,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 272.0, 148.0, 61.0, 20.0 ],
-					"restore" : [ 49.871834 ],
+					"restore" : [ 120.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2270,7 +2271,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u918002206"
+									"varname" : "u596012164"
 								}
 
 							}
