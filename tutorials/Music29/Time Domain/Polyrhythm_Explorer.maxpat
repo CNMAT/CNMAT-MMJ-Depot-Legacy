@@ -38,7 +38,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 756.0, 22.863647, 122.0, 20.0 ],
-					"presentation_rect" : [ 145.0, 382.0, 0.0, 0.0 ],
 					"text" : "receive~ main_clicks"
 				}
 
@@ -302,7 +301,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 740.0, 93.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.25, 322.0, 167.0, 20.0 ],
+					"presentation_rect" : [ 173.0, 322.0, 167.0, 20.0 ],
 					"text" : "Tempo_Tracker"
 				}
 
@@ -318,7 +317,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 812.0, 167.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.25, 296.0, 167.0, 20.0 ],
+					"presentation_rect" : [ 173.0, 296.0, 167.0, 20.0 ],
 					"text" : "Frequency_Domain_Analysis"
 				}
 
@@ -1713,7 +1712,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 272.0, 148.0, 61.0, 20.0 ],
-					"restore" : [ 10.902887 ],
+					"restore" : [ 49.871834 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2271,7 +2270,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u581002331"
+									"varname" : "u918002206"
 								}
 
 							}
