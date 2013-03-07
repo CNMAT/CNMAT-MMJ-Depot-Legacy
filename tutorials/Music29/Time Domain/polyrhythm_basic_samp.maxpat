@@ -67,7 +67,7 @@
 					"patching_rect" : [ 969.5, 419.0, 173.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.0, 69.0, 101.0, 19.0 ],
-					"text" : "loop randomness?"
+					"text" : "loop shuffle"
 				}
 
 			}
@@ -410,7 +410,7 @@
 					"patching_rect" : [ 1080.0, 368.0, 173.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.0, 53.0, 98.0, 19.0 ],
-					"text" : "random samples?"
+					"text" : "shuffle samples"
 				}
 
 			}
