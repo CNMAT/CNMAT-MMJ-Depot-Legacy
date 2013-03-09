@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 4.0, 46.0, 925.0, 745.0 ],
@@ -26,8 +27,21 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"title" : "hearing and frequency",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 216.0, 165.0, 20.0 ],
+					"text" : "prepend frequencies chosen:"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -119,15 +133,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 30.0,
+					"fontsize" : 22.0,
 					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 947.765564, 605.927002, 76.0, 40.0 ],
+					"patching_rect" : [ 947.765564, 605.927002, 62.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.700928, 265.5, 34.0, 40.0 ],
+					"presentation_rect" : [ 78.0, 325.0, 28.0, 31.0 ],
 					"text" : ">"
 				}
 
@@ -135,15 +149,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 30.0,
+					"fontsize" : 22.0,
 					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 947.765564, 578.927002, 76.0, 40.0 ],
+					"patching_rect" : [ 947.765564, 578.927002, 62.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.700928, 237.5, 34.0, 40.0 ],
+					"presentation_rect" : [ 78.0, 340.415619, 28.0, 31.0 ],
 					"text" : ">"
 				}
 
@@ -151,15 +165,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 30.0,
+					"fontsize" : 22.0,
 					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 946.765564, 551.927002, 76.0, 40.0 ],
+					"patching_rect" : [ 946.765564, 551.927002, 62.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.700928, 210.5, 34.0, 40.0 ],
+					"presentation_rect" : [ 78.0, 308.0, 28.0, 31.0 ],
 					"text" : ">"
 				}
 
@@ -175,7 +189,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 616.0, 64.0, 181.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 137.200928, 376.0, 181.0, 20.0 ],
+					"presentation_rect" : [ 272.0, 384.0, 181.0, 20.0 ],
 					"text" : "number of frequencies to collect",
 					"textcolor" : [ 0.661283, 0.952235, 0.975252, 1.0 ]
 				}
@@ -267,6 +281,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.643137, 0.882353, 0.784314, 0.0 ],
+					"bgcolor2" : [ 0.643137, 0.882353, 0.784314, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-84",
@@ -274,8 +290,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 115.0, 140.0, 18.0 ],
-					"text" : "7000"
+					"patching_rect" : [ 16.0, 252.0, 172.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 96.5, 271.0, 307.5, 18.0 ]
 				}
 
 			}
@@ -433,7 +450,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 104.0, 16.000004, 50.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.700928, 376.0, 55.0, 19.0 ]
+					"presentation_rect" : [ 213.5, 384.0, 55.0, 19.0 ]
 				}
 
 			}
@@ -522,15 +539,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 30.0,
+					"fontsize" : 22.0,
 					"frgb" : 0.0,
 					"id" : "obj-71",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 931.0, 630.5, 76.0, 40.0 ],
+					"patching_rect" : [ 931.0, 630.5, 62.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.700928, 298.0, 34.0, 40.0 ],
+					"presentation_rect" : [ 78.0, 372.0, 28.0, 31.0 ],
 					"text" : ">"
 				}
 
@@ -538,15 +555,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 30.0,
+					"fontsize" : 22.0,
 					"frgb" : 0.0,
 					"id" : "obj-70",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 931.765564, 536.927002, 76.0, 40.0 ],
+					"patching_rect" : [ 931.765564, 536.927002, 62.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.700928, 183.5, 34.0, 40.0 ],
+					"presentation_rect" : [ 78.0, 292.5, 28.0, 31.0 ],
 					"text" : ">"
 				}
 
@@ -567,29 +584,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 179.249939, 68.0, 284.750061, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 176.0, 49.75, 240.0 ],
-					"tabs" : [ "0", "1", "20", "40", "60", "120", "240" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"clicktabcolor" : [ 0.457741, 0.904594, 0.893928, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hovertabcolor" : [ 0.480049, 0.723427, 0.75, 1.0 ],
-					"htabcolor" : [ 0.165523, 0.319685, 0.327408, 1.0 ],
-					"htextcolor" : [ 0.62407, 0.950429, 0.973398, 1.0 ],
-					"id" : "obj-68",
-					"maxclass" : "tab",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 179.249939, 24.0, 284.750061, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 78.700928, 176.0, 55.0, 198.0 ],
-					"tabs" : [ "1000", "2000", "3000", "4000", "5000", "6000", "7000", "8000" ]
+					"presentation_rect" : [ 13.0, 176.0, 70.693146, 244.0 ],
+					"tabs" : [ "0", "1", "20", "40", "60", "120", "240", "1000", "2000", "3000", "4000", "5000", "6000", "7000", "8000" ]
 				}
 
 			}
@@ -827,7 +823,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 147.999939, 518.5, 103.000061, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 819.5, 196.875, 100.0, 192.0 ]
+					"presentation_rect" : [ 816.0, 168.0, 100.0, 192.0 ]
 				}
 
 			}
@@ -844,8 +840,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 15.0, 65.0, 454.0, 334.0 ],
@@ -958,8 +955,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 10.0, 79.0, 679.0, 519.0 ],
@@ -1063,8 +1061,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 396.0, 644.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 273.5, 80.700928, 24.0 ],
-					"rounded" : 20.0,
+					"presentation_rect" : [ 106.0, 348.915619, 81.0, 14.0 ],
+					"rounded" : 10.0,
 					"text" : "major third"
 				}
 
@@ -1087,8 +1085,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 396.0, 616.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 247.0, 80.700928, 23.0 ],
-					"rounded" : 20.0,
+					"presentation_rect" : [ 106.0, 333.5, 81.0, 14.0 ],
+					"rounded" : 10.0,
 					"text" : "perfect fourth"
 				}
 
@@ -1111,8 +1109,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 396.0, 588.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 220.0, 80.700928, 23.0 ],
-					"rounded" : 20.0,
+					"presentation_rect" : [ 106.0, 316.138458, 81.0, 14.723077 ],
+					"rounded" : 10.0,
 					"text" : "perfect fifth"
 				}
 
@@ -1135,8 +1133,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 396.0, 672.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 305.5, 80.700928, 24.0 ],
-					"rounded" : 20.0,
+					"presentation_rect" : [ 106.0, 379.5, 81.865311, 16.0 ],
+					"rounded" : 10.0,
 					"text" : "minor third"
 				}
 
@@ -1153,8 +1151,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 527.5, 577.5, 383.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 10,
-					"presentation_rect" : [ 248.0, 183.5, 226.0, 141.0 ],
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 96.5, 176.0, 381.0, 87.0 ],
 					"text" : "As you click through these frequencies from low to high, the sounding interval between each appears closer together even through the differece between frequencies stays constant. It is the ratio between the two frequencies that  determines what  interval we hear.  If you set the number below to something above 1 and click multiple frequencies, you can hear a chord.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1227,8 +1225,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -1591,8 +1590,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 640.0, 319.0, 800.0, 429.0 ],
@@ -1963,6 +1963,7 @@
 					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 20.0,
+					"hidden" : 1,
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 					"id" : "obj-29",
 					"interval" : 300.0,
@@ -2180,8 +2181,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 396.5, 560.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 192.25, 81.0, 23.5 ],
-					"rounded" : 20.0,
+					"presentation_rect" : [ 106.0, 300.105438, 81.0, 14.227905 ],
+					"rounded" : 10.0,
 					"text" : "octave"
 				}
 
@@ -2195,7 +2196,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 476.0, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 426.5, 562.0, 307.5 ],
+					"presentation_rect" : [ 10.0, 428.5, 562.0, 307.5 ],
 					"rounded" : 16
 				}
 
@@ -2424,7 +2425,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-83", 0 ],
+					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-33", 0 ]
@@ -2433,7 +2434,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-84", 1 ],
+					"destination" : [ "obj-83", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-33", 0 ]
@@ -2473,6 +2474,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -2563,24 +2573,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-68", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-68", 1 ]
 				}
 
 			}
@@ -2751,64 +2743,64 @@
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
-				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/mixing_and_gain",
+				"patcherrelativepath" : "../../../modules/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/effects_audio",
+				"patcherrelativepath" : "../../../modules/effects_audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
@@ -2828,8 +2820,8 @@
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
-				"patcherrelativepath" : "../../../modules/basic-programming",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic_programming",
+				"patcherrelativepath" : "../../../modules/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
