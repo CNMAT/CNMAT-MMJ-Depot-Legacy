@@ -8,8 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1416.0, 757.0 ],
-		"bgcolor" : [ 0.468856, 0.672921, 0.8, 1.0 ],
+		"rect" : [ 0.0, 44.0, 1433.0, 757.0 ],
+		"bgcolor" : [ 0.648192, 0.755658, 0.8, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -151,7 +151,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 420.0, 230.0, 72.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 1132.0, 60.0, 24.0 ],
+					"presentation_rect" : [ 300.0, 1132.0, 60.0, 24.0 ],
 					"text" : "Tatum"
 				}
 
@@ -169,7 +169,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 578.857117, 58.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 388.0, 36.0, 64.0, 20.0 ],
+					"presentation_rect" : [ 400.0, 36.0, 64.0, 20.0 ],
 					"text" : "One cycle",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -222,7 +222,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 510.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 413.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 351.0, 413.5, 1080.0, 102.0 ],
 					"varname" : "polyrhythm_basic_module[13]"
 				}
 
@@ -238,7 +238,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 550.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 311.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 351.0, 307.5, 1080.0, 102.0 ],
 					"varname" : "polyrhythm_basic_module[12]"
 				}
 
@@ -254,7 +254,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 590.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 209.0, 1080.0, 102.0 ],
+					"presentation_rect" : [ 351.0, 209.0, 1080.0, 102.0 ],
 					"varname" : "polyrhythm_basic_module[10]"
 				}
 
@@ -270,7 +270,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 630.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 107.0, 1080.0, 102.0 ],
+					"presentation_rect" : [ 351.0, 107.0, 1080.0, 102.0 ],
 					"varname" : "polyrhythm_basic_module[9]"
 				}
 
@@ -286,7 +286,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 670.363647, 184.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 4.0, 1080.0, 102.0 ],
+					"presentation_rect" : [ 351.0, 4.0, 1080.0, 102.0 ],
 					"varname" : "polyrhythm_basic_module[8]"
 				}
 
@@ -583,7 +583,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 470.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 515.5, 1080.0, 100.5 ],
+					"presentation_rect" : [ 351.0, 515.5, 1080.0, 100.5 ],
 					"varname" : "polyrhythm_basic_module[7]"
 				}
 
@@ -599,7 +599,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 430.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 614.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 351.0, 614.5, 1080.0, 102.0 ],
 					"varname" : "polyrhythm_basic_module[5]"
 				}
 
@@ -615,7 +615,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 390.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 716.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 351.0, 716.5, 1080.0, 102.0 ],
 					"varname" : "polyrhythm_basic_module[4]"
 				}
 
@@ -631,7 +631,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 350.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 818.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 351.0, 818.5, 1080.0, 102.0 ],
 					"varname" : "polyrhythm_basic_module[3]"
 				}
 
@@ -647,7 +647,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 310.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 920.5, 1080.0, 101.0 ],
+					"presentation_rect" : [ 351.0, 920.5, 1080.0, 101.0 ],
 					"varname" : "polyrhythm_basic_module[2]"
 				}
 
@@ -663,7 +663,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 270.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 1021.5, 1080.0, 101.0 ],
+					"presentation_rect" : [ 351.0, 1021.5, 1080.0, 101.0 ],
 					"varname" : "polyrhythm_basic_module[1]"
 				}
 
@@ -1993,7 +1993,7 @@
 					"offset" : [ -1.0, -1.0 ],
 					"patching_rect" : [ 512.0, 230.0, 184.0, 37.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 1122.5, 1080.0, 103.0 ],
+					"presentation_rect" : [ 351.0, 1122.5, 1080.0, 103.0 ],
 					"varname" : "polyrhythm_basic_module[6]"
 				}
 
@@ -2132,7 +2132,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u772012246"
+									"varname" : "u995001917"
 								}
 
 							}
@@ -2915,13 +2915,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-unroute.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
-				"patcherrelativepath" : "../../../../../../../../../2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "badge.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
@@ -3091,10 +3084,6 @@
 			}
 , 			{
 				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "cambio~.mxo",
 				"type" : "iLaX"
 			}
  ]

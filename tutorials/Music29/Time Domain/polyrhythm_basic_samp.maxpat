@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1389.0, 604.0 ],
+		"rect" : [ 161.0, 413.0, 1389.0, 604.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -165,11 +165,10 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-59",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 486.0, 108.0, 78.0, 33.0 ],
+					"patching_rect" : [ 446.0, 91.0, 104.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 623.0, 69.0, 104.0, 20.0 ],
 					"text" : "samples all on/off"
@@ -225,19 +224,19 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"bgcolor" : [ 0.199659, 0.310968, 0.41128, 1.0 ],
+					"bgcolor2" : [ 0.199659, 0.310968, 0.41128, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-54",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 928.0, 496.0, 211.0, 27.0 ],
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 928.0, 496.0, 50.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 7.0, 50.0, 27.0 ],
-					"text" : "/ 1",
-					"textcolor" : [ 0.32549, 0.215686, 0.32549, 1.0 ]
+					"presentation_rect" : [ 7.0, 7.0, 39.0, 25.0 ],
+					"textcolor" : [ 0.92381, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1110,7 +1109,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u660003698"
+					"varname" : "u518003626"
 				}
 
 			}
@@ -1538,11 +1537,11 @@
 					"fontsize" : 11.0,
 					"frgb" : 0.0,
 					"id" : "obj-76",
-					"linecount" : 6,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 694.0, 264.0, 25.0, 80.0 ],
+					"patching_rect" : [ 694.0, 264.0, 55.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 378.0, 69.0, 86.0, 19.0 ],
 					"text" : "click resonance"
@@ -3596,7 +3595,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.776471, 0.762918, 0.460558, 1.0 ],
+					"bgcolor" : [ 0.255612, 0.92549, 0.92549, 1.0 ],
 					"id" : "obj-62",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -4302,10 +4301,6 @@
 			}
 , 			{
 				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "cambio~.mxo",
 				"type" : "iLaX"
 			}
  ]
