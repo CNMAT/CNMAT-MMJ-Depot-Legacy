@@ -32,12 +32,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 108.0, 64.0, 72.0, 16.0 ],
+					"text" : "ignoreclick $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 420.0, 84.0, 18.0 ],
+					"patching_rect" : [ 168.833313, 388.0, 84.0, 18.0 ],
 					"text" : "r admin_audition"
 				}
 
@@ -49,10 +63,10 @@
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 236.0, 176.0, 22.0, 18.0 ],
-					"text" : "t b"
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "clear" ],
+					"patching_rect" : [ 48.5, 208.5, 46.0, 18.0 ],
+					"text" : "t b clear"
 				}
 
 			}
@@ -65,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 204.0, 32.0, 16.0 ],
+					"patching_rect" : [ 43.5, 84.0, 32.0, 16.0 ],
 					"text" : "load"
 				}
 
@@ -79,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 108.0, 180.0, 43.0, 18.0 ],
+					"patching_rect" : [ 43.5, 60.0, 43.0, 18.0 ],
 					"text" : "sel 108"
 				}
 
@@ -93,7 +107,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 108.0, 156.0, 59.5, 18.0 ],
+					"patching_rect" : [ 43.5, 36.000008, 59.5, 18.0 ],
 					"text" : "key"
 				}
 
@@ -107,7 +121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 448.25, 176.0, 32.5, 18.0 ],
+					"patching_rect" : [ 145.333328, 208.5, 75.75, 18.0 ],
 					"text" : "b"
 				}
 
@@ -120,7 +134,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 796.0, 228.0, 82.0, 18.0 ],
+					"patching_rect" : [ 632.0, 396.0, 82.0, 18.0 ],
 					"text" : "print unmatched"
 				}
 
@@ -134,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.0, 264.0, 63.0, 18.0 ],
+					"patching_rect" : [ 310.666656, 316.0, 63.0, 18.0 ],
 					"text" : "prepend led"
 				}
 
@@ -147,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 1264.0, 108.0 ],
+					"patching_rect" : [ 108.0, 116.0, 208.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 1264.0, 108.0 ]
 				}
@@ -162,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.5, 392.0, 96.0, 18.0 ],
+					"patching_rect" : [ 108.0, 84.0, 96.0, 18.0 ],
 					"text" : "prepend newbutton"
 				}
 
@@ -176,7 +190,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 264.0, 136.0, 131.0, 18.0 ],
+					"patching_rect" : [ 108.0, 176.0, 131.0, 18.0 ],
 					"text" : "route reset repeat new"
 				}
 
@@ -191,7 +205,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -18.0, -68.0 ],
-					"patching_rect" : [ 876.0, 544.0, 126.0, 63.0 ],
+					"patching_rect" : [ 460.0, 75.5, 126.0, 63.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 748.0, 640.0, 511.0, 76.0 ],
 					"prototypename" : "cnmat_banner"
@@ -206,7 +220,7 @@
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 876.0, 612.0, 297.0, 83.0 ],
+					"patching_rect" : [ 460.0, 143.5, 297.0, 83.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 640.0, 296.0, 86.0 ]
 				}
@@ -220,7 +234,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 640.0, 70.0, 18.0 ],
+					"patching_rect" : [ 257.333313, 680.0, 70.0, 18.0 ],
 					"text" : "print numfiles"
 				}
 
@@ -234,8 +248,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 500.0, 300.0, 66.0, 16.0 ],
-					"text" : "ignoreclick 0"
+					"patching_rect" : [ 108.0, 40.0, 32.5, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -248,8 +262,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0, 364.0, 66.0, 16.0 ],
-					"text" : "ignoreclick 1"
+					"patching_rect" : [ 147.5, 40.0, 32.5, 16.0 ],
+					"text" : "1"
 				}
 
 			}
@@ -264,7 +278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 664.0, 431.0, 195.0, 22.0 ],
+					"patching_rect" : [ 460.0, 266.0, 195.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 192.0, 1256.0, 22.0 ],
 					"text" : "The following sound is:",
@@ -1334,7 +1348,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "clear" ],
 									"patching_rect" : [ 102.0, 118.0, 25.0, 25.0 ]
 								}
 
@@ -1494,7 +1508,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 301.0, 336.0, 53.0, 18.0 ],
+					"patching_rect" : [ 182.666656, 268.0, 147.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1521,7 +1535,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 560.0, 392.0, 49.0, 18.0 ],
+					"patching_rect" : [ 60.0, 275.25, 49.0, 18.0 ],
 					"text" : "<<  clear"
 				}
 
@@ -1535,7 +1549,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 532.0, 372.0, 55.0, 55.0 ]
+					"patching_rect" : [ 48.5, 268.0, 32.5, 32.5 ]
 				}
 
 			}
@@ -1548,7 +1562,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 940.0, 520.0, 64.0, 18.0 ],
+					"patching_rect" : [ 524.0, 51.5, 64.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -1566,7 +1580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 940.0, 497.0, 61.0, 18.0 ],
+					"patching_rect" : [ 524.0, 28.5, 61.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -1584,7 +1598,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 548.0, 32.5, 16.0 ],
+					"patching_rect" : [ 48.5, 332.0, 32.5, 16.0 ],
 					"text" : "set"
 				}
 
@@ -1598,7 +1612,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 572.0, 448.0, 32.5, 16.0 ],
+					"patching_rect" : [ 460.0, 482.0, 32.5, 16.0 ],
 					"text" : "clear"
 				}
 
@@ -1608,11 +1622,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.0, 264.0, 205.0, 16.0 ],
+					"patching_rect" : [ 89.5, 332.0, 61.0, 49.0 ],
 					"text" : "bgcolor 0.5 0.5 0.5, set <waiting for input>..."
 				}
 
@@ -1626,7 +1641,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 16.0, 488.0, 100.0, 192.0 ],
+					"patching_rect" : [ 145.333313, 444.0, 39.0, 121.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 532.0, 100.0, 192.0 ]
 				}
@@ -3379,7 +3394,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 436.0, 612.0, 171.0, 18.0 ],
+					"patching_rect" : [ 297.333313, 652.0, 181.666687, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3726,7 +3741,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 284.0, 524.0, 111.0, 18.0 ],
+					"patching_rect" : [ 145.333313, 412.0, 131.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3752,13 +3767,13 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 					"id" : "obj-77",
-					"items" : "<empty>",
+					"items" : [ "16-29review.aiff", ",", "14-29review.aif", ",", "12-29review.aif", ",", "11-29review.aif", ",", "08-29review.aif", ",", "06-29review.aif", ",", "05-29review.aif", ",", "04-29review.aif", ",", "03-29review.aif", ",", "02-29review.aif", ",", "01-29review.aif", ",", "18-29review.wav", ",", "17-29review.wav", ",", "15-29review.wav", ",", "13-29review.wav", ",", "09-29review.wav", ",", "07-29review.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 476.0, 576.0, 100.0, 27.0 ]
+					"patching_rect" : [ 337.333313, 616.0, 100.0, 27.0 ]
 				}
 
 			}
@@ -3772,7 +3787,7 @@
 					"numoutlets" : 1,
 					"offset" : [ -10.0, -94.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 584.0, 480.0, 228.0, 121.0 ],
+					"patching_rect" : [ 460.0, 512.5, 228.0, 121.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 216.0, 1256.0, 316.0 ]
 				}
@@ -3788,7 +3803,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 612.0, 109.0, 23.0 ],
+					"patching_rect" : [ 48.5, 412.0, 32.5, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 536.0, 1160.0, 23.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -3804,22 +3819,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 692.0, 469.0, 18.0 ],
+					"patching_rect" : [ 460.0, 235.5, 469.0, 18.0 ],
 					"text" : "1, \"sound 567.aif\" /corr 1 \"The following examples feature spectra that are\" Harmonic Inharmonic Noise;"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-36",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 308.0, 32.5, 16.0 ],
-					"text" : "clear"
 				}
 
 			}
@@ -3832,7 +3833,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 338.666656, 176.0, 20.0, 20.0 ]
+					"patching_rect" : [ 182.666672, 242.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -3845,7 +3846,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.5, 420.0, 79.0, 18.0 ],
+					"patching_rect" : [ 182.666656, 300.0, 79.0, 18.0 ],
 					"text" : "sprintf /play/%d"
 				}
 
@@ -3859,7 +3860,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 396.0, 552.0, 139.0, 18.0 ],
+					"patching_rect" : [ 257.333313, 588.0, 139.0, 18.0 ],
 					"text" : "route numfiles current menu"
 				}
 
@@ -3873,7 +3874,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 664.0, 228.0, 63.0, 18.0 ],
+					"patching_rect" : [ 500.0, 412.0, 63.0, 18.0 ],
 					"text" : "prepend set"
 				}
 
@@ -3887,7 +3888,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 664.0, 176.0, 32.0, 18.0 ],
+					"patching_rect" : [ 500.0, 344.0, 32.0, 18.0 ],
 					"text" : "r osc"
 				}
 
@@ -3901,7 +3902,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 664.0, 204.0, 151.0, 18.0 ],
+					"patching_rect" : [ 500.0, 372.0, 151.0, 18.0 ],
 					"text" : "osc-route /textmessage /textcoll"
 				}
 
@@ -3913,12 +3914,14 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-11",
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 664.0, 344.0, 258.0, 20.0 ],
+					"patching_rect" : [ 500.0, 452.0, 258.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 112.0, 1256.0, 20.0 ],
+					"text" : "This is Music 29 (Spring 2013) Mid-term listening review I.  Select one or more options that best fit the morphology of sound for each example.  Answers appear immediately at bottom of screen.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3930,7 +3933,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 744.0, 640.0, 36.0, 36.0 ],
+					"patching_rect" : [ 590.5, 102.5, 36.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 744.0, 636.0, 516.0, 84.0 ],
 					"rounded" : 30
@@ -3988,6 +3991,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 320.166656, 340.159149, 394.575104, 340.159149, 394.575104, 106.882912, 117.5, 106.882912 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -4006,6 +4010,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 320.166656, 303.867065, 380.0, 303.867065, 380.0, 31.82099, 157.0, 31.82099 ],
 					"source" : [ "obj-16", 1 ]
 				}
 
@@ -4048,7 +4053,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
@@ -4123,6 +4128,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 211.583328, 252.498688, 323.982941, 252.498688, 323.982941, 21.980278, 117.5, 21.980278 ],
 					"source" : [ "obj-25", 1 ]
 				}
 
@@ -4210,6 +4216,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4231,6 +4246,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 58.0, 235.0, 17.924976, 235.0, 17.924976, 28.189491, 117.5, 28.189491 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -4241,24 +4257,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-36", 0 ]
 				}
 
 			}
@@ -4300,7 +4298,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
@@ -4313,6 +4311,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -4379,9 +4386,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "_MU29-ADD2-morphology_coll.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
-				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
+				"name" : "_Music29-review_coll.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab08/AAD-2-MID-TERM-REVIEW",
+				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab08/AAD-2-MID-TERM-REVIEW",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -4449,9 +4456,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "_MU29-ADD2-morphology_admin_jml.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
-				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
+				"name" : "_midterm-review_admin.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab08/AAD-2-MID-TERM-REVIEW",
+				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab08/AAD-2-MID-TERM-REVIEW",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
