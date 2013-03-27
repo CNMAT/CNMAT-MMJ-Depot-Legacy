@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86"
 		}
 ,
@@ -197,7 +197,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "audition-and-decide-II", "preview a group of sounds and assess their characteristics" ],
+					"args" : [ "audition-and-decide-II", "preview a group of sounds and assess their characteristics", "0.118 0.231 0.310 1.000" ],
 					"id" : "obj-42",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -207,14 +207,14 @@
 					"offset" : [ -18.0, -68.0 ],
 					"patching_rect" : [ 460.0, 75.5, 126.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 748.0, 640.0, 511.0, 76.0 ],
+					"presentation_rect" : [ 758.0, 650.0, 506.0, 76.0 ],
 					"prototypename" : "cnmat_banner"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "audition-and-decide-II", "0.3a", "Campion & Lubow", "audition-and-decide-II", 6666 ],
+					"args" : [ "audition-and-decide-II", "0.3a", "Campion & Lubow", "audition-and-decide-II", 6666, "0.118 0.231 0.310 1.000" ],
 					"id" : "obj-41",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
@@ -300,7 +300,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -351,7 +351,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86"
 										}
 ,
@@ -597,7 +597,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x86"
 														}
 ,
@@ -1661,7 +1661,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -1712,7 +1712,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86"
 										}
 ,
@@ -2191,7 +2191,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86"
 										}
 ,
@@ -3426,7 +3426,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -3924,20 +3924,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.117647, 0.231373, 0.309804, 1.0 ],
-					"id" : "obj-40",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 590.5, 102.5, 36.0, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 636.0, 516.0, 84.0 ],
-					"rounded" : 30
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -4379,7 +4365,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "test-question-eval_II.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/audition-and-decide/lib",
-				"patcherrelativepath" : "../audition-and-decide/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4456,7 +4442,7 @@
 , 			{
 				"name" : "urn-r.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/audition-and-decide/lib",
-				"patcherrelativepath" : "../audition-and-decide/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4484,7 +4470,7 @@
 , 			{
 				"name" : "aad-click-panel.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/audition-and-decide/lib",
-				"patcherrelativepath" : "../audition-and-decide/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

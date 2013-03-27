@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 49.0, 1272.0, 727.0 ],
+		"rect" : [ 4.0, 49.0, 1272.0, 733.0 ],
 		"bgcolor" : [ 0.819608, 0.87451, 0.858824, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -211,7 +211,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -640,7 +640,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "audition-and-decide-I", "preview a group of sounds and assess their characteristics" ],
+					"args" : [ "audition-and-decide-I", "preview a group of sounds and assess their characteristics", "0.118 0.231 0.31 1.000" ],
 					"id" : "obj-42",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -650,14 +650,14 @@
 					"offset" : [ -21.0, -68.0 ],
 					"patching_rect" : [ 900.0, 404.0, 126.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 752.0, 648.0, 511.0, 76.0 ],
+					"presentation_rect" : [ 757.0, 648.0, 503.0, 76.0 ],
 					"prototypename" : "cnmat_banner"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "audition-and-decide-I", "0.8a", "Campion & Lubow", "audition-and-decide-I", 6666 ],
+					"args" : [ "audition-and-decide-I", "0.8a", "Campion & Lubow", "audition-and-decide-I", 6666, "0.118 0.231 0.310 1.000" ],
 					"id" : "obj-41",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
@@ -767,7 +767,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -804,7 +804,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86"
 										}
 ,
@@ -1052,7 +1052,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x86"
 														}
 ,
@@ -2120,7 +2120,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -2224,7 +2224,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86"
 										}
 ,
@@ -2419,7 +2419,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x86"
 														}
 ,
@@ -2662,7 +2662,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x86"
 														}
 ,
@@ -4599,7 +4599,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -4974,20 +4974,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 112.0, 1265.0, 27.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.117647, 0.231373, 0.309804, 1.0 ],
-					"id" : "obj-40",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 836.0, 516.0, 36.0, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 748.0, 644.0, 516.0, 84.0 ],
-					"rounded" : 30
 				}
 
 			}
@@ -5500,7 +5486,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "test-question-eval-I.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/audition-and-decide/lib",
-				"patcherrelativepath" : "../audition-and-decide/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5577,7 +5563,7 @@
 , 			{
 				"name" : "urn-r.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/audition-and-decide/lib",
-				"patcherrelativepath" : "../audition-and-decide/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5591,7 +5577,7 @@
 , 			{
 				"name" : "aad-click-panel.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/audition-and-decide/lib",
-				"patcherrelativepath" : "../audition-and-decide/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
