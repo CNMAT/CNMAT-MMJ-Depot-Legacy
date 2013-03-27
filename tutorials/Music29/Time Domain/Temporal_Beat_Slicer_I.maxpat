@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1.0, 47.0, 1087.0, 888.0 ],
+		"rect" : [ 0.0, 47.0, 1087.0, 888.0 ],
 		"bgcolor" : [ 0.556863, 0.537255, 0.537255, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -467,7 +467,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "beat-slicer", 1.1, "Edmund Campion and Jeff Lubow", "Tactus demo", 6666 ],
+					"args" : [ "beat-slicer", 1.1, "Edmund Campion and Jeff Lubow", "Tactus demo", 6666, "0.165 0.196 0.267 1." ],
 					"id" : "obj-24",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
@@ -531,7 +531,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Beat-Slicer", "A study in beat divisions" ],
+					"args" : [ "Beat-Slicer", "A study in beat divisions", "0.415 0.492 0.673 1." ],
 					"id" : "obj-25",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -1145,7 +1145,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -1186,7 +1186,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u697012891"
+									"varname" : "u696006140"
 								}
 
 							}
@@ -2493,8 +2493,8 @@
 			}
 , 			{
 				"name" : "OSC-unroute.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
-				"patcherrelativepath" : "../../../../../../../../../2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
+				"patcherrelativepath" : "../../../../../../../../../2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2557,7 +2557,7 @@
 , 			{
 				"name" : "beat-divisor.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2620,7 +2620,7 @@
 , 			{
 				"name" : "beats_sliced.xml",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2648,7 +2648,7 @@
 , 			{
 				"name" : "Tempo_Tracker.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2686,6 +2686,10 @@
 			}
 , 			{
 				"name" : "cambio~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86"
 		}
 ,
@@ -68,7 +68,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 549.857117, 83.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.0, 413.5, 152.0, 20.0 ],
+					"presentation_rect" : [ 116.0, 412.5, 152.0, 20.0 ],
 					"text" : "BPM of tatum",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -117,7 +117,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 232.0, 179.0, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 413.5, 68.0, 20.0 ],
+					"presentation_rect" : [ 44.0, 412.5, 68.0, 20.0 ],
 					"triscale" : 0.9,
 					"varname" : "flonum[1]"
 				}
@@ -338,7 +338,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -490,9 +490,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 784.0, 176.0, 108.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 691.0, 115.0, 20.0 ],
+					"presentation_rect" : [ 85.0, 691.0, 115.0, 20.0 ],
 					"text" : "global sample mute",
-					"textcolor" : [ 0.295182, 0.295182, 0.295182, 1.0 ]
+					"textcolor" : [ 0.90167, 0.90167, 0.90167, 1.0 ]
 				}
 
 			}
@@ -508,9 +508,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 780.0, 230.0, 106.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 548.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 85.0, 548.0, 100.0, 20.0 ],
 					"text" : "global click mute",
-					"textcolor" : [ 0.295182, 0.295182, 0.295182, 1.0 ]
+					"textcolor" : [ 0.90167, 0.90167, 0.90167, 1.0 ]
 				}
 
 			}
@@ -526,7 +526,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 756.0, 230.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 546.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 18.0, 546.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -695,7 +695,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -817,7 +817,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86"
 										}
 ,
@@ -1515,7 +1515,7 @@
 					"patching_rect" : [ 324.0, 964.0, 376.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 119.75, 124.5, 213.5, 40.0 ],
+					"presentation_rect" : [ 119.75, 129.0, 213.5, 40.0 ],
 					"text" : "drop folder containing soundfiles here (.wav or .aif)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1532,8 +1532,8 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 172.0, 406.363647, 38.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 98.0, 227.0, 97.0 ],
-					"rounded" : 0.0
+					"presentation_rect" : [ 111.0, 101.5, 227.0, 97.0 ],
+					"rounded" : 20.0
 				}
 
 			}
@@ -1546,7 +1546,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 252.0, 780.0, 60.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.0, 97.0, 228.0, 99.0 ]
+					"presentation_rect" : [ 111.0, 101.5, 228.0, 99.0 ],
+					"rounded" : 20
 				}
 
 			}
@@ -1707,9 +1708,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 868.0, 306.0, 129.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 618.5, 129.0, 20.0 ],
+					"presentation_rect" : [ 85.0, 618.5, 129.0, 20.0 ],
 					"text" : "global click resonance",
-					"textcolor" : [ 0.295182, 0.295182, 0.295182, 1.0 ]
+					"textcolor" : [ 0.90167, 0.90167, 0.90167, 1.0 ]
 				}
 
 			}
@@ -1729,7 +1730,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 756.0, 330.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 618.5, 57.0, 20.0 ]
+					"presentation_rect" : [ 20.0, 618.5, 57.0, 20.0 ]
 				}
 
 			}
@@ -1760,7 +1761,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 520.857117, 147.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.0, 389.5, 152.0, 20.0 ],
+					"presentation_rect" : [ 116.0, 388.5, 152.0, 20.0 ],
 					"text" : "BPM of one cycle",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1781,7 +1782,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 293.0, 236.0, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 390.0, 68.0, 20.0 ],
+					"presentation_rect" : [ 44.0, 389.0, 68.0, 20.0 ],
 					"triscale" : 0.9,
 					"varname" : "flonum"
 				}
@@ -1789,7 +1790,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+					"bgcolor" : [ 0.481829, 0.945098, 0.46593, 1.0 ],
 					"bordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-153",
 					"maxclass" : "toggle",
@@ -1815,9 +1816,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 694.857117, 110.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 653.5, 110.0, 20.0 ],
+					"presentation_rect" : [ 85.0, 653.5, 110.0, 20.0 ],
 					"text" : "global voices mute",
-					"textcolor" : [ 0.295182, 0.295182, 0.295182, 1.0 ]
+					"textcolor" : [ 0.90167, 0.90167, 0.90167, 1.0 ]
 				}
 
 			}
@@ -1833,9 +1834,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 665.857117, 109.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 512.0, 107.0, 20.0 ],
+					"presentation_rect" : [ 85.0, 512.0, 107.0, 20.0 ],
 					"text" : "global clicks on/off",
-					"textcolor" : [ 0.295182, 0.295182, 0.295182, 1.0 ]
+					"textcolor" : [ 0.90167, 0.90167, 0.90167, 1.0 ]
 				}
 
 			}
@@ -1851,7 +1852,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 759.5, 378.363647, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 510.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 18.0, 511.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1867,9 +1868,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 636.857117, 125.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 584.0, 125.0, 20.0 ],
+					"presentation_rect" : [ 85.0, 584.0, 125.0, 20.0 ],
 					"text" : "global click frequency",
-					"textcolor" : [ 0.295182, 0.295182, 0.295182, 1.0 ]
+					"textcolor" : [ 0.90167, 0.90167, 0.90167, 1.0 ]
 				}
 
 			}
@@ -1889,7 +1890,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 756.0, 282.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 584.0, 57.0, 20.0 ],
+					"presentation_rect" : [ 20.0, 583.0, 57.0, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"tricolor" : [ 0.509804, 0.478431, 0.478431, 0.0 ]
 				}
@@ -2076,7 +2077,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -2132,7 +2133,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u995001917"
+									"varname" : "u217008264"
 								}
 
 							}
@@ -2522,7 +2523,7 @@
 					"offset" : [ -18.0, -67.0 ],
 					"patching_rect" : [ 24.0, 16.0, 348.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 4.0, 336.0, 72.0 ],
+					"presentation_rect" : [ 6.0, 4.0, 343.076477, 72.0 ],
 					"prototypename" : "cnmat_banner"
 				}
 
@@ -2570,14 +2571,15 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 316.0, 724.0, 200.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 505.0, 320.0, 211.5 ],
+					"presentation_rect" : [ 13.0, 505.0, 320.0, 211.5 ],
+					"tabcolor" : [ 0.146692, 0.208114, 0.22687, 1.0 ],
 					"tabs" : [ " ", " ", " ", " ", " ", " " ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.199395, 0.463406, 0.490196, 1.0 ],
+					"bgcolor" : [ 0.249189, 0.403452, 0.490196, 1.0 ],
 					"id" : "obj-68",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -2915,6 +2917,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "OSC-unroute.js",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
+				"patcherrelativepath" : "../../../../../../../../../2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "badge.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
@@ -2966,7 +2975,7 @@
 , 			{
 				"name" : "polyrhythm_basic_samp.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2987,7 +2996,7 @@
 , 			{
 				"name" : "clicker-poly-samp.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3022,7 +3031,7 @@
 , 			{
 				"name" : "polyrhythms.xml",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -3050,7 +3059,7 @@
 , 			{
 				"name" : "Tempo_Tracker.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3084,6 +3093,14 @@
 			}
 , 			{
 				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "cambio~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

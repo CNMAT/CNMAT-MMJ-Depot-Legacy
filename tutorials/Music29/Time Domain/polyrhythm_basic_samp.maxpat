@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 161.0, 413.0, 1389.0, 604.0 ],
+		"rect" : [ 19.0, 67.0, 1389.0, 604.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -73,7 +73,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.555092, 0.555092, 0.555092, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"checkedcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-63",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -128,7 +130,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.555092, 0.555092, 0.555092, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"checkedcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-64",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -236,6 +240,7 @@
 					"patching_rect" : [ 928.0, 496.0, 50.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 7.0, 39.0, 25.0 ],
+					"text" : "/ 1",
 					"textcolor" : [ 0.92381, 1.0, 1.0, 1.0 ]
 				}
 
@@ -771,7 +776,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -1109,7 +1114,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u518003626"
+					"varname" : "u748008422"
 				}
 
 			}
@@ -1240,7 +1245,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -1600,7 +1605,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86"
 						}
 ,
@@ -1718,7 +1723,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86"
 										}
 ,
@@ -1868,7 +1873,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86"
 										}
 ,
@@ -3552,7 +3557,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+					"bgcolor" : [ 0.481829, 0.945098, 0.46593, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-49",
 					"maxclass" : "toggle",
@@ -3569,7 +3574,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.516698, 0.75526, 0.776471, 1.0 ],
+					"bgcolor" : [ 0.575588, 0.593461, 0.58797, 1.0 ],
 					"id" : "obj-69",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -3582,7 +3587,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.680052, 0.776471, 0.684023, 1.0 ],
+					"bgcolor" : [ 0.74552, 0.74902, 0.742019, 1.0 ],
 					"id" : "obj-71",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -3595,7 +3600,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.255612, 0.92549, 0.92549, 1.0 ],
+					"bgcolor" : [ 0.863791, 0.92549, 0.92549, 1.0 ],
 					"id" : "obj-62",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -4281,7 +4286,7 @@
 , 			{
 				"name" : "clicker-poly-samp.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4301,6 +4306,10 @@
 			}
 , 			{
 				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "cambio~.mxo",
 				"type" : "iLaX"
 			}
  ]
