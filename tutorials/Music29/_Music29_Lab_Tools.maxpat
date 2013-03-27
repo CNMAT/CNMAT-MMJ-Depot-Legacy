@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 22.0, 56.0, 968.0, 661.0 ],
+		"rect" : [ 8.0, 51.0, 968.0, 661.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,8 +40,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 347.0 ],
@@ -273,7 +275,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 568.0, 257.0, 20.0 ],
+					"patching_rect" : [ 224.0, 568.0, 238.0, 20.0 ],
 					"text" : "view and play a sound file with annotations",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -353,7 +355,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 541.0, 257.0, 20.0 ],
+					"patching_rect" : [ 224.0, 541.0, 166.0, 20.0 ],
 					"text" : "preview a folder of soundfiles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -518,7 +520,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 514.0, 257.0, 20.0 ],
+					"patching_rect" : [ 224.0, 514.0, 219.0, 20.0 ],
 					"text" : "navigate  through a space of soundfiles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -534,7 +536,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 487.0, 249.0, 20.0 ],
+					"patching_rect" : [ 224.0, 487.0, 156.0, 20.0 ],
 					"text" : "mix and mashup soundfiles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -991,7 +993,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 458.0, 484.0, 194.0 ],
+					"patching_rect" : [ 8.0, 458.0, 476.0, 190.0 ],
 					"rounded" : 15
 				}
 
@@ -1088,7 +1090,21 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "m29_filelookup.txt",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "./Misc Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pathpop.js",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/utilities",
+				"patcherrelativepath" : "../../modules/utilities",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }
