@@ -9,6 +9,7 @@
 		}
 ,
 		"rect" : [ 19.0, 67.0, 1389.0, 604.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -240,7 +241,7 @@
 					"patching_rect" : [ 928.0, 496.0, 50.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 7.0, 39.0, 25.0 ],
-					"text" : "/ 1",
+					"text" : "/ 10",
 					"textcolor" : [ 0.92381, 1.0, 1.0, 1.0 ]
 				}
 
@@ -465,6 +466,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-31",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1023,6 +1025,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
+					"size" : 10,
 					"slidercolor" : [ 0.015686, 0.647059, 0.984314, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_gate[1]"
@@ -1107,14 +1110,14 @@
 						"main_timbre" : [ 0 ],
 						"mute-state" : [ 0 ],
 						"mute-state[1]" : [ 0 ],
-						"seq_gate" : [ 0 ],
-						"seq_gate[1]" : [ 0 ],
-						"seq_timbre" : [ 0 ],
+						"seq_gate" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+						"seq_gate[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+						"seq_timbre" : [ 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 ],
 						"umenu[1]" : [ "--- none ---" ]
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u748008422"
+					"varname" : "u480002833"
 				}
 
 			}
@@ -1530,7 +1533,7 @@
 					"rounded" : 1.0,
 					"spacing_x" : 8.0,
 					"tabcolor" : [ 0.423529, 0.415686, 0.415686, 1.0 ],
-					"tabs" : [ "00" ],
+					"tabs" : [ "10", "10", "10", "10", "10", "10", "10", "10", "10", "10" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"truncate" : 0
 				}
@@ -2558,6 +2561,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-1586",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 5,
@@ -3529,6 +3533,7 @@
 					"setminmax" : [ 0.0, 99.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
+					"size" : 10,
 					"slidercolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_timbre"
@@ -3549,6 +3554,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
+					"size" : 10,
 					"slidercolor" : [ 0.866667, 0.333333, 0.105882, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_gate"
@@ -3557,7 +3563,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.481829, 0.945098, 0.46593, 1.0 ],
+					"bgcolor" : [ 0.945098, 0.793643, 0.314968, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-49",
 					"maxclass" : "toggle",
@@ -4232,85 +4238,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "fixlist.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
-				"patcherrelativepath" : "../Misc Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sub-beat.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/timing/stepmetro",
-				"patcherrelativepath" : "../../../modules/timing/stepmetro",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "clicker-poly-samp.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "clicker~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/timing/stepmetro",
-				"patcherrelativepath" : "../../../modules/timing/stepmetro",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shuffle_polybuf_vector.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/soundfiles_sampling/polybuffer",
-				"patcherrelativepath" : "../../../modules/soundfiles_sampling/polybuffer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "cambio~.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
