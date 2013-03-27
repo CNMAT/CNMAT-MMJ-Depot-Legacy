@@ -8,7 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 15.0, 51.0, 1380.0, 691.0 ],
+		"rect" : [ 21.0, 83.0, 1264.0, 108.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -277,6 +278,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -472,11 +474,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-27",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 188.0, 476.0, 62.0, 18.0 ],
-									"text" : "osc-route /*"
+									"text" : "o.route /*"
 								}
 
 							}
@@ -500,11 +502,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-22",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 68.0, 480.0, 62.0, 18.0 ],
-									"text" : "osc-route /*"
+									"text" : "o.route /*"
 								}
 
 							}
@@ -554,11 +556,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-9",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 3,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"outlettype" : [ "", "", "FullPacket" ],
 									"patching_rect" : [ 68.0, 416.0, 158.0, 18.0 ],
-									"text" : "osc-route /all-options /all-reasons"
+									"text" : "o.route /all-options /all-reasons"
 								}
 
 							}
@@ -1501,32 +1503,6 @@
 					"source" : [ "obj-87", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "_MU29-ADD2-morphology_admin_ED.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
-				"patcherrelativepath" : "../../../../../../current_duties/MUS_29/2013/lab04/Source-to-Events-sounds",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "addpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/utilities",
-				"patcherrelativepath" : "../../../modules/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "splitpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/utilities",
-				"patcherrelativepath" : "../../../modules/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

@@ -654,11 +654,11 @@
 																	"fontsize" : 10.0,
 																	"id" : "obj-10",
 																	"maxclass" : "newobj",
-																	"numinlets" : 1,
+																	"numinlets" : 2,
 																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
+																	"outlettype" : [ "", "FullPacket" ],
 																	"patching_rect" : [ 120.0, 188.0, 97.0, 18.0 ],
-																	"text" : "osc-route /mostcorr"
+																	"text" : "o.route /mostcorr"
 																}
 
 															}
@@ -1627,7 +1627,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.5, 332.0, 61.0, 49.0 ],
+					"patching_rect" : [ 89.5, 332.0, 63.0, 49.0 ],
 					"text" : "bgcolor 0.5 0.5 0.5, set <waiting for input>..."
 				}
 
@@ -2817,11 +2817,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-10",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 5,
 									"numoutlets" : 5,
-									"outlettype" : [ "", "", "", "", "" ],
+									"outlettype" : [ "", "", "", "", "FullPacket" ],
 									"patching_rect" : [ 44.0, 272.0, 218.0, 18.0 ],
-									"text" : "osc-route /answers /options /reasons /mostcorr"
+									"text" : "o.route /answers /options /reasons /mostcorr"
 								}
 
 							}
@@ -3767,7 +3767,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.768627, 0.768627, 0.768627, 1.0 ],
 					"id" : "obj-77",
-					"items" : [ "16-29review.aiff", ",", "14-29review.aif", ",", "12-29review.aif", ",", "11-29review.aif", ",", "08-29review.aif", ",", "06-29review.aif", ",", "05-29review.aif", ",", "04-29review.aif", ",", "03-29review.aif", ",", "02-29review.aif", ",", "01-29review.aif", ",", "18-29review.wav", ",", "17-29review.wav", ",", "15-29review.wav", ",", "13-29review.wav", ",", "09-29review.wav", ",", "07-29review.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3899,11 +3899,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 500.0, 372.0, 151.0, 18.0 ],
-					"text" : "osc-route /textmessage /textcoll"
+					"outlettype" : [ "", "", "FullPacket" ],
+					"patching_rect" : [ 500.0, 372.0, 141.0, 18.0 ],
+					"text" : "o.route /textmessage /textcoll"
 				}
 
 			}
@@ -3914,14 +3914,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-11",
-					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 500.0, 452.0, 258.0, 74.0 ],
+					"patching_rect" : [ 500.0, 452.0, 258.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 112.0, 1256.0, 20.0 ],
-					"text" : "This is Music 29 (Spring 2013) Mid-term listening review I.  Select one or more options that best fit the morphology of sound for each example.  Answers appear immediately at bottom of screen.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -4386,13 +4384,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "_Music29-review_coll.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab08/AAD-2-MID-TERM-REVIEW",
-				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab08/AAD-2-MID-TERM-REVIEW",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "audition-soundfiles~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/soundfiles-sampling",
 				"patcherrelativepath" : "../soundfiles-sampling",
@@ -4456,13 +4447,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "_midterm-review_admin.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/current_duties/MUS_29/2013/lab08/AAD-2-MID-TERM-REVIEW",
-				"patcherrelativepath" : "../../../../../current_duties/MUS_29/2013/lab08/AAD-2-MID-TERM-REVIEW",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "simple-stereo-gain~.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/mixing_and_gain",
 				"patcherrelativepath" : "../../modules/mixing_and_gain",
@@ -4519,7 +4503,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]
