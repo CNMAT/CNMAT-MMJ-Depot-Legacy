@@ -3,12 +3,11 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x86"
+			"minor" : 0,
+			"revision" : 8
 		}
 ,
-		"rect" : [ 11.0, 51.0, 1297.0, 971.0 ],
+		"rect" : [ 10.0, 47.0, 1308.0, 925.0 ],
 		"bgcolor" : [ 0.633342, 0.662035, 0.62036, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -30,6 +29,23 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-71",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 870.0, 192.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.0, 872.0, 233.0, 18.0 ],
+					"text" : "What is being displayed in text display window"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-148",
@@ -38,7 +54,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 848.5, 70.0, 32.5, 18.0 ],
-					"presentation_rect" : [ 849.5, 72.0, 0.0, 0.0 ],
 					"text" : "0"
 				}
 
@@ -53,7 +68,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 895.5, 65.0, 32.5, 18.0 ],
-					"presentation_rect" : [ 906.0, 74.916687, 0.0, 0.0 ],
 					"text" : "1"
 				}
 
@@ -137,9 +151,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 716.0, 331.0 ],
@@ -503,9 +516,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 50.0, 120.0, 640.0, 454.0 ],
@@ -806,7 +818,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 865.0, 58.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 875.0, 1278.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 891.0, 1278.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
 
@@ -824,9 +836,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 1059.0, 777.0 ],
@@ -1394,8 +1405,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 284.0, 281.0, 297.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 905.0, 98.0, 297.0, 20.0 ],
-					"text" : "sf-presenter accepts .aif and .wav file format (no mp3)"
+					"presentation_rect" : [ 905.0, 98.0, 255.0, 20.0 ],
+					"text" : "sf-presenter accepts .aif, .wav, mp3 file format"
 				}
 
 			}
@@ -1726,9 +1737,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 507.0, 111.0, 826.0, 620.0 ],
@@ -1827,9 +1837,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 2,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 25.0, 69.0, 380.0, 477.0 ],
@@ -2307,9 +2316,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 2,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 101.0, 477.0, 421.0, 390.0 ],
@@ -3050,9 +3058,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 91.0, 607.0, 327.0 ],
@@ -3101,9 +3108,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 2,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 25.0, 69.0, 356.0, 264.0 ],
@@ -3292,9 +3298,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 2,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 25.0, 69.0, 379.0, 189.0 ],
@@ -3767,9 +3772,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 2,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 618.0, 180.0, 311.0, 237.0 ],
@@ -3928,9 +3932,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 2,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 23.0, 72.0, 810.0, 390.0 ],
@@ -4103,9 +4106,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 2,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 363.0, 71.0, 1249.0, 314.0 ],
@@ -4152,7 +4154,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 90.0, 390.0, 113.0, 31.0 ],
+													"patching_rect" : [ 90.0, 390.0, 113.0, 18.0 ],
 													"text" : "textcolor 0. 0. 0. 0."
 												}
 
@@ -4519,14 +4521,15 @@
 													"fontname" : "Arial",
 													"fontsize" : 48.0,
 													"id" : "obj-3",
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 464.0, 360.0, 305.0, 648.0 ],
+													"patching_rect" : [ 464.0, 360.0, 305.0, 165.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 10.0, 12.0, 1233.0, 165.0 ],
-													"text" : "new marker",
+													"presentation_rect" : [ 10.0, 12.0, 1233.0, 58.0 ],
+													"text" : "Well, here is my text ()!! uhoh",
 													"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 												}
 
@@ -5092,9 +5095,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -5224,9 +5226,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 2,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 557.0, 275.0, 706.0, 714.0 ],
@@ -6557,9 +6558,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 889.0, 232.0, 660.0, 615.0 ],
@@ -6870,9 +6870,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 95.0, 509.0, 393.0 ],
@@ -6914,8 +6913,8 @@
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 9,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+									"numoutlets" : 8,
+									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "" ],
 									"patching_rect" : [ 108.0, 215.0, 127.0, 20.0 ],
 									"text" : "info~ mrkrplyr"
 								}
@@ -7103,15 +7102,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 8 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -7191,7 +7181,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
-					"hidden" : 1,
 					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -7207,7 +7196,6 @@
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-53",
 					"ignoreclick" : 1,
 					"maxclass" : "flonum",
@@ -7250,7 +7238,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 31.0, 984.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1058.0, 203.0, 52.0, 20.0 ],
+					"presentation_rect" : [ 1058.0, 231.0, 52.0, 20.0 ],
 					"text" : "min:sec",
 					"textcolor" : [ 0.624881, 0.966599, 0.897716, 1.0 ]
 				}
@@ -7267,7 +7255,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 177.666656, 903.0, 81.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1200.5, 203.0, 81.0, 20.0 ],
+					"presentation_rect" : [ 1200.5, 231.0, 81.0, 20.0 ],
 					"text" : "total seconds",
 					"textcolor" : [ 0.624881, 0.966599, 0.897716, 1.0 ]
 				}
@@ -7447,9 +7435,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 529.0, 297.0, 627.0, 369.0 ],
@@ -7757,7 +7744,6 @@
 , 			{
 				"box" : 				{
 					"bgtransparent" : 1,
-					"hidden" : 1,
 					"id" : "obj-29",
 					"idle" : 1,
 					"maxclass" : "lcd",
@@ -7867,7 +7853,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 128.166656, 952.0, 99.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1122.5, 203.0, 69.0, 22.0 ],
+					"presentation_rect" : [ 1122.5, 231.0, 69.0, 22.0 ],
 					"triangle" : 0
 				}
 
@@ -8207,9 +8193,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 653.0, 88.0, 1016.0, 704.0 ],
@@ -8542,7 +8527,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1858.5, 334.498322, 1278.0, 91.003357 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 5.0, 1278.0, 92.554649 ]
+					"presentation_rect" : [ 0.0, -4.945351, 1288.0, 102.5 ]
 				}
 
 			}
@@ -8641,7 +8626,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1749.0, 60.0, 173.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 913.368408, 234.5, 364.631592, 22.0 ],
+					"presentation_rect" : [ 903.0, 195.300308, 383.0, 22.0 ],
 					"rounded" : 20.0,
 					"text" : "open a new soundfile"
 				}
@@ -8660,9 +8645,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 888.0, 152.0, 208.0, 528.0 ],
@@ -8980,9 +8964,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 358.0, 431.0, 732.0, 452.0 ],
@@ -9691,9 +9674,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 21.0, 645.0, 468.0, 310.0 ],
@@ -9845,12 +9827,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 223.0, 94.0, 32.5, 31.0 ],
-									"text" : "stop"
+									"text" : "pause"
 								}
 
 							}
@@ -10078,9 +10061,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 878.0, 361.0, 640.0, 454.0 ],
@@ -10218,7 +10200,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 209.800003, 99.0, 18.0 ],
-									"text" : "1"
+									"text" : "0"
 								}
 
 							}
@@ -10407,7 +10389,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 73.166656, 952.0, 45.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 987.0, 203.0, 61.0, 22.0 ],
+					"presentation_rect" : [ 987.0, 231.0, 61.0, 22.0 ],
 					"triangle" : 0
 				}
 
@@ -10432,10 +10414,9 @@
 					"buffername" : "mrkrplyr",
 					"chanoffset" : 1,
 					"fontsize" : 11.0,
-					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
+					"frozen_box_attributes" : [ "buffername", "chanoffset" ],
 					"grid" : 0.0,
 					"id" : "obj-37",
-					"ignoreclick" : 1,
 					"labelbgcolor" : [ 0.478431, 0.709804, 0.317647, 1.0 ],
 					"linecolor" : [ 0.924215, 0.883227, 0.257754, 1.0 ],
 					"maxclass" : "waveform~",
@@ -10444,7 +10425,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 760.0, 889.5, 295.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 48.476227, 1278.0, 50.078423 ],
+					"presentation_rect" : [ 10.0, 48.476227, 1278.0, 49.078423 ],
 					"selectioncolor" : [ 0.54902, 0.85098, 0.588235, 0.501961 ],
 					"vticks" : 0,
 					"waveformcolor" : [ 0.52, 1.0, 0.92, 1.0 ]
@@ -10457,10 +10438,9 @@
 					"buffername" : "mrkrplyr",
 					"chanoffset" : 1,
 					"fontsize" : 11.0,
-					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
+					"frozen_box_attributes" : [ "buffername", "chanoffset" ],
 					"grid" : 0.0,
 					"id" : "obj-36",
-					"ignoreclick" : 1,
 					"labelbgcolor" : [ 0.271996, 0.42264, 0.501961, 1.0 ],
 					"labels" : 0,
 					"labeltextcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
@@ -10471,7 +10451,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 760.0, 833.0, 295.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 5.0, 1278.0, 44.0 ],
+					"presentation_rect" : [ 10.0, 6.0, 1278.0, 43.0 ],
 					"ruler" : 0,
 					"selectioncolor" : [ 0.54902, 0.85098, 0.588235, 0.501961 ],
 					"vticks" : 0,
@@ -10492,9 +10472,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 558.0, 70.0, 547.0, 391.0 ],
@@ -11039,9 +11018,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 84.0, 114.0, 640.0, 556.0 ],
@@ -11531,9 +11509,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 276.0, 430.0, 970.0, 500.0 ],
@@ -11757,7 +11734,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 56.833313, 952.0, 26.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 973.5, 203.0, 24.0, 27.0 ],
+					"presentation_rect" : [ 973.5, 231.0, 24.0, 27.0 ],
 					"text" : ":",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -11778,7 +11755,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 18.166656, 951.0, 29.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 915.5, 203.0, 58.0, 22.0 ],
+					"presentation_rect" : [ 915.5, 231.0, 58.0, 22.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
 				}
@@ -11800,7 +11777,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 24.0, 115.0, 242.166656, 25.625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 913.368408, 263.5, 364.631592, 25.0 ],
+					"presentation_rect" : [ 915.5, 260.65625, 364.631592, 25.0 ],
 					"rounded" : 20.0,
 					"tabcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 					"tabs" : [ "play", "stop", "pause", "resume" ]
@@ -11819,9 +11796,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 623.0, 89.0, 679.0, 742.0 ],
@@ -12041,8 +12017,8 @@
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 9,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+									"numoutlets" : 8,
+									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "" ],
 									"patching_rect" : [ 162.0, 63.0, 113.5, 20.0 ],
 									"text" : "info~ mrkrplyr"
 								}
@@ -12468,7 +12444,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1728.0, 30.0, 259.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1151.959961, 334.5, 134.040039, 68.5 ],
+					"presentation_rect" : [ 1151.959961, 336.5, 117.040039, 55.5 ],
 					"spacing_y" : 10.0,
 					"tabcolor" : [ 0.587299, 0.900292, 0.86839, 1.0 ],
 					"tabs" : [ "load presentation", "save presentation" ]
@@ -12483,6 +12459,7 @@
 					"bordercolor" : [ 0.415686, 0.239216, 0.109804, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
+					"hidden" : 1,
 					"id" : "obj-120",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -12545,9 +12522,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 422.0, 167.0, 729.0, 689.0 ],
@@ -13282,7 +13258,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1500.0, 1029.0, 14.5, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 905.0, 194.8125, 381.0, 100.6875 ],
+					"presentation_rect" : [ 905.0, 222.8125, 381.0, 75.6875 ],
 					"rounded" : 25
 				}
 
@@ -15289,91 +15265,91 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "harm-gran~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/effects_audio",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/effects_audio",
 				"patcherrelativepath" : "../../../modules/effects_audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "markermanager.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/interface",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/interface",
 				"patcherrelativepath" : "../../../modules/interface",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/mixing_and_gain",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/mixing_and_gain",
 				"patcherrelativepath" : "../../../modules/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detect_buf_filetype.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/utilities",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/utilities",
 				"patcherrelativepath" : "../../../modules/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency_Domain_Analysis.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
 				"patcherrelativepath" : "../../../tutorials/Music29/Frequency Domain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic_programming",
+				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/basic_programming",
 				"patcherrelativepath" : "../../../modules/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
