@@ -160,6 +160,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"frgb" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-67",
 					"maxclass" : "comment",
 					"numinlets" : 1,
