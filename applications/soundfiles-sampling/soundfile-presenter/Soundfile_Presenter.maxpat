@@ -37,8 +37,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1806.0, 545.0, 95.0, 20.0 ],
-					"presentation_rect" : [ 1597.5, 556.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1832.0, 450.0, 95.0, 20.0 ],
 					"text" : "r hideshow_edit"
 				}
 
@@ -53,7 +52,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1191.5, 475.0, 95.0, 20.0 ],
-					"presentation_rect" : [ 1217.0, 651.0, 0.0, 0.0 ],
 					"text" : "r hideshow_edit"
 				}
 
@@ -109,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1988.0, 445.0, 139.0, 19.0 ],
+					"patching_rect" : [ 1871.0, 496.5, 139.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 600.0, 774.0, 96.0, 19.0 ],
 					"text" : "reset marker time"
@@ -127,7 +125,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.122827, 0.175381, 0.301961, 1.0 ],
-					"patching_rect" : [ 1966.0, 445.0, 20.0, 20.0 ],
+					"patching_rect" : [ 1849.0, 496.5, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 578.0, 774.0, 20.0, 20.0 ]
 				}
@@ -5690,6 +5688,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -11178,6 +11177,7 @@
 					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
 					"grid" : 0.0,
 					"id" : "obj-37",
+					"ignoreclick" : 1,
 					"labelbgcolor" : [ 0.478431, 0.709804, 0.317647, 1.0 ],
 					"linecolor" : [ 0.924215, 0.883227, 0.257754, 1.0 ],
 					"maxclass" : "waveform~",
@@ -11202,6 +11202,7 @@
 					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
 					"grid" : 0.0,
 					"id" : "obj-36",
+					"ignoreclick" : 1,
 					"labelbgcolor" : [ 0.271996, 0.42264, 0.501961, 1.0 ],
 					"labels" : 0,
 					"labeltextcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
