@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -31,6 +31,54 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"background" : 0,
+					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"checkedcolor" : [ 0.25098, 0.113725, 0.078431, 1.0 ],
+					"hidden" : 0,
+					"id" : "obj-1",
+					"ignoreclick" : 0,
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1254.0, 79.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 800.0, 249.908447, 16.183121, 16.183121 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bubble" : 0,
+					"bubblepoint" : 0.5,
+					"bubbleside" : 1,
+					"bubbletextmargin" : 5,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"hidden" : 0,
+					"id" : "obj-14",
+					"ignoreclick" : 1,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1284.0, 79.0, 145.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 822.0, 248.0, 145.0, 20.0 ],
+					"text" : "record immediately",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
+					"underline" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 0.576471, 0.576471, 0.576471, 1.0 ],
 					"fontface" : 0,
@@ -48,7 +96,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -123,7 +171,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -677,7 +725,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1080,7 +1128,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1154,7 +1202,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -1231,7 +1279,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1412,7 +1460,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1254.0, 52.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.0, 240.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 800.0, 229.908447, 16.183121, 16.183121 ]
 				}
 
 			}
@@ -1436,7 +1484,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1284.0, 52.0, 145.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 830.0, 240.0, 145.0, 20.0 ],
+					"presentation_rect" : [ 822.0, 228.0, 145.0, 20.0 ],
 					"text" : "record on playback/stop?",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -1464,7 +1512,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1284.0, 22.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 830.0, 216.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 822.0, 208.0, 150.0, 20.0 ],
 					"text" : "open a file for recording",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -1488,7 +1536,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"patching_rect" : [ 1254.0, 22.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.0, 216.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 798.0, 208.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1741,7 +1789,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-5",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -1841,7 +1889,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-11",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -1967,7 +2015,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -2188,7 +2236,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -2259,7 +2307,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -2731,7 +2779,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -2807,7 +2855,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 2,
 															"architecture" : "x86"
 														}
 ,
@@ -4290,7 +4338,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -4669,7 +4717,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-90",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4769,7 +4817,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-96",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4869,7 +4917,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-22",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4941,14 +4989,14 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 404.0, 132.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.0, 100.0, 384.0, 239.0 ],
+					"presentation_rect" : [ 400.0, 100.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "samplemixer", 2.0, "Campion/Zbyszynski/Lubow", "samplemixer", 2512 ],
+					"args" : [ "samplemixer", 2.0, "Campion/Zbyszynski/Lubow", "samplemixer", 2512, "0.455 0.607 0.899 1." ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -4976,7 +5024,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "samplemixer", "create phrases with multichannel soundfile playback, then mix down" ],
+					"args" : [ "samplemixer", "create phrases with multichannel soundfile playback, then mix down", "0.455 0.607 0.899 1." ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -5072,7 +5120,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-12",
 					"ignoreclick" : 0,
-					"items" : "---none---",
+					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -5277,7 +5325,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -5695,6 +5743,16 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-66", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-58", 0 ],
@@ -6428,7 +6486,7 @@
 , 			{
 				"name" : "samplemixerdemo.json",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/soundfiles-sampling/samplemixer",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6454,7 +6512,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route..mxo",
+				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
  ]
