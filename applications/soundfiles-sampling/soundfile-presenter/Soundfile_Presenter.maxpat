@@ -978,7 +978,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1871.0, 496.5, 139.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 600.0, 752.0, 96.0, 19.0 ],
+					"presentation_rect" : [ 600.0, 731.0, 96.0, 19.0 ],
 					"text" : "reset marker time"
 				}
 
@@ -996,7 +996,7 @@
 					"outlinecolor" : [ 0.122827, 0.175381, 0.301961, 1.0 ],
 					"patching_rect" : [ 1849.0, 496.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 580.0, 752.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 580.0, 731.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1017,7 +1017,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1728.0, 496.5, 52.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 502.0, 751.5, 73.0, 20.0 ],
+					"presentation_rect" : [ 502.0, 730.5, 73.0, 20.0 ],
 					"triangle" : 0
 				}
 
@@ -1034,7 +1034,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1161.0, 592.0, 134.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 365.0, 774.0, 134.0, 19.0 ],
+					"presentation_rect" : [ 365.0, 753.0, 134.0, 19.0 ],
 					"text" : "set new marker start time"
 				}
 
@@ -1066,7 +1066,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 420.0, 571.0, 86.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 732.0, 776.0, 138.0, 19.0 ],
+					"presentation_rect" : [ 732.0, 755.0, 138.0, 19.0 ],
 					"text" : "exit edit mode and cancel "
 				}
 
@@ -1084,7 +1084,7 @@
 					"outlinecolor" : [ 0.251347, 0.251347, 0.251347, 1.0 ],
 					"patching_rect" : [ 400.0, 571.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 713.0, 776.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 713.0, 755.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1304,7 +1304,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1161.0, 528.0, 112.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 600.0, 774.0, 112.0, 19.0 ],
+					"presentation_rect" : [ 600.0, 753.0, 112.0, 19.0 ],
 					"text" : "preview  new marker"
 				}
 
@@ -1322,7 +1322,7 @@
 					"outlinecolor" : [ 0.303725, 0.303725, 0.303725, 1.0 ],
 					"patching_rect" : [ 2059.5, 111.75, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 580.0, 774.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 580.0, 753.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1491,7 +1491,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 870.0, 195.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 872.0, 233.0, 18.0 ],
+					"presentation_rect" : [ 11.0, 851.0, 233.0, 18.0 ],
 					"text" : "What is being displayed in text display window"
 				}
 
@@ -2177,7 +2177,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 865.0, 58.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 890.0, 1278.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 869.0, 1278.0, 20.0 ],
 					"text" : "new marker",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
@@ -8585,7 +8585,7 @@
 					"offset" : [ 2.0, 4.0 ],
 					"patching_rect" : [ 2160.0, 696.5, 298.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1018.0, 783.0, 269.0, 89.0 ]
+					"presentation_rect" : [ 1018.0, 762.0, 269.0, 89.0 ]
 				}
 
 			}
@@ -8655,7 +8655,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 24.0, 413.0, 102.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1186.5, 561.0, 99.5, 179.0 ]
+					"presentation_rect" : [ 1186.5, 541.0, 99.5, 179.0 ]
 				}
 
 			}
@@ -9025,7 +9025,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1629.5, 496.5, 52.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 502.0, 773.5, 73.0, 20.0 ],
+					"presentation_rect" : [ 502.0, 752.5, 73.0, 20.0 ],
 					"triangle" : 0
 				}
 
@@ -9155,7 +9155,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1161.0, 544.0, 130.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 365.0, 751.5, 130.0, 19.0 ],
+					"presentation_rect" : [ 365.0, 730.5, 130.0, 19.0 ],
 					"text" : "current marker start time"
 				}
 
@@ -9214,7 +9214,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1806.0, 596.0, 149.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.0, 755.0, 127.0, 36.5 ],
+					"presentation_rect" : [ 235.0, 734.0, 127.0, 36.5 ],
 					"rounded" : 20.0,
 					"text" : "clear text edit window",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -9334,7 +9334,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1161.0, 560.0, 108.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 769.0, 753.0, 108.0, 19.0 ],
+					"presentation_rect" : [ 769.0, 732.0, 108.0, 19.0 ],
 					"text" : "text display duration"
 				}
 
@@ -9356,7 +9356,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1065.75, 500.0, 65.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 713.0, 752.0, 56.0, 20.0 ],
+					"presentation_rect" : [ 713.0, 731.0, 56.0, 20.0 ],
 					"varname" : "new_marker_duration"
 				}
 
@@ -9836,7 +9836,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1161.0, 576.0, 220.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 748.5, 220.0, 23.0 ],
+					"presentation_rect" : [ 12.0, 727.5, 220.0, 23.0 ],
 					"text" : "Edit Text for selected marker:"
 				}
 
@@ -13008,7 +13008,7 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 284.0, 156.0, 257.0, 81.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.0, 159.5, 690.0, 580.5 ],
+					"presentation_rect" : [ 208.0, 159.5, 690.0, 560.5 ],
 					"rowhead" : 1,
 					"rows" : 1,
 					"selmode" : 3,
@@ -13708,7 +13708,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1083.0, 97.916687, 139.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 773.0, 213.0, 18.5 ],
+					"presentation_rect" : [ 13.0, 752.0, 213.0, 18.5 ],
 					"rounded" : 15.0,
 					"text" : "DELETE selected marker",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -13752,7 +13752,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1178.0, 731.0, 157.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 879.0, 755.0, 128.5, 36.5 ],
+					"presentation_rect" : [ 879.0, 734.0, 128.5, 36.5 ],
 					"rounded" : 20.0,
 					"text" : "commit text changes",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -13789,7 +13789,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1660.0, 725.5, 140.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 796.0, 995.5, 71.0 ],
+					"presentation_rect" : [ 13.0, 775.0, 995.5, 71.0 ],
 					"rounded" : 20.0,
 					"tabmode" : 0
 				}
@@ -14516,7 +14516,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1479.75, 1010.0, 14.5, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.0, 110.0, 60.0, 630.0 ],
+					"presentation_rect" : [ 141.0, 110.0, 60.0, 610.0 ],
 					"rounded" : 30
 				}
 
@@ -14530,7 +14530,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1459.5, 1010.0, 14.5, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 109.0, 60.0, 630.0 ],
+					"presentation_rect" : [ 8.0, 109.0, 60.0, 610.0 ],
 					"rounded" : 30
 				}
 
@@ -14769,7 +14769,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1479.75, 1029.0, 14.5, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.0, 110.0, 60.0, 630.0 ],
+					"presentation_rect" : [ 74.0, 110.0, 60.0, 610.0 ],
 					"rounded" : 30
 				}
 
@@ -14784,7 +14784,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1820.0, 693.0, 272.0, 337.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 906.0, 336.5, 240.0, 403.5 ],
+					"presentation_rect" : [ 906.0, 336.5, 240.0, 383.5 ],
 					"rounded" : 30
 				}
 
@@ -14799,7 +14799,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 877.0, 132.916687, 69.5, 46.333313 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 746.5, 1006.0, 125.5 ],
+					"presentation_rect" : [ 8.0, 725.5, 1006.0, 125.5 ],
 					"rounded" : 34
 				}
 
