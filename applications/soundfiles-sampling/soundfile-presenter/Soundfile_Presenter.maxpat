@@ -13884,7 +13884,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1479.75, 1010.0, 14.5, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.0, 110.0, 60.0, 605.0 ],
+					"presentation_rect" : [ 141.0, 110.0, 60.0, 630.0 ],
 					"rounded" : 30
 				}
 
@@ -13898,7 +13898,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1459.5, 1010.0, 14.5, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 109.0, 60.0, 605.0 ],
+					"presentation_rect" : [ 8.0, 109.0, 60.0, 630.0 ],
 					"rounded" : 30
 				}
 
@@ -14137,7 +14137,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1479.75, 1029.0, 14.5, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.0, 110.0, 60.0, 605.0 ],
+					"presentation_rect" : [ 74.0, 110.0, 60.0, 630.0 ],
 					"rounded" : 30
 				}
 
