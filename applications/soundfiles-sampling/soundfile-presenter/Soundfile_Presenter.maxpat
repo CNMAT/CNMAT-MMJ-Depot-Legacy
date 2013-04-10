@@ -1175,13 +1175,15 @@
 					"fontsize" : 14.0,
 					"hint" : "demo of the display shown in the main display window",
 					"id" : "obj-2",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 865.0, 58.0, 20.0 ],
+					"patching_rect" : [ 400.0, 865.0, 58.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 891.0, 1278.0, 20.0 ],
+					"text" : "new marker",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
 
@@ -4917,7 +4919,7 @@
 													"patching_rect" : [ 464.0, 360.0, 305.0, 165.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 10.0, 12.0, 1233.0, 58.0 ],
-													"text" : "two",
+													"text" : "new marker",
 													"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 												}
 
@@ -15563,16 +15565,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-36", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"destination" : [ "obj-103", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-37", 2 ]
 				}
 
 			}
