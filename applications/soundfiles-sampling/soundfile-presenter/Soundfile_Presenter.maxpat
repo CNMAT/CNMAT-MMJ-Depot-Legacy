@@ -32,6 +32,19 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1178.0, 907.0, 55.0, 20.0 ],
+					"text" : "s in_edit"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-263",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1780,34 +1793,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2020.0, 505.0, 44.0, 20.0 ],
 					"text" : "r clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-67",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1178.0, 707.0, 57.0, 18.0 ],
-					"text" : "hidden 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-60",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1245.0, 707.0, 57.0, 18.0 ],
-					"text" : "hidden 0"
 				}
 
 			}
@@ -4904,7 +4889,6 @@
 													"patching_rect" : [ 464.0, 360.0, 305.0, 165.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 10.0, 12.0, 1233.0, 58.0 ],
-													"text" : "new marker",
 													"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 												}
 
@@ -8497,9 +8481,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "bang" ],
+					"outlettype" : [ "int", "bang", "bang" ],
 					"patching_rect" : [ 1178.0, 761.0, 46.0, 20.0 ],
-					"text" : "t b b b"
+					"text" : "t 0 b b"
 				}
 
 			}
@@ -11014,7 +10998,7 @@
 					"buffername" : "mrkrplyr",
 					"chanoffset" : 1,
 					"fontsize" : 11.0,
-					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
+					"frozen_box_attributes" : [ "buffername", "chanoffset" ],
 					"grid" : 0.0,
 					"id" : "obj-37",
 					"ignoreclick" : 1,
@@ -11039,7 +11023,7 @@
 					"buffername" : "mrkrplyr",
 					"chanoffset" : 1,
 					"fontsize" : 11.0,
-					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
+					"frozen_box_attributes" : [ "buffername", "chanoffset" ],
 					"grid" : 0.0,
 					"id" : "obj-36",
 					"ignoreclick" : 1,
@@ -14711,10 +14695,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
+					"destination" : [ "obj-60", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1187.5, 790.0, 1170.5, 790.0, 1170.5, 697.0, 1187.5, 697.0 ],
 					"source" : [ "obj-154", 0 ]
 				}
 
@@ -15733,15 +15716,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-57", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 0.9 ],
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
@@ -15783,15 +15757,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-120", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -15843,15 +15808,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-120", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-67", 0 ]
 				}
 
 			}
@@ -16241,13 +16197,6 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lab_metallics_sfp.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/svn/production/trunk/campion/soundfile_presenter/application/mac_version",
-				"patcherrelativepath" : "../../../../../svn/production/trunk/campion/soundfile_presenter/application/mac_version",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
