@@ -7838,7 +7838,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1034.0, 83.0, 660.0, 615.0 ],
+						"rect" : [ 1020.0, 83.0, 660.0, 615.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7985,7 +7985,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 55.0, 115.0, 177.0, 18.0 ],
-									"text" : "presentation_rect 10 5 1278 93"
+									"text" : "presentation_rect 10 5 1278 95"
 								}
 
 							}
@@ -9755,7 +9755,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1858.5, 334.498322, 1278.0, 91.003357 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 5.0, 1278.0, 92.554649 ]
+					"presentation_rect" : [ 10.0, 5.0, 1278.0, 94.554649 ]
 				}
 
 			}
@@ -11766,7 +11766,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 760.0, 889.5, 295.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 48.476227, 1278.0, 49.078423 ],
+					"presentation_rect" : [ 10.0, 51.476227, 1278.0, 49.078423 ],
 					"ruler" : 0,
 					"selectioncolor" : [ 0.54902, 0.85098, 0.588235, 0.501961 ],
 					"vticks" : 0,
