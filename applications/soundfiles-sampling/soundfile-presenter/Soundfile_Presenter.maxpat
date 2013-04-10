@@ -7939,7 +7939,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 24.0, 413.0, 102.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1169.5, 497.0, 99.5, 190.0 ]
+					"presentation_rect" : [ 1186.5, 561.0, 99.5, 179.0 ]
 				}
 
 			}
@@ -13096,7 +13096,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1728.0, 30.0, 259.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1151.959961, 336.5, 117.040039, 55.5 ],
+					"presentation_rect" : [ 1151.959961, 336.5, 134.040039, 55.5 ],
 					"spacing_y" : 10.0,
 					"tabcolor" : [ 0.587299, 0.900292, 0.86839, 1.0 ],
 					"tabs" : [ "load presentation", "save presentation" ]
