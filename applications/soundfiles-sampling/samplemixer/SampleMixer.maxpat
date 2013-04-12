@@ -9,7 +9,7 @@
 		}
 ,
 		"rect" : [ 9.0, 55.0, 1084.0, 664.0 ],
-		"bgcolor" : [ 0.223529, 0.223529, 0.223529, 1.0 ],
+		"bgcolor" : [ 0.828571, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,9 +31,9 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"background" : 0,
-					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"checkedcolor" : [ 0.25098, 0.113725, 0.078431, 1.0 ],
+					"bgcolor" : [ 0.0, 0.495318, 0.901961, 1.0 ],
+					"bordercolor" : [ 0.0, 0.098039, 0.203922, 0.0 ],
+					"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-1",
 					"ignoreclick" : 0,
@@ -42,9 +42,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1254.0, 79.0, 20.0, 20.0 ],
+					"patching_rect" : [ 1211.0, 132.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.0, 249.908447, 16.183121, 16.183121 ]
+					"presentation_rect" : [ 800.0, 243.908447, 16.183121, 16.183121 ]
 				}
 
 			}
@@ -66,9 +66,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1284.0, 79.0, 145.0, 20.0 ],
+					"patching_rect" : [ 1236.0, 132.0, 145.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 822.0, 248.0, 145.0, 20.0 ],
+					"presentation_rect" : [ 822.0, 242.0, 145.0, 20.0 ],
 					"text" : "record immediately",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -1202,7 +1202,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -1238,7 +1238,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1254.0, 212.0, 63.0, 20.0 ],
+					"patching_rect" : [ 1211.0, 212.0, 63.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
@@ -1447,9 +1447,9 @@
 , 			{
 				"box" : 				{
 					"background" : 0,
-					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"checkedcolor" : [ 0.25098, 0.113725, 0.078431, 1.0 ],
+					"bgcolor" : [ 0.0, 0.495318, 0.901961, 1.0 ],
+					"bordercolor" : [ 0.0, 0.098039, 0.203922, 0.0 ],
+					"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-44",
 					"ignoreclick" : 0,
@@ -1460,7 +1460,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1254.0, 52.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.0, 229.908447, 16.183121, 16.183121 ]
+					"presentation_rect" : [ 800.0, 223.908447, 16.183121, 16.183121 ]
 				}
 
 			}
@@ -1484,7 +1484,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1284.0, 52.0, 145.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 822.0, 228.0, 145.0, 20.0 ],
+					"presentation_rect" : [ 822.0, 222.0, 145.0, 20.0 ],
 					"text" : "record on playback/stop?",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -1512,7 +1512,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1284.0, 22.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 822.0, 208.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 822.0, 202.0, 150.0, 20.0 ],
 					"text" : "open a file for recording",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -1536,7 +1536,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"patching_rect" : [ 1254.0, 22.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 798.0, 208.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 798.0, 202.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1561,8 +1561,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1022.5, 772.0, 140.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 792.0, 208.0, 293.0, 60.0 ],
-					"rounded" : 8,
+					"presentation_rect" : [ 792.0, 192.0, 293.0, 76.0 ],
+					"rounded" : 27,
 					"shadow" : 0,
 					"shape" : 0,
 					"vertical_direction" : 0
@@ -4635,7 +4635,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1112.0, 330.0, 141.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 868.0, 113.0, 141.0, 23.0 ],
+					"presentation_rect" : [ 868.0, 97.0, 141.0, 23.0 ],
 					"text" : "reverb parameters",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
@@ -4663,7 +4663,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 868.0, 308.0, 62.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 908.0, 148.0, 62.0, 17.0 ],
+					"presentation_rect" : [ 908.0, 127.0, 62.0, 17.0 ],
 					"text" : "reverb level",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -4996,7 +4996,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "samplemixer", 2.0, "Campion/Zbyszynski/Lubow", "samplemixer", 2512, "0.455 0.607 0.899 1." ],
+					"args" : [ "samplemixer", "2.1", "Campion/Zbyszynski/Lubow", "samplemixer", 2512, "0.182 0.331 0.422 1." ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -5014,17 +5014,17 @@
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ 0.0, 3.0 ],
 					"patching_rect" : [ 936.0, 568.0, 292.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 784.0, 484.0, 292.0, 86.0 ],
+					"presentation_rect" : [ 784.0, 476.0, 292.0, 86.0 ],
 					"prototypename" : "cnmat_badge"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "samplemixer", "create phrases with multichannel soundfile playback, then mix down", "0.455 0.607 0.899 1." ],
+					"args" : [ "samplemixer", "create phrases with multichannel soundfile playback, then mix down", "0.182 0.331 0.422 1." ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -5165,7 +5165,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 888.0, 332.0, 62.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 908.0, 176.0, 62.0, 17.0 ],
+					"presentation_rect" : [ 908.0, 155.0, 62.0, 17.0 ],
 					"text" : "reverb time",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -5193,7 +5193,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1084.0, 308.0, 144.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.5, 172.0, 275.5, 24.0 ],
+					"presentation_rect" : [ 800.5, 151.0, 275.5, 24.0 ],
 					"relative" : 0,
 					"size" : 128.0
 				}
@@ -5219,7 +5219,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1064.0, 284.0, 144.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.5, 144.0, 275.5, 24.0 ],
+					"presentation_rect" : [ 800.5, 123.0, 275.5, 24.0 ],
 					"relative" : 0,
 					"size" : 128.0
 				}
@@ -5655,7 +5655,7 @@
 					"patching_rect" : [ 816.0, 180.0, 149.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 535.5, 12.5, 186.0, 31.0 ],
+					"presentation_rect" : [ 533.5, 16.5, 186.0, 31.0 ],
 					"text" : "drop folder containing soundfiles here (.wav or .aif)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
@@ -5678,7 +5678,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 798.0, 137.0, 227.0, 113.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 519.0, 4.0, 216.0, 48.0 ],
+					"presentation_rect" : [ 517.0, 8.0, 216.0, 48.0 ],
 					"rounded" : 20.0
 				}
 
@@ -5704,7 +5704,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 796.0, 136.0, 228.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 519.0, 4.0, 216.0, 48.0 ],
+					"presentation_rect" : [ 517.0, 8.0, 216.0, 48.0 ],
 					"rounded" : 8,
 					"shadow" : 0,
 					"shape" : 0,
@@ -5733,8 +5733,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1112.0, 330.0, 140.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 792.0, 108.0, 293.0, 92.0 ],
-					"rounded" : 8,
+					"presentation_rect" : [ 792.0, 92.0, 293.0, 92.0 ],
+					"rounded" : 27,
 					"shadow" : 0,
 					"shape" : 0,
 					"vertical_direction" : 0
@@ -6436,20 +6436,6 @@
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "JSON",
