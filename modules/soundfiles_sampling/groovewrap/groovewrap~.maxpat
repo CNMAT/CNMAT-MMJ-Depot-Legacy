@@ -1906,7 +1906,7 @@
 					"border_top" : 0,
 					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
 					"candicane2" : [ 0.145098, 0.203922, 0.356863, 1.0 ],
-					"candicane3" : [ 0.290196, 0.411765, 0.713726, 1.0 ],
+					"candicane3" : [ 0.361178, 0.6013, 0.713726, 1.0 ],
 					"candicane4" : [ 0.439216, 0.619608, 0.070588, 1.0 ],
 					"candicane5" : [ 0.584314, 0.827451, 0.431373, 1.0 ],
 					"candicane6" : [ 0.733333, 0.035294, 0.788235, 1.0 ],
@@ -1950,7 +1950,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
+					"bgcolor" : [ 0.390764, 0.635084, 0.8, 1.0 ],
 					"buffername" : "sho",
 					"gridcolor" : [ 0.392157, 0.392157, 0.392157, 1.0 ],
 					"id" : "obj-73",
@@ -1965,7 +1965,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 63.0, 346.0, 54.5 ],
 					"ruler" : 0,
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"selectioncolor" : [ 0.0, 0.715619, 1.0, 0.5 ],
 					"setmode" : 1,
 					"snapto" : 2,
 					"varname" : "waveChan2",
@@ -2901,7 +2901,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
+					"bgcolor" : [ 0.390764, 0.635084, 0.8, 1.0 ],
 					"buffername" : "sho",
 					"gridcolor" : [ 0.392157, 0.392157, 0.392157, 1.0 ],
 					"id" : "obj-46",
@@ -2916,7 +2916,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 346.0, 54.5 ],
 					"ruler" : 0,
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"selectioncolor" : [ 0.0, 0.715619, 1.0, 0.5 ],
 					"setmode" : 1,
 					"snapto" : 2,
 					"varname" : "waveChan1",
@@ -4938,7 +4938,7 @@
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u738003047"
+					"varname" : "u252004741"
 				}
 
 			}
@@ -6688,20 +6688,6 @@
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../depot_support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../depot_support",
 				"type" : "JSON",
