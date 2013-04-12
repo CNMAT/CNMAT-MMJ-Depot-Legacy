@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -74,7 +74,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Additive-KeyMouse-Synthesizer", "play notes of a harmonic synth with the keyboard and mouse" ],
+					"args" : [ "Additive-KeyMouse-Synthesizer", "play notes of a harmonic synth with the keyboard and mouse", "0.149 0.336 0.39 1." ],
 					"id" : "obj-38",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -84,13 +84,13 @@
 					"offset" : [ -18.0, -68.0 ],
 					"patching_rect" : [ 48.5, 584.0, 511.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 328.0, 376.0, 472.0, 76.0 ]
+					"presentation_rect" : [ 336.0, 384.0, 464.0, 76.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Additive Key/Mouse Synthesizer", "0.2a", "Jeff Lubow", "Additive Key/Mouse Synthesizer", 6666 ],
+					"args" : [ "Additive Key/Mouse Synthesizer", "0.2a", "Jeff Lubow", "Additive Key/Mouse Synthesizer", 6666, "0.149 0.336 0.39 1." ],
 					"id" : "obj-34",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
@@ -193,7 +193,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -873,7 +873,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -3914,7 +3914,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -5050,20 +5050,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "banner.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
@@ -5087,7 +5073,7 @@
 , 			{
 				"name" : "Frequency_Domain_Analysis.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5095,13 +5081,6 @@
 				"name" : "nothing.maxpat",
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic_programming",
 				"patcherrelativepath" : "../../../modules/basic_programming",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mouse_controller.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/controllers/XY_control",
-				"patcherrelativepath" : "../../../modules/controllers/XY_control",
 				"type" : "JSON",
 				"implicit" : 1
 			}

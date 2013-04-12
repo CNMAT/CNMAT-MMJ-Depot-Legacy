@@ -44,7 +44,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1211.0, 132.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.0, 243.908447, 16.183121, 16.183121 ]
+					"presentation_rect" : [ 800.0, 241.908447, 16.183121, 16.183121 ]
 				}
 
 			}
@@ -68,7 +68,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1236.0, 132.0, 145.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 822.0, 242.0, 145.0, 20.0 ],
+					"presentation_rect" : [ 822.0, 240.0, 145.0, 20.0 ],
 					"text" : "record immediately",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -1460,7 +1460,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1254.0, 52.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.0, 223.908447, 16.183121, 16.183121 ]
+					"presentation_rect" : [ 800.0, 221.908447, 16.183121, 16.183121 ]
 				}
 
 			}
@@ -1484,7 +1484,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1284.0, 52.0, 145.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 822.0, 222.0, 145.0, 20.0 ],
+					"presentation_rect" : [ 822.0, 220.0, 145.0, 20.0 ],
 					"text" : "record on playback/stop?",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -1512,7 +1512,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1284.0, 22.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 822.0, 202.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 822.0, 200.0, 150.0, 20.0 ],
 					"text" : "open a file for recording",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -1536,7 +1536,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"patching_rect" : [ 1254.0, 22.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 798.0, 202.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 798.0, 200.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -2151,9 +2151,9 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 10, 59, 650, 299 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 10, 59, 650, 299 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage samplemixerdemo @greedy 1 @savemode 0",
