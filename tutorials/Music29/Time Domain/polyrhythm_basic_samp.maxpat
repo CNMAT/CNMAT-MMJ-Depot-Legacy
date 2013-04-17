@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -45,20 +45,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-68",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 946.25, 444.0, 32.5, 18.0 ],
-					"text" : "!- 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"frgb" : 0.0,
 					"id" : "obj-67",
@@ -67,8 +53,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 969.5, 419.0, 173.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 940.0, 69.0, 101.0, 19.0 ],
-					"text" : "loop shuffle"
+					"presentation_rect" : [ 890.0, 69.0, 120.0, 19.0 ],
+					"text" : "re-shuffle every cycle?"
 				}
 
 			}
@@ -85,7 +71,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 946.25, 418.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 923.0, 70.0, 14.742593, 14.742593 ]
+					"presentation_rect" : [ 873.0, 70.0, 14.742593, 14.742593 ]
 				}
 
 			}
@@ -142,7 +128,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1046.0, 368.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 923.0, 54.0, 14.742593, 14.742593 ]
+					"presentation_rect" : [ 873.0, 54.0, 14.742593, 14.742593 ]
 				}
 
 			}
@@ -241,7 +227,7 @@
 					"patching_rect" : [ 928.0, 496.0, 50.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 7.0, 39.0, 25.0 ],
-					"text" : "/ 10",
+					"text" : "/ 1",
 					"textcolor" : [ 0.92381, 1.0, 1.0, 1.0 ]
 				}
 
@@ -414,8 +400,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1080.0, 368.0, 173.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 940.0, 53.0, 98.0, 19.0 ],
-					"text" : "shuffle samples"
+					"presentation_rect" : [ 890.0, 53.0, 147.0, 19.0 ],
+					"text" : "shuffle samples "
 				}
 
 			}
@@ -471,7 +457,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 888.0, 336.0, 148.0, 18.0 ],
+					"patching_rect" : [ 888.0, 336.0, 134.0, 29.0 ],
 					"text" : "shuffle_polybuf_vector #1 #3"
 				}
 
@@ -621,8 +607,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.0, 149.0, 181.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 733.0, 69.0, 91.0, 20.0 ],
-					"text" : "choose sample"
+					"presentation_rect" : [ 733.0, 69.0, 125.0, 20.0 ],
+					"text" : "single samp selection"
 				}
 
 			}
@@ -631,7 +617,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
-					"items" : [ "--- none ---", ",", "floisen_blutter", ",", "floisen_metail", ",", "floisen_noisen", ",", "floisen_ruff01", ",", "floisen_ruff02", ",", "floisen_wind" ],
+					"items" : [ "--- none ---", ",", "Agogo Bell", ",", "Bassdrum", ",", "Cabasa", ",", "Clap", ",", "Claves", ",", "Closed Hat", ",", "Conga H", ",", "Conga L", ",", "Maracas", ",", "Open Hat", ",", "Rim", ",", "Shaker", ",", "Snaredrum", ",", "Timbale", ",", "Tom-1", ",", "Tom-2", ",", "Triangle", ",", "Wood Block H", ",", "Wood Block L" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -778,7 +764,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1025,7 +1011,6 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 10,
 					"slidercolor" : [ 0.015686, 0.647059, 0.984314, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_gate[1]"
@@ -1110,14 +1095,14 @@
 						"main_timbre" : [ 0 ],
 						"mute-state" : [ 0 ],
 						"mute-state[1]" : [ 0 ],
-						"seq_gate" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-						"seq_gate[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-						"seq_timbre" : [ 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 ],
+						"seq_gate" : [ 0 ],
+						"seq_gate[1]" : [ 0 ],
+						"seq_timbre" : [ 0 ],
 						"umenu[1]" : [ "--- none ---" ]
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u480002833"
+					"varname" : "u603002561"
 				}
 
 			}
@@ -1248,7 +1233,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1533,7 +1518,7 @@
 					"rounded" : 1.0,
 					"spacing_x" : 8.0,
 					"tabcolor" : [ 0.423529, 0.415686, 0.415686, 1.0 ],
-					"tabs" : [ "10", "10", "10", "10", "10", "10", "10", "10", "10", "10" ],
+					"tabs" : [ "00" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"truncate" : 0
 				}
@@ -1608,11 +1593,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 544.0, 193.0, 950.0, 724.0 ],
+						"rect" : [ 387.0, 152.0, 950.0, 724.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1632,6 +1617,19 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-58",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 772.0, 88.0, 115.0, 20.0 ],
+									"text" : "print division_router"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-25",
@@ -1726,7 +1724,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -1876,7 +1874,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -2495,7 +2493,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 51.0, 574.5, 135.0, 20.0 ],
+									"patching_rect" : [ 51.0, 574.5, 92.75, 20.0 ],
 									"text" : "*~ 0.3"
 								}
 
@@ -2561,12 +2559,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-1586",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "int" ],
-									"patching_rect" : [ 155.0, 144.0, 119.0, 17.0 ],
+									"patching_rect" : [ 155.0, 144.0, 125.0, 17.0 ],
 									"text" : "sub-beat 4 4 #1 #2 swinger"
 								}
 
@@ -2768,6 +2765,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-41", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-58", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-14", 0 ]
@@ -3533,7 +3539,6 @@
 					"setminmax" : [ 0.0, 99.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 10,
 					"slidercolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_timbre"
@@ -3554,7 +3559,6 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 10,
 					"slidercolor" : [ 0.866667, 0.333333, 0.105882, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_gate"
@@ -3600,7 +3604,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 276.5, 516.0, 32.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 471.048706, 53.0, 447.269928, 33.0 ]
+					"presentation_rect" : [ 471.048706, 53.0, 395.269928, 33.0 ]
 				}
 
 			}
@@ -3613,7 +3617,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 320.5, 516.0, 32.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 921.504944, 53.0, 123.495064, 33.0 ]
+					"presentation_rect" : [ 869.0, 54.0, 176.0, 33.0 ]
 				}
 
 			}
@@ -4160,7 +4164,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
+					"destination" : [ "obj-64", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-63", 0 ]
@@ -4191,15 +4204,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-68", 0 ]
 				}
 
 			}
@@ -4238,6 +4242,71 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "fixlist.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../Misc Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sub-beat.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/timing/stepmetro",
+				"patcherrelativepath" : "../../../modules/timing/stepmetro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "clicker-poly-samp.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "clicker~.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/timing/stepmetro",
+				"patcherrelativepath" : "../../../modules/timing/stepmetro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shuffle_polybuf_vector.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/soundfiles_sampling/polybuffer",
+				"patcherrelativepath" : "../../../modules/soundfiles_sampling/polybuffer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "cambio~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
