@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 19.0, 67.0, 1389.0, 604.0 ],
+		"rect" : [ 351.0, 574.0, 1080.0, 102.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-68",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1058.0, 468.0, 32.5, 16.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -53,7 +67,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 969.5, 419.0, 173.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 890.0, 69.0, 120.0, 19.0 ],
+					"presentation_rect" : [ 889.0, 67.0, 120.0, 19.0 ],
 					"text" : "re-shuffle every cycle?"
 				}
 
@@ -71,7 +85,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 946.25, 418.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 873.0, 70.0, 14.742593, 14.742593 ]
+					"presentation_rect" : [ 872.0, 69.0, 14.742593, 14.742593 ]
 				}
 
 			}
@@ -128,7 +142,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1046.0, 368.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 873.0, 54.0, 14.742593, 14.742593 ]
+					"presentation_rect" : [ 872.0, 54.0, 14.742593, 14.742593 ]
 				}
 
 			}
@@ -205,11 +219,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-56",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 462.0, 50.0, 16.0 ]
+					"patching_rect" : [ 614.0, 462.0, 50.0, 16.0 ],
+					"text" : "DR110KIK"
 				}
 
 			}
@@ -227,7 +243,7 @@
 					"patching_rect" : [ 928.0, 496.0, 50.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 7.0, 39.0, 25.0 ],
-					"text" : "/ 1",
+					"text" : "/ 12",
 					"textcolor" : [ 0.92381, 1.0, 1.0, 1.0 ]
 				}
 
@@ -400,7 +416,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1080.0, 368.0, 173.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 890.0, 53.0, 147.0, 19.0 ],
+					"presentation_rect" : [ 889.0, 52.0, 147.0, 19.0 ],
 					"text" : "shuffle samples "
 				}
 
@@ -485,7 +501,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 789.5, 286.0, 100.0, 18.0 ],
+					"patching_rect" : [ 789.5, 310.0, 100.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -617,7 +633,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
-					"items" : [ "--- none ---", ",", "Agogo Bell", ",", "Bassdrum", ",", "Cabasa", ",", "Clap", ",", "Claves", ",", "Closed Hat", ",", "Conga H", ",", "Conga L", ",", "Maracas", ",", "Open Hat", ",", "Rim", ",", "Shaker", ",", "Snaredrum", ",", "Timbale", ",", "Tom-1", ",", "Tom-2", ",", "Triangle", ",", "Wood Block H", ",", "Wood Block L" ],
+					"items" : [ "--- none ---", ",", "DR110CHT", ",", "DR110CLP", ",", "DR110CYM", ",", "DR110KIK", ",", "DR110OHT", ",", "DR110SNR" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -998,7 +1014,6 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"hidden" : 1,
 					"id" : "obj-28",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -1011,6 +1026,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
+					"size" : 12,
 					"slidercolor" : [ 0.015686, 0.647059, 0.984314, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_gate[1]"
@@ -1090,19 +1106,19 @@
 					"patching_rect" : [ 144.0, 472.0, 188.0, 18.0 ],
 					"restore" : 					{
 						"main_onoff_state" : [ 0 ],
-						"main_onoff_state[1]" : [ 0 ],
+						"main_onoff_state[1]" : [ 1 ],
 						"main_res" : [ 20 ],
 						"main_timbre" : [ 0 ],
 						"mute-state" : [ 0 ],
-						"mute-state[1]" : [ 0 ],
-						"seq_gate" : [ 0 ],
-						"seq_gate[1]" : [ 0 ],
-						"seq_timbre" : [ 0 ],
-						"umenu[1]" : [ "--- none ---" ]
+						"mute-state[1]" : [ 1 ],
+						"seq_gate" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+						"seq_gate[1]" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+						"seq_timbre" : [ 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 ],
+						"umenu[1]" : [ "DR110CLP" ]
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u603002561"
+					"varname" : "u092002521"
 				}
 
 			}
@@ -1518,7 +1534,7 @@
 					"rounded" : 1.0,
 					"spacing_x" : 8.0,
 					"tabcolor" : [ 0.423529, 0.415686, 0.415686, 1.0 ],
-					"tabs" : [ "00" ],
+					"tabs" : [ "12", "12", "12", "12", "12", "12", "12", "12", "12", "12", "12", "12" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"truncate" : 0
 				}
@@ -1616,20 +1632,8 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-58",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 772.0, 88.0, 115.0, 20.0 ],
-									"text" : "print division_router"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-25",
@@ -2773,15 +2777,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-58", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3539,6 +3534,7 @@
 					"setminmax" : [ 0.0, 99.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
+					"size" : 12,
 					"slidercolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_timbre"
@@ -3559,6 +3555,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
+					"size" : 12,
 					"slidercolor" : [ 0.866667, 0.333333, 0.105882, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_gate"
@@ -3617,7 +3614,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 320.5, 516.0, 32.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 869.0, 54.0, 176.0, 33.0 ]
+					"presentation_rect" : [ 869.0, 53.0, 176.0, 33.0 ]
 				}
 
 			}
@@ -4209,6 +4206,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-65", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4242,71 +4257,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "fixlist.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
-				"patcherrelativepath" : "../Misc Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sub-beat.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/timing/stepmetro",
-				"patcherrelativepath" : "../../../modules/timing/stepmetro",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "clicker-poly-samp.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "clicker~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/timing/stepmetro",
-				"patcherrelativepath" : "../../../modules/timing/stepmetro",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shuffle_polybuf_vector.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/soundfiles_sampling/polybuffer",
-				"patcherrelativepath" : "../../../modules/soundfiles_sampling/polybuffer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "cambio~.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
