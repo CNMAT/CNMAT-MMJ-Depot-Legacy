@@ -763,7 +763,7 @@
 					"patching_rect" : [ 904.0, 206.5, 150.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 240.0, 116.0, 253.0, 18.0 ],
-					"text" : "explicityly choose a sound to play, by number of name."
+					"text" : "explicitly choose a sound to play, by number of name."
 				}
 
 			}
@@ -1614,20 +1614,6 @@
 				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
 				"patcherrelativepath" : "../../../modules/depot_support",
 				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
