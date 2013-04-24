@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 208.0, 86.0, 1115.0, 767.0 ],
+		"rect" : [ 11.0, 61.0, 524.0, 315.0 ],
 		"bgcolor" : [ 0.807843, 0.807843, 0.807843, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1338,7 +1338,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u117001589"
+					"varname" : "u225001657"
 				}
 
 			}
