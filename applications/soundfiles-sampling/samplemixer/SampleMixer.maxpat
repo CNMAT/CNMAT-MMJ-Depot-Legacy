@@ -1965,7 +1965,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 780.0, 4.0, 188.0, 20.0 ],
 					"text" : "<< clear all the files from memory",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
 					"underline" : 0
 				}
