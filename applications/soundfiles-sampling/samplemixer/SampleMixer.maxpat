@@ -1789,7 +1789,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-5",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -1802,7 +1802,7 @@
 					"prefix" : "",
 					"prefix_mode" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 392.0, 599.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 396.0, 599.0, 128.0, 18.0 ],
 					"rounded" : 8,
 					"showdotfiles" : 0,
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
@@ -1838,7 +1838,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 404.0, 692.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 392.0, 619.0, 384.0, 239.0 ],
+					"presentation_rect" : [ 396.0, 619.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~6"
 				}
 
@@ -1889,7 +1889,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-11",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -1902,7 +1902,7 @@
 					"prefix" : "",
 					"prefix_mode" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 599.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 8.0, 599.0, 128.0, 18.0 ],
 					"rounded" : 8,
 					"showdotfiles" : 0,
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
@@ -1938,7 +1938,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 12.0, 692.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 619.0, 384.0, 239.0 ],
+					"presentation_rect" : [ 8.0, 619.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~5"
 				}
 
@@ -2151,9 +2151,9 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 10, 59, 650, 299 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 10, 59, 650, 299 ]
 					}
 ,
 					"text" : "pattrstorage samplemixerdemo @greedy 1 @savemode 0",
@@ -4533,7 +4533,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 918.0, 272.0, 109.0, 20.0 ],
 					"text" : "Loop mode",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
 					"underline" : 0
 				}
@@ -4717,7 +4717,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-90",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4766,7 +4766,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 404.0, 412.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 392.0, 360.0, 384.0, 239.0 ],
+					"presentation_rect" : [ 396.0, 360.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~4"
 				}
 
@@ -4817,7 +4817,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-96",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4866,7 +4866,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 12.0, 412.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 360.0, 384.0, 239.0 ],
+					"presentation_rect" : [ 8.0, 360.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~3"
 				}
 
@@ -4917,7 +4917,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-22",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -4930,7 +4930,7 @@
 					"prefix" : "",
 					"prefix_mode" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 400.0, 80.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 396.0, 80.0, 128.0, 18.0 ],
 					"rounded" : 8,
 					"showdotfiles" : 0,
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
@@ -4989,7 +4989,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "" ],
 					"patching_rect" : [ 404.0, 132.0, 384.879517, 251.026535 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 400.0, 100.0, 384.0, 239.0 ],
+					"presentation_rect" : [ 396.0, 100.0, 384.0, 239.0 ],
 					"varname" : "groovewrap~2"
 				}
 
@@ -5120,7 +5120,7 @@
 					"hltcolor" : [ 0.505882, 0.596078, 0.815686, 1.0 ],
 					"id" : "obj-12",
 					"ignoreclick" : 0,
-					"items" : [ "---none---", ",", "floisen_blutter.wav", ",", "floisen_metail.wav", ",", "floisen_noisen.wav", ",", "floisen_ruff01.wav", ",", "floisen_ruff02.wav", ",", "floisen_wind.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 0,
@@ -5133,7 +5133,7 @@
 					"prefix" : "",
 					"prefix_mode" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 80.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 8.0, 80.0, 128.0, 18.0 ],
 					"rounded" : 8,
 					"showdotfiles" : 0,
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
