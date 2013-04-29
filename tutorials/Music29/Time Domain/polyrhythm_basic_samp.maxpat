@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 351.0, 574.0, 1080.0, 102.0 ],
+		"rect" : [ 0.0, 44.0, 1680.0, 956.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,67 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-77",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 998.0, 522.0, 32.5, 18.0 ],
+					"text" : "== 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-75",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1064.0, 552.0, 54.0, 16.0 ],
+					"text" : "hidden $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.305882, 0.380392, 0.415686, 0.0 ],
+					"fgcolor" : [ 0.081151, 0.765, 0.603335, 1.0 ],
+					"hidden" : 1,
+					"id" : "obj-73",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1100.0, 468.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 930.0, 52.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"frgb" : 0.0,
+					"hidden" : 1,
+					"id" : "obj-66",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1120.0, 468.0, 93.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 952.0, 52.0, 93.0, 19.0 ],
+					"text" : "shuffle samples?"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -61,6 +122,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"frgb" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-67",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -77,6 +139,7 @@
 					"bgcolor" : [ 0.555092, 0.555092, 0.555092, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"checkedcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"hidden" : 1,
 					"id" : "obj-63",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -224,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 462.0, 50.0, 16.0 ],
+					"patching_rect" : [ 614.0, 462.0, 50.0, 27.0 ],
 					"text" : "DR110KIK"
 				}
 
@@ -243,7 +306,7 @@
 					"patching_rect" : [ 928.0, 496.0, 50.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 7.0, 39.0, 25.0 ],
-					"text" : "/ 12",
+					"text" : "/ 1",
 					"textcolor" : [ 0.92381, 1.0, 1.0, 1.0 ]
 				}
 
@@ -417,7 +480,7 @@
 					"patching_rect" : [ 1080.0, 368.0, 173.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 889.0, 52.0, 147.0, 19.0 ],
-					"text" : "shuffle samples "
+					"text" : "shuffle  "
 				}
 
 			}
@@ -1014,6 +1077,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"hidden" : 1,
 					"id" : "obj-28",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -1026,7 +1090,6 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 12,
 					"slidercolor" : [ 0.015686, 0.647059, 0.984314, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_gate[1]"
@@ -1106,19 +1169,19 @@
 					"patching_rect" : [ 144.0, 472.0, 188.0, 18.0 ],
 					"restore" : 					{
 						"main_onoff_state" : [ 0 ],
-						"main_onoff_state[1]" : [ 1 ],
+						"main_onoff_state[1]" : [ 0 ],
 						"main_res" : [ 20 ],
 						"main_timbre" : [ 0 ],
 						"mute-state" : [ 0 ],
-						"mute-state[1]" : [ 1 ],
-						"seq_gate" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-						"seq_gate[1]" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-						"seq_timbre" : [ 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 ],
-						"umenu[1]" : [ "DR110CLP" ]
+						"mute-state[1]" : [ 0 ],
+						"seq_gate" : [ 0 ],
+						"seq_gate[1]" : [ 0 ],
+						"seq_timbre" : [ 0 ],
+						"umenu[1]" : [ "--- none ---" ]
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u092002521"
+					"varname" : "u398003568"
 				}
 
 			}
@@ -1534,7 +1597,7 @@
 					"rounded" : 1.0,
 					"spacing_x" : 8.0,
 					"tabcolor" : [ 0.423529, 0.415686, 0.415686, 1.0 ],
-					"tabs" : [ "12", "12", "12", "12", "12", "12", "12", "12", "12", "12", "12", "12" ],
+					"tabs" : [ "00" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"truncate" : 0
 				}
@@ -1632,7 +1695,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -3534,7 +3596,6 @@
 					"setminmax" : [ 0.0, 99.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 12,
 					"slidercolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_timbre"
@@ -3555,7 +3616,6 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 12,
 					"slidercolor" : [ 0.866667, 0.333333, 0.105882, 1.0 ],
 					"spacing" : 5,
 					"varname" : "seq_gate"
@@ -4188,6 +4248,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4233,6 +4302,60 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4257,6 +4380,71 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "fixlist.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../Misc Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sub-beat.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/timing/stepmetro",
+				"patcherrelativepath" : "../../../modules/timing/stepmetro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../../modules/depot_support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "clicker-poly-samp.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Time Domain",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "clicker~.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/timing/stepmetro",
+				"patcherrelativepath" : "../../../modules/timing/stepmetro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shuffle_polybuf_vector.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/soundfiles_sampling/polybuffer",
+				"patcherrelativepath" : "../../../modules/soundfiles_sampling/polybuffer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "cambio~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
