@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 12.0, 61.0, 551.0, 489.0 ],
+		"rect" : [ 225.0, 81.0, 1425.0, 845.0 ],
 		"bgcolor" : [ 0.807843, 0.807843, 0.807843, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -37,7 +38,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.5, 900.0, 68.0, 18.0 ],
+					"patching_rect" : [ 608.0, 885.0, 68.0, 18.0 ],
 					"text" : "/*/squelch"
 				}
 
@@ -69,8 +70,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -469,8 +471,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -893,7 +896,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 459.0, 157.0, 20.0 ],
+					"patching_rect" : [ 283.0, 461.0, 157.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 353.0, 351.0, 139.0, 20.0 ],
 					"text" : "shift-click on dot to save"
@@ -911,7 +914,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 296.0, 442.0, 160.0, 18.0 ],
+					"patching_rect" : [ 282.0, 444.0, 160.0, 18.0 ],
 					"pattrstorage" : "8harp_tuner",
 					"presentation" : 1,
 					"presentation_rect" : [ 328.0, 311.0, 184.0, 40.0 ]
@@ -927,7 +930,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 421.0, 157.0, 20.0 ],
+					"patching_rect" : [ 282.0, 423.0, 157.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 346.0, 292.0, 157.0, 20.0 ],
 					"text" : "click on dot to recall pattern"
@@ -975,8 +978,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1401,8 +1405,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 646.0, 44.0, 640.0, 480.0 ],
@@ -1652,8 +1657,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 646.0, 44.0, 640.0, 480.0 ],
@@ -1932,8 +1938,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 646.0, 44.0, 640.0, 480.0 ],
@@ -2156,8 +2163,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 646.0, 44.0, 640.0, 480.0 ],
@@ -2651,26 +2659,26 @@
 					"patching_rect" : [ 427.0, 546.0, 59.5, 20.0 ],
 					"restore" : 					{
 						"churchmodes" : [ 3 ],
-						"denominator1" : [ 1 ],
-						"denominator2" : [ 9 ],
-						"denominator3" : [ 6 ],
+						"denominator1" : [ 18 ],
+						"denominator2" : [ 24 ],
+						"denominator3" : [ 11 ],
 						"denominator4" : [ 4 ],
 						"denominator5" : [ 3 ],
 						"denominator6" : [ 5 ],
 						"denominator7" : [ 16 ],
-						"denominator8" : [ 2 ],
+						"denominator8" : [ 6 ],
 						"numerator1" : [ 1 ],
-						"numerator2" : [ 8 ],
-						"numerator3" : [ 5 ],
-						"numerator4" : [ 3 ],
+						"numerator2" : [ 1 ],
+						"numerator3" : [ 1 ],
+						"numerator4" : [ 1 ],
 						"numerator5" : [ 2 ],
-						"numerator6" : [ 3 ],
+						"numerator6" : [ 1 ],
 						"numerator7" : [ 9 ],
 						"numerator8" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u339006581"
+					"varname" : "u935005925"
 				}
 
 			}
@@ -2702,7 +2710,7 @@
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 365, 44, 1007, 355 ]
+						"storage_rect" : [ 765, 82, 1216, 210 ]
 					}
 ,
 					"text" : "pattrstorage 8harp_tuner",
@@ -2913,7 +2921,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-83",
 					"maxclass" : "number",
-					"maximum" : 2,
+					"maximum" : 6,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3468,7 +3476,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-69",
 					"maxclass" : "number",
-					"maximum" : 6,
+					"maximum" : 11,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3579,7 +3587,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-62",
 					"maxclass" : "number",
-					"maximum" : 9,
+					"maximum" : 24,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3750,7 +3758,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-44",
 					"maxclass" : "number",
-					"maximum" : 1,
+					"maximum" : 18,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -4239,15 +4247,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4308,15 +4307,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -4990,29 +4980,29 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "clock_diagram.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/display_and_notation/clock_diagram",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/display_and_notation/clock_diagram",
 				"patcherrelativepath" : "../../../modules/display_and_notation/clock_diagram",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "8harp_tuner.xml",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
-				"patcherrelativepath" : "../Monocord/lib",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monocords_fundamental.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
-				"patcherrelativepath" : "../Monocord/lib",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OSC-unroute.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
-				"patcherrelativepath" : "../../../../../../../../../../../../../2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
+				"patcherrelativepath" : "../../../../../../../../../2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
