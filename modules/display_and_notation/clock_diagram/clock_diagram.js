@@ -106,6 +106,7 @@ function draw()
 function list()
 {
     noteList.length = 0;
+	fifthsList.length = 0;
     if (arguments.length == 1)
     {
         polymode = 0;
