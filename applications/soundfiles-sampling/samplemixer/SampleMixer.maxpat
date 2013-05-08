@@ -31,6 +31,30 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"background" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.576471, 0.576471, 0.576471, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 0,
+					"id" : "obj-17",
+					"ignoreclick" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1312.0, 172.0, 24.0, 20.0 ],
+					"presentation" : 0,
+					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"text" : "t 0",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
 					"bgcolor" : [ 0.0, 0.495318, 0.901961, 1.0 ],
 					"bordercolor" : [ 0.0, 0.098039, 0.203922, 0.0 ],
 					"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -58,7 +82,7 @@
 					"bubbletextmargin" : 5,
 					"fontface" : 0,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 11.0,
 					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-14",
@@ -66,9 +90,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1236.0, 132.0, 145.0, 20.0 ],
+					"patching_rect" : [ 1236.0, 132.0, 134.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 822.0, 240.0, 145.0, 20.0 ],
+					"presentation_rect" : [ 822.0, 240.0, 134.0, 19.0 ],
 					"text" : "record immediately",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
@@ -1474,18 +1498,19 @@
 					"bubbletextmargin" : 5,
 					"fontface" : 0,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 11.0,
 					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-48",
 					"ignoreclick" : 1,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1284.0, 52.0, 145.0, 20.0 ],
+					"patching_rect" : [ 1284.0, 52.0, 134.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 822.0, 220.0, 145.0, 20.0 ],
-					"text" : "record on playback/stop?",
+					"presentation_rect" : [ 822.0, 220.0, 254.0, 19.0 ],
+					"text" : "record on global play (hit global stop when done)",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0,
 					"underline" : 0
@@ -5745,6 +5770,16 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5779,6 +5814,16 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
