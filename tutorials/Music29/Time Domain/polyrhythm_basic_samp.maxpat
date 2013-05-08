@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1680.0, 956.0 ],
+		"rect" : [ 0.0, 44.0, 1118.0, 152.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -148,7 +148,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 946.25, 418.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 872.0, 69.0, 14.742593, 14.742593 ]
+					"presentation_rect" : [ 872.0, 69.0, 14.742593, 14.742593 ],
+					"varname" : "reshuffle_onoff"
 				}
 
 			}
@@ -205,7 +206,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1046.0, 368.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 872.0, 54.0, 14.742593, 14.742593 ]
+					"presentation_rect" : [ 872.0, 54.0, 14.742593, 14.742593 ],
+					"varname" : "shuffle_onoff"
 				}
 
 			}
@@ -615,7 +617,8 @@
 					"presentation_rect" : [ 1047.0, 31.0, 20.0, 40.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.219608, 0.596078, 0.756863, 1.0 ]
+					"slidercolor" : [ 0.219608, 0.596078, 0.756863, 1.0 ],
+					"varname" : "sample_gain"
 				}
 
 			}
@@ -696,7 +699,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
-					"items" : [ "--- none ---", ",", "DR110CHT", ",", "DR110CLP", ",", "DR110CYM", ",", "DR110KIK", ",", "DR110OHT", ",", "DR110SNR" ],
+					"items" : [ "--- none ---", ",", "DR110CHT", ",", "DR110CLP", ",", "DR110CYM", ",", "DR110KIK", ",", "DR110OHT", ",", "DR110SNR", ",", "bf2p-hard-1", ",", "bf2p-wood-1", ",", "bf3p-wood-1", ",", "bf4p-hard", ",", "bf5p-wood-1", ",", "bf6p-wood-1", ",", "drum-high", ",", "Drum-low", ",", "effect-frequency", ",", "effect1-fade", ",", "effect3-machine-long-fade", ",", "effect4-elec-rhythm", ",", "jp2p-hard", ",", "jp2p-wood-1", ",", "metal-brass-02hm8", ",", "metal-brass-03sv7", ",", "metal-brass-04hm6", ",", "metal-brass-so6", ",", "metal-brass-so9_2", ",", "metal-brass-sv5", ",", "metal-brass2-02hm8", ",", "metal-brass2-03sv7", ",", "metal-crash", ",", "metal-rubber-04hm6", ",", "metal-wire-sv5", ",", "noise-hiss-FADE", ",", "noise1", ",", "noise2", ",", "noise3", ",", "noise4-long", ",", "noise5-long", ",", "noise6", ",", "noise7-elecguitar", ",", "noise7-longfade", ",", "phrase-01_Chopin-ScherzoBb", ",", "phrase-02_Chopin-ScherzoBb", ",", "phrase-03_Chopin-ScherzoBb", ",", "phrase-04_Chopin-ScherzoBb", ",", "phrase-05_Chopin-ScherzoBb", ",", "phrase-06_ChopinScherzoBb", ",", "phrase-classicalvoice", ",", "phrase-drumlick", ",", "phrase-famous-lick", ",", "phrase-famoustune", ",", "phrase-industrial", ",", "phrase-menchoir", ",", "phrase-soulfulsax1", ",", "phrase-soulfulsax2", ",", "phrase-soulfulsax3", ",", "phrase-thumbpiano-part1", ",", "phrase-thumbpiano-part2", ",", "phrase-thumbpiano-part3", ",", "phrase-voiceflute1", ",", "phrase-voiceflute2", ",", "phrase-voiceflute3", ",", "phrase-voiceflute4", ",", "phrase1", ",", "phrase2-classical", ",", "resonant-long-frequency", ",", "tone-long-fade", ",", "tone-low-ld4", ",", "tone-low1-ld4", ",", "tone-med-ld2", ",", "tone-wood-ld1", ",", "tone-wood-med-ld4", ",", "tone-wood2-ld1", ",", "voice-baby-cry", ",", "voice-baby-cry2", ",", "voice-scream", ",", "voice-spoken", ",", "voice1", ",", "wood-bright-high-ld3", ",", "wood-bright-high-ld4", ",", "wood-bright-high2-ld3", ",", "wood-bright-high2-ld3", ",", "wood-bright-high2-ld4", ",", "wood-bright-high4-ld1", ",", "wood-bright-high4-ld2", ",", "wood-bright-high5-ld1", ",", "wood-bright-high5-ld2", ",", "wood-bright-high6-ld1", ",", "wood-bright-high6-ld2", ",", "wood-bright-high7-ld2", ",", "wood-bright-high8-ld2", ",", "wood-bright-jp2", ",", "wood-bright-low-ld1", ",", "wood-bright-low-ld2", ",", "wood-bright-low-ld3", ",", "wood-bright-low-ld4", ",", "wood-bright-low2-ld2", ",", "wood-bright-low2-ld3", ",", "wood-bright-low3-ld2", ",", "wood-bright-low3-ld3", ",", "wood-bright-lp1", ",", "wood-bright-lp2", ",", "wood-bright-lp3", ",", "wood-bright2-jp2", ",", "wood-bright2-lp1", ",", "wood-bright2-lp3", ",", "wood-dull-ld1", ",", "wood-dull-low-ld2", ",", "wood-dull-lp3", ",", "wood-high-ld4p", ",", "wood-low-ld3", ",", "wood-low-ld4", ",", "wood-low-med-ld4p", ",", "wood-low2-ld1", ",", "wood-low2-ld4", ",", "wood-verylow" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -707,7 +710,8 @@
 					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 737.0, 54.0, 113.0, 18.0 ],
-					"varname" : "umenu[1]"
+					"underline" : 1,
+					"varname" : "sample_selection"
 				}
 
 			}
@@ -797,7 +801,7 @@
 					"patching_rect" : [ 119.5, 131.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 626.0, 55.0, 18.0, 18.0 ],
-					"varname" : "main_onoff_state[1]"
+					"varname" : "sample_onoff"
 				}
 
 			}
@@ -1092,7 +1096,7 @@
 					"settype" : 0,
 					"slidercolor" : [ 0.015686, 0.647059, 0.984314, 1.0 ],
 					"spacing" : 5,
-					"varname" : "seq_gate[1]"
+					"varname" : "seq_samplegate"
 				}
 
 			}
@@ -1126,7 +1130,7 @@
 					"patching_rect" : [ 32.0, 125.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 473.048706, 55.0, 18.0, 18.0 ],
-					"varname" : "mute-state[1]"
+					"varname" : "sample_view"
 				}
 
 			}
@@ -1169,19 +1173,21 @@
 					"patching_rect" : [ 144.0, 472.0, 188.0, 18.0 ],
 					"restore" : 					{
 						"main_onoff_state" : [ 0 ],
-						"main_onoff_state[1]" : [ 0 ],
 						"main_res" : [ 20 ],
 						"main_timbre" : [ 0 ],
-						"mute-state" : [ 0 ],
-						"mute-state[1]" : [ 0 ],
+						"reshuffle_onoff" : [ 0 ],
+						"sample_gain" : [ 1.0 ],
+						"sample_onoff" : [ 0 ],
+						"sample_selection" : [ "--- none ---" ],
+						"sample_view" : [ 0 ],
 						"seq_gate" : [ 0 ],
-						"seq_gate[1]" : [ 0 ],
+						"seq_samplegate" : [ 0 ],
 						"seq_timbre" : [ 0 ],
-						"umenu[1]" : [ "--- none ---" ]
+						"shuffle_onoff" : [ 0 ]
 					}
 ,
 					"text" : "autopattr @autoname 0 @autorestore 0",
-					"varname" : "u398003568"
+					"varname" : "u839002124"
 				}
 
 			}
@@ -3634,8 +3640,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 312.0, 264.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 55.0, 17.546543, 17.546543 ],
-					"varname" : "mute-state"
+					"presentation_rect" : [ 52.0, 55.0, 17.546543, 17.546543 ]
 				}
 
 			}
