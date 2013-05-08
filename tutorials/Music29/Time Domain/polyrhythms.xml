@@ -9,147 +9,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "10 10 10 10 10 10 10 10 10 10" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "5 5 5 5 5" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "4 4 4 4" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "3 3 3" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "2 2" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "2">
@@ -160,147 +160,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "10 10 10 10 10 10 10 10 10 10" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "5 5 5 5 5" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "4 4 4 4" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "3 3 3" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "3">
@@ -311,147 +311,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "10 10 10 10 10 10 10 10 10 10" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "5 5 5 5 5" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "4 4 4 4" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "4">
@@ -462,147 +462,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "10 10 10 10 10 10 10 10 10 10" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "5 5 5 5 5" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "27" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "27 27 27 27" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "5">
@@ -613,147 +613,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "10 10 10 10 10 10 10 10 10 10" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "6 6 6 6 6 6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "33" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "33 33 33 33 33" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "27" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "27 27 27 27" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "6">
@@ -764,147 +764,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "10 10 10 10 10 10 10 10 10 10" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "48" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "48 48 48 48 48 48" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "33" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "33 33 33 33 33" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "27" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "27 27 27 27" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "7">
@@ -915,147 +915,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "12 12 12 12 12 12 12 12 12 12 12 12" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "60" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "48" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "48 48 48 48 48 48" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "33" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "33 33 33 33 33" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "27" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "27 27 27 27" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "8">
@@ -1066,147 +1066,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "15 15 15 15 15 15 15 15 15 15 15 15 15 15 15" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "73" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "73 73 73 73 73 73 73 73 73 73 73 73" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "60" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "48" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "48 48 48 48 48 48" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "33" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "33 33 33 33 33" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "27" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "27 27 27 27" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "9">
@@ -1217,147 +1217,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "86" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "86 86 86 86 86 86 86 86 86 86 86 86 86 86 86" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "73" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "73 73 73 73 73 73 73 73 73 73 73 73" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "60" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "48" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "48 48 48 48 48 48" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "33" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "33 33 33 33 33" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "27" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "27 27 27 27" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "10">
@@ -1368,147 +1368,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "92" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "84" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "84 84 84 84 84 84 84 84 84 84 84 84 84 84 84" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "73" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "73 73 73 73 73 73 73 73 73 73 73 73" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "60" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "48" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "48 48 48 48 48 48" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "33" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "33 33 33 33 33" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "27" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "27 27 27 27" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "11">
@@ -1519,147 +1519,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "0" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "0" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "98" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "92" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "84" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "84 84 84 84 84 84 84 84 84 84 84 84 84 84 84" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "73" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "73 73 73 73 73 73 73 73 73 73 73 73" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "60" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "48" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "48 48 48 48 48 48" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "33" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "33 33 33 33 33" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "27" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "27 27 27 27" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 	<slot number = "12">
@@ -1670,147 +1670,147 @@
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[6]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "100" />
 			<pattr name = "mute-state" value = "" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99 99" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "98" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "92" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "84" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "84 84 84 84 84 84 84 84 84 84 84 84 84 84 84" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "73" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "73 73 73 73 73 73 73 73 73 73 73 73" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[5]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "60" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "60 60 60 60 60 60 60 60 60 60" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_basic_module[7]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "48" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "48 48 48 48 48 48" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "33" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0 0" />
 			<pattr name = "seq_timbre" value = "33 33 33 33 33" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[1]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "27" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0 0" />
 			<pattr name = "seq_timbre" value = "27 27 27 27" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[2]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "20" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0 0" />
+			<pattr name = "seq_samplegate" value = "0 0 0" />
 			<pattr name = "seq_timbre" value = "20 20 20" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[3]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "13" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1 1" />
-			<pattr name = "seq_gate[1]" value = "0 0" />
+			<pattr name = "seq_samplegate" value = "0 0" />
 			<pattr name = "seq_timbre" value = "13 13" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 		<patcher name = "polyrhythm_small_module[4]">
 			<pattr name = "main_onoff_state" value = "1" />
-			<pattr name = "main_onoff_state[1]" value = "0" />
+			<pattr name = "sample_onoff" value = "0" />
 			<pattr name = "main_res" value = "962" />
 			<pattr name = "main_timbre" value = "6" />
 			<pattr name = "mute-state" value = "0" />
-			<pattr name = "mute-state[1]" value = "0" />
+			<pattr name = "sample_view" value = "0" />
 			<pattr name = "seq_gate" value = "1" />
-			<pattr name = "seq_gate[1]" value = "0" />
+			<pattr name = "seq_samplegate" value = "0" />
 			<pattr name = "seq_timbre" value = "6" />
-			<pattr name = "umenu[1]" value = "0" />
+			<pattr name = "sample_selection" value = "0" />
 		</patcher>
 	</slot>
 </pattrstorage>
