@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 25.0, 69.0, 545.0, 426.0 ],
+		"rect" : [ 25.0, 69.0, 408.0, 408.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,14 +34,14 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.0, 225.0, 106.0, 20.0 ],
+					"patching_rect" : [ 153.0, 203.0, 106.0, 20.0 ],
 					"text" : "print original_path"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "splitpath", "split a filepath's name and path" ],
+					"args" : [ "splitpath", "split a filepath's name and path", "0.296 0.594 0.784 1." ],
 					"id" : "obj-21",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -55,14 +55,14 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "splitpath", "1.0b", "Jeff Lubow", "splitpath", 6666 ],
+					"args" : [ "splitpath", "1.0b", "Jeff Lubow", "splitpath", 6666, "0.296 0.594 0.784 1." ],
 					"id" : "obj-20",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 2.0, 4.0 ],
-					"patching_rect" : [ 228.0, 315.0, 298.0, 89.0 ]
+					"patching_rect" : [ 128.0, 300.0, 298.0, 89.0 ]
 				}
 
 			}
@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 219.0, 130.0, 150.0, 20.0 ],
+					"patching_rect" : [ 119.0, 108.0, 150.0, 20.0 ],
 					"text" : "choose a sound file."
 				}
 
@@ -88,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 165.0, 240.0, 55.0, 20.0 ],
+					"patching_rect" : [ 65.0, 218.0, 55.0, 20.0 ],
 					"text" : "splitpath"
 				}
 
@@ -101,7 +101,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.0, 275.0, 82.0, 20.0 ],
+					"patching_rect" : [ 153.0, 253.0, 82.0, 20.0 ],
 					"text" : "print filename"
 				}
 
@@ -114,7 +114,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 275.0, 75.0, 20.0 ],
+					"patching_rect" : [ 65.0, 253.0, 75.0, 20.0 ],
 					"text" : "print filepath"
 				}
 
@@ -126,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 165.0, 130.0, 40.0, 40.0 ]
+					"patching_rect" : [ 65.0, 108.0, 40.0, 40.0 ]
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 165.0, 190.0, 104.0, 20.0 ],
+					"patching_rect" : [ 65.0, 168.0, 104.0, 20.0 ],
 					"text" : "opendialog sound"
 				}
 
@@ -193,56 +193,56 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "splitpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Utilities",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1

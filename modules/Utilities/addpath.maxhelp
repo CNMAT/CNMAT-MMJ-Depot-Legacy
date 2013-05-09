@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 25.0, 69.0, 532.0, 410.0 ],
+		"rect" : [ 25.0, 69.0, 498.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,27 +35,27 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 105.0, 150.0, 172.0 ],
+					"patching_rect" : [ 20.0, 112.0, 150.0, 172.0 ],
 					"text" : "addpath allows you to access any folder structure on your HD without needing to manually add it via the file preferences folder.  It can be particularly useful in situations in which you need to include external media that has no inherent associations to your max projects."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "addpath", "0.1a", "Jeff Lubow / John MacCallum", "addpath", 6666 ],
+					"args" : [ "addpath", "0.1a", "Jeff Lubow / John MacCallum", "addpath", 6666, "0.296 0.594 0.784 1." ],
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 2.0, 4.0 ],
-					"patching_rect" : [ 218.0, 305.0, 298.0, 89.0 ]
+					"patching_rect" : [ 218.0, 297.0, 298.0, 89.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "addpath", "dynamically add a path to Max's search paths by passing a symbol in" ],
+					"args" : [ "addpath", "dynamically add a path to Max's search paths by passing a symbol in", "0.296 0.594 0.784 1." ],
 					"id" : "obj-6",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -63,7 +63,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -18.0, -68.0 ],
-					"patching_rect" : [ 5.0, 5.0, 511.0, 76.0 ]
+					"patching_rect" : [ 5.0, 12.0, 511.0, 76.0 ]
 				}
 
 			}
@@ -75,7 +75,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 265.0, 245.0, 61.0, 20.0 ],
+					"patching_rect" : [ 265.0, 252.0, 61.0, 20.0 ],
 					"text" : "print path"
 				}
 
@@ -88,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 265.0, 180.0, 78.0, 20.0 ],
+					"patching_rect" : [ 265.0, 187.0, 78.0, 20.0 ],
 					"text" : "drop a folder"
 				}
 
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.0, 105.0, 175.0, 105.0 ],
+					"patching_rect" : [ 180.0, 112.0, 175.0, 105.0 ],
 					"rounded" : 40.0
 				}
 
@@ -115,7 +115,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 245.0, 54.0, 20.0 ],
+					"patching_rect" : [ 180.0, 252.0, 54.0, 20.0 ],
 					"text" : "addpath"
 				}
 
@@ -142,56 +142,56 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "addpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Utilities",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1

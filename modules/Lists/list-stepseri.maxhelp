@@ -1,10 +1,14 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 25.0, 56.0, 525.0, 460.0 ],
+		"appversion" : 		{
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 5
+		}
+,
+		"rect" : [ 25.0, 56.0, 504.0, 440.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 25.0, 56.0, 525.0, 460.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
@@ -12,250 +16,308 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 4.0, 4.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "list-stepseri", "0.1a", "Jeff Lubow", "stepseri", 6666, "0.296 0.594 0.784 1." ],
+					"id" : "obj-17",
 					"maxclass" : "bpatcher",
-					"args" : [ "list-stepseri", "0.1a", "Jeff Lubow", "stepseri", 6666 ],
+					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 360.0, 296.0, 86.0 ],
-					"id" : "obj-17",
-					"name" : "badge.maxpat"
+					"patching_rect" : [ 220.0, 341.0, 296.0, 86.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "bpatcher",
-					"prototypename" : "cnmat_banner",
-					"args" : [ "list-stepseri", "create a step-based series (list)" ],
-					"numinlets" : 0,
+					"args" : [ "list-stepseri", "create a step-based series (list)", "0.296 0.594 0.784 1." ],
+					"id" : "obj-16",
 					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -18.0, -68.0 ],
-					"patching_rect" : [ 8.0, 12.0, 511.0, 76.0 ],
-					"id" : "obj-16",
-					"name" : "banner.maxpat"
+					"patching_rect" : [ 8.0, 17.0, 511.0, 76.0 ],
+					"prototypename" : "cnmat_banner"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "comment",
-					"text" : "list-stepseri is meant to generate an exact range of numbers for output in a specified number of steps.",
-					"linecount" : 2,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
 					"fontsize" : 13.390809,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 44.0, 108.0, 351.0, 37.0 ],
 					"id" : "obj-2",
-					"fontname" : "Arial"
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 44.0, 101.0, 351.0, 37.0 ],
+					"text" : "list-stepseri is meant to generate an exact range of numbers for output in a specified number of steps."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "print",
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 304.0, 248.0, 30.0, 18.0 ],
 					"id" : "obj-13",
-					"fontname" : "Arial"
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 304.0, 241.0, 30.0, 18.0 ],
+					"text" : "print"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"id" : "obj-14",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"patching_rect" : [ 304.0, 164.0, 20.0, 20.0 ],
 					"outlettype" : [ "bang" ],
-					"id" : "obj-14"
+					"patching_rect" : [ 304.0, 157.0, 20.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "list-stepseri 2.6 15.23 5",
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"patching_rect" : [ 304.0, 204.0, 115.0, 18.0 ],
-					"outlettype" : [ "" ],
 					"id" : "obj-15",
-					"fontname" : "Arial"
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 304.0, 197.0, 115.0, 18.0 ],
+					"text" : "list-stepseri 2.6 15.23 5"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "comment",
-					"text" : "attribute: list <flag>: determines type of output",
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 312.0, 213.0, 18.0 ],
 					"id" : "obj-12",
-					"fontname" : "Arial"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "print",
-					"fontsize" : 10.0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 248.0, 30.0, 18.0 ],
-					"id" : "obj-11",
-					"fontname" : "Arial"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"patching_rect" : [ 156.0, 164.0, 20.0, 20.0 ],
-					"outlettype" : [ "bang" ],
-					"id" : "obj-10"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "print",
-					"fontsize" : 10.0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 248.0, 30.0, 18.0 ],
-					"id" : "obj-9",
-					"fontname" : "Arial"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "list-stepseri 2 60 5 @list 1",
-					"fontsize" : 10.0,
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"patching_rect" : [ 156.0, 204.0, 125.0, 18.0 ],
-					"outlettype" : [ "" ],
-					"id" : "obj-6",
-					"fontname" : "Arial"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"patching_rect" : [ 40.0, 164.0, 20.0, 20.0 ],
-					"outlettype" : [ "bang" ],
-					"id" : "obj-5"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "arguments: <begin> <end> <step>",
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : 10.0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 296.0, 164.0, 18.0 ],
-					"id" : "obj-3",
-					"fontname" : "Arial"
+					"patching_rect" : [ 96.0, 305.0, 213.0, 18.0 ],
+					"text" : "attribute: list <flag>: determines type of output"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "list-stepseri 2 60 5",
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 156.0, 241.0, 30.0, 18.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"patching_rect" : [ 40.0, 204.0, 92.0, 18.0 ],
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 156.0, 157.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 40.0, 241.0, 30.0, 18.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"patching_rect" : [ 156.0, 197.0, 125.0, 18.0 ],
+					"text" : "list-stepseri 2 60 5 @list 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 40.0, 157.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 96.0, 289.0, 164.0, 18.0 ],
+					"text" : "arguments: <begin> <end> <step>"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-1",
-					"fontname" : "Arial"
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 197.0, 92.0, 18.0 ],
+					"text" : "list-stepseri 2 60 5"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-1", 0 ],
 					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-5", 0 ],
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-10", 0 ],
 					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-6", 0 ],
-					"destination" : [ "obj-11", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-14", 0 ],
 					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-15", 0 ],
 					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-15", 0 ]
 				}
 
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "list-stepseri.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Lists",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}

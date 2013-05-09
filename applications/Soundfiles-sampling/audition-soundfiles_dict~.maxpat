@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 5
 		}
 ,
 		"rect" : [ 5.0, 44.0, 1147.0, 693.0 ],
@@ -50,7 +50,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 71.0, 156.0, 32.5, 16.0 ],
-					"presentation_rect" : [ 70.0, 155.5, 0.0, 0.0 ],
 					"text" : "clear"
 				}
 
@@ -153,7 +152,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 354.0, 415.0 ],
@@ -354,21 +353,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 193.0, 560.0, 57.464294, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"tags" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p phase"
@@ -553,7 +553,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 52.0, 312.0, 117.0, 43.0 ],
+					"patching_rect" : [ 52.0, 312.0, 117.0, 44.0 ],
 					"text" : "combine #0-all_buffers. 0 @triggers 1"
 				}
 
@@ -628,7 +628,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 481.0, 44.0, 902.0, 762.0 ],
@@ -1032,21 +1032,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 689.5, 362.0, 162.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"tags" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p format"
@@ -1078,11 +1079,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
 					"patching_rect" : [ 565.0, 452.0, 71.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0
-					}
-,
 					"text" : "dict"
 				}
 
@@ -1322,7 +1318,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "/clearchoices" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 28.0, 25.0, 25.0 ]
 				}
 
@@ -2024,6 +2020,11 @@
 					"source" : [ "obj-96", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

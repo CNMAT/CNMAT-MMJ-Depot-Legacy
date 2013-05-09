@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 5
 		}
 ,
-		"rect" : [ 16.0, 51.0, 893.0, 465.0 ],
+		"rect" : [ 254.0, 236.0, 897.0, 552.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,12 +28,43 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "Cue Player", "play and assign cues to audio files", "0.296 0.594 0.784 1." ],
+					"id" : "obj-42",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 20.0, 3.0, 502.0, 79.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 797.0, 693.0, 511.0, 76.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Marker manager", "0.1a", "author", "Marker manager", 6666, "0.296 0.594 0.784 1." ],
+					"id" : "obj-41",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 451.0, 297.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 134.0, 670.0, 296.0, 86.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 503.875, 20.0, 20.0, 20.0 ],
+					"patching_rect" : [ 513.875, 90.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 503.875, 20.0, 20.0, 20.0 ]
 				}
@@ -54,7 +85,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 298.0, 238.0, 640.0, 480.0 ],
@@ -279,21 +310,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 503.875, 60.0, 36.0, 20.0 ],
+					"patching_rect" : [ 513.875, 130.0, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
+						"tags" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p init"
@@ -309,7 +341,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.333344, 90.0, 52.0, 18.0 ],
+					"patching_rect" : [ 390.333344, 160.0, 52.0, 18.0 ],
 					"text" : "compile"
 				}
 
@@ -323,7 +355,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.666672, 350.0, 100.0, 18.0 ],
+					"patching_rect" : [ 119.666672, 420.0, 100.0, 18.0 ],
 					"text" : "6 0.637143"
 				}
 
@@ -336,7 +368,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.333344, 350.0, 133.0, 20.0 ],
+					"patching_rect" : [ 381.333344, 420.0, 133.0, 20.0 ],
 					"text" : "print marker @popup 1"
 				}
 
@@ -350,7 +382,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 90.0, 57.0, 18.0 ],
+					"patching_rect" : [ 240.0, 160.0, 57.0, 18.0 ],
 					"text" : "move $1"
 				}
 
@@ -359,12 +391,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.5, 20.0, 164.0, 20.0 ],
+					"patching_rect" : [ 167.5, 90.0, 164.0, 20.0 ],
 					"text" : "3. select a marker to move"
 				}
 
@@ -384,7 +415,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 206.0, 322.0 ],
@@ -540,21 +571,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 503.875, 90.0, 73.0, 20.0 ],
+					"patching_rect" : [ 513.875, 160.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
+						"tags" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p maketabs"
@@ -571,7 +603,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 76.125, 50.0, 326.75, 22.0 ],
+					"patching_rect" : [ 86.125, 120.0, 326.75, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 160.0, 230.0, 460.0, 22.0 ],
 					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ]
@@ -582,12 +614,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.0, 140.0, 225.0, 20.0 ],
+					"patching_rect" : [ 495.0, 210.0, 225.0, 20.0 ],
 					"text" : "4. move the current marker by click/drag"
 				}
 
@@ -601,7 +632,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 325.5, 380.0, 87.0, 20.0 ],
+					"patching_rect" : [ 335.5, 450.0, 87.0, 20.0 ],
 					"text" : "prepend move"
 				}
 
@@ -613,13 +644,12 @@
 					"bubbletextmargin" : 13,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-34",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 521.0, 340.0, 268.0, 80.0 ],
+					"patching_rect" : [ 531.0, 410.0, 268.0, 82.0 ],
 					"text" : "if you want to program the \"currently active\" state from the outside, you now have to set [getmarker n] then take the result and prepend move."
 				}
 
@@ -633,7 +663,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 90.0, 75.0, 18.0 ],
+					"patching_rect" : [ 310.0, 160.0, 75.0, 18.0 ],
 					"text" : "getmarker 7"
 				}
 
@@ -651,7 +681,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 1180.0, 363.0, 413.0, 225.0 ],
@@ -683,7 +713,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 325.0, 31.0 ],
+									"patching_rect" : [ 50.0, 100.0, 326.0, 32.0 ],
 									"text" : "0 0.232232 1 0.428428 2 0.776777 3 0.612613 4 0.241241 5 0.748749 6 0.168168 7 0.112112 8 0.706707 9 0.036036"
 								}
 
@@ -710,21 +740,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 350.0, 95.0, 20.0 ],
+					"patching_rect" : [ 20.0, 420.0, 95.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
+						"tags" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p view_markers"
@@ -740,7 +771,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 90.0, 71.0, 18.0 ],
+					"patching_rect" : [ 20.0, 160.0, 71.0, 18.0 ],
 					"text" : "getmarkers"
 				}
 
@@ -754,7 +785,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 10.0, 310.0, 561.0, 20.0 ],
+					"patching_rect" : [ 20.0, 380.0, 561.0, 20.0 ],
 					"text" : "route markers current marker"
 				}
 
@@ -768,7 +799,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 90.0, 37.0, 18.0 ],
+					"patching_rect" : [ 110.0, 160.0, 37.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -777,13 +808,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-31",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 790.0, 160.0, 82.0, 33.0 ],
+					"patching_rect" : [ 800.0, 230.0, 82.0, 34.0 ],
 					"text" : "1. replace for a waveform"
 				}
 
@@ -797,7 +827,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 740.0, 160.0, 50.0, 18.0 ],
+					"patching_rect" : [ 750.0, 230.0, 50.0, 18.0 ],
 					"text" : "replace"
 				}
 
@@ -811,7 +841,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 740.0, 230.0, 81.0, 20.0 ],
+					"patching_rect" : [ 750.0, 300.0, 81.0, 20.0 ],
 					"text" : "buffer~ tester"
 				}
 
@@ -825,7 +855,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 160.0, 700.0, 140.0 ],
+					"patching_rect" : [ 20.0, 230.0, 700.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 160.0, 270.0, 330.0, 160.0 ]
 				}
@@ -843,7 +873,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 9.0, 160.0, 700.0, 140.0 ],
+					"patching_rect" : [ 19.0, 230.0, 700.0, 140.0 ],
 					"ruler" : 0,
 					"selectioncolor" : [ 0.188235, 1.0, 0.619608, 0.0 ],
 					"waveformcolor" : [ 0.6441, 0.662032, 0.594634, 0.39 ]
@@ -998,9 +1028,58 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "markermanager.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Interface",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]

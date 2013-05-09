@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 5
 		}
 ,
 		"rect" : [ 526.0, 276.0, 707.0, 622.0 ],
@@ -27,6 +27,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 347.0, 406.0, 50.0, 18.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -144,7 +157,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-31",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -163,7 +175,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -181,7 +192,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-28",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -200,7 +210,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-27",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -281,7 +290,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.0, 294.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "myNotes.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -306,7 +314,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -362,7 +369,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -379,7 +385,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-29",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -395,9 +400,10 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-25",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -449,6 +455,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -518,28 +533,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1

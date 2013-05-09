@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 17.0, 52.0, 772.0, 611.0 ],
+		"rect" : [ 17.0, 52.0, 643.0, 546.0 ],
 		"bgcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -377,16 +377,16 @@
 ,
 					"patching_rect" : [ 170.0, 445.0, 104.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p format_buttons"
@@ -450,7 +450,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "OSC-bcf2000.js", "OSC wrapper for the Behringer BCF2000", "0.269 0.549 0.6671.000" ],
+					"args" : [ "OSC-bcf2000.help", "OSC wrapper for the Behringer BCF2000", "0.269 0.549 0.6671.000" ],
 					"id" : "obj-2",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -484,7 +484,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "OSC-bcf2000.js.help", "1.1a", "Macallum & Hunt", "OSC-bcf2000.js", 2950, "0.269 0.549 0.6671.000" ],
+					"args" : [ "OSC-bcf2000.help", "1.1a", "Macallum & Hunt", "OSC-bcf2000.help", 2950, "0.269 0.549 0.6671.000" ],
 					"id" : "obj-38",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
@@ -2836,16 +2836,16 @@
 ,
 					"patching_rect" : [ 555.0, 274.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p layout"
@@ -3087,16 +3087,16 @@
 ,
 					"patching_rect" : [ 555.0, 295.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p modes"
@@ -3550,56 +3550,56 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "OSC-bcf2000.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Controllers/OSC-bcf2000",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Controllers/OSC-bcf2000",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1

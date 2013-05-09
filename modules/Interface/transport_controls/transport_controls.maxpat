@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 20.0, 65.0, 549.0, 348.0 ],
@@ -28,20 +28,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "transport_controls", "0.1a", "Jeff Lubow", "transport_controls", 6666, "0.4 0.4 0.4 1." ],
+					"args" : [ "transport_controls", "0.1a", "Jeff Lubow", "transport_controls", 6666, "0.296 0.594 0.784 1." ],
 					"id" : "obj-30",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 2.0, 4.0 ],
-					"patching_rect" : [ 19.0, 235.0, 298.0, 89.0 ]
+					"patching_rect" : [ -9.0, 235.0, 298.0, 89.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "transport_controls", "graphical interface for basic transport controls" ],
+					"args" : [ "transport_controls", "graphical interface for basic transport controls", "0.296 0.594 0.784 1." ],
 					"id" : "obj-29",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -49,7 +49,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -20.611549, -70.176292 ],
-					"patching_rect" : [ 180.0, 20.0, 354.0, 76.0 ]
+					"patching_rect" : [ 180.0, 20.0, 373.0, 76.0 ]
 				}
 
 			}
@@ -93,7 +93,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -124,7 +124,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 405.0, 100.0, 207.0, 76.0 ],
+									"patching_rect" : [ 405.0, 100.0, 207.0, 75.0 ],
 									"text" : "left arrow - next\nright arrow - previous\nspacebar - toggle between play/stop\nup arrow - rew\ndown arrow"
 								}
 
@@ -420,16 +420,16 @@
 ,
 					"patching_rect" : [ 78.25, 20.0, 82.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
+						"fontface" : 0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"fontsize" : 12.0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p key_control"
@@ -494,11 +494,11 @@
 					"pictures" : [ "prev.png", "rewind.png", "stop.png", "play.png", "ffwd.png", "next.png" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.tab",
 							"parameter_enum" : [ "prev", "rew", "stop", "play", "ffwd", "next" ],
 							"parameter_unitstyle" : 0,
 							"parameter_type" : 2,
-							"parameter_shortname" : "asdf",
-							"parameter_longname" : "live.tab"
+							"parameter_shortname" : "asdf"
 						}
 
 					}
@@ -570,91 +570,91 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "prev.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface/transport_controls",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface/transport_controls",
 				"patcherrelativepath" : "",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rewind.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface/transport_controls",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface/transport_controls",
 				"patcherrelativepath" : "",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface/transport_controls",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface/transport_controls",
 				"patcherrelativepath" : "",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface/transport_controls",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface/transport_controls",
 				"patcherrelativepath" : "",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ffwd.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface/transport_controls",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface/transport_controls",
 				"patcherrelativepath" : "",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "next.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface/transport_controls",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface/transport_controls",
 				"patcherrelativepath" : "",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1

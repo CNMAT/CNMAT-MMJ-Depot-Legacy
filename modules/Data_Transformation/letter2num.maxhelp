@@ -1,10 +1,14 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 25.0, 69.0, 352.0, 257.0 ],
+		"appversion" : 		{
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 5
+		}
+,
+		"rect" : [ 25.0, 69.0, 397.0, 377.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 25.0, 69.0, 352.0, 257.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
@@ -12,207 +16,295 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 4.0, 4.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"maxclass" : "number",
-					"patching_rect" : [ 104.0, 176.0, 50.0, 18.0 ],
-					"numoutlets" : 2,
+					"args" : [ "letter2num", "convert a letter to a corresponding number", "0.296 0.594 0.784 1." ],
+					"id" : "obj-4",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -18.0, -68.0 ],
+					"patching_rect" : [ 16.0, 9.0, 386.0, 77.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "letter2num", 1.0, "Jeff Lubow", "letter2num", 6666, "0.296 0.594 0.784 1." ],
+					"id" : "obj-10",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ -6.5, 275.0, 296.0, 86.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-13",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"fontsize" : 10.0,
-					"numinlets" : 1,
-					"fontname" : "Arial"
+					"parameter_enable" : 0,
+					"patching_rect" : [ 136.0, 240.0, 50.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "message",
-					"text" : "f",
-					"patching_rect" : [ 232.0, 36.0, 32.5, 16.0 ],
-					"numoutlets" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-9",
-					"outlettype" : [ "" ],
-					"fontsize" : 10.0,
+					"maxclass" : "message",
 					"numinlets" : 2,
-					"fontname" : "Arial"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 264.0, 100.0, 32.5, 16.0 ],
+					"text" : "f"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "message",
-					"text" : "e",
-					"patching_rect" : [ 196.0, 36.0, 32.5, 16.0 ],
-					"numoutlets" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-8",
-					"outlettype" : [ "" ],
-					"fontsize" : 10.0,
+					"maxclass" : "message",
 					"numinlets" : 2,
-					"fontname" : "Arial"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 228.0, 100.0, 32.5, 16.0 ],
+					"text" : "e"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "message",
-					"text" : "d",
-					"patching_rect" : [ 160.0, 36.0, 32.5, 16.0 ],
-					"numoutlets" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-7",
-					"outlettype" : [ "" ],
-					"fontsize" : 10.0,
+					"maxclass" : "message",
 					"numinlets" : 2,
-					"fontname" : "Arial"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 192.0, 100.0, 32.5, 16.0 ],
+					"text" : "d"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "message",
-					"text" : "c",
-					"patching_rect" : [ 124.0, 36.0, 32.5, 16.0 ],
-					"numoutlets" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-6",
-					"outlettype" : [ "" ],
-					"fontsize" : 10.0,
+					"maxclass" : "message",
 					"numinlets" : 2,
-					"fontname" : "Arial"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 156.0, 100.0, 32.5, 16.0 ],
+					"text" : "c"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "message",
-					"text" : "b",
-					"patching_rect" : [ 88.0, 36.0, 32.5, 16.0 ],
-					"numoutlets" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-2",
-					"outlettype" : [ "" ],
-					"fontsize" : 10.0,
-					"presentation_rect" : [ 210.0, 88.0, 0.0, 0.0 ],
-					"numinlets" : 2,
-					"fontname" : "Arial"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "button",
-					"patching_rect" : [ 52.0, 152.0, 20.0, 20.0 ],
-					"numoutlets" : 1,
-					"id" : "obj-5",
-					"outlettype" : [ "bang" ],
-					"numinlets" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"maxclass" : "message",
-					"text" : "a",
-					"patching_rect" : [ 52.0, 36.0, 32.5, 16.0 ],
-					"numoutlets" : 1,
-					"id" : "obj-3",
-					"outlettype" : [ "" ],
-					"fontsize" : 10.0,
 					"numinlets" : 2,
-					"fontname" : "Arial"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 120.0, 100.0, 32.5, 16.0 ],
+					"text" : "b"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "letter2num",
-					"patching_rect" : [ 104.0, 116.0, 58.0, 18.0 ],
-					"numoutlets" : 1,
-					"id" : "obj-1",
-					"outlettype" : [ "int" ],
-					"fontsize" : 10.0,
+					"id" : "obj-5",
+					"maxclass" : "button",
 					"numinlets" : 1,
-					"fontname" : "Arial"
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 84.0, 216.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 100.0, 32.5, 16.0 ],
+					"text" : "a"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 136.0, 180.0, 58.0, 18.0 ],
+					"text" : "letter2num"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-1", 0 ],
 					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-9", 0 ],
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-8", 0 ],
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-7", 0 ],
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-6", 0 ],
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-2", 0 ],
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-3", 0 ],
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-1", 0 ],
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-1", 0 ]
 				}
 
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "letter2num.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Data_Transformation",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "PNG ",
+				"implicit" : 1
 			}
  ]
 	}

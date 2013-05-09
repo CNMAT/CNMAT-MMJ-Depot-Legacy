@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 5
 		}
 ,
-		"rect" : [ 9.0, 55.0, 1084.0, 664.0 ],
+		"rect" : [ 22.0, 91.0, 1098.0, 865.0 ],
 		"bgcolor" : [ 0.223529, 0.223529, 0.223529, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -47,7 +47,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 27.0, 67.0, 426.0, 361.0 ],
@@ -121,7 +121,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 11.0, 44.0, 688.0, 431.0 ],
@@ -377,21 +377,26 @@
 												}
 
 											}
+ ],
+										"dependency_cache" : [ 											{
+												"name" : "OSC-route.mxo",
+												"type" : "iLaX"
+											}
  ]
 									}
 ,
 									"patching_rect" : [ 268.333344, 230.0, 102.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
 										"fontname" : "Arial",
-										"fontsize" : 12.0,
+										"tags" : "",
 										"globalpatchername" : "",
-										"tags" : ""
+										"default_fontface" : 0,
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p record"
@@ -630,6 +635,29 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "newrev~.maxpat",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Effects-audio",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "uc_disclaimer.maxpat",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "cnmat_blue.gif",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+								"type" : "GIFf",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "OSC-route.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
@@ -637,16 +665,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 12.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p reverb+record",
@@ -673,7 +701,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1031,23 +1059,24 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 1064.0, 240.0, 45.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 12.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p keys",
@@ -1074,7 +1103,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1180,23 +1209,24 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 1254.0, 212.0, 63.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 12.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p rec/stop",
@@ -1223,7 +1253,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1338,23 +1368,24 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 1064.0, 212.0, 69.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 12.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p play/stop",
@@ -1416,7 +1447,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-48",
 					"ignoreclick" : 1,
@@ -1443,7 +1474,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-49",
 					"ignoreclick" : 1,
@@ -1886,7 +1917,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-42",
 					"ignoreclick" : 1,
@@ -1945,7 +1976,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 23.0, 54.0, 954.0, 690.0 ],
@@ -1973,12 +2004,11 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.24342,
-									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 12.0, 170.0, 29.0 ],
+									"patching_rect" : [ 8.0, 12.0, 170.0, 30.0 ],
 									"text" : "INSTRUCTIONS:"
 								}
 
@@ -1988,35 +2018,35 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 15.88499,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"linecount" : 33,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 56.0, 938.0, 593.0 ],
+									"patching_rect" : [ 8.0, 56.0, 938.0, 609.0 ],
 									"text" : "• Drop a folder of soundfiles on the drop area (you can drop multiple different folders)\n\n• Choose a sample from one of the sample players for playback\n\n• Click on the play button to audition\n\n• Experiment with the various parameters of each soundfile player (transposition, gain, loop start/end, etc)\n\n• Experiment with loop settings on a number of simultaneously playing soundfiles - \n        Change gain to mix the samples' levels\n\n• Hit \"global play\" to hear all sound files playing in tandem\n\n• Hit \"global stop\" to stop all sound files from playing\n\n• If you like what you are hearing, you can record it with the recorder section.  \n        1. Simply click \"open a file for recording\" to open a file to disk.  \n        You will be presented with a dialog to name your soundfile and designate a location on disk.  \n        After you name the file and click \"OK\", your (empty) file will be created on disk.\n        2. Enable recording upon playback/stop with the toggle, and a recording will be made based on you playing and stopping.\n\n• To create a score, double-click on the MUSIQUE-CONCRETE-SCORE box.  \n        1. Set the amount of time (in MS) that you would like your score to be\n        2. Set the number of presets - This must match the number you've stored\n        3. Click and drag to make new dots that represent the presets that you have made- \n        you can drag freely within the grid\n        4. When finished with your score, click on the button (play) to hear your score (you can also record this as audio).\n\n*If you would like to start fresh, click the \"clear\" button at the top right\n\nKEYS: 1-6 play the corresponding soundfile\nspace: play\nreturn: stop"
 								}
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 960.0, 692.0, 116.0, 22.0 ],
+					"patching_rect" : [ 960.0, 692.0, 116.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 784.0, 604.0, 288.0, 22.0 ],
+					"presentation_rect" : [ 784.0, 604.0, 288.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 10.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p instructions",
@@ -2079,9 +2109,9 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 10, 59, 650, 299 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 10, 59, 650, 299 ]
+						"storage_rect" : [ 10, 59, 650, 299 ],
+						"client_rect" : [ 10, 59, 650, 299 ]
 					}
 ,
 					"text" : "pattrstorage samplemixerdemo @greedy 1 @savemode 0",
@@ -2162,7 +2192,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 39.0, 94.0, 1275.0, 381.0 ],
@@ -2232,7 +2262,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2411,21 +2441,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 432.0, 322.5, 89.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
 										"fontname" : "Arial",
-										"fontsize" : 12.0,
+										"tags" : "",
 										"globalpatchername" : "",
-										"tags" : ""
+										"default_fontface" : 0,
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p format_for_tabs"
@@ -2498,7 +2529,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2514,7 +2544,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-16",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2546,6 +2575,7 @@
 									"border" : 2,
 									"bordercolor" : [ 0.933135, 0.933135, 0.933135, 1.0 ],
 									"id" : "obj-21",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2633,7 +2663,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : 0.0,
 									"id" : "obj-57",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2649,7 +2678,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : 0.0,
 									"id" : "obj-55",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2703,7 +2731,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 25.0, 69.0, 922.0, 718.0 ],
@@ -2778,7 +2806,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 8
+															"revision" : 5
 														}
 ,
 														"rect" : [ 25.0, 69.0, 182.0, 386.0 ],
@@ -3003,21 +3031,22 @@
 																}
 
 															}
- ]
+ ],
+														"dependency_cache" : [  ]
 													}
 ,
 													"patching_rect" : [ 60.0, 390.0, 122.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
-														"digest" : "",
-														"fontface" : 0,
 														"fontname" : "Arial",
-														"fontsize" : 12.0,
+														"tags" : "",
 														"globalpatchername" : "",
-														"tags" : ""
+														"default_fontface" : 0,
+														"fontface" : 0,
+														"fontsize" : 12.0,
+														"digest" : "",
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p handle_line_output"
@@ -3556,21 +3585,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 20.0, 178.0, 196.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
 										"fontname" : "Arial",
-										"fontsize" : 12.0,
+										"tags" : "",
 										"globalpatchername" : "",
-										"tags" : ""
+										"default_fontface" : 0,
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p preset_player"
@@ -3674,7 +3704,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : 0.0,
 									"id" : "obj-47",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3690,7 +3719,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : 0.0,
 									"id" : "obj-25",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3723,16 +3751,16 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
+									"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-5",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 300.0, 212.0, 362.0, 85.0 ],
+									"patching_rect" : [ 300.0, 212.0, 362.0, 87.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
-									"presentation_rect" : [ 12.0, 288.0, 476.0, 69.0 ],
+									"presentation_rect" : [ 12.0, 288.0, 476.0, 71.0 ],
 									"text" : "To edit:  click / click-drag anywhere in the rectangle above.  Your shape will be recorded and will play the various presets over time.  Setting steps to 0 means that they will be ignored as events (previously playing events will still play).",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3804,7 +3832,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : 0.0,
 									"id" : "obj-7",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3838,15 +3865,14 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-19",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 759.0, 304.5, 147.0, 53.0 ],
+									"patching_rect" : [ 759.0, 304.5, 147.0, 55.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 84.0, 255.0, 328.0, 22.0 ],
+									"presentation_rect" : [ 84.0, 255.0, 328.0, 23.0 ],
 									"text" : "amount of time (in ms) to play through sequence"
 								}
 
@@ -3906,6 +3932,7 @@
 									"border" : 2,
 									"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-53",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -4215,23 +4242,24 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 1012.0, 732.0, 289.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 784.0, 572.0, 289.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 10.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p MUSIQUE-CONCRETE-SCORE",
@@ -4259,7 +4287,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -4382,23 +4410,24 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 1266.100464, 247.513275, 38.799046, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 10.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p init",
@@ -4417,7 +4446,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-6",
 					"ignoreclick" : 1,
@@ -4443,8 +4472,6 @@
 					"button" : 1,
 					"clicktabcolor" : [ 0.501961, 0.67451, 0.85098, 1.0 ],
 					"clicktextcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fadetime" : 1000.0,
-					"fadeunselect" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -4520,16 +4547,16 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 15.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-108",
 					"ignoreclick" : 1,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1112.0, 330.0, 141.0, 23.0 ],
+					"patching_rect" : [ 1112.0, 330.0, 141.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 868.0, 113.0, 141.0, 23.0 ],
+					"presentation_rect" : [ 868.0, 113.0, 141.0, 24.0 ],
 					"text" : "reverb parameters",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"underline" : 0
@@ -4547,7 +4574,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-106",
 					"ignoreclick" : 1,
@@ -4884,7 +4911,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "samplemixer", "1.0b", "Campion/Zbyszynski/Lubow", "samplemixer", 2512 ],
+					"args" : [ "samplemixer", "1.0b", "Campion/Zbyszynski/Lubow", "samplemixer", 2512, "0.435 0.435 0.435 1." ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -4912,7 +4939,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "samplemixer", "create phrases with multichannel soundfile playback, then mix down" ],
+					"args" : [ "samplemixer", "create phrases with multichannel soundfile playback, then mix down", "0.435 0.435 0.435 1." ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -5050,7 +5077,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 44.0, 991.0, 774.0 ],
@@ -5076,13 +5103,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-1",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 246.0, 418.0, 173.0, 38.0 ],
+									"patching_rect" : [ 246.0, 418.0, 173.0, 39.0 ],
 									"text" : "\"stop\" the current state of all groovwraps"
 								}
 
@@ -5117,7 +5143,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -5131,13 +5156,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-5",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 675.0, 99.0, 261.0, 33.0 ],
+									"patching_rect" : [ 675.0, 99.0, 261.0, 34.0 ],
 									"text" : "\"dumped\" message is properly formatted as an message to groovewrap(s)"
 								}
 
@@ -5163,7 +5187,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 289.0, 189.0, 377.0 ],
+									"patching_rect" : [ 36.0, 289.0, 189.0, 387.0 ],
 									"text" : ";\rOSC /gw1/bufname 02triangle1.aif;\rOSC /gw1/delaystart 0;\rOSC /gw1/gain 1.0864;\rOSC /gw1/loop 0;\rOSC /gw1/loopend 14904.762695;\rOSC /gw1/loopinterp 1;\rOSC /gw1/loopstart 2392.063477;\rOSC /gw1/playfrom 0.1605;\rOSC /gw1/transp 1.;\rOSC /gw2/bufname 01triangle1.aif;\rOSC /gw2/delaystart 0;\rOSC /gw2/gain 1.284;\rOSC /gw2/loop 0;\rOSC /gw2/loopend 14904.762695;\rOSC /gw2/loopinterp 1;\rOSC /gw2/loopstart 2944.104492;\rOSC /gw2/playfrom 0.1975;\rOSC /gw2/transp 1.1;\rOSC /gw3/bufname 01triangle1.aif;\rOSC /gw3/delaystart 20;\rOSC /gw3/gain 1.2346;\rOSC /gw3/loop 0;\rOSC /gw3/loopend 14904.649414;\rOSC /gw3/loopinterp 1;\rOSC /gw3/loopstart 3772.177002;\rOSC /gw3/playfrom 0.2531;\rOSC /gw3/transp 1.2;\rOSC /gw4/bufname 01triangle1.aif;\rOSC /gw4/delaystart 30;\rOSC /gw4/gain 1.3333;\rOSC /gw4/loop 0;\rOSC /gw4/loopend 3219.841309;\rOSC /gw4/loopinterp 1;\rOSC /gw4/loopstart 1288.004639;\rOSC /gw4/playfrom 0.0864;\rOSC /gw4/transp 8."
 								}
 
@@ -5198,13 +5222,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-10",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 248.0, 570.0, 173.0, 38.0 ],
+									"patching_rect" : [ 248.0, 570.0, 173.0, 39.0 ],
 									"text" : "\"play\" the current state of all groovwraps"
 								}
 
@@ -5213,12 +5236,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 56.0, 258.0, 342.0, 22.0 ],
+									"patching_rect" : [ 56.0, 258.0, 342.0, 23.0 ],
 									"text" : "reinstates all groovewraps to a previous state"
 								}
 
@@ -5253,13 +5275,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-14",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 84.0, 149.0, 373.0, 38.0 ],
+									"patching_rect" : [ 84.0, 149.0, 373.0, 39.0 ],
 									"text" : "\"dump\" the current state of a single named groovwrap into the message box"
 								}
 
@@ -5278,7 +5299,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -5402,21 +5423,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 512.0, 98.0, 81.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
 										"fontname" : "Arial",
-										"fontsize" : 12.0,
+										"tags" : "",
 										"globalpatchername" : "",
-										"tags" : ""
+										"default_fontface" : 0,
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p tomessagebox"
@@ -5447,7 +5469,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 598.0, 95.0, 33.0, 20.0 ],
+									"patching_rect" : [ 598.0, 95.0, 33.0, 21.0 ],
 									"text" : "set"
 								}
 
@@ -5494,13 +5516,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-21",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 77.0, 45.0, 373.0, 38.0 ],
+									"patching_rect" : [ 77.0, 45.0, 373.0, 39.0 ],
 									"text" : "\"dump\" the current state of all groovwraps into a single long message"
 								}
 
@@ -5509,13 +5530,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-22",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 602.0, 55.0, 267.0, 33.0 ],
+									"patching_rect" : [ 602.0, 55.0, 267.0, 34.0 ],
 									"text" : "\"set\" message clears the message box, making it ready for a new \"dump\" message"
 								}
 
@@ -5524,7 +5544,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-23",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -5607,23 +5626,24 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 960.0, 669.5, 52.0, 22.0 ],
+					"patching_rect" : [ 960.0, 669.5, 52.0, 23.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 12.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p docs",
@@ -5642,7 +5662,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-39",
 					"ignoreclick" : 1,
@@ -5743,7 +5763,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-55",
 					"ignoreclick" : 1,
@@ -5808,7 +5828,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 132.0, 344.0, 664.0, 496.0 ],
@@ -6090,6 +6110,25 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "samplefolder~.maxpat",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "buf_anything.maxpat",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "addpath.maxpat",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Utilities",
+								"type" : "JSON",
+								"implicit" : 1
+							}
  ]
 					}
 ,
@@ -6097,16 +6136,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 12.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p prepare-and-load-buffers",
@@ -6125,7 +6164,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-72",
 					"ignoreclick" : 1,
@@ -6133,10 +6172,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 816.0, 180.0, 149.0, 43.0 ],
+					"patching_rect" : [ 816.0, 180.0, 149.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 535.5, 12.5, 186.0, 31.0 ],
+					"presentation_rect" : [ 535.5, 12.5, 186.0, 32.0 ],
 					"text" : "drop folder containing soundfiles here (.wav or .aif)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"underline" : 0
@@ -6850,133 +6889,133 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "samplefolder~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../../../tutorials/Music29/Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "buf_anything.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../../../tutorials/Music29/Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "addpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Utilities",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Utilities",
 				"patcherrelativepath" : "../../../modules/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "groovewrap~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Soundfiles-sampling/groovewrap",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Soundfiles-sampling/groovewrap",
 				"patcherrelativepath" : "../../../modules/Soundfiles-sampling/groovewrap",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pan+amp~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Diffusion",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Diffusion",
 				"patcherrelativepath" : "../../../modules/Diffusion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pstore-simple-storage.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Data_Storage/pstore-simple-storage",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Data_Storage/pstore-simple-storage",
 				"patcherrelativepath" : "../../../modules/Data_Storage/pstore-simple-storage",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "samplemixerdemo.json",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/Soundfiles-sampling/samplemixer",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/applications/Soundfiles-sampling/samplemixer",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "newrev~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_disclaimer.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1

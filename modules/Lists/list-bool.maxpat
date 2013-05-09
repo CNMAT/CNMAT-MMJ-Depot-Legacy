@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+		"rect" : [ 50.0, 94.0, 467.0, 384.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,

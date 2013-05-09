@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 50.0, 94.0, 139.0, 229.0 ],
@@ -35,7 +35,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 26.75, 120.0, 57.0, 20.0 ],
+					"patching_rect" : [ 41.75, 120.0, 57.0, 20.0 ],
 					"text" : "zl slice 1"
 				}
 
@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 10.0, 85.0, 86.0, 20.0 ],
+					"patching_rect" : [ 25.0, 85.0, 86.0, 20.0 ],
 					"text" : "regexp (.*/)(.*)"
 				}
 
@@ -62,7 +62,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 25.0, 25.0, 25.0 ]
+					"patching_rect" : [ 25.0, 25.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -73,7 +73,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.75, 170.0, 25.0, 25.0 ]
+					"patching_rect" : [ 41.75, 170.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.75, 170.0, 25.0, 25.0 ]
+					"patching_rect" : [ 79.75, 170.0, 25.0, 25.0 ]
 				}
 
 			}
