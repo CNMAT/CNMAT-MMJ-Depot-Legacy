@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 5
 		}
 ,
-		"rect" : [ 26.0, 62.0, 656.0, 765.0 ],
+		"rect" : [ 837.0, 105.0, 656.0, 808.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,9 +29,23 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "DSP Settings", "Basic ideas about DSP and scheduler settings", "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-46",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 14.0, 4.333328, 502.0, 74.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-44",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -63,7 +77,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 516.0, 501.0, 127.0, 86.0 ],
+					"patching_rect" : [ 516.0, 501.0, 127.0, 87.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/docs/max6/dynamic/c74_docs.html#messages_to_dsp"
 				}
 
@@ -72,12 +86,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 682.0, 164.0, 20.0 ],
+					"patching_rect" : [ 165.0, 712.0, 164.0, 20.0 ],
 					"text" : "open the DSP status window"
 				}
 
@@ -92,20 +105,20 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 698.0, 91.0, 46.0 ],
+					"patching_rect" : [ 165.0, 728.0, 91.0, 46.0 ],
 					"text" : ";\rdsp open"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "DSP_Settings", "1.1a", "Michael Zbyszynski", "DSP_Settings", 2738 ],
+					"args" : [ "DSP_Settings", "1.1a", "Valle and Zbyszynski", "DSP_Settings", 2738, "0.296 0.594 0.784 0.5" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.0, 669.0, 292.0, 86.0 ]
+					"patching_rect" : [ 368.0, 714.0, 292.0, 86.0 ]
 				}
 
 			}
@@ -119,7 +132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 772.0, 45.0, 17.0 ],
+					"patching_rect" : [ 76.0, 802.0, 45.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -128,12 +141,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 676.0, 61.0, 20.0 ],
+					"patching_rect" : [ 48.0, 706.0, 61.0, 20.0 ],
 					"text" : "see also:",
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ]
 				}
@@ -149,7 +162,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 695.0, 82.0, 18.0 ],
+					"patching_rect" : [ 48.0, 725.0, 82.0, 18.0 ],
 					"text" : "priorities.mxb",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -165,50 +178,24 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 750.0, 66.0, 17.0 ],
+					"patching_rect" : [ 76.0, 780.0, 66.0, 17.0 ],
 					"text" : "prepend load"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 20.0, 123.0, 58.0 ],
-					"pic" : "cnmat_wht-blu.gif"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"frgb" : 0.0,
+					"fontsize" : 11.0,
+					"frgb" : [ 0.02986, 0.020483, 0.01118, 1.0 ],
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.0, 52.0, 478.0, 27.0 ],
-					"text" : "Here are some starting points for Max scheduler and DSP settings in various situations. Unfortunately, these are fairly case specific. If your patch isn't working well, try out some different settings.",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-11",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 138.0, 27.0, 450.0, 27.0 ],
-					"text" : "Basic ideas about DSP and scheduler settings",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"patching_rect" : [ 31.0, 82.0, 529.0, 32.0 ],
+					"text" : "Here are some starting points for Max scheduler and DSP settings in various situations. \nUnfortunately, these are fairly case specific. If your patch isn't working well, try out some different settings.",
+					"textcolor" : [ 0.02986, 0.020483, 0.01118, 1.0 ]
 				}
 
 			}
@@ -225,7 +212,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 532.0, 72.0, 670.0, 340.0 ],
@@ -266,13 +253,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 284.0, 226.0, 158.0, 37.0 ],
+									"patching_rect" : [ 284.0, 226.0, 158.0, 38.0 ],
 									"text" : "• Another approach to downsampling (and upsampling) is to use poly~. This will be covered in a later tutorial."
 								}
 
@@ -281,13 +267,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-3",
 									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.0, 226.0, 181.0, 67.0 ],
+									"patching_rect" : [ 20.0, 226.0, 181.0, 69.0 ],
 									"text" : "• If available, lower simple rates would improve effeciency at the cost of loss of high frequency information. This might be fine in a situation where a signal represents non-audio data (like a sensor, for instance)."
 								}
 
@@ -296,13 +281,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-4",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 284.0, 123.0, 240.0, 57.0 ],
+									"patching_rect" : [ 284.0, 123.0, 243.0, 58.0 ],
 									"text" : "• The possible sample rates are limited by your audio driver. For instance, my Macbook Pro only allows me 44100, 48000, or 96000 samples/second. For that reason, it isn't good practice to program a piece that depends on an unusualy SampleRate if you plan to share it."
 								}
 
@@ -371,7 +355,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -409,7 +392,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -438,13 +420,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-14",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 284.0, 57.0, 237.0, 37.0 ],
+									"patching_rect" : [ 284.0, 57.0, 237.0, 38.0 ],
 									"text" : "• \"CD Quality\" indicates 44, 100 samples per second. In 99.9% of the situations, this is where you're going to leave it."
 								}
 
@@ -496,21 +477,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 235.937744, 120.0, 87.0, 20.0 ],
+					"patching_rect" : [ 235.937744, 135.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p SampleRate"
@@ -525,7 +507,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 325.0, 100.0, 15.0, 15.0 ]
+					"patching_rect" : [ 325.0, 124.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -537,7 +519,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 325.0, 200.0, 15.0, 15.0 ]
+					"patching_rect" : [ 325.0, 197.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -545,13 +527,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-15",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.0, 143.0, 222.0, 33.0 ],
+					"patching_rect" : [ 359.0, 158.0, 222.0, 34.0 ],
 					"text" : "Double-click on these for more detailed information."
 				}
 
@@ -569,7 +550,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 104.0, 44.0, 702.0, 746.0 ],
@@ -610,7 +591,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -624,7 +604,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -638,7 +617,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -652,7 +630,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -666,13 +643,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-6",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 479.0, 596.0, 47.0 ],
+									"patching_rect" : [ 37.0, 479.0, 596.0, 48.0 ],
 									"text" : "These menus let you change the relationship between MSP's channel numbers, and the physical inputs and outputs on your audio device. An expanded version can be sound by clicking on the \"I/O Mappings\" button at the bottom of the window. This feature can be handy for quickly remapping an 8-channel piece into stereo, for example. Remember if you change these settings, because they can cause a lot of confusion later on."
 								}
 
@@ -681,7 +657,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-7",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -695,7 +670,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-8",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -710,13 +684,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-9",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 230.0, 594.0, 37.0 ],
+									"patching_rect" : [ 37.0, 230.0, 594.0, 38.0 ],
 									"text" : "NB: More than once, I've started up Max, set my driver to \"CoreAudio MOTU (828 or Ultralight)\" and heard clicks and digital audio artifacts. Toggling the sample rate and vector settings fixed those problems, which I believe were caused by the Driver running at different Vector settings than Max."
 								}
 
@@ -725,7 +698,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-10",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -740,7 +712,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-11",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -755,13 +726,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-12",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 112.0, 607.0, 57.0 ],
+									"patching_rect" : [ 37.0, 112.0, 607.0, 58.0 ],
 									"text" : "I/O and Signal Vector Size are the most interesting menus, in terms of optimization. MSP does not usually process one sample at a time, but instead processes a batch of samples called a Vector. Vector Processing makes MSP much more efficient. Set these numbers high to make your patch run more efficiently. Unfortunately, high vector sizes mean that it takes longer for samples to get in and out of your computer. (For instance, a vector of 2048 samples takes 46 milliseconds, on top of any other systemic latencies.) In situations such as live processing, where latency is an obvious issue, smaller buffer sizes will be desirable."
 								}
 
@@ -770,7 +740,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -784,7 +753,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-14",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -799,13 +767,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-15",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, -92.0, 589.0, 37.0 ],
+									"patching_rect" : [ 37.0, -92.0, 589.0, 38.0 ],
 									"text" : "It is important to know that different Audio Drivers demand different CPU resources. A patch that works great under \"CoreAudio Built-in\" could be a disaster under \"CoreAudio MOTU...\", or the other way around. Make sure to test your piece using the same setup that will be at the performance."
 								}
 
@@ -814,13 +781,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-16",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, -134.0, 556.0, 37.0 ],
+									"patching_rect" : [ 37.0, -134.0, 556.0, 38.0 ],
 									"text" : "It takes processing power to calculate CPU Utilization. Also, this number is an estimate and doesn't take into account bursts of processing. I get worried if my patch is pulling more than 75%. Hitting 100% usually causes audio dropout, clicks, and similar bad behavior."
 								}
 
@@ -829,13 +795,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-17",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, -185.0, 602.0, 47.0 ],
+									"patching_rect" : [ 37.0, -185.0, 602.0, 48.0 ],
 									"text" : "This section tells some information about how much computer power the MSP part of your patch is drawing. Turn on Audio, and if the checkbox next to \"Poll\" is clicked, you'll see number representing the percentage of total possible computing your patch is drawing. (If you only have this patch open, it might be zero, since there's not much DSP.) The other numbers give you an idea about how many DSP objects and connections your patch uses. In general, higher numbers mean more processing."
 								}
 
@@ -859,7 +824,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -873,7 +837,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-20",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -903,7 +866,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : 0.0,
 									"id" : "obj-22",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -929,7 +891,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 55.0, 677.0, 349.0 ],
@@ -1264,21 +1226,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 513.0, 639.0, 45.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p revert"
@@ -1304,6 +1267,7 @@
 									"bgcolor" : [ 0.784314, 0.784314, 0.784314, 1.0 ],
 									"border" : 1,
 									"id" : "obj-25",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1316,7 +1280,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : 0.0,
 									"id" : "obj-26",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1342,7 +1305,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 55.0, 677.0, 349.0 ],
@@ -1677,21 +1640,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 601.0, 639.0, 45.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p revert"
@@ -1731,7 +1695,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-30",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1813,7 +1776,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 336.0, 61.0, 372.0, 377.0 ],
@@ -2136,7 +2099,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 8
+															"revision" : 5
 														}
 ,
 														"rect" : [ 90.0, 259.0, 899.0, 510.0 ],
@@ -3139,21 +3102,22 @@
 																}
 
 															}
- ]
+ ],
+														"dependency_cache" : [  ]
 													}
 ,
 													"patching_rect" : [ 0.0, 486.0, 209.0, 17.0 ],
 													"saved_object_attributes" : 													{
+														"tags" : "",
+														"description" : "",
+														"globalpatchername" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0,
 														"default_fontface" : 0,
+														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"description" : "",
-														"digest" : "",
-														"fontface" : 0,
-														"fontname" : "Arial",
-														"fontsize" : 12.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p igrouplabel"
@@ -3175,7 +3139,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 8
+															"revision" : 5
 														}
 ,
 														"rect" : [ 62.0, 302.0, 892.0, 472.0 ],
@@ -4178,21 +4142,22 @@
 																}
 
 															}
- ]
+ ],
+														"dependency_cache" : [  ]
 													}
 ,
 													"patching_rect" : [ 204.0, 484.0, 209.0, 17.0 ],
 													"saved_object_attributes" : 													{
+														"tags" : "",
+														"description" : "",
+														"globalpatchername" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0,
 														"default_fontface" : 0,
+														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"description" : "",
-														"digest" : "",
-														"fontface" : 0,
-														"fontname" : "Arial",
-														"fontsize" : 12.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p ogrouplabel"
@@ -4454,7 +4419,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 8
+															"revision" : 5
 														}
 ,
 														"rect" : [ 91.0, 406.0, 730.0, 338.0 ],
@@ -5457,21 +5422,22 @@
 																}
 
 															}
- ]
+ ],
+														"dependency_cache" : [  ]
 													}
 ,
 													"patching_rect" : [ -14.0, 520.0, 209.0, 17.0 ],
 													"saved_object_attributes" : 													{
+														"tags" : "",
+														"description" : "",
+														"globalpatchername" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0,
 														"default_fontface" : 0,
+														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"description" : "",
-														"digest" : "",
-														"fontface" : 0,
-														"fontname" : "Arial",
-														"fontsize" : 12.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p igroup"
@@ -5497,7 +5463,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-38",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -5538,7 +5503,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 8
+															"revision" : 5
 														}
 ,
 														"rect" : [ 55.0, 322.0, 849.0, 346.0 ],
@@ -6541,21 +6506,22 @@
 																}
 
 															}
- ]
+ ],
+														"dependency_cache" : [  ]
 													}
 ,
 													"patching_rect" : [ 528.0, 110.0, 196.0, 17.0 ],
 													"saved_object_attributes" : 													{
+														"tags" : "",
+														"description" : "",
+														"globalpatchername" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0,
 														"default_fontface" : 0,
+														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"description" : "",
-														"digest" : "",
-														"fontface" : 0,
-														"fontname" : "Arial",
-														"fontsize" : 12.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p ogroup"
@@ -7091,7 +7057,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-76",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -7585,7 +7550,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-109",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -7599,7 +7563,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-110",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -7614,7 +7577,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"hidden" : 1,
 													"id" : "obj-111",
 													"linecount" : 2,
@@ -7632,6 +7594,7 @@
 													"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 													"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 													"id" : "obj-112",
+													"ignoreclick" : 1,
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -7646,6 +7609,7 @@
 													"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 													"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 													"id" : "obj-113",
+													"ignoreclick" : 1,
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -7660,6 +7624,7 @@
 													"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 													"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 													"id" : "obj-114",
+													"ignoreclick" : 1,
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -7674,6 +7639,7 @@
 													"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 													"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 													"id" : "obj-115",
+													"ignoreclick" : 1,
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -7688,6 +7654,7 @@
 													"bgcolor" : [ 0.862745, 0.823529, 0.941176, 1.0 ],
 													"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 													"id" : "obj-116",
+													"ignoreclick" : 1,
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -7702,6 +7669,7 @@
 													"bgcolor" : [ 0.862745, 0.823529, 0.941176, 1.0 ],
 													"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 													"id" : "obj-117",
+													"ignoreclick" : 1,
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -8921,21 +8889,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 635.0, 768.0, 42.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p iomap"
@@ -8946,7 +8915,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-36",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9021,7 +8989,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-41",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9056,7 +9023,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-43",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9131,7 +9097,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-48",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9145,7 +9110,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-49",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9175,7 +9139,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-51",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9250,7 +9213,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-56",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9309,7 +9271,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-60",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9323,7 +9284,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-61",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9353,7 +9313,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-63",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9428,7 +9387,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-68",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9487,7 +9445,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-72",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9501,7 +9458,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-73",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9561,7 +9517,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-77",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9591,7 +9546,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-79",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9621,7 +9575,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-81",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9651,7 +9604,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-83",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9756,7 +9708,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-90",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9815,7 +9766,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-94",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9844,7 +9794,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-96",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9888,7 +9837,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-99",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9902,7 +9850,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-100",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9916,7 +9863,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-101",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10151,7 +10097,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-115",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10165,7 +10110,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-116",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10179,7 +10123,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-117",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10193,12 +10136,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-118",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 306.0, -35.0, 19.0, 17.0 ],
+									"patching_rect" : [ 306.0, -35.0, 21.0, 17.0 ],
 									"text" : "Hz"
 								}
 
@@ -10207,7 +10149,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-119",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10221,7 +10162,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-120",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10235,7 +10175,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-121",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10250,6 +10189,7 @@
 									"bgcolor" : [ 0.784314, 0.784314, 0.784314, 1.0 ],
 									"border" : 1,
 									"id" : "obj-122",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10263,6 +10203,7 @@
 									"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-123",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10276,6 +10217,7 @@
 									"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-124",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10289,6 +10231,7 @@
 									"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-125",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10302,6 +10245,7 @@
 									"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-126",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10315,6 +10259,7 @@
 									"bgcolor" : [ 0.862745, 0.823529, 0.941176, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-127",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10328,6 +10273,7 @@
 									"bgcolor" : [ 0.862745, 0.823529, 0.941176, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-128",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10341,6 +10287,7 @@
 									"bgcolor" : [ 0.862745, 0.823529, 0.941176, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-129",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10354,6 +10301,7 @@
 									"bgcolor" : [ 0.862745, 0.823529, 0.941176, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-130",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10367,6 +10315,7 @@
 									"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-131",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10380,6 +10329,7 @@
 									"bgcolor" : [ 0.862745, 0.823529, 0.941176, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-132",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10392,7 +10342,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-133",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10406,7 +10355,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-134",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -10445,7 +10393,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-137",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10582,7 +10529,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-146",
-									"items" : [ "Built-in Output", ",", "Soundflower (2ch)", ",", "Soundflower (16ch)", ",", "Fireface 800 (17F)" ],
+									"items" : "Built-in Output",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10612,7 +10559,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-148",
-									"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (16ch)", ",", "Fireface 800 (17F)" ],
+									"items" : "Built-in Input",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10671,7 +10618,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-152",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10777,7 +10723,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-159",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10792,6 +10737,7 @@
 									"bgcolor" : [ 0.745098, 0.705882, 0.784314, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-160",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10805,6 +10751,7 @@
 									"bgcolor" : [ 0.862745, 0.823529, 0.941176, 1.0 ],
 									"bordercolor" : [ 0.568627, 0.568627, 0.568627, 1.0 ],
 									"id" : "obj-161",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10817,7 +10764,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-162",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -10831,13 +10777,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-163",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 347.0, -644.0, 290.0, 69.0 ],
+									"patching_rect" : [ 347.0, -644.0, 290.0, 71.0 ],
 									"text" : "All of the Max interface elements are programmed in Max. You can unlock them, and see how to control those settings from your own patch."
 								}
 
@@ -10874,13 +10819,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-166",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, -670.0, 262.0, 38.0 ],
+									"patching_rect" : [ 11.0, -670.0, 262.0, 39.0 ],
 									"text" : "Click on this message box, or select \"DSP Status\" from the options menu:"
 								}
 
@@ -10889,13 +10833,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-167",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, -358.0, 584.0, 47.0 ],
+									"patching_rect" : [ 37.0, -358.0, 584.0, 48.0 ],
 									"text" : "This top section controls Audio Driver selection, and I/O options. The top switch Audio on/off. Below that is a menu where you would select \"CoreAudio Built-in Output\" or something like \"CoreAudio MOTU 828 mk II\", if you have additional drivers installed, and the device is plugged in. Sometimes this can get messed up if a device has been unplugged while the computer is off, for instance. This is the first place I check if I'm not getting any sound in or out."
 								}
 
@@ -10904,7 +10847,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-168",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -11750,21 +11692,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 58.0, 168.666672, 170.0, 20.0 ],
+					"patching_rect" : [ 58.0, 183.666672, 170.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p Tour of DSP Status Window"
@@ -11784,7 +11727,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 80.0, 44.0, 713.0, 749.0 ],
@@ -11834,7 +11777,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 10.0, 59.0, 851.0, 440.0 ],
@@ -11860,7 +11803,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-1",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -12098,7 +12040,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-18",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -12119,7 +12060,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 119.0, 293.0, 82.0, 55.0 ],
+													"patching_rect" : [ 119.0, 293.0, 82.0, 56.0 ],
 													"text" : ";\rmax preempt 1;\rdsp takeover 0;\rdsp sigvs 64;\rdsp iovs 64"
 												}
 
@@ -12128,13 +12069,12 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-20",
-													"linecount" : 5,
+													"linecount" : 4,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 95.0, 223.0, 301.0, 57.0 ],
+													"patching_rect" : [ 95.0, 223.0, 302.0, 48.0 ],
 													"text" : "With the Scheduler in Audio Interrupt, and audio on, both Max Events and MSP (audio) events are processed at the same priority. In this example, a massive amount of math is being calculated at the beginning of every signal vector. This interrupts the audio processing, and causes a click."
 												}
 
@@ -12143,19 +12083,17 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
-													"frgb" : 0.0,
 													"id" : "obj-21",
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 94.0, 200.0, 132.0, 22.0 ],
+													"patching_rect" : [ 94.0, 200.0, 132.0, 23.0 ],
 													"text" : "What is going on?"
 												}
 
 											}
 , 											{
 												"box" : 												{
-													"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 													"id" : "obj-22",
 													"maxclass" : "ezdac~",
 													"numinlets" : 2,
@@ -12168,7 +12106,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-23",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -12208,7 +12145,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-26",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -12228,7 +12164,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 103.0, 53.0, 82.0, 55.0 ],
+													"patching_rect" : [ 103.0, 53.0, 82.0, 56.0 ],
 													"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 64;\rdsp iovs 64"
 												}
 
@@ -12237,7 +12173,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-28",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -12410,21 +12345,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 45.0, 641.0, 260.0, 27.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p Clicks with Max Processing"
@@ -12444,7 +12380,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 10.0, 59.0, 815.0, 685.0 ],
@@ -12470,12 +12406,11 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
-													"frgb" : 0.0,
 													"id" : "obj-1",
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 208.0, 547.0, 185.0, 22.0 ],
+													"patching_rect" : [ 208.0, 547.0, 185.0, 23.0 ],
 													"text" : "Try some other settings:"
 												}
 
@@ -12484,7 +12419,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-2",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -12512,13 +12446,12 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-4",
 													"linecount" : 5,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 255.0, 405.0, 209.0, 57.0 ],
+													"patching_rect" : [ 255.0, 405.0, 212.0, 58.0 ],
 													"text" : "The Max Scheduler is allowed an amount of \"slop\" -- events can be a little late, within a certain window (default to 25 ms). Even though the metro events are late in \"actual time\", the scheduler (including timer) feels that they're \"close enough.\""
 												}
 
@@ -12581,7 +12514,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 347.0, 576.0, 82.0, 55.0 ],
+													"patching_rect" : [ 347.0, 576.0, 82.0, 56.0 ],
 													"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 256;\rdsp iovs 256"
 												}
 
@@ -12596,7 +12529,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 163.0, 576.0, 82.0, 55.0 ],
+													"patching_rect" : [ 163.0, 576.0, 82.0, 56.0 ],
 													"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 512;\rdsp iovs 512"
 												}
 
@@ -12605,12 +12538,11 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
-													"frgb" : 0.0,
 													"id" : "obj-11",
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 255.0, 384.0, 198.0, 22.0 ],
+													"patching_rect" : [ 255.0, 384.0, 198.0, 23.0 ],
 													"text" : "What is going on this time?"
 												}
 
@@ -12619,7 +12551,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-12",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -12633,12 +12564,11 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 24.0,
-													"frgb" : 0.0,
 													"id" : "obj-13",
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 14.0, 337.0, 136.0, 33.0 ],
+													"patching_rect" : [ 14.0, 337.0, 136.0, 34.0 ],
 													"text" : "Variation 2"
 												}
 
@@ -12647,12 +12577,11 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 24.0,
-													"frgb" : 0.0,
 													"id" : "obj-14",
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 13.0, 14.0, 136.0, 33.0 ],
+													"patching_rect" : [ 13.0, 14.0, 136.0, 34.0 ],
 													"text" : "Variation 1"
 												}
 
@@ -12680,7 +12609,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 257.0, 576.0, 82.0, 55.0 ],
+													"patching_rect" : [ 257.0, 576.0, 82.0, 56.0 ],
 													"text" : ";\rmax preempt 0;\rdsp takeover 0;\rdsp sigvs 64;\rdsp iovs 64"
 												}
 
@@ -12730,7 +12659,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-20",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -12751,7 +12679,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 40.0, 391.0, 83.0, 55.0 ],
+													"patching_rect" : [ 40.0, 391.0, 83.0, 56.0 ],
 													"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 1024;\rdsp iovs 1024"
 												}
 
@@ -12760,7 +12688,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-22",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -12774,13 +12701,12 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-23",
 													"linecount" : 5,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 95.0, 223.0, 324.0, 57.0 ],
+													"patching_rect" : [ 95.0, 223.0, 324.0, 58.0 ],
 													"text" : "With the Scheduler in Audio Interrupt, and audio on, the fastest Metro will send out bangs is once per signal vector. If the sample rate is 44, 100 hertz, and the vector size is 2048 samples, then each vector is 46 milliseconds long. (2048/44100 = 0.0464) When we ask for [metro 9], the best Max can do is the equavalent of [metro 46.4]."
 												}
 
@@ -12789,19 +12715,17 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
-													"frgb" : 0.0,
 													"id" : "obj-24",
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 94.0, 200.0, 132.0, 22.0 ],
+													"patching_rect" : [ 94.0, 200.0, 132.0, 23.0 ],
 													"text" : "What is going on?"
 												}
 
 											}
 , 											{
 												"box" : 												{
-													"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 													"id" : "obj-25",
 													"maxclass" : "ezdac~",
 													"numinlets" : 2,
@@ -12814,7 +12738,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-26",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -12908,7 +12831,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-32",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -12928,7 +12850,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 55.0, 66.0, 83.0, 55.0 ],
+													"patching_rect" : [ 55.0, 66.0, 83.0, 56.0 ],
 													"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 2048;\rdsp iovs 2048"
 												}
 
@@ -12937,7 +12859,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : 0.0,
 													"id" : "obj-34",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -13066,21 +12987,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 45.0, 607.0, 233.0, 27.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p Vector Size Experiment"
@@ -13091,12 +13013,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 584.0, 132.0, 22.0 ],
+									"patching_rect" : [ 45.0, 584.0, 132.0, 23.0 ],
 									"text" : "Two experiments:"
 								}
 
@@ -13105,13 +13026,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-5",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 351.0, 576.0, 327.0, 37.0 ],
+									"patching_rect" : [ 351.0, 576.0, 327.0, 38.0 ],
 									"text" : "This only works with Overdrive On, and only has an effect when Audio is on. When audio is off, Max operates in Overdrive On, Scheduler in Audio Interrupt Off mode."
 								}
 
@@ -13120,13 +13040,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-6",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 352.0, 511.0, 323.0, 57.0 ],
+									"patching_rect" : [ 352.0, 511.0, 323.0, 58.0 ],
 									"text" : "With the Scheduler in Audio Interrupt, the Max Event Queue is processed only at the beginning of each signal vector. The advantage of this is that Audio Timing and Event Timing are locked together, improving Event Timing. The problem is that the time resonlution of the Event scheduler is limited by the signal vector size. (see below)"
 								}
 
@@ -13141,7 +13060,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 34.0, 513.0, 82.0, 55.0 ],
+									"patching_rect" : [ 34.0, 513.0, 82.0, 56.0 ],
 									"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 64;\rdsp iovs 64"
 								}
 
@@ -13150,7 +13069,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -13164,13 +13082,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-9",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 31.0, 386.0, 322.0, 57.0 ],
+									"patching_rect" : [ 31.0, 386.0, 322.0, 58.0 ],
 									"text" : "This mode is good when you are controlling a piece with an outboard controller, like a MIDI keyboard, and want to do a lot of Max processing. The downside is that the mouse might handle very sluggishly, and the screen redraws slowly. If you're controlling the piece from the computer, Overdrive isn't so hot."
 								}
 
@@ -13179,12 +13096,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 31.0, 365.0, 127.0, 22.0 ],
+									"patching_rect" : [ 31.0, 365.0, 127.0, 23.0 ],
 									"text" : "Why use this?"
 								}
 
@@ -13193,13 +13109,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-11",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 380.0, 392.0, 286.0, 37.0 ],
+									"patching_rect" : [ 380.0, 392.0, 286.0, 38.0 ],
 									"text" : "In the message to DSP, and the adstatus object, the \"Scheduler in Audio Interrupt\" setting is referred to as \"takeover\". Again, just to confuse you."
 								}
 
@@ -13214,7 +13129,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 35.0, 310.0, 82.0, 35.0 ],
+									"patching_rect" : [ 35.0, 310.0, 82.0, 36.0 ],
 									"text" : ";\rmax preempt 1;\rdsp takeover 0"
 								}
 
@@ -13223,12 +13138,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 380.0, 300.0, 128.0, 22.0 ],
+									"patching_rect" : [ 380.0, 300.0, 128.0, 23.0 ],
 									"text" : "From the manual:"
 								}
 
@@ -13237,13 +13151,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-14",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 380.0, 324.0, 258.0, 47.0 ],
+									"patching_rect" : [ 380.0, 324.0, 258.0, 48.0 ],
 									"text" : "When Overdrive is enabled, Max gives priority to timing and MIDI processing over screen drawing and user interface tasks such as responding to mouse clicks. This will often yield more accurate event timing, but may preempt screen drawing tasks."
 								}
 
@@ -13252,13 +13165,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-15",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 382.0, 151.0, 285.0, 37.0 ],
+									"patching_rect" : [ 382.0, 151.0, 285.0, 38.0 ],
 									"text" : "With Overdrive off, scheduler and user interface events are given the same priority . The scheduler works with the current \"Performance Options\" settings."
 								}
 
@@ -13267,12 +13179,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-16",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 115.0, 108.0, 152.0, 22.0 ],
+									"patching_rect" : [ 115.0, 108.0, 152.0, 23.0 ],
 									"text" : "<-- click me"
 								}
 
@@ -13281,13 +13192,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-17",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 433.0, 206.0, 157.0, 38.0 ],
+									"patching_rect" : [ 433.0, 206.0, 157.0, 39.0 ],
 									"text" : "<-- These will show the current settings"
 								}
 
@@ -13349,7 +13259,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-22",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -13364,7 +13273,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-23",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -13431,7 +13339,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-28",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -13446,7 +13353,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-29",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -13500,7 +13406,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -13562,7 +13467,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-38",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -13576,7 +13480,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-39",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -13590,12 +13493,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 24.0,
-									"frgb" : 0.0,
 									"id" : "obj-40",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 6.0, 461.0, 33.0 ],
+									"patching_rect" : [ 6.0, 6.0, 461.0, 34.0 ],
 									"text" : "Three modes for the Max scheduler"
 								}
 
@@ -13604,13 +13506,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-41",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 382.0, 94.0, 284.0, 47.0 ],
+									"patching_rect" : [ 382.0, 94.0, 284.0, 48.0 ],
 									"text" : "In the Options Menu, the DSP Status Window, and the adstatus object, the term \"Overdrive\" is used. But in the message to Max, it is called \"preempt.\" These are the same setting, referred to by different names only to confuse you."
 								}
 
@@ -13619,7 +13520,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-42",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -13731,21 +13631,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 58.0, 144.333328, 140.0, 20.0 ],
+					"patching_rect" : [ 58.0, 159.333328, 140.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p Max Scheduler Modes"
@@ -13756,12 +13657,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.0, 648.0, 321.0, 20.0 ],
+					"patching_rect" : [ 141.0, 678.0, 321.0, 20.0 ],
 					"text" : "For even better timing, do all clocking in the audio domain."
 				}
 
@@ -13779,7 +13679,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 214.0, 44.0, 316.0, 202.0 ],
@@ -13820,7 +13720,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -13863,7 +13762,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -13883,21 +13781,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 235.937744, 141.899994, 73.0, 20.0 ],
+					"patching_rect" : [ 235.937744, 156.899994, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p advanced"
@@ -13908,13 +13807,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-20",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 494.0, 321.0, 33.0 ],
+					"patching_rect" : [ 140.0, 514.0, 321.0, 34.0 ],
 					"text" : "High vector sizes are usually more efficient for DSP, but some objects (like fiddle~) don't work properly."
 				}
 
@@ -13923,12 +13821,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 475.0, 376.0, 20.0 ],
+					"patching_rect" : [ 140.0, 495.0, 376.0, 20.0 ],
 					"text" : "This is the same as the above setting."
 				}
 
@@ -13943,7 +13840,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 471.0, 97.0, 86.0 ],
+					"patching_rect" : [ 34.0, 491.0, 97.0, 87.0 ],
 					"text" : ";\rmax preempt 1;\rdsp takeover 0;\rdsp sigvs 2048;\rdsp iovs 2048;\rdsp sr 44100"
 				}
 
@@ -13952,12 +13849,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 444.0, 412.0, 27.0 ],
+					"patching_rect" : [ 23.0, 464.0, 412.0, 27.0 ],
 					"text" : "optimize for DSP -- efficiency:"
 				}
 
@@ -13966,13 +13862,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-24",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 597.0, 456.0, 47.0 ],
+					"patching_rect" : [ 140.0, 627.0, 456.0, 48.0 ],
 					"text" : "In addition to overdrive, putting the scheduler into Audio Interrupt locks Max events to the audio clock. This should make them more accurate. The scheduler is only serviced once per signal vector, so these are set low for a smaller time granularity"
 				}
 
@@ -13987,7 +13882,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 587.0, 97.0, 86.0 ],
+					"patching_rect" : [ 34.0, 617.0, 97.0, 87.0 ],
 					"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 64;\rdsp iovs 64;\rdsp sr 44100"
 				}
 
@@ -13996,12 +13891,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 560.0, 412.0, 27.0 ],
+					"patching_rect" : [ 23.0, 590.0, 412.0, 27.0 ],
 					"text" : "optimize for Max -- solid timing:"
 				}
 
@@ -14010,13 +13904,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-27",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 396.0, 365.0, 33.0 ],
+					"patching_rect" : [ 140.0, 406.0, 365.0, 34.0 ],
 					"text" : "High vector sizes are usually more efficient for DSP, at the cost of higher latency."
 				}
 
@@ -14025,13 +13918,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-28",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 361.0, 367.0, 33.0 ],
+					"patching_rect" : [ 140.0, 371.0, 367.0, 34.0 ],
 					"text" : "Overdrive puts Max events into a higer priority, but screen updates and checking the mouse are low priority."
 				}
 
@@ -14046,7 +13938,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 355.0, 97.0, 86.0 ],
+					"patching_rect" : [ 34.0, 365.0, 97.0, 87.0 ],
 					"text" : ";\rmax preempt 1;\rdsp takeover 0;\rdsp sigvs 2048;\rdsp iovs 2048;\rdsp sr 44100"
 				}
 
@@ -14055,12 +13947,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 328.0, 412.0, 27.0 ],
+					"patching_rect" : [ 23.0, 338.0, 412.0, 27.0 ],
 					"text" : "optimize for Max -- efficiency:"
 				}
 
@@ -14069,7 +13960,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -14089,7 +13979,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 240.0, 97.0, 86.0 ],
+					"patching_rect" : [ 33.0, 240.0, 97.0, 87.0 ],
 					"text" : ";\rmax preempt 0;\rdsp takeover 0;\rdsp sigvs 512;\rdsp iovs 512;\rdsp sr 44100"
 				}
 
@@ -14107,7 +13997,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 65.0, 44.0, 396.0, 572.0 ],
@@ -14148,7 +14038,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -14162,7 +14051,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -14190,7 +14078,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -14284,7 +14171,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -14298,7 +14184,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -14318,7 +14203,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 68.0, 271.0, 82.0, 35.0 ],
+									"patching_rect" : [ 68.0, 271.0, 82.0, 36.0 ],
 									"text" : ";\rmax preempt 1;\rdsp takeover 1"
 								}
 
@@ -14327,7 +14212,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -14353,13 +14237,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-16",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 134.0, 341.0, 37.0 ],
+									"patching_rect" : [ 25.0, 134.0, 341.0, 38.0 ],
 									"text" : "• Messages. Check p. 106 of the \"Max45Topics.pdf document\" for a full list of messages to max. Page 242 of \"MSP46TutorialsAndTopics.pdf\" for messages to DSP."
 								}
 
@@ -14383,13 +14266,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-18",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 18.0, 33.0, 291.0, 47.0 ],
+									"patching_rect" : [ 18.0, 33.0, 291.0, 48.0 ],
 									"text" : "There are a few way to change the DSP and scheduler settings:"
 								}
 
@@ -14398,7 +14280,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -14445,21 +14326,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 58.0, 120.0, 147.0, 20.0 ],
+					"patching_rect" : [ 58.0, 135.0, 147.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p changing these settings"
@@ -14470,29 +14352,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-34",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 258.0, 343.0, 47.0 ],
-					"text" : "I usaually run with overdrive off, and vector sizes of 512. This is a good compromise between effeciency and latency. If the piece I'm working on doesn't work well, then I adjust things."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"bgcolor" : [ 0.588235, 0.588235, 0.705882, 1.0 ],
-					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
-					"id" : "obj-35",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 15.0, 611.0, 70.0 ],
-					"rounded" : 0,
-					"shadow" : -1
+					"patching_rect" : [ 140.0, 258.0, 343.0, 48.0 ],
+					"text" : "I usually run with overdrive off, and vector sizes of 512. This is a good compromise between effeciency and latency. If the piece I'm working on doesn't work well, then I adjust things."
 				}
 
 			}
@@ -14502,7 +14368,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 350.0, 115.0, 350.0, 199.0 ],
+					"midpoints" : [ 343.0, 142.0, 343.0, 189.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -14536,45 +14402,52 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cnmat_wht-blu.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]

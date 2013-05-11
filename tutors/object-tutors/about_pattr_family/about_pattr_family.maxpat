@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 5
 		}
 ,
-		"rect" : [ 26.0, 71.0, 1215.0, 606.0 ],
+		"rect" : [ 598.0, 114.0, 1132.0, 685.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "about_pattr_family", "1.0a", "Jeff Lubow", "about_pattr_family", 7777, "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-15",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ -6.0, 580.0, 296.0, 86.0 ],
+					"prototypename" : "cnmat_badge"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Object Tutors : about pattr", "Explain the functionalities of the pattr family of objects", "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-11",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ -3.0, 6.0, 502.0, 74.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-18",
@@ -39,7 +67,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 50.0, 94.0, 1024.0, 674.0 ],
@@ -112,7 +140,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.0, 570.0, 886.0, 59.0 ],
+									"patching_rect" : [ 110.0, 570.0, 886.0, 60.0 ],
 									"text" : ";\rOSC /myname/mymulti1 0.1795 0.2308 0.359 0.4872 0.5897 0.7179 0.7436 0.7436 0.5641 0.4359 0.1026 -0.1538 -0.4103 -0.4872 -0.5128 -0.5385;\rOSC /myname/mymulti2 0. 0. 0.0513 -0.2308 -0.2564 -0.2564 -0.2564 -0.2564 -0.2564 -0.2051 -0.1282 -0.1026 -0.0769 -0.0769 0.0256 0.4615;\rOSC /myname/my_num2 157"
 								}
 
@@ -285,7 +313,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 75.0, 119.0, 775.0, 574.0 ],
@@ -311,7 +339,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"frgb" : 0.0,
 													"id" : "obj-23",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -332,7 +359,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 227.0, 340.0, 45.0, 20.0 ],
-													"presentation_rect" : [ 230.75, 340.0, 0.0, 0.0 ],
 													"text" : "gate 2",
 													"varname" : "u721000006[8]"
 												}
@@ -348,7 +374,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 101.75, 330.0, 45.0, 20.0 ],
-													"presentation_rect" : [ 99.5, 334.0, 0.0, 0.0 ],
 													"text" : "gate 2",
 													"varname" : "u721000006[7]"
 												}
@@ -694,21 +719,26 @@
 												}
 
 											}
+ ],
+										"dependency_cache" : [ 											{
+												"name" : "o.collect.mxo",
+												"type" : "iLaX"
+											}
  ]
 									}
 ,
 									"patching_rect" : [ 818.0, 290.0, 40.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p test"
@@ -726,13 +756,13 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 818.0, 260.0, 75.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"storage_rect" : [ 10, 59, 650, 299 ],
 										"client_rect" : [ 805, 101, 1445, 341 ],
-										"parameter_enable" : 0,
-										"storage_rect" : [ 10, 59, 650, 299 ]
+										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "u026004625"
+									"varname" : "u135003454"
 								}
 
 							}
@@ -872,21 +902,30 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "o.collect.mxo",
+								"type" : "iLaX"
+							}
+, 							{
+								"name" : "o.message.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 820.0, 450.0, 149.0, 20.0 ],
+					"patching_rect" : [ 820.0, 525.0, 149.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p querying_a_patch_state",
@@ -904,7 +943,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 250.0, 300.0, 50.0, 20.0 ],
+					"patching_rect" : [ 250.0, 375.0, 50.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 3,
@@ -928,7 +967,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 990.0, 320.0, 92.0, 20.0 ],
+					"patching_rect" : [ 990.0, 395.0, 92.0, 20.0 ],
 					"text" : "loadmess 1 2 3"
 				}
 
@@ -942,7 +981,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 960.0, 360.0, 82.0, 20.0 ],
+					"patching_rect" : [ 960.0, 435.0, 82.0, 20.0 ],
 					"text" : "vexpr $i1+$i2"
 				}
 
@@ -959,7 +998,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 900.0, 70.5, 200.0, 200.0 ],
+					"patching_rect" : [ 900.0, 145.5, 200.0, 200.0 ],
 					"spaces" : [ "space", 3, 0.185, 0.7675, "/p0", 0.75, 0.375, 0.1875, 0.0, 3.321928, 20985.923828, 0.05, 0.2, 0, 0.605, 0.6475, "/p1", 0.75, 0.5625, 0.1875, 0.0, 3.321928, 20985.923828, 0.05, 0.2, 0, 0.355, 0.3775, "/p2", 0.75, 0.75, 0.1875, 0.0, 3.321928, 20985.923828, 0.05, 0.2, 0 ]
 				}
 
@@ -968,12 +1007,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-57",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 690.0, 30.0, 150.0, 20.0 ],
+					"patching_rect" : [ 690.0, 105.0, 150.0, 20.0 ],
 					"text" : "-jml 2012"
 				}
 
@@ -988,7 +1026,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 420.0, 200.0, 50.0, 50.0 ],
+					"patching_rect" : [ 420.0, 275.0, 50.0, 50.0 ],
 					"tabs" : [ "1", "2", "3" ]
 				}
 
@@ -1002,7 +1040,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.5, 260.0, 56.0, 18.0 ],
+					"patching_rect" : [ 435.5, 335.0, 56.0, 18.0 ],
 					"text" : "recall $1"
 				}
 
@@ -1011,13 +1049,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-52",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 10.0, 400.0, 33.0 ],
+					"patching_rect" : [ 10.0, 85.0, 400.0, 34.0 ],
 					"text" : "pattr is a family of objects that are meant for storage and recall of data in one ore more patches.  It's great if you need a way to "
 				}
 
@@ -1031,7 +1068,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 762.0, 410.0, 37.0, 18.0 ],
+					"patching_rect" : [ 762.0, 485.0, 37.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -1045,7 +1082,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 703.0, 410.0, 49.0, 20.0 ],
+					"patching_rect" : [ 703.0, 485.0, 49.0, 20.0 ],
 					"text" : "zl.nth 2"
 				}
 
@@ -1061,7 +1098,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 762.0, 515.0, 100.0, 20.0 ]
+					"patching_rect" : [ 762.0, 590.0, 100.0, 20.0 ]
 				}
 
 			}
@@ -1074,7 +1111,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 762.0, 490.0, 98.0, 20.0 ],
+					"patching_rect" : [ 762.0, 565.0, 98.0, 20.0 ],
 					"text" : "prepend append"
 				}
 
@@ -1083,12 +1120,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 730.0, 370.0, 137.0, 20.0 ],
+					"patching_rect" : [ 730.0, 445.0, 137.0, 20.0 ],
 					"text" : "zero is for temp storage"
 				}
 
@@ -1102,7 +1138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 674.0, 370.0, 48.0, 20.0 ],
+					"patching_rect" : [ 674.0, 445.0, 48.0, 20.0 ],
 					"text" : "route 0"
 				}
 
@@ -1116,7 +1152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 720.0, 240.0, 91.0, 18.0 ],
+					"patching_rect" : [ 720.0, 315.0, 91.0, 18.0 ],
 					"text" : "getslotnamelist"
 				}
 
@@ -1131,7 +1167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 690.0, 270.0, 161.0, 31.0 ],
+					"patching_rect" : [ 690.0, 345.0, 161.0, 32.0 ],
 					"text" : "slotname 1 one, slotname 2 two, slotname 3 three"
 				}
 
@@ -1145,7 +1181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "clear" ],
-					"patching_rect" : [ 620.0, 450.0, 49.0, 20.0 ],
+					"patching_rect" : [ 620.0, 525.0, 49.0, 20.0 ],
 					"text" : "t l clear"
 				}
 
@@ -1161,7 +1197,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 620.0, 515.0, 100.0, 20.0 ]
+					"patching_rect" : [ 620.0, 590.0, 100.0, 20.0 ]
 				}
 
 			}
@@ -1174,7 +1210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 620.0, 490.0, 98.0, 20.0 ],
+					"patching_rect" : [ 620.0, 565.0, 98.0, 20.0 ],
 					"text" : "prepend append"
 				}
 
@@ -1188,7 +1224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 620.0, 470.0, 27.0, 20.0 ],
+					"patching_rect" : [ 620.0, 545.0, 27.0, 20.0 ],
 					"text" : "iter"
 				}
 
@@ -1202,7 +1238,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 620.0, 340.0, 127.0, 20.0 ],
+					"patching_rect" : [ 620.0, 415.0, 127.0, 20.0 ],
 					"text" : "route slotlist slotname"
 				}
 
@@ -1211,13 +1247,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-31",
 					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.5, 70.5, 161.0, 114.0 ],
+					"patching_rect" : [ 209.5, 145.5, 161.0, 117.0 ],
 					"text" : "this method of binding requires that you wire the outlet of the pattr obj to the inlet of your UI obj, and the outlet of your UI obj to the inlet of your pattr obj.  the pattr obj doesn't publish data until you issue it."
 				}
 
@@ -1226,13 +1261,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-30",
 					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.5, 380.0, 161.0, 100.0 ],
+					"patching_rect" : [ 248.5, 455.0, 161.0, 103.0 ],
 					"text" : "this method of binding uses the 'bindto' connection outlet, which associates the UI object with the pattr object, and publishes its data contents to the pattr system all in one go."
 				}
 
@@ -1245,7 +1279,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.0, 390.0, 150.0, 80.0 ],
+					"patching_rect" : [ 90.0, 465.0, 150.0, 80.0 ],
 					"size" : 16,
 					"varname" : "multislider"
 				}
@@ -1260,7 +1294,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 56.5, 330.0, 86.0, 20.0 ],
+					"patching_rect" : [ 56.5, 405.0, 86.0, 20.0 ],
 					"restore" : [ 0.0, 0.0, 0.051282, -0.230769, -0.25641, -0.25641, -0.25641, -0.25641, -0.25641, -0.205128, -0.128205, -0.102564, -0.076923, -0.076923, 0.025641, 0.461538 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -1278,13 +1312,12 @@
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-24",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 650.0, 131.5, 150.0, 52.0 ],
+					"patching_rect" : [ 650.0, 206.5, 150.0, 53.0 ],
 					"text" : "view a window with all the slots and associated data"
 				}
 
@@ -1295,13 +1328,12 @@
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-23",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 498.0, 111.0, 154.0, 79.0 ],
+					"patching_rect" : [ 498.0, 186.0, 154.0, 81.0 ],
 					"text" : "view a window with all the subscribed objects in a window, along with their status"
 				}
 
@@ -1316,7 +1348,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 359.5, 200.0, 50.0, 50.0 ],
+					"patching_rect" : [ 359.5, 275.0, 50.0, 50.0 ],
 					"tabs" : [ "1", "2", "3" ]
 				}
 
@@ -1330,7 +1362,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 375.0, 260.0, 54.0, 18.0 ],
+					"patching_rect" : [ 375.0, 335.0, 54.0, 18.0 ],
 					"text" : "store $1"
 				}
 
@@ -1344,7 +1376,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.0, 240.0, 61.0, 18.0 ],
+					"patching_rect" : [ 640.0, 315.0, 61.0, 18.0 ],
 					"text" : "getslotlist"
 				}
 
@@ -1357,7 +1389,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 340.0, 101.0, 20.0 ],
+					"patching_rect" : [ 510.0, 415.0, 101.0, 20.0 ],
 					"text" : "print from_pstore"
 				}
 
@@ -1371,7 +1403,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 650.0, 184.0, 91.0, 18.0 ],
+					"patching_rect" : [ 650.0, 259.0, 91.0, 18.0 ],
 					"text" : "storagewindow"
 				}
 
@@ -1385,7 +1417,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 190.0, 79.0, 18.0 ],
+					"patching_rect" : [ 540.0, 265.0, 79.0, 18.0 ],
 					"text" : "clientwindow"
 				}
 
@@ -1398,7 +1430,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.0, 153.0, 150.0, 80.0 ],
+					"patching_rect" : [ 40.0, 228.0, 150.0, 80.0 ],
 					"size" : 16
 				}
 
@@ -1412,7 +1444,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 40.0, 240.0, 86.0, 20.0 ],
+					"patching_rect" : [ 40.0, 315.0, 86.0, 20.0 ],
 					"restore" : [ 0.179487, 0.230769, 0.358974, 0.487179, 0.589744, 0.717949, 0.74359, 0.74359, 0.564103, 0.435897, 0.102564, -0.153846, -0.410256, -0.487179, -0.512821, -0.538462 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -1433,11 +1465,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 290.0, 126.0, 20.0 ],
+					"patching_rect" : [ 510.0, 365.0, 126.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"storage_rect" : [ 10, 59, 650, 299 ],
 						"client_rect" : [ 805, 101, 1445, 341 ],
-						"parameter_enable" : 0,
-						"storage_rect" : [ 10, 59, 650, 299 ]
+						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattrstorage thispatch",
@@ -1455,7 +1487,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 34.5, 110.0, 50.0, 20.0 ]
+					"patching_rect" : [ 34.5, 185.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1468,7 +1500,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 100.0, 110.0, 91.0, 20.0 ],
+					"patching_rect" : [ 100.0, 185.0, 91.0, 20.0 ],
 					"restore" : [ 157 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -1489,7 +1521,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 34.5, 80.0, 50.0, 20.0 ]
+					"patching_rect" : [ 34.5, 155.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1502,7 +1534,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 94.5, 80.0, 91.0, 20.0 ],
+					"patching_rect" : [ 94.5, 155.0, 91.0, 20.0 ],
 					"restore" : [ 103 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -1800,8 +1832,57 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "thispatch.json",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutors/object-tutors/about_pattr_family",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutors/object-tutors/about_pattr_family",
 				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}

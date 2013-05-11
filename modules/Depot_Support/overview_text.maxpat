@@ -1232,8 +1232,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4762.0, 313.0, 115.0, 18.0 ],
-					"text" : "smoother+derivitive",
+					"patching_rect" : [ 4762.0, 313.0, 119.0, 18.0 ],
+					"text" : "smoother+derivative",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

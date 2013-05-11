@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 5
 		}
 ,
-		"rect" : [ 21.0, 54.0, 1020.0, 884.0 ],
+		"rect" : [ 858.0, 126.0, 1020.0, 884.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 805.0, 811.0 ],
@@ -541,7 +541,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-37",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -569,7 +568,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-39",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -583,7 +581,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-40",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -597,13 +594,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-41",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 511.0, 637.0, 74.0 ],
+									"patching_rect" : [ 7.0, 511.0, 638.0, 75.0 ],
 									"text" : "The sprintf object works in a predictable way by calling the underlying \"C\" language sprintf() procedure to make exactly the string you want. The problem is that you generally don't want a single symbol like \"hello 1 2 3\", but rather a Max message like the symbol \"hello\" followed by the numbers 1, 2, and 3. For that reason, the sprintf object has the equivalent of a \"fromsymbol\" object built in, which parses the string that comes out of the underlying C sprintf. (You can defeat this by passing the optional first argument \"symout\" to sprintf. Then the output will be one big string.)"
 								}
 
@@ -698,13 +694,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-48",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 367.0, 784.0, 33.0 ],
+									"patching_rect" : [ 7.0, 367.0, 784.0, 34.0 ],
 									"text" : "So, beyond whatever syntax that any object uses, there's an extra level of Max-wide syntax requiring you to \"escape\" commas and semicolons with the backslash character."
 								}
 
@@ -719,7 +714,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 173.0, 284.0, 267.0, 33.0 ],
+									"patching_rect" : [ 173.0, 284.0, 267.0, 34.0 ],
 									"text" : "sprintf Excuse me\\; Why does Max work like this?"
 								}
 
@@ -728,13 +723,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-50",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 326.0, 779.0, 33.0 ],
+									"patching_rect" : [ 7.0, 326.0, 779.0, 34.0 ],
 									"text" : "Both of these printed \"• error: object box has comma or semicolon\" in the Max window. There are also other errors from Max interpreting the text following the comma or semicolon as if it were by itself in an object box. This problem is in Max itself, not any particular object like expr or sprintf."
 								}
 
@@ -743,7 +737,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-51",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -840,12 +833,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-58",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 352.0, 199.0, 23.0, 27.0 ],
+									"patching_rect" : [ 352.0, 199.0, 24.0, 27.0 ],
 									"text" : "="
 								}
 
@@ -987,12 +979,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-69",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 115.0, 191.0, 23.0, 27.0 ],
+									"patching_rect" : [ 115.0, 191.0, 24.0, 27.0 ],
 									"text" : "="
 								}
 
@@ -1015,7 +1006,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-71",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1029,7 +1019,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-72",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1043,7 +1032,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-73",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1057,13 +1045,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-74",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 44.0, 709.0, 33.0 ],
+									"patching_rect" : [ 6.0, 44.0, 709.0, 34.0 ],
 									"text" : "Max's expr and sprintf externals are essential tools because of their extreme generality. expr allows the construction of almost any mathematical expression, and sprintf provides the full generality of C's sprintf() procedure for formatting text strings."
 								}
 
@@ -1439,21 +1426,56 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "badge.maxpat",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "uc_license.maxpat",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "cnmat_blue.gif",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+								"type" : "GIFf",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "myNotes.js",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "take_notes.maxpat",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "printit.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 296.0, 795.0, 305.0, 23.0 ],
+					"patching_rect" : [ 296.0, 795.0, 305.0, 24.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p \"advanced: the horrible truth about sprintf\""
@@ -1509,7 +1531,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 143.0, 795.0, 81.0, 20.0 ],
+					"patching_rect" : [ 144.0, 795.0, 81.0, 20.0 ],
 					"text" : "sprintf %d%s"
 				}
 
@@ -1563,7 +1585,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 795.0, 99.0, 20.0 ],
+					"patching_rect" : [ 39.0, 795.0, 99.0, 20.0 ],
 					"text" : "sprintf %d%d%d"
 				}
 
@@ -1572,7 +1594,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1603,12 +1624,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-107",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.0, 132.0, 63.0, 20.0 ],
+					"patching_rect" : [ 478.0, 129.0, 63.0, 20.0 ],
 					"text" : " s = string"
 				}
 
@@ -1617,19 +1637,18 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-105",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.0, 111.0, 54.0, 20.0 ],
+					"patching_rect" : [ 478.0, 108.0, 54.0, 20.0 ],
 					"text" : " f = float"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "about_sprintf", "build and format list of numbers and symbols (aka messages)" ],
+					"args" : [ "Object Tutors : about sprintf", "Explain the functionalities of the sprintf object", "0.296 0.594 0.784 0.5" ],
 					"id" : "obj-103",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -1644,7 +1663,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "about_sprintf", "1.3b", "Campion, Wright, & Zbyszynski", "about_sprintf", 2819 ],
+					"args" : [ "about_sprintf", "1.3b", "Campion, Wright, & Zbyszynski", "about_sprintf", 2819, "0.296 0.594 0.784 0.5" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
@@ -1775,7 +1794,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1803,13 +1821,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-13",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 448.0, 242.0, 189.0, 60.0 ],
+					"patching_rect" : [ 448.0, 242.0, 189.0, 62.0 ],
 					"text" : "outputting to number box or print destroys the formatting, because the symbol is converted back into a \"regular\" float."
 				}
 
@@ -1876,13 +1893,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-19",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 771.0, 223.0, 109.0, 33.0 ],
+					"patching_rect" : [ 771.0, 223.0, 109.0, 34.0 ],
 					"text" : "Make it be at least 7 characters wide"
 				}
 
@@ -1891,7 +1907,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1995,7 +2010,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2019,7 +2033,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 124.0, 81.0, 1083.0, 434.0 ],
@@ -2084,7 +2098,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2196,13 +2209,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-12",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 804.0, 170.0, 147.0, 33.0 ],
+									"patching_rect" : [ 804.0, 170.0, 147.0, 34.0 ],
 									"text" : "option-} makes a close smart single quote."
 								}
 
@@ -2211,13 +2223,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-13",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 804.0, 140.0, 147.0, 33.0 ],
+									"patching_rect" : [ 804.0, 140.0, 147.0, 34.0 ],
 									"text" : "option-] makes an open smart single quote."
 								}
 
@@ -2253,13 +2264,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-16",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 805.0, 62.0, 177.0, 33.0 ],
+									"patching_rect" : [ 805.0, 62.0, 177.0, 34.0 ],
 									"text" : "Here's how you use smart quotes in message boxes:"
 								}
 
@@ -2268,7 +2278,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-17",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2282,13 +2291,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-18",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 555.0, 37.0, 154.0, 74.0 ],
+									"patching_rect" : [ 555.0, 37.0, 154.0, 75.0 ],
 									"text" : "But if you want to output a list containing a symbol with spaces (or a symbol that looks like a number, etc.) along with other items"
 								}
 
@@ -2401,13 +2409,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-26",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 370.0, 42.0, 153.0, 60.0 ],
+									"patching_rect" : [ 370.0, 42.0, 153.0, 62.0 ],
 									"text" : "If you want the entire output of sprintf to be a single symbol you can use the \"symout\" argument :"
 								}
 
@@ -2416,13 +2423,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-27",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 230.0, 40.0, 130.0, 60.0 ],
+									"patching_rect" : [ 230.0, 40.0, 130.0, 62.0 ],
 									"text" : "One consequence is that sprintf normally won't output a symbol with spaces in it:"
 								}
 
@@ -2814,13 +2820,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-54",
 									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 554.0, 286.0, 133.0, 87.0 ],
+									"patching_rect" : [ 554.0, 286.0, 133.0, 89.0 ],
 									"text" : "-44 and -43 are the character codes for \"smart\" quotes, so you can use a construction like this to make things into a single symbol."
 								}
 
@@ -2829,13 +2834,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-55",
 									"linecount" : 8,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 29.0, 203.0, 114.0 ],
+									"patching_rect" : [ 3.0, 29.0, 203.0, 117.0 ],
 									"text" : "After the Max sprintf object calls the underlying C language sprintf() procedure to produce exactly the string you asked for, it then parses that string using Max's \"atom\" parser, so that, for example, the string \"1 2 3\" will turn into a list of three usable Max integers, like this:"
 								}
 
@@ -3193,21 +3197,26 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "printit.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 296.0, 721.0, 305.0, 23.0 ],
+					"patching_rect" : [ 296.0, 721.0, 305.0, 24.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p how-to-output-a-symbol-with-spaces-in-it"
@@ -3242,7 +3251,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3280,7 +3288,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 20.0,
-					"frgb" : 0.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3467,13 +3474,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-53",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 657.0, 690.0, 235.0, 60.0 ],
+					"patching_rect" : [ 657.0, 690.0, 235.0, 62.0 ],
 					"text" : "notice: the variable will work when it is the first element in the string but in the middle of a string it is treated as a symbol: it lost the special \"variable\" status."
 				}
 
@@ -3527,13 +3533,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-57",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 548.0, 254.0, 47.0 ],
+					"patching_rect" : [ 81.0, 548.0, 254.0, 48.0 ],
 					"text" : "build a message addressed to a receive object"
 				}
 
@@ -3628,13 +3633,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 20.0,
-					"frgb" : 0.0,
 					"id" : "obj-65",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 350.0, 150.0, 194.0, 51.0 ],
+					"patching_rect" : [ 350.0, 150.0, 194.0, 52.0 ],
 					"text" : "%.2f = round float to 2 decimals"
 				}
 
@@ -3643,7 +3647,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 20.0,
-					"frgb" : 0.0,
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3667,7 +3670,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 116.0, 44.0, 1133.0, 351.0 ],
@@ -3708,13 +3711,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-1",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 947.0, 63.0, 129.0, 33.0 ],
+									"patching_rect" : [ 947.0, 63.0, 129.0, 34.0 ],
 									"text" : "ascii value to character"
 								}
 
@@ -3723,13 +3725,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-3",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 255.0, 192.0, 33.0 ],
+									"patching_rect" : [ 0.0, 255.0, 192.0, 34.0 ],
 									"text" : "This isn't really a long, since there is only one type of integer in Max."
 								}
 
@@ -4053,13 +4054,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-31",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 756.0, 128.0, 176.0, 33.0 ],
+									"patching_rect" : [ 756.0, 128.0, 176.0, 34.0 ],
 									"text" : "I'm forcing the output to not convert back to an integer."
 								}
 
@@ -4316,21 +4316,26 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "printit.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 296.0, 757.0, 305.0, 23.0 ],
+					"patching_rect" : [ 296.0, 757.0, 305.0, 24.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p other-less-useful-sprintf-formatting-options"
@@ -4510,7 +4515,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-82",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4700,7 +4704,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-96",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4714,13 +4717,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-97",
 					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.0, 393.0, 202.0, 100.0 ],
+					"patching_rect" : [ 205.0, 393.0, 202.0, 103.0 ],
 					"text" : "Characters like comma mean something special to Max. To use them in sprintf, they need to be escaped -- preceeded by the forward slash symbol. (NB: I couldn't use those symbols easily in this comment, either.)"
 				}
 
@@ -4729,7 +4731,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 20.0,
-					"frgb" : 0.0,
 					"id" : "obj-98",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4743,7 +4744,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-99",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4757,7 +4757,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-100",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4771,7 +4770,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-101",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5337,49 +5335,49 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1

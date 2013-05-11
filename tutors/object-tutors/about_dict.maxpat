@@ -4,10 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 5
 		}
 ,
 		"rect" : [ 11.0, 44.0, 1028.0, 652.0 ],
+		"bgcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +30,33 @@
 		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "about_dict", "0.1a", "authors", "about_dict", 6666, "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-41",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 51.0, 159.0, 297.0, 83.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Object Tutors : about dict", "Explains the functionalities of the dict object", "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-42",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 51.0, 7.0, 506.0, 77.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
@@ -40,7 +68,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 100.0, 144.0, 640.0, 480.0 ],
@@ -105,21 +133,22 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 530.0, 80.0, 143.0, 20.0 ],
+					"patching_rect" : [ 530.0, 110.0, 143.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p slicing/stripping/routing"
@@ -139,7 +168,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -169,8 +198,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 110.0, 40.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 180.0, 13.0, 0.0, 0.0 ]
+									"patching_rect" : [ 110.0, 40.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -184,7 +212,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
 									"patching_rect" : [ 110.0, 80.0, 32.5, 20.0 ],
-									"presentation_rect" : [ 180.0, 53.0, 0.0, 0.0 ],
 									"text" : "b"
 								}
 
@@ -224,7 +251,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 70.0, 150.0, 137.0, 18.0 ],
-									"presentation_rect" : [ 297.0, 86.0, 0.0, 0.0 ],
 									"text" : "1 two, 3 four, 5 six 7 8 9"
 								}
 
@@ -249,11 +275,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 360.0, 270.0, 59.5, 20.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 0,
-										"parameter_enable" : 0
-									}
-,
 									"text" : "dict view"
 								}
 
@@ -290,12 +311,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.0, 160.0, 228.0, 22.0 ],
+									"patching_rect" : [ 510.0, 160.0, 228.0, 23.0 ],
 									"text" : "collect data into a single dictionary "
 								}
 
@@ -309,7 +329,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "dictionary" ],
-									"patching_rect" : [ 800.0, 220.0, 59.0, 22.0 ],
+									"patching_rect" : [ 800.0, 220.0, 59.0, 23.0 ],
 									"text" : "dict.join"
 								}
 
@@ -405,21 +425,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 380.0, 80.0, 73.0, 20.0 ],
+					"patching_rect" : [ 380.0, 110.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p join/group"
@@ -439,7 +460,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -466,7 +487,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-22",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -513,11 +533,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 622.0, 180.0, 59.5, 20.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 0,
-										"parameter_enable" : 0
-									}
-,
 									"text" : "dict"
 								}
 
@@ -651,11 +666,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 364.5, 280.0, 74.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 0,
-										"parameter_enable" : 0
-									}
-,
 									"text" : "dict mydict1"
 								}
 
@@ -856,21 +866,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 110.0, 80.0, 110.0, 20.0 ],
+					"patching_rect" : [ 110.0, 110.0, 110.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p viewing/querying"
@@ -890,7 +901,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -931,13 +942,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-13",
 									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 540.0, 203.0, 161.0, 100.0 ],
+									"patching_rect" : [ 540.0, 203.0, 161.0, 103.0 ],
 									"text" : "keep in mind that keys are EXCLUSIVELY encoded as symbols, so they have to be routed on as such.  if the key is a symbol in the first place, no need to typecast with route."
 								}
 
@@ -952,7 +962,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 500.0, 360.0, 130.0, 31.0 ],
+									"patching_rect" : [ 500.0, 360.0, 130.0, 32.0 ],
 									"text" : "honeysuckle avocado watermelon"
 								}
 
@@ -992,11 +1002,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 340.0, 190.0, 69.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 0,
-										"parameter_enable" : 0
-									}
-,
 									"text" : "dict berries"
 								}
 
@@ -1083,21 +1088,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 460.0, 80.0, 63.0, 20.0 ],
+					"patching_rect" : [ 460.0, 110.0, 63.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p iterating"
@@ -1117,7 +1123,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -1144,13 +1150,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-52",
 									"linecount" : 8,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 460.0, 150.0, 114.0 ],
+									"patching_rect" : [ 410.0, 460.0, 150.0, 117.0 ],
 									"text" : "a dictionary can be given a name as its argument, which allows you to access its data by reference.  you can change this name dynamically by using the name \"x\" message."
 								}
 
@@ -1212,11 +1217,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 670.0, 120.0, 131.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 1,
-										"parameter_enable" : 0
-									}
-,
 									"text" : "dict berries @embed 1"
 								}
 
@@ -1322,13 +1322,12 @@
 									"bubbletextmargin" : 10,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-31",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 729.0, 278.0, 208.0, 88.0 ],
+									"patching_rect" : [ 729.0, 278.0, 208.0, 89.0 ],
 									"text" : "if a list of values exists as the value field of a given key, we can access these data just like we would with an array in other languages with square brackets."
 								}
 
@@ -1364,7 +1363,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-28",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1380,13 +1378,12 @@
 									"bubbletextmargin" : 10,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-26",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 336.0, 335.0, 208.0, 88.0 ],
+									"patching_rect" : [ 336.0, 335.0, 208.0, 89.0 ],
 									"text" : "to output a value that is set in a dictionary, we use the get message.  notice that the key also comes out.  I typically deal with this by using [zl slice 1]."
 								}
 
@@ -1428,7 +1425,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 766.25, 531.5, 91.0, 31.0 ],
+									"patching_rect" : [ 766.25, 531.5, 91.0, 32.0 ],
 									"text" : "numbers one two three"
 								}
 
@@ -1471,11 +1468,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 606.25, 458.0, 74.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 0,
-										"parameter_enable" : 0
-									}
-,
 									"text" : "dict mydict1"
 								}
 
@@ -1486,13 +1478,12 @@
 									"bubbletextmargin" : 10,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-12",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 310.0, 144.0, 242.0, 88.0 ],
+									"patching_rect" : [ 310.0, 144.0, 237.0, 89.0 ],
 									"text" : "here are various differing ways to store what dictionaries refer to as \"keys\".  notice the difference in usage between coll's \"insert\" or \"store\" messages.  pretty simple."
 								}
 
@@ -1501,13 +1492,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-11",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 72.0, 30.0, 518.0, 53.0 ],
+									"patching_rect" : [ 72.0, 30.0, 518.0, 55.0 ],
 									"text" : "in Max 6 and greater, dictionaries have been added as a new datatype, much like a float/int/list/message. dictionaries can be operated upon as data, and passed around just like any other data type.  there are certain rules that apply, though."
 								}
 
@@ -1592,11 +1582,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 80.0, 420.0, 74.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 0,
-										"parameter_enable" : 0
-									}
-,
 									"text" : "dict mydict1"
 								}
 
@@ -1791,21 +1776,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 51.0, 80.0, 49.0, 20.0 ],
+					"patching_rect" : [ 51.0, 110.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p basic"
@@ -1825,10 +1811,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
-						"rect" : [ 11.0, 70.0, 1028.0, 626.0 ],
+						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1852,13 +1838,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-13",
 									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 290.0, 133.0, 270.0, 87.0 ],
+									"patching_rect" : [ 290.0, 133.0, 274.0, 89.0 ],
 									"text" : "in Max6, the triggers attribute is an increasingly pervasive option across many objects.  Here we can use it to set which inlets of dict.pack we'll use to trigger output.  You can also input a list for triggering, specifying multiple inlets, adjacent or non."
 								}
 
@@ -1895,13 +1880,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-8",
 									"linecount" : 14,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 610.0, 158.5, 187.0, 225.0 ],
+									"patching_rect" : [ 610.0, 158.5, 187.0, 232.0 ],
 									"text" : "very much a union of sorts.  all of the data is joined so that the resulting dictionary (for output or reference) is accumulated into a single dictionary.  this is very different than joining two separate dictionaries and keeping their data separate, which allows for operating on them separately by name.  in this case, the resulting dictionary is a single unit."
 								}
 
@@ -1915,7 +1899,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "dictionary" ],
-									"patching_rect" : [ 390.0, 300.0, 131.0, 22.0 ],
+									"patching_rect" : [ 390.0, 300.0, 131.0, 23.0 ],
 									"text" : "dict.pack frog: tree:"
 								}
 
@@ -1929,7 +1913,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "dictionary" ],
-									"patching_rect" : [ 390.0, 350.0, 59.0, 22.0 ],
+									"patching_rect" : [ 390.0, 350.0, 59.0, 23.0 ],
 									"text" : "dict.join"
 								}
 
@@ -1943,7 +1927,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 390.0, 260.0, 82.0, 22.0 ],
+									"patching_rect" : [ 390.0, 260.0, 82.0, 23.0 ],
 									"text" : "dict.unpack"
 								}
 
@@ -1957,7 +1941,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "dictionary" ],
-									"patching_rect" : [ 160.0, 260.0, 211.0, 22.0 ],
+									"patching_rect" : [ 160.0, 260.0, 211.0, 23.0 ],
 									"text" : "dict.pack jazz: tree: @triggers -1"
 								}
 
@@ -1995,21 +1979,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 283.0, 80.0, 88.0, 20.0 ],
+					"patching_rect" : [ 283.0, 110.0, 88.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p pack/unpack"
@@ -2029,7 +2014,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -2056,14 +2041,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-14",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 126.0, 174.0, 74.0 ],
-									"presentation_rect" : [ 293.0, 62.0, 0.0, 0.0 ],
+									"patching_rect" : [ 180.0, 126.0, 174.0, 75.0 ],
 									"text" : "convert a dictionary into a text descriptor.  for the various formats of how to do this, please see the dict.serialize help file."
 								}
 
@@ -2072,13 +2055,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-13",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 660.0, 314.0, 168.0, 60.0 ],
+									"patching_rect" : [ 660.0, 314.0, 168.0, 62.0 ],
 									"text" : "format a single message descriptor of a dictionary into an actual dictionary with dict.deserialize."
 								}
 
@@ -2093,7 +2075,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 570.0, 240.0, 202.0, 48.0 ],
+									"patching_rect" : [ 570.0, 240.0, 202.0, 49.0 ],
 									"text" : "goose : honk pig : 0.05 frog : -8 horse : 1 2 foo 3 duck : \"quack quack\""
 								}
 
@@ -2108,7 +2090,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 247.5, 220.0, 32.5, 18.0 ],
-									"presentation_rect" : [ 48.736855, 87.657875, 0.0, 0.0 ],
 									"text" : "set"
 								}
 
@@ -2123,7 +2104,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 460.0, 214.0, 258.0, 18.0 ],
-									"presentation_rect" : [ 272.0, 72.0, 0.0, 0.0 ],
 									"text" : "cows : 50 germs : 30 40 50 nails : beans"
 								}
 
@@ -2138,11 +2118,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 530.0, 344.0, 61.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 0,
-										"parameter_enable" : 0
-									}
-,
 									"text" : "dict blank"
 								}
 
@@ -2171,8 +2146,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 120.0, 300.0, 160.0, 85.0 ],
-									"presentation_rect" : [ 162.0, 166.0, 0.0, 0.0 ],
+									"patching_rect" : [ 120.0, 300.0, 160.0, 87.0 ],
 									"text" : "\"0\" : strawberries \"1\" : raspberries \"2\" : blackberries \"3\" : grapes \"4\" : blueberries \"5\" : currants extra : honeysuckle avocado watermelon"
 								}
 
@@ -2198,11 +2172,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 120.0, 210.0, 69.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 0,
-										"parameter_enable" : 0
-									}
-,
 									"text" : "dict berries"
 								}
 
@@ -2285,21 +2254,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 233.0, 80.0, 40.0, 20.0 ],
+					"patching_rect" : [ 233.0, 110.0, 40.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p text"
@@ -2308,7 +2278,56 @@
 			}
  ],
 		"lines" : [  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }

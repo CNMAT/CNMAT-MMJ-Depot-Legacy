@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 9.0, 97.0, 512.0, 691.0 ],
+		"rect" : [ 862.0, 176.0, 512.0, 754.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,13 +29,28 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "about_object-box", "1.2b", "Campion & Zbyszynski", "about_object-box", 6666 ],
+					"args" : [ "Object Tutors : about object box", "Explain the functionalities of the object box", "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-46",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 21.0, 8.0, 502.0, 74.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "about_object-box", "1.2b", "Campion & Zbyszynski", "about_object-box", 6666, "0.296 0.594 0.784 0.5" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 592.0, 292.0, 86.0 ]
+					"patching_rect" : [ 226.0, 656.0, 292.0, 86.0 ]
 				}
 
 			}
@@ -49,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 189.0, 364.0, 85.0 ],
+					"patching_rect" : [ 145.0, 264.0, 364.0, 85.0 ],
 					"text" : "many external objects are programmed to accept arguments after their name. These arguments do different things. You should always check the help patch for the object to learn what arguments the object accepts and for what reason."
 				}
 
@@ -64,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 301.0, 267.0, 53.0 ],
+					"patching_rect" : [ 22.0, 376.0, 267.0, 53.0 ],
 					"text" : "many external objects only have one outlet which returns an output after receiving a value the leftmost inlet"
 				}
 
@@ -79,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 120.0, 351.0, 53.0 ],
+					"patching_rect" : [ 85.0, 195.0, 351.0, 53.0 ],
 					"text" : "when objects have more than one inlet, the right inlets are usually for setting values (arguments) before the left inlet input causes a reaction."
 				}
 
@@ -94,7 +109,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 70.0, 325.0, 37.0 ],
+					"patching_rect" : [ 22.0, 145.0, 325.0, 37.0 ],
 					"text" : "left inlets usually cause the object to do what it is programmed to do and then output"
 				}
 
@@ -108,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 36.0, 143.0, 21.0 ],
+					"patching_rect" : [ 22.0, 111.0, 143.0, 21.0 ],
 					"text" : "objects have inlets"
 				}
 
@@ -122,7 +137,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 28.0, 404.0, 82.0, 20.0 ],
+					"patching_rect" : [ 28.0, 479.0, 82.0, 20.0 ],
 					"text" : "select 1 2 3 4"
 				}
 
@@ -136,7 +151,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 22.0, 189.0, 115.0, 27.0 ],
+					"patching_rect" : [ 22.0, 264.0, 115.0, 27.0 ],
 					"text" : "metro"
 				}
 
@@ -150,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 512.0, 331.0, 55.0 ],
+					"patching_rect" : [ 17.0, 587.0, 331.0, 55.0 ],
 					"text" : "USEFUL: Click on the patch and type \"n\" to create a new object.  When you start to type a name, Max will show you object names that it knows."
 				}
 
@@ -164,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 116.0, 369.5, 307.0, 119.0 ],
+					"patching_rect" : [ 116.0, 444.5, 307.0, 119.0 ],
 					"text" : "VERY USEFUL: When in programming mode, moving the mouse over any inlet or outlet you will get a small dialog in the lower left-hand corner of the patcher window describing what that input/output does. Holding the \"control\" key and clicking on an inlet will post a window that lists all the messages that the inlet will accept."
 				}
 
@@ -177,7 +192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 11.0, 208.0, 23.0 ],
+					"patching_rect" : [ 21.0, 86.0, 208.0, 23.0 ],
 					"text" : "ANATOMY of the Object Box"
 				}
 
@@ -222,37 +237,51 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]

@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 88.0, 44.0, 688.0, 408.0 ],
+		"rect" : [ 589.0, 446.0, 674.0, 492.0 ],
 		"bgcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,13 +29,28 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "about_random", "1.0a", "Michael Zbyszynski", "about_random", 6666 ],
+					"args" : [ "Object Tutors : about random", "Explain the functionalities of the random object", "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-46",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 18.0, 10.0, 502.0, 74.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "about_random", "1.0a", "Michael Zbyszynski", "about_random", 6666, "0.296 0.594 0.784 0.5" ],
 					"id" : "obj-38",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 302.0, 296.0, 86.0 ],
+					"patching_rect" : [ 388.0, 377.0, 296.0, 86.0 ],
 					"prototypename" : "cnmat_badge"
 				}
 
@@ -48,7 +63,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 307.0, 227.0, 20.0 ],
+					"patching_rect" : [ 39.0, 382.0, 227.0, 20.0 ],
 					"text" : "Other objects that do random-like things:"
 				}
 
@@ -62,7 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 324.0, 343.0, 35.0, 20.0 ],
+					"patching_rect" : [ 324.0, 418.0, 35.0, 20.0 ],
 					"save" : [ "#N", "prob", ";" ],
 					"text" : "prob"
 				}
@@ -77,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 270.0, 343.0, 46.0, 20.0 ],
+					"patching_rect" : [ 270.0, 418.0, 46.0, 20.0 ],
 					"text" : "decide"
 				}
 
@@ -91,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 367.0, 351.0, 34.0 ],
+					"patching_rect" : [ 20.0, 442.0, 351.0, 34.0 ],
 					"text" : "* to be precise, this a pseudorandom number.  Nothing computers do is truely random, except for hard drive failures."
 				}
 
@@ -105,7 +120,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 206.0, 343.0, 46.0, 20.0 ],
+					"patching_rect" : [ 206.0, 418.0, 46.0, 20.0 ],
 					"text" : "drunk"
 				}
 
@@ -121,13 +136,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 83.0, 343.0, 37.0, 20.0 ],
+					"patching_rect" : [ 83.0, 418.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"name" : "",
-						"range" : 128,
-						"embed" : 0,
 						"showeditor" : 0,
 						"size" : 128,
+						"range" : 128,
+						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
@@ -145,7 +160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 36.0, 343.0, 32.5, 20.0 ],
+					"patching_rect" : [ 36.0, 418.0, 32.5, 20.0 ],
 					"text" : "urn"
 				}
 
@@ -160,7 +175,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 422.0, 235.166672, 50.0, 20.0 ]
+					"patching_rect" : [ 437.0, 310.166687, 50.0, 20.0 ]
 				}
 
 			}
@@ -171,7 +186,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 422.0, 154.166672, 20.0, 20.0 ]
+					"patching_rect" : [ 437.0, 229.166672, 20.0, 20.0 ]
 				}
 
 			}
@@ -184,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 422.0, 73.0, 60.0, 20.0 ],
+					"patching_rect" : [ 437.0, 148.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -197,7 +212,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 422.0, 100.166664, 20.0, 20.0 ]
+					"patching_rect" : [ 437.0, 175.166656, 20.0, 20.0 ]
 				}
 
 			}
@@ -210,7 +225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 422.0, 127.166664, 65.0, 20.0 ],
+					"patching_rect" : [ 437.0, 202.166656, 65.0, 20.0 ],
 					"text" : "metro 750"
 				}
 
@@ -224,7 +239,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 422.0, 208.166672, 41.0, 20.0 ],
+					"patching_rect" : [ 437.0, 283.166687, 41.0, 20.0 ],
 					"text" : "/ 100."
 				}
 
@@ -238,7 +253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 422.0, 181.166672, 75.0, 20.0 ],
+					"patching_rect" : [ 437.0, 256.166687, 75.0, 20.0 ],
 					"text" : "random 100"
 				}
 
@@ -251,7 +266,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 394.0, 48.0, 260.0, 20.0 ],
+					"patching_rect" : [ 409.0, 123.0, 180.0, 20.0 ],
 					"text" : "Random doesn't do floats, but..."
 				}
 
@@ -264,7 +279,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 175.0, 260.0, 20.0 ],
+					"patching_rect" : [ 127.0, 250.0, 260.0, 20.0 ],
 					"text" : "Adding 66 to get into a more audible range."
 				}
 
@@ -278,7 +293,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 112.0, 266.0, 34.0 ],
+					"patching_rect" : [ 127.0, 187.0, 266.0, 34.0 ],
 					"text" : "Random generates a random* integer from 0 to the argument-1 every time it gets a bang."
 				}
 
@@ -293,7 +308,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 210.0, 50.0, 20.0 ]
+					"patching_rect" : [ 33.0, 285.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -307,7 +322,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 156.0, 50.0, 20.0 ]
+					"patching_rect" : [ 33.0, 231.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -318,7 +333,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 18.0, 103.0, 20.0, 20.0 ]
+					"patching_rect" : [ 33.0, 178.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -331,7 +346,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 18.0, 22.0, 60.0, 20.0 ],
+					"patching_rect" : [ 33.0, 97.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -344,7 +359,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 50.0, 20.0, 20.0 ]
+					"patching_rect" : [ 33.0, 125.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -357,7 +372,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 18.0, 77.0, 65.0, 20.0 ],
+					"patching_rect" : [ 33.0, 152.0, 65.0, 20.0 ],
 					"text" : "metro 300"
 				}
 
@@ -371,7 +386,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 18.0, 184.0, 34.0, 20.0 ],
+					"patching_rect" : [ 33.0, 259.0, 34.0, 20.0 ],
 					"text" : "+ 66"
 				}
 
@@ -385,7 +400,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 18.0, 234.0, 103.0, 20.0 ],
+					"patching_rect" : [ 33.0, 309.0, 103.0, 20.0 ],
 					"text" : "makenote 96 250"
 				}
 
@@ -398,7 +413,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 270.0, 51.0, 20.0 ],
+					"patching_rect" : [ 33.0, 345.0, 51.0, 20.0 ],
 					"text" : "noteout"
 				}
 
@@ -412,7 +427,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 18.0, 131.0, 68.0, 20.0 ],
+					"patching_rect" : [ 33.0, 206.0, 68.0, 20.0 ],
 					"text" : "random 12"
 				}
 
@@ -565,37 +580,51 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/campion/Documents/MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../MMJ-docs/MMJ-reENABLED/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]
