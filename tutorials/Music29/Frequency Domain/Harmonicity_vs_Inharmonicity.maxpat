@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 5
 		}
 ,
 		"rect" : [ 10.0, 51.0, 935.0, 680.0 ],
@@ -28,6 +28,61 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "Harmonicity vs Inharmonicity", "This patch allows the user to control the relative harmonicity and inharmonicity of a sound by controlling the frequency ratios between the fundamental and the upper partials of a complex sound.  " ],
+					"background" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"embed" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"hidden" : 1,
+					"id" : "obj-42",
+					"ignoreclick" : 0,
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"modulemode" : 0,
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 30.0, 133.0, 308.0, 67.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 929.0, 5.0, 308.0, 67.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "harmonicity_vs_inharmonicity", 1.0, "Campion & Lubow", "harmonicity_vs_inharmonicity", 6666, "0.435 0.435 0.435 1." ],
+					"background" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"embed" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"hidden" : 1,
+					"id" : "obj-5",
+					"ignoreclick" : 0,
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"modulemode" : 0,
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 30.0, 29.0, 297.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 929.0, 72.5, 297.0, 83.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -60,7 +115,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-31",
 					"ignoreclick" : 1,
@@ -421,7 +476,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-61",
 					"ignoreclick" : 1,
@@ -429,10 +484,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 748.0, 125.0, 107.0 ],
+					"patching_rect" : [ 416.0, 748.0, 125.0, 110.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 641.0, 278.0, 283.0, 40.0 ],
+					"presentation_rect" : [ 641.0, 278.0, 283.0, 41.0 ],
 					"text" : "Right end of slider presents reordered partials that are farther and fartehr removed from the whole number harmonic ratios, thusproducing increasingly inharmonic sounds.",
 					"textcolor" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
 					"underline" : 0
@@ -450,7 +505,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.984314, 0.776471, 0.607843, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-106",
 					"ignoreclick" : 1,
@@ -458,7 +513,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 438.0, 742.0, 138.0, 51.0 ],
+					"patching_rect" : [ 438.0, 742.0, 138.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 25.0, 202.0, 266.0, 29.0 ],
@@ -479,7 +534,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-105",
 					"ignoreclick" : 1,
@@ -507,7 +562,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-84",
 					"ignoreclick" : 1,
@@ -515,10 +570,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.0, 742.0, 123.0, 107.0 ],
+					"patching_rect" : [ 447.0, 742.0, 123.0, 110.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 26.0, 58.0, 429.0, 40.0 ],
+					"presentation_rect" : [ 26.0, 58.0, 429.0, 41.0 ],
 					"text" : "This patch allows the user to control the relative harmonicity and inharmonicity of a sound by controlling the frequency ratios between the fundamental and the upper partials of a complex sound.  ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"underline" : 0
@@ -536,7 +591,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-75",
 					"ignoreclick" : 1,
@@ -544,10 +599,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 729.0, 336.0, 85.0 ],
+					"patching_rect" : [ 416.0, 729.0, 336.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 25.0, 101.0, 435.0, 74.0 ],
+					"presentation_rect" : [ 25.0, 101.0, 435.0, 75.0 ],
 					"text" : "Relative harmonicity or inharmonicity can be understood as a function of the ratio of the upper partials to the fundamental frequency. When the upper partials are in a roughly whole number ratio the sound will be mostly harmonic.  When the upper partials are in fractional ratios to the fundamental, then the sound will be progressively more inharmonic.   Some sounds might feature certain partials that are harmonic and certain partials that are inharmonic - this is typical of bells for example.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"underline" : 0
@@ -593,7 +648,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-71",
 					"ignoreclick" : 1,
@@ -601,10 +656,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 408.0, 742.0, 122.0, 96.0 ],
+					"patching_rect" : [ 408.0, 742.0, 122.0, 98.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 12.0, 278.0, 281.0, 40.0 ],
+					"presentation_rect" : [ 12.0, 278.0, 281.0, 41.0 ],
 					"text" : "Left end of slider presents all partials in whole number ratios to the chosen fundamental frequency or first partial. The result is a tone that is harmonic and nicely tuned with itself.\n",
 					"textcolor" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
 					"underline" : 0
@@ -737,7 +792,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-135",
 					"ignoreclick" : 1,
@@ -800,7 +855,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-23",
 					"ignoreclick" : 1,
@@ -901,7 +956,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-119",
 					"ignoreclick" : 1,
@@ -928,7 +983,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-118",
 					"ignoreclick" : 1,
@@ -1073,7 +1128,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-96",
 					"ignoreclick" : 1,
@@ -1100,7 +1155,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-79",
 					"ignoreclick" : 1,
@@ -1173,7 +1228,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.984314, 0.776471, 0.607843, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-63",
 					"ignoreclick" : 1,
@@ -1200,14 +1255,14 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 7.960746,
-					"frgb" : 0.0,
+					"frgb" : [ 0.917647, 0.909804, 0.878431, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-29",
 					"ignoreclick" : 1,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 830.0, 87.0, 15.0 ],
+					"patching_rect" : [ 416.0, 830.0, 87.0, 16.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "initialize amps/freqs",
@@ -1250,7 +1305,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 28.428463,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-8",
 					"ignoreclick" : 1,
@@ -1258,9 +1313,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 775.5, 434.0, 70.0 ],
+					"patching_rect" : [ 416.0, 775.5, 434.0, 72.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 12.0, 502.0, 38.0 ],
+					"presentation_rect" : [ 12.0, 12.0, 502.0, 39.0 ],
 					"text" : "HARMONICITY VS. INHARMONICITY",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"underline" : 0
@@ -1278,16 +1333,16 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 15.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-110",
 					"ignoreclick" : 1,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.0, 740.0, 85.0, 23.0 ],
+					"patching_rect" : [ 447.0, 740.0, 85.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 537.0, 85.0, 23.0 ],
+					"presentation_rect" : [ 15.0, 537.0, 85.0, 24.0 ],
 					"text" : "Amplitudes",
 					"textcolor" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
 					"underline" : 0
@@ -1350,7 +1405,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-95",
 					"ignoreclick" : 1,
@@ -1358,7 +1413,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 432.0, 768.0, 122.0, 51.0 ],
+					"patching_rect" : [ 432.0, 768.0, 122.0, 52.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "add constant value to each  partial  altering harmonic ratios toward inharmonicity",
@@ -1378,7 +1433,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-89",
 					"ignoreclick" : 1,
@@ -1406,7 +1461,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-91",
 					"ignoreclick" : 1,
@@ -1433,7 +1488,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-88",
 					"ignoreclick" : 1,
@@ -1461,7 +1516,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-87",
 					"ignoreclick" : 1,
@@ -1489,7 +1544,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.772549, 1.0, 0.988235, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-68",
 					"ignoreclick" : 1,
@@ -1587,7 +1642,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 153.5, 456.0, 182.0, 19.0 ],
+					"patching_rect" : [ 153.5, 456.0, 182.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "0 0 1 10 1 50 0.2 200 0 400",
@@ -1775,7 +1830,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 259.0, 415.0 ],
@@ -1998,23 +2053,24 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 819.0, 209.5, 80.0, 18.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontsize" : 10.0,
+						"description" : ""
 					}
 ,
 					"text" : "p genrandamps",
@@ -2042,7 +2098,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2175,23 +2231,24 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 636.0, 286.5, 88.0, 18.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontsize" : 10.0,
+						"description" : ""
 					}
 ,
 					"text" : "p list2selectinglist",
@@ -2432,7 +2489,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 143.0, 48.0, 477.0, 527.0 ],
@@ -2522,7 +2579,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 25.0, 69.0, 250.0, 356.0 ],
@@ -2678,21 +2735,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 227.0, 198.0, 91.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"description" : "",
 										"digest" : "",
 										"fontface" : 0,
-										"fontname" : "Arial",
+										"default_fontname" : "Arial",
 										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"default_fontsize" : 12.0,
+										"description" : ""
 									}
 ,
 									"text" : "p build_deviations"
@@ -2755,7 +2813,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 8
+											"revision" : 5
 										}
 ,
 										"rect" : [ 25.0, 69.0, 167.0, 299.0 ],
@@ -2902,21 +2960,28 @@
 												}
 
 											}
+ ],
+										"dependency_cache" : [ 											{
+												"name" : "list-norm-expdecay.maxpat",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Lists",
+												"type" : "JSON",
+												"implicit" : 1
+											}
  ]
 									}
 ,
 									"patching_rect" : [ 318.0, 198.0, 77.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"default_fontsize" : 10.0,
-										"description" : "",
 										"digest" : "",
 										"fontface" : 0,
-										"fontname" : "Arial",
+										"default_fontname" : "Arial",
 										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"default_fontsize" : 10.0,
+										"description" : ""
 									}
 ,
 									"text" : "p build_scalars"
@@ -3078,6 +3143,13 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "list-norm-expdecay.maxpat",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Lists",
+								"type" : "JSON",
+								"implicit" : 1
+							}
  ]
 					}
 ,
@@ -3085,16 +3157,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontsize" : 10.0,
+						"description" : ""
 					}
 ,
 					"text" : "p genrandfreqs",
@@ -3113,7 +3185,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-99",
 					"ignoreclick" : 1,
@@ -3208,7 +3280,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-72",
 					"ignoreclick" : 1,
@@ -3216,7 +3288,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.0, 764.0, 102.0, 51.0 ],
+					"patching_rect" : [ 447.0, 764.0, 102.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 343.0, 537.0, 268.0, 18.0 ],
 					"text" : "Draw with either function or multislider for amplitudes",
@@ -4358,93 +4430,114 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "harmonics.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Data_Generation",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Data_Generation",
 				"patcherrelativepath" : "../../../modules/Data_Generation",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "list-sak.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "list-norm-expdecay.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Lists",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Lists",
 				"patcherrelativepath" : "../../../modules/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clavecin.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/internal_synth/lib",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/applications/internal_synth/lib",
 				"patcherrelativepath" : "../../../applications/internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "letter.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Interface",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface",
 				"patcherrelativepath" : "../../../modules/Interface",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency_Domain_Analysis.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

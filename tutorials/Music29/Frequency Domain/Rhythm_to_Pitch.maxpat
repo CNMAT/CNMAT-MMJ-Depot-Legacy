@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 5
 		}
 ,
 		"rect" : [ 5.0, 54.0, 1092.0, 737.0 ],
@@ -162,7 +162,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-5",
 					"ignoreclick" : 1,
@@ -170,7 +170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 372.0, 544.0, 161.0, 87.0 ],
+					"patching_rect" : [ 372.0, 544.0, 161.0, 89.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 424.0, 426.0, 27.0 ],
 					"text" : "Explore the frequency domain between the presets",
@@ -209,7 +209,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "rhythm to pitch", "0.1a", "Edmund Campion / Jeff Lubow", "rhythm to pitch", 6666 ],
+					"args" : [ "rhythm to pitch", "0.1a", "Edmund Campion / Jeff Lubow", "rhythm to pitch", 6666, "0.296 0.594 0.784 1." ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -230,7 +230,7 @@
 					"offset" : [ 2.0, 4.0 ],
 					"patching_rect" : [ 1072.0, 784.0, 298.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 452.0, 8.0, 298.0, 89.0 ]
+					"presentation_rect" : [ 452.0, 4.0, 298.0, 89.0 ]
 				}
 
 			}
@@ -292,7 +292,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-45",
 					"ignoreclick" : 1,
@@ -429,7 +429,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-17",
 					"ignoreclick" : 1,
@@ -491,16 +491,16 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.683705,
-					"frgb" : 0.0,
+					"frgb" : [ 0.831373, 0.878431, 0.909804, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-6",
 					"ignoreclick" : 1,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 988.0, 300.0, 235.0, 18.0 ],
+					"patching_rect" : [ 988.0, 300.0, 235.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 764.0, 200.0, 58.0, 18.0 ],
+					"presentation_rect" : [ 764.0, 200.0, 58.0, 19.0 ],
 					"text" : "Multiplier",
 					"textcolor" : [ 0.831373, 0.878431, 0.909804, 1.0 ],
 					"underline" : 0
@@ -509,7 +509,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "rhythm2pitch", "explore spaces within the spectrum of rhythm and pitch" ],
+					"args" : [ "rhythm2pitch", "explore spaces within the spectrum of rhythm and pitch", "0.296 0.594 0.784 1." ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -530,7 +530,7 @@
 					"offset" : [ -18.0, -68.0 ],
 					"patching_rect" : [ 1008.0, 656.0, 511.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 511.0, 76.0 ]
+					"presentation_rect" : [ 8.0, 10.0, 511.0, 76.0 ]
 				}
 
 			}
@@ -545,7 +545,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.866667, 0.921569, 0.94902, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-47",
 					"ignoreclick" : 1,
@@ -555,7 +555,7 @@
 					"patching_rect" : [ 988.0, 276.0, 194.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 776.0, 280.0, 140.0, 31.0 ],
+					"presentation_rect" : [ 776.0, 280.0, 140.0, 32.0 ],
 					"text" : "control the multiplier for all oscillators",
 					"textcolor" : [ 0.866667, 0.921569, 0.94902, 1.0 ],
 					"underline" : 0
@@ -572,8 +572,6 @@
 					"button" : 0,
 					"clicktabcolor" : [ 0.454902, 0.870588, 0.917647, 1.0 ],
 					"clicktextcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fadetime" : 1000.0,
-					"fadeunselect" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -959,7 +957,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.211765, 0.733333, 0.823529, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-57",
 					"ignoreclick" : 1,
@@ -967,10 +965,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 896.0, 434.0, 61.0 ],
+					"patching_rect" : [ 224.0, 896.0, 434.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 604.0, 620.0, 237.0, 101.0 ],
+					"presentation_rect" : [ 604.0, 620.0, 237.0, 103.0 ],
 					"text" : "instructions:\n0. create a new preset by finding your settings, and click on \"create new preset\"\n1. click anywhere in the xydisplay to make a new point\n2. this will create a new preset, so you need to have",
 					"textcolor" : [ 0.211765, 0.733333, 0.823529, 1.0 ],
 					"underline" : 0
@@ -1011,7 +1009,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-20",
 					"ignoreclick" : 1,
@@ -1046,7 +1044,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1072,13 +1070,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-21",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 196.0, 207.0, 74.0 ],
+									"patching_rect" : [ 50.0, 196.0, 207.0, 75.0 ],
 									"text" : "rbfi + xydisplay\n\neither use pattr or some other transferfunction based methodology for the interpolation of rbfi params"
 								}
 
@@ -1087,7 +1084,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-20",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1101,35 +1097,35 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-19",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 120.0, 211.0, 74.0 ],
+									"patching_rect" : [ 50.0, 120.0, 211.0, 75.0 ],
 									"text" : "create chords with clicks\n\nneed to store this\ndemo relationshiops between time domain and freq material"
 								}
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 744.0, 840.0, 49.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 10.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p goals",
@@ -1256,7 +1252,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-89",
 					"ignoreclick" : 1,
@@ -1283,7 +1279,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-76",
 					"ignoreclick" : 1,
@@ -1310,7 +1306,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-68",
 					"ignoreclick" : 1,
@@ -1318,10 +1314,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 644.0, 56.0, 68.0, 60.0 ],
+					"patching_rect" : [ 644.0, 56.0, 68.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 220.0, 464.0, 49.0, 74.0 ],
+					"presentation_rect" : [ 220.0, 464.0, 49.0, 75.0 ],
 					"text" : "hide path to click in space directly",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"underline" : 0
@@ -1418,7 +1414,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.074179,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-56",
 					"ignoreclick" : 1,
@@ -1426,7 +1422,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1136.0, 56.0, 67.0, 63.0 ],
+					"patching_rect" : [ 1136.0, 56.0, 67.0, 64.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "useful if the periodicities of the freqs are at the beating level",
@@ -1481,7 +1477,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.87451, 0.87451, 0.082353, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-48",
 					"ignoreclick" : 1,
@@ -1597,7 +1593,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"id" : "obj-34",
 					"ignoreclick" : 1,
@@ -1684,9 +1680,9 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 10, 59, 618, 455 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 854, 183, 1498, 695 ]
+						"storage_rect" : [ 854, 183, 1498, 695 ],
+						"client_rect" : [ 10, 59, 618, 455 ]
 					}
 ,
 					"text" : "pattrstorage control_noise2pitch",
@@ -1810,7 +1806,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 388.0, 184.0, 848.0, 634.0 ],
@@ -2189,23 +2185,24 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 36.0, 308.0, 76.0, 17.0 ],
+					"patching_rect" : [ 36.0, 308.0, 76.0, 18.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"fontname" : "Arial",
-						"fontsize" : 10.0,
+						"tags" : "",
 						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p format_pattrs",
@@ -3195,7 +3192,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "basic_clickerpattr.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3203,90 +3200,90 @@
 , 			{
 				"name" : "pan2S.maxpat",
 				"bootpath" : "/Applications/Max6/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../../../../../../../../Applications/Max6/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "control_rhythm2pitch.json",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pstore-simple-storage.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Data_Storage/pstore-simple-storage",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Data_Storage/pstore-simple-storage",
 				"patcherrelativepath" : "../../../modules/Data_Storage/pstore-simple-storage",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1

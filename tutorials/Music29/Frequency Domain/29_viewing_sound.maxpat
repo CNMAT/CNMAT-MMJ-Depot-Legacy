@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 22.0, 57.0, 712.0, 558.0 ],
+		"rect" : [ 22.0, 57.0, 697.0, 640.0 ],
 		"bgcolor" : [ 0.623529, 0.662745, 0.717647, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -30,6 +30,36 @@
 		"title" : "viewing sound",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "29_viewing_sound", 1.0, "Campion & Lubow", "29_viewing_sound", 2512, "0.296 0.594 0.784 1." ],
+					"id" : "obj-15",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 696.0, 432.0, 296.0, 95.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 416.0, 7.0, 298.0, 83.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Sound Visualization", "Time and Frequency domain sound visualization", "0.296 0.594 0.784 1." ],
+					"id" : "obj-13",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -18.0, -68.0 ],
+					"patching_rect" : [ 27.0, 23.0, 511.0, 76.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -4.0, 9.0, 442.0, 76.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "music29" ],
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
@@ -39,7 +69,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 559.0, 140.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 474.0, 140.0, 58.0 ]
+					"presentation_rect" : [ 24.0, 559.0, 140.0, 58.0 ]
 				}
 
 			}
@@ -55,7 +85,7 @@
 					"patching_rect" : [ 720.0, 260.0, 16.0, 120.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 616.0, 184.0, 16.0, 120.0 ],
+					"presentation_rect" : [ 616.0, 269.0, 16.0, 120.0 ],
 					"text" : "----- y a x i s -----"
 				}
 
@@ -70,7 +100,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 472.0, 264.0, 239.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.0, 184.0, 239.0, 20.0 ],
+					"presentation_rect" : [ 372.0, 269.0, 239.0, 20.0 ],
 					"text" : "<-----------------------x axis----------------------->"
 				}
 
@@ -99,7 +129,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 30.0, 270.0, 100.0, 192.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 168.0, 100.0, 192.0 ]
+					"presentation_rect" : [ 24.0, 253.0, 100.0, 192.0 ]
 				}
 
 			}
@@ -115,7 +145,7 @@
 					"patching_rect" : [ 525.0, 504.0, 289.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 144.0, 392.0, 179.0, 82.0 ],
+					"presentation_rect" : [ 144.0, 477.0, 179.0, 82.0 ],
 					"text" : "This spectroscope~ is displaying a sonogram, which is a plot of frequency content over time.  Amplitude is represeted by color... hotter colors are higher amplitudes."
 				}
 
@@ -131,7 +161,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 157.0, 468.0, 62.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 368.0, 62.0, 20.0 ],
+					"presentation_rect" : [ 272.0, 453.0, 62.0, 20.0 ],
 					"text" : "22050 Hz",
 					"textcolor" : [ 0.078431, 0.113725, 0.431373, 1.0 ]
 				}
@@ -148,7 +178,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 181.0, 578.0, 35.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 478.0, 35.0, 20.0 ],
+					"presentation_rect" : [ 296.0, 563.0, 35.0, 20.0 ],
 					"text" : "0 Hz",
 					"textcolor" : [ 0.078431, 0.113725, 0.431373, 1.0 ]
 				}
@@ -164,7 +194,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 317.0, 603.0, 55.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 432.0, 503.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 432.0, 588.0, 55.0, 20.0 ],
 					"text" : "time --->"
 				}
 
@@ -179,7 +209,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 217.0, 468.0, 303.0, 129.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.0, 368.0, 303.0, 129.0 ],
+					"presentation_rect" : [ 332.0, 453.0, 303.0, 129.0 ],
 					"sono" : 1
 				}
 
@@ -194,7 +224,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 376.0, 308.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 232.0, 63.0, 20.0 ],
+					"presentation_rect" : [ 272.0, 317.0, 63.0, 20.0 ],
 					"text" : "amplitude"
 				}
 
@@ -209,7 +239,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 703.0, 235.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 599.0, 159.0, 63.0, 20.0 ],
+					"presentation_rect" : [ 599.0, 244.0, 63.0, 20.0 ],
 					"text" : "22050 Hz"
 				}
 
@@ -224,7 +254,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 558.0, 236.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 454.0, 160.0, 63.0, 20.0 ],
+					"presentation_rect" : [ 454.0, 245.0, 63.0, 20.0 ],
 					"text" : "11025 Hz"
 				}
 
@@ -239,7 +269,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 443.0, 236.0, 35.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 160.0, 35.0, 20.0 ],
+					"presentation_rect" : [ 339.0, 245.0, 35.0, 20.0 ],
 					"text" : "0 Hz"
 				}
 
@@ -256,7 +286,7 @@
 					"patching_rect" : [ 446.0, 385.0, 280.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 342.0, 309.0, 280.0, 48.0 ],
+					"presentation_rect" : [ 342.0, 394.0, 280.0, 48.0 ],
 					"text" : "Spectroscope~ shows the sound in the frequency domain.  This view is called a spectrogram. The Y axis is amplitude and the X axis is frequency."
 				}
 
@@ -272,7 +302,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 109.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 131.0, 50.0, 18.0 ],
+					"presentation_rect" : [ 25.0, 216.0, 50.0, 18.0 ],
 					"text" : "replace"
 				}
 
@@ -286,7 +316,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 255.0, 303.0, 129.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 331.0, 179.0, 303.0, 129.0 ]
+					"presentation_rect" : [ 331.0, 264.0, 303.0, 129.0 ]
 				}
 
 			}
@@ -302,7 +332,7 @@
 					"patching_rect" : [ 241.0, 386.0, 128.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 132.0, 300.0, 128.0, 62.0 ],
+					"presentation_rect" : [ 132.0, 385.0, 128.0, 62.0 ],
 					"text" : "Scope~ also shows the time domain.  It represents a trace of amplitudes over time."
 				}
 
@@ -329,7 +359,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.0, 255.0, 130.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 130.0, 169.0, 130.0, 130.0 ]
+					"presentation_rect" : [ 130.0, 254.0, 130.0, 130.0 ]
 				}
 
 			}
@@ -386,7 +416,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 301.0, 122.0, 260.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 221.0, 131.0, 466.0, 20.0 ],
+					"presentation_rect" : [ 221.0, 216.0, 466.0, 20.0 ],
 					"text" : "<-- when you double-click you see the sound as amplitude over time, ie time domain"
 				}
 
@@ -402,7 +432,7 @@
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 165.0, 135.0, 130.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.0, 131.0, 130.0, 20.0 ],
+					"presentation_rect" : [ 85.0, 216.0, 130.0, 20.0 ],
 					"text" : "buffer~ third eroica.aiff"
 				}
 
@@ -419,7 +449,7 @@
 					"patching_rect" : [ 21.0, 60.0, 512.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 81.0, 60.0, 512.0, 48.0 ],
+					"presentation_rect" : [ 81.0, 145.0, 512.0, 48.0 ],
 					"text" : "All of the sample playback and audio processing in Unit 4 was done in the time domain.  That means we are dealing with individual samples in time. Viewing a sound frequency domain lets us see where the energy is in that sound, from 0 Hz to 22050 Hz.  Observe:"
 				}
 
@@ -435,7 +465,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 7.0, 623.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 7.0, 623.0, 48.0 ],
+					"presentation_rect" : [ 24.0, 92.0, 623.0, 48.0 ],
 					"text" : "Time domain vs Frequency Domain"
 				}
 
@@ -552,15 +582,64 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Mixing_and_Gain",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}

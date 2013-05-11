@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 5
 		}
 ,
-		"rect" : [ 266.0, 44.0, 665.0, 690.0 ],
+		"rect" : [ 266.0, 44.0, 671.0, 798.0 ],
 		"bgcolor" : [ 0.784314, 0.862745, 0.862745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,37 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "09-harmonic_series", "0.1a", "authors", "09-harmonic_series", 6666, "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-41",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 396.0, 7.5, 297.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 164.0, 700.0, 296.0, 86.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "09-harmonic_series", "Generates the harmonic series of a given midi-note", "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-42",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 13.0, 11.0, 384.0, 79.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 812.0, 708.0, 511.0, 76.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-22",
@@ -36,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 248.0, 335.0, 72.0, 20.0 ],
+					"patching_rect" : [ 243.0, 443.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -51,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 217.0, 79.0, 20.0 ],
+					"patching_rect" : [ 151.0, 325.0, 79.0, 20.0 ],
 					"text" : "loadmess 16"
 				}
 
@@ -60,12 +91,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.0, 244.0, 73.0, 20.0 ],
+					"patching_rect" : [ 80.0, 352.0, 73.0, 20.0 ],
 					"text" : "# of partials"
 				}
 
@@ -74,12 +104,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 215.0, 61.0, 20.0 ],
+					"patching_rect" : [ 33.0, 323.0, 61.0, 20.0 ],
 					"text" : "Generate"
 				}
 
@@ -93,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 248.0, 385.0, 96.0, 18.0 ],
+					"patching_rect" : [ 243.0, 493.0, 96.0, 18.0 ],
 					"text" : "micromode $1"
 				}
 
@@ -109,7 +138,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 248.0, 360.0, 100.0, 20.0 ]
+					"patching_rect" : [ 243.0, 468.0, 100.0, 20.0 ]
 				}
 
 			}
@@ -122,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 353.0, 47.0, 20.0 ],
+					"patching_rect" : [ 40.0, 461.0, 47.0, 20.0 ],
 					"text" : "ftom 0."
 				}
 
@@ -134,7 +163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 18.0, 215.0, 20.0, 20.0 ]
+					"patching_rect" : [ 13.0, 323.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -150,7 +179,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 96.0, 261.0, 39.0, 20.0 ],
+					"patching_rect" : [ 91.0, 369.0, 39.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -164,7 +193,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 45.0, 329.0, 32.5, 20.0 ],
+					"patching_rect" : [ 40.0, 437.0, 32.5, 20.0 ],
 					"text" : "* 1."
 				}
 
@@ -178,7 +207,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 18.0, 296.0, 46.0, 20.0 ],
+					"patching_rect" : [ 13.0, 404.0, 46.0, 20.0 ],
 					"text" : "Uzi 16"
 				}
 
@@ -192,7 +221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 378.0, 70.0, 20.0 ],
+					"patching_rect" : [ 40.0, 486.0, 70.0, 20.0 ],
 					"text" : "zl group 16"
 				}
 
@@ -206,7 +235,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 258.0, 311.0, 31.0, 17.0 ],
+					"patching_rect" : [ 253.0, 419.0, 31.0, 17.0 ],
 					"text" : "mtof"
 				}
 
@@ -219,7 +248,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 593.0, 642.0, 63.0, 20.0 ],
+					"patching_rect" : [ 588.0, 750.0, 63.0, 20.0 ],
 					"text" : "mt_player"
 				}
 
@@ -232,7 +261,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 593.0, 592.0, 20.0, 20.0 ]
+					"patching_rect" : [ 588.0, 700.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -245,7 +274,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 593.0, 614.0, 34.0, 20.0 ],
+					"patching_rect" : [ 588.0, 722.0, 34.0, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -260,7 +289,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 415.0, 521.0, 252.0 ]
+					"patching_rect" : [ 40.0, 523.0, 521.0, 252.0 ]
 				}
 
 			}
@@ -274,7 +303,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 258.0, 66.0, 210.0, 235.0 ]
+					"patching_rect" : [ 253.0, 174.0, 210.0, 235.0 ]
 				}
 
 			}
@@ -290,7 +319,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 258.0, 30.0, 39.0, 20.0 ],
+					"patching_rect" : [ 253.0, 138.0, 39.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -304,7 +333,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 258.0, 4.0, 85.0, 20.0 ],
+					"patching_rect" : [ 253.0, 112.0, 85.0, 20.0 ],
 					"text" : "loadmess 36"
 				}
 
@@ -313,12 +342,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.0, 30.0, 129.0, 20.0 ],
+					"patching_rect" : [ 295.0, 138.0, 129.0, 20.0 ],
 					"text" : "starting pitch"
 				}
 
@@ -383,7 +411,7 @@
 					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 556.5, 675.0, 580.0, 675.0, 580.0, 564.0, 617.5, 564.0 ],
+					"midpoints" : [ 551.5, 783.0, 575.0, 783.0, 575.0, 672.0, 612.5, 672.0 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -490,49 +518,63 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jsNotation.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/display_and_notation/jsNotation",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/display_and_notation/jsNotation",
 				"patcherrelativepath" : "../../modules/display_and_notation/jsNotation",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mt_player.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/display_and_notation/jsNotation",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/display_and_notation/jsNotation",
 				"patcherrelativepath" : "../../modules/display_and_notation/jsNotation",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1

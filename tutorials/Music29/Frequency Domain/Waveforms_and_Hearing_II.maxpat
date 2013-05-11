@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 5
 		}
 ,
 		"rect" : [ 4.0, 46.0, 925.0, 745.0 ],
@@ -31,7 +31,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-87",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -120,14 +119,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 30.0,
-					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 947.765564, 605.927002, 76.0, 40.0 ],
+					"patching_rect" : [ 947.765564, 605.927002, 76.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.700928, 265.5, 34.0, 40.0 ],
+					"presentation_rect" : [ 134.700928, 265.5, 34.0, 41.0 ],
 					"text" : ">"
 				}
 
@@ -136,14 +134,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 30.0,
-					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 947.765564, 578.927002, 76.0, 40.0 ],
+					"patching_rect" : [ 947.765564, 578.927002, 76.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.700928, 237.5, 34.0, 40.0 ],
+					"presentation_rect" : [ 134.700928, 237.5, 34.0, 41.0 ],
 					"text" : ">"
 				}
 
@@ -152,14 +149,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 30.0,
-					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 946.765564, 551.927002, 76.0, 40.0 ],
+					"patching_rect" : [ 946.765564, 551.927002, 76.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.700928, 210.5, 34.0, 40.0 ],
+					"presentation_rect" : [ 134.700928, 210.5, 34.0, 41.0 ],
 					"text" : ">"
 				}
 
@@ -168,7 +164,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.661283, 0.952235, 0.975252, 1.0 ],
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -455,13 +451,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.680637, 0.980271, 0.763718, 1.0 ],
 					"id" : "obj-32",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 764.0, 184.0, 153.0, 33.0 ],
+					"patching_rect" : [ 764.0, 184.0, 153.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 72.5, 209.0, 20.0 ],
 					"text" : "Feel free to mouse around this patch!",
@@ -474,16 +470,16 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-30",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 756.0, 153.0, 60.0 ],
+					"patching_rect" : [ 192.0, 756.0, 153.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 22.5, 687.0, 349.0, 33.0 ],
+					"presentation_rect" : [ 22.5, 687.0, 349.0, 34.0 ],
 					"text" : "The spectrascope continues to detect energy in the  wave after we can no longer hear it.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -505,16 +501,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-81",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 524.5, 589.5, 382.0, 33.0 ],
+					"patching_rect" : [ 524.5, 589.5, 382.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 606.25, 474.0, 316.25, 33.0 ],
+					"presentation_rect" : [ 606.25, 474.0, 316.25, 34.0 ],
 					"text" : "we use the term \"Amplitude\" to denote the sound pressure level of a given moment in time (fluctuating)"
 				}
 
@@ -523,14 +518,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 30.0,
-					"frgb" : 0.0,
 					"id" : "obj-71",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 931.0, 630.5, 76.0, 40.0 ],
+					"patching_rect" : [ 931.0, 630.5, 76.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.700928, 298.0, 34.0, 40.0 ],
+					"presentation_rect" : [ 133.700928, 298.0, 34.0, 41.0 ],
 					"text" : ">"
 				}
 
@@ -539,14 +533,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 30.0,
-					"frgb" : 0.0,
 					"id" : "obj-70",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 931.765564, 536.927002, 76.0, 40.0 ],
+					"patching_rect" : [ 931.765564, 536.927002, 76.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.700928, 183.5, 34.0, 40.0 ],
+					"presentation_rect" : [ 133.700928, 183.5, 34.0, 41.0 ],
 					"text" : ">"
 				}
 
@@ -597,7 +590,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-67",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -613,7 +605,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -629,7 +620,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-65",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -676,13 +666,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-61",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 688.0, 594.5, 150.0, 33.0 ],
+					"patching_rect" : [ 688.0, 594.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 628.0, 578.5, 259.0, 20.0 ],
 					"text" : "Amp Domain (range is -1 to 1 within computer)"
@@ -694,13 +683,13 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.118558, 0.14499, 0.224288, 1.0 ],
 					"id" : "obj-60",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 751.5, 592.0, 151.0, 33.0 ],
+					"patching_rect" : [ 751.5, 592.0, 151.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.5, 488.0, 251.0, 20.0 ],
 					"text" : "Frequency Domain (range is 0Hz to 20000Hz",
@@ -710,7 +699,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"id" : "obj-58",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -739,7 +727,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -771,16 +759,15 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
 					"id" : "obj-54",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 554.0, 592.0, 338.0, 31.0 ],
+					"patching_rect" : [ 554.0, 592.0, 338.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 255.0, 524.0, 98.0, 80.0 ],
+					"presentation_rect" : [ 255.0, 524.0, 98.0, 82.0 ],
 					"text" : "the frequency generated by a sinewave is being analyzed and displayed on this spectrascope"
 				}
 
@@ -845,7 +832,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 15.0, 65.0, 454.0, 334.0 ],
@@ -871,13 +858,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-1",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.0, 249.0, 387.0, 33.0 ],
+									"patching_rect" : [ 24.0, 249.0, 387.0, 34.0 ],
 									"text" : "Once a signal enters the brain, it is percieved. Study the science of Psychoacoustics to learn more about cognition and perception."
 								}
 
@@ -886,7 +872,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -911,35 +896,41 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-4",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 22.0, 35.0, 382.0, 33.0 ],
+									"patching_rect" : [ 22.0, 35.0, 382.0, 34.0 ],
 									"text" : "The cochlea of our ears is wired to detect frequencies at a very fine degree. Study neuro-science to learn more about the mechanism."
 								}
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [ 							{
+								"name" : "cochlea.jpg",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Intro_Course/Unit03-MSP+Synthesis/lib",
+								"type" : "JPEG",
+								"implicit" : 1
+							}
+ ]
 					}
 ,
-					"patching_rect" : [ 527.5, 692.0, 140.0, 53.0 ],
+					"patching_rect" : [ 527.5, 692.0, 140.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 594.0, 16.0, 175.0, 22.0 ],
+					"presentation_rect" : [ 594.0, 16.0, 175.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p how-the-inner-ear-works"
@@ -959,7 +950,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 10.0, 79.0, 679.0, 519.0 ],
@@ -996,7 +987,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1010,35 +1000,41 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-3",
 									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.0, 359.0, 603.0, 127.0 ],
+									"patching_rect" : [ 26.0, 359.0, 603.0, 131.0 ],
 									"text" : "One octave range below middle C is from 125Hz to 250Hz but one octave above middle C is from 1000hz to 2000hz. The ratio of the octave 2 to 1 is the same for both, but the difference in Hz is very different because pitch involves logarithmic relationships. Notice that it is only one octave from 8000 to 16000 hz! We can perceive the pitch change from 50 to 51 hz but not from 8000 to 8001 hz!"
 								}
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [ 							{
+								"name" : "audible-freq.pict",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Intro_Course/Unit03-MSP+Synthesis/lib",
+								"type" : "PICT",
+								"implicit" : 1
+							}
+ ]
 					}
 ,
-					"patching_rect" : [ 527.5, 657.0, 375.0, 25.0 ],
+					"patching_rect" : [ 527.5, 657.0, 375.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 656.0, 341.0, 25.0 ],
+					"presentation_rect" : [ 18.0, 656.0, 341.0, 26.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p \"more about the audible frequency range\""
@@ -1145,16 +1141,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-10",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.5, 577.5, 383.0, 87.0 ],
+					"patching_rect" : [ 527.5, 577.5, 384.0, 89.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 248.0, 183.5, 226.0, 141.0 ],
+					"presentation_rect" : [ 248.0, 183.5, 226.0, 144.0 ],
 					"text" : "As you click through these frequencies from low to high, the sounding interval between each appears closer together even through the differece between frequencies stays constant. It is the ratio between the two frequencies that  determines what  interval we hear.  If you set the number below to something above 1 and click multiple frequencies, you can hear a chord.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1165,16 +1161,16 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-19",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.5, 577.5, 419.0, 88.0 ],
+					"patching_rect" : [ 527.5, 577.5, 419.0, 89.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 495.25, 179.0, 313.0, 88.0 ],
+					"presentation_rect" : [ 495.25, 179.0, 313.0, 89.0 ],
 					"text" : "All acoustic sounds produce complex waveforms.\nNatural sound events which output audible sine \ntones are extremely rare. Some bird song come \nclose to sine tone production. Many  things in nature output aperiodic noise-like signals. Water falls are a good example of natural aperiodic wave forms.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1184,16 +1180,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-20",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 524.5, 577.5, 364.0, 47.0 ],
+					"patching_rect" : [ 524.5, 577.5, 364.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 505.75, 339.0, 298.5, 47.0 ],
+					"presentation_rect" : [ 505.75, 339.0, 298.5, 48.0 ],
 					"text" : "The very opposite of a sine wave, this noise signal creates a complex, aperiodic wave that spreads energy equally throughout the audible frquencies."
 				}
 
@@ -1228,7 +1223,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -1335,7 +1330,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 220.0, 55.0, 180.0, 32.0 ],
+									"patching_rect" : [ 220.0, 55.0, 180.0, 33.0 ],
 									"text" : "0., 0.6 5 0 1500"
 								}
 
@@ -1484,21 +1479,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 458.0, 279.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p noise"
@@ -1509,16 +1505,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.786096, 0.918958, 0.653235, 1.0 ],
 					"id" : "obj-23",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 688.0, 580.0, 100.0, 60.0 ],
+					"patching_rect" : [ 688.0, 580.0, 100.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 598.25, 296.109375, 148.0, 33.0 ],
+					"presentation_rect" : [ 598.25, 296.109375, 148.0, 34.0 ],
 					"text" : "< click to see what an aperiodic wave looks like",
 					"textcolor" : [ 0.786096, 0.918958, 0.653235, 1.0 ]
 				}
@@ -1528,7 +1524,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1592,7 +1587,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 5
 						}
 ,
 						"rect" : [ 640.0, 319.0, 800.0, 429.0 ],
@@ -1937,21 +1932,22 @@
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 280.999939, 140.0, 119.000061, 30.0 ],
+					"patching_rect" : [ 280.999939, 140.0, 119.000061, 31.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p freq-trip"
@@ -2017,16 +2013,16 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.939759, 1.0, 0.879518, 1.0 ],
 					"id" : "obj-41",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 524.5, 577.5, 314.0, 31.0 ],
+					"patching_rect" : [ 524.5, 577.5, 314.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 645.5625, 520.0, 237.625, 43.0 ],
+					"presentation_rect" : [ 645.5625, 520.0, 237.625, 44.0 ],
 					"text" : "sinewaves use a built-in table of 512 sequential numbers that form a sine wave with numbers between -1 and +1.",
 					"textcolor" : [ 0.939759, 1.0, 0.879518, 1.0 ]
 				}
@@ -2036,16 +2032,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-44",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.5, 577.5, 382.0, 33.0 ],
+					"patching_rect" : [ 527.5, 577.5, 382.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 64.5, 440.0, 353.0, 33.0 ],
+					"presentation_rect" : [ 64.5, 440.0, 353.0, 34.0 ],
 					"text" : "we use the term \"HERTZ\" to denote the number of cycles per second. 440 Hertz is the orchestral tuning \"A\" above middle \"C\""
 				}
 
@@ -2055,16 +2050,16 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.129291, 0.221596, 0.262535, 1.0 ],
 					"id" : "obj-45",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.5, 577.5, 361.0, 60.0 ],
+					"patching_rect" : [ 527.5, 577.5, 361.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 379.5, 572.0, 156.0, 141.0 ],
+					"presentation_rect" : [ 379.5, 572.0, 156.0, 144.0 ],
 					"text" : "Humans begin to perceive sine tones as sound when they reach 20-40 cycles or hertz. We lose the upper end around 13, 000-20,000hertz. The highest note on a piano is 2093 hertz. the lowest note on a piano is about 51 hertz.",
 					"textcolor" : [ 0.129291, 0.221596, 0.262535, 1.0 ]
 				}
@@ -2075,7 +2070,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.0,
-					"frgb" : 0.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2093,16 +2088,16 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.380189, 0.963583, 0.940857, 1.0 ],
 					"id" : "obj-49",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 688.0, 580.0, 189.0, 31.0 ],
+					"patching_rect" : [ 688.0, 580.0, 189.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 228.5, 339.0, 189.0, 31.0 ],
+					"presentation_rect" : [ 228.5, 339.0, 189.0, 32.0 ],
 					"text" : "click to take a sine wave through the audible frequency continuum",
 					"textcolor" : [ 0.380189, 0.963583, 0.940857, 1.0 ]
 				}
@@ -2112,16 +2107,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-50",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 538.0, 589.5, 343.5, 87.0 ],
+					"patching_rect" : [ 538.0, 589.5, 343.5, 89.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 10.0, 108.0, 608.0, 47.0 ],
+					"presentation_rect" : [ 10.0, 108.0, 608.0, 48.0 ],
 					"text" : "A single cycle of a periodic waveform requires a \"frequency\" specification.  The frequency equals the number of times a second the waveform will be repeated.  If the repetition of the waveform happens faster than approximately 16 times a seconds, humans begin to perceive steady tones. Use of tone is universal in music."
 				}
 
@@ -2130,7 +2124,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-51",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2147,16 +2140,16 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.129291, 0.221596, 0.262535, 1.0 ],
 					"id" : "obj-53",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 704.0, 580.0, 218.0, 47.0 ],
+					"patching_rect" : [ 704.0, 580.0, 218.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 379.5, 488.0, 144.0, 74.0 ],
+					"presentation_rect" : [ 379.5, 488.0, 144.0, 75.0 ],
 					"text" : "Most of music happens in the range of 50 to 4000 Hz. The very range where our human hearing is most accute.",
 					"textcolor" : [ 0.129291, 0.221596, 0.262535, 1.0 ]
 				}
@@ -2190,6 +2183,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.670808, 0.744956, 0.736151, 1.0 ],
 					"id" : "obj-56",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2204,6 +2198,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.595606, 0.661442, 0.653624, 1.0 ],
 					"id" : "obj-57",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2218,6 +2213,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.441427, 0.631189, 0.638721, 1.0 ],
 					"id" : "obj-80",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2232,6 +2228,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.548162, 0.666667, 0.526025, 1.0 ],
 					"id" : "obj-82",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2737,98 +2734,98 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "audible-freq.pict",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Intro_Course/Unit03-MSP+Synthesis/lib",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Intro_Course/Unit03-MSP+Synthesis/lib",
 				"patcherrelativepath" : "../../Intro_Course/Unit03-MSP+Synthesis/lib",
 				"type" : "PICT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cochlea.jpg",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Intro_Course/Unit03-MSP+Synthesis/lib",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Intro_Course/Unit03-MSP+Synthesis/lib",
 				"patcherrelativepath" : "../../Intro_Course/Unit03-MSP+Synthesis/lib",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Effects-audio",
 				"patcherrelativepath" : "../../../modules/Effects-audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hf_sine~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency_Domain_Analysis.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1

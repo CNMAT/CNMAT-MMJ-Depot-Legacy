@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 10.0, 54.0, 987.0, 510.0 ],
+		"rect" : [ 673.0, 429.0, 987.0, 510.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 570.0, 25.0, 60.0, 20.0 ],
+					"patching_rect" : [ 578.0, 25.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -52,7 +52,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 60.0, 97.0, 88.0 ],
+					"patching_rect" : [ 578.0, 60.0, 97.0, 87.0 ],
 					"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 64;\rdsp iovs 64;\rdsp sr 44100"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 503.0, 187.0, 20.0, 20.0 ]
+					"patching_rect" : [ 511.0, 187.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -77,7 +77,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.0, 223.0, 32.5, 18.0 ],
+					"patching_rect" : [ 418.0, 223.0, 32.5, 18.0 ],
 					"text" : "440"
 				}
 
@@ -91,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.0, 221.0, 32.5, 18.0 ],
+					"patching_rect" : [ 456.0, 221.0, 32.5, 18.0 ],
 					"text" : "5."
 				}
 
@@ -104,7 +104,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 149.0, 175.0, 20.0 ],
+					"patching_rect" : [ 235.0, 149.0, 175.0, 20.0 ],
 					"text" : "add harmonic partials 2,3,4,5,6"
 				}
 
@@ -117,7 +117,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 446.0, 172.0, 20.0, 20.0 ]
+					"patching_rect" : [ 454.0, 172.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -129,7 +129,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 390.0, 172.0, 20.0, 20.0 ]
+					"patching_rect" : [ 398.0, 172.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -141,7 +141,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 335.0, 172.0, 20.0, 20.0 ]
+					"patching_rect" : [ 343.0, 172.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -153,7 +153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 279.0, 172.0, 20.0, 20.0 ]
+					"patching_rect" : [ 287.0, 172.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -165,7 +165,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 223.0, 172.0, 20.0, 20.0 ]
+					"patching_rect" : [ 231.0, 172.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 311.0, 47.0, 20.0 ],
+					"patching_rect" : [ 411.0, 311.0, 47.0, 20.0 ],
 					"text" : "s afreq"
 				}
 
@@ -192,7 +192,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 452.0, 420.0, 47.0, 20.0 ],
+					"patching_rect" : [ 460.0, 420.0, 47.0, 20.0 ],
 					"text" : "s dfreq"
 				}
 
@@ -206,7 +206,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 374.5, 420.0, 51.0, 20.0 ],
+					"patching_rect" : [ 382.5, 420.0, 51.0, 20.0 ],
 					"text" : "s mfreq"
 				}
 
@@ -220,7 +220,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 420.0, 47.0, 20.0 ],
+					"patching_rect" : [ 305.0, 420.0, 47.0, 20.0 ],
 					"text" : "s cfreq"
 				}
 
@@ -239,7 +239,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 77.0, 44.0, 1417.0, 500.0 ],
@@ -3422,18 +3422,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 223.0, 195.5, 242.0, 20.0 ],
+					"patching_rect" : [ 231.0, 195.5, 242.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
+						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p partials"
@@ -3450,7 +3450,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.25, 268.0, 32.5, 18.0 ],
+					"patching_rect" : [ 73.25, 268.0, 32.5, 18.0 ],
 					"text" : "1"
 				}
 
@@ -3465,7 +3465,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 184.0, 292.5, 60.0, 20.0 ],
+					"patching_rect" : [ 192.0, 292.5, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -3479,7 +3479,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 213.0, 162.0, 33.0 ],
+					"patching_rect" : [ 21.0, 213.0, 162.0, 33.0 ],
 					"text" : "Manuel Poletti designed this interface to Fiddle"
 				}
 
@@ -3493,7 +3493,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 681.0, 349.0, 116.0, 20.0 ],
+					"patching_rect" : [ 689.0, 349.0, 116.0, 20.0 ],
 					"text" : "receive~ soundsource"
 				}
 
@@ -3507,7 +3507,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 566.25, 349.0, 49.0, 20.0 ],
+					"patching_rect" : [ 574.25, 349.0, 49.0, 20.0 ],
 					"text" : "*~ 0.03"
 				}
 
@@ -3521,7 +3521,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 566.25, 319.0, 40.0, 20.0 ],
+					"patching_rect" : [ 574.25, 319.0, 40.0, 20.0 ],
 					"text" : "noise~"
 				}
 
@@ -3535,7 +3535,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 489.0, 222.0, 32.5, 18.0 ],
+					"patching_rect" : [ 497.0, 222.0, 32.5, 18.0 ],
 					"text" : "21"
 				}
 
@@ -3548,7 +3548,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 153.0, 35.0, 35.0 ]
+					"patching_rect" : [ 22.0, 153.0, 35.0, 35.0 ]
 				}
 
 			}
@@ -3565,7 +3565,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 37.0, 91.0, 268.0, 237.0 ],
@@ -4054,7 +4054,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 108.0, 162.0, 913.0, 511.0 ],
@@ -5318,7 +5318,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "partials_display.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain/Display-Partials",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain/Display-Partials",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -5327,16 +5327,16 @@
 ,
 									"patching_rect" : [ 74.0, 320.0, 131.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"description" : "",
 										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontface" : 0,
 										"digest" : "",
-										"tags" : "",
+										"fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial"
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : ""
 									}
 ,
 									"text" : "p partials"
@@ -5665,25 +5665,25 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "partials_display.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain/Display-Partials",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain/Display-Partials",
 								"type" : "JSON",
 								"implicit" : 1
 							}
  ]
 					}
 ,
-					"patching_rect" : [ 14.0, 193.0, 118.0, 19.0 ],
+					"patching_rect" : [ 22.0, 193.0, 118.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
+						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p Manuel-Poletti_partials"
@@ -5698,7 +5698,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 498.5, 324.0, 15.0, 15.0 ]
+					"patching_rect" : [ 506.5, 324.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -5710,7 +5710,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 525.5, 325.0, 15.0, 15.0 ]
+					"patching_rect" : [ 533.5, 325.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -5723,7 +5723,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 452.0, 325.0, 40.0, 17.0 ],
+					"patching_rect" : [ 460.0, 325.0, 40.0, 17.0 ],
 					"text" : "open"
 				}
 
@@ -5742,7 +5742,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 50.0, 40.0, 156.0, 305.0 ],
@@ -5969,18 +5969,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 452.0, 349.0, 101.0, 19.0 ],
+					"patching_rect" : [ 460.0, 349.0, 101.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
+						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p sfplay~"
@@ -5995,7 +5995,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.0, 298.0, 27.0, 19.0 ],
+					"patching_rect" : [ 489.0, 298.0, 27.0, 19.0 ],
 					"text" : "play"
 				}
 
@@ -6008,7 +6008,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 299.0, 31.0, 19.0 ],
+					"patching_rect" : [ 518.0, 299.0, 31.0, 19.0 ],
 					"text" : "loop"
 				}
 
@@ -6021,7 +6021,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 298.0, 29.0, 19.0 ],
+					"patching_rect" : [ 464.0, 298.0, 29.0, 19.0 ],
 					"text" : "snd"
 				}
 
@@ -6039,7 +6039,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 369.0, 92.0, 73.0, 20.0 ],
+					"patching_rect" : [ 377.0, 92.0, 73.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -6052,7 +6052,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 201.0, 92.0, 20.0, 20.0 ]
+					"patching_rect" : [ 209.0, 92.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -6070,7 +6070,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 50.0, 44.0, 400.0, 326.0 ],
@@ -6369,18 +6369,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 201.0, 120.0, 187.0, 20.0 ],
+					"patching_rect" : [ 209.0, 120.0, 187.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
+						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p automated_frequency_modulation"
@@ -6398,7 +6398,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 20.0, 342.0, 202.0, 25.0 ]
+					"patching_rect" : [ 28.0, 342.0, 202.0, 25.0 ]
 				}
 
 			}
@@ -6411,7 +6411,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 222.0, 386.0, 478.0, 20.0 ],
+					"patching_rect" : [ 230.0, 386.0, 478.0, 20.0 ],
 					"text" : "selector~ 4"
 				}
 
@@ -6429,7 +6429,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 842.0, 138.0, 386.0, 241.0 ],
@@ -6583,18 +6583,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 222.0, 448.0, 130.0, 20.0 ],
+					"patching_rect" : [ 230.0, 448.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
+						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p pitch~-analysis_engine"
@@ -6611,7 +6611,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 848.0, 43.0, 29.0, 17.0 ],
+					"patching_rect" : [ 856.0, 43.0, 29.0, 17.0 ],
 					"text" : "0.02"
 				}
 
@@ -6626,7 +6626,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 817.5, 43.0, 22.0, 17.0 ],
+					"patching_rect" : [ 825.5, 43.0, 22.0, 17.0 ],
 					"text" : "15"
 				}
 
@@ -6641,7 +6641,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 798.5, 43.0, 16.0, 17.0 ],
+					"patching_rect" : [ 806.5, 43.0, 16.0, 17.0 ],
 					"text" : "6"
 				}
 
@@ -6656,7 +6656,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 767.5, 43.0, 32.5, 17.0 ],
+					"patching_rect" : [ 775.5, 43.0, 32.5, 17.0 ],
 					"text" : "440"
 				}
 
@@ -6671,7 +6671,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 767.5, 8.0, 50.0, 19.0 ],
+					"patching_rect" : [ 775.5, 8.0, 50.0, 19.0 ],
 					"text" : "loadbang"
 				}
 
@@ -6685,7 +6685,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.0, 216.0, 53.0, 31.0 ],
+					"patching_rect" : [ 340.0, 216.0, 53.0, 31.0 ],
 					"text" : "Modulation Depth"
 				}
 
@@ -6698,7 +6698,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 279.0, 53.0, 19.0 ],
+					"patching_rect" : [ 372.0, 279.0, 53.0, 19.0 ],
 					"text" : "Amplitude"
 				}
 
@@ -6712,7 +6712,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 277.0, 216.0, 49.0, 31.0 ],
+					"patching_rect" : [ 285.0, 216.0, 49.0, 31.0 ],
 					"text" : "Modulator Freq"
 				}
 
@@ -6726,7 +6726,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 316.0, 37.0, 17.0 ],
+					"patching_rect" : [ 373.0, 316.0, 37.0, 17.0 ],
 					"text" : "$1 50"
 				}
 
@@ -6745,7 +6745,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 365.0, 293.0, 53.0, 19.0 ],
+					"patching_rect" : [ 373.0, 293.0, 53.0, 19.0 ],
 					"triscale" : 0.9
 				}
 
@@ -6762,7 +6762,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 348.0, 248.0, 118.0, 19.0 ],
+					"patching_rect" : [ 356.0, 248.0, 118.0, 19.0 ],
 					"triscale" : 0.9
 				}
 
@@ -6779,7 +6779,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 282.0, 245.0, 53.0, 19.0 ],
+					"patching_rect" : [ 290.0, 245.0, 53.0, 19.0 ],
 					"triscale" : 0.9
 				}
 
@@ -6793,7 +6793,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 365.0, 335.0, 30.0, 19.0 ],
+					"patching_rect" : [ 373.0, 335.0, 30.0, 19.0 ],
 					"text" : "line~"
 				}
 
@@ -6807,7 +6807,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 224.0, 359.0, 32.5, 19.0 ],
+					"patching_rect" : [ 232.0, 359.0, 32.5, 19.0 ],
 					"text" : "*~"
 				}
 
@@ -6824,7 +6824,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 201.0, 248.0, 68.0, 19.0 ],
+					"patching_rect" : [ 209.0, 248.0, 68.0, 19.0 ],
 					"triscale" : 0.9
 				}
 
@@ -6838,7 +6838,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 282.0, 287.0, 62.0, 19.0 ],
+					"patching_rect" : [ 290.0, 287.0, 62.0, 19.0 ],
 					"text" : "*~"
 				}
 
@@ -6852,7 +6852,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 224.0, 311.0, 68.0, 19.0 ],
+					"patching_rect" : [ 232.0, 311.0, 68.0, 19.0 ],
 					"text" : "+~"
 				}
 
@@ -6866,7 +6866,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 282.0, 263.0, 38.0, 19.0 ],
+					"patching_rect" : [ 290.0, 263.0, 38.0, 19.0 ],
 					"text" : "cycle~"
 				}
 
@@ -6880,7 +6880,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 224.0, 335.0, 38.0, 19.0 ],
+					"patching_rect" : [ 232.0, 335.0, 38.0, 19.0 ],
 					"text" : "cycle~"
 				}
 
@@ -6894,7 +6894,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 216.0, 40.0, 31.0 ],
+					"patching_rect" : [ 232.0, 216.0, 40.0, 31.0 ],
 					"text" : "Carrier Freq"
 				}
 
@@ -6908,7 +6908,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 326.0, 117.0, 33.0 ],
+					"patching_rect" : [ 31.0, 326.0, 117.0, 33.0 ],
 					"text" : "choose sound source source"
 				}
 
@@ -6922,7 +6922,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 153.0, 85.0, 33.0 ],
+					"patching_rect" : [ 63.0, 153.0, 85.0, 33.0 ],
 					"text" : "display on/off (freeze mode)"
 				}
 
@@ -6936,7 +6936,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 453.0, 268.0, 100.0, 33.0 ],
+					"patching_rect" : [ 461.0, 268.0, 100.0, 33.0 ],
 					"text" : "load a sound file from the hard disc"
 				}
 
@@ -6950,7 +6950,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 541.0, 192.0, 255.0, 47.0 ],
+					"patching_rect" : [ 549.0, 192.0, 255.0, 47.0 ],
 					"text" : "This patch takes a sound source and returns a frequency domain data which is  projected on the display."
 				}
 
@@ -6964,7 +6964,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 668.0, 256.0, 162.0, 87.0 ],
+					"patching_rect" : [ 676.0, 256.0, 162.0, 87.0 ],
 					"text" : "the receive will allow a user to patch into the display from the output of another patch. Just add a send~ soundsource object to the output of your patch"
 				}
 
@@ -6978,14 +6978,14 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ -4.0, -23.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 420.0, 135.0, 55.0 ]
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 62.0, 420.0, 135.0, 55.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Frequency Domain Display", "spectographic display demo space" ],
+					"args" : [ "Frequency Domain Display", "Spectographic display demo space", "0.296 0.594 0.784 1." ],
 					"id" : "obj-2",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -6993,19 +6993,19 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -18.0, -68.0 ],
-					"patching_rect" : [ 16.0, 8.0, 511.0, 76.0 ]
+					"patching_rect" : [ 12.0, 8.0, 511.0, 76.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Frequency-Domain.maxhelp", 1.0, "Edmund Campion", "generic", 2512 ],
+					"args" : [ "29_partials_display", 1.0, "Edmund Campion", "29_partials_display", 2512, "0.296 0.594 0.784 1." ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.0, 417.0, 296.0, 95.0 ]
+					"patching_rect" : [ 681.0, 417.0, 296.0, 95.0 ]
 				}
 
 			}
@@ -7019,7 +7019,7 @@
 					"orientation" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 371.0, 26.0, 81.0 ],
+					"patching_rect" : [ 16.0, 371.0, 26.0, 81.0 ],
 					"stripecolor" : [ 0.66667, 0.66667, 0.66667, 1.0 ]
 				}
 
@@ -7032,7 +7032,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 483.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 483.0, 52.0, 20.0 ],
 					"text" : "dac~"
 				}
 
@@ -7043,7 +7043,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 63.5, 474.0, 16.5, 474.0 ],
+					"midpoints" : [ 71.5, 474.0, 24.5, 474.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -7449,7 +7449,7 @@
 					"destination" : [ "obj-11", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 17.5, 474.0, 49.5, 474.0 ],
+					"midpoints" : [ 25.5, 474.0, 57.5, 474.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -7574,63 +7574,63 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "startaudio.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "partials_display.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Frequency Domain/Display-Partials",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain/Display-Partials",
 				"patcherrelativepath" : "../Frequency Domain/Display-Partials",
 				"type" : "JSON",
 				"implicit" : 1
