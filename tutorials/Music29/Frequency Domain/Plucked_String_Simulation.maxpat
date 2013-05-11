@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 11.0, 51.0, 754.0, 511.0 ],
+		"rect" : [ 787.0, 320.0, 754.0, 511.0 ],
 		"bgcolor" : [ 0.807843, 0.807843, 0.807843, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -44,7 +44,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Plucked string simulation", "Simulation of a single plucked string", "0.8 0.3 0.3 1." ],
+					"args" : [ "Plucked string simulation", "Simulation of a single plucked string using resonators~", "0.8 0.3 0.3 1." ],
 					"id" : "obj-107",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
