@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 403.0, 266.0 ],
+		"rect" : [ 10.0, 51.0, 403.0, 266.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -652,8 +652,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 437.0, 336.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 435.0, 341.0, 0.0, 0.0 ]
+									"patching_rect" : [ 437.0, 336.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -2852,14 +2851,14 @@
 					"id" : "obj-36",
 					"maxclass" : "flonum",
 					"maximum" : 6.0,
-					"minimum" : -60.0,
+					"minimum" : -127.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 113.777832, 375.0, 52.75816, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 104.0, 33.0, 17.0 ],
+					"presentation_rect" : [ 356.0, 104.0, 37.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -2887,7 +2886,7 @@
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.0, 10.0, 33.0, 94.0 ],
-					"setminmax" : [ -60.0, 6.0 ],
+					"setminmax" : [ -127.0, 6.0 ],
 					"slidercolor" : [ 0.4, 0.4, 0.8, 1.0 ]
 				}
 
@@ -2902,7 +2901,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 113.777832, 259.0, 81.0, 20.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ -127.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -5005,7 +5004,7 @@
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u297005427"
+					"varname" : "u458003602"
 				}
 
 			}
