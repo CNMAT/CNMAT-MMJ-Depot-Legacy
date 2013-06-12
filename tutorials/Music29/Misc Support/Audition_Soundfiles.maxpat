@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 526.0, 488.0 ],
+		"rect" : [ 27.0, 57.0, 526.0, 488.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,19 +38,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 760.0, 212.0, 32.5, 16.0 ],
 					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-65",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 856.0, 704.0, 59.0, 18.0 ],
-					"text" : "print status"
 				}
 
 			}
@@ -257,7 +244,7 @@
 					"beats" : 0,
 					"bgcolor" : [ 0.235294, 0.698039, 0.678431, 0.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"buffername" : "1072-all_buffers.6",
+					"buffername" : "1131-all_buffers.1",
 					"gridcolor" : [ 0.392157, 0.392157, 0.392157, 0.0 ],
 					"id" : "obj-62",
 					"labels" : 0,
@@ -1007,7 +994,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 318.0, 496.0, 167.0, 16.0 ],
-					"text" : "1072-all_buffers.6 0 1."
+					"text" : "1131-all_buffers.1 0 1."
 				}
 
 			}
@@ -1598,15 +1585,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-93", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-93", 1 ]
 				}
 
 			}
