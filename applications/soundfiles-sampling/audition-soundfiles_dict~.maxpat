@@ -1242,11 +1242,11 @@
 					"fontsize" : 11.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 11,
 					"numoutlets" : 11,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "FullPacket" ],
 					"patching_rect" : [ 150.0, 92.0, 545.857117, 19.0 ],
-					"text" : "osc-route /choose /folder /play /gain /name /loop /append /stop /clearchoices /clear"
+					"text" : "o.route /choose /folder /play /gain /name /loop /append /stop /clearchoices /clear"
 				}
 
 			}
