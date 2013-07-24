@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1008.0, 700.0 ],
+		"rect" : [ 33.0, 44.0, 1008.0, 700.0 ],
 		"bgcolor" : [ 0.823529, 0.85098, 0.882353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -70,7 +70,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 399.0, 367.0 ],
@@ -285,16 +285,16 @@
 ,
 					"patching_rect" : [ 552.0, 228.0, 94.0, 25.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p pitchbend"
@@ -314,7 +314,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 21.0, 75.0, 478.0, 429.0 ],
@@ -796,16 +796,16 @@
 ,
 					"patching_rect" : [ 552.0, 196.0, 182.0, 25.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p continuous-controllers"
@@ -825,7 +825,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 841.0, 292.0 ],
@@ -944,7 +944,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 299.0, 556.0, 907.0, 441.0 ],
@@ -1167,16 +1167,16 @@
 ,
 									"patching_rect" : [ 484.0, 167.0, 263.0, 27.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p all Internal_synth notes off"
@@ -1265,16 +1265,16 @@
 ,
 					"patching_rect" : [ 552.0, 131.333313, 134.0, 25.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p types_of_notes"
@@ -1295,7 +1295,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1517,7 +1517,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "OSC-unroute.js",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
+								"bootpath" : "/Applications/Max6/Cycling '74/externals/CNMAT-Everything-OSX-MachO",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -1526,16 +1526,16 @@
 ,
 					"patching_rect" : [ 100.0, 156.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p synth_selection"
@@ -1555,7 +1555,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 408.0, 225.0 ],
@@ -1722,7 +1722,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "inst-to-pgm.txt",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -1731,16 +1731,16 @@
 ,
 					"patching_rect" : [ 552.0, 164.0, 155.0, 25.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p program_changes"
@@ -1791,7 +1791,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 274.0, 320.0 ],
@@ -2008,16 +2008,16 @@
 ,
 					"patching_rect" : [ 452.0, 420.0, 71.5, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p toginput"
@@ -2074,7 +2074,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 661.0, 276.0, 103.0, 20.0 ],
+					"patching_rect" : [ 660.0, 276.0, 103.0, 20.0 ],
 					"text" : "Enable Clavecin"
 				}
 
@@ -2145,7 +2145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 804.0, 272.0, 121.0, 27.0 ],
+					"patching_rect" : [ 772.0, 272.0, 121.0, 27.0 ],
 					"text" : "< this is a map of computer keys to one-octave player"
 				}
 
@@ -2180,7 +2180,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 76.0, 814.0, 532.0 ],
@@ -3238,7 +3238,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 25.0, 69.0, 504.0, 232.0 ],
@@ -3526,37 +3526,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "letter.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "badge.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "uc_license.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "cnmat_blue.gif",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "GIFf",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "myNotes.js",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "TEXT",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "take_notes.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Interface",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -3565,16 +3535,16 @@
 ,
 									"patching_rect" : [ 560.0, 472.0, 119.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p timbrespread-keys"
@@ -3595,7 +3565,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1078.0, 452.0 ],
@@ -4152,37 +4122,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "letter.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "badge.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "uc_license.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "cnmat_blue.gif",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "GIFf",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "myNotes.js",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "TEXT",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "take_notes.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Interface",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -4191,16 +4131,16 @@
 ,
 									"patching_rect" : [ 632.0, 260.0, 86.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p numberkeys"
@@ -4472,7 +4412,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 356.0, 158.0, 1004.0, 609.0 ],
@@ -5016,16 +4956,16 @@
 ,
 									"patching_rect" : [ 496.0, 312.0, 107.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p transpose-chord"
@@ -5101,7 +5041,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 1.0, 44.0, 951.0, 662.0 ],
@@ -6476,16 +6416,16 @@
 ,
 									"patching_rect" : [ 36.0, 536.0, 510.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p play-chord-with-random-program-selection"
@@ -7162,43 +7102,13 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "notes-to-coll.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "letter.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "badge.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "uc_license.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "cnmat_blue.gif",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "GIFf",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "myNotes.js",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "take_notes.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Interface",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -7207,16 +7117,16 @@
 ,
 					"patching_rect" : [ 544.0, 444.0, 190.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p BIG-CHORD-PLAYSPACE"
@@ -7249,7 +7159,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 23.0, 183.0, 461.0, 358.0 ],
@@ -7540,7 +7450,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "OSC-unroute.js",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
+								"bootpath" : "/Applications/Max6/Cycling '74/externals/CNMAT-Everything-OSX-MachO",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -7549,16 +7459,16 @@
 ,
 					"patching_rect" : [ 318.0, 268.0, 124.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p DRUM-KIT-NOTES"
@@ -7579,7 +7489,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 92.0, 454.0, 371.0, 369.0 ],
@@ -7909,16 +7819,16 @@
 ,
 					"patching_rect" : [ 19.0, 631.0, 145.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p format-a-note-message"
@@ -7940,7 +7850,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 10.0, 59.0, 406.0, 237.0 ],
@@ -8026,16 +7936,16 @@
 ,
 					"patching_rect" : [ 316.0, 448.0, 151.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p update-audition-displays"
@@ -8265,7 +8175,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 350.0, 74.0, 698.0, 878.0 ],
@@ -9387,16 +9297,16 @@
 ,
 					"patching_rect" : [ 84.0, 232.0, 221.5, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p update-instrument-assignment-displays"
@@ -9431,9 +9341,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 544.0, 560.0, 199.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
 						"storage_rect" : [ 0, 0, 640, 240 ],
-						"client_rect" : [ 30, 89, 743, 623 ],
-						"parameter_enable" : 0
+						"client_rect" : [ 30, 89, 743, 623 ]
 					}
 ,
 					"text" : "pattrstorage internal_synth_presets",
@@ -9471,7 +9381,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u695003862"
+					"varname" : "u999003947"
 				}
 
 			}
@@ -9503,7 +9413,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -9612,16 +9522,16 @@
 ,
 					"patching_rect" : [ 449.0, 379.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -9672,7 +9582,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -9781,16 +9691,16 @@
 ,
 					"patching_rect" : [ 449.0, 360.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -9841,7 +9751,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -9950,16 +9860,16 @@
 ,
 					"patching_rect" : [ 449.0, 342.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -10010,7 +9920,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -10119,16 +10029,16 @@
 ,
 					"patching_rect" : [ 449.0, 324.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -10178,7 +10088,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -10287,16 +10197,16 @@
 ,
 					"patching_rect" : [ 449.0, 306.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -10347,7 +10257,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -10456,16 +10366,16 @@
 ,
 					"patching_rect" : [ 449.0, 288.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -10529,7 +10439,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -10638,16 +10548,16 @@
 ,
 					"patching_rect" : [ 449.0, 250.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -10697,7 +10607,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -10806,16 +10716,16 @@
 ,
 					"patching_rect" : [ 211.0, 379.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -10866,7 +10776,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -10975,16 +10885,16 @@
 ,
 					"patching_rect" : [ 211.0, 360.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -11035,7 +10945,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -11144,16 +11054,16 @@
 ,
 					"patching_rect" : [ 211.0, 342.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -11204,7 +11114,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -11313,16 +11223,16 @@
 ,
 					"patching_rect" : [ 211.0, 324.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -11372,7 +11282,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -11481,16 +11391,16 @@
 ,
 					"patching_rect" : [ 211.0, 306.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -11541,7 +11451,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -11650,16 +11560,16 @@
 ,
 					"patching_rect" : [ 211.0, 288.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -11710,7 +11620,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -11819,16 +11729,16 @@
 ,
 					"patching_rect" : [ 211.0, 268.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -11879,7 +11789,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 81.0, 652.0, 600.0, 426.0 ],
@@ -11988,16 +11898,16 @@
 ,
 					"patching_rect" : [ 211.0, 250.0, 16.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -12096,7 +12006,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Internal_Synth_OSC", "control your computer's internal synth with OSC-style messages" ],
+					"args" : [ "Internal_Synth_OSC", "control your computer's internal synth with OSC-style messages", "0.5 0.5 0.6 0.5" ],
 					"id" : "obj-108",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -12110,7 +12020,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "IS_OSC", "2.1b", "Zbyszynski / Campion / Lubow", "Internal_Synth_OSC", 1000 ],
+					"args" : [ "IS_OSC", "2.1b", "Zbyszynski / Campion / Lubow", "Internal_Synth_OSC", 1000, "0.5 0.5 0.6 0.5" ],
 					"id" : "obj-109",
 					"ignoreclick" : 1,
 					"maxclass" : "bpatcher",
@@ -12135,7 +12045,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 11.0, 47.0, 705.0, 582.0 ],
@@ -12252,7 +12162,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -12438,7 +12348,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -12451,16 +12361,16 @@
 ,
 									"patching_rect" : [ 507.0, 265.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -12495,7 +12405,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -12681,7 +12591,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -12694,16 +12604,16 @@
 ,
 									"patching_rect" : [ 358.0, 266.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -12738,7 +12648,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -12924,7 +12834,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -12937,16 +12847,16 @@
 ,
 									"patching_rect" : [ 197.0, 265.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -12981,7 +12891,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -13167,7 +13077,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -13180,16 +13090,16 @@
 ,
 									"patching_rect" : [ 55.0, 266.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -13224,7 +13134,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -13410,7 +13320,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -13423,16 +13333,16 @@
 ,
 									"patching_rect" : [ 473.0, 214.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -13467,7 +13377,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -13653,7 +13563,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -13666,16 +13576,16 @@
 ,
 									"patching_rect" : [ 334.0, 215.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -13710,7 +13620,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -13896,7 +13806,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -13909,16 +13819,16 @@
 ,
 									"patching_rect" : [ 178.0, 214.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -13953,7 +13863,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -14139,7 +14049,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -14152,16 +14062,16 @@
 ,
 									"patching_rect" : [ 44.0, 215.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -14196,7 +14106,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -14382,7 +14292,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -14395,16 +14305,16 @@
 ,
 									"patching_rect" : [ 451.0, 164.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -14439,7 +14349,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -14625,7 +14535,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -14638,16 +14548,16 @@
 ,
 									"patching_rect" : [ 312.0, 165.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -14682,7 +14592,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -14868,7 +14778,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -14881,16 +14791,16 @@
 ,
 									"patching_rect" : [ 156.0, 164.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -14925,7 +14835,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -15111,7 +15021,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -15124,16 +15034,16 @@
 ,
 									"patching_rect" : [ 22.0, 165.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -15168,7 +15078,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -15354,7 +15264,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -15367,16 +15277,16 @@
 ,
 									"patching_rect" : [ 440.0, 113.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -15411,7 +15321,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -15597,7 +15507,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -15610,16 +15520,16 @@
 ,
 									"patching_rect" : [ 301.0, 114.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -15654,7 +15564,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -15840,7 +15750,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -15853,16 +15763,16 @@
 ,
 									"patching_rect" : [ 145.0, 113.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -15950,7 +15860,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -16149,16 +16059,16 @@
 ,
 									"patching_rect" : [ 12.0, 356.0, 81.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p tomessagebox"
@@ -16179,7 +16089,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 40.0, 104.0, 600.0, 426.0 ],
@@ -16365,7 +16275,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -16378,16 +16288,16 @@
 ,
 									"patching_rect" : [ 11.0, 114.0, 30.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -16985,7 +16895,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "inst-to-pgm.txt",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -16998,16 +16908,16 @@
 ,
 					"patching_rect" : [ 844.0, 424.0, 128.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p post-settings"
@@ -17029,7 +16939,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 408.0, 121.0, 783.0, 571.0 ],
@@ -17122,7 +17032,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 446.0, 311.0, 576.0, 453.0 ],
@@ -18084,16 +17994,16 @@
 ,
 									"patching_rect" : [ 377.0, 114.0, 47.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p bend"
@@ -18113,7 +18023,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 719.0, 59.0, 686.0, 643.0 ],
@@ -18740,7 +18650,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "cc-to-cc.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -18753,16 +18663,16 @@
 ,
 									"patching_rect" : [ 280.0, 123.0, 76.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p controllers"
@@ -18916,7 +18826,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 218.0, 139.0, 491.0, 500.0 ],
@@ -19493,7 +19403,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "manage_notes.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -19506,16 +19416,16 @@
 ,
 									"patching_rect" : [ 153.0, 182.0, 50.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p notes"
@@ -19549,7 +19459,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 34.0, 176.0, 635.0, 622.0 ],
@@ -19617,7 +19527,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -19757,26 +19667,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -19788,16 +19686,16 @@
 ,
 													"patching_rect" : [ 312.0, 289.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -19832,7 +19730,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -19972,26 +19870,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -20003,16 +19889,16 @@
 ,
 													"patching_rect" : [ 312.0, 233.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -20047,7 +19933,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -20187,26 +20073,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -20218,16 +20092,16 @@
 ,
 													"patching_rect" : [ 312.0, 177.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -20262,7 +20136,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -20402,26 +20276,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -20433,16 +20295,16 @@
 ,
 													"patching_rect" : [ 312.0, 121.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -20477,7 +20339,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -20617,26 +20479,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -20648,16 +20498,16 @@
 ,
 													"patching_rect" : [ 214.0, 289.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -20692,7 +20542,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -20832,26 +20682,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -20863,16 +20701,16 @@
 ,
 													"patching_rect" : [ 214.0, 233.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -20907,7 +20745,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -21047,26 +20885,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -21078,16 +20904,16 @@
 ,
 													"patching_rect" : [ 214.0, 177.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -21122,7 +20948,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -21262,26 +21088,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -21293,16 +21107,16 @@
 ,
 													"patching_rect" : [ 214.0, 121.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -21337,7 +21151,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -21477,26 +21291,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -21508,16 +21310,16 @@
 ,
 													"patching_rect" : [ 124.0, 289.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -21552,7 +21354,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -21692,26 +21494,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -21723,16 +21513,16 @@
 ,
 													"patching_rect" : [ 124.0, 233.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -21767,7 +21557,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -21907,26 +21697,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -21938,16 +21716,16 @@
 ,
 													"patching_rect" : [ 124.0, 177.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -21982,7 +21760,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -22122,26 +21900,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -22153,16 +21919,16 @@
 ,
 													"patching_rect" : [ 124.0, 121.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -22235,7 +22001,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -22375,26 +22141,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -22406,16 +22160,16 @@
 ,
 													"patching_rect" : [ 50.0, 121.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -22450,7 +22204,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -22590,26 +22344,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -22621,16 +22363,16 @@
 ,
 													"patching_rect" : [ 50.0, 289.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -22665,7 +22407,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -22805,26 +22547,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -22836,16 +22566,16 @@
 ,
 													"patching_rect" : [ 50.0, 233.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -22880,7 +22610,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -23020,26 +22750,14 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "inst-to-pgm.txt",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 																"type" : "TEXT",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "nothing.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+																"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "uc_license.maxpat",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "cnmat_blue.gif",
-																"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-																"type" : "GIFf",
 																"implicit" : 1
 															}
 , 															{
@@ -23051,16 +22769,16 @@
 ,
 													"patching_rect" : [ 50.0, 177.0, 59.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontface" : 0,
+														"description" : "",
 														"tags" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p translate"
@@ -23544,26 +23262,14 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "inst-to-pgm.txt",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "nothing.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+												"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "uc_license.maxpat",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "cnmat_blue.gif",
-												"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-												"type" : "GIFf",
 												"implicit" : 1
 											}
 , 											{
@@ -23575,16 +23281,16 @@
 ,
 									"patching_rect" : [ 223.0, 158.0, 114.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
+										"description" : "",
 										"tags" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p program changes"
@@ -23843,37 +23549,25 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "inst-to-pgm.txt",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "nothing.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "uc_license.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "cnmat_blue.gif",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-								"type" : "GIFf",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "manage_notes.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "cc-to-cc.maxpat",
-								"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -23886,16 +23580,16 @@
 ,
 					"patching_rect" : [ 16.0, 16.0, 152.0, 31.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"description" : "",
 						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p the_synth",
@@ -24588,126 +24282,126 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "pstore-simple-storage.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Data_Storage/pstore-simple-storage",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Data_Storage/pstore-simple-storage",
 				"patcherrelativepath" : "../../modules/Data_Storage/pstore-simple-storage",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clavecin.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 				"patcherrelativepath" : "../internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "letter.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Interface",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Interface",
 				"patcherrelativepath" : "../../modules/Interface",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "inst-to-pgm.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 				"patcherrelativepath" : "../internal_synth/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/basic-programming",
 				"patcherrelativepath" : "../../modules/basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "manage_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 				"patcherrelativepath" : "../internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cc-to-cc.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 				"patcherrelativepath" : "../internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "make-tune.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 				"patcherrelativepath" : "../internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "durations.mxt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/repertoire/Michael_Zbyszynski/Daguerreotype",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/repertoire/Michael_Zbyszynski/Daguerreotype",
 				"patcherrelativepath" : "../../repertoire/Michael_Zbyszynski/Daguerreotype",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OSC-unroute.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
-				"patcherrelativepath" : "../../../../../../../../../../../../2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
+				"bootpath" : "/Applications/Max6/Cycling '74/externals/CNMAT-Everything-OSX-MachO",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/externals/CNMAT-Everything-OSX-MachO",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "notes-to-coll.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/internal_synth/lib",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/internal_synth/lib",
 				"patcherrelativepath" : "../internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
