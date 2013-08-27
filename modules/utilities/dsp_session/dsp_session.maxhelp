@@ -29,7 +29,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "dsp_session", "temporarily access DSP settings, then restore upon close" ],
+					"args" : [ "dsp_session", "temporarily access user DSP settings, then restore upon close" ],
 					"id" : "obj-7",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
