@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 50.0, 89.0, 999.0, 564.0 ],
+		"rect" : [ 175.0, 105.0, 999.0, 564.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,34 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 347.0, 141.0, 50.0, 20.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 347.0, 117.0, 32.5, 20.0 ],
+					"text" : "int"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
@@ -592,8 +620,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 399.0, 82.0, 117.0, 18.0 ],
-					"text" : "route int store clear float"
+					"patching_rect" : [ 399.0, 82.0, 120.0, 18.0 ],
+					"text" : "route float store clear float"
 				}
 
 			}
@@ -799,16 +827,16 @@
 ,
 					"patching_rect" : [ 585.0, 320.0, 61.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
+						"default_fontface" : 0,
 						"fontface" : 0,
+						"digest" : "",
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p mark used"
@@ -965,6 +993,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -1182,6 +1219,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1247,6 +1293,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 357.0, 136.0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1285,50 +1341,50 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "readwrite-ui.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Interface",
+				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/interface",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ali.remove-char.js",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Data_Transformation",
-				"patcherrelativepath" : "../Data_Transformation",
+				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Data_Transformation",
+				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Data_Transformation",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
