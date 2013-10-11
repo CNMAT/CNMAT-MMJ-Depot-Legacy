@@ -80,7 +80,7 @@ Tutor:
 
 Tutorial: 
 
-* series of patches explaining and contextualizing a package for teaching purposes, e.g., CNMATÕs Spectral Tutorials. Tutorials offer more opportunity for self-guided learning than Tutors.  (Desired reaction: ÒI understand.Ó)
+* series of patches explaining and contextualizing a package for teaching purposes, e.g., CNMATÕs Spectral Tutorials. Tutorials offer more opportunity for self-guided learning than Tutors.  (Desired reaction: _I understand._)
 
 Working Copy: 
 
