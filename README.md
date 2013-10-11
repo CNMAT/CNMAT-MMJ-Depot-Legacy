@@ -50,7 +50,7 @@ Package:
 
 * specific, organized subset of the repository that serves some purpose
 
-Patcher (aka "abstraction" or "patch"): 
+Patcher (aka _abstraction_ or _patch_): 
 
 * any unit of software made in Max.  The five kinds of patch are Main Patch, Overview Patch, Help Patch, Interface Patch and Support Patch.
 
@@ -60,7 +60,7 @@ Repertoire:
 
 Repository: 
 
-* versioned storage of "all" CNMAT's software and related content.
+* versioned storage of _all_ CNMAT's software and related content.
 
 Support: 
 
@@ -80,7 +80,7 @@ Tutor:
 
 Tutorial: 
 
-* series of patches explaining and contextualizing a package for teaching purposes, e.g., CNMATÕs Spectral Tutorials. Tutorials offer more opportunity for self-guided learning than Tutors.  (Desired reaction: _I understand._)
+* series of patches explaining and contextualizing a package for teaching purposes, e.g., CNMAT's Spectral Tutorials. Tutorials offer more opportunity for self-guided learning than Tutors.  (Desired reaction: _I understand._)
 
 Working Copy: 
 
