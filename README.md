@@ -16,7 +16,7 @@ Baseline:
 
 Demo: 
 
-* patch that shows one (impressive) idea, not necessarily with enough flexibility or generality to be useful for extended work (Desired reaction: ÒWow!Ó).  It is specifically formatted for digital projection, and quick, reliable show and tell sessions.
+* patch that shows one (impressive) idea, not necessarily with enough flexibility or generality to be useful for extended work (Desired reaction: "Wow!").  It is specifically formatted for digital projection, and quick, reliable show and tell sessions.
 
 Dependency: 
 
@@ -76,7 +76,7 @@ Tool:
 
 Tutor: 
 
-* is a MMJ patch reference document that serves as a single collection point for the expanding communal wisdom on a particular MMJ object or programming topic.  For an advanced user it is a mnemonic aid and for entry level users it is learning space.  An example might be the coll-tutor.pat   Here you would find all kinds of tips of dealing with collections including elaborate strategies like David Wessel's Refer world.  Edmund's preference is that Tutors be formatted for digital projection; Max 5's patch zooming feature will make it unnecessary to build large-font patches.  (Old: A very small tutorial about one specific thing, e.g., a thorough explanation of MSPÕs ÒDSP StatusÓ window.)
+* is a MMJ patch reference document that serves as a single collection point for the expanding communal wisdom on a particular MMJ object or programming topic.  For an advanced user it is a mnemonic aid and for entry level users it is learning space.  An example might be the coll-tutor.pat   Here you would find all kinds of tips of dealing with collections including elaborate strategies like David Wessel's Refer world.  Edmund's preference is that Tutors be formatted for digital projection; Max 5's patch zooming feature will make it unnecessary to build large-font patches.  (Old: A very small tutorial about one specific thing, e.g., a thorough explanation of MSP's _DSP Status_ window.)
 
 Tutorial: 
 
