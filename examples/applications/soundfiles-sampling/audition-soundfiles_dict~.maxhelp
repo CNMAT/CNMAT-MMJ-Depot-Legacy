@@ -47,7 +47,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 472.0, 332.0, 50.0, 16.0 ],
-					"text" : "/play/5"
+					"text" : "/play/4"
 				}
 
 			}
@@ -300,15 +300,15 @@
 ,
 					"patching_rect" : [ 552.0, 280.0, 98.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial"
 					}
 ,
@@ -334,7 +334,7 @@
 					"attr_bpm" : 0.0,
 					"beats" : 0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"buffername" : "1017-all_buffers.5",
+					"buffername" : "1069-all_buffers.4",
 					"id" : "obj-47",
 					"labels" : 0,
 					"maxclass" : "waveform~",
@@ -582,15 +582,15 @@
 ,
 					"patching_rect" : [ 121.5, 350.0, 67.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial"
 					}
 ,
@@ -614,7 +614,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "audition-soundfiles_dict~", "1.1a", "Lubow & Campion", "audition-soundfiles~", 6666 ],
+					"args" : [ "audition-soundfiles_dict~", "1.1a", "Lubow & Campion", "audition-soundfiles~", 6666, "0.435 0.435 0.435 1." ],
 					"id" : "obj-32",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
@@ -626,7 +626,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "audition-soundfiles_dict~", "preview a folder of sounds" ],
+					"args" : [ "audition-soundfiles_dict~", "preview a folder of sounds", "0.435 0.435 0.435 1." ],
 					"id" : "obj-29",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -723,7 +723,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-20",
-					"items" : [ "randomsquare.01", ",", "randomsquare.02", ",", "randomsquare.03", ",", "randomsquare.04", ",", "randomsquare.05", ",", "randomsquare.06", ",", "randomsquare.07", ",", "randomsquare.08", ",", "randomsquare.09", ",", "randomsquare.10", ",", "randomsquare.11" ],
+					"items" : [ "bad_horsie_gt", ",", "bass_C", ",", "bass_C_long", ",", "bass_horsie", ",", "bass_horsie1", ",", "bass_mute_C", ",", "bass_slap_C", ",", "bx_gt_C_low", ",", "bx_gt_x", ",", "gt512a", ",", "gt512b", ",", "gt_low_C5" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -982,7 +982,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 323.0, 400.0, 161.0, 16.0 ],
-					"text" : "1017-all_buffers.6 0 1."
+					"text" : "1069-all_buffers.5 0 1."
 				}
 
 			}
@@ -1346,84 +1346,70 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Mixing_and_Gain",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Mixing_and_Gain",
 				"patcherrelativepath" : "../../modules/Mixing_and_Gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audition-soundfiles_dict~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/applications/Soundfiles-sampling",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/applications/Soundfiles-sampling",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "samp-nt-l.voi.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Soundfiles-sampling/MSP_Samplers/voices",
-				"patcherrelativepath" : "../../modules/Soundfiles-sampling/MSP_Samplers/voices",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/basic-programming",
-				"patcherrelativepath" : "../../modules/basic-programming",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
+				"patcherrelativepath" : "../../modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
 				"patcherrelativepath" : "../../modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "addpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Utilities",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Utilities",
 				"patcherrelativepath" : "../../modules/Utilities",
 				"type" : "JSON",
 				"implicit" : 1

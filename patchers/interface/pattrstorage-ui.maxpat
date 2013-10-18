@@ -3,13 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 175.0, 105.0, 999.0, 564.0 ],
+		"rect" : [ 427.0, 205.0, 999.0, 564.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -30,13 +31,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-29",
+					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 347.0, 141.0, 50.0, 20.0 ],
-					"text" : "change"
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 307.0, 104.0, 20.0, 20.0 ],
+					"text" : "t i"
 				}
 
 			}
@@ -44,13 +45,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-5",
+					"id" : "obj-29",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 347.0, 117.0, 32.5, 20.0 ],
-					"text" : "int"
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 307.0, 130.0, 50.0, 20.0 ],
+					"text" : "change"
 				}
 
 			}
@@ -58,12 +59,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 777.0, 494.0, 186.0, 28.0 ],
+					"patching_rect" : [ 777.0, 494.0, 186.0, 27.0 ],
 					"text" : "pattrstorage-ui version 1.2 by \nRafael Valle and Ali Momeni"
 				}
 
@@ -134,6 +136,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 264.0, 279.0, 86.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"filename" : "ali.remove-char",
 						"parameter_enable" : 0
 					}
 ,
@@ -201,7 +204,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 62.0, 67.0, 14.0, 14.0 ]
+					"patching_rect" : [ 62.0, 67.0, 14.0, 14.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 44.0, 23.0, 14.0, 14.0 ]
 				}
 
 			}
@@ -223,11 +228,14 @@
 				"box" : 				{
 					"fontname" : "Gill Sans",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 111.0, 85.0, 39.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 93.0, 41.0, 39.0, 20.0 ],
 					"text" : "store!"
 				}
 
@@ -305,6 +313,8 @@
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 111.0, 67.0, 30.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 93.0, 23.0, 30.0, 20.0 ],
 					"triscale" : 0.9,
 					"varname" : "storethese"
 				}
@@ -323,6 +333,8 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 75.0, 67.0, 39.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 57.0, 23.0, 39.0, 20.0 ],
 					"varname" : "store"
 				}
 
@@ -340,6 +352,8 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 23.0, 67.0, 40.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 23.0, 40.0, 20.0 ],
 					"varname" : "recall"
 				}
 
@@ -357,6 +371,8 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 138.0, 67.0, 98.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 120.0, 23.0, 98.0, 18.0 ],
 					"varname" : "messages"
 				}
 
@@ -365,11 +381,14 @@
 				"box" : 				{
 					"fontname" : "Gill Sans",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 65.0, 85.0, 42.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.0, 41.0, 42.0, 20.0 ],
 					"text" : "store"
 				}
 
@@ -596,6 +615,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 22.0, 47.0, 214.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 3.0, 214.0, 20.0 ],
 					"varname" : "readwrite"
 				}
 
@@ -680,8 +701,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 30.0, 89.0, 600.0, 426.0 ],
@@ -821,22 +843,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 585.0, 320.0, 61.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"digest" : "",
-						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p mark used"
@@ -847,11 +868,14 @@
 				"box" : 				{
 					"fontname" : "Gill Sans",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 23.0, 85.0, 45.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 41.0, 45.0, 20.0 ],
 					"text" : "recall"
 				}
 
@@ -957,6 +981,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1172,6 +1205,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1214,15 +1256,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-43", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-43", 0 ]
 				}
 
 			}
@@ -1293,16 +1326,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 357.0, 136.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1341,50 +1364,36 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "readwrite-ui.maxpat",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/interface",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/interface",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ali.remove-char.js",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Data_Transformation",
-				"patcherrelativepath" : "../../../../CNMAT-MMJ-Depot-WORKED/modules/Data_Transformation",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/data_transformation",
+				"patcherrelativepath" : "../data_transformation",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 681.0, -702.0, 857.0, 617.0 ],
+		"rect" : [ 33.0, 75.0, 887.0, 617.0 ],
 		"bgcolor" : [ 0.392157, 0.392157, 0.294118, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -57,7 +57,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -155,7 +155,7 @@
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 585.0, 521.0, 272.0, 82.0 ]
+					"patching_rect" : [ 585.5, 522.0, 293.0, 84.0 ]
 				}
 
 			}
@@ -283,7 +283,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -595,7 +595,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1043,6 +1043,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -1293,7 +1294,7 @@
 					"framecolor" : [ 1.0, 0.478431, 0.098039, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-46",
-					"items" : "Built-in Output",
+					"items" : [ "Built-in Output", ",", "Soundflower (2ch)", ",", "Soundflower (16ch)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1317,7 +1318,7 @@
 					"framecolor" : [ 1.0, 0.478431, 0.098039, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-47",
-					"items" : [ "Built-in Microphone", ",", "Built-in Input" ],
+					"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (16ch)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1371,7 +1372,7 @@
 					"framecolor" : [ 1.0, 0.478431, 0.098039, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-50",
-					"items" : [ 44100, ",", 48000, ",", 96000 ],
+					"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2229,57 +2230,43 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "one-channel.maxpat",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/applications/multitrack_recorders",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/examples/applications/multitrack_recorders",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Volumes/RafaelValle/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

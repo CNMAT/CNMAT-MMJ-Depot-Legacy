@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 10.0, 51.0, 1065.0, 775.0 ],
+		"rect" : [ 7.0, 49.0, 1065.0, 885.0 ],
 		"bgcolor" : [ 0.443137, 0.439216, 0.439216, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,11 +30,42 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "Soundfile Interpolation Space", "0.1a", "EJC / JML / JAM", "Soundfile Interpolation Space", 6666, "0.502 0.556 0.568 0.0" ],
+					"id" : "obj-99",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1343.0, 363.0, 297.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 796.0, 296.0, 86.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Soundfile Interpolation Space", "Interpolate multiple soundfiles using a 2-D mixing space", "0.502 0.556 0.568 0.0" ],
+					"id" : "obj-9",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 1328.0, 451.0, 308.0, 67.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 4.0, 496.0, 76.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-51",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1096.0, 272.0, 65.0, 20.0 ],
@@ -53,8 +85,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 340.0, 44.0, 202.0, 282.0 ],
@@ -146,8 +179,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 678.0, 110.0, 132.0, 216.0 ],
@@ -511,7 +545,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 761.0, 880.0, 167.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 889.0, 720.0, 167.0, 20.0 ],
+					"presentation_rect" : [ 889.0, 800.0, 167.0, 20.0 ],
 					"text" : "Frequency_Domain_Analysis"
 				}
 
@@ -527,7 +561,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 761.0, 805.0, 140.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 716.0, 712.0, 140.0, 58.0 ]
+					"presentation_rect" : [ 716.0, 792.0, 140.0, 58.0 ]
 				}
 
 			}
@@ -544,7 +578,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.5, 825.0, 102.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 940.0, 572.0, 119.0, 20.0 ],
+					"presentation_rect" : [ 940.0, 652.0, 119.0, 20.0 ],
 					"text" : "arrow key behavior: ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -606,7 +640,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 501.5, 844.0, 84.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 948.0, 636.0, 84.0, 19.0 ],
+					"presentation_rect" : [ 948.0, 716.0, 84.0, 19.0 ],
 					"text" : "ramp time (ms)"
 				}
 
@@ -623,7 +657,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 501.5, 865.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 948.0, 655.0, 99.5, 20.0 ]
+					"presentation_rect" : [ 948.0, 735.0, 99.5, 20.0 ]
 				}
 
 			}
@@ -638,7 +672,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 423.5, 844.0, 54.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 948.0, 592.0, 54.0, 19.0 ],
+					"presentation_rect" : [ 948.0, 672.0, 54.0, 19.0 ],
 					"text" : "step size"
 				}
 
@@ -657,7 +691,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 421.5, 865.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 948.0, 611.0, 99.5, 20.0 ]
+					"presentation_rect" : [ 948.0, 691.0, 99.5, 20.0 ]
 				}
 
 			}
@@ -674,8 +708,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -776,8 +811,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 75.0, 119.0, 334.0, 328.0 ],
@@ -1090,8 +1126,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 75.0, 119.0, 640.0, 480.0 ],
@@ -1356,8 +1393,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 75.0, 119.0, 640.0, 480.0 ],
@@ -2049,8 +2087,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 676.0, 394.0, 771.0, 536.0 ],
@@ -2378,7 +2417,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1312.0, 172.0, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 824.0, 152.0, 104.0, 20.0 ],
+					"presentation_rect" : [ 824.0, 232.0, 104.0, 20.0 ],
 					"text" : "spread of flower",
 					"textcolor" : [ 0.652968, 0.859197, 0.901961, 1.0 ]
 				}
@@ -2399,7 +2438,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1262.0, 172.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 152.0, 100.0, 20.0 ]
+					"presentation_rect" : [ 724.0, 232.0, 100.0, 20.0 ]
 				}
 
 			}
@@ -2422,7 +2461,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1090.5, 44.0, 295.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 79.0, 204.0, 19.0 ],
+					"presentation_rect" : [ 724.0, 159.0, 204.0, 19.0 ],
 					"spacing_x" : 10.0,
 					"spacing_y" : 0.0,
 					"tabs" : [ "manual", "grid", "flower" ],
@@ -2457,7 +2496,7 @@
 					"patching_rect" : [ 1146.5, 520.0, 152.0, 219.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 22,
-					"presentation_rect" : [ 940.0, 257.0, 120.0, 253.0 ],
+					"presentation_rect" : [ 940.0, 337.0, 120.0, 253.0 ],
 					"text" : "To get started:\n\nEither enable the layout mode or leave as is.\nDrop a folder of soundfiles onto the drop area.\nAfter sounds have loaded, you have options:\n\nIf layout: Select a soundfile and set its pan location, then audition it\nIf no layout: Click on 'place' and then click in the 2d space to place it.  Repeat until satisfied with the space setup.  Click-drag around the space to hear the sound files being mixed."
 				}
 
@@ -2474,7 +2513,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 656.0, 690.0, 146.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 964.5, 218.0, 83.0, 18.0 ],
+					"presentation_rect" : [ 964.5, 298.0, 83.0, 18.0 ],
 					"text" : "REVERB on/off",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2493,8 +2532,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2636,7 +2676,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 634.5, 686.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 948.0, 218.0, 16.0, 16.0 ]
+					"presentation_rect" : [ 948.0, 298.0, 16.0, 16.0 ]
 				}
 
 			}
@@ -2665,7 +2705,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 612.0, 764.0, 116.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 940.0, 236.0, 116.0, 20.0 ]
+					"presentation_rect" : [ 940.0, 316.0, 116.0, 20.0 ]
 				}
 
 			}
@@ -2840,7 +2880,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1248.0, 280.0, 103.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 740.0, 172.0, 171.0, 20.0 ],
+					"presentation_rect" : [ 740.0, 252.0, 171.0, 20.0 ],
 					"text" : "set pan for audition and place:",
 					"textcolor" : [ 1.0, 0.894118, 0.894118, 1.0 ]
 				}
@@ -2886,7 +2926,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1204.0, 336.0, 103.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 748.0, 212.0, 117.0, 20.0 ],
+					"presentation_rect" : [ 748.0, 292.0, 117.0, 20.0 ],
 					"text" : "<< set to center pan",
 					"textcolor" : [ 1.0, 0.894118, 0.894118, 1.0 ]
 				}
@@ -2901,7 +2941,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1180.0, 336.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 212.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 724.0, 292.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -2959,7 +2999,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1176.0, 423.0, 124.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 192.0, 204.000015, 16.0 ],
+					"presentation_rect" : [ 724.0, 272.0, 204.000015, 16.0 ],
 					"size" : 100.0
 				}
 
@@ -2992,7 +3032,7 @@
 					"patching_rect" : [ 812.0, 600.0, 69.0, 152.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 716.0, 492.0, 218.0, 51.0 ],
+					"presentation_rect" : [ 716.0, 572.0, 218.0, 51.0 ],
 					"text" : "note:  when reading in preset files, make sure that all of your sounds are in the same folder as the preset file.  otherwise, they will not be found.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -3010,7 +3050,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 72.0, 940.0, 172.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 268.0, 173.0, 20.0 ],
+					"presentation_rect" : [ 744.0, 348.0, 173.0, 20.0 ],
 					"text" : "< looping on/off",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -3040,7 +3080,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 400.0, 148.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 268.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 720.0, 348.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -3112,8 +3152,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 450.0, 474.0 ],
@@ -3456,7 +3497,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 956.0, 468.0, 183.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 236.0, 203.999969, 26.0 ],
+					"presentation_rect" : [ 724.0, 316.0, 203.999969, 26.0 ],
 					"tabs" : [ "audition", "place" ]
 				}
 
@@ -3474,7 +3515,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1060.0, 332.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 152.0, 204.0, 20.0 ]
+					"presentation_rect" : [ 724.0, 232.0, 204.0, 20.0 ]
 				}
 
 			}
@@ -3491,8 +3532,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3683,8 +3725,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 550.0, 197.0, 1130.0, 746.0 ],
@@ -4755,7 +4798,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 824.0, 52.0, 89.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 786.0, 320.0, 89.0, 20.0 ],
+					"presentation_rect" : [ 786.0, 400.0, 89.0, 20.0 ],
 					"text" : "Delete a circle"
 				}
 
@@ -4778,7 +4821,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 656.0, 52.0, 98.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 348.0, 212.0, 20.0 ]
+					"presentation_rect" : [ 720.0, 428.0, 212.0, 20.0 ]
 				}
 
 			}
@@ -4823,7 +4866,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 852.0, 126.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 392.0, 212.0, 20.0 ],
+					"presentation_rect" : [ 720.0, 472.0, 212.0, 20.0 ],
 					"text" : "Save and Recall XY display presets"
 				}
 
@@ -4837,7 +4880,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 159.0, 652.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 384.0, 212.0, 32.0 ]
+					"presentation_rect" : [ 720.0, 464.0, 212.0, 32.0 ]
 				}
 
 			}
@@ -4854,8 +4897,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 574.0, 136.0, 562.0, 438.0 ],
@@ -5399,7 +5443,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 72.0, 888.0, 92.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 760.0, 424.0, 171.0, 20.0 ],
+					"presentation_rect" : [ 760.0, 504.0, 171.0, 20.0 ],
 					"text" : "manually clear the space"
 				}
 
@@ -5415,7 +5459,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 832.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 860.0, 624.0, 63.0, 20.0 ],
+					"presentation_rect" : [ 860.0, 704.0, 63.0, 20.0 ],
 					"text" : "RECORD"
 				}
 
@@ -5432,7 +5476,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 700.0, 126.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 764.0, 560.0, 126.0, 20.0 ],
+					"presentation_rect" : [ 764.0, 640.0, 126.0, 20.0 ],
 					"text" : "Record XY Gestures"
 				}
 
@@ -5446,7 +5490,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 134.0, 652.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 552.0, 212.0, 32.0 ]
+					"presentation_rect" : [ 720.0, 632.0, 212.0, 32.0 ]
 				}
 
 			}
@@ -5461,7 +5505,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 820.0, 392.0, 35.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 656.0, 40.0, 18.0 ],
+					"presentation_rect" : [ 724.0, 736.0, 40.0, 18.0 ],
 					"text" : "read"
 				}
 
@@ -5477,7 +5521,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 860.0, 392.0, 49.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 768.0, 624.0, 65.0, 18.0 ],
+					"presentation_rect" : [ 768.0, 704.0, 65.0, 18.0 ],
 					"text" : "saveas"
 				}
 
@@ -5493,7 +5537,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 916.0, 392.0, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 624.0, 40.0, 18.0 ],
+					"presentation_rect" : [ 724.0, 704.0, 40.0, 18.0 ],
 					"text" : "save"
 				}
 
@@ -5509,7 +5553,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 772.0, 392.0, 37.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 768.0, 656.0, 64.0, 18.0 ],
+					"presentation_rect" : [ 768.0, 736.0, 64.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -5525,7 +5569,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 732.0, 392.0, 33.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 768.0, 592.0, 64.0, 18.0 ],
+					"presentation_rect" : [ 768.0, 672.0, 64.0, 18.0 ],
 					"text" : "stop"
 				}
 
@@ -5541,7 +5585,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 696.0, 392.0, 33.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 592.0, 40.0, 18.0 ],
+					"presentation_rect" : [ 724.0, 672.0, 40.0, 18.0 ],
 					"text" : "play"
 				}
 
@@ -5558,7 +5602,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 680.0, 348.0, 26.671055, 26.671055 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 848.0, 592.0, 84.0, 84.0 ]
+					"presentation_rect" : [ 848.0, 672.0, 84.0, 84.0 ]
 				}
 
 			}
@@ -5575,8 +5619,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 667.0, 96.0, 880.0, 726.0 ],
@@ -6636,7 +6681,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 72.0, 172.0, 267.0, 267.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 708.0, 708.0 ],
+					"presentation_rect" : [ 4.0, 84.0, 708.0, 708.0 ],
 					"spaces" : [ "space", 0 ],
 					"varname" : "rbfi",
 					"xmin" : -1.0,
@@ -6655,7 +6700,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 764.0, 165.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 760.0, 448.0, 171.0, 20.0 ],
+					"presentation_rect" : [ 760.0, 528.0, 171.0, 20.0 ],
 					"text" : "load a saved preset from disk"
 				}
 
@@ -6671,7 +6716,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 740.0, 171.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 760.0, 472.0, 171.0, 20.0 ],
+					"presentation_rect" : [ 760.0, 552.0, 171.0, 20.0 ],
 					"text" : "save the current preset to disk"
 				}
 
@@ -6689,8 +6734,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 9.0, 48.0, 908.0, 631.0 ],
@@ -6906,7 +6952,7 @@
 ,
 					"patching_rect" : [ 280.0, 732.0, 209.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 120.0, 210.0, 27.0 ],
+					"presentation_rect" : [ 720.0, 200.0, 210.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -6935,7 +6981,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 468.0, 520.0, 100.0, 192.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 944.0, 8.0, 100.0, 190.0 ]
+					"presentation_rect" : [ 944.0, 88.0, 100.0, 190.0 ]
 				}
 
 			}
@@ -6952,8 +6998,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 276.0, 271.0 ],
@@ -7109,7 +7156,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 52.0, 33.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 448.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 720.0, 528.0, 36.0, 18.0 ],
 					"text" : "load"
 				}
 
@@ -7127,8 +7174,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 349.0, 116.0, 1207.0, 786.0 ],
@@ -7260,8 +7308,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -7475,8 +7524,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 878.0, 555.0 ],
@@ -9037,7 +9087,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 72.0, 28.0, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 472.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 720.0, 552.0, 36.0, 18.0 ],
 					"text" : "save"
 				}
 
@@ -9056,7 +9106,7 @@
 					"patching_rect" : [ 72.0, 920.0, 109.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 732.0, 24.0, 188.0, 47.0 ],
+					"presentation_rect" : [ 732.0, 104.0, 188.0, 47.0 ],
 					"text" : "Select layout type below, then drop a folder of soundfiles here (.aif, .wav)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -9075,8 +9125,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 130.0, 113.0, 1072.0, 611.0 ],
@@ -9111,8 +9162,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 377.0, 186.0, 709.0, 757.0 ],
@@ -9229,8 +9281,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 4,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 152.0, 44.0, 995.0, 690.0 ],
@@ -9308,8 +9361,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 4,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -10422,8 +10476,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 4,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 811.0, 57.0, 742.0, 598.0 ],
@@ -10724,8 +10779,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 4,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 256.0, 418.0 ],
@@ -12385,7 +12441,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 112.0, 37.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 424.0, 37.0, 18.0 ],
+					"presentation_rect" : [ 720.0, 504.0, 37.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -12401,7 +12457,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 464.0, 12.0, 110.0, 53.467529 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 12.0, 204.0, 90.0 ]
+					"presentation_rect" : [ 724.0, 92.0, 204.0, 90.0 ]
 				}
 
 			}
@@ -12437,7 +12493,7 @@
 					"patching_rect" : [ 72.0, 568.0, 348.0, 44.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 716.0, 684.0, 340.0, 28.0 ],
+					"presentation_rect" : [ 716.0, 764.0, 340.0, 28.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"size" : 11
 				}
@@ -12452,7 +12508,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 156.0, 628.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 716.0, 4.0, 220.0, 108.0 ],
+					"presentation_rect" : [ 716.0, 84.0, 220.0, 108.0 ],
 					"rounded" : 15
 				}
 
@@ -12466,7 +12522,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.0, 628.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 940.0, 4.0, 116.0, 676.0 ],
+					"presentation_rect" : [ 940.0, 84.0, 116.0, 676.0 ],
 					"rounded" : 15
 				}
 
@@ -12480,7 +12536,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 782.5, 52.0, 26.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 316.0, 212.0, 28.0 ]
+					"presentation_rect" : [ 720.0, 396.0, 212.0, 28.0 ]
 				}
 
 			}
@@ -12493,7 +12549,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 108.0, 628.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 716.0, 116.0, 220.0, 260.0 ],
+					"presentation_rect" : [ 716.0, 196.0, 220.0, 260.0 ],
 					"rounded" : 15
 				}
 
@@ -12507,7 +12563,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 628.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 716.0, 548.0, 220.0, 132.0 ],
+					"presentation_rect" : [ 716.0, 628.0, 220.0, 132.0 ],
 					"rounded" : 15
 				}
 
@@ -12521,7 +12577,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 180.0, 628.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 716.0, 380.0, 220.0, 164.0 ],
+					"presentation_rect" : [ 716.0, 460.0, 220.0, 164.0 ],
 					"rounded" : 15
 				}
 
@@ -13738,127 +13794,113 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sfinterp.poly.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/soundfiles-sampling/sfinterp",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/examples/applications/soundfiles-sampling/sfinterp",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "addpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/utilities",
-				"patcherrelativepath" : "../../../modules/utilities",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/utilities",
+				"patcherrelativepath" : "../../../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/mixing_and_gain",
-				"patcherrelativepath" : "../../../modules/mixing_and_gain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/mixing_and_gain",
+				"patcherrelativepath" : "../../../../patchers/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan+amp~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/diffusion",
-				"patcherrelativepath" : "../../../modules/diffusion",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/diffusion",
+				"patcherrelativepath" : "../../../../patchers/diffusion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OSC-yafr2-wrap~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/examples/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../../../tutorials/Music29/Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OSC-yafr2~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/effects_audio",
-				"patcherrelativepath" : "../../../modules/effects_audio",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/effects_audio",
+				"patcherrelativepath" : "../../../../patchers/effects_audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "/Applications/Max6/examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../../../../../../../../../../../Applications/Max6/examples/effects/reverb/lib",
+				"bootpath" : "/Applications/Max 6.1/examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../../../../../../../../../../../../../Applications/Max 6.1/examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_disclaimer.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/effects_audio",
-				"patcherrelativepath" : "../../../modules/effects_audio",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/effects_audio",
+				"patcherrelativepath" : "../../../../patchers/effects_audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency_Domain_Analysis.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/examples/tutorials/Music29/Frequency Domain",
 				"patcherrelativepath" : "../../../tutorials/Music29/Frequency Domain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic_programming",
-				"patcherrelativepath" : "../../../modules/basic_programming",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/basic_programming",
+				"patcherrelativepath" : "../../../../patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}

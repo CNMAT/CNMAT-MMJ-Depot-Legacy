@@ -30,35 +30,6 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "harmv2~", "Replaces IRCAM's harmv2~ with harm-gran~", "0.296 0.594 0.784 1." ],
-					"id" : "obj-42",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "banner.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ -21.0, -68.0 ],
-					"patching_rect" : [ 0.0, 7.0, 449.0, 77.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 797.0, 693.0, 511.0, 76.0 ],
-					"prototypename" : "cnmat_banner"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "harmv2~", 1.01, " Michael Zbyszynski", "harmv2~", 2512, "0.296 0.594 0.784 1." ],
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "badge.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 119.0, 125.0, 298.0, 91.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
 					"maxclass" : "outlet",
@@ -175,53 +146,6 @@
 					"source" : [ "obj-7", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "harm-gran~.maxpat",
-				"bootpath" : "/Volumes/liferaid/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Effects-audio",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
