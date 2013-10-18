@@ -11,7 +11,6 @@ if($mode == "html" || $mode == "overview"){
 }
 
 $outfile = fopen('outfile.txt', 'w');
-$path = '.';
 $header = array("name", "description", "authors", "version");
 $header_spacing = 200;
 $offset_left = 10;
@@ -25,15 +24,15 @@ $c->set_destination("localhost", 8000);
 //$a = new OSCMessage("/foo", array(1, 2.94, "bar"));
 //$c->send($a);
 
-$tuti_html = fopen('../generated_depot_files/tutorials.html', 'w');
-$tuto_html = fopen('../generated_depot_files/tutors.html', 'w');
-$modu_html = fopen('../generated_depot_files/modules.html', 'w');
-$apps_html = fopen('../generated_depot_files/applications.html', 'w');
-$demo_html = fopen('../generated_depot_files/demos.html', 'w');
-$repe_html = fopen('../generated_depot_files/repertoire.html', 'w');
+$tuti_html = fopen('generated_depot_files/tutorials.html', 'w');
+$tuto_html = fopen('generated_depot_files/tutors.html', 'w');
+$modu_html = fopen('generated_depot_files/patchers.html', 'w');
+$apps_html = fopen('generated_depot_files/applications.html', 'w');
+$demo_html = fopen('generated_depot_files/demos.html', 'w');
+$repe_html = fopen('generated_depot_files/repertoire.html', 'w');
 
 function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html, $repe_html){
-    $outpath = getcwd() . '/../generated_depot_files/';
+    $outpath = getcwd() . '/generated_depot_files/';
     $in_dir = 'none';
     $f_tuti = $f_tuto = $f_modu = $f_apps = $f_demo = $f_repe = false;
     $thisdir = new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS);
@@ -60,10 +59,10 @@ function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_
 		    $f_tuto = true;
 		    $inc = 0;
 		}
-	    }else if(strpos($object->getPathname(), 'modules') == true){
-		$in_dir = 'modules';
+	    }else if(strpos($object->getPathname(), 'patchers') == true){
+		$in_dir = 'patchers';
 		if(!$f_modu){
-		    echo "in modules  \n";
+		    echo "in patchers  \n";
 		    fileHeader($modu_html, $in_dir);
 		    $f_modu = true;
 		    $inc = 0;
@@ -101,7 +100,7 @@ function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_
 		case 'tutors':
 		    checkFile($object, $tuto_html, $in_dir);
 		    break;
-		case 'modules':
+		case 'patchers':
 		    checkFile($object, $modu_html, $in_dir);
 		    break;
 		case 'applications':
@@ -300,7 +299,7 @@ function extractData($thisfile, $outref, $section){
     }
 }
 
-getPatches('.', $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html, $repe_html);
+getPatches('../', $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html, $repe_html);
 closeFiles($tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html, $repe_html);
 ?>	
 

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 16.0, 56.0, 593.0, 580.0 ],
+		"rect" : [ 34.0, 57.0, 593.0, 580.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
@@ -187,7 +187,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "data_recorder_list", "record lists into a collection and play them back", "0.296 0.594 0.784 1." ],
+					"args" : [ "data_recorder_list", "record lists into a collection and plays them back", "0.296 0.594 0.784 1." ],
 					"id" : "obj-1",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
