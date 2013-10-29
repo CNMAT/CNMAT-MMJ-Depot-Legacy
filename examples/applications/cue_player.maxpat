@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 14.0, 53.0, 419.0, 510.0 ],
+		"rect" : [ 194.0, 44.0, 433.0, 510.0 ],
 		"bgcolor" : [ 0.315607, 0.381425, 0.450162, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -68,7 +68,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 200.0, 340.0, 292.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 413.299561, 292.0, 86.0 ]
+					"presentation_rect" : [ 119.0, 413.299561, 292.0, 86.0 ]
 				}
 
 			}
@@ -86,7 +86,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -244,7 +244,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -557,7 +557,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -628,7 +628,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-4",
-									"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "QuNexus Port 1", ",", "QuNexus Port 2", ",", "QuNexus Port 3", ",", "from Max 1", ",", "from Max 2" ],
 									"labelclick" : 1,
 									"maxclass" : "umenu",
 									"numinlets" : 1,
@@ -932,7 +932,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1112,7 +1112,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1519,7 +1519,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2152,7 +2152,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2627,7 +2627,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2734,7 +2734,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -2796,7 +2796,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -3187,7 +3187,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -4098,7 +4098,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -4186,7 +4186,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -4563,7 +4563,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -5016,7 +5016,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -5104,7 +5104,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -5481,7 +5481,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -5934,7 +5934,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -6022,7 +6022,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -6399,7 +6399,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -6852,7 +6852,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -6940,7 +6940,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -7317,7 +7317,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -7770,7 +7770,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -7858,7 +7858,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -8235,7 +8235,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -10008,43 +10008,57 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../patchers/depot_support",
+				"bootpath" : "/Users/gabacheker/Documents/maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
+				"patcherrelativepath" : "../../../../../maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../patchers/depot_support",
+				"bootpath" : "/Users/gabacheker/Documents/maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
+				"patcherrelativepath" : "../../../../../maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../patchers/depot_support",
+				"bootpath" : "/Users/gabacheker/Documents/maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
+				"patcherrelativepath" : "../../../../../maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Users/gabacheker/Documents/maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
+				"patcherrelativepath" : "../../../../../maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Users/gabacheker/Documents/maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
+				"patcherrelativepath" : "../../../../../maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/mixing_and_gain",
-				"patcherrelativepath" : "../../patchers/mixing_and_gain",
+				"bootpath" : "/Users/gabacheker/Documents/maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/mixing_and_gain",
+				"patcherrelativepath" : "../../../../../maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../patchers/depot_support",
+				"bootpath" : "/Users/gabacheker/Documents/maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
+				"patcherrelativepath" : "../../../../../maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../patchers/depot_support",
+				"bootpath" : "/Users/gabacheker/Documents/maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
+				"patcherrelativepath" : "../../../../../maxliB/CNMAT-CNMAT-MMJ-Depot-7782752/modules/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
