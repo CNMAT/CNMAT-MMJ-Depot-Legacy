@@ -9716,7 +9716,7 @@
 					"patching_rect" : [ 23.0, 41.0, 172.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 3.0, 121.0, 172.0, 25.0 ],
+					"presentation_rect" : [ 4.0, 121.0, 172.0, 25.0 ],
 					"text" : "click1.aif, click2.aif, click3.aif, click4.aif, click5.aif, click6.aif, click7.aif"
 				}
 
