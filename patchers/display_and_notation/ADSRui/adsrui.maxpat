@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 5
 		}
 ,
-		"rect" : [ 417.0, 158.0, 784.0, 572.0 ],
+		"rect" : [ 468.0, 125.0, 767.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,23 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "ADSRUI", "User interface for adsr~", "0.296 0.594 0.784 1." ],
+					"id" : "obj-42",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 21.75, 11.0, 502.25, 75.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 797.0, 693.0, 511.0, 76.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"attr" : "fontsize",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -36,20 +53,19 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 505.0, 457.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 487.0, 487.0, 0.0, 0.0 ]
+					"patching_rect" : [ 289.0, 156.0, 150.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "adsrui", 1.0, "Michael Zbyszyński & Peter Nyboer" ],
+					"args" : [ "adsrui", 1.0, " Zbyszyński & Nyboer", "adsrui", 7777, "0.296 0.594 0.784 1." ],
 					"id" : "obj-21",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 475.5, 239.5, 302.0, 89.0 ]
+					"patching_rect" : [ 446.0, 494.5, 302.0, 89.0 ]
 				}
 
 			}
@@ -62,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 210.0, 258.0, 18.0 ],
+					"patching_rect" : [ 490.0, 295.0, 258.0, 18.0 ],
 					"text" : "list_rel 0.184211 0.210526 0.470584 0.361974"
 				}
 
@@ -76,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 415.0, 261.0, 18.0 ],
+					"patching_rect" : [ 178.0, 440.0, 261.0, 18.0 ],
 					"text" : "0.184211 0.210526 0.470584 0.352941"
 				}
 
@@ -85,12 +101,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 10.0, 64.0, 20.0 ],
+					"patching_rect" : [ 460.0, 95.0, 64.0, 20.0 ],
 					"text" : "no output:"
 				}
 
@@ -104,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 455.0, 210.0, 50.0, 20.0 ],
+					"patching_rect" : [ 455.0, 320.0, 50.0, 20.0 ],
 					"text" : "nothing"
 				}
 
@@ -118,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.5, 75.0, 114.0, 18.0 ],
+					"patching_rect" : [ 475.5, 160.0, 114.0, 18.0 ],
 					"text" : "50 100. 0.6 100000"
 				}
 
@@ -132,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.5, 183.0, 261.0, 18.0 ],
+					"patching_rect" : [ 475.5, 268.0, 261.0, 18.0 ],
 					"text" : "0. 29696.431641 0.574655 47213.042969"
 				}
 
@@ -146,7 +161,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.5, 164.0, 261.0, 18.0 ],
+					"patching_rect" : [ 475.5, 249.0, 261.0, 18.0 ],
 					"text" : "0. 4.901439 0.638003 5."
 				}
 
@@ -160,7 +175,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 455.0, 30.0, 155.0, 18.0 ],
+					"patching_rect" : [ 455.0, 115.0, 155.0, 18.0 ],
 					"text" : "setlist 1000. 2000 0.5 2000"
 				}
 
@@ -174,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.5, 120.0, 261.0, 18.0 ],
+					"patching_rect" : [ 475.5, 205.0, 261.0, 18.0 ],
 					"text" : "0. 5.253302 0.475109 2.71"
 				}
 
@@ -188,22 +203,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.25, 48.0, 93.0, 18.0 ],
+					"patching_rect" : [ 238.25, 113.0, 93.0, 18.0 ],
 					"text" : "initPoints, bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-34",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.25, 48.0, 94.0, 18.0 ],
-					"text" : "50 100. 0.6 200"
 				}
 
 			}
@@ -216,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.5, 140.0, 261.0, 18.0 ],
+					"patching_rect" : [ 475.5, 225.0, 261.0, 18.0 ],
 					"text" : "115.612061 210.526321 0.470584 352.941162"
 				}
 
@@ -230,7 +231,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.5, 93.0, 114.0, 18.0 ],
+					"patching_rect" : [ 475.5, 178.0, 114.0, 18.0 ],
 					"text" : "50 100000. 0.6 200"
 				}
 
@@ -244,7 +245,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.5, 55.0, 94.0, 18.0 ],
+					"patching_rect" : [ 475.5, 140.0, 94.0, 18.0 ],
 					"text" : "50 100. 0.6 200"
 				}
 
@@ -256,7 +257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 107.0, 178.0, 20.0, 20.0 ]
+					"patching_rect" : [ 107.0, 208.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -269,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.75, 368.0, 41.0, 18.0 ],
+					"patching_rect" : [ 69.75, 398.0, 41.0, 18.0 ],
 					"text" : "dump"
 				}
 
@@ -282,7 +283,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 298.25, 499.0, 34.0, 20.0 ],
+					"patching_rect" : [ 298.25, 524.0, 34.0, 20.0 ],
 					"text" : "print"
 				}
 
@@ -297,7 +298,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 186.0, 150.0, 20.0 ]
+					"patching_rect" : [ 289.0, 216.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -311,7 +312,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 166.0, 150.0, 20.0 ]
+					"patching_rect" : [ 289.0, 196.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -325,7 +326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 146.0, 150.0, 20.0 ]
+					"patching_rect" : [ 289.0, 176.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -338,7 +339,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 154.75, 375.0, 261.0, 18.0 ],
+					"patching_rect" : [ 154.75, 405.0, 261.0, 18.0 ],
 					"text" : "184.210526 210.526321 0.470584 352.941162"
 				}
 
@@ -351,7 +352,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 21.75, 339.0, 20.0, 20.0 ]
+					"patching_rect" : [ 21.75, 369.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -361,7 +362,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.25, 481.0, 95.0, 75.0 ]
+					"patching_rect" : [ 95.25, 506.0, 95.0, 75.0 ]
 				}
 
 			}
@@ -372,7 +373,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 44.75, 511.0, 45.0, 45.0 ]
+					"patching_rect" : [ 44.75, 536.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -385,7 +386,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 146.0, 83.0, 60.0, 20.0 ],
+					"patching_rect" : [ 146.0, 113.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -399,7 +400,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 146.0, 75.0, 18.0 ],
+					"patching_rect" : [ 146.0, 176.0, 75.0, 18.0 ],
 					"text" : "autowatch 1"
 				}
 
@@ -413,7 +414,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 237.0, 146.0, 37.0, 18.0 ],
+					"patching_rect" : [ 237.0, 176.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -421,7 +422,7 @@
 , 			{
 				"box" : 				{
 					"border" : 0,
-					"embedstate" : [ [ "duration", 1000 ], [ "curvy", 1 ], [ "fontsize", 10 ], [ "label", 0 ] ],
+					"embedstate" : [ [ "label", 0 ], [ "fontsize", 10 ], [ "duration", 1000 ], [ "curvy", 1 ] ],
 					"filename" : "adsrui.js",
 					"id" : "obj-3",
 					"maxclass" : "jsui",
@@ -429,7 +430,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 229.0, 267.25, 130.0 ],
+					"patching_rect" : [ 135.0, 259.0, 267.25, 130.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 88.0, 88.0 ]
 				}
 
@@ -443,7 +444,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 95.25, 446.0, 222.0, 20.0 ],
+					"patching_rect" : [ 95.25, 471.0, 222.0, 20.0 ],
 					"text" : "adsr~"
 				}
 
@@ -553,6 +554,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 464.5, 349.0, 413.5, 349.0, 413.5, 249.0, 144.5, 249.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -686,51 +688,65 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "adsrui.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/display_and_notation/ADSRui",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/display_and_notation/ADSRui",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/basic-programming",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/basic-programming",
 				"patcherrelativepath" : "../../basic-programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
 				"patcherrelativepath" : "../../Depot_Support",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../Depot_Support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]

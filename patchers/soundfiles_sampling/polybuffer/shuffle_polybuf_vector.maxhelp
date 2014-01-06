@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 707.0, 417.0 ],
+		"rect" : [ 25.0, 69.0, 720.0, 447.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,14 +29,32 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-23",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 210.0, 208.0, 18.0 ]
+					"args" : [ "shuffle_polybuf_vector", "Takes a folder with audio files and creates a random shuffle playback list", "0.296 0.594 0.784 1." ],
+					"id" : "obj-42",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 8.0, 2.0, 506.0, 76.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 797.0, 693.0, 511.0, 76.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "shuffle_polybuf_vector", "0.1a", "authors", "shuffle_polybuf_vector", 6666, "0.296 0.594 0.784 1." ],
+					"id" : "obj-41",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 389.0, 330.0, 297.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 134.0, 670.0, 296.0, 86.0 ]
 				}
 
 			}
@@ -43,11 +62,27 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-23",
+					"linecount" : 8,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 324.0, 187.5, 208.0, 112.0 ],
+					"text" : "somesounds.11 somesounds.13 somesounds.7 somesounds.7 somesounds.20 somesounds.18 somesounds.15 somesounds.9 somesounds.15 somesounds.14 somesounds.8 somesounds.20 somesounds.20 somesounds.4 somesounds.17 somesounds.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 335.0, 55.0, 138.0, 20.0 ],
+					"patching_rect" : [ 335.0, 85.0, 138.0, 20.0 ],
 					"text" : "create a new row vector"
 				}
 
@@ -59,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 315.0, 55.0, 20.0, 20.0 ]
+					"patching_rect" : [ 315.0, 85.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -67,12 +102,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-17",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.0, 73.0, 150.0, 62.0 ],
+					"patching_rect" : [ 540.0, 85.0, 121.0, 61.0 ],
 					"text" : "args: \n\n1 number of steps\n2: coll to shuffle from"
 				}
 
@@ -86,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 115.0, 203.0, 20.0 ],
+					"patching_rect" : [ 315.0, 145.0, 203.0, 20.0 ],
 					"text" : "shuffle_polybuf_vector 16 mysounds"
 				}
 
@@ -100,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "clear" ],
-					"patching_rect" : [ 75.0, 105.0, 49.0, 20.0 ],
+					"patching_rect" : [ 75.0, 135.0, 49.0, 20.0 ],
 					"text" : "t l clear"
 				}
 
@@ -114,7 +150,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 140.0, 270.0, 39.0, 20.0 ],
+					"patching_rect" : [ 140.0, 300.0, 39.0, 20.0 ],
 					"text" : "zl rev"
 				}
 
@@ -128,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 230.0, 84.0, 20.0 ],
+					"patching_rect" : [ 75.0, 260.0, 84.0, 20.0 ],
 					"text" : "route done"
 				}
 
@@ -142,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 300.0, 85.0, 20.0 ],
+					"patching_rect" : [ 140.0, 330.0, 85.0, 20.0 ],
 					"text" : "prepend store"
 				}
 
@@ -151,11 +187,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.0, 55.0, 150.0, 20.0 ],
+					"patching_rect" : [ 113.0, 85.0, 150.0, 20.0 ],
 					"text" : "drop folder of sounds here"
 				}
 
@@ -169,8 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 105.0, 350.0, 87.0, 20.0 ],
-					"presentation_rect" : [ 200.0, 243.0, 0.0, 0.0 ],
+					"patching_rect" : [ 105.0, 380.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -188,7 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 205.0, 98.0, 20.0 ],
+					"patching_rect" : [ 75.0, 235.0, 98.0, 20.0 ],
 					"text" : "route shortname"
 				}
 
@@ -202,7 +238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 205.0, 84.0, 18.0 ],
+					"patching_rect" : [ 197.0, 235.0, 84.0, 18.0 ],
 					"text" : "getshortname"
 				}
 
@@ -216,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 145.0, 112.0, 20.0 ],
+					"patching_rect" : [ 75.0, 175.0, 112.0, 20.0 ],
 					"text" : "prepend readfolder"
 				}
 
@@ -228,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 55.0, 38.0, 35.0 ]
+					"patching_rect" : [ 75.0, 85.0, 38.0, 35.0 ]
 				}
 
 			}
@@ -241,7 +277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 75.0, 170.0, 141.0, 20.0 ],
+					"patching_rect" : [ 75.0, 200.0, 141.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -380,9 +416,44 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "shuffle_polybuf_vector.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/tutorials/Music29/Misc Support",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Volumes/liferaid/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Soundfiles-sampling/polybuffer",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]

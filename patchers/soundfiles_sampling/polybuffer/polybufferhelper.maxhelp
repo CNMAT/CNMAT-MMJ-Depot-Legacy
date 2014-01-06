@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+		"rect" : [ 25.0, 69.0, 650.0, 467.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +29,31 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "polybuffer.helper", "0.1a", "Jeff Lubow", "polybuffer.helper", 7777, "0.296 0.594 0.784 1." ],
+					"id" : "obj-3",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 349.0, 370.0, 292.0, 86.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "polybuffer.helper", "Utility for polybuffer~ - Builds an internal dictionary that can be queried", "0.296 0.594 0.784 1." ],
+					"id" : "obj-2",
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -18.0, -68.0 ],
+					"patching_rect" : [ 24.0, 11.0, 511.0, 76.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-22",
@@ -38,8 +64,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -177,7 +204,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 140.0, 350.0, 75.0, 20.0 ],
+					"patching_rect" : [ 90.0, 360.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -198,20 +225,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 240.0, 150.0, 20.0 ],
-					"text" : "jml 2012"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-6",
@@ -219,38 +232,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 298.0, 144.0, 230.0, 74.0 ],
+					"patching_rect" : [ 248.0, 137.0, 230.0, 74.0 ],
 					"text" : "input:\n name of file on disk, without extension.\n\noutput: \ndata for menu population, prepended by <menu>\nbuffername as associated with filename input"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-4",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 298.0, 80.0, 209.0, 60.0 ],
-					"text" : "utility to aid in access of polybuffer~s buffers.  builds an internal dictionary that can be accessed by name, and allows for direct population of menus"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : 0.0,
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 298.0, 50.0, 190.0, 22.0 ],
-					"text" : "polybufferhelper"
 				}
 
 			}
@@ -262,7 +245,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 324.0, 379.0, 157.0, 20.0 ],
+					"patching_rect" : [ 175.0, 360.0, 157.0, 20.0 ],
 					"text" : "print buffername @popup 1"
 				}
 
@@ -276,7 +259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 120.0, 68.0, 20.0 ],
+					"patching_rect" : [ 90.0, 130.0, 68.0, 20.0 ],
 					"text" : "drop folder"
 				}
 
@@ -290,7 +273,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 114.0, 310.0, 71.0, 20.0 ],
+					"patching_rect" : [ 64.0, 320.0, 71.0, 20.0 ],
 					"text" : "route menu"
 				}
 
@@ -302,7 +285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 64.0, 210.0, 20.0, 20.0 ]
+					"patching_rect" : [ 24.0, 220.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -315,7 +298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 114.0, 240.0, 63.0, 20.0 ],
+					"patching_rect" : [ 64.0, 250.0, 63.0, 20.0 ],
 					"text" : "zl.reg"
 				}
 
@@ -331,7 +314,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 114.0, 379.0, 170.0, 20.0 ],
+					"patching_rect" : [ 64.0, 389.0, 170.0, 20.0 ],
 					"prefix" : "menu",
 					"prefix_mode" : 1
 				}
@@ -344,7 +327,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 114.0, 100.0, 120.0, 60.0 ],
+					"patching_rect" : [ 64.0, 110.0, 120.0, 60.0 ],
 					"types" : [ "fold" ]
 				}
 
@@ -360,7 +343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 280.0, 249.0, 20.0 ],
+					"patching_rect" : [ 64.0, 290.0, 249.0, 20.0 ],
 					"text" : "polybufferhelper pbname @dictname mybufs",
 					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
 				}
@@ -381,7 +364,7 @@
 					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 199.0, 414.0, 101.25, 414.0, 101.25, 270.0, 123.5, 270.0 ],
+					"midpoints" : [ 149.0, 424.0, 51.25, 424.0, 51.25, 280.0, 73.5, 280.0 ],
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -443,16 +426,51 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "polybufferhelper.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Soundfiles-sampling/polybuffer",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/polybuffer",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "addpath.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Utilities",
-				"patcherrelativepath" : "../../Utilities",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/utilities",
+				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../depot_support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../depot_support",
+				"type" : "GIFf",
 				"implicit" : 1
 			}
  ]

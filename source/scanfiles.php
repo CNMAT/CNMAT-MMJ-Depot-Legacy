@@ -11,9 +11,10 @@ if($mode == "html" || $mode == "overview"){
 }
 
 $outfile = fopen('outfile.txt', 'w');
-$header = array("name", "description", "authors", "version");
+$header = array("Name", "Description", "Authors", "Version");
 $header_spacing = 200;
 $offset_left = 10;
+$offset_top = 10;
 $inc = -1;
 $currid = -1;
 $textwidth = 180;
@@ -29,12 +30,11 @@ $tuto_html = fopen('generated_depot_files/tutors.html', 'w');
 $modu_html = fopen('generated_depot_files/patchers.html', 'w');
 $apps_html = fopen('generated_depot_files/applications.html', 'w');
 $demo_html = fopen('generated_depot_files/demos.html', 'w');
-$repe_html = fopen('generated_depot_files/repertoire.html', 'w');
 
-function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html, $repe_html){
+function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html){
     $outpath = getcwd() . '/generated_depot_files/';
     $in_dir = 'none';
-    $f_tuti = $f_tuto = $f_modu = $f_apps = $f_demo = $f_repe = false;
+    $f_tuti = $f_tuto = $f_modu = $f_apps = $f_demo = false;
     $thisdir = new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS);
     $files = new RecursiveIteratorIterator($thisdir, RecursiveIteratorIterator::SELF_FIRST);
     global $inc;
@@ -83,14 +83,6 @@ function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_
 		    $f_demo = true;
 		    $inc = 0;
 		}
-	    }else if(strpos($object->getPathname(), 'repertoire') == true){
-		$in_dir = 'repertoire';
-		if(!$f_repe){
-		    echo "in repertoire  \n";
-		    fileHeader($repe_html, $in_dir);
-		    $f_repe = true;
-		    $inc = 0;
-		}
 	    }
 	}else{
 	    switch($in_dir){
@@ -109,9 +101,6 @@ function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_
 		case 'demos':
 		    checkFile($object, $demo_html, $in_dir);
 		    break;
-		case 'repertoire':
-		    checkFile($object, $repe_html, $in_dir);
-		    break;
 	    }
 	}
     }
@@ -122,7 +111,7 @@ function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_
 }
 
 function fileHeader($fileref, $section){
-    global $mode, $c, $header, $header_spacing, $offset_left;
+    global $mode, $c, $header, $header_spacing, $offset_left, $offset_top;
     if($mode == "html"){
 	fwrite($fileref, "<table border=\"1\">");
 	fwrite($fileref, "<tr bgcolor=\"#CCCCCC\">");
@@ -134,14 +123,16 @@ function fileHeader($fileref, $section){
     }elseif($mode == "overview"){
 	for($i = 0; $i < count($header); $i++){
 	    $x = ($i * $header_spacing) + $offset_left;
-	    $str = 'script newobject comment @text ' . $header[$i] . ' @fixwidth 1 @patching_rect ' . $x . ' 10';
+	    //fontface 3 is both bold and italic
+	    $str = "script newobject comment @text " . $header[$i] . " @fontface 3 @underline 1" .
+		" @fixwidth 1 @patching_rect " . $x . " " . $offset_top;
 	    $a = new OSCMessage("/" . $section, array($str)); 
 	    $c->send($a);
 	}
     }
 }
 
-function closeFiles($tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html, $repe_html){
+function closeFiles($tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html){
     fwrite($tuti_html, "</table>");
     fclose($tuti_html);
     fwrite($tuto_html, "</table>");
@@ -152,8 +143,6 @@ function closeFiles($tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html, 
     fclose($apps_html);
     fwrite($demo_html, "</table>");
     fclose($demo_html);
-    fwrite($repe_html, "</table>");
-    fclose($repe_html);
 }
 
 
@@ -186,7 +175,6 @@ function checkForBannerBadge($patchfile){
 }
 
 function extractData($thisfile, $outref, $section){
-    //$header = array("name", "description", "authors", "version");
     global $mode, $header_spacing, $offset_left, $inc, $c, $sec, $currid, $textwidth;
     $test = implode("", file($thisfile));
 
@@ -203,24 +191,24 @@ function extractData($thisfile, $outref, $section){
     for ($i = 0; $i <= sizeof($obj['patcher']['boxes']); $i ++) {
 	//initial loop looks for banner name/description
 	if ($obj['patcher']['boxes'][$i]['box']['name'] == "banner.maxpat") {
-	    //$name = $obj['patcher']['boxes'][$i]['box']['args'][0];
 	    $name = basename($thisfile);
+	    //could also do: 
+	    //$name = $obj['patcher']['boxes'][$i]['box']['args'][0];
 
 	    $description = $obj['patcher']['boxes'][$i]['box']['args'][1];
 	    if($mode == "html"){
 		fwrite($outref, '<td>' . $name . '</td>');	//name
 		//fwrite($outref, '<td>' . $description . '</td>');	//desc
 	    }else{
-		$y = $inc * 50;
 
 		$location = 0;
 		$currid += 1;//inc before you use
 		$varname = 'name-' . $currid;
-		//echo 'banner/name var: ' . $name . "\n";
 		$x = ($location * $header_spacing) + $offset_left;
+		$y = ($inc * 50) + -10;
 
 		$str = 'script newobject textbutton @fontsize 11 @truncate 0 @border 0 @ignoreclick 0 @fontface bold @varname 
-		    ' . $varname . ' @patching_rect ' . $x . ' ' . ($y + 20) . ' ' . $textwidth . ' 40';
+		    ' . $varname . ' @patching_rect ' . $x . ' ' . $y . ' ' . $textwidth . ' 40';
 		$a = new OSCMessage("/" . $section, array($str)); 
 		$c->send($a);
 
@@ -240,7 +228,7 @@ function extractData($thisfile, $outref, $section){
 		$x = ($location * $header_spacing) + $offset_left;
 
 		$str = 'script newobject textbutton @fontsize 10 @truncate 0 @border 0 @ignoreclick 1 @varname 
-		    ' . $varname . ' @patching_rect ' . $x . ' ' . ($y + 20) . ' ' . $textwidth . ' 40';
+		    ' . $varname . ' @patching_rect ' . $x . ' ' . $y . ' ' . $textwidth . ' 40';
 		$a = new OSCMessage("/" . $section, array($str)); 
 		$c->send($a);
 
@@ -268,7 +256,7 @@ function extractData($thisfile, $outref, $section){
 		$x = ($location * $header_spacing) + $offset_left;
 
 		$str = 'script newobject textbutton @fontsize 10 @truncate 0 @border 0 @ignoreclick 1 @varname 
-		    ' . $varname . ' @patching_rect ' . $x . ' ' . ($y + 20) . ' ' . $textwidth . ' 40';
+		    ' . $varname . ' @patching_rect ' . $x . ' ' . $y . ' ' . $textwidth . ' 40';
 		$a = new OSCMessage("/" . $section, array($str)); 
 		$c->send($a);
 
@@ -284,7 +272,7 @@ function extractData($thisfile, $outref, $section){
 		$x = ($location * $header_spacing) + $offset_left;
 
 		$str = 'script newobject textbutton @fontsize 10 @truncate 0 @border 0 @ignoreclick 1 @varname 
-		    ' . $varname . ' @patching_rect ' . $x . ' ' . ($y + 20) . ' ' . ($textwidth / 2) . ' 40';
+		    ' . $varname . ' @patching_rect ' . $x . ' ' . $y . ' ' . ($textwidth / 2) . ' 40';
 		$a = new OSCMessage("/" . $section, array($str)); 
 		$c->send($a);
 		$str = 'script send ' . $varname . ' text ' . $version;
@@ -299,7 +287,7 @@ function extractData($thisfile, $outref, $section){
     }
 }
 
-getPatches('../', $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html, $repe_html);
-closeFiles($tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html, $repe_html);
+getPatches('../', $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html);
+closeFiles($tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html);
 ?>	
 

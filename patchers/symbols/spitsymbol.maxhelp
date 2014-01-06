@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+		"rect" : [ 25.0, 69.0, 551.0, 457.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,31 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "splitsymbol", "0.1a", "Jeff Lubow", "splitsymbol", 7777, "0.296 0.594 0.784 1." ],
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 239.0, 364.0, 292.0, 86.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "splitsymbol", "splits a symbol/string at a specified index", "0.296 0.594 0.784 1." ],
+					"id" : "obj-11",
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -18.0, -68.0 ],
+					"patching_rect" : [ 20.0, 20.0, 511.0, 76.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
@@ -36,8 +61,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 120.0, 43.0, 18.0 ],
-					"presentation_rect" : [ 448.0, 117.0, 0.0, 0.0 ],
+					"patching_rect" : [ 431.0, 114.0, 43.0, 18.0 ],
 					"text" : "alfalfa"
 				}
 
@@ -51,8 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.0, 310.0, 116.0, 18.0 ],
-					"presentation_rect" : [ 378.0, 423.0, 0.0, 0.0 ],
+					"patching_rect" : [ 361.0, 304.0, 116.0, 18.0 ],
 					"text" : "lfa"
 				}
 
@@ -66,9 +89,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.0, 260.0, 116.0, 18.0 ],
-					"presentation_rect" : [ 246.5, 383.0, 0.0, 0.0 ],
-					"text" : "alfa"
+					"patching_rect" : [ 256.0, 254.0, 116.0, 18.0 ],
+					"text" : "done"
 				}
 
 			}
@@ -81,8 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 372.0, 120.0, 74.0, 18.0 ],
-					"presentation_rect" : [ 468.0, 139.0, 0.0, 0.0 ],
+					"patching_rect" : [ 353.0, 114.0, 74.0, 18.0 ],
 					"text" : "watermelon"
 				}
 
@@ -96,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 372.0, 210.0, 124.0, 20.0 ],
+					"patching_rect" : [ 353.0, 204.0, 124.0, 20.0 ],
 					"text" : "splitsymbol @index 4"
 				}
 
@@ -110,8 +131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 279.0, 116.0, 18.0 ],
-					"presentation_rect" : [ 333.5, 332.0, 0.0, 0.0 ],
+					"patching_rect" : [ 111.0, 273.0, 116.0, 18.0 ],
 					"text" : "e"
 				}
 
@@ -125,8 +145,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 229.0, 116.0, 18.0 ],
-					"presentation_rect" : [ 274.0, 282.0, 0.0, 0.0 ],
+					"patching_rect" : [ 50.0, 223.0, 116.0, 18.0 ],
 					"text" : "don"
 				}
 
@@ -140,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 129.0, 46.0, 18.0 ],
+					"patching_rect" : [ 207.0, 123.0, 46.0, 18.0 ],
 					"text" : "qwerty"
 				}
 
@@ -154,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.0, 129.0, 33.0, 18.0 ],
+					"patching_rect" : [ 147.0, 123.0, 33.0, 18.0 ],
 					"text" : "asdf"
 				}
 
@@ -168,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 166.0, 179.0, 80.0, 20.0 ],
+					"patching_rect" : [ 147.0, 173.0, 80.0, 20.0 ],
 					"text" : "splitsymbol 3"
 				}
 
@@ -249,9 +268,44 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "splitsymbol.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/symbols",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/symbols",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
+				"type" : "GIFf",
 				"implicit" : 1
 			}
  ]

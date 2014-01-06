@@ -3,12 +3,11 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 1,
-			"revision" : 4,
-			"architecture" : "x86"
+			"minor" : 0,
+			"revision" : 5
 		}
 ,
-		"rect" : [ 23.0, 81.0, 547.0, 395.0 ],
+		"rect" : [ 62.0, 44.0, 546.0, 368.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,43 +29,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bubble" : 1,
-					"bubblepoint" : 0.49,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-15",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 175.5, 195.0, 37.0 ],
-					"presentation_rect" : [ 308.0, 180.0, 0.0, 0.0 ],
-					"text" : "fractional part is always between 0 and 1, and absolute."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubblepoint" : 0.17,
-					"bubbleside" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-14",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 184.0, 64.0, 51.0 ],
-					"text" : "rounds towards zero"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "int+frac", "Given a number, output the integer part and the fractional part" ],
+					"args" : [ "int+frac", "Given a number, output the integer part (rounding towards zero) and the fractional part (a float with absolute value between 0 and 1).", "0.517 0.512 0.638 1." ],
 					"id" : "obj-18",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -74,20 +37,20 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -18.0, -68.0 ],
-					"patching_rect" : [ 11.0, 5.0, 511.0, 76.0 ],
+					"patching_rect" : [ 21.0, 5.0, 511.0, 76.0 ],
 					"prototypename" : "cnmat_banner"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "int+frac.help", "1.1b", "Wright & Zbyszynski", "int+frac", 2707 ],
+					"args" : [ "int+frac.help", "1.1b", " Wright & Zbyszynski", "int+frac", 2707, "0.517 0.512 0.638 1." ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 286.0, 295.0, 84.0 ]
+					"patching_rect" : [ 232.0, 271.0, 295.0, 84.0 ]
 				}
 
 			}
@@ -104,7 +67,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 112.0, 229.0, 65.0, 20.0 ],
+					"patching_rect" : [ 122.0, 229.0, 65.0, 20.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
 				}
@@ -119,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 112.0, 207.0, 60.0, 20.0 ],
+					"patching_rect" : [ 122.0, 207.0, 60.0, 20.0 ],
 					"text" : "+ 0."
 				}
 
@@ -134,7 +97,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.0, 107.0, 37.0, 18.0 ],
+					"patching_rect" : [ 215.0, 107.0, 37.0, 18.0 ],
 					"text" : "-2.3"
 				}
 
@@ -152,7 +115,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 112.0, 184.0, 38.0, 20.0 ],
+					"patching_rect" : [ 122.0, 184.0, 38.0, 20.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
 				}
@@ -171,7 +134,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 153.0, 184.0, 61.0, 20.0 ],
+					"patching_rect" : [ 163.0, 184.0, 61.0, 20.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
 				}
@@ -187,7 +150,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 107.0, 47.0, 18.0 ],
+					"patching_rect" : [ 166.0, 107.0, 47.0, 18.0 ],
 					"text" : "4.999"
 				}
 
@@ -202,7 +165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.0, 107.0, 18.0, 18.0 ],
+					"patching_rect" : [ 146.0, 107.0, 19.0, 18.0 ],
 					"text" : "3"
 				}
 
@@ -217,7 +180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 107.0, 28.0, 18.0 ],
+					"patching_rect" : [ 116.0, 107.0, 28.0, 18.0 ],
 					"text" : "2.3"
 				}
 
@@ -232,7 +195,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 107.0, 28.0, 18.0 ],
+					"patching_rect" : [ 86.0, 107.0, 28.0, 18.0 ],
 					"text" : "1.2"
 				}
 
@@ -247,7 +210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "float" ],
-					"patching_rect" : [ 112.0, 157.0, 60.0, 20.0 ],
+					"patching_rect" : [ 122.0, 157.0, 60.0, 20.0 ],
 					"text" : "int+frac"
 				}
 
@@ -256,13 +219,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-12",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 225.0, 154.0, 33.0 ],
+					"patching_rect" : [ 199.5, 222.0, 154.0, 34.0 ],
 					"text" : "Sum of outputs should always equal the input."
 				}
 
@@ -361,43 +323,57 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "int+frac.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/basic_programming",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/basic-programming",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../depot_support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../depot_support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../depot_support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../depot_support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../depot_support",
+				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../Depot_Support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
