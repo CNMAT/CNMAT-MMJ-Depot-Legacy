@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 196.0, 44.0, 343.0, 828.0 ],
+		"rect" : [ 15.0, 78.0, 539.0, 630.0 ],
 		"bgcolor" : [ 0.784314, 0.862745, 0.862745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,13 +30,44 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "04-invert(chords)", "0.1a", "authors", "04-invert(chords)", 6666, "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-41",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 254.0, 526.0, 297.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 209.0, 745.0, 296.0, 86.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "04-invert(chords)", "Invertrs a midi-note sequence based on its lowest value", "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-42",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 20.5, 12.0, 490.5, 75.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 797.0, 693.0, 511.0, 76.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.0, 785.0, 63.0, 20.0 ],
+					"patching_rect" : [ 467.0, 394.0, 63.0, 20.0 ],
 					"text" : "mt_player"
 				}
 
@@ -48,7 +80,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 228.0, 735.0, 20.0, 20.0 ]
+					"patching_rect" : [ 467.0, 344.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -61,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.0, 757.0, 44.0, 20.0 ],
+					"patching_rect" : [ 467.0, 366.0, 44.0, 20.0 ],
 					"text" : "gate 1"
 				}
 
@@ -75,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 465.0, 65.0, 20.0 ],
+					"patching_rect" : [ 15.0, 553.0, 65.0, 20.0 ],
 					"text" : "prepend 0"
 				}
 
@@ -89,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 40.0, 57.0, 18.0 ],
+					"patching_rect" : [ 130.0, 128.0, 57.0, 18.0 ],
 					"text" : "71 72 73"
 				}
 
@@ -103,7 +135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 325.0, 105.5, 20.0 ],
+					"patching_rect" : [ 15.0, 413.0, 105.5, 20.0 ],
 					"text" : "t l l"
 				}
 
@@ -118,7 +150,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 559.0, 156.0, 235.0 ]
+					"patching_rect" : [ 284.0, 168.0, 156.0, 235.0 ]
 				}
 
 			}
@@ -134,7 +166,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 204.0, 467.0, 39.0, 20.0 ],
+					"patching_rect" : [ 174.0, 555.0, 39.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -148,7 +180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 495.0, 178.0, 20.0 ],
+					"patching_rect" : [ 15.0, 583.0, 178.0, 20.0 ],
 					"text" : "vexpr $f1 + $f2 @scalarmode 1"
 				}
 
@@ -162,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 438.0, 113.0, 20.0 ],
+					"patching_rect" : [ 15.0, 526.0, 113.0, 20.0 ],
 					"text" : "list-cumulative-sum"
 				}
 
@@ -176,7 +208,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 399.0, 85.0, 20.0 ],
+					"patching_rect" : [ 15.0, 487.0, 85.0, 20.0 ],
 					"text" : "vexpr $f1 * -1."
 				}
 
@@ -190,7 +222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 368.0, 82.0, 20.0 ],
+					"patching_rect" : [ 15.0, 456.0, 82.0, 20.0 ],
 					"text" : "list-difference"
 				}
 
@@ -204,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 204.0, 441.0, 57.0, 20.0 ],
+					"patching_rect" : [ 174.0, 529.0, 57.0, 20.0 ],
 					"text" : "zl slice 1"
 				}
 
@@ -218,7 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 40.0, 74.0, 18.0 ],
+					"patching_rect" : [ 45.0, 128.0, 74.0, 18.0 ],
 					"text" : "62 64 68 69"
 				}
 
@@ -232,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 45.0, 9.0, 60.0, 20.0 ],
+					"patching_rect" : [ 45.0, 97.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -247,7 +279,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 80.0, 165.0, 237.0 ]
+					"patching_rect" : [ 45.0, 168.0, 165.0, 237.0 ]
 				}
 
 			}
@@ -374,7 +406,7 @@
 					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 191.5, 803.0, 210.0, 803.0, 210.0, 704.0, 262.5, 704.0 ],
+					"midpoints" : [ 430.5, 412.0, 449.0, 412.0, 449.0, 313.0, 501.5, 313.0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -393,6 +425,7 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 24.5, 612.0, 246.0, 612.0, 246.0, 158.0, 293.5, 158.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -400,65 +433,65 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jsNotation.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/display_and_notation/jsNotation",
-				"patcherrelativepath" : "../../modules/display_and_notation/jsNotation",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/display_and_notation/jsNotation",
+				"patcherrelativepath" : "../../../patchers/display_and_notation/jsNotation",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "list-difference.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Lists",
-				"patcherrelativepath" : "../../modules/Lists",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/lists",
+				"patcherrelativepath" : "../../../patchers/lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "list-cumulative-sum.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Lists",
-				"patcherrelativepath" : "../../modules/Lists",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/lists",
+				"patcherrelativepath" : "../../../patchers/lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mt_player.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/display_and_notation/jsNotation",
-				"patcherrelativepath" : "../../modules/display_and_notation/jsNotation",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/display_and_notation/jsNotation",
+				"patcherrelativepath" : "../../../patchers/display_and_notation/jsNotation",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]

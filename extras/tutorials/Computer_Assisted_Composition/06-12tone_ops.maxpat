@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 38.0, 44.0, 1414.0, 825.0 ],
+		"rect" : [ 0.0, 44.0, 1680.0, 956.0 ],
 		"bgcolor" : [ 0.784314, 0.862745, 0.862745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +30,37 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "06-12tone_ops", "0.1a", "authors", "06-12tone_ops", 6666, "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-41",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 495.0, 165.0, 297.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 269.0, 805.0, 296.0, 86.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "06-12tone_ops", "Perform 12-tone operation on a sequence of midi-notes", "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-42",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 17.5, 14.0, 400.5, 78.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 827.0, 723.0, 511.0, 76.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-1",
@@ -38,7 +70,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 456.0, 225.0, 123.0, 22.0 ]
+					"patching_rect" : [ 479.0, 319.0, 123.0, 22.0 ]
 				}
 
 			}
@@ -50,7 +82,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 315.0, 73.0, 20.0 ],
+					"patching_rect" : [ 479.0, 409.0, 73.0, 20.0 ],
 					"text" : "mt_player"
 				}
 
@@ -64,7 +96,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 287.0, 101.0, 20.0 ],
+					"patching_rect" : [ 479.0, 381.0, 101.0, 20.0 ],
 					"text" : "switch 5"
 				}
 
@@ -82,8 +114,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
@@ -324,7 +357,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1322.0, 404.0, 78.0, 20.0 ],
+					"patching_rect" : [ 1345.0, 498.0, 78.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -351,7 +384,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1322.0, 427.0, 46.0, 20.0 ],
+					"patching_rect" : [ 1345.0, 521.0, 46.0, 20.0 ],
 					"text" : "zl rev"
 				}
 
@@ -365,7 +398,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1481.0, 731.0, 192.0, 27.0 ],
+					"patching_rect" : [ 1504.0, 825.0, 192.0, 27.0 ],
 					"text" : "Retrograde-Inversion"
 				}
 
@@ -380,7 +413,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1322.0, 460.0, 434.0, 271.0 ]
+					"patching_rect" : [ 1345.0, 554.0, 434.0, 271.0 ]
 				}
 
 			}
@@ -393,7 +426,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 886.0, 428.0, 46.0, 20.0 ],
+					"patching_rect" : [ 909.0, 522.0, 46.0, 20.0 ],
 					"text" : "zl rev"
 				}
 
@@ -407,7 +440,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1045.0, 732.0, 108.0, 27.0 ],
+					"patching_rect" : [ 1068.0, 826.0, 108.0, 27.0 ],
 					"text" : "Retrograde"
 				}
 
@@ -422,7 +455,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 886.0, 461.0, 434.0, 271.0 ]
+					"patching_rect" : [ 909.0, 555.0, 434.0, 271.0 ]
 				}
 
 			}
@@ -435,7 +468,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1.0, 26.0, 56.0, 20.0 ],
+					"patching_rect" : [ 24.0, 120.0, 56.0, 20.0 ],
 					"text" : "delay 10"
 				}
 
@@ -453,8 +486,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
@@ -695,7 +729,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 445.0, 429.0, 78.0, 20.0 ],
+					"patching_rect" : [ 468.0, 523.0, 78.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -722,7 +756,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 604.0, 732.0, 88.0, 27.0 ],
+					"patching_rect" : [ 627.0, 826.0, 88.0, 27.0 ],
 					"text" : "Inversion"
 				}
 
@@ -737,7 +771,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 445.0, 461.0, 434.0, 271.0 ]
+					"patching_rect" : [ 468.0, 555.0, 434.0, 271.0 ]
 				}
 
 			}
@@ -750,7 +784,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 737.0, 128.0, 27.0 ],
+					"patching_rect" : [ 163.0, 831.0, 128.0, 27.0 ],
 					"text" : "Transposition"
 				}
 
@@ -764,7 +798,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.0, 380.0, 81.0, 20.0 ],
+					"patching_rect" : [ 184.0, 474.0, 81.0, 20.0 ],
 					"text" : "loadmess 3."
 				}
 
@@ -781,7 +815,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 161.0, 402.0, 40.0, 20.0 ],
+					"patching_rect" : [ 184.0, 496.0, 40.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -795,7 +829,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 430.0, 179.0, 20.0 ],
+					"patching_rect" : [ 24.0, 524.0, 179.0, 20.0 ],
 					"text" : "vexpr $f1 + $f2 @scalarmode 1"
 				}
 
@@ -810,7 +844,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1.0, 461.0, 436.0, 272.0 ]
+					"patching_rect" : [ 24.0, 555.0, 436.0, 272.0 ]
 				}
 
 			}
@@ -823,7 +857,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1.0, 4.0, 60.0, 20.0 ],
+					"patching_rect" : [ 24.0, 98.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -837,7 +871,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 49.0, 207.0, 18.0 ],
+					"patching_rect" : [ 24.0, 143.0, 207.0, 18.0 ],
 					"text" : "63 71 67 61 72 66 64 70 69 65 68 62"
 				}
 
@@ -852,7 +886,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1.0, 71.0, 436.0, 266.0 ]
+					"patching_rect" : [ 24.0, 165.0, 436.0, 266.0 ]
 				}
 
 			}
@@ -865,7 +899,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 27.0, 201.0, 20.0 ],
+					"patching_rect" : [ 82.0, 121.0, 201.0, 20.0 ],
 					"text" : "Here is a row from Berg's Wozzeck:"
 				}
 
@@ -879,7 +913,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 459.0, 204.0, 145.0, 22.0 ],
+					"patching_rect" : [ 482.0, 298.0, 145.0, 22.0 ],
 					"text" : "Listen to:"
 				}
 
@@ -989,7 +1023,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 10.5, 353.0, 454.5, 353.0 ],
+					"midpoints" : [ 33.5, 447.0, 477.5, 447.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1017,7 +1051,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 10.5, 353.0, 1331.5, 353.0 ],
+					"midpoints" : [ 33.5, 447.0, 1354.5, 447.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1027,7 +1061,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 10.5, 353.0, 895.5, 353.0 ],
+					"midpoints" : [ 33.5, 447.0, 918.5, 447.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1080,65 +1114,65 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jsNotation.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/display_and_notation/jsNotation",
-				"patcherrelativepath" : "../../modules/display_and_notation/jsNotation",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/display_and_notation/jsNotation",
+				"patcherrelativepath" : "../../../patchers/display_and_notation/jsNotation",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listdelta.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/tutorials/Computer_Assisted_Composition",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/extras/tutorials/Computer_Assisted_Composition",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cumsum.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/tutorials/Computer_Assisted_Composition",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/extras/tutorials/Computer_Assisted_Composition",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mt_player.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/display_and_notation/jsNotation",
-				"patcherrelativepath" : "../../modules/display_and_notation/jsNotation",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/display_and_notation/jsNotation",
+				"patcherrelativepath" : "../../../patchers/display_and_notation/jsNotation",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ]

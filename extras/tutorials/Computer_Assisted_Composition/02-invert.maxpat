@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 73.0, 44.0, 622.0, 810.0 ],
+		"rect" : [ 31.0, 68.0, 622.0, 837.0 ],
 		"bgcolor" : [ 0.784314, 0.862745, 0.862745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +30,37 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "02-invert", "0.1a", "authors", "02-invert", 6666, "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-41",
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 333.0, 734.0, 297.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 164.0, 700.0, 296.0, 86.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "02-invert", "Inverts the interval of two midi-note values", "0.296 0.594 0.784 0.5" ],
+					"id" : "obj-42",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 29.0, 5.0, 503.0, 79.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 812.0, 708.0, 511.0, 76.0 ],
+					"prototypename" : "cnmat_banner"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
@@ -36,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 25.0, 327.0, 46.0, 20.0 ],
+					"patching_rect" : [ 25.0, 362.0, 46.0, 20.0 ],
 					"text" : "t i i i"
 				}
 
@@ -50,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 253.0, 482.0, 32.5, 20.0 ],
+					"patching_rect" : [ 253.0, 517.0, 32.5, 20.0 ],
 					"text" : "t b i"
 				}
 
@@ -65,7 +97,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 176.0, 539.0, 130.0, 243.0 ]
+					"patching_rect" : [ 176.0, 574.0, 130.0, 243.0 ]
 				}
 
 			}
@@ -78,7 +110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 518.0, 105.0, 20.0 ],
+					"patching_rect" : [ 217.0, 553.0, 105.0, 20.0 ],
 					"text" : "put them together"
 				}
 
@@ -92,7 +124,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 176.0, 516.0, 41.0, 20.0 ],
+					"patching_rect" : [ 176.0, 551.0, 41.0, 20.0 ],
 					"text" : "zl join"
 				}
 
@@ -109,7 +141,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 253.0, 463.0, 39.0, 20.0 ],
+					"patching_rect" : [ 253.0, 498.0, 39.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -123,7 +155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 253.0, 408.0, 32.5, 20.0 ],
+					"patching_rect" : [ 253.0, 443.0, 32.5, 20.0 ],
 					"text" : "t b i"
 				}
 
@@ -137,7 +169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.0, 439.0, 323.0, 20.0 ],
+					"patching_rect" : [ 281.0, 474.0, 323.0, 20.0 ],
 					"text" : "Adding the difference to the original note gets the inversion"
 				}
 
@@ -151,7 +183,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 253.0, 438.0, 32.5, 20.0 ],
+					"patching_rect" : [ 253.0, 473.0, 32.5, 20.0 ],
 					"text" : "+"
 				}
 
@@ -168,7 +200,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 253.0, 74.0, 39.0, 20.0 ],
+					"patching_rect" : [ 253.0, 109.0, 39.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -185,7 +217,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 25.0, 74.0, 39.0, 20.0 ],
+					"patching_rect" : [ 25.0, 109.0, 39.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -202,7 +234,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 253.0, 385.0, 38.0, 20.0 ],
+					"patching_rect" : [ 253.0, 420.0, 38.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -216,7 +248,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 253.0, 325.0, 32.5, 20.0 ],
+					"patching_rect" : [ 253.0, 360.0, 32.5, 20.0 ],
 					"text" : "t b i"
 				}
 
@@ -230,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 253.0, 355.0, 32.5, 20.0 ],
+					"patching_rect" : [ 253.0, 390.0, 32.5, 20.0 ],
 					"text" : "-"
 				}
 
@@ -244,7 +276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 49.0, 79.0, 20.0 ],
+					"patching_rect" : [ 253.0, 84.0, 79.0, 20.0 ],
 					"text" : "loadmess 72"
 				}
 
@@ -259,7 +291,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 253.0, 100.0, 134.0, 220.0 ]
+					"patching_rect" : [ 253.0, 135.0, 134.0, 220.0 ]
 				}
 
 			}
@@ -272,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 49.0, 79.0, 20.0 ],
+					"patching_rect" : [ 25.0, 84.0, 79.0, 20.0 ],
 					"text" : "loadmess 66"
 				}
 
@@ -287,7 +319,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 25.0, 100.0, 135.0, 221.0 ]
+					"patching_rect" : [ 25.0, 135.0, 135.0, 221.0 ]
 				}
 
 			}
@@ -300,7 +332,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 293.0, 385.0, 321.0, 20.0 ],
+					"patching_rect" : [ 293.0, 420.0, 321.0, 20.0 ],
 					"text" : "This is the difference between the left and the right pitches"
 				}
 
@@ -489,9 +521,44 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jsNotation.js",
-				"bootpath" : "/Users/mzed/CNMAT/depot/modules/display_and_notation/jsNotation",
-				"patcherrelativepath" : "../../modules/display_and_notation/jsNotation",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/display_and_notation/jsNotation",
+				"patcherrelativepath" : "../../../patchers/display_and_notation/jsNotation",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "GIFf",
 				"implicit" : 1
 			}
  ]

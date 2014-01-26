@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 15.0, 55.0, 1202.0, 619.0 ],
@@ -40,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1202.0, 593.0 ],
@@ -556,8 +558,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1202.0, 593.0 ],
@@ -832,7 +835,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 767.5, 270.0, 168.0, 22.0 ],
-									"text" : "/jack/dejohnette \"drums\" ",
+									"text" : "/jack/dejohnette \"drums\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -848,7 +851,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 557.5, 270.0, 163.0, 39.0 ],
-									"text" : "/jimmy/hendrix \"guitar\" \n/jimmy/hendrix \"vox\" ",
+									"text" : "/jimmy/hendrix \"guitar\"\n/jimmy/hendrix \"vox\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -864,7 +867,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 557.5, 132.0, 163.0, 54.0 ],
-									"text" : "/jimmy/hendrix \"guitar\" \n/jimmy/hendrix \"vox\" \n/jack/dejohnette \"drums\" ",
+									"text" : "/jimmy/hendrix \"guitar\"\n/jimmy/hendrix \"vox\"\n/jack/dejohnette \"drums\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1165,8 +1168,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1202.0, 593.0 ],
@@ -1608,8 +1612,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1202.0, 593.0 ],
@@ -1664,8 +1669,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 1169.0, 596.0 ],
@@ -2232,8 +2238,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 42.0, 94.0, 1038.0, 537.0 ],
@@ -2842,8 +2849,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 15.0, 81.0, 1202.0, 593.0 ],
@@ -2867,6 +2875,37 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "Data Management Overview", 1.0, "JL / JM", "Data Management Overview", 6666, "0.296 0.594 0.784 1" ],
+									"id" : "obj-41",
+									"maxclass" : "bpatcher",
+									"name" : "badge.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 405.0, 273.0, 297.0, 83.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 179.0, 715.0, 296.0, 86.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "Data Management Overview", "Data Management In Max", "0.296 0.594 0.784 1" ],
+									"id" : "obj-42",
+									"lockeddragscroll" : 1,
+									"maxclass" : "bpatcher",
+									"name" : "banner.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ -21.0, -68.0 ],
+									"patching_rect" : [ 30.0, 270.0, 384.0, 79.5 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 827.0, 723.0, 511.0, 76.0 ],
+									"prototypename" : "cnmat_banner"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "live.line",
@@ -2922,8 +2961,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 28.0, 57.0, 1053.0, 723.0 ],
@@ -3665,8 +3705,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1103.0, 530.0 ],
@@ -4407,8 +4448,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 48.0, 87.0, 1452.0, 478.0 ],
@@ -4589,8 +4631,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 4,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 50.0, 94.0, 339.0, 572.0 ],
@@ -5517,8 +5560,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1202.0, 593.0 ],
@@ -5597,8 +5641,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1171.0, 555.0 ],
@@ -6416,8 +6461,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1070.0, 506.0 ],
@@ -6694,8 +6740,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 758.0, 307.0 ],
@@ -7123,8 +7170,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1202.0, 593.0 ],
@@ -7540,6 +7588,41 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../patchers/depot_support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../patchers/depot_support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "o.atomize.mxo",
 				"type" : "iLaX"
 			}
