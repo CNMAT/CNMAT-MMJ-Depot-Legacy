@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -68,7 +68,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -443,7 +443,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1551,7 +1551,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1859,7 +1859,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -2223,7 +2223,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -3015,7 +3015,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -3116,7 +3116,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -3640,7 +3640,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -4316,7 +4316,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -4367,7 +4367,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -4558,7 +4558,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -5033,7 +5033,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -5194,7 +5194,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -5369,7 +5369,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -6348,7 +6348,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -6473,14 +6473,14 @@
 									"id" : "obj-133",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "clear" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "clear", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -6505,14 +6505,13 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-40",
-													"maxclass" : "newobj",
+													"comment" : "",
+													"id" : "obj-23",
+													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 201.0, 750.0, 60.0, 20.0 ],
-													"text" : "s bufpath"
+													"patching_rect" : [ 735.0, 630.0, 25.0, 25.0 ],
+													"presentation_rect" : [ 728.0, 623.0, 0.0, 0.0 ]
 												}
 
 											}
@@ -7293,7 +7292,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-40", 0 ],
+													"destination" : [ "obj-23", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-37", 0 ]
@@ -7514,6 +7513,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-133", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-133", 2 ]
 								}
 
 							}
@@ -7884,7 +7892,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -8197,7 +8205,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -8220,16 +8228,30 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-7",
+									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 289.0, 175.0, 65.0, 20.0 ],
-									"text" : "s getsfinfo"
+									"patching_rect" : [ 290.0, 125.0, 70.0, 20.0 ],
+									"text" : "print chan?"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 75.0, 240.0, 93.0, 20.0 ],
+									"text" : "s mrkrbuflength"
 								}
 
 							}
@@ -8310,19 +8332,28 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-11", 1 ]
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-5", 8 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 6 ]
 								}
 
 							}
@@ -8421,14 +8452,15 @@
 					"fontsize" : 16.0,
 					"id" : "obj-122",
 					"ignoreclick" : 1,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 755.0, 123.0, 22.0 ],
+					"patching_rect" : [ 24.0, 755.0, 123.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 75.554649, 975.0, 22.0 ],
-					"text" : "•",
+					"text" : "\"putter_ups 001.wav\"",
 					"textcolor" : [ 0.002622, 0.058228, 0.339979, 1.0 ]
 				}
 
@@ -8628,7 +8660,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -9353,7 +9385,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -9806,7 +9838,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -10126,7 +10158,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -10837,7 +10869,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -11223,7 +11255,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -11685,8 +11717,9 @@
 					"buffername" : "mrkrplyr",
 					"chanoffset" : 1,
 					"fontsize" : 11.0,
-					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
+					"frozen_box_attributes" : [ "buffername", "chanoffset" ],
 					"grid" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-37",
 					"ignoreclick" : 1,
 					"labelbgcolor" : [ 0.478431, 0.709804, 0.317647, 1.0 ],
@@ -11712,7 +11745,7 @@
 					"buffername" : "mrkrplyr",
 					"chanoffset" : 1,
 					"fontsize" : 11.0,
-					"frozen_box_attributes" : [ "chanoffset", "buffername" ],
+					"frozen_box_attributes" : [ "buffername", "chanoffset" ],
 					"grid" : 0.0,
 					"id" : "obj-36",
 					"ignoreclick" : 1,
@@ -11726,7 +11759,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 760.0, 833.0, 295.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 5.0, 1278.0, 47.0 ],
+					"presentation_rect" : [ 10.0, 5.0, 1278.0, 95.0 ],
 					"ruler" : 0,
 					"selectioncolor" : [ 0.54902, 0.85098, 0.588235, 0.501961 ],
 					"vticks" : 0,
@@ -11748,7 +11781,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -12281,7 +12314,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -12688,7 +12721,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -13022,7 +13055,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -13046,6 +13079,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 311.0, 105.0, 91.0, 20.0 ],
+									"text" : "r mrkrbuflength"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
@@ -13158,33 +13205,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 162.0, 13.0, 63.0, 20.0 ],
-									"text" : "r getsfinfo"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 311.0, 200.0, 93.0, 20.0 ],
-									"text" : "s mrkrbuflength"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-59",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -13233,20 +13253,6 @@
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 60.0, 200.0, 237.0, 20.0 ],
 									"text" : "* 1."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 9,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-									"patching_rect" : [ 162.0, 63.0, 113.5, 20.0 ],
-									"text" : "info~ mrkrplyr"
 								}
 
 							}
@@ -13394,6 +13400,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-29", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-213", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -13488,33 +13503,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 6 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-29", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 6 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -13737,7 +13725,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -14561,10 +14549,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1897.0, 941.0, 252.0, 61.0 ],
+					"patching_rect" : [ 1897.0, 941.0, 252.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 937.0, 599.0, 204.0, 61.0 ],
+					"presentation_rect" : [ 937.0, 599.0, 204.0, 60.0 ],
 					"text" : "m = place a new marker in realtime \nwhile playing, or place a marker at \nthe current location of the cursor in \nthe soundfile display. ",
 					"textcolor" : [ 0.713644, 1.0, 0.964533, 1.0 ]
 				}
@@ -16299,26 +16287,6 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"destination" : [ "obj-27", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-55", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"destination" : [ "obj-27", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 0.9 ],
 					"destination" : [ "obj-104", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -16659,78 +16627,78 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "harm-gran~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/effects_audio",
-				"patcherrelativepath" : "../../../modules/effects_audio",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/effects_audio",
+				"patcherrelativepath" : "../../../../patchers/effects_audio",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
-				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "markermanager.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/interface",
-				"patcherrelativepath" : "../../../modules/interface",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/interface",
+				"patcherrelativepath" : "../../../../patchers/interface",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/mixing_and_gain",
-				"patcherrelativepath" : "../../../modules/mixing_and_gain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/mixing_and_gain",
+				"patcherrelativepath" : "../../../../patchers/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../../modules/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detect_buf_filetype.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/utilities",
-				"patcherrelativepath" : "../../../modules/utilities",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/utilities",
+				"patcherrelativepath" : "../../../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency_Domain_Analysis.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
-				"patcherrelativepath" : "../../../tutorials/Music29/Frequency Domain",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/extras/tutorials/Music29/Frequency Domain",
+				"patcherrelativepath" : "../../../../extras/tutorials/Music29/Frequency Domain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic_programming",
-				"patcherrelativepath" : "../../../modules/basic_programming",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/basic_programming",
+				"patcherrelativepath" : "../../../../patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
