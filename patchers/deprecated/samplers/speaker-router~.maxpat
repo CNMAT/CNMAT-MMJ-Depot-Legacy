@@ -49,7 +49,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /number /random",
+					"text" : "o.route /number /random",
 					"fontsize" : 10.0,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],

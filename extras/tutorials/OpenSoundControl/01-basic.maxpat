@@ -677,7 +677,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /something",
+					"text" : "o.route /something",
 					"fontsize" : 12.0,
 					"outlettype" : [ "", "" ],
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],

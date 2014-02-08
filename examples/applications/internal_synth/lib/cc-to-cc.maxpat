@@ -60,7 +60,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /modulation /volume /pan /expression",
+					"text" : "o.route /modulation /volume /pan /expression",
 					"id" : "obj-4",
 					"fontname" : "Arial",
 					"numinlets" : 1,

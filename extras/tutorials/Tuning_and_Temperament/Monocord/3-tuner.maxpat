@@ -279,7 +279,7 @@
 									"numoutlets" : 9,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 145.0, 161.0, 175.0, 20.0 ],
-									"text" : "OSC-route /1 /2 /3 /4 /5 /6 /7 /8"
+									"text" : "o.route /1 /2 /3 /4 /5 /6 /7 /8"
 								}
 
 							}
@@ -680,7 +680,7 @@
 									"numoutlets" : 9,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 145.0, 161.0, 175.0, 20.0 ],
-									"text" : "OSC-route /1 /2 /3 /4 /5 /6 /7 /8"
+									"text" : "o.route /1 /2 /3 /4 /5 /6 /7 /8"
 								}
 
 							}
@@ -1107,7 +1107,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 148.0, 197.0, 118.0, 20.0 ],
-									"text" : "OSC-route /*/rootHz"
+									"text" : "o.route /*/rootHz"
 								}
 
 							}
@@ -1481,7 +1481,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 203.0, 26.0, 167.0, 20.0 ],
-									"text" : "OSC-route /tune/scaledisplay"
+									"text" : "o.route /tune/scaledisplay"
 								}
 
 							}
@@ -1733,7 +1733,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 203.0, 26.0, 167.0, 20.0 ],
-									"text" : "OSC-route /tune/scaledisplay"
+									"text" : "o.route /tune/scaledisplay"
 								}
 
 							}
@@ -2014,7 +2014,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 203.0, 26.0, 167.0, 20.0 ],
-									"text" : "OSC-route /tune/scaledisplay"
+									"text" : "o.route /tune/scaledisplay"
 								}
 
 							}
@@ -2239,7 +2239,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 203.0, 26.0, 167.0, 20.0 ],
-									"text" : "OSC-route /tune/scaledisplay"
+									"text" : "o.route /tune/scaledisplay"
 								}
 
 							}
@@ -5007,7 +5007,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

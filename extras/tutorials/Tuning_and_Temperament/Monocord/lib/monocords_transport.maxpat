@@ -113,7 +113,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 211.0, 35.0, 123.0, 20.0 ],
-					"text" : "OSC-route /8s/global"
+					"text" : "o.route /8s/global"
 				}
 
 			}

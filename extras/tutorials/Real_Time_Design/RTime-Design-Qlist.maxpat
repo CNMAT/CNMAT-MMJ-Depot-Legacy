@@ -227,7 +227,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 394.0, 43.0, 266.0, 17.0 ],
-					"text" : "OSC-route /stop /play /setbuffer /playbuf_gain /playbuf-thru-gain"
+					"text" : "o.route /stop /play /setbuffer /playbuf_gain /playbuf-thru-gain"
 				}
 
 			}
@@ -360,7 +360,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 561.0, 321.0, 120.0, 27.0 ],
-					"text" : "OSC-route /reverblevelA /reverbgainA /reverbtimeA"
+					"text" : "o.route /reverblevelA /reverbgainA /reverbtimeA"
 				}
 
 			}
@@ -1390,7 +1390,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 39.0, 242.0, 58.0, 27.0 ],
-					"text" : "OSC-route /harmgain"
+					"text" : "o.route /harmgain"
 				}
 
 			}
@@ -1770,7 +1770,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 824.0, 328.0, 105.0, 38.0 ],
-									"text" : "OSC-route /pregain5 /pregain6 /pregain7 /pregain8"
+									"text" : "o.route /pregain5 /pregain6 /pregain7 /pregain8"
 								}
 
 							}
@@ -1812,7 +1812,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 508.0, 431.0, 212.0, 17.0 ],
-									"text" : "OSC-route /filtermode /centerfreq /gain /Q"
+									"text" : "o.route /filtermode /centerfreq /gain /Q"
 								}
 
 							}
@@ -1826,7 +1826,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 509.0, 167.0, 212.0, 17.0 ],
-									"text" : "OSC-route /filtermode /centerfreq /gain /Q"
+									"text" : "o.route /filtermode /centerfreq /gain /Q"
 								}
 
 							}
@@ -2036,7 +2036,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 133.0, 443.0, 212.0, 17.0 ],
-									"text" : "OSC-route /filtermode /centerfreq /gain /Q"
+									"text" : "o.route /filtermode /centerfreq /gain /Q"
 								}
 
 							}
@@ -2557,7 +2557,7 @@
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
 													"patching_rect" : [ 246.0, 106.0, 173.0, 17.0 ],
-													"text" : "OSC-route /tap5 /tap6 /tap7 /tap8"
+													"text" : "o.route /tap5 /tap6 /tap7 /tap8"
 												}
 
 											}
@@ -2803,7 +2803,7 @@
 											}
  ],
 										"dependency_cache" : [ 											{
-												"name" : "OSC-route.mxo",
+												"name" : "o.route.mxo",
 												"type" : "iLaX"
 											}
  ]
@@ -2850,7 +2850,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 122.0, 175.0, 212.0, 17.0 ],
-									"text" : "OSC-route /filtermode /centerfreq /gain /Q"
+									"text" : "o.route /filtermode /centerfreq /gain /Q"
 								}
 
 							}
@@ -2864,7 +2864,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 561.0, 107.0, 213.0, 17.0 ],
-									"text" : "OSC-route /filter5 /filter6 /filter7 /filter8"
+									"text" : "o.route /filter5 /filter6 /filter7 /filter8"
 								}
 
 							}
@@ -3440,7 +3440,7 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "OSC-route.mxo",
+								"name" : "o.route.mxo",
 								"type" : "iLaX"
 							}
  ]
@@ -6831,7 +6831,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 337.0, 202.0, 215.0, 27.0 ],
-					"text" : "OSC-route /delay1 /delay2 /delay3 /delay4 /delay5 /delay6 /delay7 /delay8"
+					"text" : "o.route /delay1 /delay2 /delay3 /delay4 /delay5 /delay6 /delay7 /delay8"
 				}
 
 			}
@@ -6847,7 +6847,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 353.0, 321.0, 127.0, 27.0 ],
-					"text" : "OSC-route /reverblevel /reverbgain /reverbtime"
+					"text" : "o.route /reverblevel /reverbgain /reverbtime"
 				}
 
 			}
@@ -7274,7 +7274,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 815.0, 348.0, 100.0, 38.0 ],
-									"text" : "OSC-route /pregain1 /pregain2 /pregain3 /pregain4"
+									"text" : "o.route /pregain1 /pregain2 /pregain3 /pregain4"
 								}
 
 							}
@@ -7316,7 +7316,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 508.0, 431.0, 212.0, 17.0 ],
-									"text" : "OSC-route /filtermode /centerfreq /gain /Q"
+									"text" : "o.route /filtermode /centerfreq /gain /Q"
 								}
 
 							}
@@ -7330,7 +7330,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 509.0, 167.0, 212.0, 17.0 ],
-									"text" : "OSC-route /filtermode /centerfreq /gain /Q"
+									"text" : "o.route /filtermode /centerfreq /gain /Q"
 								}
 
 							}
@@ -7540,7 +7540,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 133.0, 443.0, 212.0, 17.0 ],
-									"text" : "OSC-route /filtermode /centerfreq /gain /Q"
+									"text" : "o.route /filtermode /centerfreq /gain /Q"
 								}
 
 							}
@@ -8061,7 +8061,7 @@
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
 													"patching_rect" : [ 246.0, 106.0, 173.0, 17.0 ],
-													"text" : "OSC-route /tap1 /tap2 /tap3 /tap4"
+													"text" : "o.route /tap1 /tap2 /tap3 /tap4"
 												}
 
 											}
@@ -8307,7 +8307,7 @@
 											}
  ],
 										"dependency_cache" : [ 											{
-												"name" : "OSC-route.mxo",
+												"name" : "o.route.mxo",
 												"type" : "iLaX"
 											}
  ]
@@ -8354,7 +8354,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 122.0, 175.0, 212.0, 17.0 ],
-									"text" : "OSC-route /filtermode /centerfreq /gain /Q"
+									"text" : "o.route /filtermode /centerfreq /gain /Q"
 								}
 
 							}
@@ -8368,7 +8368,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 561.0, 107.0, 213.0, 17.0 ],
-									"text" : "OSC-route /filter1 /filter2 /filter3 /filter4"
+									"text" : "o.route /filter1 /filter2 /filter3 /filter4"
 								}
 
 							}
@@ -8944,7 +8944,7 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "OSC-route.mxo",
+								"name" : "o.route.mxo",
 								"type" : "iLaX"
 							}
  ]
@@ -9108,7 +9108,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 557.5, 199.0, 101.0, 17.0 ],
-					"text" : "OSC-route /harmgain2"
+					"text" : "o.route /harmgain2"
 				}
 
 			}
@@ -10667,7 +10667,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

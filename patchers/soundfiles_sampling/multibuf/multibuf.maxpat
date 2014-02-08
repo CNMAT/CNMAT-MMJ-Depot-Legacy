@@ -4880,7 +4880,7 @@
 									"numoutlets" : 8,
 									"outlettype" : [ "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 442.0, 94.0, 298.0, 17.0 ],
-									"text" : "OSC-route /file /clear /coll /folder /multicoll /samplor /mono"
+									"text" : "o.route /file /clear /coll /folder /multicoll /samplor /mono"
 								}
 
 							}
@@ -5698,7 +5698,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -37,7 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 125.0, 48.0, 99.0, 17.0 ],
-					"text" : "OSC-route slash #1"
+					"text" : "o.route slash #1"
 				}
 
 			}
@@ -90,7 +90,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 87.0, 85.0, 216.0, 17.0 ],
-					"text" : "OSC-route /minimum /range /rate /feedback"
+					"text" : "o.route /minimum /range /rate /feedback"
 				}
 
 			}
@@ -411,7 +411,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

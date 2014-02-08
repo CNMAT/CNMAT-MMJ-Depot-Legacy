@@ -1047,7 +1047,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 557.0, 88.0, 353.0, 20.0 ],
-									"text" : "OSC-route /brightness /damping /stiffness"
+									"text" : "o.route /brightness /damping /stiffness"
 								}
 
 							}
@@ -1843,7 +1843,7 @@
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "OSC-route.mxo",
+								"name" : "o.route.mxo",
 								"type" : "iLaX"
 							}
  ]
@@ -2092,7 +2092,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

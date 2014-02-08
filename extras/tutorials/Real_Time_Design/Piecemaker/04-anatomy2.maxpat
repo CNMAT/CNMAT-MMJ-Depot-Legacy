@@ -255,7 +255,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /gain /ramp",
+					"text" : "o.route /gain /ramp",
 					"numinlets" : 1,
 					"fontname" : "Arial",
 					"numoutlets" : 3,
@@ -301,7 +301,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /gain /color",
+					"text" : "o.route /gain /color",
 					"numinlets" : 1,
 					"fontname" : "Arial",
 					"numoutlets" : 3,
@@ -315,7 +315,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /effect1 /effect2",
+					"text" : "o.route /effect1 /effect2",
 					"numinlets" : 1,
 					"fontname" : "Arial",
 					"numoutlets" : 3,

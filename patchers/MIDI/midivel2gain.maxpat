@@ -63,7 +63,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 128.0, 71.0, 123.0, 20.0 ],
-					"text" : "OSC-route /db-range"
+					"text" : "o.route /db-range"
 				}
 
 			}
@@ -278,7 +278,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

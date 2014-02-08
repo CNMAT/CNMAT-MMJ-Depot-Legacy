@@ -37,7 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 97.0, 36.0, 99.0, 17.0 ],
-					"text" : "OSC-route slash #1"
+					"text" : "o.route slash #1"
 				}
 
 			}
@@ -833,7 +833,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 97.0, 101.0, 236.0, 17.0 ],
-					"text" : "OSC-route /transposition /windowsize /delay"
+					"text" : "o.route /transposition /windowsize /delay"
 				}
 
 			}
@@ -1512,7 +1512,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

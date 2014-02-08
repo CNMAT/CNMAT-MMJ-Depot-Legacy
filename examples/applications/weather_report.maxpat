@@ -1131,7 +1131,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 17.0, 225.0, 317.0, 20.0 ],
-					"text" : "OSC-route /weather /temp_f /station_id /observation_time"
+					"text" : "o.route /weather /temp_f /station_id /observation_time"
 				}
 
 			}
@@ -1378,7 +1378,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

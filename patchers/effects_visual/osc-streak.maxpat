@@ -135,7 +135,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route slash #1",
+					"text" : "o.route slash #1",
 					"outlettype" : [ "list", "list" ],
 					"patching_rect" : [ 229.0, 77.0, 116.0, 20.0 ],
 					"fontsize" : 12.0,
@@ -163,7 +163,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /streaks /scale /direction /mode /tellmeeverything",
+					"text" : "o.route /streaks /scale /direction /mode /tellmeeverything",
 					"outlettype" : [ "list", "list", "list", "list", "list", "list" ],
 					"patching_rect" : [ 200.0, 119.0, 331.0, 20.0 ],
 					"fontsize" : 12.0,

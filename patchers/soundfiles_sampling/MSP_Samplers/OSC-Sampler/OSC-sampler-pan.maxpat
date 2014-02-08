@@ -1634,7 +1634,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /midinote-on /midinote-off /multisample /bank /refer /speaker /dbrange /busymap /noteon /noteoff /all-notes-off /panic /velmap /pan-or",
+					"text" : "o.route /midinote-on /midinote-off /multisample /bank /refer /speaker /dbrange /busymap /noteon /noteoff /all-notes-off /panic /velmap /pan-or",
 					"linecount" : 2,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"fontname" : "Arial",

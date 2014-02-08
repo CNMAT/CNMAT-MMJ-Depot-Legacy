@@ -2125,7 +2125,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 151.0, 61.0, 172.0, 17.0 ],
-									"text" : "OSC-route /file /clear /coll /folder"
+									"text" : "o.route /file /clear /coll /folder"
 								}
 
 							}

@@ -94,7 +94,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 103.0, 66.0, 119.0, 17.0 ],
-					"text" : "OSC-route /display /XY"
+					"text" : "o.route /display /XY"
 				}
 
 			}
@@ -457,7 +457,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -184,7 +184,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 225.0, 60.0, 116.0, 20.0 ],
-					"text" : "OSC-route slash #1"
+					"text" : "o.route slash #1"
 				}
 
 			}
@@ -266,7 +266,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 177.0, 149.0, 190.0, 20.0 ],
-					"text" : "OSC-route /size /tellmeeverything"
+					"text" : "o.route /size /tellmeeverything"
 				}
 
 			}

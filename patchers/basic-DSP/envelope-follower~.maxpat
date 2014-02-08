@@ -65,7 +65,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 354.0, 117.0, 94.0, 17.0 ],
-					"text" : "OSC-route /attack"
+					"text" : "o.route /attack"
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 354.0, 140.0, 153.0, 17.0 ],
-					"text" : "OSC-route /threshold /interval"
+					"text" : "o.route /threshold /interval"
 				}
 
 			}
@@ -227,7 +227,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 167.0, 69.0, 99.0, 17.0 ],
-					"text" : "OSC-route slash #1"
+					"text" : "o.route slash #1"
 				}
 
 			}
@@ -314,7 +314,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 131.0, 112.0, 149.0, 17.0 ],
-					"text" : "OSC-route /cutoff /period /on"
+					"text" : "o.route /cutoff /period /on"
 				}
 
 			}

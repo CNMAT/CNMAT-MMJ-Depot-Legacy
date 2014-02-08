@@ -46,7 +46,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /led",
+					"text" : "o.route /led",
 					"fontsize" : 9.0,
 					"numinlets" : 1,
 					"fontname" : "Arial",
@@ -101,7 +101,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /getbattery",
+					"text" : "o.route /getbattery",
 					"fontsize" : 9.0,
 					"numinlets" : 1,
 					"fontname" : "Arial",
@@ -1331,7 +1331,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /connect /disconnect /poll /motion /ir /expansion /extraoutput",
+					"text" : "o.route /connect /disconnect /poll /motion /ir /expansion /extraoutput",
 					"fontsize" : 9.0,
 					"numinlets" : 1,
 					"fontname" : "Arial",

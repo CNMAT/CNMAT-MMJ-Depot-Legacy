@@ -60,7 +60,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /mysynth1/tartness",
+					"text" : "o.route /mysynth1/tartness",
 					"id" : "obj-4",
 					"fontname" : "Arial",
 					"outlettype" : [ "", "" ],
@@ -137,7 +137,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "OSC-route handles \"wildcard\" characters:",
+					"text" : "o.route handles \"wildcard\" characters:",
 					"linecount" : 2,
 					"id" : "obj-9",
 					"fontname" : "Arial",
@@ -181,7 +181,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "OSC-route manages these messages:",
+					"text" : "o.route manages these messages:",
 					"linecount" : 2,
 					"id" : "obj-12",
 					"fontname" : "Arial",
@@ -264,7 +264,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /fruityness /tartness",
+					"text" : "o.route /fruityness /tartness",
 					"id" : "obj-18",
 					"fontname" : "Arial",
 					"outlettype" : [ "", "", "" ],
@@ -279,7 +279,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /fruityness /tartness",
+					"text" : "o.route /fruityness /tartness",
 					"id" : "obj-19",
 					"fontname" : "Arial",
 					"outlettype" : [ "", "", "" ],
@@ -294,7 +294,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /mysynth1 /mysynth2",
+					"text" : "o.route /mysynth1 /mysynth2",
 					"id" : "obj-20",
 					"fontname" : "Arial",
 					"outlettype" : [ "", "", "" ],
@@ -421,7 +421,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "OSC-route has some features that make it useful even when sending messages locally.",
+					"text" : "o.route has some features that make it useful even when sending messages locally.",
 					"linecount" : 2,
 					"id" : "obj-29",
 					"fontname" : "Arial",

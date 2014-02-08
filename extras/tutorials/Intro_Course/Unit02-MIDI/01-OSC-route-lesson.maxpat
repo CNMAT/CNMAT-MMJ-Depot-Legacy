@@ -18,7 +18,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "Important: learn about OSC-route style messaging",
+					"text" : "Important: learn about o.route style messaging",
 					"fontname" : "Arial",
 					"numoutlets" : 0,
 					"id" : "obj-5",
@@ -47,7 +47,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "Most MMJ-Depot modules make use of an OSC name space and a Max object called OSC-route.  ",
+					"text" : "Most MMJ-Depot modules make use of an OSC name space and a Max object called o.route.  ",
 					"linecount" : 2,
 					"fontname" : "Arial",
 					"numoutlets" : 0,
@@ -61,7 +61,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "about_OSC-route",
+					"text" : "about_o.route",
 					"fontname" : "Arial",
 					"numoutlets" : 0,
 					"id" : "obj-2",

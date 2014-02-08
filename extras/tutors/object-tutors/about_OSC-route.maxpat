@@ -137,7 +137,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "OSC-route offers a different model with some added flexibility",
+					"text" : "o.route offers a different model with some added flexibility",
 					"fontname" : "Arial",
 					"numoutlets" : 0,
 					"id" : "obj-8",
@@ -150,7 +150,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "OSC-route",
+					"text" : "o.route",
 					"fontname" : "Arial",
 					"numoutlets" : 0,
 					"id" : "obj-9",
@@ -190,7 +190,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "OSC-route is modeled on Max's \"route\" object, but it uses slash-delimited (URL-style) OpenSound Control addresses. Each OSC-route object implementes one node in the address tree.",
+					"text" : "o.route is modeled on Max's \"route\" object, but it uses slash-delimited (URL-style) OpenSound Control addresses. Each o.route object implementes one node in the address tree.",
 					"linecount" : 4,
 					"fontname" : "Arial",
 					"numoutlets" : 0,
@@ -329,7 +329,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "OSC-route takes advantage of \"pattern-matching\". pattern-matching syntax allows one message to go to multiple places in the address space hierarchy.",
+					"text" : "o.route takes advantage of \"pattern-matching\". pattern-matching syntax allows one message to go to multiple places in the address space hierarchy.",
 					"linecount" : 2,
 					"fontname" : "Arial",
 					"numoutlets" : 0,
@@ -534,7 +534,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /note /env",
+					"text" : "o.route /note /env",
 					"fontname" : "Arial",
 					"numoutlets" : 3,
 					"id" : "obj-42",
@@ -548,7 +548,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /note /env",
+					"text" : "o.route /note /env",
 					"fontname" : "Arial",
 					"numoutlets" : 3,
 					"id" : "obj-43",
@@ -562,7 +562,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /voice1 /voice2",
+					"text" : "o.route /voice1 /voice2",
 					"fontname" : "Arial",
 					"numoutlets" : 3,
 					"id" : "obj-44",
@@ -630,7 +630,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "OSC-route /note /env /wave",
+									"text" : "o.route /note /env /wave",
 									"fontname" : "Arial",
 									"numoutlets" : 4,
 									"id" : "obj-3",
@@ -1321,7 +1321,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "OSC-route /note /env /wave",
+									"text" : "o.route /note /env /wave",
 									"fontname" : "Arial",
 									"numoutlets" : 4,
 									"id" : "obj-5",
@@ -2012,7 +2012,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "OSC-route /note /env /wave",
+									"text" : "o.route /note /env /wave",
 									"fontname" : "Arial",
 									"numoutlets" : 4,
 									"id" : "obj-7",
@@ -2026,7 +2026,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "OSC-route /note /env /wave",
+									"text" : "o.route /note /env /wave",
 									"fontname" : "Arial",
 									"numoutlets" : 4,
 									"id" : "obj-8",
@@ -2040,7 +2040,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "OSC-route /voice1 /voice2 /voice3 /voice4",
+									"text" : "o.route /voice1 /voice2 /voice3 /voice4",
 									"fontname" : "Arial",
 									"numoutlets" : 5,
 									"id" : "obj-9",
@@ -3464,7 +3464,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "a slash before each argument creates a named outlet on the OSC-route object. When the name is found in an address it is stripped off and the rest of the address is sent forward.",
+									"text" : "a slash before each argument creates a named outlet on the o.route object. When the name is found in an address it is stripped off and the rest of the address is sent forward.",
 									"linecount" : 2,
 									"fontname" : "Arial",
 									"numoutlets" : 0,

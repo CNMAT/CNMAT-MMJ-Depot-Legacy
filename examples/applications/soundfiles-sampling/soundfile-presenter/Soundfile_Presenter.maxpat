@@ -11166,7 +11166,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 201.0, 58.0, 195.0, 20.0 ],
-									"text" : "OSC-route /transport /time /marker"
+									"text" : "o.route /transport /time /marker"
 								}
 
 							}
@@ -16845,7 +16845,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

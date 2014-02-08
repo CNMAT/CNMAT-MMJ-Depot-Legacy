@@ -297,7 +297,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 739.0, 174.0, 116.0, 17.0 ],
-					"text" : "OSC-route /nextSubdiv"
+					"text" : "o.route /nextSubdiv"
 				}
 
 			}
@@ -512,7 +512,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 700.0, 235.0, 124.0, 17.0 ],
-					"text" : "OSC-route /offset /mute"
+					"text" : "o.route /offset /mute"
 				}
 
 			}
@@ -1440,7 +1440,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 599.0, 103.0, 99.0, 17.0 ],
-					"text" : "OSC-route slash #4"
+					"text" : "o.route slash #4"
 				}
 
 			}
@@ -1510,7 +1510,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 478.0, 396.0, 142.0, 17.0 ],
-					"text" : "OSC-route /mstr.tempo1750"
+					"text" : "o.route /mstr.tempo1750"
 				}
 
 			}
@@ -1863,7 +1863,7 @@
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 350.0, 152.0, 347.0, 17.0 ],
-					"text" : "OSC-route /subdivisions /beats /internal /rate /reset /measures /tempo"
+					"text" : "o.route /subdivisions /beats /internal /rate /reset /measures /tempo"
 				}
 
 			}

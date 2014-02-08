@@ -1237,7 +1237,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /note /random-note /open",
+					"text" : "o.route /note /random-note /open",
 					"fontname" : "Arial",
 					"numinlets" : 1,
 					"patching_rect" : [ 113.0, 245.0, 179.0, 17.0 ],
@@ -1865,7 +1865,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /1 /2 /3 /4 /5 /6 /7 /8",
+					"text" : "o.route /1 /2 /3 /4 /5 /6 /7 /8",
 					"fontname" : "Arial",
 					"numinlets" : 1,
 					"patching_rect" : [ 45.0, 71.0, 788.0, 17.0 ],

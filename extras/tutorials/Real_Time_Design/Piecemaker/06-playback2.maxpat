@@ -394,7 +394,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /player",
+					"text" : "o.route /player",
 					"numinlets" : 1,
 					"fontname" : "Arial",
 					"numoutlets" : 2,
@@ -529,7 +529,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "OSC-route /*/gain",
+									"text" : "o.route /*/gain",
 									"numinlets" : 1,
 									"fontname" : "Arial",
 									"numoutlets" : 2,

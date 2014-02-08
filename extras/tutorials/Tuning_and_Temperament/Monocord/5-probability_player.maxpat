@@ -1808,7 +1808,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 197.0, 31.0, 145.0, 20.0 ],
-					"text" : "OSC-route /8s/probability"
+					"text" : "o.route /8s/probability"
 				}
 
 			}
@@ -2655,7 +2655,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

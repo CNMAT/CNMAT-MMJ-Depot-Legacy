@@ -890,7 +890,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 131.0, 72.0, 243.0, 17.0 ],
-					"text" : "OSC-route /start /stop /fade-in /fade-out /buffer"
+					"text" : "o.route /start /stop /fade-in /fade-out /buffer"
 				}
 
 			}
@@ -1145,7 +1145,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

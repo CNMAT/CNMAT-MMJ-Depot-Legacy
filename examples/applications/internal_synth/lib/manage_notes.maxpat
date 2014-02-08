@@ -46,7 +46,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /chan*",
+					"text" : "o.route /chan*",
 					"id" : "obj-1",
 					"outlettype" : [ "", "" ],
 					"fontsize" : 12.0,
@@ -99,7 +99,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /note",
+					"text" : "o.route /note",
 					"id" : "obj-10",
 					"outlettype" : [ "", "" ],
 					"fontsize" : 12.0,

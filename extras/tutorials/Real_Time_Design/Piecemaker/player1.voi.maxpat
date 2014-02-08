@@ -79,7 +79,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /mute",
+					"text" : "o.route /mute",
 					"numinlets" : 1,
 					"fontname" : "Arial",
 					"numoutlets" : 2,
@@ -122,7 +122,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /1",
+					"text" : "o.route /1",
 					"numinlets" : 1,
 					"fontname" : "Arial",
 					"numoutlets" : 2,
@@ -167,7 +167,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /file /play",
+					"text" : "o.route /file /play",
 					"numinlets" : 1,
 					"fontname" : "Arial",
 					"numoutlets" : 3,

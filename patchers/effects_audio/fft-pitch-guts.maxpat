@@ -120,7 +120,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 152.0, 69.0, 171.0, 20.0 ],
-					"text" : "OSC-route /shift /transposition"
+					"text" : "o.route /shift /transposition"
 				}
 
 			}
@@ -300,7 +300,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -312,7 +312,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 294.0, 85.0, 125.0, 17.0 ],
-					"text" : "OSC-route /go /collection"
+					"text" : "o.route /go /collection"
 				}
 
 			}

@@ -1207,7 +1207,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 685.0, 322.0, 130.0, 17.0 ],
-					"text" : "OSC-route /loopstart /loopend"
+					"text" : "o.route /loopstart /loopend"
 				}
 
 			}
@@ -1385,7 +1385,7 @@
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 302.0, 186.0, 377.0, 17.0 ],
-					"text" : "OSC-route /bufname /gain /transposition /delaystart /playfrom /loop /bufmenu"
+					"text" : "o.route /bufname /gain /transposition /delaystart /playfrom /loop /bufmenu"
 				}
 
 			}
@@ -1427,7 +1427,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 338.0, 166.0, 106.0, 17.0 ],
-					"text" : "OSC-route /whoami?"
+					"text" : "o.route /whoami?"
 				}
 
 			}
@@ -2658,7 +2658,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

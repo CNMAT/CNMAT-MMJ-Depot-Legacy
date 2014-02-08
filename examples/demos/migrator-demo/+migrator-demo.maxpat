@@ -2213,7 +2213,7 @@
 													"numoutlets" : 11,
 													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 													"patching_rect" : [ 92.0, 168.0, 436.0, 17.0 ],
-													"text" : "OSC-route /go /tinterval /target /wave /oscamp /del /gain /fade /probe /var"
+													"text" : "o.route /go /tinterval /target /wave /oscamp /del /gain /fade /probe /var"
 												}
 
 											}
@@ -3438,7 +3438,7 @@
 													"numoutlets" : 11,
 													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 													"patching_rect" : [ 92.0, 168.0, 436.0, 17.0 ],
-													"text" : "OSC-route /go /tinterval /target /wave /oscamp /del /gain /fade /probe /var"
+													"text" : "o.route /go /tinterval /target /wave /oscamp /del /gain /fade /probe /var"
 												}
 
 											}
@@ -3932,7 +3932,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 191.0, 173.0, 162.0, 17.0 ],
-									"text" : "OSC-route /voi1 /voi2"
+									"text" : "o.route /voi1 /voi2"
 								}
 
 							}
@@ -5815,7 +5815,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 62.0, 132.0, 213.0, 17.0 ],
-					"text" : "OSC-route /voi1 /voi2"
+					"text" : "o.route /voi1 /voi2"
 				}
 
 			}
@@ -6349,7 +6349,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

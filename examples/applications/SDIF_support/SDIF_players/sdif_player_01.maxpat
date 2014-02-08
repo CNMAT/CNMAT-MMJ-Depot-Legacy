@@ -3019,7 +3019,7 @@
 									"numoutlets" : 8,
 									"outlettype" : [ "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 35.0, 255.0, 505.0, 17.0 ],
-									"text" : "OSC-route /name /filename /streamID /frameType /minTime /maxTime /numFrames"
+									"text" : "o.route /name /filename /streamID /frameType /minTime /maxTime /numFrames"
 								}
 
 							}
@@ -3137,7 +3137,7 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "OSC-route.mxo",
+								"name" : "o.route.mxo",
 								"type" : "iLaX"
 							}
  ]
@@ -7236,7 +7236,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

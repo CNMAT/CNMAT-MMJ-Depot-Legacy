@@ -130,7 +130,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /midinote-on /midinote-off /multisample /speaker",
+					"text" : "o.route /midinote-on /midinote-off /multisample /speaker",
 					"fontsize" : 10.0,
 					"patching_rect" : [ 30.0, 71.0, 307.0, 20.0 ],
 					"numoutlets" : 5,
@@ -169,7 +169,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /play",
+					"text" : "o.route /play",
 					"fontsize" : 10.0,
 					"patching_rect" : [ 147.0, 369.0, 89.0, 20.0 ],
 					"numoutlets" : 2,

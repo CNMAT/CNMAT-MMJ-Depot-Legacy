@@ -311,7 +311,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /play /damp /multisample /dbrange /speaker",
+					"text" : "o.route /play /damp /multisample /dbrange /speaker",
 					"fontsize" : 10.0,
 					"patching_rect" : [ 81.0, 149.0, 285.0, 18.0 ],
 					"numoutlets" : 6,

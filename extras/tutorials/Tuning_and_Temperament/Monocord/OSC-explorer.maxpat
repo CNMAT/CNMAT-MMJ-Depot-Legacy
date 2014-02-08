@@ -150,7 +150,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 72.0, 113.0, 175.0, 20.0 ],
-					"text" : "OSC-route /1 /2 /3 /4 /5 /6 /7 /8"
+					"text" : "o.route /1 /2 /3 /4 /5 /6 /7 /8"
 				}
 
 			}
@@ -164,7 +164,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 72.0, 77.0, 103.0, 20.0 ],
-					"text" : "OSC-route /pluck"
+					"text" : "o.route /pluck"
 				}
 
 			}

@@ -815,7 +815,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /coriander /oregano /paprika",
+					"text" : "o.route /coriander /oregano /paprika",
 					"id" : "obj-39",
 					"fontname" : "Arial",
 					"outlettype" : [ "", "", "", "" ],
@@ -966,7 +966,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "OSC-route /coriander /oregano /paprika",
+									"text" : "o.route /coriander /oregano /paprika",
 									"id" : "obj-8",
 									"fontname" : "Arial",
 									"outlettype" : [ "", "", "", "" ],
@@ -1261,7 +1261,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /dill /paprika",
+					"text" : "o.route /dill /paprika",
 					"id" : "obj-43",
 					"fontname" : "Arial",
 					"outlettype" : [ "", "", "" ],
@@ -1553,7 +1553,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /cumin /spices /otherspices",
+					"text" : "o.route /cumin /spices /otherspices",
 					"id" : "obj-50",
 					"fontname" : "Arial",
 					"outlettype" : [ "", "", "", "" ],

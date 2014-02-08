@@ -1271,7 +1271,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /go /tinterval /target /wave /oscamp /del /gain /fade /probe /var",
+					"text" : "o.route /go /tinterval /target /wave /oscamp /del /gain /fade /probe /var",
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"fontsize" : 12.0,

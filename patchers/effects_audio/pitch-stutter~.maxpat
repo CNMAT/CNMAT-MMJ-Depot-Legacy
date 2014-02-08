@@ -19,7 +19,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route slash #1",
+					"text" : "o.route slash #1",
 					"outlettype" : [ "", "" ],
 					"fontsize" : 9.0,
 					"numinlets" : 1,
@@ -103,7 +103,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /shiftamt /ampvar /repeatprob /dropoutprob /feedback",
+					"text" : "o.route /shiftamt /ampvar /repeatprob /dropoutprob /feedback",
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"fontsize" : 9.0,
 					"numinlets" : 1,

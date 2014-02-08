@@ -34,7 +34,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route slash #1",
+					"text" : "o.route slash #1",
 					"outlettype" : [ "list", "list" ],
 					"patching_rect" : [ 912.0, 80.0, 99.0, 17.0 ],
 					"id" : "obj-2",
@@ -108,7 +108,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /gain /slew",
+					"text" : "o.route /gain /slew",
 					"outlettype" : [ "list", "list", "list" ],
 					"patching_rect" : [ 892.0, 120.0, 114.0, 17.0 ],
 					"id" : "obj-4",

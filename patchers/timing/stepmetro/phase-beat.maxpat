@@ -213,7 +213,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 277.0, 25.0, 99.0, 17.0 ],
-					"text" : "OSC-route slash #3"
+					"text" : "o.route slash #3"
 				}
 
 			}
@@ -241,7 +241,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 237.0, 62.0, 224.0, 17.0 ],
-					"text" : "OSC-route /phase /tempo /count /reset /mute"
+					"text" : "o.route /phase /tempo /count /reset /mute"
 				}
 
 			}
@@ -532,7 +532,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

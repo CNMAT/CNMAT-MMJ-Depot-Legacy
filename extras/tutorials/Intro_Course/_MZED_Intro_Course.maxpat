@@ -74,7 +74,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 50.0, 100.0, 204.0, 918.0 ],
-									"text" : "Unit01-Max\n\n0-introduction-to-max.maxpat\n1-patcher_windows.maxpat\n2-Max-objects.maxpat\n3-connecting-objects.maxpat\n4-control-flow.maxpat\n5-order-of-operations.maxpat\n6-first_patch.maxpat\n7-data-types.maxpat\n8-messaging.maxpat\n\nUnit02-MIDI\n\n00-subpatcher+abstraction.maxpat\n01-OSC-route-lesson.maxpat\n02-Internal_Synth_OSC.maxpat\n03_manage-note-offs.maxpat\n04_manage-duration.maxpat\n05-table-sampling.maxpat\n06-Tables-midinotes.maxpat\n07-Tables-probability.maxpat\n08-play-the-isynth.maxpat\n09-timing-world.maxpat\n13-Unit2-assignment.maxpat\n\nUnit03-msp\n\n01-MSP_DAC.maxpat\n02-sinewaves-sampling.maxpat\n03-MSP_cycle_object.maxpat\n04-scaling&line.maxpat\n05-buffer-intro.maxpat\n06-additive-synthesis.maxpat\n07-harmonic-waves.maxpat\n08-Simple-synthesis.maxpat\n09-vis+initialization.maxpat\n10-input-output.maxpat\nLAB_ASSIGNMENT-UNIT3.maxpat\n\nUnit04-Samples+Delays+Filters\n\n00-about_buffer.maxpat\n01-Info~_and_buffer.maxpat\n02-Play~_and_buffer.maxpat\n03-Groove~_buffer.maxpat\n04-about_adc~.maxpat\n05-Record_microphone.maxpat\n06-record_internalCD.maxpat\n07-multibuffer.maxpat\n08-groovewrap-tools.maxpat\n09-delay.maxpat\n10-variable_delay.maxpat\n11-filters.maxpat\n12-reverberation.maxpat\nLab_Assignment-Unit4.maxpat\n\nUnit05-Frequency_Domain\n\n00-frequency_domain.maxpat\n01-fourier_transform.maxpat\n02-filtering_noise.maxpat\n03-pitch_processing.maxpat\n04-convolution.maxpat\n05-spectral_tutorials.maxpat\n06-analysis.maxpat\nLab_Assignment-Unit5.maxpat\n\n"
+									"text" : "Unit01-Max\n\n0-introduction-to-max.maxpat\n1-patcher_windows.maxpat\n2-Max-objects.maxpat\n3-connecting-objects.maxpat\n4-control-flow.maxpat\n5-order-of-operations.maxpat\n6-first_patch.maxpat\n7-data-types.maxpat\n8-messaging.maxpat\n\nUnit02-MIDI\n\n00-subpatcher+abstraction.maxpat\n01-o.route-lesson.maxpat\n02-Internal_Synth_OSC.maxpat\n03_manage-note-offs.maxpat\n04_manage-duration.maxpat\n05-table-sampling.maxpat\n06-Tables-midinotes.maxpat\n07-Tables-probability.maxpat\n08-play-the-isynth.maxpat\n09-timing-world.maxpat\n13-Unit2-assignment.maxpat\n\nUnit03-msp\n\n01-MSP_DAC.maxpat\n02-sinewaves-sampling.maxpat\n03-MSP_cycle_object.maxpat\n04-scaling&line.maxpat\n05-buffer-intro.maxpat\n06-additive-synthesis.maxpat\n07-harmonic-waves.maxpat\n08-Simple-synthesis.maxpat\n09-vis+initialization.maxpat\n10-input-output.maxpat\nLAB_ASSIGNMENT-UNIT3.maxpat\n\nUnit04-Samples+Delays+Filters\n\n00-about_buffer.maxpat\n01-Info~_and_buffer.maxpat\n02-Play~_and_buffer.maxpat\n03-Groove~_buffer.maxpat\n04-about_adc~.maxpat\n05-Record_microphone.maxpat\n06-record_internalCD.maxpat\n07-multibuffer.maxpat\n08-groovewrap-tools.maxpat\n09-delay.maxpat\n10-variable_delay.maxpat\n11-filters.maxpat\n12-reverberation.maxpat\nLab_Assignment-Unit4.maxpat\n\nUnit05-Frequency_Domain\n\n00-frequency_domain.maxpat\n01-fourier_transform.maxpat\n02-filtering_noise.maxpat\n03-pitch_processing.maxpat\n04-convolution.maxpat\n05-spectral_tutorials.maxpat\n06-analysis.maxpat\nLab_Assignment-Unit5.maxpat\n\n"
 								}
 
 							}
@@ -195,7 +195,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 190.0, 189.333328, 532.0, 58.0 ],
-									"text" : "00-subpatcher+abstraction.maxpat 01-OSC-route-lesson.maxpat 02-Internal_Synth_OSC.maxpat 03_manage-note-offs.maxpat 04_manage-duration.maxpat 05-table-sampling.maxpat 06-Tables-midinotes.maxpat 07-Tables-probability.maxpat 08-play-the-isynth.maxpat 09-timing-world.maxpat 13-Unit2-assignment.maxpat"
+									"text" : "00-subpatcher+abstraction.maxpat 01-o.route-lesson.maxpat 02-Internal_Synth_OSC.maxpat 03_manage-note-offs.maxpat 04_manage-duration.maxpat 05-table-sampling.maxpat 06-Tables-midinotes.maxpat 07-Tables-probability.maxpat 08-play-the-isynth.maxpat 09-timing-world.maxpat 13-Unit2-assignment.maxpat"
 								}
 
 							}
@@ -627,7 +627,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 246.0, 194.0, 202.0, 234.888885 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
-					"tabs" : [ "subpatcher+abstraction", "OSC-route-lesson", "Internal_Synth_OSC", "table-sampling", "Tables-midinotes", "Tables-probability", "play-the-isynth", "timing-world", "Unit2-assignment" ],
+					"tabs" : [ "subpatcher+abstraction", "o.route-lesson", "Internal_Synth_OSC", "table-sampling", "Tables-midinotes", "Tables-probability", "play-the-isynth", "timing-world", "Unit2-assignment" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

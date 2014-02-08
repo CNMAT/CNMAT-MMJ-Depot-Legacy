@@ -680,7 +680,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /7/brightness",
+					"text" : "o.route /7/brightness",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -781,7 +781,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /8/brightness",
+					"text" : "o.route /8/brightness",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -882,7 +882,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /6/brightness",
+					"text" : "o.route /6/brightness",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -983,7 +983,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /5/brightness",
+					"text" : "o.route /5/brightness",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -1084,7 +1084,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /4/brightness",
+					"text" : "o.route /4/brightness",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -1185,7 +1185,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /3/brightness",
+					"text" : "o.route /3/brightness",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -1286,7 +1286,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /2/brightness",
+					"text" : "o.route /2/brightness",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -1387,7 +1387,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /1/brightness",
+					"text" : "o.route /1/brightness",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -1639,7 +1639,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /8s/audition",
+					"text" : "o.route /8s/audition",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -2305,7 +2305,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /1/pluck /2/pluck /3/pluck /4/pluck /5/pluck /6/pluck /7/pluck /8/pluck",
+					"text" : "o.route /1/pluck /2/pluck /3/pluck /4/pluck /5/pluck /6/pluck /7/pluck /8/pluck",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 9,
@@ -3045,7 +3045,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "OSC-route /1/tune /2/tune /3/tune /4/tune /5/tune /6/tune /7/tune /8/tune",
+									"text" : "o.route /1/tune /2/tune /3/tune /4/tune /5/tune /6/tune /7/tune /8/tune",
 									"numinlets" : 1,
 									"fontsize" : 12.0,
 									"numoutlets" : 9,

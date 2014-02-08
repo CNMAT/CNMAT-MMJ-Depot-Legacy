@@ -377,7 +377,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /name /filename /streamID /frameType /minTime /maxTime /numFrames",
+					"text" : "o.route /name /filename /streamID /frameType /minTime /maxTime /numFrames",
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"fontsize" : 12.0,
 					"numinlets" : 1,

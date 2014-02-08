@@ -348,7 +348,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 83.0, 166.0, 90.0, 17.0 ],
-					"text" : "OSC-route slash #1"
+					"text" : "o.route slash #1"
 				}
 
 			}
@@ -784,7 +784,7 @@
 					"numoutlets" : 10,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 69.0, 250.0, 993.0, 17.0 ],
-					"text" : "OSC-route /noise-env /impulse /model /rate-scale /gain-scale /attenuate /frequency-scale /to-res-transform /to-resonators~"
+					"text" : "o.route /noise-env /impulse /model /rate-scale /gain-scale /attenuate /frequency-scale /to-res-transform /to-resonators~"
 				}
 
 			}
@@ -1451,7 +1451,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

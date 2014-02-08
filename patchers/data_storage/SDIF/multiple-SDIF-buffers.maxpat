@@ -362,7 +362,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 688.0, 258.0, 258.0, 17.0 ],
-									"text" : "Make the OSC-route object with arguments /1, /2, etc"
+									"text" : "Make the o.route object with arguments /1, /2, etc"
 								}
 
 							}
@@ -495,7 +495,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 719.0, 365.0, 315.0, 17.0 ],
-									"text" : "prepend script new oscroute newex 10 100 400 196617 OSC-route"
+									"text" : "prepend script new oscroute newex 10 100 400 196617 o.route"
 								}
 
 							}

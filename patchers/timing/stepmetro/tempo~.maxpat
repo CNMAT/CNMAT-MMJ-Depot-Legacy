@@ -92,7 +92,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 232.0, 37.0, 99.0, 17.0 ],
-					"text" : "OSC-route /tempo~"
+					"text" : "o.route /tempo~"
 				}
 
 			}
@@ -148,7 +148,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 668.0, 251.0, 114.0, 17.0 ],
-					"text" : "OSC-route /poll /name"
+					"text" : "o.route /poll /name"
 				}
 
 			}
@@ -610,7 +610,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 585.0, 225.0, 102.0, 17.0 ],
-					"text" : "OSC-route /verbose"
+					"text" : "o.route /verbose"
 				}
 
 			}
@@ -1049,7 +1049,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 455.0, 180.0, 151.0, 17.0 ],
-					"text" : "OSC-route /period /nextperiod"
+					"text" : "o.route /period /nextperiod"
 				}
 
 			}
@@ -1099,7 +1099,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 644.0, 90.0, 149.0, 17.0 ],
-					"text" : "OSC-route /length /nextlength"
+					"text" : "o.route /length /nextlength"
 				}
 
 			}
@@ -1196,7 +1196,7 @@
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 197.0, 63.0, 323.0, 17.0 ],
-					"text" : "OSC-route /start /stop /rate /nextrate /BPM /nextBPM /startBPM"
+					"text" : "o.route /start /stop /rate /nextrate /BPM /nextBPM /startBPM"
 				}
 
 			}
@@ -1933,7 +1933,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

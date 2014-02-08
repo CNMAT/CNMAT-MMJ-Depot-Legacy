@@ -72,7 +72,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 374.0, 35.0, 118.0, 20.0 ],
-					"text" : "OSC-route /*/rootHz"
+					"text" : "o.route /*/rootHz"
 				}
 
 			}

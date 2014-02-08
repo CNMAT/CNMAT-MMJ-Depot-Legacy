@@ -67,7 +67,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 309.0, 113.0, 100.0, 17.0 ],
-					"text" : "OSC-route /version"
+					"text" : "o.route /version"
 				}
 
 			}
@@ -753,7 +753,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

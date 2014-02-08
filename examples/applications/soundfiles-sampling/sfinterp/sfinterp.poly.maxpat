@@ -1331,7 +1331,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 668.0, 320.0, 124.0, 20.0 ],
-					"text" : "OSC-route /1 /sname"
+					"text" : "o.route /1 /sname"
 				}
 
 			}
@@ -1345,7 +1345,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 668.0, 80.0, 95.0, 20.0 ],
-					"text" : "OSC-route /pan"
+					"text" : "o.route /pan"
 				}
 
 			}

@@ -158,7 +158,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /OSC",
+					"text" : "o.route /OSC",
 					"id" : "obj-12",
 					"fontname" : "Arial",
 					"outlettype" : [ "", "" ],

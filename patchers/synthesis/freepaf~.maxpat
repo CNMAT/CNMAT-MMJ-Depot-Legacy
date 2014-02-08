@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 116.0, 31.0, 99.0, 17.0 ],
-					"text" : "OSC-route slash #1"
+					"text" : "o.route slash #1"
 				}
 
 			}
@@ -1073,7 +1073,7 @@
 					"numoutlets" : 10,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 223.0, 48.0, 302.0, 17.0 ],
-					"text" : "OSC-route /freq /vfr /vib /bw /gain /cf /shift /phase /cfgliss"
+					"text" : "o.route /freq /vfr /vib /bw /gain /cf /shift /phase /cfgliss"
 				}
 
 			}
@@ -3884,7 +3884,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

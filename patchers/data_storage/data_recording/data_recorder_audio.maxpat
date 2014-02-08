@@ -65,7 +65,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 130.0, 76.0, 341.0, 17.0 ],
-					"text" : "OSC-route /record /save /play /pause /stop"
+					"text" : "o.route /record /save /play /pause /stop"
 				}
 
 			}
@@ -625,7 +625,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

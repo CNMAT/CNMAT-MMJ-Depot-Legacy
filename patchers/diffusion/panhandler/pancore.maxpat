@@ -1481,7 +1481,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 118.0, 87.0, 305.0, 17.0 ],
-					"text" : "OSC-route /goto /spread /gotonow /circle /define_loudspeakers"
+					"text" : "o.route /goto /spread /gotonow /circle /define_loudspeakers"
 				}
 
 			}
@@ -1786,7 +1786,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

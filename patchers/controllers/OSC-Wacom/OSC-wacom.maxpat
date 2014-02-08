@@ -4438,7 +4438,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "OSC-route /poll /bgrd /flusheventqueue /deviceID /pointer /coordinates",
+					"text" : "o.route /poll /bgrd /flusheventqueue /deviceID /pointer /coordinates",
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "" ],
 					"fontname" : "Arial",

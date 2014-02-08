@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 44.0, 28.0, 116.0, 20.0 ],
-					"text" : "OSC-route slash #1"
+					"text" : "o.route slash #1"
 				}
 
 			}
@@ -204,7 +204,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 44.0, 54.0, 615.0, 20.0 ],
-					"text" : "OSC-route /pluck /tune /rootHz /octave /squelch"
+					"text" : "o.route /pluck /tune /rootHz /octave /squelch"
 				}
 
 			}
@@ -655,7 +655,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

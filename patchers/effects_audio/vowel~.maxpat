@@ -38,7 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 125.0, 48.0, 99.0, 17.0 ],
-					"text" : "OSC-route slash #2"
+					"text" : "o.route slash #2"
 				}
 
 			}
@@ -164,7 +164,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 102.0, 70.0, 185.0, 17.0 ],
-					"text" : "OSC-route /range /vowel /interpolate"
+					"text" : "o.route /range /vowel /interpolate"
 				}
 
 			}
@@ -753,7 +753,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

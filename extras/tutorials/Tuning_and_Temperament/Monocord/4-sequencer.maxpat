@@ -418,7 +418,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 211.0, 38.0, 129.0, 20.0 ],
-					"text" : "OSC-route /8s/melody"
+					"text" : "o.route /8s/melody"
 				}
 
 			}
@@ -2776,7 +2776,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

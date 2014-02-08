@@ -64,7 +64,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 464.0, 68.0, 218.0, 17.0 ],
-					"text" : "OSC-route /type /columns /planecount /stuff"
+					"text" : "o.route /type /columns /planecount /stuff"
 				}
 
 			}
@@ -1594,7 +1594,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]
