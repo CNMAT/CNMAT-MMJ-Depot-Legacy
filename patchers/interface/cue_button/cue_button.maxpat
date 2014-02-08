@@ -871,7 +871,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "osc-route /prep /trig /inc /togclear",
+					"text" : "o.route /prep /trig /inc /togclear",
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"numinlets" : 1,
@@ -885,7 +885,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "osc-route /cuesetn /cuesetn/updm /cuesetn/setm /cuesetn/offm",
+					"text" : "o.route /cuesetn /cuesetn/updm /cuesetn/setm /cuesetn/offm",
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"numinlets" : 1,

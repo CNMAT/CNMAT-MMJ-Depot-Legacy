@@ -289,7 +289,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 130.0, 100.0, 141.0, 19.0 ],
-													"text" : "osc-route /start /stop /open"
+													"text" : "o.route /start /stop /open"
 												}
 
 											}
@@ -303,7 +303,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 129.999985, 66.5, 79.0, 19.0 ],
-													"text" : "osc-route /rec"
+													"text" : "o.route /rec"
 												}
 
 											}

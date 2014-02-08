@@ -12213,7 +12213,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 53.0, 154.0, 56.0, 17.0 ],
-									"text" : "osc-route",
+									"text" : "o.route",
 									"textcolor" : [ 0.611765, 0.701961, 1.0, 1.0 ]
 								}
 

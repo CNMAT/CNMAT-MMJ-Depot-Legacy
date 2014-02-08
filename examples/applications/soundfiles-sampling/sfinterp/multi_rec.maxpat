@@ -275,7 +275,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "osc-route /1 /rbfidump /rbfiall",
+					"text" : "o.route /1 /rbfidump /rbfiall",
 					"id" : "obj-21",
 					"numinlets" : 1,
 					"patching_rect" : [ 100.0, 92.0, 277.0, 19.0 ],
@@ -419,7 +419,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "osc-route /rec /data /assign",
+					"text" : "o.route /rec /data /assign",
 					"id" : "obj-70",
 					"numinlets" : 1,
 					"patching_rect" : [ 100.0, 148.0, 357.0, 19.0 ],

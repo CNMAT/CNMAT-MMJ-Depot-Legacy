@@ -519,7 +519,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 476.0, 44.0, 182.0, 18.0 ],
-					"text" : "osc-route /num_displayslots /pstoreget"
+					"text" : "o.route /num_displayslots /pstoreget"
 				}
 
 			}

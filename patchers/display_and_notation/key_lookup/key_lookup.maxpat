@@ -164,7 +164,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "osc-route /key-on /load",
+					"text" : "o.route /key-on /load",
 					"id" : "obj-5",
 					"fontname" : "Arial",
 					"numinlets" : 1,

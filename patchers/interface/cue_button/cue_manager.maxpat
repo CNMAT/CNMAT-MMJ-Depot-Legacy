@@ -147,7 +147,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "osc-route /inc /next",
+					"text" : "o.route /inc /next",
 					"numoutlets" : 3,
 					"patching_rect" : [ 48.0, 96.0, 95.0, 18.0 ],
 					"id" : "obj-3",
@@ -219,7 +219,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "osc-route /cueset1/next",
+					"text" : "o.route /cueset1/next",
 					"numoutlets" : 2,
 					"patching_rect" : [ 212.0, 188.0, 114.0, 18.0 ],
 					"id" : "obj-17",

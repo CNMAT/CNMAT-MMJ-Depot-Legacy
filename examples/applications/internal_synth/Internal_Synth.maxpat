@@ -17015,7 +17015,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 495.0, 90.0, 101.0, 20.0 ],
-									"text" : "osc-route /reverb"
+									"text" : "o.route /reverb"
 								}
 
 							}
