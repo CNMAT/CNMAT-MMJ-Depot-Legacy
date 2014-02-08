@@ -134,7 +134,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 277.0, 354.0, 111.0, 20.0 ],
-					"text" : "OSC-route /goto"
+					"text" : "o.route /goto"
 				}
 
 			}
@@ -149,7 +149,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 128.0, 412.0, 101.0, 17.0 ],
-					"text" : "OSC-route /location"
+					"text" : "o.route /location"
 				}
 
 			}
@@ -1614,7 +1614,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

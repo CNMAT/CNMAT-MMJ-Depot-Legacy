@@ -302,7 +302,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 246.0, 328.0, 153.0, 20.0 ],
-					"text" : "osc-route /read /write"
+					"text" : "o.route /read /write"
 				}
 
 			}
@@ -464,7 +464,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

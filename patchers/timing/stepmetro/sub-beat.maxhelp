@@ -569,7 +569,7 @@
 								"implicit" : 1
 							}
 , 							{
-								"name" : "OSC-route.mxo",
+								"name" : "o.route.mxo",
 								"type" : "iLaX"
 							}
 , 							{
@@ -1062,7 +1062,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 524.0, 99.0, 115.0, 20.0 ],
-					"text" : "OSC-route /tempo~"
+					"text" : "o.route /tempo~"
 				}
 
 			}
@@ -2078,7 +2078,7 @@
 												"implicit" : 1
 											}
 , 											{
-												"name" : "OSC-route.mxo",
+												"name" : "o.route.mxo",
 												"type" : "iLaX"
 											}
 , 											{
@@ -4925,7 +4925,7 @@
 												"implicit" : 1
 											}
 , 											{
-												"name" : "OSC-route.mxo",
+												"name" : "o.route.mxo",
 												"type" : "iLaX"
 											}
 , 											{
@@ -4992,7 +4992,7 @@
 								"implicit" : 1
 							}
 , 							{
-								"name" : "OSC-route.mxo",
+								"name" : "o.route.mxo",
 								"type" : "iLaX"
 							}
 , 							{
@@ -6744,7 +6744,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

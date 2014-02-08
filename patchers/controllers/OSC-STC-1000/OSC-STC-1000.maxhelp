@@ -350,7 +350,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 182.0, 128.0, 287.0, 17.0 ],
-					"text" : "OSC-route /x /y /pressure /touch /release"
+					"text" : "o.route /x /y /pressure /touch /release"
 				}
 
 			}
@@ -805,7 +805,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 163.0, 306.0, 510.0, 17.0 ],
-					"text" : "OSC-route /x /y /pressure /touch /release"
+					"text" : "o.route /x /y /pressure /touch /release"
 				}
 
 			}
@@ -1325,7 +1325,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

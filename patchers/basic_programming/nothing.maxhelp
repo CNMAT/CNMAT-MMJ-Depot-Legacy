@@ -1029,7 +1029,7 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 480.0, 332.0, 180.0, 20.0 ],
-					"text" : "osc-route /a /b /c /d /e /f"
+					"text" : "o.route /a /b /c /d /e /f"
 				}
 
 			}
@@ -2960,7 +2960,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

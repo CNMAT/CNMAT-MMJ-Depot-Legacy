@@ -928,7 +928,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 334.0, 488.0, 255.0, 20.0 ],
-					"text" : "OSC-route /coriander /oregano /paprika"
+					"text" : "o.route /coriander /oregano /paprika"
 				}
 
 			}
@@ -1090,7 +1090,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 12.0, 53.0, 221.0, 20.0 ],
-									"text" : "OSC-route /coriander /oregano /paprika"
+									"text" : "o.route /coriander /oregano /paprika"
 								}
 
 							}
@@ -1399,7 +1399,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 209.0, 459.0, 158.0, 20.0 ],
-					"text" : "OSC-route /dill /paprika"
+					"text" : "o.route /dill /paprika"
 				}
 
 			}
@@ -1711,7 +1711,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 132.0, 403.0, 249.0, 20.0 ],
-					"text" : "OSC-route /cumin /spices /otherspices"
+					"text" : "o.route /cumin /spices /otherspices"
 				}
 
 			}
@@ -2344,7 +2344,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -744,7 +744,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 17.0, 44.0, 190.0, 20.0 ],
-									"text" : "OSC-route /latitude /longitude"
+									"text" : "o.route /latitude /longitude"
 								}
 
 							}
@@ -1103,7 +1103,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 41.0, 330.0, 163.0, 20.0 ],
-					"text" : "OSC-route /UTC /quality"
+					"text" : "o.route /UTC /quality"
 				}
 
 			}
@@ -1419,7 +1419,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 39.0, 206.0, 253.0, 20.0 ],
-					"text" : "OSC-route /longitude /latitude /altitude"
+					"text" : "o.route /longitude /latitude /altitude"
 				}
 
 			}
@@ -1794,7 +1794,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -104,7 +104,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 514.0, 162.0, 95.0, 20.0 ],
-					"text" : "OSC-route /1 /2"
+					"text" : "o.route /1 /2"
 				}
 
 			}
@@ -202,7 +202,7 @@
 					"numoutlets" : 17,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 38.0, 144.0, 467.0, 20.0 ],
-					"text" : "OSC-route /1 /2 /3 /4 /5 /6 /7 /8 /9 /10 /11 /12 /13 /14 /15 /16"
+					"text" : "o.route /1 /2 /3 /4 /5 /6 /7 /8 /9 /10 /11 /12 /13 /14 /15 /16"
 				}
 
 			}
@@ -632,7 +632,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 28.0, 122.0, 161.0, 20.0 ],
-					"text" : "OSC-route /button /fader /cv"
+					"text" : "o.route /button /fader /cv"
 				}
 
 			}
@@ -766,7 +766,7 @@
 					"numoutlets" : 17,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 28.0, 342.0, 479.0, 20.0 ],
-					"text" : "OSC-route /1 /2 /3 /4 /5 /6 /7 /8 /9 /10 /11 /12 /13 /14 /15 /16"
+					"text" : "o.route /1 /2 /3 /4 /5 /6 /7 /8 /9 /10 /11 /12 /13 /14 /15 /16"
 				}
 
 			}
@@ -1214,7 +1214,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

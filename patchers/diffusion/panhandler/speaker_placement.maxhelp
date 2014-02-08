@@ -361,7 +361,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 627.0, 482.0, 89.0, 17.0 ],
-					"text" : "OSC-route /angle"
+					"text" : "o.route /angle"
 				}
 
 			}
@@ -375,7 +375,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 594.0, 459.0, 89.0, 17.0 ],
-					"text" : "OSC-route /angle"
+					"text" : "o.route /angle"
 				}
 
 			}
@@ -389,7 +389,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 560.0, 436.0, 89.0, 17.0 ],
-					"text" : "OSC-route /angle"
+					"text" : "o.route /angle"
 				}
 
 			}
@@ -403,7 +403,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 527.0, 413.0, 89.0, 17.0 ],
-					"text" : "OSC-route /angle"
+					"text" : "o.route /angle"
 				}
 
 			}
@@ -485,7 +485,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 493.0, 480.0, 89.0, 17.0 ],
-					"text" : "OSC-route /angle"
+					"text" : "o.route /angle"
 				}
 
 			}
@@ -499,7 +499,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 460.0, 457.0, 89.0, 17.0 ],
-					"text" : "OSC-route /angle"
+					"text" : "o.route /angle"
 				}
 
 			}
@@ -513,7 +513,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 426.0, 434.0, 89.0, 17.0 ],
-					"text" : "OSC-route /angle"
+					"text" : "o.route /angle"
 				}
 
 			}
@@ -527,7 +527,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 392.0, 411.0, 89.0, 17.0 ],
-					"text" : "OSC-route /angle"
+					"text" : "o.route /angle"
 				}
 
 			}
@@ -711,7 +711,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 392.0, 389.0, 288.0, 17.0 ],
-					"text" : "OSC-route /1 /2 /3 /4 /5 /6 /7 /8"
+					"text" : "o.route /1 /2 /3 /4 /5 /6 /7 /8"
 				}
 
 			}
@@ -1556,7 +1556,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

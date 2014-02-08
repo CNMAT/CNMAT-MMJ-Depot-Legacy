@@ -2264,7 +2264,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 36.0, 441.0, 303.0, 20.0 ],
-					"text" : "OSC-route /xPos /yPos /xTilt /yTilt /pressure"
+					"text" : "o.route /xPos /yPos /xTilt /yTilt /pressure"
 				}
 
 			}
@@ -2278,7 +2278,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 36.0, 417.0, 196.0, 20.0 ],
-					"text" : "OSC-route /drawing /hovering"
+					"text" : "o.route /drawing /hovering"
 				}
 
 			}
@@ -2292,7 +2292,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 392.0, 101.0, 20.0 ],
-					"text" : "OSC-route /tip"
+					"text" : "o.route /tip"
 				}
 
 			}
@@ -2363,7 +2363,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 371.0, 92.0, 20.0 ],
-					"text" : "OSC-route /0"
+					"text" : "o.route /0"
 				}
 
 			}
@@ -2809,7 +2809,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

@@ -181,7 +181,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 166.0, 129.0, 141.0, 17.0 ],
-					"text" : "OSC-route /left /right /yaw"
+					"text" : "o.route /left /right /yaw"
 				}
 
 			}
@@ -682,7 +682,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 123.0, 285.0, 308.0, 17.0 ],
-					"text" : "OSC-route /left /right /yaw"
+					"text" : "o.route /left /right /yaw"
 				}
 
 			}
@@ -1195,7 +1195,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

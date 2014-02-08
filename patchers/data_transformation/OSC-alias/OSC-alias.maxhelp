@@ -425,7 +425,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 106.0, 352.0, 141.0, 20.0 ],
-					"text" : "OSC-route /high /low"
+					"text" : "o.route /high /low"
 				}
 
 			}
@@ -779,7 +779,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

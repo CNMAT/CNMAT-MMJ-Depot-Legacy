@@ -183,7 +183,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 99.0, 476.0, 104.0, 17.0 ],
-									"text" : "OSC-route /message"
+									"text" : "o.route /message"
 								}
 
 							}
@@ -308,7 +308,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 46.0, 434.0, 104.0, 17.0 ],
-									"text" : "OSC-route /message"
+									"text" : "o.route /message"
 								}
 
 							}
@@ -322,7 +322,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 46.0, 403.0, 168.0, 17.0 ],
-									"text" : "OSC-route /thing1 /thing2 /thing3"
+									"text" : "o.route /thing1 /thing2 /thing3"
 								}
 
 							}
@@ -849,7 +849,7 @@
 								"implicit" : 1
 							}
 , 							{
-								"name" : "OSC-route.mxo",
+								"name" : "o.route.mxo",
 								"type" : "iLaX"
 							}
 , 							{
@@ -2691,7 +2691,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

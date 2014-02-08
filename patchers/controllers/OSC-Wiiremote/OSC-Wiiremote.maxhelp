@@ -976,7 +976,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 42.0, 348.0, 174.0, 20.0 ],
-					"text" : "OSC-route /X /Y /Z /orientation"
+					"text" : "o.route /X /Y /Z /orientation"
 				}
 
 			}
@@ -1020,7 +1020,7 @@
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 230.0, 244.0, 336.0, 20.0 ],
-					"text" : "OSC-route /A /B /1 /2 /plus /minus /left /right /up /down /home"
+					"text" : "o.route /A /B /1 /2 /plus /minus /left /right /up /down /home"
 				}
 
 			}
@@ -1062,7 +1062,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 42.0, 219.0, 112.0, 20.0 ],
-					"text" : "OSC-route /remote"
+					"text" : "o.route /remote"
 				}
 
 			}
@@ -1556,7 +1556,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -143,7 +143,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 451.0, 254.0, 296.0, 20.0 ],
-					"text" : "OSC-route /left /leftbutton /right /rightbutton"
+					"text" : "o.route /left /leftbutton /right /rightbutton"
 				}
 
 			}
@@ -253,7 +253,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 376.0, 195.0, 171.0, 20.0 ],
-					"text" : "OSC-route /gamepad /joystick"
+					"text" : "o.route /gamepad /joystick"
 				}
 
 			}
@@ -267,7 +267,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 25.0, 253.0, 365.0, 20.0 ],
-					"text" : "OSC-route /left /upleft /up /upright /right /downright /down /downleft"
+					"text" : "o.route /left /upleft /up /upright /right /downright /down /downleft"
 				}
 
 			}
@@ -462,7 +462,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 46.0, 150.0, 359.0, 20.0 ],
-					"text" : "OSC-route /L1 /L2 /R1 /R2 /select /start /triangle /circle /X /square"
+					"text" : "o.route /L1 /L2 /R1 /R2 /select /start /triangle /circle /X /square"
 				}
 
 			}
@@ -859,7 +859,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]

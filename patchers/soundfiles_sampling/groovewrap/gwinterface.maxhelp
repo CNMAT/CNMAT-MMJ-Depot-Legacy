@@ -349,7 +349,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 430.0, 508.0, 137.0, 20.0 ],
-					"text" : "OSC-route /shenanigan",
+					"text" : "o.route /shenanigan",
 					"varname" : "mz_groovewrap[3]"
 				}
 
@@ -749,7 +749,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ]
