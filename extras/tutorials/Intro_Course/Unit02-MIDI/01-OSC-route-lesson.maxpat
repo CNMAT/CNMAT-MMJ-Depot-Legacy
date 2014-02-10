@@ -1,10 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 6,
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
+		}
+,
 		"rect" : [ 96.0, 44.0, 595.0, 391.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 96.0, 44.0, 595.0, 391.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -12,67 +17,87 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"maxclass" : "comment",
-					"text" : "Important: learn about o.route style messaging",
 					"fontname" : "Arial",
-					"numoutlets" : 0,
+					"fontsize" : 18.0,
+					"frgb" : 0.0,
 					"id" : "obj-5",
-					"patching_rect" : [ 14.0, 142.0, 412.0, 27.0 ],
-					"fontsize" : 18.0,
-					"numinlets" : 1,
-					"presentation_rect" : [ 13.0, 165.0, 0.0, 0.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "Open Sound Control (OSC) is a protocol developed at CNMAT for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology. Many companies have adopted OSC into their prodcuts and has become something of a new standard.",
-					"linecount" : 3,
-					"fontname" : "Arial",
-					"numoutlets" : 1,
-					"id" : "obj-4",
-					"patching_rect" : [ 13.0, 32.0, 558.0, 46.0 ],
-					"outlettype" : [ "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "Most MMJ-Depot modules make use of an OSC name space and a Max object called o.route.  ",
-					"linecount" : 2,
-					"fontname" : "Arial",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"id" : "obj-1",
-					"patching_rect" : [ 13.0, 87.0, 551.0, 48.0 ],
-					"fontsize" : 18.0,
-					"numinlets" : 1
+					"patching_rect" : [ 14.0, 142.0, 412.0, 27.0 ],
+					"text" : "Important: learn about o.route style messaging"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "about_o.route",
 					"fontname" : "Arial",
-					"numoutlets" : 0,
-					"id" : "obj-2",
-					"patching_rect" : [ 13.0, 233.0, 161.0, 27.0 ],
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 32.0, 558.0, 45.0 ],
+					"text" : "Open Sound Control (OSC) is a protocol developed at CNMAT for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology. Many companies have adopted OSC into their prodcuts and has become something of a new standard."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"numinlets" : 0
+					"frgb" : 0.0,
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.0, 87.0, 551.0, 47.0 ],
+					"text" : "Most MMJ-Depot modules make use of an OSC name space and a Max object called o.route.  "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 225.0, 141.0, 27.0 ],
+					"text" : "about_osc-route"
 				}
 
 			}
  ],
-		"lines" : [  ]
+		"lines" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "about_OSC-route.maxpat",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/extras/tutors/object-tutors",
+				"patcherrelativepath" : "../../../tutors/object-tutors",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }
