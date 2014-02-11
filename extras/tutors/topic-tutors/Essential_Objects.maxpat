@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 37.0, 70.0, 641.0, 691.0 ],
+		"rect" : [ 25.0, 64.0, 641.0, 691.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,7 +30,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "Essential Max/MSP/Jitter Objects", " " ],
+					"args" : [ "Essential Max/MSP/Jitter Objects", "what to take with you on a trip to the woods", "0.30239 0.725184 0.97886 1." ],
 					"id" : "obj-1",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -44,7 +44,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Essential_Objects", 1.2, "CNMAT", "Essential_Objects 3016" ],
+					"args" : [ "Essential_Objects", 1.2, "CNMAT", "Essential_Objects", 3016, "0.30239 0.725184 0.97886 1." ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
