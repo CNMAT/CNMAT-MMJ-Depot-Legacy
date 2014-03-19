@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 182.0, 153.0, 600.0, 426.0 ],
+		"rect" : [ 100.0, 100.0, 600.0, 426.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-5",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 210.0, 270.0, 150.0, 100.0 ],
+					"text" : "arguments:\n1. name of patch\n2. version number\n3. author\n4. - (deprecated)\n5. - (deprecated)\n5. color float string"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
@@ -71,21 +86,21 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1

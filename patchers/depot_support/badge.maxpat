@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 758.0, 239.0, 707.0, 622.0 ],
+		"rect" : [ 26.0, 68.0, 707.0, 622.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 409.0, 57.0, 97.0, 17.0 ],
+					"patching_rect" : [ 409.0, 57.0, 124.0, 17.0 ],
 					"text" : "unpack s s s"
 				}
 
@@ -92,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.0, 360.0, 73.0, 20.0 ],
+					"patching_rect" : [ 479.0, 330.0, 73.0, 20.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.0, 381.0, 97.0, 20.0 ],
+					"patching_rect" : [ 479.0, 351.0, 97.0, 20.0 ],
 					"text" : "prepend bgcolor"
 				}
 
@@ -152,6 +152,7 @@
 					"fontsize" : 10.0,
 					"gradient" : 0,
 					"id" : "obj-30",
+					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -420,14 +421,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1
