@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 26.0, 68.0, 707.0, 622.0 ],
+		"rect" : [ 449.0, 207.0, 707.0, 622.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,10 +48,10 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 409.0, 57.0, 124.0, 17.0 ],
-					"text" : "unpack s s s"
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 409.0, 60.0, 176.5, 17.0 ],
+					"text" : "unjoin 3"
 				}
 
 			}
@@ -195,7 +195,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 2.0, 98.0, 16.0 ],
+					"patching_rect" : [ 7.0, 2.0, 285.0, 16.0 ],
 					"text" : "#1 version #2 by #3",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
