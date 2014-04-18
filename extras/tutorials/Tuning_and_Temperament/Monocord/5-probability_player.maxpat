@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 21.0, 64.0, 1393.0, 847.0 ],
+		"rect" : [ 621.0, 535.0, 588.0, 347.0 ],
 		"bgcolor" : [ 0.811765, 0.811765, 0.811765, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -71,7 +71,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -682,7 +682,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1217,7 +1217,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1682,7 +1682,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "probabilties.xml",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
@@ -1717,7 +1716,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u943007497"
+					"varname" : "u181000629"
 				}
 
 			}
@@ -1804,9 +1803,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-13",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "FullPacket" ],
 					"patching_rect" : [ 197.0, 31.0, 145.0, 20.0 ],
 					"text" : "o.route /8s/probability"
 				}
@@ -2648,13 +2647,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "probabilties.xml",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
-				"patcherrelativepath" : "./lib",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
