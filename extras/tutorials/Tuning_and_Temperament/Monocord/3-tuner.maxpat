@@ -2,13 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 2,
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 225.0, 81.0, 1425.0, 845.0 ],
+		"rect" : [ 688.0, 44.0, 565.0, 504.0 ],
 		"bgcolor" : [ 0.807843, 0.807843, 0.807843, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -59,19 +59,26 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
+					"lockeddragscroll" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x86"
 						}
 ,
@@ -275,9 +282,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 9,
 									"numoutlets" : 9,
-									"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
+									"outlettype" : [ "", "", "", "", "", "", "", "", "FullPacket" ],
 									"patching_rect" : [ 145.0, 161.0, 175.0, 20.0 ],
 									"text" : "o.route /1 /2 /3 /4 /5 /6 /7 /8"
 								}
@@ -454,25 +461,33 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p namespace_adjuster"
+					"text" : "p namespace_adjuster",
+					"viewvisibility" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
+					"lockeddragscroll" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x86"
 						}
 ,
@@ -676,9 +691,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 9,
 									"numoutlets" : 9,
-									"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
+									"outlettype" : [ "", "", "", "", "", "", "", "", "FullPacket" ],
 									"patching_rect" : [ 145.0, 161.0, 175.0, 20.0 ],
 									"text" : "o.route /1 /2 /3 /4 /5 /6 /7 /8"
 								}
@@ -855,7 +870,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p namespace_adjuster"
+					"text" : "p namespace_adjuster",
+					"viewvisibility" : 0
 				}
 
 			}
@@ -967,19 +983,26 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-182",
+					"lockeddragscroll" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x86"
 						}
 ,
@@ -1103,9 +1126,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-119",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 148.0, 197.0, 118.0, 20.0 ],
 									"text" : "o.route /*/rootHz"
 								}
@@ -1374,7 +1397,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p change-to-midinote"
+					"text" : "p change-to-midinote",
+					"viewvisibility" : 0
 				}
 
 			}
@@ -1394,19 +1418,26 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-154",
+					"lockeddragscroll" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x86"
 						}
 ,
@@ -1477,9 +1508,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 203.0, 26.0, 167.0, 20.0 ],
 									"text" : "o.route /tune/scaledisplay"
 								}
@@ -1594,7 +1625,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p colors"
+					"text" : "p colors",
+					"viewvisibility" : 0
 				}
 
 			}
@@ -1646,19 +1678,26 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-122",
+					"lockeddragscroll" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x86"
 						}
 ,
@@ -1729,9 +1768,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 203.0, 26.0, 167.0, 20.0 ],
 									"text" : "o.route /tune/scaledisplay"
 								}
@@ -1846,7 +1885,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p colors"
+					"text" : "p colors",
+					"viewvisibility" : 0
 				}
 
 			}
@@ -1927,19 +1967,26 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-43",
+					"lockeddragscroll" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x86"
 						}
 ,
@@ -2010,9 +2057,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 203.0, 26.0, 167.0, 20.0 ],
 									"text" : "o.route /tune/scaledisplay"
 								}
@@ -2127,7 +2174,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p colors"
+					"text" : "p colors",
+					"viewvisibility" : 0
 				}
 
 			}
@@ -2135,7 +2183,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"framecolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"framecolor" : [ 0.32, 0.71, 0.32, 1.0 ],
 					"id" : "obj-35",
 					"items" : [ "lydian", ",", "ionian", "(major)", ",", "mixolydian", ",", "dorian", ",", "æolian", "(harmonic", "minor)", ",", "phyrgian", ",", "locrian" ],
 					"maxclass" : "umenu",
@@ -2152,19 +2200,26 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
+					"lockeddragscroll" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x86"
 						}
 ,
@@ -2235,9 +2290,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 203.0, 26.0, 167.0, 20.0 ],
 									"text" : "o.route /tune/scaledisplay"
 								}
@@ -2352,7 +2407,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p colors"
+					"text" : "p colors",
+					"viewvisibility" : 0
 				}
 
 			}
@@ -2404,14 +2460,22 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-6",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "monocords_fundamental.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 23.0, 8.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 1.0, 367.0, 128.0 ]
+					"presentation_rect" : [ 21.0, 1.0, 367.0, 128.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -2658,27 +2722,27 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 427.0, 546.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"churchmodes" : [ 3 ],
-						"denominator1" : [ 18 ],
-						"denominator2" : [ 24 ],
-						"denominator3" : [ 11 ],
+						"churchmodes" : [ 5 ],
+						"denominator1" : [ 1 ],
+						"denominator2" : [ 16 ],
+						"denominator3" : [ 6 ],
 						"denominator4" : [ 4 ],
 						"denominator5" : [ 3 ],
-						"denominator6" : [ 5 ],
+						"denominator6" : [ 8 ],
 						"denominator7" : [ 16 ],
-						"denominator8" : [ 6 ],
+						"denominator8" : [ 2 ],
 						"numerator1" : [ 1 ],
-						"numerator2" : [ 1 ],
-						"numerator3" : [ 1 ],
-						"numerator4" : [ 1 ],
+						"numerator2" : [ 15 ],
+						"numerator3" : [ 5 ],
+						"numerator4" : [ 3 ],
 						"numerator5" : [ 2 ],
-						"numerator6" : [ 1 ],
+						"numerator6" : [ 5 ],
 						"numerator7" : [ 9 ],
 						"numerator8" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u935005925"
+					"varname" : "u279002184"
 				}
 
 			}
@@ -2921,7 +2985,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-83",
 					"maxclass" : "number",
-					"maximum" : 6,
+					"maximum" : 2,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3143,7 +3207,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-97",
 					"maxclass" : "number",
-					"maximum" : 5,
+					"maximum" : 8,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3476,7 +3540,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-69",
 					"maxclass" : "number",
-					"maximum" : 11,
+					"maximum" : 6,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3587,7 +3651,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-62",
 					"maxclass" : "number",
-					"maximum" : 24,
+					"maximum" : 16,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3758,7 +3822,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-44",
 					"maxclass" : "number",
-					"maximum" : 18,
+					"maximum" : 1,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -4980,29 +5044,29 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "clock_diagram.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/display_and_notation/clock_diagram",
-				"patcherrelativepath" : "../../../modules/display_and_notation/clock_diagram",
+				"bootpath" : "~:/Documents/Max/Packages/CNMAT MMJ Depot/patchers/display_and_notation/clock_diagram",
+				"patcherrelativepath" : "../../../../../../Documents/Max/Packages/CNMAT MMJ Depot/patchers/display_and_notation/clock_diagram",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "8harp_tuner.xml",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~:/Documents/Max/Packages/CNMAT MMJ Depot/extras/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../../../../../Documents/Max/Packages/CNMAT MMJ Depot/extras/tutorials/Tuning_and_Temperament/Monocord/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monocords_fundamental.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Tuning_and_Temperament/Monocord/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~:/Documents/Max/Packages/CNMAT MMJ Depot/extras/tutorials/Tuning_and_Temperament/Monocord/lib",
+				"patcherrelativepath" : "../../../../../../Documents/Max/Packages/CNMAT MMJ Depot/extras/tutorials/Tuning_and_Temperament/Monocord/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OSC-unroute.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
-				"patcherrelativepath" : "../../../../../../../../../2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
+				"bootpath" : "~:/MaxMSP_Stuff/_max6_enabled/CNMAT-Everything-OSX-MachO",
+				"patcherrelativepath" : "../../../../../../MaxMSP_Stuff/_max6_enabled/CNMAT-Everything-OSX-MachO",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

@@ -2,12 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
+			"major" : 7,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 240.0, 152.0, 888.0, 519.0 ],
+		"rect" : [ 230.0, 46.0, 888.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,11 +47,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 44.0, 28.0, 116.0, 20.0 ],
-					"text" : "o.route slash #1"
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 44.0, 28.0, 65.0, 20.0 ],
+					"text" : "o.route #1"
 				}
 
 			}
@@ -154,15 +155,23 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
+					"lockeddragscroll" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 44.0, 352.0, 199.0, 20.0 ],
-					"text" : "reso-string~"
+					"text" : "reso-string~",
+					"viewvisibility" : 0
 				}
 
 			}
@@ -200,9 +209,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 6,
 					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"outlettype" : [ "", "", "", "", "", "FullPacket" ],
 					"patching_rect" : [ 44.0, 54.0, 615.0, 20.0 ],
 					"text" : "o.route /pluck /tune /rootHz /octave /squelch"
 				}
@@ -607,50 +616,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "reso-string~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Synthesis/reso-string~",
-				"patcherrelativepath" : "../../../../modules/Synthesis/reso-string~",
+				"bootpath" : "~:/Documents/Max/Packages/CNMAT MMJ Depot/patchers/synthesis/reso-string~",
+				"patcherrelativepath" : "../../../../../../../Documents/Max/Packages/CNMAT MMJ Depot/patchers/synthesis/reso-string~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "coll-listdumper.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Data_Storage",
-				"patcherrelativepath" : "../../../../modules/Data_Storage",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../modules/Depot_Support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../modules/Depot_Support",
+				"bootpath" : "~:/Documents/Max/Packages/CNMAT MMJ Depot/patchers/data_storage",
+				"patcherrelativepath" : "../../../../../../../Documents/Max/Packages/CNMAT MMJ Depot/patchers/data_storage",
 				"type" : "JSON",
 				"implicit" : 1
 			}
