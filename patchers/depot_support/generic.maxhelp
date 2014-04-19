@@ -1,5 +1,5 @@
 {
-	"patcher" : 	{
+	"patcher" : 	{ 
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
