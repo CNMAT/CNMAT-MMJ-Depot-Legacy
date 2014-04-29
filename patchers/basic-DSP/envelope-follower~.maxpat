@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 42.0, 1920.0, 992.0 ],
+		"rect" : [ 417.0, 194.0, 559.0, 537.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -438,7 +438,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 810.0, 240.0, 84.0, 19.0 ],
+					"patching_rect" : [ 390.0, 208.0, 84.0, 19.0 ],
 					"triscale" : 0.9
 				}
 
@@ -545,7 +545,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 809.0, 257.0, 141.0, 19.0 ],
+					"patching_rect" : [ 389.0, 225.0, 141.0, 19.0 ],
 					"text" : "# of samples to analyze"
 				}
 
