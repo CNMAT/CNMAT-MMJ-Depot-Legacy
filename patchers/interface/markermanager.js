@@ -142,7 +142,7 @@ function getmarker(a){
 
 function move(a){
     activeval = a;
-    outlet(0, "current", activeval + 1, all_lines[activeval]);
+    //outlet(0, "current", activeval + 1, all_lines[activeval]);
     mgraphics.redraw();
 }
 
