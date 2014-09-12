@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 11.0, 44.0, 1028.0, 652.0 ],
@@ -40,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 100.0, 144.0, 640.0, 480.0 ],
@@ -139,8 +141,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -170,7 +173,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 110.0, 40.0, 20.0, 20.0 ]
+									"patching_rect" : [ 150.0, 120.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -183,7 +186,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 110.0, 80.0, 32.5, 20.0 ],
+									"patching_rect" : [ 150.0, 160.0, 32.5, 20.0 ],
 									"text" : "b"
 								}
 
@@ -195,7 +198,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 330.0, 10.0, 20.0, 20.0 ]
+									"patching_rect" : [ 370.0, 120.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -208,7 +211,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 330.0, 50.0, 32.5, 20.0 ],
+									"patching_rect" : [ 370.0, 160.0, 49.0, 20.0 ],
 									"text" : "b"
 								}
 
@@ -222,7 +225,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 70.0, 150.0, 137.0, 18.0 ],
+									"patching_rect" : [ 163.5, 190.0, 137.0, 18.0 ],
 									"text" : "1 two, 3 four, 5 six 7 8 9"
 								}
 
@@ -233,7 +236,7 @@
 									"maxclass" : "dict.view",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 280.0, 240.0, 130.0 ]
+									"patching_rect" : [ 490.0, 360.0, 240.0, 130.0 ]
 								}
 
 							}
@@ -246,7 +249,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 360.0, 270.0, 59.5, 20.0 ],
+									"patching_rect" : [ 400.0, 350.0, 59.5, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -265,7 +268,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 360.0, 110.0, 356.0, 18.0 ],
+									"patching_rect" : [ 400.0, 190.0, 356.0, 18.0 ],
 									"text" : "here there, everywhere nowhere, sometimes anytimes, good bad"
 								}
 
@@ -279,7 +282,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "dictionary" ],
-									"patching_rect" : [ 360.0, 230.0, 63.0, 20.0 ],
+									"patching_rect" : [ 400.0, 310.0, 63.0, 20.0 ],
 									"text" : "dict.group"
 								}
 
@@ -293,7 +296,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.0, 160.0, 228.0, 22.0 ],
+									"patching_rect" : [ 550.0, 240.0, 228.0, 22.0 ],
 									"text" : "collect data into a single dictionary "
 								}
 
@@ -307,7 +310,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "dictionary" ],
-									"patching_rect" : [ 800.0, 220.0, 59.0, 22.0 ],
+									"patching_rect" : [ 840.0, 300.0, 59.0, 22.0 ],
 									"text" : "dict.join"
 								}
 
@@ -436,8 +439,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -887,8 +891,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -920,8 +925,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 420.0, 430.0, 130.0, 18.0 ],
-									"text" : "strawberries"
+									"patching_rect" : [ 420.0, 430.0, 130.0, 18.0 ]
 								}
 
 							}
@@ -945,13 +949,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 500.0, 360.0, 130.0, 31.0 ],
-									"text" : "honeysuckle avocado watermelon"
+									"patching_rect" : [ 500.0, 360.0, 130.0, 18.0 ]
 								}
 
 							}
@@ -1114,8 +1116,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 11.0, 70.0, 1028.0, 626.0 ],
@@ -1420,28 +1423,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-16",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 766.25, 531.5, 91.0, 31.0 ],
-									"text" : "numbers one two three"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-15",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 624.583313, 531.5, 57.0, 18.0 ],
-									"text" : "4"
+									"patching_rect" : [ 624.583313, 531.5, 57.0, 18.0 ]
 								}
 
 							}
@@ -1490,7 +1477,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 310.0, 144.0, 236.0, 88.0 ],
+									"patching_rect" : [ 310.0, 144.0, 239.0, 88.0 ],
 									"text" : "here are various differing ways to store what dictionaries refer to as \"keys\".  notice the difference in usage between coll's \"insert\" or \"store\" messages.  pretty simple."
 								}
 
@@ -1822,8 +1809,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
@@ -1856,7 +1844,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 290.0, 133.0, 271.0, 87.0 ],
+									"patching_rect" : [ 290.0, 133.0, 274.0, 87.0 ],
 									"text" : "in Max6, the triggers attribute is an increasingly pervasive option across many objects.  Here we can use it to set which inlets of dict.pack we'll use to trigger output.  You can also input a list for triggering, specifying multiple inlets, adjacent or non."
 								}
 
@@ -1993,6 +1981,15 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -2026,8 +2023,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 1028.0, 626.0 ],
