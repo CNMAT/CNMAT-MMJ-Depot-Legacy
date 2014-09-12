@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 289.0, 73.0, 737.0, 791.0 ],
+		"rect" : [ 189.0, 44.0, 737.0, 791.0 ],
 		"bgcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -65,8 +65,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 600.0, 435.0, 67.0, 20.0 ],
-					"text" : "sprintf /%s"
+					"patching_rect" : [ 600.0, 435.0, 96.0, 20.0 ],
+					"text" : "sprintf set 1 /%s"
 				}
 
 			}
@@ -76,7 +76,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-13",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
 					"patching_rect" : [ 525.0, 478.0, 94.0, 20.0 ],
@@ -120,7 +120,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "Sopranou" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 490.0, 214.0, 54.0, 20.0 ],
 					"text" : "nothing"
 				}
@@ -134,7 +134,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "float", "Sopranou", "Sopranoi" ],
+					"outlettype" : [ "float", "", "" ],
 					"patching_rect" : [ 375.0, 163.0, 134.0, 20.0 ],
 					"text" : "t 1. #1u #1i"
 				}
@@ -188,7 +188,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "FullPacket" ],
 					"patching_rect" : [ 115.0, 165.0, 242.0, 20.0 ],
@@ -462,7 +462,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "FullPacket" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 52.0, 53.0, 20.0, 20.0 ]
 				}
 
@@ -667,7 +667,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
@@ -763,6 +763,44 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "nothing.maxpat",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/basic_programming",
+				"patcherrelativepath" : "../basic_programming",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "list-interpolate.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "res-transform.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "resonators~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
