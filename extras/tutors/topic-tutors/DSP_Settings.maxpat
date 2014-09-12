@@ -3,12 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 26.0, 62.0, 656.0, 765.0 ],
-		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
+		"rect" : [ 44.0, 47.0, 656.0, 765.0 ],
+		"bgcolor" : [ 0.825128, 1.0, 0.922708, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 546.0, 563.5, 71.0, 20.0 ],
+					"patching_rect" : [ 546.0, 549.5, 71.0, 20.0 ],
 					"text" : "more info..."
 				}
 
@@ -48,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 516.0, 563.5, 20.0, 20.0 ]
+					"patching_rect" : [ 516.0, 549.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -63,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 516.0, 501.0, 127.0, 86.0 ],
+					"patching_rect" : [ 516.0, 487.0, 127.0, 85.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/docs/max6/dynamic/c74_docs.html#messages_to_dsp"
 				}
 
@@ -77,35 +78,38 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 682.0, 164.0, 20.0 ],
+					"patching_rect" : [ 165.0, 668.0, 164.0, 20.0 ],
 					"text" : "open the DSP status window"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
+					"bgcolor2" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 15.0,
+					"gradient" : 1,
 					"id" : "obj-2",
 					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 698.0, 91.0, 46.0 ],
+					"patching_rect" : [ 165.0, 688.0, 77.0, 38.0 ],
 					"text" : ";\rdsp open"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "DSP_Settings", "1.1a", "Michael Zbyszynski", "DSP_Settings", 2738 ],
+					"args" : [ "DSP_Settings", "1.1a", "Michael Zbyszynski", "DSP_Settings", 2738, "0.434702 0.815298 0.552687 1." ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.0, 669.0, 292.0, 86.0 ]
+					"patching_rect" : [ 339.0, 660.0, 292.0, 86.0 ]
 				}
 
 			}
@@ -119,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 772.0, 45.0, 17.0 ],
+					"patching_rect" : [ 76.0, 758.0, 45.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -133,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 676.0, 61.0, 20.0 ],
+					"patching_rect" : [ 23.0, 668.0, 61.0, 20.0 ],
 					"text" : "see also:",
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ]
 				}
@@ -141,16 +145,18 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
+					"bgcolor" : [ 0.75314, 0.518274, 0.8, 1.0 ],
+					"bgcolor2" : [ 0.75314, 0.518274, 0.8, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"gradient" : 1,
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 695.0, 82.0, 18.0 ],
-					"text" : "priorities.mxb",
+					"patching_rect" : [ 23.0, 687.0, 100.0, 18.0 ],
+					"text" : "priorities.maxpat",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -165,7 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 750.0, 66.0, 17.0 ],
+					"patching_rect" : [ 76.0, 736.0, 66.0, 17.0 ],
 					"text" : "prepend load"
 				}
 
@@ -176,8 +182,8 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 20.0, 123.0, 58.0 ],
-					"pic" : "cnmat_wht-blu.gif"
+					"patching_rect" : [ 20.0, 27.0, 123.0, 58.0 ],
+					"pic" : "cnmat_wht-trans.png"
 				}
 
 			}
@@ -224,8 +230,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 532.0, 72.0, 670.0, 340.0 ],
@@ -302,7 +309,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 284.0, 123.0, 240.0, 57.0 ],
+									"patching_rect" : [ 284.0, 123.0, 243.0, 57.0 ],
 									"text" : "• The possible sample rates are limited by your audio driver. For instance, my Macbook Pro only allows me 44100, 48000, or 96000 samples/second. For that reason, it isn't good practice to program a piece that depends on an unusualy SampleRate if you plan to share it."
 								}
 
@@ -499,7 +506,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 235.937744, 120.0, 87.0, 20.0 ],
+					"patching_rect" : [ 235.937744, 106.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -513,7 +520,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p SampleRate"
+					"text" : "p sample-rate"
 				}
 
 			}
@@ -525,7 +532,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 325.0, 100.0, 15.0, 15.0 ]
+					"patching_rect" : [ 325.0, 86.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -537,7 +544,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 325.0, 200.0, 15.0, 15.0 ]
+					"patching_rect" : [ 325.0, 186.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -551,7 +558,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.0, 143.0, 222.0, 33.0 ],
+					"patching_rect" : [ 359.0, 129.0, 222.0, 33.0 ],
 					"text" : "Double-click on these for more detailed information."
 				}
 
@@ -568,8 +575,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 104.0, 44.0, 702.0, 746.0 ],
@@ -928,8 +936,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 40.0, 55.0, 677.0, 349.0 ],
@@ -1341,8 +1350,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 40.0, 55.0, 677.0, 349.0 ],
@@ -1812,8 +1822,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 336.0, 61.0, 372.0, 377.0 ],
@@ -2135,8 +2146,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 9,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 90.0, 259.0, 899.0, 510.0 ],
@@ -3174,8 +3186,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 9,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 62.0, 302.0, 892.0, 472.0 ],
@@ -4453,8 +4466,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 9,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 91.0, 406.0, 730.0, 338.0 ],
@@ -5537,8 +5551,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 9,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 55.0, 322.0, 849.0, 346.0 ],
@@ -10582,7 +10597,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-146",
-									"items" : [ "Built-in Output", ",", "Soundflower (2ch)", ",", "Soundflower (16ch)", ",", "Fireface 800 (17F)" ],
+									"items" : "Built-in Output",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10612,7 +10627,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-148",
-									"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (16ch)", ",", "Fireface 800 (17F)" ],
+									"items" : "Built-in Microphone",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -11753,7 +11768,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 58.0, 168.666672, 170.0, 20.0 ],
+					"patching_rect" : [ 58.0, 154.666672, 170.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -11767,7 +11782,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p Tour of DSP Status Window"
+					"text" : "p \"tour of DSP status window\""
 				}
 
 			}
@@ -11783,8 +11798,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 80.0, 44.0, 713.0, 749.0 ],
@@ -11833,8 +11849,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 10.0, 59.0, 851.0, 440.0 ],
@@ -12155,7 +12172,6 @@
 											}
 , 											{
 												"box" : 												{
-													"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 													"id" : "obj-22",
 													"maxclass" : "ezdac~",
 													"numinlets" : 2,
@@ -12443,8 +12459,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 10.0, 59.0, 815.0, 685.0 ],
@@ -12518,7 +12535,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 255.0, 405.0, 209.0, 57.0 ],
+													"patching_rect" : [ 255.0, 405.0, 211.0, 57.0 ],
 													"text" : "The Max Scheduler is allowed an amount of \"slop\" -- events can be a little late, within a certain window (default to 25 ms). Even though the metro events are late in \"actual time\", the scheduler (including timer) feels that they're \"close enough.\""
 												}
 
@@ -12801,7 +12818,6 @@
 											}
 , 											{
 												"box" : 												{
-													"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 													"id" : "obj-25",
 													"maxclass" : "ezdac~",
 													"numinlets" : 2,
@@ -13734,7 +13750,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 58.0, 144.333328, 140.0, 20.0 ],
+					"patching_rect" : [ 58.0, 130.333328, 146.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -13748,7 +13764,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p Max Scheduler Modes"
+					"text" : "p \"max scheduler modes\""
 				}
 
 			}
@@ -13761,7 +13777,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.0, 648.0, 321.0, 20.0 ],
+					"patching_rect" : [ 141.0, 634.0, 321.0, 20.0 ],
 					"text" : "For even better timing, do all clocking in the audio domain."
 				}
 
@@ -13778,11 +13794,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 214.0, 44.0, 316.0, 202.0 ],
+						"rect" : [ 214.0, 44.0, 309.0, 313.0 ],
 						"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -13805,88 +13822,39 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"hidden" : 1,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 4,
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-3",
+									"linecount" : 11,
+									"maxclass" : "comment",
+									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 153.0, 32.0, 106.0, 17.0 ],
-									"text" : "bgcolor 223 238 255"
+									"patching_rect" : [ 30.0, 105.0, 248.0, 154.0 ],
+									"presentation_rect" : [ 30.0, 82.0, 0.0, 0.0 ],
+									"text" : "Here are some suggested settings if you're having issues with the defaults (Thanks to Andy Schmeder's testing):\n\nEvent Interval: 1\nPoll Throttle: 10000\nQueue Throttle: 10000\nRedraw Queue Throttle: 1000\nRefresh Rate (ms): 20\nScheduler Interval (ms): 1\nScheduler Slop (ms): 0.5"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-2",
-									"linecount" : 2,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 18.0, 111.0, 277.0, 27.0 ],
-									"text" : "I'm not sure that anyone at Cycling '74 knows the best settings for these. If all else fails, try fiddling with these."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-3",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 63.0, 152.0, 15.0 ],
-									"text" : "load \"Performance Options.pat\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 85.0, 47.0, 17.0 ],
-									"text" : "pcontrol"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"frgb" : 0.0,
-									"id" : "obj-5",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 35.0, 129.0, 17.0 ],
-									"text" : "Click on this message box:"
+									"patching_rect" : [ 30.0, 30.0, 222.0, 60.0 ],
+									"text" : "1. go to Max -> Preferences.\n2. click on the 'all' tab\n3. scroll down to the 'scheduler' section\n4. good luck."
 								}
 
 							}
  ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
- ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 235.937744, 141.899994, 73.0, 20.0 ],
+					"patching_rect" : [ 235.937744, 130.333328, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -13914,7 +13882,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 494.0, 321.0, 33.0 ],
+					"patching_rect" : [ 140.0, 480.0, 321.0, 33.0 ],
 					"text" : "High vector sizes are usually more efficient for DSP, but some objects (like fiddle~) don't work properly."
 				}
 
@@ -13928,22 +13896,25 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 475.0, 376.0, 20.0 ],
+					"patching_rect" : [ 140.0, 461.0, 376.0, 20.0 ],
 					"text" : "This is the same as the above setting."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
+					"bgcolor2" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"gradient" : 1,
 					"id" : "obj-22",
 					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 471.0, 97.0, 86.0 ],
+					"patching_rect" : [ 34.0, 457.0, 97.0, 85.0 ],
 					"text" : ";\rmax preempt 1;\rdsp takeover 0;\rdsp sigvs 2048;\rdsp iovs 2048;\rdsp sr 44100"
 				}
 
@@ -13957,7 +13928,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 444.0, 412.0, 27.0 ],
+					"patching_rect" : [ 23.0, 430.0, 412.0, 27.0 ],
 					"text" : "optimize for DSP -- efficiency:"
 				}
 
@@ -13972,22 +13943,25 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 597.0, 456.0, 47.0 ],
+					"patching_rect" : [ 140.0, 583.0, 456.0, 47.0 ],
 					"text" : "In addition to overdrive, putting the scheduler into Audio Interrupt locks Max events to the audio clock. This should make them more accurate. The scheduler is only serviced once per signal vector, so these are set low for a smaller time granularity"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
+					"bgcolor2" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"gradient" : 1,
 					"id" : "obj-25",
 					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 587.0, 97.0, 86.0 ],
+					"patching_rect" : [ 34.0, 573.0, 97.0, 85.0 ],
 					"text" : ";\rmax preempt 1;\rdsp takeover 1;\rdsp sigvs 64;\rdsp iovs 64;\rdsp sr 44100"
 				}
 
@@ -14001,7 +13975,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 560.0, 412.0, 27.0 ],
+					"patching_rect" : [ 23.0, 546.0, 412.0, 27.0 ],
 					"text" : "optimize for Max -- solid timing:"
 				}
 
@@ -14016,7 +13990,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 396.0, 365.0, 33.0 ],
+					"patching_rect" : [ 140.0, 382.0, 365.0, 33.0 ],
 					"text" : "High vector sizes are usually more efficient for DSP, at the cost of higher latency."
 				}
 
@@ -14031,22 +14005,25 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 361.0, 367.0, 33.0 ],
+					"patching_rect" : [ 140.0, 347.0, 367.0, 33.0 ],
 					"text" : "Overdrive puts Max events into a higer priority, but screen updates and checking the mouse are low priority."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
+					"bgcolor2" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"gradient" : 1,
 					"id" : "obj-29",
 					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 355.0, 97.0, 86.0 ],
+					"patching_rect" : [ 34.0, 341.0, 97.0, 85.0 ],
 					"text" : ";\rmax preempt 1;\rdsp takeover 0;\rdsp sigvs 2048;\rdsp iovs 2048;\rdsp sr 44100"
 				}
 
@@ -14060,7 +14037,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 328.0, 412.0, 27.0 ],
+					"patching_rect" : [ 23.0, 314.0, 412.0, 27.0 ],
 					"text" : "optimize for Max -- efficiency:"
 				}
 
@@ -14074,22 +14051,25 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 212.0, 412.0, 27.0 ],
+					"patching_rect" : [ 23.0, 198.0, 412.0, 27.0 ],
 					"text" : "my everyday settings:"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
+					"bgcolor2" : [ 0.590269, 0.866667, 0.852296, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"gradient" : 1,
 					"id" : "obj-32",
 					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 240.0, 97.0, 86.0 ],
+					"patching_rect" : [ 33.0, 226.0, 97.0, 85.0 ],
 					"text" : ";\rmax preempt 0;\rdsp takeover 0;\rdsp sigvs 512;\rdsp iovs 512;\rdsp sr 44100"
 				}
 
@@ -14106,8 +14086,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 65.0, 44.0, 396.0, 572.0 ],
@@ -14448,7 +14429,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 58.0, 120.0, 147.0, 20.0 ],
+					"patching_rect" : [ 58.0, 106.0, 147.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -14476,7 +14457,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 258.0, 343.0, 47.0 ],
+					"patching_rect" : [ 140.0, 244.0, 343.0, 47.0 ],
 					"text" : "I usaually run with overdrive off, and vector sizes of 512. This is a good compromise between effeciency and latency. If the piece I'm working on doesn't work well, then I adjust things."
 				}
 
@@ -14484,14 +14465,14 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.588235, 0.588235, 0.705882, 1.0 ],
-					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
+					"bgcolor" : [ 0.155061, 0.795524, 0.8, 1.0 ],
+					"bordercolor" : [ 0.155061, 0.795524, 0.8, 1.0 ],
 					"id" : "obj-35",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 15.0, 611.0, 70.0 ],
-					"rounded" : 0,
+					"rounded" : 40,
 					"shadow" : -1
 				}
 
@@ -14502,7 +14483,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 350.0, 115.0, 350.0, 199.0 ],
+					"midpoints" : [ 350.0, 101.0, 350.0, 185.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -14536,45 +14517,31 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cnmat_wht-blu.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "GIFf",
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../patchers/depot_support",
 				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../modules/Depot_Support",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ]
