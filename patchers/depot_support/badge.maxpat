@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -28,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 462.0, 270.0, 40.0, 17.0 ],
-					"text" : "zl.nth 6"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
@@ -72,48 +58,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 462.0, 300.0, 36.0, 20.0 ],
-					"text" : "sel 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 330.0, 73.0, 20.0 ],
-					"text" : "fromsymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 351.0, 97.0, 20.0 ],
-					"text" : "prepend bgcolor"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
@@ -131,7 +75,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-31",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -139,8 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 41.0, 200.0, 16.0 ],
-					"text" : "© 2007-13 UC Regents, all rights reserved",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"text" : "© 2007-13 UC Regents, all rights reserved"
 				}
 
 			}
@@ -150,7 +92,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-30",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -158,8 +99,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 28.0, 176.0, 16.0 ],
-					"text" : "http://cnmat.berkeley.edu/downloads/",
-					"textcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ]
+					"text" : "http://cnmat.berkeley.edu/downloads/"
 				}
 
 			}
@@ -169,7 +109,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-28",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -177,8 +116,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 15.0, 142.0, 16.0 ],
-					"text" : "#1 and all other max patches,",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"text" : "#1 and all other max patches,"
 				}
 
 			}
@@ -188,7 +126,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-27",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -196,8 +133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 2.0, 285.0, 16.0 ],
-					"text" : "#1 version #2 by #3",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"text" : "#1 version #2 by #3"
 				}
 
 			}
@@ -291,7 +227,6 @@
 					"bgcolor2" : [ 0.32549, 0.313726, 0.313726, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"gradient" : 0,
 					"id" : "obj-29",
 					"ignoreclick" : 1,
 					"maxclass" : "message",
@@ -299,22 +234,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 28.0, 82.0, 16.0 ],
-					"text" : "can be found at:",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
-					"id" : "obj-25",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, -1.0, 291.0, 83.0 ],
-					"rounded" : 20
+					"text" : "can be found at:"
 				}
 
 			}
@@ -322,15 +242,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -382,53 +293,17 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-22", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1
