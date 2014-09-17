@@ -42,7 +42,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "02-more-oscillators", "0.1a", "authors", "02-more-oscillators", 7777, "0.296 0.594 0.784 1." ],
+					"args" : [ "02-more-oscillators", "0.1a", "Michael Zbyszynski", "02-more-oscillators", 7777, "0.296 0.594 0.784 1." ],
 					"id" : "obj-17",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",

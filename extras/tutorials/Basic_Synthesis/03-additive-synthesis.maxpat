@@ -41,7 +41,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "03-additive-synthesis", "0.1a", "authors", "03-additive-synthesis", 7777, "0.296 0.594 0.784 1." ],
+					"args" : [ "03-additive-synthesis", "0.1a", "Michael Zbyszynski", "03-additive-synthesis", 7777, "0.296 0.594 0.784 1." ],
 					"id" : "obj-51",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",

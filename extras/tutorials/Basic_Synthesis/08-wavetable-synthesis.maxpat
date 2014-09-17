@@ -1122,7 +1122,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "07-frequency-modulation", "0.1a", "MZED", "07-frequency-modulation", 7777, "0.296 0.594 0.784 1." ],
+									"args" : [ "07-frequency-modulation", "0.1a", "Michael Zbyszynski", "07-frequency-modulation", 7777, "0.296 0.594 0.784 1." ],
 									"id" : "obj-8",
 									"maxclass" : "bpatcher",
 									"name" : "badge.maxpat",

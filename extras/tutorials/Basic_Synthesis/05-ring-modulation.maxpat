@@ -41,7 +41,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "05-ring-modulation", "0.1a", "authors", "05-ring-modulation", 7777, "0.296 0.594 0.784 1." ],
+					"args" : [ "05-ring-modulation", "0.1a", "Michael Zbyszynski", "05-ring-modulation", 7777, "0.296 0.594 0.784 1." ],
 					"id" : "obj-20",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",

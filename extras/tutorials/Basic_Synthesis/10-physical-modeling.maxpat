@@ -56,7 +56,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "10-physical-modeling", "0.1a", "authors", "10-physical-modeling", 7777, "0.296 0.594 0.784 1." ],
+					"args" : [ "10-physical-modeling", "0.1a", "Michael Zbyszynski", "10-physical-modeling", 7777, "0.296 0.594 0.784 1." ],
 					"id" : "obj-11",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
