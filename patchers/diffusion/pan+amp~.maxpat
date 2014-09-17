@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -32,27 +32,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 238.0, 77.0, 36.0, 19.0 ],
-					"text" : "sel 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 120.0, 62.0, 19.0 ],
-					"text" : "sprintf /%s"
+					"patching_rect" : [ 238.0, 90.0, 89.0, 19.0 ],
+					"text" : "sprintf set 1 /%s"
 				}
 
 			}
@@ -92,7 +78,7 @@
 					"fontsize" : 11.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
 					"patching_rect" : [ 144.0, 158.0, 130.0, 19.0 ],
@@ -176,7 +162,7 @@
 					"fontsize" : 11.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "FullPacket" ],
 					"patching_rect" : [ 108.0, 188.0, 283.0, 19.0 ],
@@ -373,7 +359,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 55.0, 45.0, 23.0, 23.0 ]
 				}
 
@@ -430,7 +416,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
@@ -577,15 +563,6 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-28", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -716,11 +693,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
