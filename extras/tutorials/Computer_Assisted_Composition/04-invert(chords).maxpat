@@ -30,7 +30,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "04-invert(chords)", "0.1a", "authors", "04-invert(chords)", 6666, "0.296 0.594 0.784 0.5" ],
+					"args" : [ "04-invert(chords)", "0.1a", "Michael Zbyszynski", "04-invert(chords)", 6666, "0.296 0.594 0.784 0.5" ],
 					"id" : "obj-41",
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
