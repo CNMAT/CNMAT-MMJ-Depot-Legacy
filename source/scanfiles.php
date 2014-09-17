@@ -42,7 +42,7 @@ function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_
     foreach($files as $object){
 	//if this is a directory... find out which one it is.
 	if($object->isDir()){
-	    if(strpos($object->getPathname(), 'tutorials') == true){
+	    if(strpos($object->getPathname(), 'extras/tutorials') == true){
 		$in_dir = 'tutorials';
 		if(!$f_tuti){
 		    echo "in tutorials \n";
@@ -51,7 +51,7 @@ function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_
 		    $inc = 0;
 		}
 	    }
-	    else if(strpos($object->getPathname(), 'tutors') == true){
+	    else if(strpos($object->getPathname(), 'extras/tutors') == true){
 		$in_dir = 'tutors';
 		if(!$f_tuto){
 		    echo "in tutors \n";
@@ -67,7 +67,7 @@ function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_
 		    $f_modu = true;
 		    $inc = 0;
 		}
-	    }else if(strpos($object->getPathname(), 'applications') == true){
+	    }else if(strpos($object->getPathname(), 'examples/applications') == true){
 		$in_dir = 'applications';
 		if(!$f_apps){
 		    echo "in applications \n";
@@ -75,7 +75,7 @@ function getPatches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_
 		    $f_apps = true;
 		    $inc = 0;
 		}
-	    }else if(strpos($object->getPathname(), 'demos') == true){
+	    }else if(strpos($object->getPathname(), 'examples/demos') == true){
 		$in_dir = 'demos';
 		if(!$f_demo){
 		    echo "in demos  \n";
