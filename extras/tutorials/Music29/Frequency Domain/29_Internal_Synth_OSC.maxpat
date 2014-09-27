@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -58,7 +58,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -333,7 +333,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
-					"items" : [ "to Max 1", ",", "to Max 2", ",", "Oxygen 25" ],
+					"items" : [ "Fireface 800 (17F) Port 1", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -361,7 +361,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -630,7 +630,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -674,9 +674,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 46.0, 54.0, 94.0, 17.0 ],
-									"text" : "OSC-route /isynth"
+									"text" : "o.route /isynth"
 								}
 
 							}
@@ -702,9 +702,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"outlettype" : [ "", "", "FullPacket" ],
 									"patching_rect" : [ 16.0, 87.0, 124.0, 17.0 ],
-									"text" : "OSC-route /alloff /synth"
+									"text" : "o.route /alloff /synth"
 								}
 
 							}
@@ -959,11 +959,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 225.0, 112.0, 640.0, 480.0 ],
+						"rect" : [ 685.0, 261.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -992,7 +992,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 309.0, 121.0, 198.0, 32.0 ],
+									"patching_rect" : [ 309.0, 121.0, 198.0, 31.0 ],
 									"text" : ";\rOSC /isynth/port \"AU DLS Synth 1\""
 								}
 
@@ -1021,26 +1021,21 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 133.0, 153.0, 168.0, 18.0 ],
-									"text" : "/isynth/port \"AU DLS Synth 1\""
+									"text" : "FullPacket 68 348157152"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 10.0,
 									"id" : "obj-101",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 133.0, 104.0, 155.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"filename" : "OSC-unroute",
-										"parameter_enable" : 0
-									}
-,
-									"text" : "js OSC-unroute /isynth/port"
+									"outlettype" : [ "FullPacket" ],
+									"patching_rect" : [ 133.0, 104.0, 92.0, 18.0 ],
+									"text" : "o.pack /isynth/port"
 								}
 
 							}
@@ -1225,7 +1220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1124.0, 286.5, 129.0, 32.0 ],
+					"patching_rect" : [ 1124.0, 286.5, 129.0, 31.0 ],
 					"text" : ";\rOSC /isynth/reverb $1"
 				}
 
@@ -1244,7 +1239,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1596,7 +1591,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1705,7 +1700,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2923,7 +2918,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3474,7 +3469,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4303,7 +4298,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4932,7 +4927,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -7033,7 +7028,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -7373,7 +7368,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -7784,7 +7779,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -8056,7 +8051,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -9224,7 +9219,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -9397,7 +9392,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -9570,7 +9565,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -9743,7 +9738,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -9915,7 +9910,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -10088,7 +10083,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -10277,7 +10272,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -10449,7 +10444,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -10622,7 +10617,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -10795,7 +10790,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -10968,7 +10963,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -11140,7 +11135,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -11313,7 +11308,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -11486,7 +11481,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -11659,7 +11654,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -11857,13 +11852,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-104",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Oxygen 25" ],
+					"items" : [ "AU DLS Synth 1", ",", "Fireface 800 (17F) Port 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 816.0, 88.0, 186.0, 20.0 ],
+					"patching_rect" : [ 816.5, 88.0, 186.0, 20.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 1,
 					"presentation" : 1,
@@ -11934,7 +11929,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -12023,9 +12018,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 495.0, 90.0, 101.0, 20.0 ],
-									"text" : "osc-route /reverb"
+									"text" : "o.route /reverb"
 								}
 
 							}
@@ -12042,7 +12037,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -12073,9 +12068,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 360.0, 292.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12087,9 +12082,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 336.0, 243.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12101,9 +12096,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 310.0, 192.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12115,9 +12110,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 287.0, 146.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12129,9 +12124,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 263.0, 98.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12143,9 +12138,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 239.0, 292.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12157,9 +12152,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 215.0, 243.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12171,9 +12166,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 191.0, 192.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12185,9 +12180,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 167.0, 146.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12199,9 +12194,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 143.0, 98.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12213,9 +12208,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 384.0, 98.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12227,9 +12222,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 116.0, 292.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12241,9 +12236,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 94.0, 243.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12255,9 +12250,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 70.0, 192.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12269,9 +12264,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 46.0, 146.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12283,9 +12278,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 22.0, 98.0, 101.0, 20.0 ],
-													"text" : "OSC-route /bend"
+													"text" : "o.route /bend"
 												}
 
 											}
@@ -12534,9 +12529,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 17,
-													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "FullPacket" ],
 													"patching_rect" : [ 22.0, 58.0, 405.0, 34.0 ],
-													"text" : "OSC-route /chan1 /chan2 /chan3 /chan4 /chan5 /chan6 /chan7 /chan8 /chan9 /chan10 /chan11 /chan12 /chan13 /chan14 /chan15 /chan16"
+													"text" : "o.route /chan1 /chan2 /chan3 /chan4 /chan5 /chan6 /chan7 /chan8 /chan9 /chan10 /chan11 /chan12 /chan13 /chan14 /chan15 /chan16"
 												}
 
 											}
@@ -13029,7 +13024,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -13304,9 +13299,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 28.0, 285.0, 74.0, 17.0 ],
-													"text" : "OSC-route /port"
+													"text" : "o.route /port"
 												}
 
 											}
@@ -13332,9 +13327,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 17,
-													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "FullPacket" ],
 													"patching_rect" : [ 173.0, 99.0, 337.0, 27.0 ],
-													"text" : "OSC-route /chan1 /chan2 /chan3 /chan4 /chan5 /chan6 /chan7 /chan8 /chan9 /chan10 /chan11 /chan12 /chan13 /chan14 /chan15 /chan16"
+													"text" : "o.route /chan1 /chan2 /chan3 /chan4 /chan5 /chan6 /chan7 /chan8 /chan9 /chan10 /chan11 /chan12 /chan13 /chan14 /chan15 /chan16"
 												}
 
 											}
@@ -13775,9 +13770,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 53.0, 146.0, 95.0, 20.0 ],
-									"text" : "OSC-route /port"
+									"text" : "o.route /port"
 								}
 
 							}
@@ -13822,7 +13817,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -14445,7 +14440,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -14514,7 +14509,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -14600,9 +14595,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -14701,7 +14696,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -14787,9 +14782,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -14888,7 +14883,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -14974,9 +14969,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -15075,7 +15070,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -15161,9 +15156,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -15262,7 +15257,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -15348,9 +15343,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -15449,7 +15444,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -15535,9 +15530,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -15636,7 +15631,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -15722,9 +15717,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -15823,7 +15818,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -15909,9 +15904,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -16010,7 +16005,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -16096,9 +16091,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -16197,7 +16192,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -16283,9 +16278,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -16384,7 +16379,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -16470,9 +16465,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -16571,7 +16566,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -16657,9 +16652,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -16739,9 +16734,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 17,
-													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "FullPacket" ],
 													"patching_rect" : [ 50.0, 75.0, 337.0, 27.0 ],
-													"text" : "OSC-route /chan1 /chan2 /chan3 /chan4 /chan5 /chan6 /chan7 /chan8 /chan9 /chan10 /chan11 /chan12 /chan13 /chan14 /chan15 /chan16"
+													"text" : "o.route /chan1 /chan2 /chan3 /chan4 /chan5 /chan6 /chan7 /chan8 /chan9 /chan10 /chan11 /chan12 /chan13 /chan14 /chan15 /chan16"
 												}
 
 											}
@@ -16764,9 +16759,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 477.0, 194.0, 91.0, 17.0 ],
-													"text" : "OSC-route /synth"
+													"text" : "o.route /synth"
 												}
 
 											}
@@ -16796,7 +16791,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -16882,9 +16877,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -16983,7 +16978,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -17069,9 +17064,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -17170,7 +17165,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -17256,9 +17251,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -17357,7 +17352,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -17443,9 +17438,9 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"outlettype" : [ "", "", "FullPacket" ],
 																	"patching_rect" : [ 50.0, 50.0, 116.0, 17.0 ],
-																	"text" : "OSC-route /pgm /name"
+																	"text" : "o.route /pgm /name"
 																}
 
 															}
@@ -18019,9 +18014,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 50.0, 58.0, 106.0, 20.0 ],
-									"text" : "OSC-route /isynth"
+									"text" : "o.route /isynth"
 								}
 
 							}
@@ -18558,7 +18553,7 @@
 					"destination" : [ "obj-104", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 909.5, 149.0, 812.5, 149.0, 812.5, 85.0, 825.5, 85.0 ],
+					"midpoints" : [ 909.5, 149.0, 812.5, 149.0, 812.5, 85.0, 826.0, 85.0 ],
 					"source" : [ "obj-141", 0 ]
 				}
 
@@ -18990,125 +18985,108 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "clavecin.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/internal_synth/lib",
-				"patcherrelativepath" : "../../../applications/internal_synth/lib",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/examples/applications/internal_synth/lib",
+				"patcherrelativepath" : "../../../../examples/applications/internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "letter.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Interface",
-				"patcherrelativepath" : "../../../modules/Interface",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/interface",
+				"patcherrelativepath" : "../../../../patchers/interface",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inst-to-pgm.txt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/internal_synth/lib",
-				"patcherrelativepath" : "../../../applications/internal_synth/lib",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/examples/applications/internal_synth/lib",
+				"patcherrelativepath" : "../../../../examples/applications/internal_synth/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
-				"patcherrelativepath" : "../../../modules/basic-programming",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/basic_programming",
+				"patcherrelativepath" : "../../../../patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "manage_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/internal_synth/lib",
-				"patcherrelativepath" : "../../../applications/internal_synth/lib",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/examples/applications/internal_synth/lib",
+				"patcherrelativepath" : "../../../../examples/applications/internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cc-to-cc.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/internal_synth/lib",
-				"patcherrelativepath" : "../../../applications/internal_synth/lib",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/examples/applications/internal_synth/lib",
+				"patcherrelativepath" : "../../../../examples/applications/internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "make-tune.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/internal_synth/lib",
-				"patcherrelativepath" : "../../../applications/internal_synth/lib",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/examples/applications/internal_synth/lib",
+				"patcherrelativepath" : "../../../../examples/applications/internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "durations.mxt",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/repertoire/Michael_Zbyszynski/Daguerreotype",
-				"patcherrelativepath" : "../../../repertoire/Michael_Zbyszynski/Daguerreotype",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-unroute.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
-				"patcherrelativepath" : "../../../../../../../../../2_max_externals/cnmat/CNMAT-Everything-OSX-MachO",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/examples/repertoire/Michael_Zbyszynski/Daguerreotype",
+				"patcherrelativepath" : "../../../../examples/repertoire/Michael_Zbyszynski/Daguerreotype",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kslider_wrapper.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route..mxo",
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
 				"type" : "iLaX"
 			}
  ]
