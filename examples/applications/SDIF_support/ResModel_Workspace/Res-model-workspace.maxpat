@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 26.0, 60.0, 774.0, 754.0 ],
+		"rect" : [ 26.0, 60.0, 782.0, 754.0 ],
 		"bgcolor" : [ 0.294118, 0.294118, 0.392157, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -185,7 +185,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 870.0, 118.0, 62.0, 17.0 ],
+					"patching_rect" : [ 880.0, 110.0, 62.0, 17.0 ],
 					"text" : "print shithole"
 				}
 
@@ -203,7 +203,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -236,7 +236,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 620.0, 730.0, 159.0, 101.0 ],
+									"patching_rect" : [ 620.0, 730.0, 159.0, 98.0 ],
 									"text" : "add klaus:/Users/rama/Documents/__CNMAT/cnmat/trunk/max/patches/MMJ-DEPOT-MAX4-FROZEN/CNMAT_MMJ-Depot/baseline/media/SDIF/kyorei.add.sdif"
 								}
 
@@ -263,7 +263,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 165.0, 45.0, 404.0, 34.0 ],
+									"patching_rect" : [ 165.0, 45.0, 404.0, 33.0 ],
 									"text" : "select a cell in the first column to rename a file, and in the second column to change the stream number.  The 3rd and 4th columns can't be edited."
 								}
 
@@ -858,7 +858,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -945,7 +945,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
+									"outlettype" : [ "", "", "", "FullPacket" ],
 									"patching_rect" : [ 800.0, 630.0, 187.0, 17.0 ],
 									"text" : "o.route /minTime /maxTime /numFrames"
 								}
@@ -1292,7 +1292,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 740.0, 220.0, 166.0, 89.0 ],
+									"patching_rect" : [ 740.0, 220.0, 166.0, 87.0 ],
 									"text" : "we want to select the stream with the lowest positive (including 0) stream id, discarding 1NVT streams which typically have ids less than 0"
 								}
 
@@ -1701,7 +1701,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"outlettype" : [ "", "", "FullPacket" ],
 									"patching_rect" : [ 200.0, 190.0, 133.0, 20.0 ],
 									"text" : "o.route /stream /file"
 								}
@@ -2755,7 +2755,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3201,7 +3201,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3290,7 +3290,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4355,7 +4355,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4641,7 +4641,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -5000,7 +5000,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -7684,7 +7684,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -7744,7 +7744,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 369.0, 430.0, 64.0, 17.0 ],
+									"patching_rect" : [ 353.0, 440.0, 64.0, 17.0 ],
 									"text" : "speedlim 30"
 								}
 
@@ -7758,7 +7758,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 366.0, 408.0, 21.0, 17.0 ],
+									"patching_rect" : [ 353.0, 420.0, 21.0, 17.0 ],
 									"text" : "t 0"
 								}
 
@@ -7787,7 +7787,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 110.0, 238.0, 57.0, 79.0 ],
+									"patching_rect" : [ 110.0, 238.0, 57.0, 77.0 ],
 									"text" : "this is here to toggle the sustained sinusoidal models on and off."
 								}
 
@@ -7866,7 +7866,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 190.0, 239.0, 30.0, 17.0 ],
+									"patching_rect" : [ 190.0, 239.0, 39.0, 17.0 ],
 									"text" : "t b b"
 								}
 
@@ -7989,7 +7989,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 324.0, 457.0, 15.0, 15.0 ]
+									"patching_rect" : [ 324.0, 480.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -8000,7 +8000,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 84.0, 451.0, 15.0, 15.0 ]
+									"patching_rect" : [ 84.0, 474.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -8039,13 +8039,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 324.0, 388.0, 132.0, 17.0 ],
-									"saved_object_attributes" : 									{
-										"filename" : "osc-unroute.js",
-										"parameter_enable" : 0
-									}
-,
-									"text" : "js osc-unroute.js sinusoids"
+									"patching_rect" : [ 324.0, 388.0, 84.0, 17.0 ],
+									"text" : "prepend sinusoids"
 								}
 
 							}
@@ -8129,7 +8124,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 64.0, 101.0, 69.0 ],
+									"patching_rect" : [ 8.0, 64.0, 101.0, 67.0 ],
 									"text" : "this is here so threefates is only used when playing through the SDIF, and not when searching through frames"
 								}
 
@@ -8365,7 +8360,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 460.0, 465.0, 483.0, 388.0, 279.0, 212.0 ],
+									"midpoints" : [ 362.5, 465.0, 440.5, 465.0, 440.5, 233.0, 250.5, 233.0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -8550,7 +8545,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -8682,7 +8677,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -9096,7 +9091,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -10164,7 +10159,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -10709,7 +10704,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -11095,7 +11090,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -11552,7 +11547,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -12179,7 +12174,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -12880,7 +12875,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -13151,7 +13146,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -13314,7 +13309,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -15403,7 +15398,7 @@
 									"offset" : 12,
 									"outlettype" : [ "int", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 61.0, 441.0, 35.0 ],
+									"patching_rect" : [ 15.0, 61.0, 441.0, 34.0 ],
 									"presentation_rect" : [ 0.0, 0.0, 441.0, 35.0 ],
 									"range" : 108
 								}
@@ -15716,7 +15711,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -16425,7 +16420,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -17381,7 +17376,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"id" : "obj-134",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -18574,51 +18568,44 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OSC-unroute.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/2_max_externals/cnmat/CNMAT_alpha/OSC-unroute_0.4",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "var.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
