@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 5.0, 54.0, 1092.0, 737.0 ],
@@ -74,7 +75,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "nothing",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -97,7 +99,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "nothing",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -147,7 +150,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "print coords",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -175,6 +179,7 @@
 					"presentation_rect" : [ 20.0, 424.0, 426.0, 27.0 ],
 					"text" : "Explore the frequency domain between the presets",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -253,7 +258,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadbang",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -277,7 +283,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "/clicker/*/mult 0.5",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -304,6 +311,7 @@
 					"presentation_rect" : [ 1012.0, 152.0, 71.0, 20.0 ],
 					"text" : "< reset to 1",
 					"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -392,7 +400,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 1",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -414,7 +423,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "s scalar",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -441,6 +451,7 @@
 					"presentation_rect" : [ 20.0, 168.0, 150.0, 20.0 ],
 					"text" : "scale fixed relationship",
 					"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -503,6 +514,7 @@
 					"presentation_rect" : [ 764.0, 200.0, 58.0, 18.0 ],
 					"text" : "Multiplier",
 					"textcolor" : [ 0.831373, 0.878431, 0.909804, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -558,6 +570,7 @@
 					"presentation_rect" : [ 776.0, 280.0, 140.0, 31.0 ],
 					"text" : "control the multiplier for all oscillators",
 					"textcolor" : [ 0.866667, 0.921569, 0.94902, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -658,7 +671,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "+ 1.",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -682,7 +696,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "write",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -724,7 +739,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "print to_pattr",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -747,7 +763,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "counter 0 1 1000",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -806,7 +823,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "store $1",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -830,7 +848,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "clear",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -854,7 +873,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "/clicker/*/mult $1",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -897,7 +917,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "zl iter 3",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -920,7 +941,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "r rbfi",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -944,7 +966,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "getslotlist",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -967,12 +990,13 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 896.0, 434.0, 61.0 ],
+					"patching_rect" : [ 224.0, 896.0, 434.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 604.0, 620.0, 237.0, 101.0 ],
+					"presentation_rect" : [ 604.0, 620.0, 237.0, 100.0 ],
 					"text" : "instructions:\n0. create a new preset by finding your settings, and click on \"create new preset\"\n1. click anywhere in the xydisplay to make a new point\n2. this will create a new preset, so you need to have",
 					"textcolor" : [ 0.211765, 0.733333, 0.823529, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -996,7 +1020,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "sprintf /p%d coords %f %f",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1023,6 +1048,7 @@
 					"presentation_rect" : [ 324.0, 124.0, 218.0, 20.0 ],
 					"text" : "< manually enter a location on the path",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1045,8 +1071,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1133,7 +1160,8 @@
 					}
 ,
 					"text" : "p goals",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1268,6 +1296,7 @@
 					"presentation_rect" : [ 340.0, 620.0, 162.0, 20.0 ],
 					"text" : "select specific point/location",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1295,6 +1324,7 @@
 					"presentation_rect" : [ 12.0, 124.0, 209.0, 20.0 ],
 					"text" : "click-drag to walk through path slowly",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1324,6 +1354,7 @@
 					"presentation_rect" : [ 220.0, 464.0, 49.0, 74.0 ],
 					"text" : "hide path to click in space directly",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1348,7 +1379,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "hidden $1",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1431,6 +1463,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "useful if the periodicities of the freqs are at the beating level",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1493,6 +1526,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "resync oscillators",
 					"textcolor" : [ 0.87451, 0.87451, 0.082353, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1582,6 +1616,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "prepend /pstoreget",
 					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0,
 					"varname" : "divided-steps[1]"
 				}
 
@@ -1605,11 +1640,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 352.0, 159.0, 41.0 ],
+					"patching_rect" : [ 224.0, 352.0, 159.0, 40.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "arg1: file to load by default\narg2: number of slots to manage\narg3: store/recall flag",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1632,7 +1668,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "s osc",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1666,7 +1703,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "control_rhythm2pitch.json",
 					"background" : 0,
 					"bgcolor" : [ 1.0, 0.984314, 0.929412, 1.0 ],
 					"color" : [ 0.203922, 0.333333, 0.368627, 1.0 ],
@@ -1691,6 +1727,7 @@
 ,
 					"text" : "pattrstorage control_noise2pitch",
 					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0,
 					"varname" : "control_noise2pitch"
 				}
 
@@ -1714,7 +1751,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "r osc",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1737,7 +1775,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "prepend move",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1760,7 +1799,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "* 8.",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1809,8 +1849,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 388.0, 184.0, 848.0, 634.0 ],
@@ -2209,7 +2250,8 @@
 					}
 ,
 					"text" : "p format_pattrs",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2221,6 +2263,7 @@
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"enable_multiple_crosshairs" : 0,
 					"font_size" : 11,
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -2272,7 +2315,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadbang",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2296,7 +2340,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "/*/type 1",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2314,12 +2359,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
+					"outlettype" : [ "", "", "", "", "FullPacket" ],
 					"patching_rect" : [ 32.0, 668.0, 755.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "osc-route /clicker/1 /clicker/2 /clicker/3 /clicker/4",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"text" : "o.route /clicker/1 /clicker/2 /clicker/3 /clicker/4",
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2427,7 +2473,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "0.",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2449,7 +2496,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "s phase",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3189,110 +3237,89 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-8::obj-24" : [ "live.gain~", " ", 0 ],
-			"obj-16::obj-24" : [ "live.gain~[1]", " ", 0 ]
+			"obj-16::obj-24" : [ "live.gain~[1]", " ", 0 ],
+			"obj-8::obj-24" : [ "live.gain~", " ", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "basic_clickerpattr.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan2S.maxpat",
-				"bootpath" : "/Applications/Max6/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../../../../../../../../Applications/Max6/examples/spatialization/panning/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "control_rhythm2pitch.json",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
-				"patcherrelativepath" : "../Misc Support",
+				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
-				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/mixing_and_gain",
+				"patcherrelativepath" : "../../../../patchers/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pstore-simple-storage.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Data_Storage/pstore-simple-storage",
-				"patcherrelativepath" : "../../../modules/Data_Storage/pstore-simple-storage",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/data_storage/pstore-simple-storage",
+				"patcherrelativepath" : "../../../../patchers/data_storage/pstore-simple-storage",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/effects_audio",
+				"patcherrelativepath" : "../../../../patchers/effects_audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
-				"patcherrelativepath" : "../../../modules/basic-programming",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/basic_programming",
+				"patcherrelativepath" : "../../../../patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{
