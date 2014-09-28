@@ -3,11 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 24.0, 44.0, 958.0, 735.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.431373 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -267,8 +269,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -632,9 +635,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"outlettype" : [ "", "", "", "", "", "FullPacket" ],
 					"patching_rect" : [ 20.0, 59.0, 512.75, 20.0 ],
-					"text" : "osc-route /bf /mult /pan /type /amp"
+					"text" : "o.route /bf /mult /pan /type /amp"
 				}
 
 			}
@@ -1157,18 +1160,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "pan2S.maxpat",
-				"bootpath" : "/Applications/Max6/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../../../../../../../../../../../../Applications/Max6/examples/spatialization/panning/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
