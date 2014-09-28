@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 102.0, 80.0, 991.0, 619.0 ],
+		"rect" : [ 0.0, 44.0, 988.0, 619.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,7 +30,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "SDIF Player", "0.2a", "Jeff Lubow", "SDIF Player", 6666, "0.2 0.2 0.2 0.8" ],
+					"args" : [ "SDIF Player", "0.2a", "Jeff Lubow", "SDIF Player", 6666, "0.3 0.2 0.2 0.8" ],
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgmode" : 0,
@@ -48,9 +49,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 45.0, 45.0, 297.0, 83.0 ],
+					"patching_rect" : [ 1092.0, 74.5, 297.0, 83.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 516.5, 7.0, 296.0, 86.0 ]
+					"presentation_rect" : [ 520.5, 12.0, 288.0, 71.0 ]
 				}
 
 			}
@@ -75,7 +76,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -21.0, -68.0 ],
-					"patching_rect" : [ 30.0, 133.0, 308.0, 67.0 ],
+					"patching_rect" : [ 779.0, 90.5, 308.0, 67.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 12.0, 511.0, 76.0 ],
 					"prototypename" : "cnmat_banner"
@@ -136,7 +137,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "*~ 1.",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -159,7 +161,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "noise~",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -182,7 +185,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "gate 2 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -205,7 +209,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "f",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -228,7 +233,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "f",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -251,7 +257,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 400",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -266,7 +273,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-153",
 					"ignoreclick" : 1,
@@ -278,6 +285,7 @@
 					"presentation_rect" : [ 879.0, 423.0, 88.0, 19.0 ],
 					"text" : "poll period (ms)",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -336,7 +344,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -359,7 +368,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "gate 2 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -382,7 +392,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "!- 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -397,7 +408,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 1,
 					"id" : "obj-147",
 					"ignoreclick" : 1,
@@ -409,6 +420,7 @@
 					"presentation_rect" : [ 783.0, 558.0, 147.0, 19.0 ],
 					"text" : "move to virtual time position",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -433,7 +445,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "hidden $1",
-					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ]
+					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -456,7 +469,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess set",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -476,10 +490,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 392.0, 72.0, 21.0 ],
+					"patching_rect" : [ 216.0, 392.0, 72.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 343.0, 95.0, 242.0, 21.0 ],
-					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ]
+					"presentation_rect" : [ 343.0, 95.0, 242.0, 20.0 ],
+					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -537,7 +552,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "+ 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -598,7 +614,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 1,
 					"id" : "obj-137",
 					"ignoreclick" : 1,
@@ -610,6 +626,7 @@
 					"presentation_rect" : [ 850.0, 510.0, 113.0, 19.0 ],
 					"text" : "change rate of decay",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -634,7 +651,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "goto $1",
-					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ]
+					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -700,11 +718,12 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 128.0, 476.0, 56.0, 30.0 ],
+					"patching_rect" : [ 128.0, 476.0, 56.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 535.0, 339.0, 82.0, 17.0 ],
 					"text" : "sinusoids~ off",
-					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ]
+					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -783,7 +802,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "rate $1",
-					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ]
+					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -806,7 +826,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess min_vtime -0.5",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -829,7 +850,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "decaying-sinusoids~",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -844,7 +866,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-108",
 					"ignoreclick" : 1,
@@ -852,11 +874,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 834.0, 595.0, 173.0, 58.0 ],
+					"patching_rect" : [ 834.0, 595.0, 173.0, 57.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "jump to a time in seconds. Time 0 is the beginning of the decay. Negative times are possible but dangerous because amplitudes *grow* exponentially as you go back from time 0...",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -880,7 +903,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -896,7 +920,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.168627, 0.164706, 0.160784, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-6",
 					"ignoreclick" : 0,
@@ -917,6 +941,7 @@
 					"tabmode" : 1,
 					"text" : "max fileformat .sdif SDIF 0 \"SDIF audio file\" audiofile;",
 					"textcolor" : [ 0.168627, 0.164706, 0.160784, 1.0 ],
+					"textjustification" : 0,
 					"wordwrap" : 1
 				}
 
@@ -940,7 +965,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -964,7 +990,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "rate-scale $1",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -988,7 +1015,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "frequency-add $1",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1012,7 +1040,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "frequency-scale $1",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1027,7 +1056,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-86",
 					"ignoreclick" : 1,
@@ -1039,6 +1068,7 @@
 					"presentation_rect" : [ 595.0, 558.0, 125.0, 19.0 ],
 					"text" : "rate scale",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1089,7 +1119,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-84",
 					"ignoreclick" : 1,
@@ -1101,6 +1131,7 @@
 					"presentation_rect" : [ 595.0, 534.0, 125.0, 19.0 ],
 					"text" : "change base frequency",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1151,7 +1182,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-82",
 					"ignoreclick" : 1,
@@ -1163,6 +1194,7 @@
 					"presentation_rect" : [ 595.0, 510.0, 96.0, 19.0 ],
 					"text" : "scale frequencies",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1213,7 +1245,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-76",
 					"ignoreclick" : 1,
@@ -1225,6 +1257,7 @@
 					"presentation_rect" : [ 799.0, 479.0, 75.0, 19.0 ],
 					"text" : "scale partials",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1249,7 +1282,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 211.0, 78.0, 17.0 ],
 					"text" : "playback stop",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1273,7 +1307,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "playback $1",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1288,7 +1323,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-48",
 					"ignoreclick" : 1,
@@ -1296,11 +1331,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 177.5, 64.0, 57.0 ],
+					"patching_rect" : [ 260.0, 177.5, 64.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.0, 187.0, 191.0, 19.0 ],
 					"text" : "play file back in n amount of seconds",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1351,7 +1387,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-51",
 					"ignoreclick" : 1,
@@ -1363,6 +1399,7 @@
 					"presentation_rect" : [ 691.0, 399.0, 103.0, 19.0 ],
 					"text" : "trigger resonances",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1406,7 +1443,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "b",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1429,7 +1467,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "zl 4096 reg",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1452,7 +1491,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "zl 4096 reg",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1475,7 +1515,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "vexpr $f1*$f2 @scalarmode 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1498,7 +1539,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b f",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1548,7 +1590,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "clear",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1571,7 +1614,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "res-transform",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1586,7 +1630,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-59",
 					"ignoreclick" : 1,
@@ -1598,6 +1642,7 @@
 					"presentation_rect" : [ 691.0, 447.0, 93.0, 19.0 ],
 					"text" : "resonances gain",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1622,7 +1667,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 367.0, 587.0, 35.0, 17.0 ],
 					"text" : "open",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1646,7 +1692,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 91.0, 587.0, 35.0, 17.0 ],
 					"text" : "open",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1661,18 +1708,19 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 15.0,
-					"frgb" : [ 0.109804, 0.2, 0.564706, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-54",
 					"ignoreclick" : 1,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 901.0, 186.0, 201.0, 24.0 ],
+					"patching_rect" : [ 901.0, 186.0, 201.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.0, 455.0, 115.0, 24.0 ],
+					"presentation_rect" : [ 207.0, 455.0, 115.0, 23.0 ],
 					"text" : "model selection",
 					"textcolor" : [ 0.109804, 0.2, 0.564706, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1688,7 +1736,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-52",
 					"ignoreclick" : 1,
@@ -1700,6 +1748,7 @@
 					"presentation_rect" : [ 691.0, 423.0, 88.0, 19.0 ],
 					"text" : "poll resonances",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1715,7 +1764,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-46",
 					"ignoreclick" : 1,
@@ -1727,6 +1776,7 @@
 					"presentation_rect" : [ 535.0, 371.0, 67.0, 19.0 ],
 					"text" : "resonances",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1742,7 +1792,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-39",
 					"ignoreclick" : 1,
@@ -1754,6 +1804,7 @@
 					"presentation_rect" : [ 535.0, 235.0, 63.0, 19.0 ],
 					"text" : "sinusoids~",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1777,7 +1828,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1812,7 +1864,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-34",
 					"ignoreclick" : 1,
@@ -1824,6 +1876,7 @@
 					"presentation_rect" : [ 351.0, 259.0, 150.0, 19.0 ],
 					"text" : "the analyzed frame",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1847,8 +1900,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 441.0, 177.0, 682.0, 644.0 ],
@@ -2211,7 +2265,7 @@
 									"fontsize" : 11.0,
 									"id" : "obj-19",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "FullPacket" ],
 									"patching_rect" : [ 233.5, 216.0, 154.0, 19.0 ],
@@ -2665,23 +2719,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "SDIF-info.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "o.route.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "SDIF-buffer.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "SDIF-tuples.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
@@ -2689,20 +2726,21 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 11.0,
 						"default_fontsize" : 11.0,
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p process_files",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2717,7 +2755,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-93",
 					"ignoreclick" : 1,
@@ -2725,11 +2763,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 564.0, 88.0, 86.0, 57.0 ],
+					"patching_rect" : [ 564.0, 88.0, 86.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 47.0, 259.0, 232.0, 19.0 ],
 					"text" : "grab a frame of analysis for resonators~ input",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -2752,8 +2791,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2779,6 +2819,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"frgb" : 0.0,
 									"id" : "obj-2",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -2793,6 +2834,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -2807,6 +2849,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"frgb" : 0.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2820,6 +2863,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2833,6 +2877,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"frgb" : 0.0,
 									"id" : "obj-6",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -2847,6 +2892,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"frgb" : 0.0,
 									"id" : "obj-7",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -3017,7 +3063,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 8,
-									"outlettype" : [ "", "", "", "", "", "", "", "" ],
+									"outlettype" : [ "", "", "", "", "", "", "", "FullPacket" ],
 									"patching_rect" : [ 35.0, 255.0, 505.0, 17.0 ],
 									"text" : "o.route /name /filename /streamID /frameType /minTime /maxTime /numFrames"
 								}
@@ -3135,11 +3181,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "o.route.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
@@ -3147,20 +3188,21 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 11.0,
 						"default_fontsize" : 11.0,
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p view",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3183,7 +3225,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 0.6",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3241,7 +3284,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "f",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3264,7 +3308,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "metro 400",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3401,7 +3446,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "zl 4096 reg",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3424,7 +3470,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3447,7 +3494,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "metro 100",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3470,8 +3518,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 933.0, 557.0 ],
@@ -3691,28 +3740,28 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 910.0, 444.0, 59.0, 19.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 11.0,
 						"default_fontsize" : 11.0,
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p sdif2coll",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3739,7 +3788,8 @@
 					}
 ,
 					"text" : "coll unselected",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3762,8 +3812,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 197.0, 344.0 ],
@@ -3983,28 +4034,28 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 844.0, 508.0, 59.0, 19.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 11.0,
 						"default_fontsize" : 11.0,
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p sdif2coll",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4031,7 +4082,8 @@
 					}
 ,
 					"text" : "coll selected",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4054,7 +4106,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "route selected unselected",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4170,7 +4223,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "prepend sinusoids",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4224,7 +4278,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "resonators~",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4247,7 +4302,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b dump b b",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4270,7 +4326,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "zl 4096 group",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4294,7 +4351,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 315.0, 259.0, 35.0, 17.0 ],
 					"text" : "open",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4321,7 +4379,8 @@
 					}
 ,
 					"text" : "coll myFrame",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4384,8 +4443,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 389.0, 503.0 ],
@@ -4464,6 +4524,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
+									"frgb" : 0.0,
 									"id" : "obj-29",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4739,13 +4800,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "ranAB.maxpat",
-								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Data_Generation",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
@@ -4753,20 +4807,21 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 11.0,
 						"default_fontsize" : 11.0,
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p sdif2coll",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4789,7 +4844,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "threefates",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4862,7 +4918,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "sinusoids~",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4911,7 +4968,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "SDIF-tuples scrubby",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -4946,7 +5004,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-13",
 					"ignoreclick" : 1,
@@ -4954,12 +5012,13 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 12.0, 272.0, 57.0 ],
+					"patching_rect" : [ 178.0, 16.0, 272.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 591.0, 95.0, 272.0, 57.0 ],
-					"text" : "FIRST add the following line to the textfile in \nMax5/Cycling '74/init/max-fileformats.txt:\n\n\n",
+					"presentation_rect" : [ 591.0, 95.0, 272.0, 56.0 ],
+					"text" : "FIRST add the following line to the textfile in \n\"Max 6.1/Cycling '74/init/max-fileformats.txt\":\n\n\n",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -5021,7 +5080,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-8",
 					"ignoreclick" : 1,
@@ -5033,6 +5092,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "outputs list of paths with filenames",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -5048,7 +5108,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 0,
 					"id" : "obj-61",
 					"ignoreclick" : 1,
@@ -5056,11 +5116,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 20.0, 117.0, 34.0 ],
+					"patching_rect" : [ 46.0, 20.0, 117.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 103.0, 165.0, 20.0 ],
 					"text" : "drop SDIF files or folder here",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -5084,8 +5145,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 553.0, 174.0, 563.0, 646.0 ],
@@ -5832,13 +5894,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "addpath.maxpat",
-								"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Utilities",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
@@ -5846,20 +5901,21 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p files2menu",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -5883,7 +5939,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "clear",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -5907,7 +5964,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "clear",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -7154,65 +7212,51 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "addpath.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Utilities",
-				"patcherrelativepath" : "../../../modules/Utilities",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/utilities",
+				"patcherrelativepath" : "../../../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ranAB.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Data_Generation",
-				"patcherrelativepath" : "../../../modules/Data_Generation",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/data_generation",
+				"patcherrelativepath" : "../../../../patchers/data_generation",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot-Rafael/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -7241,10 +7285,6 @@
 			}
 , 			{
 				"name" : "SDIF-info.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{
