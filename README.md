@@ -6,24 +6,20 @@ CNMAT's expanding library of Max/MSP/Jitter patches and supporting files designe
 Installation:
 ===============
 
-This set of files and folders operates as a Max package. Place the root folder in the following location, depending on your OS:
+This set of files and folders operates as a _Max package_. Place the root folder in the following location, depending on your OS:
 
-Mac: ~/Documents/Max/Packages/
+**Mac:** `~/Documents/Max/Packages/`
 
-Win: C:\Users<your username>\Documents\Max\Packages
+**Win:** `C:\Users<your username>\Documents\Max\Packages`
 
 General glossary of terms:
 ===============
 
-Application: 
+Application (examples/applications): 
 
 * A generally useful patch with a complete enough GUI that it can be used without doing any Max programming.  In other words, an Application is a turnkey solution to some problem, not a reusable software component.   Apps might edit or reformat data, provide composer or audio engineering assistance, as well as operate on or perform digital sound in a specified way.  Apps are suggested when a composer or researcher desires to share an activity that has become habitual to the point where a fixed environment can exist.
 
-Baseline: 
-
-* The painstakingly selected package that we expect all users to have in their Max path and that all other software may depend on. (Note: in December 2008, this category was painstakingly assimilated into modules. Sorry Matt.)
-
-Demo: 
+Demo (examples/demos): 
 
 * patch that shows one (impressive) idea, not necessarily with enough flexibility or generality to be useful for extended work (Desired reaction: "Wow!").  It is specifically formatted for digital projection, and quick, reliable show and tell sessions.
 
@@ -31,7 +27,7 @@ Dependency:
 
 * when any patch requires a specific form of support
 
-Help patch: 
+Help patch (.maxhelp, .help): 
 
 * shows how one object (patch/external/etc.) works.  (We will use Tutors to collect help-patch-style information about objects created outside CNMAT that already come with their own help patches, e.g., coll.)
 
@@ -41,27 +37,38 @@ Interface Patch:
 
 Main patch: 
 
-* for Demos, Repertoire, Tutorials, and Tutors, the patch(es) that the user will open and interact with.  For modules, a patch whose name the Max programmer will type into an object box to use the module.
+* for Demos, Repertoire, Applications, Tutorials, and Tutors, the patch(es) that the user will open and interact with.  For modules, a patch whose name the Max programmer will type into an object box to use the module.
 
-Module: 
+Patchers (aka _modules_): 
 
-* Generalized package, to be used in an application, demo, tutor, or tutorial.  Modules should be addressable with OSC messages.
+* Generalized modules, to be used in an application, demo, tutor, or tutorial.  Modules should be addressable with OSC messages, and require help files to assist other users in understanding them.
+
+Patcher (aka _abstraction_ or _patch_): 
+
+* Any unit of software made in Max.  
+* The five kinds of patch(er) are 
+
+  – Main Patch
+  
+  – Overview Patch
+  
+  – Help Patch
+  
+  – Interface Patch
+  
+  – Support Patch
 
 Object: 
 
 * General term meaning either patch or external written in C, Java, or Javascript
 
-Overview Patch: 
+Overview (_CNMAT_mmjd_overview): 
 
-* a patch that lists the contents of a package.  Overview patches typically either contain an instance of each patch in the package or a message box that will open the help patch for each patch in the package.  Overview patches should provide some sort of context and/or organization for the contents of the package.
+* a patch that lists the contents of a package.  Overview patches typically either contain an instance of each patch in the package or a message box that will open the help patch for each patch in the package.  Overview patches should provide some sort of context and/or organization for the contents of the package.  The overview in this _package_ is generated.
 
-Package: 
+Package (this repository _is_ one): 
 
-* specific, organized subset of the repository that serves some purpose
-
-Patcher (aka _abstraction_ or _patch_): 
-
-* any unit of software made in Max.  The five kinds of patch are Main Patch, Overview Patch, Help Patch, Interface Patch and Support Patch.
+* specific, organized subset of Max files that serves some purpose.  In our case, this repository fulfils many purposes.  See above for a description on how to install _Max Packages_.
 
 Repertoire: 
 
@@ -69,13 +76,9 @@ Repertoire:
 
 Repository: 
 
-* versioned storage of _all_ CNMAT's software and related content.
+* This _package_ lives in a repository.  A repository allows users to browse and evaluate a history of (predominately) text files.  It maintains a record of changes, alongside a set of commits, and associated messages.  This allows other supporters of the repository to evaluate what the files were like at a certain point in the past, while making commits in the present, for the future.
 
-Support: 
-
-* an object that somehow supports your work, or a directory of same
-
-Support Patch: 
+Depot Support Patch: 
 
 * A patch that is necessary for a package but will typically not be used directly by users of the package.
 
@@ -85,7 +88,7 @@ Tool:
 
 Tutor: 
 
-* is a MMJ patch reference document that serves as a single collection point for the expanding communal wisdom on a particular MMJ object or programming topic.  For an advanced user it is a mnemonic aid and for entry level users it is learning space.  An example might be the coll-tutor.pat   Here you would find all kinds of tips of dealing with collections including elaborate strategies like David Wessel's Refer world.  Edmund's preference is that Tutors be formatted for digital projection; Max 5's patch zooming feature will make it unnecessary to build large-font patches.  (Old: A very small tutorial about one specific thing, e.g., a thorough explanation of MSP's _DSP Status_ window.)
+* is a MMJ patch reference document that serves as a single collection point for the expanding communal wisdom on a particular MMJ object or programming topic.  For an advanced user it is a mnemonic aid, and for entry level users it is learning space.  An example might be the `extras/tutors/object-tutors/about_dict.maxpat`   Here you would find all kinds of tips of dealing with dictionaries.  Tutors aim at providing details not found in help files.
 
 Tutorial: 
 
@@ -103,4 +106,4 @@ Patch Quality:
 
 * Beta: The middle level of quality and integration with the MMJ-Depot that a package can have, beyond alpha status.  A package with beta status was reviewed for correctness, style, generality, efficiency, and overall design by at least one expert MMJ programmer besides the author.
 
-* Gamma: The highest level of quality and integration with the MMJ-Depot that a package can have, beyond beta status.  A package with gamma status has been used reliably by at least two different people.
+* Gamma: The highest level of quality and integration with the MMJ-Depot that a package can have, beyond beta status.  A package with gamma status has been used reliably by at least _two_ different people.
