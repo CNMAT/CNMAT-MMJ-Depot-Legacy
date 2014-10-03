@@ -15,11 +15,11 @@ This set of files and folders operates as a _Max package_. Place the root folder
 General glossary of terms:
 ===============
 
-Application (examples/applications): 
+Application (`/examples/applications`): 
 
 * A generally useful patch with a complete enough GUI that it can be used without doing any Max programming.  In other words, an Application is a turnkey solution to some problem, not a reusable software component.   Apps might edit or reformat data, provide composer or audio engineering assistance, as well as operate on or perform digital sound in a specified way.  Apps are suggested when a composer or researcher desires to share an activity that has become habitual to the point where a fixed environment can exist.
 
-Demo (examples/demos): 
+Demo (`/examples/demos`): 
 
 * patch that shows one (impressive) idea, not necessarily with enough flexibility or generality to be useful for extended work (Desired reaction: "Wow!").  It is specifically formatted for digital projection, and quick, reliable show and tell sessions.
 
@@ -62,7 +62,7 @@ Object:
 
 * General term meaning either patch or external written in C, Java, or Javascript
 
-Overview (_CNMAT_mmjd_overview): 
+Overview (`_CNMAT_mmjd_overview`): 
 
 * a patch that lists the contents of a package.  Overview patches typically either contain an instance of each patch in the package or a message box that will open the help patch for each patch in the package.  Overview patches should provide some sort of context and/or organization for the contents of the package.  The overview in this _package_ is generated.
 
@@ -70,7 +70,7 @@ Package (this repository _is_ one):
 
 * specific, organized subset of Max files that serves some purpose.  In our case, this repository fulfils many purposes.  See above for a description on how to install _Max Packages_.
 
-Repertoire: 
+Repertoire (`/examples/repertoire`): 
 
 * A specific kind of Application that is "branded" by a composer.  Repertoire is intended for performance (concert, installation, internet, CD) and involves a special intent (to form one musical world or specific piece).  For example, several Modules, and several Apps might be born of David Wessel's Migrator world, but David Wessel's Migrator world is Repertoire (i.e. it belongs and is identified with the composer or responsible group).  Matt's Wacom world consists of many potential modules, but the Repertoire aspect is his particular use of these elements to generate pieces/performances.    Most Repertoire will be in-house release only.
 
@@ -78,7 +78,7 @@ Repository:
 
 * This _package_ lives in a repository.  A repository allows users to browse and evaluate a history of (predominately) text files.  It maintains a record of changes, alongside a set of commits, and associated messages.  This allows other supporters of the repository to evaluate what the files were like at a certain point in the past, while making commits in the present, for the future.
 
-Depot Support Patch: 
+Depot Support Patch (`/patchers/depot_support`): 
 
 * A patch that is necessary for a package but will typically not be used directly by users of the package.
 
@@ -86,11 +86,11 @@ Tool:
 
 * A vague term we try to avoid when being precise. _What software isn't a tool?_
 
-Tutor: 
+Tutor (`/extras/tutors`): 
 
-* is a MMJ patch reference document that serves as a single collection point for the expanding communal wisdom on a particular MMJ object or programming topic.  For an advanced user it is a mnemonic aid, and for entry level users it is learning space.  An example might be the `extras/tutors/object-tutors/about_dict.maxpat`   Here you would find all kinds of tips of dealing with dictionaries.  Tutors aim at providing details not found in help files.
+* is a MMJ patch reference document that serves as a single collection point for the expanding communal wisdom on a particular MMJ object or programming topic.  For an advanced user it is a mnemonic aid, and for entry level users it is learning space.  An example might be the `/extras/tutors/object-tutors/about_dict.maxpat`   Here you would find all kinds of tips of dealing with dictionaries.  Tutors aim at providing details not found in help files.
 
-Tutorial: 
+Tutorial (`/extras/tutorials`): 
 
 * series of patches explaining and contextualizing a package for teaching purposes, e.g., CNMAT's Spectral Tutorials. Tutorials offer more opportunity for self-guided learning than Tutors.  (Desired reaction: _I understand._)
 
