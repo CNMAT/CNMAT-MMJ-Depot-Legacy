@@ -56,6 +56,7 @@ function get_patches($dir){
 		    $inc = 0;
 		}
 	    }else if(strpos($object->getPathname(), 'patchers') == true){
+		echo "path: " + 
 		$in_dir = 'patchers';
 		if(!$in_patchers){
 		    echo "in patchers  \n";
@@ -151,7 +152,7 @@ function extract_data($thisfile, $section){
     global $header_spacing, $offset_left, $inc, $c, $sec, $currid, $textwidth;
     $test = implode("", file($thisfile));
 
-    print 'current file:' . $thisfile . "\n";
+    //print 'current file:' . $thisfile . "\n";
 
     $obj = json_decode($test, true);
     $location = -1;
@@ -188,7 +189,7 @@ function extract_data($thisfile, $section){
 	    $currid += 1;//inc before you use
 	    $varname = 'desc-' . $currid;
 
-	    echo 'banner/description var: ' . $description . "\n";
+	    //echo 'banner/description var: ' . $description . "\n";
 	    $x = ($location * $header_spacing) + $offset_left;
 
 	    $str = 'script newobject textbutton @fontsize 10 @truncate 0 @border 0 @ignoreclick 1 @varname 
@@ -211,7 +212,7 @@ function extract_data($thisfile, $section){
 	    $currid += 1;
 	    $varname = 'auth-' . $currid;
 
-	    echo 'author var: ' . $author . "\n";
+	    //echo 'author var: ' . $author . "\n";
 	    $x = ($location * $header_spacing) + $offset_left;
 
 	    $str = 'script newobject textbutton @fontsize 10 @truncate 0 @border 0 @ignoreclick 1 @varname 
@@ -227,7 +228,7 @@ function extract_data($thisfile, $section){
 	    $currid += 1;
 	    $varname = 'vers-' . $currid;
 
-	    echo 'version var: ' . $version . "\n";
+	    //echo 'version var: ' . $version . "\n";
 	    $x = ($location * $header_spacing) + $offset_left;
 
 	    $str = 'script newobject textbutton @fontsize 10 @truncate 0 @border 0 @ignoreclick 1 @varname 
