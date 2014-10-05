@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 106.0, 56.0, 1077.0, 401.0 ],
+		"rect" : [ 106.0, 56.0, 1282.0, 401.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-107",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1080.0, 30.0, 98.0, 20.0 ],
+					"text" : "oroute_setter #2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
@@ -1203,34 +1217,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 975.0, 30.0, 62.0, 17.0 ],
-					"text" : "loadmess #2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 975.0, 48.0, 75.0, 17.0 ],
-					"text" : "sprintf set 1 /%s"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
@@ -1967,6 +1953,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2232,24 +2227,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -2671,6 +2648,13 @@
 				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../depot_support",
 				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oroute_setter.maxpat",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
