@@ -32,13 +32,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-27",
+					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 600.0, 405.0, 79.0, 20.0 ],
-					"text" : "loadmess #2"
+					"patching_rect" : [ 360.0, 35.0, 98.0, 20.0 ],
+					"text" : "oroute_setter #2"
 				}
 
 			}
@@ -51,22 +51,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 348.0, 45.0, 20.0 ],
+					"patching_rect" : [ 300.0, 33.0, 45.0, 20.0 ],
 					"text" : "r OSC"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 600.0, 435.0, 96.0, 20.0 ],
-					"text" : "sprintf set 1 /%s"
 				}
 
 			}
@@ -79,7 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 525.0, 478.0, 94.0, 20.0 ],
+					"patching_rect" : [ 300.0, 90.0, 94.0, 20.0 ],
 					"text" : "o.route /dummy"
 				}
 
@@ -93,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 375.0, 135.0, 54.0, 20.0 ],
+					"patching_rect" : [ 390.0, 182.0, 54.0, 20.0 ],
 					"text" : "delay 5"
 				}
 
@@ -107,22 +93,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 105.0, 130.0, 20.0 ],
+					"patching_rect" : [ 455.0, 152.0, 130.0, 20.0 ],
 					"text" : "initialization"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 214.0, 54.0, 20.0 ],
-					"text" : "nothing"
 				}
 
 			}
@@ -134,8 +106,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "float", "", "" ],
-					"patching_rect" : [ 375.0, 163.0, 134.0, 20.0 ],
+					"outlettype" : [ "float", "Sopranou", "Sopranoi" ],
+					"patching_rect" : [ 390.0, 210.0, 150.0, 20.0 ],
 					"text" : "t 1. #1u #1i"
 				}
 
@@ -149,22 +121,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 188.0, 195.0, 40.0, 20.0 ],
+					"patching_rect" : [ 190.333328, 195.0, 40.0, 20.0 ],
 					"text" : "t b l"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 398.0, 285.0, 111.0, 20.0 ],
-					"text" : "loadmess #1"
 				}
 
 			}
@@ -177,7 +135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 375.0, 105.0, 61.0, 20.0 ],
+					"patching_rect" : [ 390.0, 152.0, 61.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -191,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "FullPacket" ],
-					"patching_rect" : [ 115.0, 165.0, 242.0, 20.0 ],
+					"patching_rect" : [ 116.0, 150.0, 242.0, 20.0 ],
 					"text" : "o.route /range /vowel /interpolate"
 				}
 
@@ -232,7 +190,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 53.0, 20.0, 20.0 ]
+					"patching_rect" : [ 240.0, 53.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -245,7 +203,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 369.0, 64.0, 20.0 ],
+					"patching_rect" : [ 264.666656, 350.0, 64.0, 20.0 ],
 					"text" : "clip 0. 1."
 				}
 
@@ -258,7 +216,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.5, 53.0, 20.0, 20.0 ]
+					"patching_rect" : [ 153.0, 53.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -376,7 +334,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 115.0, 323.0, 131.0, 20.0 ],
+					"patching_rect" : [ 116.0, 329.0, 131.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -394,7 +352,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 300.0, 101.0, 20.0 ],
+					"patching_rect" : [ 116.0, 306.0, 101.0, 20.0 ],
 					"text" : "prepend symbol"
 				}
 
@@ -422,7 +380,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 115.0, 365.0, 96.0, 20.0 ],
+					"patching_rect" : [ 116.0, 371.0, 96.0, 20.0 ],
 					"text" : "res-transform"
 				}
 
@@ -436,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 344.0, 142.0, 20.0 ],
+					"patching_rect" : [ 116.0, 350.0, 142.0, 20.0 ],
 					"text" : "prepend formant-form"
 				}
 
@@ -450,7 +408,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "bang" ],
-					"patching_rect" : [ 115.0, 399.0, 96.0, 20.0 ],
+					"patching_rect" : [ 225.0, 420.0, 96.0, 20.0 ],
 					"text" : "list-interpolate"
 				}
 
@@ -462,8 +420,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 53.0, 20.0, 20.0 ]
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 52.0, 53.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -487,7 +445,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 240.0, 113.0, 20.0 ],
+					"patching_rect" : [ 116.0, 246.0, 114.333328, 20.0 ],
 					"text" : "sprintf %s%s"
 				}
 
@@ -570,7 +528,6 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 249.5, 392.0, 124.5, 392.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -622,6 +579,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -667,37 +633,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -712,7 +651,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 2 ]
@@ -721,7 +660,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 1 ]
@@ -748,7 +687,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
@@ -763,44 +702,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/basic_programming",
-				"patcherrelativepath" : "../basic_programming",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../depot_support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "list-interpolate.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "res-transform.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "resonators~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
