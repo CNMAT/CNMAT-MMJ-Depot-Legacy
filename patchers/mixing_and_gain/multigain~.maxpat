@@ -338,7 +338,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 146.103226, 209.0, 35.0, 17.0 ],
-					"presentation_rect" : [ 142.0, 207.0, 0.0, 0.0 ],
 					"text" : "*~ 0.",
 					"varname" : "gain[2]"
 				}
@@ -354,7 +353,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 110.103226, 209.0, 35.0, 17.0 ],
-					"presentation_rect" : [ 106.0, 207.0, 0.0, 0.0 ],
 					"text" : "*~ 0.",
 					"varname" : "gain[3]"
 				}
@@ -1213,7 +1211,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 975.0, 30.0, 62.0, 17.0 ],
-					"text" : "loadmess #1"
+					"text" : "loadmess #2"
 				}
 
 			}
