@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 87.0, 94.0, 445.0, 534.0 ],
+		"rect" : [ 262.0, 78.0, 445.0, 534.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -32,12 +32,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"id" : "obj-11",
+					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.0, 90.0, 89.0, 19.0 ],
+					"patching_rect" : [ 285.0, 90.0, 89.0, 19.0 ],
 					"text" : "sprintf set 1 /%s"
 				}
 
@@ -46,12 +46,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"id" : "obj-3",
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 270.0, 49.0, 34.0, 19.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.0, 47.0, 73.0, 19.0 ],
+					"patching_rect" : [ 270.0, 21.0, 73.0, 19.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -81,8 +95,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 144.0, 158.0, 130.0, 19.0 ],
-					"text" : "o.route /none"
+					"patching_rect" : [ 144.0, 135.0, 75.0, 19.0 ],
+					"text" : "o.route /nada"
 				}
 
 			}
@@ -123,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 55.0, 201.0, 42.0, 17.0 ],
+					"patching_rect" : [ 55.0, 280.0, 42.0, 17.0 ],
 					"text" : "signal"
 				}
 
@@ -165,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "FullPacket" ],
-					"patching_rect" : [ 108.0, 188.0, 283.0, 19.0 ],
+					"patching_rect" : [ 108.0, 180.0, 283.0, 19.0 ],
 					"text" : "o.route /gain-db /pan"
 				}
 
@@ -179,7 +193,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 55.0, 158.0, 72.0, 19.0 ],
+					"patching_rect" : [ 55.0, 135.0, 72.0, 19.0 ],
 					"text" : "route signal"
 				}
 
@@ -333,7 +347,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 104.0, 420.0, 49.0, 19.0 ],
+					"patching_rect" : [ 120.0, 420.0, 49.0, 19.0 ],
 					"text" : "*~ 0.7"
 				}
 
@@ -359,7 +373,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 45.0, 23.0, 23.0 ]
 				}
 
@@ -382,7 +396,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.0, 480.0, 24.0, 24.0 ]
+					"patching_rect" : [ 120.0, 480.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -416,10 +430,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 1 ]
 				}
 
 			}
@@ -560,10 +583,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -599,7 +622,7 @@
 					"destination" : [ "obj-16", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 188.5, 263.0, 173.5, 263.0 ],
+					"midpoints" : [ 188.5, 265.0, 173.5, 265.0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -693,6 +716,11 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
