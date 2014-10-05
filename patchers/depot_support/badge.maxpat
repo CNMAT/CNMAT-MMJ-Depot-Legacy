@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 449.0, 207.0, 707.0, 622.0 ],
+		"rect" : [ 446.0, 204.0, 707.0, 622.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -95,8 +95,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 41.0, 200.0, 16.0 ],
-					"text" : "© 2007-13 UC Regents, all rights reserved"
+					"patching_rect" : [ 7.0, 41.0, 220.0, 16.0 ],
+					"text" : "© 2007-14 UC Regents, all rights reserved"
 				}
 
 			}
