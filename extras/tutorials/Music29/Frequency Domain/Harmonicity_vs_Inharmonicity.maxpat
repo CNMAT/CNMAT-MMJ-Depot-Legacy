@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 10.0, 51.0, 935.0, 680.0 ],
@@ -31,6 +32,78 @@
 				"box" : 				{
 					"background" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.7, 0.7, 0.7, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 0,
+					"id" : "obj-17",
+					"ignoreclick" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 404.333344, 388.0, 32.5, 18.0 ],
+					"presentation" : 0,
+					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"text" : "t b l",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
+					"bgcolor" : [ 1.0, 0.984314, 0.929412, 1.0 ],
+					"color" : [ 0.203922, 0.333333, 0.368627, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 0,
+					"id" : "obj-5",
+					"ignoreclick" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 254.5, 52.0, 71.0, 18.0 ],
+					"presentation" : 0,
+					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"text" : "unpack 440 3",
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
+					"bgcolor" : [ 1.0, 0.984314, 0.929412, 1.0 ],
+					"color" : [ 0.203922, 0.333333, 0.368627, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 0,
+					"id" : "obj-20",
+					"ignoreclick" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 254.5, 17.0, 60.0, 18.0 ],
+					"presentation" : 0,
+					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"text" : "loadbang",
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 0.576471, 0.576471, 0.576471, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -45,7 +118,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 654.0, 207.5, 141.0, 18.0 ],
 					"text" : "Frequency_Domain_Analysis",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -73,27 +147,8 @@
 					"presentation_rect" : [ 751.0, 252.0, 153.0, 16.0 ],
 					"text" : " generate random freq offsets",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 0,
-					"bgcolor" : [ 0.305882, 0.380392, 0.415686, 1.0 ],
-					"blinkcolor" : [ 0.898039, 1.0, 0.839216, 1.0 ],
-					"fgcolor" : [ 0.279785, 0.471702, 0.764706, 1.0 ],
-					"hidden" : 0,
-					"id" : "obj-28",
-					"ignoreclick" : 0,
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"patching_rect" : [ 460.0, 64.0, 20.0, 20.0 ],
-					"presentation" : 0,
-					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -116,7 +171,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "b 3",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -139,7 +195,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "b",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -162,7 +219,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "b",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -185,7 +243,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b b b i",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -228,7 +287,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "pv harmonics",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -291,7 +351,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "pv numFreqs",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -314,7 +375,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "pv numFreqs",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -333,11 +395,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 404.333344, 436.0, 70.0, 18.0 ],
+					"patching_rect" : [ 417.833344, 428.0, 70.0, 18.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "pv harmonics",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -360,7 +423,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadbang",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -383,7 +447,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "> 0",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -406,7 +471,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "gate",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -435,6 +501,7 @@
 					"presentation_rect" : [ 641.0, 278.0, 283.0, 40.0 ],
 					"text" : "Right end of slider presents reordered partials that are farther and fartehr removed from the whole number harmonic ratios, thusproducing increasingly inharmonic sounds.",
 					"textcolor" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -464,6 +531,7 @@
 					"presentation_rect" : [ 25.0, 202.0, 266.0, 29.0 ],
 					"text" : "single events are triggered with the return key\nconstant tones can be triggered with keyboard",
 					"textcolor" : [ 0.984314, 0.776471, 0.607843, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -492,6 +560,7 @@
 					"presentation_rect" : [ 776.5, 328.0, 94.0, 18.0 ],
 					"text" : "inharmonic partials",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -521,6 +590,7 @@
 					"presentation_rect" : [ 26.0, 58.0, 429.0, 40.0 ],
 					"text" : "This patch allows the user to control the relative harmonicity and inharmonicity of a sound by controlling the frequency ratios between the fundamental and the upper partials of a complex sound.  ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -550,6 +620,7 @@
 					"presentation_rect" : [ 25.0, 101.0, 435.0, 74.0 ],
 					"text" : "Relative harmonicity or inharmonicity can be understood as a function of the ratio of the upper partials to the fundamental frequency. When the upper partials are in a roughly whole number ratio the sound will be mostly harmonic.  When the upper partials are in fractional ratios to the fundamental, then the sound will be progressively more inharmonic.   Some sounds might feature certain partials that are harmonic and certain partials that are inharmonic - this is typical of bells for example.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -607,6 +678,7 @@
 					"presentation_rect" : [ 12.0, 278.0, 281.0, 40.0 ],
 					"text" : "Left end of slider presents all partials in whole number ratios to the chosen fundamental frequency or first partial. The result is a tone that is harmonic and nicely tuned with itself.\n",
 					"textcolor" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -630,7 +702,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b f",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -653,7 +726,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "vexpr $f1+$f2 @scalarmode 1",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -676,7 +750,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b b i b",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -699,7 +774,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "key",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -722,7 +798,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "sel 13",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -750,6 +827,7 @@
 					"presentation_rect" : [ 568.0, 105.0, 146.0, 18.0 ],
 					"text" : "<     note name pressed by key",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -812,6 +890,7 @@
 					"presentation_rect" : [ 662.0, 12.0, 103.0, 29.0 ],
 					"text" : "HIT KEYS",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -853,29 +932,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"hidden" : 0,
-					"id" : "obj-20",
-					"ignoreclick" : 0,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 360.0, 39.0, 60.0, 18.0 ],
-					"presentation" : 0,
-					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "loadbang",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 0,
-					"bgcolor" : [ 1.0, 0.984314, 0.929412, 1.0 ],
-					"color" : [ 0.203922, 0.333333, 0.368627, 1.0 ],
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 0,
 					"id" : "obj-138",
 					"ignoreclick" : 0,
 					"maxclass" : "newobj",
@@ -886,7 +942,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "mtof",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -913,6 +970,7 @@
 					"presentation_rect" : [ 592.0, 145.0, 133.0, 18.0 ],
 					"text" : "select number of harmonics",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -941,6 +999,7 @@
 					"presentation_rect" : [ 525.0, 123.0, 202.0, 18.0 ],
 					"text" : "select fundamental frequency or first partial",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -965,7 +1024,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "$1 $2, bang",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1058,7 +1118,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "pak 261 16",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1085,6 +1146,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "Frequencies",
 					"textcolor" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1113,6 +1175,7 @@
 					"presentation_rect" : [ 772.5, 537.0, 131.0, 16.0 ],
 					"text" : " generate random amps",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1185,6 +1248,7 @@
 					"presentation_rect" : [ 25.0, 186.0, 139.0, 18.0 ],
 					"text" : "select a type of audio stream",
 					"textcolor" : [ 0.984314, 0.776471, 0.607843, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1212,6 +1276,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "initialize amps/freqs",
 					"textcolor" : [ 0.917647, 0.909804, 0.878431, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1235,7 +1300,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 1",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1263,6 +1329,7 @@
 					"presentation_rect" : [ 12.0, 12.0, 502.0, 38.0 ],
 					"text" : "HARMONICITY VS. INHARMONICITY",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1290,6 +1357,7 @@
 					"presentation_rect" : [ 15.0, 537.0, 85.0, 23.0 ],
 					"text" : "Amplitudes",
 					"textcolor" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1332,7 +1400,7 @@
 					"setstyle" : 0,
 					"settype" : 1,
 					"signed" : 0,
-					"size" : 3,
+					"size" : 31,
 					"slidercolor" : [ 0.741176, 0.909804, 0.882353, 1.0 ],
 					"spacing" : 4,
 					"thickness" : 2
@@ -1363,6 +1431,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "add constant value to each  partial  altering harmonic ratios toward inharmonicity",
 					"textcolor" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1391,6 +1460,7 @@
 					"presentation_rect" : [ 57.5, 326.0, 87.0, 18.0 ],
 					"text" : "harmonic partials",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1418,6 +1488,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "random freq adjustments",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1446,6 +1517,7 @@
 					"presentation_rect" : [ 15.0, 557.0, 62.0, 29.0 ],
 					"text" : "exponential amplitudes",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1474,6 +1546,7 @@
 					"presentation_rect" : [ 783.0, 561.0, 66.0, 29.0 ],
 					"text" : "random amplitudes",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1501,6 +1574,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "trigger a transient",
 					"textcolor" : [ 0.772549, 1.0, 0.988235, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1591,7 +1665,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "0 0 1 10 1 50 0.2 200 0 400",
-					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
+					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1614,7 +1689,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "line~ 0.",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1637,7 +1713,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "*~ 0.",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1660,7 +1737,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "selector~ 2",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1728,7 +1806,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b b l",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1751,7 +1830,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "list-interpolate",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1774,8 +1854,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 259.0, 415.0 ],
@@ -2018,7 +2099,8 @@
 					}
 ,
 					"text" : "p genrandamps",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2041,8 +2123,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2195,7 +2278,8 @@
 					}
 ,
 					"text" : "p list2selectinglist",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2232,7 +2316,7 @@
 					"patching_rect" : [ 636.0, 185.5, 121.0, 15.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.5, 350.0, 814.0, 43.0 ],
+					"presentation_rect" : [ 59.5, 346.0, 814.0, 17.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 1,
@@ -2263,7 +2347,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b b l",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2285,7 +2370,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "send~ sonogram",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2308,7 +2394,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "list-interpolate",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2331,7 +2418,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b l",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2354,7 +2442,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "*~ 0.02",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2377,7 +2466,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "prepend sinusoids",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2431,8 +2521,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 143.0, 48.0, 477.0, 527.0 ],
@@ -2521,8 +2612,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 250.0, 356.0 ],
@@ -2754,8 +2846,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 167.0, 299.0 ],
@@ -3098,7 +3191,8 @@
 					}
 ,
 					"text" : "p genrandfreqs",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3125,6 +3219,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "generate random offsets",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -3148,7 +3243,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "clip 0. 1.",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3190,7 +3286,7 @@
 					"setstyle" : 0,
 					"settype" : 1,
 					"signed" : 0,
-					"size" : 3,
+					"size" : 31,
 					"slidercolor" : [ 0.345098, 0.568627, 0.792157, 1.0 ],
 					"spacing" : 4,
 					"thickness" : 2
@@ -3221,6 +3317,7 @@
 					"presentation_rect" : [ 343.0, 537.0, 268.0, 18.0 ],
 					"text" : "Draw with either function or multislider for amplitudes",
 					"textcolor" : [ 0.694118, 0.890196, 0.396078, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -3244,7 +3341,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "prepend add_select",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3309,7 +3407,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "list-norm-expdecay 16 1.",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3332,7 +3431,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "zl 4096 lace",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3355,7 +3455,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "list-sak",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3378,7 +3479,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "harmonics 261 16",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3401,7 +3503,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "sinusoids~",
-					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
+					"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3784,6 +3887,36 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-125", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-77", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3824,7 +3957,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-107", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
@@ -3834,17 +3967,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-125", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-77", 1 ],
+					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-22", 0 ]
@@ -3858,16 +3981,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-107", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -4008,6 +4121,26 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-107", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-111", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -4253,16 +4386,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-12", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-81", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.8, 0.8, 0.8, 0.9 ],
 					"destination" : [ "obj-138", 0 ],
 					"disabled" : 0,
@@ -4358,93 +4481,100 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Mixing_and_Gain",
-				"patcherrelativepath" : "../../../modules/Mixing_and_Gain",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/mixing_and_gain",
+				"patcherrelativepath" : "../../../../patchers/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "harmonics.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Data_Generation",
-				"patcherrelativepath" : "../../../modules/Data_Generation",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/data_generation",
+				"patcherrelativepath" : "../../../../patchers/data_generation",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "list-sak.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
 				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "list-norm-expdecay.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Lists",
-				"patcherrelativepath" : "../../../modules/Lists",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/lists",
+				"patcherrelativepath" : "../../../../patchers/lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clavecin.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/applications/internal_synth/lib",
-				"patcherrelativepath" : "../../../applications/internal_synth/lib",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/examples/applications/internal_synth/lib",
+				"patcherrelativepath" : "../../../../examples/applications/internal_synth/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "letter.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Interface",
-				"patcherrelativepath" : "../../../modules/Interface",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/interface",
+				"patcherrelativepath" : "../../../../patchers/interface",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "../../../modules/Effects-audio",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/effects_audio",
+				"patcherrelativepath" : "../../../../patchers/effects_audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency_Domain_Analysis.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/extras/tutorials/Music29/Frequency Domain",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/basic-programming",
-				"patcherrelativepath" : "../../../modules/basic-programming",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/basic_programming",
+				"patcherrelativepath" : "../../../../patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../modules/Depot_Support",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
