@@ -11,3 +11,7 @@ This set of files and folders operates as a _Max package_. Place the root folder
 **Mac:** `~/Documents/Max/Packages/`
 
 **Win:** `C:\Users<your username>\Documents\Max\Packages`
+
+Contributing Guidelines and Wiki:
+===
+For more information on contributing to the MMJ Depot, including coding and style conventions, please see the [Wiki](https://github.com/CNMAT/CNMAT-MMJ-Depot/wiki/Contributing-to-the-MMJ-Depot)
