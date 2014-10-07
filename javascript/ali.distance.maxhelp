@@ -2,12 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
+			"major" : 7,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 0,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 37.0, 44.0, 964.0, 736.0 ],
+		"rect" : [ 37.0, 78.0, 964.0, 736.0 ],
 		"bgcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -19,14 +21,20 @@
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
@@ -39,9 +47,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
+							"major" : 7,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 0,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 298.0, 133.0, 429.0, 322.0 ],
@@ -55,14 +65,20 @@
 						"gridsnaponopen" : 0,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -72,6 +88,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 18.0, 77.0, 290.0, 17.0 ],
+									"style" : "",
 									"text" : "Updated to Max 5, December 2008, mzed"
 								}
 
@@ -86,29 +103,25 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 18.0, 41.0, 290.0, 27.0 ],
+									"style" : "",
 									"text" : "Matt Wright reviewed this patch in August 2007 for for correctness, style, generality, efficiency, and overall design."
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 493.0, 698.0, 46.0, 17.0 ],
+					"patching_rect" : [ 493.0, 698.0, 46.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p status"
 				}
 
@@ -116,6 +129,11 @@
 , 			{
 				"box" : 				{
 					"args" : [ "ali.distance", "weight generator with geometric distances", "0.296 0.594 0.784 1." ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-42",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -126,20 +144,29 @@
 					"patching_rect" : [ 14.0, 6.0, 504.0, 76.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 797.0, 693.0, 511.0, 76.0 ],
-					"prototypename" : "cnmat_banner"
+					"prototypename" : "cnmat_banner",
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "ali.distance.help", "1.0b", " Ali Momenii", "ali.distance", 6666, "0.296 0.594 0.784 1." ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-39",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "badge.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 410.0, 641.0, 296.0, 86.0 ],
-					"prototypename" : "cnmat_badge"
+					"prototypename" : "cnmat_badge",
+					"viewvisibility" : 1
 				}
 
 			}
@@ -152,7 +179,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 569.0, 208.0, 157.0, 18.0 ],
+					"patching_rect" : [ 569.0, 208.0, 157.0, 22.0 ],
+					"style" : "",
 					"text" : "placeone 1 -0.4 0.2, redraw"
 				}
 
@@ -166,7 +194,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.0, 169.0, 55.0, 18.0 ],
+					"patching_rect" : [ 233.0, 169.0, 55.0, 22.0 ],
+					"style" : "",
 					"text" : "compile"
 				}
 
@@ -181,7 +210,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 759.0, 581.0, 160.0, 89.0 ],
+					"patching_rect" : [ 759.0, 581.0, 163.0, 87.0 ],
+					"style" : "",
 					"text" : "or you can put in a preset number next to the gray \"a\", and a second preset number next to \"b\", then use the slider in between to fade from one to another"
 				}
 
@@ -196,6 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 729.0, 579.0, 25.0, 27.0 ],
+					"style" : "",
 					"text" : "6."
 				}
 
@@ -209,7 +240,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 758.0, 530.0, 146.0, 34.0 ],
+					"patching_rect" : [ 758.0, 530.0, 146.0, 33.0 ],
+					"style" : "",
 					"text" : "You can recall with the green \"R\" button"
 				}
 
@@ -223,6 +255,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 728.0, 528.0, 25.0, 27.0 ],
+					"style" : "",
 					"text" : "5."
 				}
 
@@ -236,7 +269,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 757.0, 471.0, 141.0, 48.0 ],
+					"patching_rect" : [ 757.0, 471.0, 141.0, 47.0 ],
+					"style" : "",
 					"text" : "move the points around, and store a few presets with unique numbers"
 				}
 
@@ -250,6 +284,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 725.0, 431.0, 25.0, 27.0 ],
+					"style" : "",
 					"text" : "4."
 				}
 
@@ -263,7 +298,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 756.0, 426.0, 198.0, 48.0 ],
+					"patching_rect" : [ 756.0, 426.0, 198.0, 47.0 ],
+					"style" : "",
 					"text" : "use the number and the pink \"W\" button to store the arrangement of the space with pattr."
 				}
 
@@ -277,6 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 405.0, 86.0, 211.0, 20.0 ],
+					"style" : "",
 					"text" : "some other messages:"
 				}
 
@@ -290,6 +327,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 437.0, 25.0, 27.0 ],
+					"style" : "",
 					"text" : "3."
 				}
 
@@ -303,7 +341,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 437.0, 130.0, 34.0 ],
+					"patching_rect" : [ 43.0, 437.0, 130.0, 33.0 ],
+					"style" : "",
 					"text" : "normal-click and drag around in the box,"
 				}
 
@@ -317,6 +356,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 282.0, 25.0, 27.0 ],
+					"style" : "",
 					"text" : "2."
 				}
 
@@ -330,7 +370,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.0, 570.0, 296.0, 34.0 ],
+					"patching_rect" : [ 354.0, 570.0, 296.0, 33.0 ],
+					"style" : "",
 					"text" : "you get a list with the distance from the current point to each set-down point"
 				}
 
@@ -344,27 +385,34 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 734.0, 378.0, 59.5, 20.0 ],
+					"patching_rect" : [ 734.0, 378.0, 59.5, 22.0 ],
 					"restore" : 					{
-						"ali-js-distance" : [ -1, -0.916667, -0.833333, -0.75, -0.666667, -0.583333, -0.5, -0.416667, -0.333333, -0.25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+						"ali-js-distance" : [ 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5 ]
 					}
 ,
+					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u822009326"
+					"varname" : "u091000599"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-21",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
 					"name" : "pattrstorage-ui.maxpat",
 					"numinlets" : 5,
 					"numoutlets" : 1,
-					"offset" : [ -23.0, -60.0 ],
+					"offset" : [ -3.0, -1.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 733.0, 291.0, 207.0, 56.0 ]
+					"patching_rect" : [ 733.0, 291.0, 207.0, 56.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -377,13 +425,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 733.0, 351.0, 179.0, 20.0 ],
+					"patching_rect" : [ 733.0, 351.0, 179.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 10, 59, 650, 299 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 0, 0, 640, 240 ]
 					}
 ,
+					"style" : "",
 					"text" : "pattrstorage ali-js-distance.pattr",
 					"varname" : "ali-js-distance.pattr"
 				}
@@ -398,7 +447,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 282.0, 171.0, 34.0 ],
+					"patching_rect" : [ 36.0, 282.0, 171.0, 33.0 ],
+					"style" : "",
 					"text" : "Shift-click in the box and drag points to where you want them"
 				}
 
@@ -412,6 +462,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 603.0, 165.0, 228.0, 20.0 ],
+					"style" : "",
 					"text" : "output all distances from given point"
 				}
 
@@ -425,7 +476,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.0, 166.0, 110.0, 18.0 ],
+					"patching_rect" : [ 494.0, 166.0, 110.0, 22.0 ],
+					"style" : "",
 					"text" : "lookup 0.34 0.68"
 				}
 
@@ -439,6 +491,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 535.0, 138.0, 109.0, 20.0 ],
+					"style" : "",
 					"text" : "clear everything"
 				}
 
@@ -452,7 +505,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.0, 139.0, 40.0, 18.0 ],
+					"patching_rect" : [ 494.0, 139.0, 40.0, 22.0 ],
+					"style" : "",
 					"text" : "clear"
 				}
 
@@ -466,6 +520,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 508.0, 112.0, 162.0, 20.0 ],
+					"style" : "",
 					"text" : "print info for the first 4 points"
 				}
 
@@ -479,7 +534,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.0, 233.0, 252.0, 34.0 ],
+					"patching_rect" : [ 706.0, 233.0, 252.0, 33.0 ],
+					"style" : "",
 					"text" : "long list of x, y coordinate pairs. first pair will be number 0, second pair number 1, ..."
 				}
 
@@ -493,6 +549,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 39.0, 177.0, 186.0, 20.0 ],
+					"style" : "",
 					"text" : "place 10 points automatically"
 				}
 
@@ -506,7 +563,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.0, 200.0, 65.0, 15.0 ],
+					"patching_rect" : [ 163.0, 200.0, 65.0, 19.0 ],
+					"style" : "",
 					"text" : "placeauto 10"
 				}
 
@@ -520,7 +578,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.0, 188.0, 153.0, 18.0 ],
+					"patching_rect" : [ 559.0, 188.0, 153.0, 22.0 ],
+					"style" : "",
 					"text" : "placeone 0 0.4 0.2, redraw"
 				}
 
@@ -543,7 +602,8 @@
 					"patching_rect" : [ 209.0, 549.0, 138.0, 84.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 4.0 ],
-					"size" : 10
+					"size" : 10,
+					"style" : ""
 				}
 
 			}
@@ -556,7 +616,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 457.0, 114.0, 50.0, 18.0 ],
+					"patching_rect" : [ 457.0, 114.0, 50.0, 22.0 ],
+					"style" : "",
 					"text" : "print 4"
 				}
 
@@ -570,7 +631,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 244.0, 227.0, 18.0 ],
+					"patching_rect" : [ 480.0, 244.0, 227.0, 22.0 ],
+					"style" : "",
 					"text" : "placeall 0.5 0.5 -0.5 0.5 -0.5 -0.5 0.5 -0.5"
 				}
 
@@ -598,6 +660,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 721.0, 188.0, 88.0, 20.0 ],
+					"style" : "",
 					"text" : "point ID, x, y"
 				}
 
@@ -611,6 +674,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 172.0, 25.0, 27.0 ],
+					"style" : "",
 					"text" : "1."
 				}
 
@@ -719,82 +783,69 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "ali.distance.js",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Data_Transformation/for-spaces",
-				"patcherrelativepath" : "",
+				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/javascript",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattrstorage-ui.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface",
-				"patcherrelativepath" : "../../Interface",
+				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/interface",
+				"patcherrelativepath" : "../patchers/interface",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "readwrite-ui.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Interface",
-				"patcherrelativepath" : "../../Interface",
+				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/interface",
+				"patcherrelativepath" : "../patchers/interface",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ali.remove-char.js",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Data_Transformation",
-				"patcherrelativepath" : "",
+				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/javascript",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
+				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
+				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
+				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
+				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../Depot_Support",
+				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
- ]
+ ],
+		"embedsnapshot" : 0
 	}
 
 }
