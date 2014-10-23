@@ -39,13 +39,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
-					"linecount" : 7,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 270.0, 150.0, 100.0 ],
+					"patching_rect" : [ 210.0, 270.0, 150.0, 60.0 ],
 					"style" : "",
-					"text" : "arguments:\n1. name of patch\n2. version number\n3. author\n4. - (deprecated)\n5. - (deprecated)\n5. color float string"
+					"text" : "arguments:\n1. name of patch\n2. version number\n3. author"
 				}
 
 			}
