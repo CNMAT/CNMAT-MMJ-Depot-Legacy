@@ -34,7 +34,7 @@ VERSION 1.0: First release
 
 
 inlets = 1;
-outlets = 1;
+outlets = 2;
 
 sketch.default2d();
 sketch.fsaa=0; // no benefit from antialiasing in this example
@@ -93,7 +93,9 @@ function pluck(s)
      all_sliders[s-1].displacement = 1;
      all_sliders[s-1].gain = 1.;
      var stringRatio = (all_sliders[s-1].stop + .9) /1.8;
+     var denom = Math.floor(1. / stringRatio);
      outlet(0, stringRatio);
+     outlet(1, "set", denom);
 }
 
 function tune(a, b)
@@ -208,7 +210,9 @@ function ondrag (x,y,but,cmd,shift,capslock,option,ctrl)
     }
     
     var stringRatio = (all_sliders[hand].stop + .9) /1.8;
+    var denom = Math.floor(1. / stringRatio);
     outlet(0, stringRatio);
+    outlet(1, "set", denom);
 
     bang();
 
