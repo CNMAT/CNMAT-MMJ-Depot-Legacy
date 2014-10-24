@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -71,7 +71,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -442,7 +442,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u126011489"
+									"varname" : "u609000249"
 								}
 
 							}
@@ -921,7 +921,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 375.0, 107.0, 150.0, 100.0 ],
+					"patching_rect" : [ 375.0, 107.0, 152.0, 100.0 ],
 					"text" : "The UI for the space must be in a separate patcher or abstraction from the UI elements controlled by the space, because there's a separate pattr object for each one."
 				}
 
@@ -955,7 +955,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u349011427"
+					"varname" : "u662000251"
 				}
 
 			}
@@ -1003,9 +1003,9 @@
 					"name" : "pattrstorage-ui.maxpat",
 					"numinlets" : 5,
 					"numoutlets" : 1,
-					"offset" : [ -23.0, -60.0 ],
+					"offset" : [ -2.0, -3.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 154.0, 107.0, 207.0, 50.0 ]
+					"patching_rect" : [ 154.0, 107.0, 217.0, 56.0 ]
 				}
 
 			}
@@ -1099,7 +1099,7 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 163.5, 182.0, 150.0, 182.0, 150.0, 100.0, 210.5, 100.0 ],
+					"midpoints" : [ 163.5, 182.0, 150.0, 182.0, 150.0, 100.0, 213.0, 100.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1126,85 +1126,85 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "ali.gauss-kern-ex.xml",
-				"bootpath" : "/Volumes/liferaid/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Data_Transformation/for-spaces",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/javascript",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattrstorage-ui.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/interface",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/interface",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/interface",
+				"patcherrelativepath" : "../patchers/interface",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "readwrite-ui.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/interface",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/interface",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/interface",
+				"patcherrelativepath" : "../patchers/interface",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ali.remove-char.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/data_transformation",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/data_transformation",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/javascript",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ali.gauss-kern.js",
-				"bootpath" : "/Volumes/liferaid/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Data_Transformation/for-spaces",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/javascript",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ali.weight-interp.xml",
-				"bootpath" : "/Volumes/liferaid/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Data_Transformation/for-spaces",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/javascript",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ali.weight-interp.js",
-				"bootpath" : "/Volumes/liferaid/DESKTOP/Coding/CNMAT-MMJ-Depot-WORKED/modules/Data_Transformation/for-spaces",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/javascript",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../../../../../Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
