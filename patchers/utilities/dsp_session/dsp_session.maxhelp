@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 546.0, 438.0 ],
+		"rect" : [ 51.0, 74.0, 546.0, 438.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 190.0, 77.0, 20.0 ],
+					"patching_rect" : [ 120.0, 140.0, 77.0, 20.0 ],
 					"text" : "dsp_session"
 				}
 
@@ -97,16 +97,17 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-124",
 					"linecount" : 7,
-					"maxclass" : "o.message",
+					"maxclass" : "o.compose",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 240.0, 150.0, 101.0 ],
-					"text" : "/dsp_settings/sr 44100\n/dsp_settings/overdrive 0\n/dsp_settings/sigvs 1024\n/dsp_settings/takeover 1\n/dsp_settings/iovs 1024\n/dsp_settings/optimize 1\n/dsp_settings/switch 0",
+					"patching_rect" : [ 20.0, 190.0, 231.0, 106.0 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 100, 115, 112, 95, 115, 101, 116, 116, 105, 110, 103, 115, 47, 115, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, -84, 68, 0, 0, 0, 32, 47, 100, 115, 112, 95, 115, 101, 116, 116, 105, 110, 103, 115, 47, 111, 118, 101, 114, 100, 114, 105, 118, 101, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 100, 115, 112, 95, 115, 101, 116, 116, 105, 110, 103, 115, 47, 115, 105, 103, 118, 115, 0, 44, 105, 0, 0, 0, 0, 4, 0, 0, 0, 0, 32, 47, 100, 115, 112, 95, 115, 101, 116, 116, 105, 110, 103, 115, 47, 116, 97, 107, 101, 111, 118, 101, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 28, 47, 100, 115, 112, 95, 115, 101, 116, 116, 105, 110, 103, 115, 47, 105, 111, 118, 115, 0, 0, 44, 105, 0, 0, 0, 0, 4, 0, 0, 0, 0, 32, 47, 100, 115, 112, 95, 115, 101, 116, 116, 105, 110, 103, 115, 47, 111, 112, 116, 105, 109, 105, 122, 101, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 32, 47, 100, 115, 112, 95, 115, 101, 116, 116, 105, 110, 103, 115, 47, 115, 119, 105, 116, 99, 104, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0 ],
+					"saved_bundle_length" : 256,
+					"text" : "/dsp_settings/sr : 44100,\n/dsp_settings/overdrive : 0,\n/dsp_settings/sigvs : 1024,\n/dsp_settings/takeover : 1,\n/dsp_settings/iovs : 1024,\n/dsp_settings/optimize : 1,\n/dsp_settings/switch : 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -120,7 +121,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 190.0, 74.0, 20.0 ],
+					"patching_rect" : [ 20.0, 140.0, 74.0, 20.0 ],
 					"text" : "r dsp_query"
 				}
 
@@ -147,45 +148,49 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dsp_session.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/utilities/dsp_session",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/utilities/dsp_session",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/git/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "o.message.mxo",
