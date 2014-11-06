@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 62.0, 44.0, 546.0, 368.0 ],
+		"rect" : [ 100.0, 100.0, 546.0, 368.0 ],
 		"bgcolor" : [ 0.87451, 0.933333, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,7 +30,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "int+frac", "Given a number, output the integer part (rounding towards zero) and the fractional part (a float with absolute value between 0 and 1).", "0.517 0.512 0.638 1." ],
+					"args" : [ "int+frac", "output the integer part to left outlet and the fractional part to right outlet.", "0.517 0.512 0.638 1." ],
 					"id" : "obj-18",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -219,12 +220,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.5, 222.0, 154.0, 34.0 ],
+					"patching_rect" : [ 199.5, 222.0, 154.0, 33.0 ],
 					"text" : "Sum of outputs should always equal the input."
 				}
 
@@ -323,57 +325,43 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "int+frac.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/basic-programming",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/basic_programming",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "/Volumes/Rafael Valle/DESKTOP/Coding/CNMAT/CNMAT-MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
+				"bootpath" : "/Users/jml/Documents/Max/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../depot_support",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
