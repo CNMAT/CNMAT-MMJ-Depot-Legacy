@@ -16,12 +16,6 @@ $c->set_destination("localhost", 8000);
 //$a = new OSCMessage("/foo", array(1, 2.94, "bar"));
 //$c->send($a);
 
-
-//open the overview in current version of max
-function open_overview(){
-    //this needs to be a bash command.  the bash script should load this file, and open the application, then copy the file 
-}
-
 //copy the overview that was just populated
 function copy_overview(){
     //this can also be in the bash script
@@ -30,21 +24,38 @@ function copy_overview(){
 function get_patches($dir){
     $outpath = getcwd() . '/generated_depot_files/';
     $in_dir = 'none';
-    $in_tutorials = $in_tutors = $in_patchers = $in_applications = $in_demos = false;
+    $currdir = 'none';
+    $in_tutorials = $in_tutors = $in_patchers = $in_applications = $in_demos = $in_javascript = false;
     $thisdir = new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS);
     $files = new RecursiveIteratorIterator($thisdir, RecursiveIteratorIterator::SELF_FIRST);
     global $inc;
+    //global $tab_offset;
 
     foreach($files as $object){
 	//if this is a directory... find out which one it is.
 	if($object->isDir()){
+
+	    //figure out if we have changed directories
+	    $currdir = realpath($object->getPath());
+
+	    if(strpos($currdir, '.') == false){
+		$test = strcmp($currdir, $prevdir);
+		if($test){
+		    echo "current dir changing: ", $currdir, "\n";
+		    $prevdir = $currdir;
+		}
+	    }
+
 	    if(strpos($object->getPathname(), 'extras/tutorials') == true){
 		$in_dir = 'tutorials';
 		if(!$in_tutorials){
 		    echo "in tutorials \n";
 		    script_header($in_dir);
 		    $in_tutorials = true;
+		    $tab_offset = true;
 		    $inc = 0;
+		}else{
+		    $tab_offset = false;
 		}
 	    }
 	    else if(strpos($object->getPathname(), 'extras/tutors') == true){
@@ -53,15 +64,27 @@ function get_patches($dir){
 		    echo "in tutors \n";
 		    script_header($in_dir);
 		    $in_tutors = true;
+		    $tab_offset = true;
 		    $inc = 0;
 		}
+	    }else if(strpos($object->getPathname(), 'javascript') == true){
+		$in_dir = 'javascript';
+		if(!$in_javascript){
+		    echo "in javascript \n";
+		    script_header($in_dir);
+		    $in_javascript = true;
+		    $tab_offset = true;
+		    $inc = 0;
+		}else{
+		    $tab_offset = false;
+		}
 	    }else if(strpos($object->getPathname(), 'patchers') == true){
-		echo "path: " + 
 		$in_dir = 'patchers';
 		if(!$in_patchers){
 		    echo "in patchers  \n";
 		    script_header($in_dir);
 		    $in_patchers = true;
+		    $tab_offset = true;
 		    $inc = 0;
 		}
 	    }else if(strpos($object->getPathname(), 'examples/applications') == true){
@@ -70,6 +93,7 @@ function get_patches($dir){
 		    echo "in applications \n";
 		    script_header($in_dir);
 		    $in_applications = true;
+		    $tab_offset = true;
 		    $inc = 0;
 		}
 	    }else if(strpos($object->getPathname(), 'examples/demos') == true){
@@ -78,6 +102,7 @@ function get_patches($dir){
 		    echo "in demos  \n";
 		    script_header($in_dir);
 		    $in_demos = true;
+		    $tab_offset = true;
 		    $inc = 0;
 		}
 	    }
@@ -96,6 +121,9 @@ function get_patches($dir){
 		    check_file($object, $in_dir);
 		    break;
 		case 'demos':
+		    check_file($object, $in_dir);
+		    break;
+		case 'javascript':
 		    check_file($object, $in_dir);
 		    break;
 	    }
@@ -118,7 +146,6 @@ function script_header($section){
 	    $c->send($a);
 	}
 }
-
 
 function check_file($infile, $section){
     if(check_banner_badge($infile)){
