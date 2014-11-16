@@ -2,8 +2,6 @@
 
 include 'OSC.php';
 
-define('LABEL_DIRS', 1); //determines whether or not labels will be created for subdirs where patchers live
-
 $header = array("Name", "Description", "Authors", "Version");
 $header_spacing = 200;
 $offset_left = 10;
@@ -19,7 +17,7 @@ $c->set_destination("localhost", 8000);
 //$a = new OSCMessage("/foo", array(1, 2.94, "bar"));
 //$c->send($a);
 
-function get_patches($dir, $flags){
+function get_patches($dir, $label_dirs){
     global $c, $inc, $offset_left, $offset_top;
 
     $dir_array = [];
@@ -44,7 +42,7 @@ function get_patches($dir, $flags){
     //check for banner/badges for each folder as a recursive process with filtered array of paths
     for($i = 0; $i < count($dir_array); $i++){
 
-	if($flags == 1){
+	if($label_dirs){
 	    script_label(basename($dir_array[$i]), $section);
 	}
 
@@ -177,11 +175,11 @@ function osc_script_objects($content, $vname, $loc_id, $y, $case, $section){
 
 }
 
-get_patches('../javascript', 0);
-get_patches('../extras/tutorials', 0);
-get_patches('../extras/tutors', 0);
-get_patches('../examples/applications', 0);
-get_patches('../examples/demos', 0);
-get_patches('../patchers', 1);
+get_patches('../javascript', false);
+get_patches('../extras/tutorials', false);
+get_patches('../extras/tutors', false);
+get_patches('../examples/applications', false);
+get_patches('../examples/demos', false);
+get_patches('../patchers', true);
 
 ?>	
