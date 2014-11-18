@@ -1,203 +1,269 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 626.0, 189.0, 420.0, 280.0 ],
+		"appversion" : 		{
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x86",
+			"modernui" : 1
+		}
+,
+		"rect" : [ 552.0, 160.0, 420.0, 280.0 ],
 		"bgcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 626.0, 189.0, 420.0, 280.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"maxclass" : "bpatcher",
-					"id" : "obj-1",
-					"args" : [ "pattr-to-OSC", "1.0a", "Michael Zbyszynski", "pattr-to-OSC", 6666 ],
-					"numinlets" : 0,
-					"patching_rect" : [ 118.0, 189.0, 292.0, 86.0 ],
-					"numoutlets" : 0,
-					"name" : "badge.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "unpack s f",
-					"id" : "obj-2",
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"numinlets" : 1,
-					"patching_rect" : [ 28.0, 101.0, 81.0, 17.0 ],
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ]
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 82.0, 137.0, 34.0, 19.0 ],
+					"style" : "",
+					"text" : "zl.join"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "outlet",
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 66.0, 75.0, 57.0, 22.0 ],
+					"style" : "",
+					"text" : "zl.slice 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 29.0, 50.0, 56.0, 19.0 ],
+					"style" : "",
+					"text" : "route dump"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
 					"id" : "obj-3",
+					"maxclass" : "outlet",
 					"numinlets" : 1,
-					"patching_rect" : [ 28.0, 178.0, 15.0, 15.0 ],
 					"numoutlets" : 0,
-					"comment" : ""
+					"patching_rect" : [ 66.0, 222.0, 15.0, 15.0 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "inlet",
+					"comment" : "",
 					"id" : "obj-4",
+					"maxclass" : "inlet",
 					"numinlets" : 0,
-					"patching_rect" : [ 28.0, 35.0, 15.0, 15.0 ],
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"comment" : ""
+					"patching_rect" : [ 28.5, 15.0, 24.0, 24.0 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "sprintf ::%s %f",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
 					"id" : "obj-5",
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"numinlets" : 2,
-					"patching_rect" : [ 28.0, 122.0, 81.0, 17.0 ],
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 66.0, 101.0, 55.0, 19.0 ],
+					"style" : "",
+					"text" : "sprintf ::%s"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"varname" : "u339000005",
-					"text" : "loadbang",
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
 					"id" : "obj-6",
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"numinlets" : 1,
-					"patching_rect" : [ 120.0, 101.0, 46.0, 17.0 ],
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "message",
-					"text" : "substitute /",
-					"id" : "obj-7",
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"numinlets" : 2,
-					"patching_rect" : [ 120.0, 122.0, 63.0, 15.0 ],
-					"numoutlets" : 1,
-					"outlettype" : [ "" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "regexp ::",
-					"id" : "obj-8",
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
 					"numinlets" : 1,
-					"patching_rect" : [ 28.0, 154.0, 51.0, 17.0 ],
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ]
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 158.0, 95.0, 46.0, 19.0 ],
+					"style" : "",
+					"text" : "loadbang",
+					"varname" : "u339000005"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "comment",
-					"text" : "This abstraction changes pattr messages (with a :: separator) to OSC messages with a / separator",
-					"linecount" : 2,
-					"id" : "obj-9",
 					"fontname" : "Arial",
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : 12.0,
+					"fontsize" : 9.0,
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 158.0, 116.0, 63.0, 19.0 ],
+					"style" : "",
+					"text" : "substitute /"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"patching_rect" : [ 66.0, 39.0, 299.0, 34.0 ],
-					"numoutlets" : 0
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 66.0, 198.0, 51.0, 19.0 ],
+					"style" : "",
+					"text" : "regexp ::"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 71.0, 15.0, 299.0, 33.0 ],
+					"style" : "",
+					"text" : "This abstraction changes pattr messages (with a :: separator) to OSC messages with a / separator"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-6", 0 ],
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-10", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-2", 1 ],
-					"destination" : [ "obj-5", 1 ],
+					"destination" : [ "obj-12", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-11", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-8", 0 ],
-					"destination" : [ "obj-3", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-5", 0 ],
-					"destination" : [ "obj-8", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-7", 0 ],
-					"destination" : [ "obj-8", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-2", 0 ],
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-4", 0 ],
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 167.5, 193.0, 75.5, 193.0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
