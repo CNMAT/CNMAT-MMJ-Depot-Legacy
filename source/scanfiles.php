@@ -42,7 +42,7 @@ function get_patches($dir, $label_dirs){
     //check for banner/badges for each folder as a recursive process with filtered array of paths
     for($i = 0; $i < count($dir_array); $i++){
 
-	if($label_dirs){
+	if($label_dirs && basename($dir_array[$i]) != 'patchers'){
 	    script_label(basename($dir_array[$i]), $section);
 	}
 
