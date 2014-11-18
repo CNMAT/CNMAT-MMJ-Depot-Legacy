@@ -9,15 +9,16 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 640.0, 480.0 ],
+		"rect" : [ 67.0, 95.0, 532.0, 378.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 4.0, 4.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,15 +35,55 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "patcher_locked", 1.1, "MacCallum / Lubow", "patcher_locked" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 225.0, 264.0, 292.0, 86.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "patcher_locked", "outputs a 1 if the patcher is locked and a 0 otherwise", "0.296 0.594 0.784 1." ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-3",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.5, -70.5 ],
+					"patching_rect" : [ 16.0, 11.0, 501.0, 71.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.0, 208.0, 52.0, 22.0 ],
-					"presentation_rect" : [ 353.0, 208.0, 0.0, 0.0 ],
+					"patching_rect" : [ 228.0, 143.0, 52.0, 22.0 ],
 					"style" : "",
 					"text" : "compile"
 				}
@@ -56,7 +97,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 204.0, 176.0, 50.0, 22.0 ],
+					"patching_rect" : [ 109.0, 111.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -68,24 +109,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 208.0, 89.0, 22.0 ],
+					"patching_rect" : [ 109.0, 143.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "set_interval $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 60.0, 150.0, 47.0 ],
-					"style" : "",
-					"text" : "outputs a 1 if the patcher is locked and a 0 otherwise"
 				}
 
 			}
@@ -97,7 +123,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 204.0, 300.0, 20.0, 20.0 ],
+					"patching_rect" : [ 109.0, 283.0, 28.0, 28.0 ],
 					"style" : ""
 				}
 
@@ -112,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 272.0, 133.0, 22.0 ],
+					"patching_rect" : [ 109.0, 207.0, 133.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "patcher_locked.js",
 						"parameter_enable" : 0
@@ -163,9 +189,44 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "patcher_locked.js",
-				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/javascript",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/javascript",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_wht-trans.png",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../patchers/depot_support",
+				"type" : "GIFf",
 				"implicit" : 1
 			}
  ],
