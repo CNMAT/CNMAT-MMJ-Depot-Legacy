@@ -327,15 +327,17 @@
 			}
 , 			{
 				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
 					"id" : "obj-2",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 30.0, 78.0, 123.0, 58.0 ],
-					"pic" : "cnmat_wht-trans.png",
+					"patching_rect" : [ 30.0, 78.0, 123.0, 64.023758 ],
+					"pic" : "CNMAT_logo.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 78.0, 123.0, 58.0 ]
+					"presentation_rect" : [ 31.0, 79.0, 103.75, 54.00378 ]
 				}
 
 			}
@@ -417,7 +419,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.505676, 0.443437, 0.744062, 1.0 ],
+					"bgcolor" : [ "#3" ],
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "panel",
@@ -616,9 +618,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cnmat_wht-trans.png",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : ".",
+				"name" : "CNMAT_logo.png",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
+				"patcherrelativepath" : "../../media/Images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
