@@ -6020,7 +6020,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 24.0, 44.0, 1089.0, 476.0 ],
+										"rect" : [ 34.0, 78.0, 1089.0, 476.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -6056,7 +6056,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 4.0, 374.0, 23.0 ],
+													"patching_rect" : [ 4.0, 4.0, 374.0, 22.0 ],
 													"style" : "",
 													"text" : "Les informatiques préétabli par l'utilisateur/-trice:"
 												}
@@ -6071,7 +6071,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 5.0, 31.0, 771.0, 87.0 ],
+													"patching_rect" : [ 5.0, 31.0, 771.0, 85.0 ],
 													"style" : "",
 													"text" : "Les parametres d'utilisateur/-trice sont sauvegarder automatiquement chaque fois le logiciel est ferme au fichier titré: 'z_userpresets.txt.' \nLes parametres par defaut sont trouver dans le fichier titré: 'z_factory_defaults.txt' et peuvent etre modifie que avec une logiciel de traitement de texte.\nLes parametres par defaut de Z_factory_defaults peuvent etre egalement restauré dans le fenetre 'advanced settings'"
 												}
@@ -6086,7 +6086,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 136.0, 414.0, 23.0 ],
+													"patching_rect" : [ 4.0, 136.0, 414.0, 22.0 ],
 													"style" : "",
 													"text" : "Pour modifier les parametres par defaut ('factory settings')"
 												}
@@ -6101,7 +6101,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 168.0, 1052.0, 280.0 ],
+													"patching_rect" : [ 4.0, 168.0, 1052.0, 272.0 ],
 													"style" : "",
 													"text" : "Vous trouverez ci-dessous une vue d'ensemble de chaque parametre dans Z_factory_defaults avec une description de la fonction. Pour modifier les parametres par defaut, ouvrez le fichier z_factory_defaults.txt dans une logiciel de traitement de texte et en modifiez.\n\n• 'mutes' (les boutons de pousser en position silence)': 'mutes' pour pistes 1-8, puis cliquez 'channel,' 'headphone tape mix' et sorties de reverb.\n• 'pickup': c'est le valeur en millisecondes du point de la derniere pause de la bande.\n• 'allgains': les niveaux  ('gains') des pistes 1-8, puis le mix des casques, puis les sorties de mic 1 et 2, en plus les niveaux de reverb et les donnés des micros 1 et 2.\n• 'micmutes': 'mutes' pour mic 1 et mic 2\n• 'cues': Une liste des départs pour 'cues' 1-10, en millisecondes.  Ces 'cues' sont modifié comme dans le patch, mais on peut les modifier a la main egalement.\n• 'size': parametre de proportion de la reverbe.\n• 'decay': parametre de desintegration (decay) de la reverbe.\n• 'damping': parametre des freines (damping) de la reverbe.\n• 'diffusion': parametre de diffusion de la reverbe.\n• 'reverbenable': allumez ou eteindre la reverbe ('reverb enable') pour pistes 1-8, puis mic input 1, et mic input 2\n• 'mixroute': la destination des sorties audio de la mixage de casque:  0=9, 1=10, 2=9+10\n• 'clickroute': la destination des sorties audio de la 'clicktrack'.  0=9, 1=10, 2=9+10\n• 'tapelist': les niveaux de chaque element qui puissent etre moniteur dans le mixage des casques (pistes 1-8, puis mic 1 et 2, et reverbe).\n• 'delstart': indiquez combien de temps de delai entre cliquant 'resume' et l'audio. Meme pour n'importe quelle point de commence- début, etc."
 												}
@@ -6203,7 +6203,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 30.0, 99.0, 1072.0, 616.0 ],
+										"rect" : [ 34.0, 99.0, 1072.0, 616.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -6281,7 +6281,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 528.0, 500.0, 467.0, 48.0 ],
+													"patching_rect" : [ 528.0, 500.0, 467.0, 47.0 ],
 													"style" : "",
 													"text" : "* tous les fichiers (patch, fichiers de son, fichiers associes) doivent etre dans le meme dossier que ce logiciel, au meme niveau, c'est a dire rien sera trouve dedans une dossier supplementaire."
 												}
@@ -6325,7 +6325,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 528.0, 352.0, 434.0, 48.0 ],
+													"patching_rect" : [ 528.0, 352.0, 434.0, 47.0 ],
 													"style" : "",
 													"text" : "Chaque piece peut avoir une piste 'clique'\n\nPour inclure une piste 'clique', appelez votre fichier avec une préfixe de \"click\""
 												}
@@ -6341,7 +6341,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 544.0, 276.0, 389.0, 62.0 ],
+													"patching_rect" : [ 544.0, 276.0, 389.0, 60.0 ],
 													"style" : "",
 													"text" : "oct1_ma_piece.aif\noct2_ma_piece.aif\noct3_ma_piece.aif\noct4_ma_piece.aif"
 												}
@@ -6357,7 +6357,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 528.0, 8.0, 450.0, 48.0 ],
+													"patching_rect" : [ 528.0, 8.0, 450.0, 47.0 ],
 													"style" : "",
 													"text" : "Pour passer une piece, d'abord il faut étiqueter les fichiers de son avec des prefixes. Par exemple, si vous avez une fichier d'audio en stereo, il fallait les separer et étiqueter dans le maniere suivant (L=gauche, R=droit):"
 												}
@@ -6373,7 +6373,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 546.0, 180.0, 389.0, 62.0 ],
+													"patching_rect" : [ 546.0, 180.0, 389.0, 60.0 ],
 													"style" : "",
 													"text" : "quad1_ma_piece.aif\nquad2_ma_piece.aif\nquad3_ma_piece.aif\nquad4_ma_piece.aif"
 												}
@@ -6389,7 +6389,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 546.0, 112.0, 389.0, 34.0 ],
+													"patching_rect" : [ 546.0, 112.0, 389.0, 33.0 ],
 													"style" : "",
 													"text" : "L_ma_piece.aif\nR_ma_piece.aif"
 												}
@@ -6404,7 +6404,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 500.0, 461.0, 34.0 ],
+													"patching_rect" : [ 8.0, 500.0, 461.0, 33.0 ],
 													"style" : "",
 													"text" : "*  all files (program patch, soundfiles, associated files) must be in the same folder as this program, at the top level with no sub-folders. "
 												}
@@ -6448,7 +6448,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 352.0, 347.0, 48.0 ],
+													"patching_rect" : [ 8.0, 352.0, 347.0, 47.0 ],
 													"style" : "",
 													"text" : "Every piece can also have a click track.\n\nTo include a click track, name your file with the prefix of \"click\""
 												}
@@ -6464,7 +6464,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 24.0, 276.0, 389.0, 62.0 ],
+													"patching_rect" : [ 24.0, 276.0, 389.0, 60.0 ],
 													"style" : "",
 													"text" : "oct1_mypiecename.aif\noct2_mypiecename.aif\noct3_mypiecename.aif\noct4_mypiecename.aif"
 												}
@@ -6494,7 +6494,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 8.0, 450.0, 62.0 ],
+													"patching_rect" : [ 8.0, 8.0, 450.0, 60.0 ],
 													"style" : "",
 													"text" : "To play a piece, you must first label your files with prefixes.\nFor example, if you have a stereo files you would like to play back, you need two separate audio files on disk, and they should be labelled accordingly.  Below are example filenames for reference in editing your own filenames."
 												}
@@ -6510,7 +6510,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 26.0, 180.0, 389.0, 62.0 ],
+													"patching_rect" : [ 26.0, 180.0, 389.0, 60.0 ],
 													"style" : "",
 													"text" : "quad1_mypiecename.aif\nquad2_mypiecename.aif\nquad3_mypiecename.aif\nquad4_mypiecename.aif"
 												}
@@ -6540,7 +6540,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 26.0, 112.0, 389.0, 34.0 ],
+													"patching_rect" : [ 26.0, 112.0, 389.0, 33.0 ],
 													"style" : "",
 													"text" : "L_mypiecename.aif\nR_mypiecename.aif"
 												}
@@ -6666,7 +6666,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 22.0, 44.0, 837.0, 306.0 ],
+										"rect" : [ 34.0, 78.0, 837.0, 306.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -6702,7 +6702,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 13.0, 40.0, 781.0, 232.0 ],
+													"patching_rect" : [ 13.0, 40.0, 781.0, 225.0 ],
 													"style" : "",
 													"text" : "• Une fenetre apparaitra, indiquant les possibilités d'application de la carte son avec les signaux de sortie du logiciel\n\n• Il y a duex micros disponible pour le mixage dans n'importe maniere. Branchez les donnees necessaire, puis modifiez la disposition des donnees. Votre interface d'audio devrait rendre le bon reglage pour vos micros\n\n• Si vous voudriez faire des experiments avec des alternatives pour repasser le son, vous pouvez les editer ci-dessous:\n\nOUTPUT 'mappings' (Association entre des sorties d'ordi et celles d'interface d'audio.)\n\n• Le 'mapping' des sorties 1-8 sont pour les haut-parleurs de la performance, soit une version de 2, 4, ou 8 pistes.\n• Le 'mapping' de sortie 9 c'est pour le mixage des casques (possibile avec ou pas avec le clicktrack, bande, et des micros)\n• Le 'mapping' de sortie 9 c'est pour le mixage des casques (possibile avec ou pas avec le clicktrack, bande, et des micros)\n• Le 'mapping' des sorties 11 et 12 sont le signal des micros 1 et 2\n• Le 'mapping' des sorties 13 et 14 sont  les sorties de reverb 1 et 2"
 												}
@@ -6717,7 +6717,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 12.0, 12.0, 703.0, 25.0 ],
+													"patching_rect" : [ 12.0, 12.0, 703.0, 24.0 ],
 													"style" : "",
 													"text" : "Disposition des haut-parleurs peut etre modifier par le bouton \"set speaker assignments.\""
 												}
@@ -25687,7 +25687,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 10.0, 55.0, 961.0, 642.0 ],
+										"rect" : [ 34.0, 78.0, 961.0, 642.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -25723,7 +25723,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 4.0, 125.0, 23.0 ],
+													"patching_rect" : [ 4.0, 4.0, 125.0, 22.0 ],
 													"style" : "",
 													"text" : "User Presets:"
 												}
@@ -25738,7 +25738,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 5.0, 31.0, 747.0, 55.0 ],
+													"patching_rect" : [ 5.0, 31.0, 747.0, 53.0 ],
 													"style" : "",
 													"text" : "User settings are automatically saved  to the file titled z_userpresets.txt each time the program is closed.\nFacoty default settings are found in the  file titled Z_factory_defaults.txt and can only be over-written with a text editor. \nFactory settings Z_factory_defaults can be restored at anytime by going into \"advanced_settings\" "
 												}
@@ -25753,7 +25753,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 100.0, 204.0, 23.0 ],
+													"patching_rect" : [ 4.0, 100.0, 204.0, 22.0 ],
 													"style" : "",
 													"text" : "How to edit Factory Defaults:"
 												}
@@ -25768,7 +25768,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 132.0, 935.0, 489.0 ],
+													"patching_rect" : [ 4.0, 132.0, 935.0, 476.0 ],
 													"style" : "",
 													"text" : "Below is an overview of each parameter in Z_factory_defaults with a description on what it does.  \nTo change the factory default, simply open the z_factory_defaults.txt file in a text editor and change the values.\n\n• mutes: mutes for channels 1-8, then click channel, headphone tape mix, and reverb output.\n\n• pickup: this is the value of the pickup point (in ms) that was last used when the user hit pause\n\n• allgains: gains on channels 1-8, then headphone tape mix, then mic 1 output, mic 2 output, reverb level, mic 1 input, mic 2 input\n\n• micmutes: mutes for mic 1 and mic 2\n\n• cues: a list of cues for cues 1-10, in ms.  These are edited as one edits the patch, but can be hard-coded in.\n\n• size: reverb size parameter\n\n• decay: reverb decay parameter\n\n• damping: reverb damping parameter\n\n• diffusion: reverb diffusion parameter\n\n• reverbenable: reverb enable for channels 1-8, then mic input 1, and mic input 2\n\n• mixroute: the destination of the headphone tape mix output.  0=9, 1=10, 2=9+10\n\n• clickroute: the destination of the click track's audio output.  0=9, 1=10, 2=9+10\n\n• tapelist: the gain levels for each element which can be monitored in the headphone tape mix.  channels 1-8, then mic 1, mic 2, and reverb output\n\n• delstart: the amount by which to delay playback when hitting resume, play from user play point, and play from beginning."
 												}
@@ -25870,7 +25870,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 20.0, 80.0, 665.0, 454.0 ],
+										"rect" : [ 34.0, 80.0, 665.0, 454.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -26079,7 +26079,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 72.0, 44.0, 483.0, 593.0 ],
+										"rect" : [ 72.0, 78.0, 483.0, 593.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -26144,7 +26144,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 552.0, 461.0, 34.0 ],
+													"patching_rect" : [ 8.0, 552.0, 461.0, 33.0 ],
 													"style" : "",
 													"text" : "*  all files (program patch, soundfiles, associated files) must be in the same folder as this program, at the top level with no sub-folders. "
 												}
@@ -26188,7 +26188,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 412.0, 347.0, 48.0 ],
+													"patching_rect" : [ 8.0, 412.0, 347.0, 47.0 ],
 													"style" : "",
 													"text" : "Every piece can also have a click track.\n\nTo include a click track, name your file with the prefix of \"click\""
 												}
@@ -26204,7 +26204,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 24.0, 336.0, 389.0, 62.0 ],
+													"patching_rect" : [ 24.0, 336.0, 389.0, 60.0 ],
 													"style" : "",
 													"text" : "oct1_mypiecename.aif\noct2_mypiecename.aif\noct3_mypiecename.aif\noct4_mypiecename.aif"
 												}
@@ -26234,7 +26234,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 8.0, 450.0, 62.0 ],
+													"patching_rect" : [ 8.0, 8.0, 450.0, 60.0 ],
 													"style" : "",
 													"text" : "To play a piece, you must first label your files with prefixes.\nFor example, if you have a stereo files you would like to play back, you need two separate audio files on disk, and they should be labelled accordingly.  Below are example filenames for reference in editing your own filenames."
 												}
@@ -26250,7 +26250,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 26.0, 240.0, 389.0, 62.0 ],
+													"patching_rect" : [ 26.0, 240.0, 389.0, 60.0 ],
 													"style" : "",
 													"text" : "quad1_mypiecename.aif\nquad2_mypiecename.aif\nquad3_mypiecename.aif\nquad4_mypiecename.aif"
 												}
@@ -26280,7 +26280,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 26.0, 172.0, 389.0, 34.0 ],
+													"patching_rect" : [ 26.0, 172.0, 389.0, 33.0 ],
 													"style" : "",
 													"text" : "L_mypiecename.aif\nR_mypiecename.aif"
 												}
