@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -248,7 +248,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 390.0, 130.0, 29.0, 20.0 ],
+					"patching_rect" : [ 461.0, 130.0, 29.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -275,12 +275,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 104.0, 722.0, 630.0 ],
+						"rect" : [ 0.0, 26.0, 722.0, 630.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -472,7 +472,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 323.600006, 130.0, 51.0, 20.0 ],
+					"patching_rect" : [ 394.600006, 130.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -499,7 +499,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -696,7 +696,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 250.600006, 130.0, 63.0, 20.0 ],
+					"patching_rect" : [ 321.600006, 130.0, 63.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -723,12 +723,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 722.0, 630.0 ],
+						"rect" : [ 34.0, 104.0, 722.0, 630.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -920,7 +920,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 20.0, 130.0, 66.0, 20.0 ],
+					"patching_rect" : [ 20.0, 130.0, 132.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -930,7 +930,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "p modules"
+					"text" : "p \"patchers (modules)\""
 				}
 
 			}
@@ -947,7 +947,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1144,7 +1144,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 183.600006, 130.0, 57.0, 20.0 ],
+					"patching_rect" : [ 254.600006, 130.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1171,7 +1171,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1368,7 +1368,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 95.599998, 130.0, 84.0, 20.0 ],
+					"patching_rect" : [ 163.600006, 130.0, 84.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
