@@ -66,42 +66,36 @@ function script_label($text, $section){
 
 function script_header($section){
     global $c, $header, $header_spacing, $offset_left, $offset_top;
-	for($i = 0; $i < count($header); $i++){
-	    $x = ($i * $header_spacing) + $offset_left;
-	    //fontface 3 is both bold and italic
-	    $str = "script newobject comment @text " . $header[$i] . " @fontface 3 @underline 1" .
-		" @fixwidth 1 @patching_rect " . $x . " " . $offset_top;
-	    $a = new OSCMessage("/" . $section, array($str)); 
-	    $c->send($a);
-	}
-}
-
-//cleanup these two functions
-function check_file($infile, $section){
-    if(check_banner_badge($infile)){
-	extract_to_osc($infile, $section);
+    for($i = 0; $i < count($header); $i++){
+	$x = ($i * $header_spacing) + $offset_left;
+	//fontface 3 is both bold and italic
+	$str = "script newobject comment @text " . $header[$i] . " @fontface 3 @underline 1" .
+	    " @fixwidth 1 @patching_rect " . $x . " " . $offset_top;
+	$a = new OSCMessage("/" . $section, array($str)); 
+	$c->send($a);
     }
 }
-function check_banner_badge($patchfile){
-    $test = file_get_contents($patchfile);
+
+function check_file($infile, $section){
+    $test = file_get_contents($infile);
     //$test = implode("", file($patchfile));
     $obj = json_decode($test, true);
     $outtest = false;
     $is_banner = false;
-    //$is_badge = false;
+    $is_badge = false;
     
     for ($i = 0; $i <= sizeof($obj['patcher']['boxes']); $i++) {
-	/*if ($obj['patcher']['boxes'][$i]['box']['name'] == "badge.maxpat") {
-		$is_badge = true;
-	}*/
+	if ($obj['patcher']['boxes'][$i]['box']['name'] == "badge.maxpat") {
+	   $is_badge = true;
+	}
 	if ($obj['patcher']['boxes'][$i]['box']['name'] == "banner.maxpat") {
-		$is_banner = true;
+	    $is_banner = true;
 	}
     }
-    if($is_banner) {
-	$outtest = true;
+
+    if($is_banner or $is_badge) {
+	extract_to_osc($infile, $section);
     }
-    return $outtest;
 }
 
 function extract_to_osc($thisfile, $section){
