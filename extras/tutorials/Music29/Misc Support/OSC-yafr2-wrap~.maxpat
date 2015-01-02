@@ -2,31 +2,41 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
+			"major" : 7,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 21.0, 68.0, 716.0, 236.0 ],
+		"rect" : [ 34.0, 78.0, 716.0, 236.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -36,7 +46,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 195.0, 10.0, 60.0, 20.0 ],
+					"patching_rect" : [ 195.0, 10.0, 60.0, 22.0 ],
+					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -51,21 +62,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 40.0, 84.210007, 46.0 ],
+					"patching_rect" : [ 195.0, 40.0, 87.0, 49.0 ],
+					"style" : "",
 					"text" : "/decay 68, /damping 112, /diffusion 27"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "OSC-yafr2-wrap~", "0.1a", "Jeff Lubow", "OSC-yafr2-wrap~", 6666 ],
-					"id" : "obj-12",
-					"maxclass" : "bpatcher",
-					"name" : "badge.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 2.0, 4.0 ],
-					"patching_rect" : [ 365.0, 40.0, 298.0, 89.0 ]
 				}
 
 			}
@@ -77,7 +76,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 10.0, 25.0, 25.0 ]
+					"patching_rect" : [ 5.0, 10.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -89,9 +89,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.605011, 150.0, 105.0, 16.0 ],
+					"patching_rect" : [ 184.605011, 150.0, 105.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 5.0, 26.0, 16.0 ],
+					"presentation_rect" : [ 75.0, 5.0, 26.0, 15.0 ],
+					"style" : "",
 					"text" : "size"
 				}
 
@@ -103,7 +104,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 150.0, 25.0, 25.0 ]
+					"patching_rect" : [ 123.0, 150.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -114,7 +116,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 150.0, 25.0, 25.0 ]
+					"patching_rect" : [ 75.0, 150.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -127,7 +130,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 40.0, 52.0, 18.0 ],
+					"patching_rect" : [ 75.0, 40.0, 52.0, 22.0 ],
+					"style" : "",
 					"text" : "/size $1"
 				}
 
@@ -135,7 +139,6 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.846307, 0.911913, 0.946104, 1.0 ],
-					"bordercolor" : [ 0.538469, 0.538469, 0.538469, 1.0 ],
 					"id" : "obj-81",
 					"knobcolor" : [ 0.2, 0.2, 0.2, 0.41 ],
 					"maxclass" : "slider",
@@ -145,7 +148,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 75.0, 10.0, 90.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 5.0, 70.0, 15.0 ]
+					"presentation_rect" : [ 5.0, 5.0, 70.0, 15.0 ],
+					"style" : ""
 				}
 
 			}
@@ -158,23 +162,27 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 75.0, 100.0, 67.0, 20.0 ],
+					"patching_rect" : [ 75.0, 100.0, 67.0, 22.0 ],
+					"style" : "",
 					"text" : "osc-yafr2~"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"bgcolor" : [ 0.822216, 0.822216, 0.822216, 1.0 ],
 					"border" : 1,
 					"id" : "obj-8",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.0, 10.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 5.0, 112.0, 15.000001 ]
+					"presentation_rect" : [ 5.0, 5.0, 112.0, 15.000001 ],
+					"proportion" : 0.39,
+					"style" : ""
 				}
 
 			}
@@ -244,66 +252,25 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "osc-yafr2~.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Effects-audio",
-				"patcherrelativepath" : "",
+				"name" : "OSC-yafr2~.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/effects_audio",
+				"patcherrelativepath" : "../../../../patchers/effects_audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "/Applications/Max6/examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../../../../../../../../../../../../../../Applications/Max6/examples/effects/reverb/lib",
+				"bootpath" : "/Users/Shared/Max 7/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../../../../../../Shared/Max 7/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "uc_disclaimer.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jml/Documents/materials/programming/max_files/5_berkeley/projects/cnmat/repositories/main/trunk/max/patches/MMJ-DEPOT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
- ]
+ ],
+		"embedsnapshot" : 0
 	}
 
 }
