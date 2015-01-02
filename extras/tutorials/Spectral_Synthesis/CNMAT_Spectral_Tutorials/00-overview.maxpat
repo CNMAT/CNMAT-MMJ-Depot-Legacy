@@ -39,6 +39,26 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "CNMAT Spectral Synthesis Tutorials", "overview of CNMAT spectral tools", "0.296 0.594 0.784 1." ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-38",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.5, -70.5 ],
+					"patching_rect" : [ 901.0, 30.5, 120.0, 74.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "CNMAT spectral tutorials", 2.3, " Michael Zbyszynski" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -391,7 +411,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 1.0, -1.0 ],
-					"patching_rect" : [ 16.0, 14.0, 833.0, 91.0 ],
+					"patching_rect" : [ 15.0, 22.0, 833.0, 91.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -875,21 +895,6 @@
 					"patching_rect" : [ 421.0, 488.0, 95.0, 23.0 ],
 					"style" : "",
 					"text" : "9 - Examples"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"hidden" : 1,
-					"id" : "obj-38",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 13.0, 93.0, 19.0 ],
-					"style" : "",
-					"text" : "bgcolor 248 248 200"
 				}
 
 			}
@@ -1696,6 +1701,20 @@
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
 				"patcherrelativepath" : "../../../../media/Images",
 				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNMAT_logo.png",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
+				"patcherrelativepath" : "../../../../media/Images",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ],
