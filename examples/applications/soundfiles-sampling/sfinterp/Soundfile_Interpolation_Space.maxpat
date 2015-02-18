@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 502.5, 295.0, 69.0, 22.0 ],
+					"style" : "",
+					"text" : "m29dspinit"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -15260,6 +15272,13 @@
 				"name" : "nothing.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/basic_programming",
 				"patcherrelativepath" : "../../../../patchers/basic_programming",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "m29dspinit.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../../../../extras/tutorials/Music29/Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
