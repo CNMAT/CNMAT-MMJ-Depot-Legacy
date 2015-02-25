@@ -1682,8 +1682,8 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "cursor_color", 0, 0, 0, 1 ], [ "mousedrag", 1 ], [ "active_color", 0.996, 0.204, 0.804, 1 ], [ "inactive_color", 0, 0.447, 0.78, 1 ] ],
-					"filename" : "markermanager.js",
+					"embedstate" : [ [ "active_color", 0.996, 0.204, 0.804, 1 ], [ "inactive_color", 0, 0.447, 0.78, 1 ], [ "cursor_color", 0, 0, 0, 1 ], [ "mousedrag", 1 ] ],
+					"filename" : "markermanager3.js",
 					"id" : "obj-16",
 					"maxclass" : "jsui",
 					"numinlets" : 1,
@@ -1706,22 +1706,22 @@
 								"selection" : [ 0.517454, 0.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"originallengthms" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"formantcorrection" : [ 0 ],
 									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
 									"play" : [ 0 ],
-									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchshiftcent" : [ 0 ],
 									"speed" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
 									"basictuning" : [ 440 ],
-									"originallength" : [ 0.0, "ticks" ]
+									"followglobaltempo" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : [ 120.0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
@@ -2185,16 +2185,16 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "markermanager.js",
+				"name" : "markermanager3.js",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/javascript",
-				"patcherrelativepath" : "../../Max 7/Packages/CNMAT-MMJ-Depot/javascript",
+				"patcherrelativepath" : "../../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m29dspinit.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
-				"patcherrelativepath" : "../../Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
