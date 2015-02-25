@@ -2,32 +2,58 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
+			"major" : 7,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 528.0, 332.0, 401.0, 248.0 ],
+		"rect" : [ 101.0, 134.0, 438.0, 230.0 ],
 		"bgcolor" : [ 0.870588, 0.929412, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 151.0, 19.0, 155.0, 22.0 ],
+					"style" : "",
+					"text" : "oroute_setter #1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -36,22 +62,25 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 81.0, 42.0, 18.0 ],
+					"patching_rect" : [ 24.0, 101.0, 42.0, 22.0 ],
+					"style" : "",
 					"text" : "signal"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 100.0, 46.0, 116.0, 20.0 ],
-					"text" : "o.route slash #1"
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 100.0, 58.0, 48.0, 22.0 ],
+					"style" : "",
+					"text" : "o.route"
 				}
 
 			}
@@ -64,7 +93,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 20.0, 44.0, 20.0 ],
+					"patching_rect" : [ 100.0, 19.0, 44.0, 22.0 ],
+					"style" : "",
 					"text" : "r OSC"
 				}
 
@@ -77,8 +107,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 93.0, 87.0, 239.0, 20.0 ],
+					"outlettype" : [ "", "", "", "", "FullPacket" ],
+					"patching_rect" : [ 100.0, 101.0, 323.0, 22.0 ],
+					"style" : "",
 					"text" : "o.route /size /decay /damping /diffusion"
 				}
 
@@ -92,7 +123,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 24.0, 46.0, 73.0, 20.0 ],
+					"patching_rect" : [ 24.0, 58.0, 73.0, 22.0 ],
+					"style" : "",
 					"text" : "route signal"
 				}
 
@@ -105,7 +137,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 7.0, 25.0, 25.0 ]
+					"patching_rect" : [ 24.0, 19.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -116,7 +149,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 203.0, 25.0, 25.0 ]
+					"patching_rect" : [ 328.0, 182.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -127,7 +161,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 203.0, 25.0, 25.0 ]
+					"patching_rect" : [ 24.0, 182.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -140,7 +175,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 24.0, 153.0, 73.0, 20.0 ],
+					"patching_rect" : [ 24.0, 136.0, 323.0, 22.0 ],
+					"style" : "",
 					"text" : "yafr2"
 				}
 
@@ -254,17 +290,14 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "yafr2.maxpat",
-				"bootpath" : "/Applications/Max6/examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/examples/effects/reverb/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
 			}
  ]
 	}
