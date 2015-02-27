@@ -103,6 +103,23 @@ function paint(){
     }
 }
 
+function nudge(direction){
+    var nval;
+
+    if(direction == "left"){
+	nval = -0.001;
+    }
+    if(direction == "right"){
+	nval = +0.001;
+    }
+
+    if(activeval > -1){
+	all_lines[activeval] += nval;
+    }
+    mgraphics.redraw();
+    getmarkers();
+}
+
 function draw_marker(xloc, colortype, text, size, amp){
     mgraphics.set_source_rgba(colortype);
 
@@ -140,10 +157,10 @@ function msg_float(a){
 
 function getmarkers(){
     if(all_lines.length){
-	var doublelen = all_lines.length * 3;
-	var outarray = new Array(doublelen);
+	var triplelen = all_lines.length * 3;
+	var outarray = new Array(triplelen);
 	var currval = 0;
-	for(i=0; i<doublelen; i+=3){
+	for(i=0; i<triplelen; i+=3){
 	    outarray[i] = currval + offset;
 	    outarray[i+1] = (all_lines[currval] * 0.5) + 0.5;
 	    outarray[i+2] = all_amps[currval];
