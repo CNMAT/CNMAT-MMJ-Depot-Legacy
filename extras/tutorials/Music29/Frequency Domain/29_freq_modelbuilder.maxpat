@@ -306,8 +306,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1090.0, 224.0, 78.0, 17.0 ],
 					"style" : "",
-					"text" : "spectrum range",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "spectrum range"
 				}
 
 			}
@@ -336,7 +335,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1237.0, 407.25, 74.0, 22.0 ],
-					"presentation_rect" : [ 1222.0, 430.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "prepend set"
 				}
@@ -800,7 +798,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "gridded",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-56",
@@ -811,7 +808,7 @@
 									"patching_rect" : [ 17.0, 20.0, 533.0, 181.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 29,
-									"presentation_rect" : [ 960.0, 380.0, 163.0, 395.0 ],
+									"presentation_rect" : [ 960.0, 380.0, 165.0, 395.0 ],
 									"style" : "",
 									"text" : "quick info:\n\ndrag sound in from finder (drop onto waveform area)\ndrag grey (audio file volume) volume up until audible\nchoose spectrum range to work with (click blue range box)\nspecify a number of partials (top left)\nbring green vol up (gently) - this is your model\nclick on partial id to edit (grey # in list - left side)\ndrag in marker editor (active marker is pink) to change freq/amp - you can drag horiz and vert\ncontinue for other ids\nmute original, compare, eval\ntry enabling / disabling mutes for partials with orange slider mutes on left (they correspond to ids)\nenvelope the model you built as a transient by bringing yellow fader up and clicking button above it"
 								}
@@ -1414,7 +1411,7 @@
 					"presentation_rect" : [ 38.0, 34.0, 15.0, 284.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"settype" : 0,
-					"size" : 20,
+					"size" : 10,
 					"slidercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"spacing" : 2,
 					"style" : "",
@@ -2356,7 +2353,7 @@
 					"rounded" : 0.0,
 					"style" : "",
 					"tabcolor" : [ 0.380904, 0.223998, 0.4, 1.0 ],
-					"tabs" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19" ]
+					"tabs" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" ]
 				}
 
 			}
