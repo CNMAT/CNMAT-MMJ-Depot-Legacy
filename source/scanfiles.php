@@ -41,7 +41,6 @@ function get_patches($dir, $label_dirs){
 
     //check for banner/badges for each folder as a recursive process with filtered array of paths
     for($i = 0; $i < count($dir_array); $i++){
-
 	if($label_dirs && basename($dir_array[$i]) != 'patchers'){
 	    script_label(basename($dir_array[$i]), $section);
 	}
@@ -91,6 +90,14 @@ function check_file($infile, $section){
 	if ($obj['patcher']['boxes'][$i]['box']['name'] == "banner.maxpat") {
 	    $is_banner = true;
 	}
+    }
+    /*
+    if($is_banner and !$is_badge){
+	   echo "only banner: " . $infile . "\n";
+    }
+     */
+    if($is_badge and !$is_banner){
+	   echo "only badge: " . $infile . "\n";
     }
 
     if($is_banner or $is_badge) {
