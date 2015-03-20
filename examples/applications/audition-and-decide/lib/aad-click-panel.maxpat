@@ -1406,7 +1406,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.0, 48.0, 33.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 691.0, 43.0, 33.0, 18.0 ],
+					"presentation_rect" : [ 692.0, 43.0, 33.0, 18.0 ],
 					"style" : "",
 					"text" : "reset",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
