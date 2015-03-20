@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 83.0, 1264.0, 108.0 ],
+		"rect" : [ 44.0, 111.0, 1301.0, 604.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -261,7 +261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"outlinecolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ],
 					"patching_rect" : [ 88.0, 48.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 52.0, 52.0, 52.0 ],
@@ -290,13 +290,13 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.85098, 0.87451, 0.882353, 0.0 ],
-					"blinkcolor" : [ 0.898039, 1.0, 0.839216, 1.0 ],
+					"blinkcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"id" : "obj-87",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"outlinecolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 					"patching_rect" : [ 455.5, 252.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 416.0, 4.0, 97.0, 97.0 ],
@@ -1406,7 +1406,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.0, 48.0, 33.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 692.0, 43.0, 33.0, 18.0 ],
+					"presentation_rect" : [ 691.0, 43.0, 33.0, 18.0 ],
 					"style" : "",
 					"text" : "reset",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1422,7 +1422,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"outlinecolor" : [ 0.92549, 0.364706, 0.341176, 1.0 ],
 					"patching_rect" : [ 24.0, 48.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 683.0, 27.0, 48.0, 48.0 ],
@@ -1458,7 +1458,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"outlinecolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"patching_rect" : [ 106.5, 264.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 52.0, 52.0 ],
@@ -1691,27 +1691,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "addpath.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/utilities",
-				"patcherrelativepath" : "../../../../patchers/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "splitpath.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/utilities",
-				"patcherrelativepath" : "../../../../patchers/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"embedsnapshot" : 0
+ ]
 	}
 
 }
