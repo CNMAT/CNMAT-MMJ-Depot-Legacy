@@ -115,20 +115,20 @@ function drawls()
         circle (this.diam);
         switch (showlabels)
         {
-        	case 1:
-		    textalign("center","center");
-       		    fontsize(myFontsize);        
-		    moveto (x, y);
-		    glcolor (this.red, this.green, this.blue, this.alpha);
-		    sketch.text (this.name);
-            	break;
-        	case 2:
-		    textalign("center","center");
-		    fontsize(myFontsize);        
-		    moveto (x, y);
-		    angle = (this.angle);
-		    sketch.text (angle.toPrecision(3));
-            	break;
+	    case 1:
+		textalign("center","center");
+		fontsize(myFontsize);        
+		moveto (x, y);
+		glcolor (this.red, this.green, this.blue, this.alpha);
+		sketch.text (this.name);
+	    break;
+	    case 2:
+		textalign("center","center");
+		fontsize(myFontsize);        
+		moveto (x, y);
+		angle = (this.angle);
+		sketch.text (angle.toPrecision(3));
+	    break;
         }
         moveto (0, 0);
         glcolor (0.7, 0.7, 0.7, 0.7);
@@ -185,54 +185,54 @@ function setSpeakers()
 	switch (speakerNum)
     {
     	case 2:
-    		all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    		all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    		break;
+	    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+	    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
+	break;
     	case 3:
-   			all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    		all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    		all_speakers[2] = new ls ("3", 180., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    		break;
-   		case 4:
-    		all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    		all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    		all_speakers[2] = new ls ("3", 225., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    		all_speakers[3] = new ls ("4", 135., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    		break;
-   		case 5:
-   			all_speakers[0] = new ls ("1", -25., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    		all_speakers[1] = new ls ("2", 25., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    		all_speakers[2] = new ls ("3", 250., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    		all_speakers[3] = new ls ("4", 110., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    		all_speakers[4] = new ls ("5", 0., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    		break;
+	    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+	    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
+	    all_speakers[2] = new ls ("3", 180., 0.1, 1., 1., 0, 0.6, 1.,0.);
+	break;
+	case 4:
+	    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+	    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
+	    all_speakers[2] = new ls ("3", 225., 0.1, 1., 1., 0, 0.6, 1.,0.);
+	    all_speakers[3] = new ls ("4", 135., 0.1, 0., 1., 0., 0.6, 1.,0.);
+	break;
+	case 5:
+	    all_speakers[0] = new ls ("1", -25., 0.1, 1., 0., 0., 0.6, 1.,0.);
+	    all_speakers[1] = new ls ("2", 25., 0.1, 1., .5, 0., 0.6, 1.,0.);
+	    all_speakers[2] = new ls ("3", 250., 0.1, 1., 1., 0, 0.6, 1.,0.);
+	    all_speakers[3] = new ls ("4", 110., 0.1, 0., 1., 0., 0.6, 1.,0.);
+	    all_speakers[4] = new ls ("5", 0., 0.1, 0, 1., .5, 0.6, 1.,0.);
+	break;
     	case 6:
-    		all_speakers[0] = new ls ("1", -30., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    		all_speakers[1] = new ls ("2", 30., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    		all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    		all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    		all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    		all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
-   			 break;
-   		case 7:
-   			all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    		all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
-    		all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
-    		all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    		all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    		all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
-    		all_speakers[6] = new ls ("7", 0., 0.1, 0, 0., 1., 0.6, 1.,0.);
-   			break;
+	    all_speakers[0] = new ls ("1", -30., 0.1, 1., 0., 0., 0.6, 1.,0.);
+	    all_speakers[1] = new ls ("2", 30., 0.1, 1., .5, 0., 0.6, 1.,0.);
+	    all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
+	    all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
+	    all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
+	    all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
+	break;
+	case 7:
+	    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+	    all_speakers[1] = new ls ("2", 45., 0.1, 1., .5, 0., 0.6, 1.,0.);
+	    all_speakers[2] = new ls ("3", -90., 0.1, 1., 1., 0, 0.6, 1.,0.);
+	    all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
+	    all_speakers[4] = new ls ("5", -150., 0.1, 0, 1., .5, 0.6, 1.,0.);
+	    all_speakers[5] = new ls ("6", 150., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
+	    all_speakers[6] = new ls ("7", 0., 0.1, 0, 0., 1., 0.6, 1.,0.);
+	break;
     	case 8:
-    		all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
-    		all_speakers[1] = new ls ("2", 0., 0.1, 1., .5, 0., 0.6, 1.,0.);
-		all_speakers[2] = new ls ("3", 45., 0.1, 1., 1., 0, 0.6, 1.,0.);
-		all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
-    		all_speakers[4] = new ls ("5", 135., 0.1, 0, 1., .5, 0.6, 1.,0.);
-    		all_speakers[5] = new ls ("6", 180., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
-    		all_speakers[6] = new ls ("7", 225., 0.1, 0, 0., 1., 0.6, 1.,0.);
-    		all_speakers[7] = new ls ("8", 270., 0.1, 0.5, 0., 1., 0.6, 1.,0.);
-    		break;
+	    all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
+	    all_speakers[1] = new ls ("2", 0., 0.1, 1., .5, 0., 0.6, 1.,0.);
+	    all_speakers[2] = new ls ("3", 45., 0.1, 1., 1., 0, 0.6, 1.,0.);
+	    all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
+	    all_speakers[4] = new ls ("5", 135., 0.1, 0, 1., .5, 0.6, 1.,0.);
+	    all_speakers[5] = new ls ("6", 180., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
+	    all_speakers[6] = new ls ("7", 225., 0.1, 0, 0., 1., 0.6, 1.,0.);
+	    all_speakers[7] = new ls ("8", 270., 0.1, 0.5, 0., 1., 0.6, 1.,0.);
+	break;
     }
 }
 
