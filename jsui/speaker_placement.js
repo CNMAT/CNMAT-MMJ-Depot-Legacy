@@ -56,6 +56,7 @@ var theta = 0.;
 var angle = "0";
 var showlabels = 1;
 var speakerNum = 8;
+var maxSpeakers = 8;
 
 if(jsarguments.length > 1) speakerNum = jsarguments[1];
 
@@ -167,7 +168,7 @@ function fsaa(v)
 
 function speakers(v) //change the number of speakers
 {
-    if (v>1 && v<16)
+    if (v > 1 && v < (maxSpeakers + 1))
     {
     	speakerNum = v;
     	setSpeakers();
