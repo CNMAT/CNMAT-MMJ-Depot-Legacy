@@ -42,6 +42,7 @@ outlets = 2;
 
 sketch.default2d();
 sketch.glblendfunc (6, 1);
+
 var vbrgb = [0.,0.,0.,1.];
 var grav = 999.;
 var shownames = 1;
@@ -55,7 +56,9 @@ var theta = 0.;
 var angle = "0";
 var showlabels = 1;
 var speakerNum = 8;
+
 if(jsarguments.length > 1) speakerNum = jsarguments[1];
+
 var def_ls = new Array(); //array of locations, this list will be output
 
 //ls object
@@ -96,7 +99,7 @@ function clear()
     {
         glclearcolor(vbrgb[0],vbrgb[1],vbrgb[2],vbrgb[3]);
         glclear();
-    }
+   }
 }
 
 function drawls()
@@ -113,18 +116,18 @@ function drawls()
         switch (showlabels)
         {
         	case 1:
-        		textalign("center","center");
+		    textalign("center","center");
        		    fontsize(myFontsize);        
-            	moveto (x, y);
-            	glcolor (this.red, this.green, this.blue, this.alpha);
-            	sketch.text (this.name);
+		    moveto (x, y);
+		    glcolor (this.red, this.green, this.blue, this.alpha);
+		    sketch.text (this.name);
             	break;
         	case 2:
-            	textalign("center","center");
-            	fontsize(myFontsize);        
-            	moveto (x, y);
-            	angle = (this.angle);
-            	sketch.text (angle.toPrecision(3));
+		    textalign("center","center");
+		    fontsize(myFontsize);        
+		    moveto (x, y);
+		    angle = (this.angle);
+		    sketch.text (angle.toPrecision(3));
             	break;
         }
         moveto (0, 0);
@@ -164,7 +167,7 @@ function fsaa(v)
 
 function speakers(v) //change the number of speakers
 {
-    if (v>1 && v<9)
+    if (v>1 && v<16)
     {
     	speakerNum = v;
     	setSpeakers();
@@ -223,8 +226,8 @@ function setSpeakers()
     	case 8:
     		all_speakers[0] = new ls ("1", -45., 0.1, 1., 0., 0., 0.6, 1.,0.);
     		all_speakers[1] = new ls ("2", 0., 0.1, 1., .5, 0., 0.6, 1.,0.);
-   			all_speakers[2] = new ls ("3", 45., 0.1, 1., 1., 0, 0.6, 1.,0.);
-   			all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
+		all_speakers[2] = new ls ("3", 45., 0.1, 1., 1., 0, 0.6, 1.,0.);
+		all_speakers[3] = new ls ("4", 90., 0.1, 0., 1., 0., 0.6, 1.,0.);
     		all_speakers[4] = new ls ("5", 135., 0.1, 0, 1., .5, 0.6, 1.,0.);
     		all_speakers[5] = new ls ("6", 180., 0.1, 0., 0.5, 1., 0.6, 1.,0.);
     		all_speakers[6] = new ls ("7", 225., 0.1, 0, 0., 1., 0.6, 1.,0.);
@@ -315,33 +318,33 @@ function onclick(x,y,but,cmd,shift,capslock,option,ctrl)
     worldX = sketch.screentoworld(x,y)[0];
     worldY = sketch.screentoworld(x,y)[1];
 
-	//find the angle of the click
+    //find the angle of the click
     theta = ((Math.atan2(worldY, worldX) * 57.2957795 - 90) * -1);
 
-	//put the distance in each speaker
-	for (i = 0 ; i < all_speakers.length ; i ++)
+    //put the distance in each speaker
+    for (i = 0 ; i < all_speakers.length ; i ++)
     {
         if ((Math.abs(theta - all_speakers[i].angle)) < (Math.abs((theta-360) - all_speakers[i].angle)) && (Math.abs(theta - all_speakers[i].angle)) < (Math.abs(theta - (all_speakers[i].angle-360))))
-            {
-            all_speakers[i].grav = Math.abs(theta - all_speakers[i].angle);
-            }
+	{
+	    all_speakers[i].grav = math.abs(theta - all_speakers[i].angle);
+	}
         else if ((Math.abs((theta-360) - all_speakers[i].angle)) < (Math.abs(theta - (all_speakers[i].angle)-360)))
-            {
-            all_speakers[i].grav = Math.abs((theta-360) - all_speakers[i].angle);
-            }
+	{
+	    all_speakers[i].grav = Math.abs((theta-360) - all_speakers[i].angle);
+	}
         else
-            {
-            all_speakers[i].grav = Math.abs(theta - (all_speakers[i].angle - 360));
-            }
+	{
+	    all_speakers[i].grav = Math.abs(theta - (all_speakers[i].angle - 360));
+	}
     }
         
-	// bubble sort
+    // bubble sort
     grav = 999.
     for (i = 0 ; i < all_speakers.length ; i ++)
     {
     	if (all_speakers[i].grav < grav)
         {
-        	hand = i;
+	    hand = i;
       	    grav = all_speakers[i].grav;
         }
     }    
