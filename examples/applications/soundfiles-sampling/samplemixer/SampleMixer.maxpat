@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1095.0, 664.0 ],
+		"rect" : [ 34.0, 78.0, 1103.0, 872.0 ],
 		"bgcolor" : [ 0.828571, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -103,12 +103,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 27.0, 67.0, 426.0, 361.0 ],
+						"rect" : [ 34.0, 78.0, 576.0, 517.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -142,7 +142,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 176.1922, 288.0, 25.0, 25.0 ],
+									"patching_rect" : [ 445.1922, 219.0, 25.0, 25.0 ],
 									"style" : ""
 								}
 
@@ -154,7 +154,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 216.333344, 288.0, 25.0, 25.0 ],
+									"patching_rect" : [ 485.333344, 219.0, 25.0, 25.0 ],
 									"style" : ""
 								}
 
@@ -170,7 +170,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 130.0, 160.0, 69.0, 19.0 ],
+									"patching_rect" : [ 170.333328, 160.0, 69.0, 21.0 ],
 									"style" : "",
 									"text" : "newrev~",
 									"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
@@ -190,12 +190,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 11.0, 44.0, 688.0, 431.0 ],
+										"rect" : [ 34.0, 78.0, 688.0, 431.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -244,7 +244,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 173.25, 150.0, 34.0, 17.0 ],
+													"patching_rect" : [ 173.25, 150.0, 34.0, 21.0 ],
 													"style" : "",
 													"text" : "0"
 												}
@@ -259,7 +259,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 130.0, 150.0, 34.0, 17.0 ],
+													"patching_rect" : [ 130.0, 150.0, 34.0, 21.0 ],
 													"style" : "",
 													"text" : "1"
 												}
@@ -274,7 +274,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "FullPacket" ],
-													"patching_rect" : [ 130.0, 100.0, 141.0, 19.0 ],
+													"patching_rect" : [ 130.0, 100.0, 141.0, 21.0 ],
 													"style" : "",
 													"text" : "o.route /start /stop /open"
 												}
@@ -289,7 +289,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "FullPacket" ],
-													"patching_rect" : [ 129.999985, 66.5, 79.0, 19.0 ],
+													"patching_rect" : [ 129.999985, 66.5, 79.0, 21.0 ],
 													"style" : "",
 													"text" : "o.route /rec"
 												}
@@ -304,7 +304,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 129.999985, 6.5, 42.0, 19.0 ],
+													"patching_rect" : [ 129.999985, 6.5, 42.0, 21.0 ],
 													"style" : "",
 													"text" : "r OSC"
 												}
@@ -319,7 +319,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 216.5, 150.0, 65.0, 17.0 ],
+													"patching_rect" : [ 216.5, 150.0, 65.0, 21.0 ],
 													"style" : "",
 													"text" : "open wave"
 												}
@@ -360,7 +360,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
-													"patching_rect" : [ 130.0, 380.0, 66.0, 19.0 ],
+													"patching_rect" : [ 130.0, 380.0, 66.0, 21.0 ],
 													"style" : "",
 													"text" : "sfrecord~ 2"
 												}
@@ -469,7 +469,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 268.333344, 230.0, 102.0, 19.0 ],
+									"patching_rect" : [ 434.333344, 106.0, 102.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -494,7 +494,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 57.192196, 160.0, 69.0, 19.0 ],
+									"patching_rect" : [ 48.192196, 160.0, 69.0, 21.0 ],
 									"style" : "",
 									"text" : "newrev~",
 									"textcolor" : [ 0.035294, 0.023529, 0.25098, 1.0 ]
@@ -560,7 +560,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.0, 288.0, 25.0, 25.0 ],
+									"patching_rect" : [ 40.0, 315.0, 25.0, 25.0 ],
 									"style" : ""
 								}
 
@@ -572,22 +572,13 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 116.333336, 288.0, 25.0, 25.0 ],
+									"patching_rect" : [ 116.333336, 315.0, 25.0, 25.0 ],
 									"style" : ""
 								}
 
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-65", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-67", 0 ],
 									"disabled" : 0,
@@ -607,18 +598,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-67", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-45", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 49.5, 98.0, 443.833344, 98.0 ],
 									"source" : [ "obj-60", 0 ]
 								}
 
@@ -628,6 +611,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 49.5, 141.5, 454.6922, 141.5 ],
 									"source" : [ "obj-60", 0 ]
 								}
 
@@ -691,6 +675,7 @@
 									"destination" : [ "obj-1", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 125.833336, 98.0, 526.833374, 98.0 ],
 									"source" : [ "obj-63", 0 ]
 								}
 
@@ -709,6 +694,7 @@
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 125.833336, 141.5, 494.833344, 141.5 ],
 									"source" : [ "obj-63", 0 ]
 								}
 
@@ -756,7 +742,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1185,7 +1171,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1246,7 +1232,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -1467,7 +1453,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -1658,7 +1644,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -1850,7 +1836,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -2369,7 +2355,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2705,7 +2691,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-5",
-					"items" : [ "---none---", ",", "frenchFittle12-1.wav", ",", "frenchFittle12-2.wav", ",", "frenchFittle12-3.wav", ",", "frenchFittle12-4.wav", ",", "frenchFittle12-5.wav", ",", "frenchFittle12-6.wav", ",", "frenchFittle12-7.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -2776,7 +2762,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
-					"items" : [ "---none---", ",", "frenchFittle12-1.wav", ",", "frenchFittle12-2.wav", ",", "frenchFittle12-3.wav", ",", "frenchFittle12-4.wav", ",", "frenchFittle12-5.wav", ",", "frenchFittle12-6.wav", ",", "frenchFittle12-7.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -2878,7 +2864,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3071,7 +3057,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3192,7 +3178,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -3500,7 +3486,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -3588,7 +3574,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 2,
+															"revision" : 3,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -4724,7 +4710,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-32",
 									"maxclass" : "number",
-									"mouseup" : 1,
+									"mousefilter" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
@@ -5046,7 +5032,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -5356,7 +5342,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-90",
-					"items" : [ "---none---", ",", "frenchFittle12-1.wav", ",", "frenchFittle12-2.wav", ",", "frenchFittle12-3.wav", ",", "frenchFittle12-4.wav", ",", "frenchFittle12-5.wav", ",", "frenchFittle12-6.wav", ",", "frenchFittle12-7.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -5427,7 +5413,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-96",
-					"items" : [ "---none---", ",", "frenchFittle12-1.wav", ",", "frenchFittle12-2.wav", ",", "frenchFittle12-3.wav", ",", "frenchFittle12-4.wav", ",", "frenchFittle12-5.wav", ",", "frenchFittle12-6.wav", ",", "frenchFittle12-7.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -5498,7 +5484,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
-					"items" : [ "---none---", ",", "frenchFittle12-1.wav", ",", "frenchFittle12-2.wav", ",", "frenchFittle12-3.wav", ",", "frenchFittle12-4.wav", ",", "frenchFittle12-5.wav", ",", "frenchFittle12-6.wav", ",", "frenchFittle12-7.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -5653,7 +5639,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-12",
-					"items" : [ "---none---", ",", "frenchFittle12-1.wav", ",", "frenchFittle12-2.wav", ",", "frenchFittle12-3.wav", ",", "frenchFittle12-4.wav", ",", "frenchFittle12-5.wav", ",", "frenchFittle12-6.wav", ",", "frenchFittle12-7.wav" ],
+					"items" : "---none---",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -5796,7 +5782,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
