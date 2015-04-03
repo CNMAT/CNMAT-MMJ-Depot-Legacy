@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -40,12 +40,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-50",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.0, 458.0, 33.0, 53.0 ],
+					"patching_rect" : [ 119.0, 458.0, 36.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 501.0, 618.25, 90.0, 20.0 ],
 					"style" : "",
@@ -109,7 +109,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -193,7 +193,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -297,8 +297,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"items" : [ "Off", ",", "On" ],
@@ -354,7 +352,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "SoundCheck 2", 1.0, "Jeff Lubow and Ed Campion", "Sound Check 2", 6666, "0.584 0.534 0.496 1." ],
+					"args" : [ "SoundCheck 2", 1.1, "Jeff Lubow and Ed Campion", "Sound Check 2", 6666, "0.584 0.534 0.496 1." ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -376,9 +374,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-33",
 					"ignoreclick" : 1,
 					"maxclass" : "tab",
@@ -498,9 +493,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-6",
 					"items" : [ "off", ",", 1, ",", 2, ",", 3, ",", 4, ",", 5, ",", 6, ",", 7, ",", 8 ],
 					"maxclass" : "umenu",
@@ -518,8 +510,6 @@
 , 			{
 				"box" : 				{
 					"button" : 1,
-					"fontface" : 0,
-					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-3",
 					"maxclass" : "tab",
@@ -572,25 +562,6 @@
 					"patching_rect" : [ 1114.0, 591.0, 37.0, 20.0 ],
 					"style" : "",
 					"text" : "active"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-4",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 351.0, 103.0, 62.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 419.0, 405.0, 18.0 ],
-					"style" : "",
-					"text" : "<-- MAKE SURE TO TURN THIS TOGGLE OFF WHEN FINISHED SOUNDCHECKING.",
-					"textcolor" : [ 0.54902, 0.054902, 0.054902, 1.0 ]
 				}
 
 			}
@@ -736,24 +707,6 @@
 					"presentation_rect" : [ 129.0, 444.0, 32.722221, 29.0 ],
 					"style" : "",
 					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.819608, 0.380392, 1.0 ],
-					"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-42",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 24.0, 355.0, 28.0, 28.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 410.0, 32.0, 32.0 ],
-					"style" : "",
-					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -985,8 +938,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-78",
 					"items" : [ "OFF", ",", "WHITE", "NOISE", ",", "PINK", "NOISE", ",", "SOUND", "FILE" ],
@@ -1085,7 +1036,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2049,7 +2000,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2661,7 +2612,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3679,15 +3630,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-339", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3752,15 +3694,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "MIDItester.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/extras",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max.app/Contents/Resources/C74/extras",
+				"bootpath" : "C74:/extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "interfacecolor.js",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/interfaces",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max.app/Contents/Resources/C74/interfaces",
+				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
