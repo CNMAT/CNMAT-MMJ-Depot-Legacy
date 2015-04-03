@@ -2,41 +2,57 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 9,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 3,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 902.0, 719.0 ],
+		"rect" : [ 34.0, 78.0, 902.0, 719.0 ],
 		"bgcolor" : [ 0.972549, 0.972549, 0.784314, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-1",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "z.bannière.mxb",
+					"name" : "z.bannière.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -21.0, -22.0 ],
-					"patching_rect" : [ 30.0, 22.0, 634.0, 101.0 ]
+					"patching_rect" : [ 30.0, 22.0, 634.0, 101.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -44,12 +60,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 233.0, 558.0, 88.0, 17.0 ],
+					"style" : "",
 					"text" : "(vide le clipboard)"
 				}
 
@@ -58,12 +74,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 216.0, 589.0, 417.0, 22.0 ],
+					"style" : "",
 					"text" : "\"Resonance-display\" comprend également ces messages.",
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ]
 				}
@@ -72,45 +88,75 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"gradient" : 0,
 					"id" : "obj-4",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 519.0, 33.0, 20.0 ],
-					"text" : "Cut"
+					"patching_rect" : [ 185.0, 519.0, 33.0, 24.0 ],
+					"style" : "",
+					"text" : "Cut",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"gradient" : 0,
 					"id" : "obj-5",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 554.0, 45.0, 20.0 ],
-					"text" : "Clear"
+					"patching_rect" : [ 185.0, 554.0, 45.0, 24.0 ],
+					"style" : "",
+					"text" : "Clear",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"gradient" : 0,
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 478.0, 45.0, 20.0 ],
-					"text" : "Undo"
+					"patching_rect" : [ 185.0, 478.0, 45.0, 24.0 ],
+					"style" : "",
+					"text" : "Undo",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -118,12 +164,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 87.0, 192.0, 314.0, 22.0 ],
+					"style" : "",
 					"text" : "1) Selectionner des partiels, puis cliquer",
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ]
 				}
@@ -132,30 +178,50 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"gradient" : 0,
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.0, 349.0, 49.0, 20.0 ],
-					"text" : "Paste"
+					"patching_rect" : [ 238.0, 349.0, 49.0, 24.0 ],
+					"style" : "",
+					"text" : "Paste",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"gradient" : 0,
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.0, 191.0, 45.0, 20.0 ],
-					"text" : "Copy"
+					"patching_rect" : [ 378.0, 191.0, 45.0, 24.0 ],
+					"style" : "",
+					"text" : "Copy",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -176,13 +242,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
 					"id" : "obj-11",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 23.0, 129.0, 430.0, 47.0 ],
+					"style" : "",
 					"text" : "Tous les \"resonance-displays\" partage un même buffer d'édition (clipboard ou presse papier)"
 				}
 
@@ -197,7 +263,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 670.0, 707.0, 47.0, 0.0 ],
+					"patching_rect" : [ 670.0, 707.0, 47.0, 19.0 ],
+					"style" : "",
 					"text" : "pcontrol"
 				}
 
@@ -212,28 +279,36 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 29.0, 707.0, 61.0, 0.0 ],
+					"patching_rect" : [ 29.0, 707.0, 61.0, 19.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
 					"text" : "thispatcher"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-14",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "z.nav_boutons.mxb",
+					"name" : "z.nav_boutons.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ -2.0, -39.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 29.0, 659.0, 779.0, 35.0 ]
+					"patching_rect" : [ 29.0, 659.0, 779.0, 35.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
@@ -242,24 +317,35 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 637.0, 83.0, 0.0 ],
-					"text" : "loadmess set 33"
+					"patching_rect" : [ 29.0, 637.0, 83.0, 19.0 ],
+					"style" : "",
+					"text" : "loadmess set 32"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"hidden" : 1,
 					"id" : "obj-16",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 569.0, 189.0, 109.0, 0.0 ],
-					"text" : "displayrange 0 10000"
+					"patching_rect" : [ 569.0, 189.0, 109.0, 19.0 ],
+					"style" : "",
+					"text" : "displayrange 0 10000",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -274,7 +360,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 569.0, 165.0, 45.0, 0.0 ],
+					"patching_rect" : [ 569.0, 165.0, 45.0, 29.0 ],
+					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -288,7 +375,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 459.0, 163.0, 48.0, 17.0 ],
+					"patching_rect" : [ 459.0, 163.0, 48.0, 19.0 ],
+					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -296,15 +384,25 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.611765, 0.701961, 1.0, 1.0 ],
+					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.0, 183.0, 32.0, 15.0 ],
-					"text" : "dump"
+					"patching_rect" : [ 459.0, 183.0, 32.0, 19.0 ],
+					"style" : "",
+					"text" : "dump",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -326,11 +424,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 459.0, 202.0, 53.0, 17.0 ],
+					"patching_rect" : [ 459.0, 202.0, 53.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
 ,
+					"style" : "",
 					"text" : "coll"
 				}
 
@@ -357,7 +456,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 35.0, 106.0, 0.0 ],
+					"patching_rect" : [ 218.0, 35.0, 106.0, 19.0 ],
+					"style" : "",
 					"text" : "bgcolor 248 248 200"
 				}
 
@@ -366,13 +466,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-23",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 87.0, 310.0, 256.0, 53.0 ],
+					"style" : "",
 					"text" : "2) Cliquer sur \"Paste\" pour coller les partiels sélectionnés dans ce \"resonance display.\"",
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ]
 				}
@@ -380,16 +480,20 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"background" : 1,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-24",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 123.0, 442.0, 66.0 ],
+					"proportion" : 0.39,
 					"rounded" : 0,
-					"shadow" : 2
+					"shadow" : 2,
+					"style" : ""
 				}
 
 			}
@@ -526,34 +630,35 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "z.nav_boutons.mxb",
-				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/extras/tutorials/Spectral_Synthesis/CNMAT-spectral_tutorials.fr copy",
+				"name" : "z.nav_boutons.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Spectral_Synthesis/CNMAT_Spectral_Tutorials.fr",
 				"patcherrelativepath" : ".",
-				"type" : "maxb",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "z.bannière.mxb",
-				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/extras/tutorials/Spectral_Synthesis/CNMAT-spectral_tutorials.fr copy",
+				"name" : "z.bannière.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Spectral_Synthesis/CNMAT_Spectral_Tutorials.fr",
 				"patcherrelativepath" : ".",
-				"type" : "maxb",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jml/Documents/CNMAT/repositories/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
+				"patcherrelativepath" : "../../../../media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
- ]
+ ],
+		"embedsnapshot" : 0
 	}
 
 }
