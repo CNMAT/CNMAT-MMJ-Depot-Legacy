@@ -8,9 +8,9 @@ Installation:
 
 This set of files and folders operates as a _Max package_. Place the root folder in the following location, depending on your OS:
 
-**Mac:** `~/Documents/Max/Packages/`
+**Mac:** `~/Documents/Max\ 7/Packages/`
 
-**Win:** `C:\Users<your username>\Documents\Max\Packages`
+**Win:** `"C:\Users\<your username>\Documents\Max 7\Packages"`
 
 Contributing Guidelines and Wiki:
 ===
