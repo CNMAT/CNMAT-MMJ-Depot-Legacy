@@ -62,7 +62,8 @@ if(jsarguments.length > 1) speakerNum = jsarguments[1];
 
 var def_ls = new Array(); //array of locations, this list will be output
 
-//ls object
+//virtual speaker constructor
+
 function ls (n, x, d, r, g, b, a, h, q)
 {
     this.name = n;
@@ -75,6 +76,22 @@ function ls (n, x, d, r, g, b, a, h, q)
     this.height = h;
     this.grav = q;
     this.info = n;
+}
+
+function VirtualSpeaker(){
+    var color = [];
+
+    var __construct = function(){
+	post("object created.\n");
+	color = [1., 1., 1., 1.];
+    }()
+
+    this.get_color = function(){
+	return color;
+    }
+    this.set_color = function(data){
+	color = data;
+    }
 }
 
 //prototype ls with draw method
