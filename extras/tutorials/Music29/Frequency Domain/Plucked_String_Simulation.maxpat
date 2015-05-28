@@ -40,6 +40,18 @@
 		"title" : "plucked string simulation",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 482.0, 469.0, 69.0, 22.0 ],
+					"style" : "",
+					"text" : "m29dspinit"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-95",
@@ -3475,6 +3487,13 @@
 				"name" : "badge.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "m29dspinit.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
