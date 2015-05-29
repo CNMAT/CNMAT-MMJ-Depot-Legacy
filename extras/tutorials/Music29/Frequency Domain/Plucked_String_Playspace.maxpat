@@ -159,7 +159,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 10.0, 456.0, 526.0, 302.0 ],
+					"patching_rect" : [ 8.0, 456.0, 526.0, 302.0 ],
 					"varname" : "2a-player02",
 					"viewvisibility" : 1
 				}
