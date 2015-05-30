@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 77.0, 79.0, 758.0, 718.0 ],
+		"rect" : [ 63.0, 99.0, 758.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -743,7 +743,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 537.0, 315.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.5, 102.0, 69.5, 22.0 ],
+					"presentation_rect" : [ 215.5, 102.0, 70.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
@@ -767,7 +767,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 480.0, 315.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.25, 102.0, 58.75, 22.0 ],
+					"presentation_rect" : [ 146.25, 102.0, 59.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
@@ -1267,7 +1267,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 310.0, 260.0, 107.0, 20.0 ],
+									"patching_rect" : [ 310.0, 260.0, 108.0, 20.0 ],
 									"sig" : 0.0,
 									"style" : ""
 								}
@@ -1285,7 +1285,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 310.0, 220.0, 107.0, 20.0 ],
+									"patching_rect" : [ 310.0, 220.0, 108.0, 20.0 ],
 									"sig" : 0.0,
 									"style" : ""
 								}
@@ -1303,7 +1303,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 270.0, 360.0, 107.0, 20.0 ],
+									"patching_rect" : [ 270.0, 360.0, 108.0, 20.0 ],
 									"sig" : 0.0,
 									"style" : ""
 								}
@@ -2729,7 +2729,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "sonogram frequency analysis", "Sonogram analysis breaks down and displays the various partials      or harmonics  of a complex waveform.", "0.296 0.594 0.784 1." ],
+					"args" : [ "sonogram frequency analysis", "display various partials or harmonics of a complex waveform", "0.296 0.594 0.784 1." ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2744,7 +2744,7 @@
 					"offset" : [ -21.0, -70.0 ],
 					"patching_rect" : [ 35.0, 5.0, 503.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 11.0, 461.0, 81.0 ],
+					"presentation_rect" : [ 4.0, 11.0, 447.0, 81.0 ],
 					"viewvisibility" : 1
 				}
 
