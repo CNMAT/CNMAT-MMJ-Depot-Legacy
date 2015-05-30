@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1103.0, 872.0 ],
+		"rect" : [ 34.0, 79.0, 1103.0, 872.0 ],
 		"bgcolor" : [ 0.828571, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 582.0, 42.0, 69.0, 22.0 ],
+					"style" : "",
+					"text" : "m29dspinit"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
@@ -104,7 +116,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -191,7 +203,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -675,7 +687,7 @@
 									"destination" : [ "obj-1", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 125.833336, 98.0, 526.833374, 98.0 ],
+									"midpoints" : [ 125.833336, 98.0, 526.833344, 98.0 ],
 									"source" : [ "obj-63", 0 ]
 								}
 
@@ -743,7 +755,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1172,7 +1184,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1233,7 +1245,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1454,7 +1466,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1645,7 +1657,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1837,7 +1849,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -2356,7 +2368,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2865,7 +2877,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3058,7 +3070,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3179,7 +3191,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3487,7 +3499,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3575,7 +3587,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 3,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -5033,7 +5045,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -5783,7 +5795,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -6785,15 +6797,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "samplefolder~.maxpat",
-				"bootpath" : "~/Documents/programming/max_files/enabled/jml/maxlib_modules/bpatchers/bPatch_buffer/drag_drop_buff",
-				"patcherrelativepath" : "../../../../../../../programming/max_files/enabled/jml/maxlib_modules/bpatchers/bPatch_buffer/drag_drop_buff",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../../../../extras/tutorials/Music29/Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "buf_anything.maxpat",
-				"bootpath" : "~/Documents/programming/max_files/enabled/jml/maxlib_modules/bpatchers/bPatch_buffer/drag_drop_buff",
-				"patcherrelativepath" : "../../../../../../../programming/max_files/enabled/jml/maxlib_modules/bpatchers/bPatch_buffer/drag_drop_buff",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../../../../extras/tutorials/Music29/Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6899,6 +6911,13 @@
 				"name" : "newrev~.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/effects_audio",
 				"patcherrelativepath" : "../../../../patchers/effects_audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "m29dspinit.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
+				"patcherrelativepath" : "../../../../extras/tutorials/Music29/Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
