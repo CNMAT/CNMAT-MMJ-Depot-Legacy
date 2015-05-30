@@ -1461,7 +1461,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1728.0, 496.5, 52.0, 22.0 ],
+					"patching_rect" : [ 1728.0, 496.5, 53.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 496.0, 730.5, 73.0, 22.0 ],
 					"style" : "",
@@ -5222,7 +5222,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 230.0, 170.0, 62.0, 26.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 21.0, 139.813263, 64.765671, 26.0 ],
+													"presentation_rect" : [ 21.0, 139.813263, 65.0, 26.0 ],
 													"style" : "",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
@@ -5258,7 +5258,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 50.0, 172.0, 62.0, 26.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 21.0, 100.0, 64.765671, 26.0 ],
+													"presentation_rect" : [ 21.0, 100.0, 65.0, 26.0 ],
 													"style" : "",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
@@ -5327,7 +5327,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 715.5, 139.0, 62.0, 26.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 21.0, 19.439819, 64.765671, 26.0 ],
+													"presentation_rect" : [ 21.0, 19.439819, 65.0, 26.0 ],
 													"style" : "",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
@@ -5396,7 +5396,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 429.5, 138.0, 62.0, 26.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 21.0, 59.626549, 64.765671, 26.0 ],
+													"presentation_rect" : [ 21.0, 59.626549, 65.0, 26.0 ],
 													"style" : "",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
@@ -9475,7 +9475,7 @@
 					"offset" : [ -20.611549, -70.176292 ],
 					"patching_rect" : [ 2160.0, 785.5, 123.0, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 903.0, 103.0, 385.0, 56.5 ],
+					"presentation_rect" : [ 903.0, 103.0, 385.0, 73.5 ],
 					"prototypename" : "cnmat_banner",
 					"viewvisibility" : 1
 				}
@@ -9969,7 +9969,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1629.5, 496.5, 52.0, 22.0 ],
+					"patching_rect" : [ 1629.5, 496.5, 53.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 496.0, 752.5, 73.0, 22.0 ],
 					"style" : "",
@@ -14949,7 +14949,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1660.0, 725.5, 140.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 775.0, 984.5, 49.0 ],
+					"presentation_rect" : [ 13.0, 775.0, 985.0, 49.0 ],
 					"rounded" : 20.0,
 					"style" : "",
 					"tabmode" : 0,
