@@ -60,10 +60,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 16.0, 134.0, 104.0 ],
-					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 97, 109, 112, 108, 101, 0, 44, 115, 0, 0, 103, 114, 97, 105, 110, 115, 116, 117, 102, 102, 0, 0, 0, 0, 0, 20, 47, 111, 102, 102, 115, 101, 116, 47, 109, 115, 0, 0, 44, 105, 0, 0, 0, 0, 4, 76, 0, 0, 0, 20, 47, 115, 105, 122, 101, 47, 109, 115, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 1, 44, 0, 0, 0, 28, 47, 115, 112, 101, 101, 100, 102, 97, 99, 116, 111, 114, 0, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 114, 101, 118, 101, 114, 115, 101, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 111, 118, 101, 114, 100, 114, 105, 118, 101, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 20, 47, 116, 105, 109, 101, 0, 0, 0, 44, 100, 0, 0, 64, -97, 64, 0, 0, 0, 0, 0 ],
-					"saved_bundle_length" : 196,
-					"text" : "/sample : \"grainstuff\",\n/offset/ms : 1100,\n/size/ms : 300,\n/speedfactor : 1.,\n/reverse : 0,\n/overdrive : 1,\n/time : 2000.",
+					"patching_rect" : [ 328.0, 16.0, 140.0, 104.0 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 97, 109, 112, 108, 101, 0, 44, 115, 0, 0, 103, 114, 97, 105, 110, 115, 116, 117, 102, 102, 0, 0, 0, 0, 0, 20, 47, 111, 102, 102, 115, 101, 116, 47, 109, 115, 0, 0, 44, 105, 0, 0, 0, 0, 4, 76, 0, 0, 0, 24, 47, 100, 117, 114, 97, 116, 105, 111, 110, 47, 109, 115, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 1, 44, 0, 0, 0, 28, 47, 115, 112, 101, 101, 100, 102, 97, 99, 116, 111, 114, 0, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 114, 101, 118, 101, 114, 115, 101, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 111, 118, 101, 114, 100, 114, 105, 118, 101, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 20, 47, 116, 105, 109, 101, 0, 0, 0, 44, 100, 0, 0, 64, -97, 64, 0, 0, 0, 0, 0 ],
+					"saved_bundle_length" : 200,
+					"text" : "/sample : \"grainstuff\",\n/offset/ms : 1100,\n/duration/ms : 300,\n/speedfactor : 1.,\n/reverse : 0,\n/overdrive : 1,\n/time : 2000.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -77,10 +77,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 248.75, 562.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -88,6 +84,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
@@ -95,9 +92,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "FullPacket" ],
-					"patching_rect" : [ 49.0, 208.0, 184.0, 22.0 ],
+					"patching_rect" : [ 49.0, 208.0, 204.0, 22.0 ],
 					"style" : "",
-					"text" : "o.route /linelist /sample /size/ms"
+					"text" : "o.route /linelist /sample /duration/ms"
 				}
 
 			}
@@ -107,12 +104,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-24",
+					"linecount" : 2,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 49.0, 160.0, 645.0, 33.0 ],
-					"text" : "/linelist = if(/reverse == 0, [/offset/ms, 0., /offset/ms + /size/ms, /size/ms], [/offset/ms + /size/ms, 0., /offset/ms, /size/ms])",
+					"patching_rect" : [ 49.0, 150.0, 443.0, 46.0 ],
+					"text" : "/linelist = if(/reverse == 0, [/offset/ms, 0., /offset/ms + /duration/ms, /duration/ms], [/offset/ms + /duration/ms, 0., /offset/ms, /duration/ms])",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -323,10 +321,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.5, 16.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -341,10 +335,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 154.25, 562.0, 43.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 1"
 				}
