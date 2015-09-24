@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 145.0, 79.0, 1100.0, 783.0 ],
+		"rect" : [ 47.0, 89.0, 1100.0, 783.0 ],
 		"bgcolor" : [ 0.556863, 0.537255, 0.537255, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -146,7 +146,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1422,7 +1422,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1472,7 +1472,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u365006225"
+									"varname" : "u613006557"
 								}
 
 							}
