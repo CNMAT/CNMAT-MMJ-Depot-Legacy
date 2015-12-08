@@ -24,4 +24,4 @@
 "audition and decide I", Audition_and_Decide_I.maxpat;
 "audition and decide II", Audition_and_Decide_II.maxpat;
 "spectral c/d", 29_spectral_consonance_dissonance.maxpat;
-"frequency model builder", 29_freq_modelbuilder.maxpat;
+"frequency model builder", Frequency_Model_Builder.maxpat;
