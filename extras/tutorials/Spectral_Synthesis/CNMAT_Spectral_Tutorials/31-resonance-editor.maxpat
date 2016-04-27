@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
-			"architecture" : "x86",
+			"minor" : 2,
+			"revision" : 2,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 64.0, 44.0, 833.0, 689.0 ],
+		"rect" : [ 64.0, 45.0, 833.0, 689.0 ],
 		"bgcolor" : [ 0.972549, 0.972549, 0.784314, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -235,7 +235,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 35.0, 113.0, 61.0, 20.0 ],
+					"patching_rect" : [ 35.0, 106.0, 61.0, 20.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -249,7 +249,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 386.0, 487.0, 20.0, 20.0 ],
+					"patching_rect" : [ 386.0, 485.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -278,7 +278,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.0, 528.0, 32.5, 20.0 ],
+					"patching_rect" : [ 386.0, 532.0, 32.5, 20.0 ],
 					"style" : "",
 					"text" : "0.7"
 				}
@@ -383,7 +383,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 133.0, 41.0, 20.0 ],
+					"patching_rect" : [ 35.0, 129.0, 41.0, 20.0 ],
 					"style" : "",
 					"text" : "dump",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -412,7 +412,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 35.0, 152.0, 66.0, 20.0 ],
+					"patching_rect" : [ 35.0, 151.0, 66.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -600,7 +600,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 395.5, 546.0, 369.0, 546.0, 369.0, 438.0, 294.5, 438.0 ],
+					"midpoints" : [ 395.5, 572.0, 369.0, 572.0, 369.0, 438.0, 294.5, 438.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -739,28 +739,24 @@
 		"dependency_cache" : [ 			{
 				"name" : "z.nav_buttons.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Spectral_Synthesis/CNMAT_Spectral_Tutorials",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.banner.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Spectral_Synthesis/CNMAT_Spectral_Tutorials",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-blu.gif",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "startaudio.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -773,7 +769,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

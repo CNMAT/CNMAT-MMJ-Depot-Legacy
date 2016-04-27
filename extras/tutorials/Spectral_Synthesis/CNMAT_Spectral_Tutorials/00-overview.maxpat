@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
-			"architecture" : "x86",
+			"minor" : 2,
+			"revision" : 2,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 25.0, 56.0, 864.0, 689.0 ],
+		"rect" : [ 27.0, 56.0, 858.0, 687.0 ],
 		"bgcolor" : [ 0.972549, 0.972549, 0.784314, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,26 +38,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"args" : [ "CNMAT Spectral Synthesis Tutorials", "overview of CNMAT spectral tools", "0.296 0.594 0.784 1." ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-38",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "banner.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ -21.5, -70.5 ],
-					"patching_rect" : [ 901.0, 30.5, 120.0, 74.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"args" : [ "CNMAT spectral tutorials", 2.3, " Michael Zbyszynski" ],
 					"bgmode" : 0,
@@ -95,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 461.0, 454.0, 78.0, 20.0 ],
+					"patching_rect" : [ 461.0, 459.0, 78.0, 20.0 ],
 					"style" : "",
 					"text" : "36-sin-to-res",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -164,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 461.0, 433.0, 90.0, 20.0 ],
+					"patching_rect" : [ 461.0, 436.333344, 90.0, 20.0 ],
 					"style" : "",
 					"text" : "35-java_v_lists",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -189,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 457.0, 550.0, 150.0, 22.0 ],
+					"patching_rect" : [ 457.0, 558.0, 150.0, 22.0 ],
 					"style" : "",
 					"text" : "Res-model-workspace.pat",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -389,7 +369,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 457.0, 529.0, 134.0, 22.0 ],
+					"patching_rect" : [ 457.0, 533.0, 134.0, 22.0 ],
 					"style" : "",
 					"text" : "singing-voice~.help.pat",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -508,7 +488,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 461.0, 412.0, 88.0, 20.0 ],
+					"patching_rect" : [ 461.0, 413.666656, 88.0, 20.0 ],
 					"style" : "",
 					"text" : "34-oscillators~",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1717,54 +1697,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "z.banner.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Spectral_Synthesis/CNMAT_Spectral_Tutorials",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_wht-blu.gif",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "banner.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "CNMAT_logo.png",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../media/Images",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
