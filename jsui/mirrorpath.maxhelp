@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 765.0, 687.0 ],
+		"rect" : [ 34.0, 79.0, 776.0, 679.0 ],
 		"bgcolor" : [ 0.905196, 0.947298, 0.947298, 1.0 ],
 		"editing_bgcolor" : [ 0.826703, 0.85521, 0.85521, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,50 @@
 		"style" : "",
 		"subpatcher_template" : "gridded",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "mirrorpath.maxhelp", "1.0a", "Jeff Lubow", "mirrorpath.js", 6666, "0.296 0.594 0.784 0.5" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-51",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "badge.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 470.0, 580.0, 296.0, 86.0 ],
+					"prototypename" : "cnmat_badge",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "mirrorpath", "compute points along a path including their mirrored locations", "0.296 0.594 0.784 0.5" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-15",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "banner.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -21.0, -68.0 ],
+					"patching_rect" : [ 245.0, 20.0, 503.0, 74.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 797.0, 693.0, 511.0, 76.0 ],
+					"prototypename" : "cnmat_banner",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
@@ -100,8 +144,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.0, 501.0, 278.0, 83.0 ],
-					"text" : "/metalist : [0.111512, -0.0348149, -0.111512, -0.0348149, 0.0808562],\n/phasepoint : [0.111512, -0.0348149],\n/phasemirror : [-0.111512, -0.0348149],\n/size : 0.0808562",
+					"patching_rect" : [ 470.0, 470.0, 278.0, 83.0 ],
+					"text" : "/metalist : [0.271061, -0.115857, -0.271061, -0.115857, 0.121462],\n/phasepoint : [0.271061, -0.115857],\n/phasemirror : [-0.271061, -0.115857],\n/size : 0.121462",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -115,7 +159,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 470.0, 201.0, 130.0, 22.0 ],
 					"style" : "",
-					"text" : "flip_y_axis 1"
+					"text" : "flip_y_axis 0"
 				}
 
 			}
@@ -762,7 +806,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 29.5, 663.0, 456.5, 663.0, 456.5, 493.0, 479.5, 493.0 ],
+					"midpoints" : [ 29.5, 663.0, 456.5, 663.0, 456.5, 460.0, 479.5, 460.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -814,6 +858,36 @@
 				"name" : "mirror2odot.maxpat",
 				"bootpath" : "~/Documents/CNMAT/repositories/CNMAT-Production/campion/clusterX/max/patches",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNMAT_logo.png",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
+				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
