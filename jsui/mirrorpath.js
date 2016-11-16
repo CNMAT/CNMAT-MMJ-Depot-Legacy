@@ -1,3 +1,12 @@
+//mirrorpath.js
+//Output coordinate locations along a user-defined path adn mirror the output
+//1.0a
+// 
+// Jeff Lubow, Copyright 2015 UC Regents. All Rights Reserved
+//
+//To Do:
+//Add bezier curves to line segments, with user-editable handles 
+
 outlets = 2;
 
 mgraphics.init();
