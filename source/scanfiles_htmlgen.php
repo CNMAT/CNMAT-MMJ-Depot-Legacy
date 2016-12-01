@@ -1,11 +1,11 @@
 <?php
 
 $outfile = fopen('outfile.txt', 'w');
-$tuti_html = fopen('generated_depot_files/tutorials.html', 'w');
-$tuto_html = fopen('generated_depot_files/tutors.html', 'w');
-$modu_html = fopen('generated_depot_files/patchers.html', 'w');
-$apps_html = fopen('generated_depot_files/applications.html', 'w');
-$demo_html = fopen('generated_depot_files/demos.html', 'w');
+$tuti_html = fopen('generated_html/tutorials.html', 'w');
+$tuto_html = fopen('generated_html/tutors.html', 'w');
+$modu_html = fopen('generated_html/patchers.html', 'w');
+$apps_html = fopen('generated_html/applications.html', 'w');
+$demo_html = fopen('generated_html/demos.html', 'w');
 
 //open the overview in current version of max
 function open_overview(){
@@ -18,7 +18,7 @@ function copy_overview(){
 }
 
 function get_patches($dir, $tuti_html, $tuto_html, $modu_html, $apps_html, $demo_html){
-    $outpath = getcwd() . '/generated_depot_files/';
+    $outpath = getcwd() . '/generated_html/';
     $in_dir = 'none';
     $f_tuti = $f_tuto = $f_modu = $f_apps = $f_demo = false;
     $thisdir = new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS);
