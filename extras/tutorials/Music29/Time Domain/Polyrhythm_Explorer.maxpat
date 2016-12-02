@@ -432,23 +432,6 @@
 					"color" : [ 0.576471, 0.576471, 0.576471, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 740.0, 93.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 173.0, 322.0, 167.0, 22.0 ],
-					"style" : "",
-					"text" : "Tempo_Tracker"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.576471, 0.576471, 0.576471, 0.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -3379,42 +3362,6 @@
 , 			{
 				"name" : "m29dspinit.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tempo_Tracker.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Time Domain",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "audition-soundfiles~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/examples/applications/soundfiles-sampling",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multibuf.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/multibuf",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "samp-nt-l.voi.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/MSP_Samplers/voices",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lookup-samples.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/MSP_Samplers/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "addpath.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
