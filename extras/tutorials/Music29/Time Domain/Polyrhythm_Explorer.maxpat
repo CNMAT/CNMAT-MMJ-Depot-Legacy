@@ -292,21 +292,6 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-63",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 759.0, 724.0, 153.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 78.819267, 633.0, 153.0, 20.0 ],
-					"style" : "",
-					"text" : "patch continues below....",
-					"textcolor" : [ 0.32549, 0.160784, 0.160784, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ 5, "beat", "pes_sampmap" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1781,6 +1766,9 @@
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
 ,
 					"style" : "",
 					"text" : "pattr bpm",
@@ -1876,6 +1864,9 @@
 					"patching_rect" : [ 20.0, 576.0, 352.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 567.5, 354.882355, 56.0 ],
+					"viewvisibility" : 1
+				}
+
 					"viewvisibility" : 1
 				}
 
@@ -2879,15 +2870,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-202", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-62", 0 ]
 				}
 
 			}
