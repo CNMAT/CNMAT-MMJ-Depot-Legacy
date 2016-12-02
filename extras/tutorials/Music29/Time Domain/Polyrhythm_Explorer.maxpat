@@ -187,7 +187,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 607.857117, 132.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 399.0, 132.0, 20.0 ],
+					"presentation_rect" : [ 11.999992, 399.0, 132.0, 20.0 ],
 					"style" : "",
 					"text" : "GLOBAL CONTROLS",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -494,7 +494,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 268.0, 412.363647, 134.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.0, 208.0, 209.0, 20.0 ],
+					"presentation_rect" : [ 133.0, 208.0, 207.0, 20.0 ],
 					"style" : "",
 					"text" : "< clear all soundfiles from memory",
 					"textcolor" : [ 0.32549, 0.160784, 0.160784, 1.0 ]
@@ -1507,7 +1507,7 @@
 					"patching_rect" : [ 324.0, 964.0, 376.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 119.75, 129.0, 213.5, 40.0 ],
+					"presentation_rect" : [ 121.75, 129.0, 213.5, 40.0 ],
 					"style" : "",
 					"text" : "drop folder containing soundfiles here (.wav or .aif)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1525,7 +1525,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 172.0, 406.363647, 38.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.0, 101.5, 227.0, 97.0 ],
+					"presentation_rect" : [ 113.0, 101.5, 227.0, 97.0 ],
 					"rounded" : 20.0
 				}
 
@@ -1541,7 +1541,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 252.0, 780.0, 60.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.0, 101.5, 228.0, 99.0 ],
+					"presentation_rect" : [ 113.0, 101.5, 228.0, 99.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -1671,7 +1671,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 20.0, 576.0, 352.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 490.5, 354.882355, 56.0 ],
+					"presentation_rect" : [ 6.999992, 490.5, 349.882355, 56.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1697,7 +1697,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 123.0, 81.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 264.038239, 326.25, 81.0, 22.0 ],
+					"presentation_rect" : [ 254.961761, 326.25, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "setup_reverb",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1754,7 +1754,7 @@
 					"patching_rect" : [ 759.0, 520.857117, 181.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 108.5, 317.25, 131.0, 40.0 ],
+					"presentation_rect" : [ 100.5, 317.25, 131.0, 40.0 ],
 					"style" : "",
 					"text" : "Beats Per Minute of one cycle",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -1777,7 +1777,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 293.0, 230.0, 84.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 326.25, 68.0, 22.0 ],
+					"presentation_rect" : [ 22.0, 326.25, 68.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
@@ -1798,7 +1798,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 759.5, 428.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 435.5, 24.0, 24.0 ],
+					"presentation_rect" : [ 19.999992, 435.5, 24.0, 24.0 ],
 					"style" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
@@ -1815,7 +1815,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 694.857117, 110.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.0, 437.5, 110.0, 20.0 ],
+					"presentation_rect" : [ 85.999992, 437.5, 110.0, 20.0 ],
 					"style" : "",
 					"text" : "global voices mute",
 					"textcolor" : [ 0.90167, 0.90167, 0.90167, 1.0 ]
@@ -1842,7 +1842,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 209.5, 299.0, 42.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 295.0, 399.0, 39.0, 23.0 ],
+					"presentation_rect" : [ 293.0, 399.0, 39.0, 23.0 ],
 					"style" : "",
 					"text" : "/stop",
 					"textcolor" : [ 0.082353, 0.407843, 0.407843, 1.0 ]
@@ -2416,7 +2416,7 @@
 					"offset" : [ -18.0, -67.0 ],
 					"patching_rect" : [ 24.0, 16.0, 348.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 4.0, 343.076477, 72.0 ],
+					"presentation_rect" : [ 6.0, 4.0, 334.0, 72.0 ],
 					"prototypename" : "cnmat_banner",
 					"viewvisibility" : 1
 				}
@@ -2433,7 +2433,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 241.0, 760.0, 66.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 302.0, 247.0, 70.5 ],
+					"presentation_rect" : [ 6.0, 302.0, 237.0, 70.5 ],
 					"proportion" : 0.39,
 					"rounded" : 27,
 					"style" : ""
@@ -2451,7 +2451,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 226.0, 740.0, 67.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.0, 302.0, 89.076485, 70.5 ],
+					"presentation_rect" : [ 250.923523, 302.0, 89.076485, 70.5 ],
 					"proportion" : 0.39,
 					"rounded" : 27,
 					"style" : ""
@@ -2470,7 +2470,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 316.0, 724.0, 200.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 431.0, 320.0, 35.5 ],
+					"presentation_rect" : [ 11.999992, 431.0, 320.0, 35.5 ],
 					"style" : "",
 					"tabcolor" : [ 0.146692, 0.208114, 0.22687, 1.0 ],
 					"tabs" : [ " " ],
@@ -2489,7 +2489,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 215.0, 724.0, 67.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 391.0, 333.0, 82.0 ],
+					"presentation_rect" : [ 6.999992, 391.0, 333.0, 82.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
