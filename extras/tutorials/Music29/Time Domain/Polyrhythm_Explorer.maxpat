@@ -318,8 +318,8 @@
 					"id" : "obj-59",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -342,8 +342,8 @@
 					"id" : "obj-58",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -366,8 +366,8 @@
 					"id" : "obj-56",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -390,8 +390,8 @@
 					"id" : "obj-55",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -414,8 +414,8 @@
 					"id" : "obj-23",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -481,7 +481,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 106.0, 1037.0, 708.0 ],
+						"rect" : [ 59.0, 106.0, 997.0, 523.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -528,13 +528,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 49,
+									"linecount" : 35,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 40.0, 1010.0, 663.0 ],
+									"patching_rect" : [ 5.0, 40.0, 992.0, 476.0 ],
 									"style" : "",
-									"text" : "This patch is an overview including various divisions of a single cycle.  \n\nYou'll notice that there are 12 layers, which include divisions of the full cycle by 60 (tatum), 30, 20, 15, 12, 10, 6, 5, 4, 3, 2, and the full cycle itself (1)\nthere are two sections to each of the 12 layers.\n\nTo play, first turn patch on by clicking on the [audio off] button and/or making sure that it reads [audio on].  You'll notice that the various sequencers begin advancing through their cycles.\n\nEditing clicks on a given layer:\n\n1. Make sure the level is unmuted by un-checking the mute toggle (it may already be unmuted).\n2. Click on the bottom array of sliders to enable some notes (they are either on or off; red squares mean \"on\".  To turn all notes on, click on the pink box and click-drag/enter \"1\".\n3. You should hear some clicks, at a given (fairly arbitrary) frequency.\n4. To change the frequency for each click, you can click-drag on the gray sliders. To edit all frequencies at once, click-drag (or enter a number into) the gray number box for that level.\n5. You can alter the overall characteristic of the click by editing that layer's \"res\" parameter, which is a representation of how resonant the click will end up being.  The smaller the number, the more \"clicky\" and aprupt the transient will end, the larger the number, the more the sound will ring out.\n6. On other layers, try combining varous on and off steps, and editing the values described above to gain an interesting polyrhythm for the duration of the phrase.\n\nEditing samples on a given layer:\n\n1. Drag a folder of sounds (all sounds must be in a flat directory structure) to the drop area on the top-left portion of the screen.\n2. Click on the \"choose sample\" menu.  You'll notice that all the sounds you've dragged in are now available for that layer.\n3. To enable a specific sound, choose a sample from this menu\n4. Enable the \"view sample\" toggle\n5. Enable some notes by clicking on the bottom (blue) array of sliders that has appeared.  To turn all notes on or off, click on the blue box labeled \"samples all on/off\"\n6. To choose randomly from your folder of sounds on each step, click on the \"shuffle\" button.\n\nGeneral controls for a given layer:\n\nGlobal controls:\n\n- click on \"clear all soundfiles from memory\" to clear.  This will also wipe all soundfile names from the various menus.\n- global steps on/off: Enable/disable all steps at once.  Only do this if you don't mind discarding all your previously edited steps.\n- global seq mute: Mutes all layers of sequencer, but allows sequencer to remain cycling.\n- global click mute: Change mute states for clicks on all layers at once.\n- global sample mute: Change mute states for samples on all layers at once.  \n- global timbre: Change timbre for all layers at once.  Only edit this if you don't mind discarding previously edited timbres.\n- global resonance: Change resonance for all layers at once.  Only edit this if you don't mind discarding previously edited resonances.\n- new (immediate) tactus: Enter in a new bpm for the beat/phrase.\n- setup_reverb: This opens up an area with various controls for adding reverb to the overall mix of the layers.\n- stop: Stops the polyrhythm explorer from playing\n\nglobal preset storage/recall:\n\nIf you'd like to store something (a global snapshot of) that you've edited, you can place it into a preset slot.\n\n1. Hold control+option.  You'll notice that the numbers of the preset slots turn red.  This means that storage mode is active. \n2. While holding those keys, click on a given number to store the current state into a recallable snapshot.\n3. Resume editing until you have another state you like the sound of, and repeat the above steps as necessary.\n4. To recall a given preset, simply click the green numbers (no keys enabled)."
+									"text" : "This patch attaches audio samples to sub-division levels of a single long cycle.  \n\nYou'll notice that there are 10 layers, which include the full cycle 1, plus sub-divisions  2, 3, 4, 5, 6, 10, 12, 15, 20.\n\nTo play, first turn patch on by clicking on the [audio off] button and/or making sure that it reads [audio on].  You'll notice that the various sequencers begin advancing through their cycles.\n\nEditing samples on a given layer:\n\n1. Drag a folder of sounds (all sounds must be in a flat directory structure) to the drop area on the top-left portion of the screen.\n2. Click on the \"choose sample\" menu.  You'll notice that all the sounds you've dragged in are now available for that layer.\n3. To enable a specific sound, choose a sample from this menu and it will be loaded and placed into play.\n4. Enable the \"shuffle\" toggle and find other options for shuffling/changing out samples with each cycle.\n5. To turn off notes on or off, click on the blue box labeled \"samples all on/off\"\n6. Turn individual sub-divisions off for each voice as desired with sliders provided.\n7. Choose \"polyphony\" to allow multiple samples to play on a sub-division.  \n\nGeneral controls for a given layer:\n\nGlobal controls:\n\n- click on \"clear all soundfiles from memory\" to clear.  This will also wipe all soundfile names from the various menus.\n\n- global voice mute: Mutes all layers of sequencer, but allows sequencer to remain cycling.\n\n\n- setup_reverb: This opens up an area with various controls for adding reverb to the overall mix of the layers.\n\nglobal preset storage/recall:\n\nIf you'd like to store something (a global snapshot of) that you've edited, you can place it into a preset slot.\n\n1. Hold control+option.  You'll notice that the numbers of the preset slots turn red.  This means that storage mode is active. \n2. While holding those keys, click on a given number to store the current state into a recallable snapshot.\n3. Resume editing until you have another state you like the sound of, and repeat the above steps as necessary.\n4. To recall a given preset, simply click the green numbers (no keys enabled)."
 								}
 
 							}
@@ -743,8 +743,8 @@
 					"id" : "obj-32",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -767,8 +767,8 @@
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -791,8 +791,8 @@
 					"id" : "obj-21",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -815,8 +815,8 @@
 					"id" : "obj-20",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -839,8 +839,8 @@
 					"id" : "obj-19",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -863,8 +863,8 @@
 					"id" : "obj-17",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -1828,7 +1828,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 272.0, 148.0, 61.0, 22.0 ],
-					"restore" : [ 0.019216 ],
+					"restore" : [ 20.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2299,8 +2299,8 @@
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_basic_samp.maxpat",
-					"numinlets" : 2,
+					"name" : "polyrhythm_samp.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -1.0, -1.0 ],
 					"outlettype" : [ "signal" ],
@@ -2449,7 +2449,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u559002904"
+									"varname" : "u987009781"
 								}
 
 							}
@@ -3281,14 +3281,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "polyrhythm_basic_samp.maxpat",
+				"name" : "polyrhythm_samp.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Time Domain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "fixlist.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
+				"name" : "poly-samp.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Time Domain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3301,6 +3301,12 @@
 , 			{
 				"name" : "clicker~.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/timing/stepmetro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fixlist.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3417,7 +3423,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.prepend.mxo",
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.compose.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -3425,11 +3435,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.compose.mxo",
+				"name" : "o.prepend.mxo",
 				"type" : "iLaX"
 			}
 , 			{
