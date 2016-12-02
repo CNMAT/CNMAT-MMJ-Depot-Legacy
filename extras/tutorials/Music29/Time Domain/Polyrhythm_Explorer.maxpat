@@ -9,8 +9,8 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 90.0, 1288.0, 804.0 ],
-		"bgcolor" : [ 0.648192, 0.755658, 0.8, 1.0 ],
+		"rect" : [ 14.0, 54.0, 1288.0, 804.0 ],
+		"bgcolor" : [ 0.980366, 1.0, 0.963385, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
