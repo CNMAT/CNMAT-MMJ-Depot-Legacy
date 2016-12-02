@@ -334,7 +334,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.576471, 0.576471, 0.576471, 0.0 ],
-					"fontface" : 1,
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 22.0,
 					"id" : "obj-16",
@@ -412,7 +412,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 20.0, 768.0, 159.0, 33.0 ],
+					"patching_rect" : [ 20.0, 768.0, 143.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 111.0, 246.5, 229.0, 33.0 ],
 					"saved_object_attributes" : 					{
@@ -424,7 +424,8 @@
 					}
 ,
 					"style" : "",
-					"text" : "p instructions"
+					"text" : "p instructions",
+					"textjustification" : 1
 				}
 
 			}
@@ -446,7 +447,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 756.0, 64.0, 140.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 561.140503, 142.0, 58.0 ],
+					"presentation_rect" : [ 9.0, 567.140503, 142.0, 58.0 ],
 					"viewvisibility" : 1
 				}
 
