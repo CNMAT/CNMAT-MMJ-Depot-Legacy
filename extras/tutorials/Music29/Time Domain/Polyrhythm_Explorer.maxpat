@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
-			"revision" : 1,
-			"architecture" : "x86",
+			"minor" : 2,
+			"revision" : 2,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 37.0, 99.0, 1462.0, 757.0 ],
+		"rect" : [ 44.0, 91.0, 1204.0, 757.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -60,19 +60,6 @@
 					"patching_rect" : [ 759.5, 334.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.5, 330.0, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "0."
 				}
 
 			}
@@ -146,24 +133,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-83",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 759.0, 549.857117, 83.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 114.0, 396.5, 83.0, 20.0 ],
-					"style" : "",
-					"text" : "BPM of tatum",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-60",
@@ -194,45 +163,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.39747, 0.835294, 0.655039, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
-					"id" : "obj-81",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 232.0, 179.0, 84.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 42.0, 396.5, 68.0, 22.0 ],
-					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"triscale" : 0.9,
-					"varname" : "flonum[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 232.0, 208.0, 34.0, 22.0 ],
-					"style" : "",
-					"text" : "/ 60."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
 					"fontface" : 2,
@@ -244,28 +174,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 420.0, 230.0, 72.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 300.0, 1132.0, 60.0, 24.0 ],
+					"presentation_rect" : [ 308.0, 1132.0, 60.0, 24.0 ],
 					"style" : "",
 					"text" : "Tatum"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-46",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 759.0, 578.857117, 58.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 403.0, 28.0, 64.0, 20.0 ],
-					"style" : "",
-					"text" : "One cycle",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -280,28 +191,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 607.857117, 132.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 457.0, 132.0, 20.0 ],
+					"presentation_rect" : [ 21.0, 340.0, 132.0, 20.0 ],
 					"style" : "",
 					"text" : "GLOBAL CONTROLS",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-63",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 759.0, 724.0, 153.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 78.819267, 827.0, 153.0, 20.0 ],
-					"style" : "",
-					"text" : "patch continues below....",
-					"textcolor" : [ 0.32549, 0.160784, 0.160784, 1.0 ]
 				}
 
 			}
@@ -323,7 +216,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 510.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 413.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 360.0, 298.5, 831.0, 74.0 ],
 					"varname" : "polyrhythm_basic_module[13]",
 					"viewvisibility" : 1
 				}
@@ -347,7 +240,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 550.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 307.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 359.0, 225.5, 831.0, 73.0 ],
 					"varname" : "polyrhythm_basic_module[12]",
 					"viewvisibility" : 1
 				}
@@ -371,7 +264,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 590.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 209.0, 1080.0, 102.0 ],
+					"presentation_rect" : [ 359.0, 153.0, 831.0, 74.0 ],
 					"varname" : "polyrhythm_basic_module[10]",
 					"viewvisibility" : 1
 				}
@@ -395,7 +288,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 630.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 107.0, 1080.0, 102.0 ],
+					"presentation_rect" : [ 359.0, 81.0, 831.0, 72.0 ],
 					"varname" : "polyrhythm_basic_module[9]",
 					"viewvisibility" : 1
 				}
@@ -419,27 +312,9 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 670.363647, 184.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 4.0, 1080.0, 102.0 ],
+					"presentation_rect" : [ 361.0, 9.0, 831.0, 72.0 ],
 					"varname" : "polyrhythm_basic_module[8]",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.576471, 0.576471, 0.576471, 0.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-41",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 740.0, 93.0, 35.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 306.0, 167.0, 22.0 ],
-					"style" : "",
-					"text" : "Tempo_Tracker2"
 				}
 
 			}
@@ -454,7 +329,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 812.0, 167.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 280.0, 167.0, 22.0 ],
+					"presentation_rect" : [ 178.25, 587.0, 167.0, 22.0 ],
 					"style" : "",
 					"text" : "Frequency_Domain_Analysis"
 				}
@@ -474,13 +349,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x86",
+							"minor" : 2,
+							"revision" : 2,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 106.0, 1037.0, 708.0 ],
+						"rect" : [ 59.0, 106.0, 1035.0, 530.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -527,13 +402,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 49,
+									"linecount" : 35,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 40.0, 1010.0, 663.0 ],
+									"patching_rect" : [ 5.0, 40.0, 1010.0, 476.0 ],
 									"style" : "",
-									"text" : "This patch is an overview including various divisions of a single cycle.  \n\nYou'll notice that there are 12 layers, which include divisions of the full cycle by 60 (tatum), 30, 20, 15, 12, 10, 6, 5, 4, 3, 2, and the full cycle itself (1)\nthere are two sections to each of the 12 layers.\n\nTo play, first turn patch on by clicking on the [audio off] button and/or making sure that it reads [audio on].  You'll notice that the various sequencers begin advancing through their cycles.\n\nEditing clicks on a given layer:\n\n1. Make sure the level is unmuted by un-checking the mute toggle (it may already be unmuted).\n2. Click on the bottom array of sliders to enable some notes (they are either on or off; red squares mean \"on\".  To turn all notes on, click on the pink box and click-drag/enter \"1\".\n3. You should hear some clicks, at a given (fairly arbitrary) frequency.\n4. To change the frequency for each click, you can click-drag on the gray sliders. To edit all frequencies at once, click-drag (or enter a number into) the gray number box for that level.\n5. You can alter the overall characteristic of the click by editing that layer's \"res\" parameter, which is a representation of how resonant the click will end up being.  The smaller the number, the more \"clicky\" and aprupt the transient will end, the larger the number, the more the sound will ring out.\n6. On other layers, try combining varous on and off steps, and editing the values described above to gain an interesting polyrhythm for the duration of the phrase.\n\nEditing samples on a given layer:\n\n1. Drag a folder of sounds (all sounds must be in a flat directory structure) to the drop area on the top-left portion of the screen.\n2. Click on the \"choose sample\" menu.  You'll notice that all the sounds you've dragged in are now available for that layer.\n3. To enable a specific sound, choose a sample from this menu\n4. Enable the \"view sample\" toggle\n5. Enable some notes by clicking on the bottom (blue) array of sliders that has appeared.  To turn all notes on or off, click on the blue box labeled \"samples all on/off\"\n6. To choose randomly from your folder of sounds on each step, click on the \"shuffle\" button.\n\nGeneral controls for a given layer:\n\nGlobal controls:\n\n- click on \"clear all soundfiles from memory\" to clear.  This will also wipe all soundfile names from the various menus.\n- global steps on/off: Enable/disable all steps at once.  Only do this if you don't mind discarding all your previously edited steps.\n- global seq mute: Mutes all layers of sequencer, but allows sequencer to remain cycling.\n- global click mute: Change mute states for clicks on all layers at once.\n- global sample mute: Change mute states for samples on all layers at once.  \n- global timbre: Change timbre for all layers at once.  Only edit this if you don't mind discarding previously edited timbres.\n- global resonance: Change resonance for all layers at once.  Only edit this if you don't mind discarding previously edited resonances.\n- new (immediate) tactus: Enter in a new bpm for the beat/phrase.\n- setup_reverb: This opens up an area with various controls for adding reverb to the overall mix of the layers.\n- stop: Stops the polyrhythm explorer from playing\n\nglobal preset storage/recall:\n\nIf you'd like to store something (a global snapshot of) that you've edited, you can place it into a preset slot.\n\n1. Hold control+option.  You'll notice that the numbers of the preset slots turn red.  This means that storage mode is active. \n2. While holding those keys, click on a given number to store the current state into a recallable snapshot.\n3. Resume editing until you have another state you like the sound of, and repeat the above steps as necessary.\n4. To recall a given preset, simply click the green numbers (no keys enabled)."
+									"text" : "This patch attaches audio samples to sub-division levels of a single long cycle.  \n\nYou'll notice that there are 10 layers, which include the full cycle 1, plus sub-divisions  2, 3, 4, 5, 6, 10, 12, 15, 20.\n\nTo play, first turn patch on by clicking on the [audio off] button and/or making sure that it reads [audio on].  You'll notice that the various sequencers begin advancing through their cycles.\n\nEditing samples on a given layer:\n\n1. Drag a folder of sounds (all sounds must be in a flat directory structure) to the drop area on the top-left portion of the screen.\n2. Click on the \"choose sample\" menu.  You'll notice that all the sounds you've dragged in are now available for that layer.\n3. To enable a specific sound, choose a sample from this menu and it will be loaded and placed into play.\n4. Enable the \"shuffle\" toggle and find other options for shuffling/changing out samples with each cycle.\n5. To turn off notes on or off, click on the blue box labeled \"samples all on/off\"\n6. Turn individual sub-divisions off for each voice as desired with sliders provided.\n7. Choose \"polyphony\" to allow multiple samples to play on a sub-division.  \n\nGeneral controls for a given layer:\n\nGlobal controls:\n\n- click on \"clear all soundfiles from memory\" to clear.  This will also wipe all soundfile names from the various menus.\n\n- global voice mute: Mutes all layers of sequencer, but allows sequencer to remain cycling.\n\n\n- setup_reverb: This opens up an area with various controls for adding reverb to the overall mix of the layers.\n\nglobal preset storage/recall:\n\nIf you'd like to store something (a global snapshot of) that you've edited, you can place it into a preset slot.\n\n1. Hold control+option.  You'll notice that the numbers of the preset slots turn red.  This means that storage mode is active. \n2. While holding those keys, click on a given number to store the current state into a recallable snapshot.\n3. Resume editing until you have another state you like the sound of, and repeat the above steps as necessary.\n4. To recall a given preset, simply click the green numbers (no keys enabled)."
 								}
 
 							}
@@ -543,7 +418,7 @@
 ,
 					"patching_rect" : [ 20.0, 768.0, 159.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 230.5, 229.0, 33.0 ],
+					"presentation_rect" : [ 123.0, 230.5, 229.0, 33.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -575,7 +450,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 756.0, 64.0, 140.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 280.0, 142.0, 58.0 ],
+					"presentation_rect" : [ 20.25, 571.0, 142.0, 58.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -606,7 +481,7 @@
 					"outlinecolor" : [ 1.0, 0.89, 0.09, 1.0 ],
 					"patching_rect" : [ 248.0, 412.363647, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 192.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 123.0, 192.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -623,61 +498,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 268.0, 412.363647, 134.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 137.0, 192.0, 209.0, 20.0 ],
+					"presentation_rect" : [ 145.0, 192.0, 209.0, 20.0 ],
 					"style" : "",
 					"text" : "< clear all soundfiles from memory",
 					"textcolor" : [ 0.32549, 0.160784, 0.160784, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-40",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 784.0, 176.0, 108.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 523.0, 115.0, 20.0 ],
-					"style" : "",
-					"text" : "global sample mute",
-					"textcolor" : [ 0.90167, 0.90167, 0.90167, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.488436, 0.929015, 1.0, 1.0 ],
-					"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-13",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 756.0, 176.0, 25.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 518.0, 25.0, 25.0 ],
-					"style" : "",
-					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 756.0, 204.0, 105.0, 22.0 ],
-					"style" : "",
-					"text" : "s glob_sampmute"
 				}
 
 			}
@@ -699,7 +523,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 470.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 515.5, 1080.0, 100.5 ],
+					"presentation_rect" : [ 360.0, 373.25, 831.0, 74.5 ],
 					"varname" : "polyrhythm_basic_module[7]",
 					"viewvisibility" : 1
 				}
@@ -723,7 +547,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 430.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 614.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 361.0, 447.75, 831.0, 72.0 ],
 					"varname" : "polyrhythm_basic_module[5]",
 					"viewvisibility" : 1
 				}
@@ -747,7 +571,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 390.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 716.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 361.0, 521.75, 831.0, 74.0 ],
 					"varname" : "polyrhythm_basic_module[4]",
 					"viewvisibility" : 1
 				}
@@ -771,7 +595,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 350.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 818.5, 1080.0, 102.0 ],
+					"presentation_rect" : [ 361.0, 597.75, 831.0, 73.0 ],
 					"varname" : "polyrhythm_basic_module[3]",
 					"viewvisibility" : 1
 				}
@@ -795,32 +619,8 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 310.363647, 184.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 920.5, 1080.0, 101.0 ],
+					"presentation_rect" : [ 361.0, 670.75, 831.0, 72.0 ],
 					"varname" : "polyrhythm_basic_module[2]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 30, "beat", "pes_sampmap" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-17",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "polyrhythm_samp.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ -1.0, -1.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 512.0, 270.363647, 184.0, 37.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 1021.5, 1080.0, 101.0 ],
-					"varname" : "polyrhythm_basic_module[1]",
 					"viewvisibility" : 1
 				}
 
@@ -852,9 +652,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x86",
+							"minor" : 2,
+							"revision" : 2,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -988,9 +788,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x86",
+											"minor" : 2,
+											"revision" : 2,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1711,7 +1511,7 @@
 					"patching_rect" : [ 324.0, 964.0, 376.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 123.75, 113.0, 213.5, 40.0 ],
+					"presentation_rect" : [ 131.75, 113.0, 213.5, 40.0 ],
 					"style" : "",
 					"text" : "drop folder containing soundfiles here (.wav or .aif)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1729,7 +1529,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 172.0, 406.363647, 38.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 85.5, 227.0, 97.0 ],
+					"presentation_rect" : [ 123.0, 85.5, 227.0, 97.0 ],
 					"rounded" : 20.0
 				}
 
@@ -1745,7 +1545,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 252.0, 780.0, 60.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 85.5, 228.0, 99.0 ],
+					"presentation_rect" : [ 123.0, 85.5, 228.0, 99.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -1777,7 +1577,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 272.0, 148.0, 61.0, 22.0 ],
-					"restore" : [ 57.092964 ],
+					"restore" : [ 24.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1875,7 +1675,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 20.0, 576.0, 352.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 761.5, 354.882355, 56.0 ],
+					"presentation_rect" : [ 11.097061, 478.75, 354.882355, 56.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1891,7 +1691,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 123.0, 81.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 364.0, 81.0, 22.0 ],
+					"presentation_rect" : [ 21.0, 411.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "setup_reverb"
 				}
@@ -1929,7 +1729,7 @@
 					"offset" : [ 2.0, 3.0 ],
 					"patching_rect" : [ 375.13858, 16.0, 296.722839, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 897.0, 296.0, 88.0 ],
+					"presentation_rect" : [ 18.0, 662.0, 296.0, 88.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1940,14 +1740,16 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-54",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 759.0, 520.857117, 147.0, 20.0 ],
+					"patching_rect" : [ 759.0, 520.857117, 147.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.0, 372.5, 104.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 125.0, 289.5, 120.0, 33.0 ],
 					"style" : "",
-					"text" : "BPM of one cycle",
+					"text" : "Beats Per Minute of one cycle",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1961,13 +1763,15 @@
 					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-202",
 					"maxclass" : "flonum",
+					"maximum" : 600.0,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 293.0, 230.0, 84.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.0, 373.0, 68.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 293.0, 68.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
@@ -1988,7 +1792,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 759.5, 428.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 483.5, 24.0, 24.0 ],
+					"presentation_rect" : [ 21.0, 366.5, 24.0, 24.0 ],
 					"style" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
@@ -2005,37 +1809,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 694.857117, 110.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 485.5, 110.0, 20.0 ],
+					"presentation_rect" : [ 51.0, 368.5, 110.0, 20.0 ],
 					"style" : "",
 					"text" : "global voices mute",
 					"textcolor" : [ 0.90167, 0.90167, 0.90167, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.79,
-					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_color1" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor_color2" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "gradient",
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"gradient" : 0,
-					"id" : "obj-67",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.5, 299.0, 42.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 457.0, 39.0, 23.0 ],
-					"style" : "",
-					"text" : "/stop",
-					"textcolor" : [ 0.082353, 0.407843, 0.407843, 1.0 ]
 				}
 
 			}
@@ -2057,7 +1834,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 24.0, 179.0, 100.0, 192.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 85.5, 100.0, 184.0 ],
+					"presentation_rect" : [ 18.0, 85.5, 100.0, 184.0 ],
 					"prototypename" : "cnmat_stereoGain",
 					"viewvisibility" : 1
 				}
@@ -2095,7 +1872,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 230.0, 184.0, 37.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 1122.5, 1080.0, 103.0 ],
+					"presentation_rect" : [ 359.0, 1122.5, 1080.0, 103.0 ],
 					"varname" : "polyrhythm_basic_module[6]",
 					"viewvisibility" : 1
 				}
@@ -2171,13 +1948,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x86",
+							"minor" : 2,
+							"revision" : 2,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 32.0, 83.0, 301.0, 86.0 ],
+						"rect" : [ 34.0, 83.0, 301.0, 86.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2213,9 +1990,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 348.0, 141.0, 24.0 ],
+									"patching_rect" : [ 64.0, 348.0, 141.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 44.0, 56.0, 141.0, 24.0 ],
+									"presentation_rect" : [ 44.0, 56.0, 141.0, 23.0 ],
 									"style" : "",
 									"text" : "reverb parameters"
 								}
@@ -2238,7 +2015,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u387004863"
+									"varname" : "u058002122"
 								}
 
 							}
@@ -2314,9 +2091,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 134.0, 28.0, 44.0, 20.0 ],
+									"patching_rect" : [ 134.0, 28.0, 44.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 8.0, 48.0, 20.0 ],
+									"presentation_rect" : [ 6.0, 8.0, 48.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -2331,9 +2108,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 188.0, 52.0, 50.0, 20.0 ],
+									"patching_rect" : [ 188.0, 52.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 32.0, 48.0, 20.0 ],
+									"presentation_rect" : [ 6.0, 32.0, 48.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -2630,7 +2407,7 @@
 					"offset" : [ -18.0, -67.0 ],
 					"patching_rect" : [ 24.0, 16.0, 348.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 4.0, 343.076477, 72.0 ],
+					"presentation_rect" : [ 14.0, 4.0, 343.076477, 72.0 ],
 					"prototypename" : "cnmat_banner",
 					"viewvisibility" : 1
 				}
@@ -2648,7 +2425,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 241.0, 760.0, 66.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 360.0, 243.0, 70.5 ],
+					"presentation_rect" : [ 21.0, 280.0, 331.0, 46.5 ],
 					"proportion" : 0.39,
 					"rounded" : 40,
 					"style" : ""
@@ -2666,7 +2443,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 226.0, 740.0, 67.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 255.0, 360.0, 89.076485, 70.5 ],
+					"presentation_rect" : [ 16.0, 404.0, 89.076485, 70.5 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -2684,7 +2461,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 215.0, 724.0, 67.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 449.0, 331.076477, 104.0 ],
+					"presentation_rect" : [ 16.0, 332.0, 240.0, 65.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -2707,15 +2484,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -2780,15 +2548,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -2866,15 +2625,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-81", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2884,28 +2634,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-202", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-67", 0 ]
 				}
 
 			}
@@ -2942,15 +2674,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-74", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-81", 0 ]
 				}
 
 			}
@@ -3105,19 +2828,13 @@
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/basic_programming",
+				"bootpath" : "~/Documents/CNMAT_Repositories/CNMAT-Production/campion/alices_walking/2016_11_02_Alices_Walking/Alices_2016_support/ME_materials/ME_various_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m29dspinit.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tempo_Tracker2.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Time Domain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3145,12 +2862,9 @@
 				"name" : "o.display.mxo",
 				"type" : "iLaX"
 			}
-, 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"selectioncolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
 	}
 
 }
