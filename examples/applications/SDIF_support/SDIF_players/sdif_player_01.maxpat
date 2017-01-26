@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 993.0, 627.0 ],
+		"rect" : [ 34.0, 79.0, 1852.0, 963.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2896,9 +2896,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 150.0, 612.666687, 60.0, 21.0 ],
+					"patching_rect" : [ 150.0, 612.666687, 66.0, 21.0 ],
 					"style" : "",
-					"text" : "metro 100",
+					"text" : "qmetro 100",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
