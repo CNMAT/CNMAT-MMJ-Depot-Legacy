@@ -406,16 +406,14 @@
 					"fontsize" : 14.0,
 					"gradient" : 1,
 					"id" : "obj-144",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 392.0, 72.0, 40.0 ],
+					"patching_rect" : [ 216.0, 392.0, 72.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 343.0, 95.0, 242.0, 24.0 ],
 					"style" : "",
-					"text" : "model: Additive",
 					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ]
 				}
 
@@ -1395,7 +1393,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 452.0, 96.0, 91.0, 20.0 ],
+									"patching_rect" : [ 452.0, 96.0, 91.0, 22.0 ],
 									"style" : "",
 									"text" : "print frametype"
 								}
@@ -1433,7 +1431,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 401.5, 528.0, 151.0, 19.0 ],
+									"patching_rect" : [ 401.5, 528.0, 151.0, 21.0 ],
 									"style" : "",
 									"text" : "print did_not_detect_filetype!"
 								}
@@ -1448,7 +1446,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 166.5, 48.0, 86.0, 19.0 ],
+									"patching_rect" : [ 166.5, 48.0, 86.0, 21.0 ],
 									"style" : "",
 									"text" : "routepass clear"
 								}
@@ -1463,7 +1461,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 301.0, 436.0, 72.0, 21.0 ],
+									"patching_rect" : [ 301.0, 436.0, 72.0, 24.0 ],
 									"style" : "",
 									"text" : "model: $1"
 								}
@@ -1478,7 +1476,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 301.0, 400.0, 89.0, 21.0 ],
+									"patching_rect" : [ 301.0, 400.0, 89.0, 24.0 ],
 									"style" : "",
 									"text" : "Resonances"
 								}
@@ -1493,7 +1491,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 433.0, 400.0, 60.0, 21.0 ],
+									"patching_rect" : [ 433.0, 400.0, 60.0, 24.0 ],
 									"style" : "",
 									"text" : "Additive"
 								}
@@ -1507,7 +1505,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 301.0, 472.0, 89.0, 19.0 ],
+									"patching_rect" : [ 301.0, 472.0, 89.0, 21.0 ],
 									"style" : "",
 									"text" : "print matrix_info"
 								}
@@ -1522,7 +1520,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 433.0, 312.0, 89.0, 21.0 ],
+									"patching_rect" : [ 433.0, 312.0, 89.0, 24.0 ],
 									"style" : "",
 									"text" : "matrix 1TRC"
 								}
@@ -1537,7 +1535,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 301.0, 312.0, 32.5, 19.0 ],
+									"patching_rect" : [ 301.0, 312.0, 32.5, 21.0 ],
 									"style" : "",
 									"text" : "b"
 								}
@@ -1552,7 +1550,7 @@
 									"numinlets" : 8,
 									"numoutlets" : 8,
 									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
-									"patching_rect" : [ 301.0, 268.0, 256.0, 19.0 ],
+									"patching_rect" : [ 301.0, 268.0, 256.0, 21.0 ],
 									"style" : "",
 									"text" : "sel 1FOB 1FOF 1RES RBEP 1TRC 1HRM 1NVT"
 								}
@@ -1579,7 +1577,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 75.5, 104.0, 59.0, 19.0 ],
+									"patching_rect" : [ 75.5, 104.0, 59.0, 21.0 ],
 									"style" : "",
 									"text" : "route float"
 								}
@@ -1594,7 +1592,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 76.0, 184.0, 49.0, 19.0 ],
+									"patching_rect" : [ 76.0, 184.0, 49.0, 21.0 ],
 									"style" : "",
 									"text" : "line 0. 1"
 								}
@@ -1609,7 +1607,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 76.0, 160.0, 43.0, 15.0 ],
+									"patching_rect" : [ 76.0, 160.0, 43.0, 19.0 ],
 									"style" : "",
 									"text" : "0., 1. $1"
 								}
@@ -1624,7 +1622,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 75.5, 132.0, 45.0, 19.0 ],
+									"patching_rect" : [ 75.5, 132.0, 45.0, 21.0 ],
 									"style" : "",
 									"text" : "* 1000."
 								}
@@ -1651,7 +1649,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 76.0, 368.0, 177.0, 15.0 ],
+									"patching_rect" : [ 76.0, 368.0, 177.0, 19.0 ],
 									"style" : "",
 									"text" : "matrix 1FOF, tuples columns 1 2 3 time 0."
 								}
@@ -1666,7 +1664,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "list", "" ],
-									"patching_rect" : [ 76.0, 388.0, 111.0, 19.0 ],
+									"patching_rect" : [ 76.0, 388.0, 111.0, 21.0 ],
 									"style" : "",
 									"text" : "SDIF-tuples scrubby"
 								}
@@ -1681,7 +1679,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 356.0, 160.0, 109.0, 19.0 ],
+									"patching_rect" : [ 356.0, 160.0, 109.0, 21.0 ],
 									"style" : "",
 									"text" : "SDIF-buffer scrubby"
 								}
@@ -1696,7 +1694,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 233.5, 136.0, 32.5, 19.0 ],
+									"patching_rect" : [ 233.5, 136.0, 32.5, 21.0 ],
 									"style" : "",
 									"text" : "t b s"
 								}
@@ -1711,7 +1709,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 233.5, 112.0, 61.0, 20.0 ],
+									"patching_rect" : [ 233.5, 112.0, 61.0, 22.0 ],
 									"style" : "",
 									"text" : "append 0"
 								}
@@ -1726,7 +1724,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 233.5, 84.0, 167.0, 20.0 ],
+									"patching_rect" : [ 233.5, 84.0, 167.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend read-stream-number"
 								}
@@ -1741,7 +1739,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 32.0, 56.0, 106.0, 19.0 ],
+									"patching_rect" : [ 32.0, 56.0, 106.0, 21.0 ],
 									"style" : "",
 									"text" : "route float playback"
 								}
@@ -1756,7 +1754,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "FullPacket" ],
-									"patching_rect" : [ 233.5, 216.0, 154.0, 19.0 ],
+									"patching_rect" : [ 233.5, 216.0, 154.0, 21.0 ],
 									"style" : "",
 									"text" : "o.route /maxTime /frameType"
 								}
@@ -1771,7 +1769,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 32.0, 292.0, 103.0, 19.0 ],
+									"patching_rect" : [ 32.0, 292.0, 103.0, 21.0 ],
 									"style" : "",
 									"text" : "scale 0. 1. 0. 10."
 								}
@@ -1786,7 +1784,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 233.5, 172.0, 100.0, 19.0 ],
+									"patching_rect" : [ 233.5, 172.0, 100.0, 21.0 ],
 									"style" : "",
 									"text" : "SDIF-info scrubby"
 								}
@@ -1801,7 +1799,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 32.0, 316.0, 125.0, 15.0 ],
+									"patching_rect" : [ 32.0, 316.0, 125.0, 19.0 ],
 									"style" : "",
 									"text" : "tuples columns 1 2 3 time $1"
 								}
@@ -4207,9 +4205,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 32.0, 452.0, 68.0, 21.0 ],
+					"patching_rect" : [ 32.0, 452.0, 87.0, 21.0 ],
 					"style" : "",
-					"text" : "threefates",
+					"text" : "threefates 2048",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -4350,7 +4348,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-10",
-					"items" : "womblitz.sdif",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
