@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 50.0, 79.0, 1423.0, 963.0 ],
+		"rect" : [ 50.0, 79.0, 983.0, 698.0 ],
 		"bgcolor" : [ 0.758301, 0.758301, 0.758301, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 260.0, 394.0, 29.5, 21.0 ],
+					"style" : "",
+					"text" : "set"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "comment",
@@ -153,10 +166,10 @@
 					"name" : "se.frame.editor.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -4.0, -2.0 ],
+					"offset" : [ -4.333333, -30.000002 ],
 					"patching_rect" : [ 819.0, 650.0, 407.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 544.0, 407.0, 146.0 ],
+					"presentation_rect" : [ 6.0, 554.0, 407.0, 123.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -193,7 +206,7 @@
 					"id" : "obj-193",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "ss.file.viewer.maxpat",
+					"name" : "se.file.viewer.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ -7.666667, -7.333333 ],
@@ -3804,6 +3817,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-189", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4064,6 +4086,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-28", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-144", 1 ],
 					"disabled" : 0,
@@ -4270,7 +4301,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ss.file.viewer.maxpat",
+				"name" : "se.file.viewer.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/examples/applications/SDIF_support/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4300,7 +4331,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ss.coll.copy.selected.maxpat",
+				"name" : "se.coll.copy.selected.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/examples/applications/SDIF_support/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
