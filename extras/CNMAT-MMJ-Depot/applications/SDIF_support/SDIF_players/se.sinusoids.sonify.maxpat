@@ -401,7 +401,7 @@
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"id" : "obj-42",
 					"ignoreclick" : 1,
 					"maxclass" : "resdisplay",
