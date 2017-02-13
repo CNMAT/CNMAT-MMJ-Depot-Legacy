@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 32.0, 53.0, 983.0, 698.0 ],
+		"rect" : [ 9.0, 53.0, 983.0, 698.0 ],
 		"bgcolor" : [ 0.603579, 0.603579, 0.603579, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -239,7 +239,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 657.0, 581.0, 313.0, 31.0 ],
 					"style" : "",
-					"text" : "editing: sinusoids"
+					"text" : "editing: resonances"
 				}
 
 			}
@@ -704,14 +704,17 @@
 					"fontsize" : 14.0,
 					"gradient" : 1,
 					"id" : "obj-144",
+					"ignoreclick" : 1,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 153.5, 343.0, 72.0, 24.0 ],
+					"patching_rect" : [ 153.5, 343.0, 72.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 338.0, 89.0, 218.0, 24.0 ],
 					"style" : "",
+					"text" : "model: Resonances",
 					"textcolor" : [ 0.103204, 0.109994, 0.109994, 1.0 ]
 				}
 
@@ -2390,7 +2393,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-10",
-					"items" : "<empty>",
+					"items" : "gong-large.m7.FOF.sdif",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2496,7 +2499,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 325.0, 490.0, 60.0, 20.0 ],
+									"patching_rect" : [ 325.0, 490.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -2511,7 +2514,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 325.0, 350.0, 173.0, 20.0 ],
+									"patching_rect" : [ 325.0, 350.0, 173.0, 22.0 ],
 									"style" : "",
 									"text" : "regexp ^(.*/).*.sdif|(.*/).*.SDIF$"
 								}
@@ -2526,7 +2529,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 94.5, 535.0, 37.0, 18.0 ],
+									"patching_rect" : [ 94.5, 535.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "clear"
 								}
@@ -2553,7 +2556,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 220.0, 120.0, 32.5, 19.0 ],
+									"patching_rect" : [ 220.0, 120.0, 32.5, 21.0 ],
 									"style" : "",
 									"text" : "t l b"
 								}
@@ -2568,7 +2571,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 134.5, 375.0, 75.5, 19.0 ],
+									"patching_rect" : [ 134.5, 375.0, 75.5, 21.0 ],
 									"style" : "",
 									"text" : "t l l"
 								}
@@ -2582,7 +2585,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 230.0, 490.0, 50.0, 19.0 ],
+									"patching_rect" : [ 230.0, 490.0, 50.0, 21.0 ],
 									"style" : "",
 									"text" : "addpath"
 								}
@@ -2597,7 +2600,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 220.0, 388.0, 56.0, 19.0 ],
+									"patching_rect" : [ 220.0, 388.0, 56.0, 21.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -2612,7 +2615,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 220.0, 424.0, 70.0, 17.0 ],
+									"patching_rect" : [ 220.0, 424.0, 70.0, 21.0 ],
 									"style" : "",
 									"text" : "types SDIF"
 								}
@@ -2627,7 +2630,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 134.5, 424.0, 31.0, 19.0 ],
+									"patching_rect" : [ 134.5, 424.0, 31.0, 21.0 ],
 									"style" : "",
 									"text" : "t b s"
 								}
@@ -2642,7 +2645,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 134.5, 400.0, 55.0, 19.0 ],
+									"patching_rect" : [ 134.5, 400.0, 55.0, 21.0 ],
 									"style" : "",
 									"text" : "tosymbol"
 								}
@@ -2657,7 +2660,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 20.0, 95.0, 33.0, 19.0 ],
+									"patching_rect" : [ 20.0, 95.0, 33.0, 21.0 ],
 									"style" : "",
 									"text" : "b"
 								}
@@ -2672,7 +2675,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 20.0, 65.0, 133.5, 19.0 ],
+									"patching_rect" : [ 20.0, 65.0, 133.5, 21.0 ],
 									"style" : "",
 									"text" : "route bang"
 								}
@@ -2687,7 +2690,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 134.5, 310.0, 37.0, 19.0 ],
+									"patching_rect" : [ 134.5, 310.0, 37.0, 21.0 ],
 									"style" : "",
 									"text" : "zl reg"
 								}
@@ -2702,7 +2705,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 33.5, 180.0, 37.0, 19.0 ],
+									"patching_rect" : [ 33.5, 180.0, 37.0, 21.0 ],
 									"style" : "",
 									"text" : "zl reg"
 								}
@@ -2717,7 +2720,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "clear", "" ],
-									"patching_rect" : [ 17.5, 388.0, 61.0, 19.0 ],
+									"patching_rect" : [ 17.5, 388.0, 61.0, 21.0 ],
 									"style" : "",
 									"text" : "t b l clear l"
 								}
@@ -2732,7 +2735,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 134.5, 460.0, 38.0, 19.0 ],
+									"patching_rect" : [ 134.5, 460.0, 38.0, 21.0 ],
 									"style" : "",
 									"text" : "folder"
 								}
@@ -2747,7 +2750,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 33.5, 460.0, 92.0, 19.0 ],
+									"patching_rect" : [ 33.5, 460.0, 92.0, 21.0 ],
 									"style" : "",
 									"text" : "prepend append"
 								}
@@ -2762,7 +2765,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 33.5, 424.0, 54.0, 19.0 ],
+									"patching_rect" : [ 33.5, 424.0, 54.0, 21.0 ],
 									"style" : "",
 									"text" : "strippath"
 								}
@@ -2777,7 +2780,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 33.5, 350.0, 120.0, 19.0 ],
+									"patching_rect" : [ 33.5, 350.0, 120.0, 21.0 ],
 									"style" : "",
 									"text" : "gate 2"
 								}
@@ -2830,7 +2833,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 220.0, 285.0, 140.0, 17.0 ],
+									"patching_rect" : [ 220.0, 285.0, 140.0, 21.0 ],
 									"style" : "",
 									"text" : "not a folder or sdif file!"
 								}
@@ -2844,7 +2847,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 220.0, 307.0, 82.0, 20.0 ],
+									"patching_rect" : [ 220.0, 307.0, 82.0, 22.0 ],
 									"style" : "",
 									"text" : "print ERROR:"
 								}
@@ -2871,7 +2874,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 87.0, 310.0, 33.0, 17.0 ],
+									"patching_rect" : [ 87.0, 310.0, 33.0, 21.0 ],
 									"style" : "",
 									"text" : "1"
 								}
@@ -2886,7 +2889,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 33.5, 310.0, 33.0, 17.0 ],
+									"patching_rect" : [ 33.5, 310.0, 33.0, 21.0 ],
 									"style" : "",
 									"text" : "2"
 								}
@@ -2901,7 +2904,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 33.5, 205.0, 126.0, 19.0 ],
+									"patching_rect" : [ 33.5, 205.0, 126.0, 21.0 ],
 									"style" : "",
 									"text" : "sel fold SDIF"
 								}
