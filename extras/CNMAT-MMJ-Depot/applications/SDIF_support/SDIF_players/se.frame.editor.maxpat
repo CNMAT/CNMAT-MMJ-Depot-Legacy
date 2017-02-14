@@ -228,9 +228,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 459.0, 190.0, 120.0, 22.0 ],
+					"patching_rect" : [ 459.0, 190.0, 121.0, 22.0 ],
 					"style" : "",
-					"text" : "se.coll.copy.selected"
+					"text" : "se.coll.copy selected"
 				}
 
 			}
@@ -1261,7 +1261,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "se.coll.copy.selected.maxpat",
+				"name" : "se.coll.copy.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1

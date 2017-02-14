@@ -399,6 +399,7 @@
 				"box" : 				{
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"datacolor" : [ 0.387056, 0.186789, 0.419264, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
