@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -418,7 +418,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 71.0, 500.0, 70.0 ],
 					"proportion" : 0.39,
-					"rounded" : 20,
+					"rounded" : 0,
 					"style" : ""
 				}
 
@@ -599,12 +599,11 @@
 		"dependency_cache" : [ 			{
 				"name" : "CNMAT_logo.png",
 				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../media/Images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
