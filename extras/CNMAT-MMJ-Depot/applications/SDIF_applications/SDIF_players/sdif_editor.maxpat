@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 45.0, 67.0, 1066.0, 698.0 ],
+		"rect" : [ 45.0, 67.0, 982.0, 698.0 ],
 		"bgcolor" : [ 0.603579, 0.603579, 0.603579, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -252,7 +252,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 657.0, 581.0, 313.0, 31.0 ],
 					"style" : "",
-					"text" : "editing: sinusoids"
+					"text" : "editing: resonances"
 				}
 
 			}
@@ -376,7 +376,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -412,6 +412,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-9",
+									"index" : 3,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -479,6 +480,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-105",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -492,6 +494,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-106",
+									"index" : 2,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -505,6 +508,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-107",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -902,7 +906,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -952,6 +956,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-14",
+									"index" : 5,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1109,6 +1114,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-11",
+									"index" : 4,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1181,6 +1187,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-10",
+									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1358,6 +1365,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-12",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1371,6 +1379,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-18",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1383,6 +1392,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-26",
+									"index" : 3,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1451,6 +1461,7 @@
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-19", 1 ]
 								}
 
@@ -1460,6 +1471,7 @@
 									"destination" : [ "obj-21", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-19", 1 ]
 								}
 
@@ -1478,6 +1490,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -1487,6 +1500,7 @@
 									"destination" : [ "obj-26", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -1586,6 +1600,7 @@
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -1595,6 +1610,7 @@
 									"destination" : [ "obj-28", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -1640,6 +1656,7 @@
 									"destination" : [ "obj-14", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -1649,6 +1666,7 @@
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -1815,7 +1833,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2126,6 +2144,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2471,7 +2490,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2552,6 +2571,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-17",
+									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2803,6 +2823,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-82",
+									"index" : 2,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2816,6 +2837,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-83",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2829,6 +2851,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-84",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -3019,6 +3042,7 @@
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -3028,6 +3052,7 @@
 									"destination" : [ "obj-84", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -3145,6 +3170,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-72", 0 ]
 								}
 
@@ -3154,6 +3180,7 @@
 									"destination" : [ "obj-73", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-72", 0 ]
 								}
 
@@ -3374,6 +3401,7 @@
 					"destination" : [ "obj-171", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -3383,6 +3411,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -3401,6 +3430,7 @@
 					"destination" : [ "obj-100", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -3410,6 +3440,7 @@
 					"destination" : [ "obj-204", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -3438,6 +3469,7 @@
 					"destination" : [ "obj-111", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-116", 1 ]
 				}
 
@@ -3447,6 +3479,7 @@
 					"destination" : [ "obj-186", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-116", 1 ]
 				}
 
@@ -3485,6 +3518,7 @@
 					"destination" : [ "obj-183", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -3495,6 +3529,7 @@
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -3542,6 +3577,7 @@
 					"destination" : [ "obj-189", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-182", 0 ]
 				}
 
@@ -3551,6 +3587,7 @@
 					"destination" : [ "obj-198", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-182", 0 ]
 				}
 
@@ -3560,6 +3597,7 @@
 					"destination" : [ "obj-207", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-182", 0 ]
 				}
 
@@ -3614,6 +3652,7 @@
 					"destination" : [ "obj-198", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-204", 0 ]
 				}
 
@@ -3623,6 +3662,7 @@
 					"destination" : [ "obj-209", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-204", 0 ]
 				}
 
@@ -3632,6 +3672,7 @@
 					"destination" : [ "obj-211", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-204", 0 ]
 				}
 
@@ -3661,6 +3702,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-28", 4 ]
 				}
 
@@ -3671,6 +3713,7 @@
 					"destination" : [ "obj-144", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-28", 4 ]
 				}
 
@@ -3728,6 +3771,7 @@
 					"destination" : [ "obj-21", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -3737,6 +3781,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -3841,13 +3886,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "se.res.display.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_applications/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "se.coll.to.list.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_applications/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3889,19 +3934,19 @@
 			}
 , 			{
 				"name" : "se.file.viewer.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_applications/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "se.res.trans.display.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_applications/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "se.sin.to.coll.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_applications/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3913,25 +3958,25 @@
 			}
 , 			{
 				"name" : "se.frame.editor.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_applications/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "se.coll.copy.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_applications/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "se.resonance.sonify.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_applications/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "se.sinusoids.sonify.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_support/SDIF_players",
+				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/SDIF_applications/SDIF_players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
