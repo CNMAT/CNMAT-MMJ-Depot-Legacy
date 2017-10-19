@@ -1,4 +1,3 @@
-//autowatch = 1;
 outlets = 2;
 
 var all_lines = new Array(0);
