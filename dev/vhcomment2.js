@@ -31,6 +31,7 @@ function font_lookup(a){
     }
 }
 
+//set background color
 function bgc(r, g, b, a){
     bgcolor[0] = r;
     bgcolor[1] = g;
