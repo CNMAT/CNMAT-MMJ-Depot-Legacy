@@ -10,8 +10,8 @@ function loadbang(){
 }
 
 function do_bang(){
-    var p = this.patcher;
-    var path = p.filepath;
+    var path = this.patcher.filepath;
+//    var path = p.filepath;
     var pary = path.split('/');
     pary.pop();
     
