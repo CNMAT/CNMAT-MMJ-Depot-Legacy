@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 615.0, 380.0 ],
+		"rect" : [ 42.0, 86.0, 616.0, 405.0 ],
 		"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -38,18 +38,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 268.0, 59.0, 20.0 ],
-					"style" : "",
-					"text" : "m29dspinit"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -249,13 +237,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 648.0, 60.0, 109.0, 327.0 ],
+						"rect" : [ 648.0, 86.0, 109.0, 323.0 ],
 						"bgcolor" : [ 0.931175, 1.0, 0.910122, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -292,7 +280,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 491.5, 54.5, 37.0, 18.0 ],
+									"patching_rect" : [ 491.5, 54.5, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "clear"
 								}
@@ -307,7 +295,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 427.75, 60.0, 24.0, 20.0 ],
+									"patching_rect" : [ 427.75, 60.0, 24.0, 22.0 ],
 									"style" : "",
 									"text" : "t b"
 								}
@@ -335,7 +323,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 546.5, 195.0, 50.0, 20.0 ],
+									"patching_rect" : [ 546.5, 195.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -350,7 +338,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 505.0, 155.0, 50.0, 20.0 ],
+									"patching_rect" : [ 505.0, 155.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -364,7 +352,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 455.0, 260.0, 145.0, 18.0 ],
+									"patching_rect" : [ 455.0, 260.0, 145.0, 22.0 ],
 									"style" : "",
 									"text" : "/play/0"
 								}
@@ -379,7 +367,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 55.0, 110.0, 57.0, 20.0 ],
+									"patching_rect" : [ 55.0, 110.0, 57.0, 22.0 ],
 									"style" : "",
 									"text" : "strippath"
 								}
@@ -425,7 +413,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 55.0, 165.0, 86.0, 18.0 ],
+									"patching_rect" : [ 55.0, 165.0, 86.0, 20.0 ],
 									"style" : "",
 									"text" : "prepend /append"
 								}
@@ -440,7 +428,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 55.0, 79.0, 69.0, 20.0 ],
+									"patching_rect" : [ 55.0, 79.0, 69.0, 22.0 ],
 									"style" : "",
 									"text" : "opendialog"
 								}
@@ -455,7 +443,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 458.5, 125.0, 32.5, 18.0 ],
+									"patching_rect" : [ 458.5, 125.0, 32.5, 20.0 ],
 									"style" : "",
 									"text" : "+ 1"
 								}
@@ -470,7 +458,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 445.0, 155.0, 32.5, 18.0 ],
+									"patching_rect" : [ 445.0, 155.0, 32.5, 20.0 ],
 									"style" : "",
 									"text" : "i"
 								}
@@ -485,7 +473,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 270.0, 240.0, 71.0, 20.0 ],
+									"patching_rect" : [ 270.0, 240.0, 71.0, 22.0 ],
 									"style" : "",
 									"text" : "route menu"
 								}
@@ -500,7 +488,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 445.0, 184.0, 79.0, 18.0 ],
+									"patching_rect" : [ 445.0, 184.0, 79.0, 20.0 ],
 									"style" : "",
 									"text" : "sprintf /play/%d"
 								}
@@ -517,9 +505,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 458.5, 95.0, 138.0, 18.0 ],
+									"patching_rect" : [ 458.5, 95.0, 138.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.5, 38.875, 97.5, 18.0 ],
+									"presentation_rect" : [ 2.5, 38.875, 97.5, 20.0 ],
 									"style" : ""
 								}
 
@@ -552,7 +540,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 243.0, 79.0, 116.0, 18.0 ],
+									"patching_rect" : [ 243.0, 79.0, 116.0, 20.0 ],
 									"style" : "",
 									"text" : "t l l"
 								}
@@ -566,7 +554,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 340.0, 105.0, 54.0, 20.0 ],
+									"patching_rect" : [ 340.0, 105.0, 54.0, 22.0 ],
 									"style" : "",
 									"text" : "addpath"
 								}
@@ -581,7 +569,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 427.75, 25.0, 67.0, 20.0 ],
+									"patching_rect" : [ 427.75, 25.0, 67.0, 22.0 ],
 									"style" : "",
 									"text" : "r settempo"
 								}
@@ -596,7 +584,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 243.0, 105.0, 78.0, 18.0 ],
+									"patching_rect" : [ 243.0, 105.0, 78.0, 20.0 ],
 									"style" : "",
 									"text" : "prepend /folder"
 								}
@@ -611,7 +599,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 55.0, 205.0, 116.0, 18.0 ],
+									"patching_rect" : [ 55.0, 205.0, 116.0, 20.0 ],
 									"style" : "",
 									"text" : "audition-soundfiles~ 0.9"
 								}
@@ -872,9 +860,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 136.0, 36.0, 143.0, 40.0 ],
+					"patching_rect" : [ 136.0, 36.0, 143.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 364.0, 321.0, 196.0, 24.0 ],
+					"presentation_rect" : [ 364.0, 321.0, 196.0, 25.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1396,7 +1384,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 179.0, 165.0, 39.0 ],
+					"patching_rect" : [ 28.0, 179.0, 165.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 182.582779, 248.0, 198.0, 23.0 ],
 					"style" : "",
@@ -2042,101 +2030,82 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/mixing_and_gain",
-				"patcherrelativepath" : "../../../../patchers/mixing_and_gain",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../media/Images",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNMAT_logo.png",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../media/Images",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audition-soundfiles~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/examples/applications/soundfiles-sampling",
-				"patcherrelativepath" : "../../../../examples/applications/soundfiles-sampling",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multibuf.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/multibuf",
-				"patcherrelativepath" : "../../../../patchers/soundfiles_sampling/multibuf",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/multibuf",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "samp-nt-l.voi.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/MSP_Samplers/voices",
-				"patcherrelativepath" : "../../../../patchers/soundfiles_sampling/MSP_Samplers/voices",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/MSP_Samplers/voices",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lookup-samples.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/MSP_Samplers/lib",
-				"patcherrelativepath" : "../../../../patchers/soundfiles_sampling/MSP_Samplers/lib",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/soundfiles_sampling/MSP_Samplers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/basic_programming",
-				"patcherrelativepath" : "../../../../patchers/basic_programming",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "addpath.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/utilities",
-				"patcherrelativepath" : "../../../../patchers/utilities",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "m29dspinit.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
-				"patcherrelativepath" : "../Misc Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
