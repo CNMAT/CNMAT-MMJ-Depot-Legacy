@@ -5,7 +5,7 @@
 "performing timbres", Performing_Timbres.maxpat;
 "the singing voice", Synthesized_Human_Voice.maxpat;
 "computer keyboard & mouse synth", Keymouse_Synthesizer.maxpat;
-"filtering noise", Frequency_Bands_and_Filtering.maxpat;
+"filtering noise", Filtering_Noise.maxpat;
 "sound file mixer", samplemixer.maxpat;
 "sound file interpolation space", Soundfile_Interpolation_Space.maxpat;
 "beat slicing", Temporal_Beat_Slicer_I.maxpat;
