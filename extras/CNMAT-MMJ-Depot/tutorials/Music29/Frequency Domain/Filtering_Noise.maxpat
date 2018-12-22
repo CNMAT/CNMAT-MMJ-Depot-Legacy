@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1113.0, 653.0 ],
+		"rect" : [ 164.0, 113.0, 1113.0, 653.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,6 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"title" : "filtering noise",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-3",
@@ -227,8 +226,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -458,8 +457,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -847,8 +846,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2126,9 +2125,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 493.0, 584.0, 265.0, 18.0 ],
+					"patching_rect" : [ 493.0, 584.0, 265.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 86.0, 265.0, 18.0 ],
+					"presentation_rect" : [ 6.5, 86.0, 265.0, 17.0 ],
 					"style" : "",
 					"text" : "(adapted from a patch by  Z. Settel and C. Lippe, for MSP)"
 				}
@@ -2142,9 +2141,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 493.0, 602.0, 63.0, 19.0 ],
+					"patching_rect" : [ 493.0, 602.0, 63.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 234.0, 330.0, 63.0, 19.0 ],
+					"presentation_rect" : [ 234.0, 330.0, 63.0, 18.0 ],
 					"style" : "",
 					"text" : "Filter Type"
 				}
@@ -2159,10 +2158,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 426.0, 319.0, 146.0 ],
+					"patching_rect" : [ 320.0, 426.0, 299.0, 135.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 532.5, 11.0, 578.0, 94.0 ],
+					"presentation_rect" : [ 532.5, 11.0, 578.0, 87.0 ],
 					"style" : "",
 					"text" : "A noise signal features strong energy across the entire audible frequency domain.  \nNoise provides an ideal signal for filtering, a process of extracting individual frequency components from a complex signal. \nMouse inside the window to control the gain on 256 bins of frequency from 0 to 11,025 Hertz.  ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2174,13 +2173,13 @@
 					"fontname" : "Geneva",
 					"fontsize" : 13.0,
 					"id" : "obj-53",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 584.0, 173.0, 104.0 ],
+					"patching_rect" : [ 320.0, 584.0, 167.0, 81.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 300.0, 858.0, 23.0 ],
+					"presentation_rect" : [ 69.0, 300.0, 858.0, 21.0 ],
 					"style" : "",
 					"text" : "Try out different kinds of filters by selecting from the menu.  You can make your own spectral envelope by drawing across the display."
 				}
@@ -2196,9 +2195,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1045.0, 238.0, 188.0, 96.0 ],
+					"patching_rect" : [ 1045.0, 238.0, 188.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 380.0, 1082.5, 26.0 ],
+					"presentation_rect" : [ 13.0, 380.0, 1082.5, 25.0 ],
 					"style" : "",
 					"text" : "THROUGH PASS FILTER: allows the entire signal through. We hear a full bandwidth white noise signal."
 				}
@@ -2212,9 +2211,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 493.0, 621.0, 44.0, 19.0 ],
+					"patching_rect" : [ 493.0, 621.0, 44.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.5, 125.0, 44.0, 19.0 ],
+					"presentation_rect" : [ 64.5, 125.0, 44.0, 18.0 ],
 					"style" : "",
 					"text" : "0 hertz"
 				}
@@ -2228,9 +2227,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 493.0, 640.0, 62.0, 19.0 ],
+					"patching_rect" : [ 493.0, 640.0, 62.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1000.5, 125.0, 62.0, 19.0 ],
+					"presentation_rect" : [ 1000.5, 125.0, 62.0, 18.0 ],
 					"style" : "",
 					"text" : "11,025 hz"
 				}
@@ -2245,9 +2244,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 584.0, 211.0, 28.0 ],
+					"patching_rect" : [ 30.0, 584.0, 211.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 885.5, 432.0, 206.0, 28.0 ],
+					"presentation_rect" : [ 885.5, 432.0, 206.0, 29.0 ],
 					"style" : "",
 					"text" : "click to start the MUSIC"
 				}
@@ -2261,9 +2260,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 493.0, 659.0, 50.0, 19.0 ],
+					"patching_rect" : [ 493.0, 659.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 144.0, 50.0, 19.0 ],
+					"presentation_rect" : [ 9.0, 144.0, 50.0, 18.0 ],
 					"style" : "",
 					"text" : "maxgain"
 				}
@@ -2277,9 +2276,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 493.0, 678.0, 47.0, 19.0 ],
+					"patching_rect" : [ 493.0, 678.0, 47.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 267.0, 47.0, 19.0 ],
+					"presentation_rect" : [ 13.0, 267.0, 47.0, 18.0 ],
 					"style" : "",
 					"text" : "mingain"
 				}
@@ -2693,83 +2692,72 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "fft-eq.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Intro_Course/Unit05-Frequency_Domain/lib",
-				"patcherrelativepath" : "../../Intro_Course/Unit05-Frequency_Domain/lib",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/tutorials/Intro_Course/Unit05-Frequency_Domain/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aux_send.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/effects_audio",
-				"patcherrelativepath" : "../../../../patchers/effects_audio",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/effects_audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple-stereo-gain~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/mixing_and_gain",
-				"patcherrelativepath" : "../../../../patchers/mixing_and_gain",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/mixing_and_gain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../media/Images",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
-				"patcherrelativepath" : "../../../../patchers/depot_support",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNMAT_logo.png",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../media/Images",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency_Domain_Analysis.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Frequency Domain",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/tutorials/Music29/Frequency Domain",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/basic_programming",
-				"patcherrelativepath" : "../../../../patchers/basic_programming",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m29dspinit.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/extras/tutorials/Music29/Misc Support",
-				"patcherrelativepath" : "../Misc Support",
+				"bootpath" : "~/Max 7/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/tutorials/Music29/Misc Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
