@@ -2603,7 +2603,7 @@
 					"patching_rect" : [ 674.0, 858.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 673.0, 183.0, 23.0 ],
-					"text" : "Locate 8 - mins: 9 secs: 16",
+					"text" : "Locate 8 - mins: 7 secs: 16",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -2629,7 +2629,7 @@
 					"patching_rect" : [ 663.0, 835.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 650.0, 183.0, 23.0 ],
-					"text" : "Locate 7 - mins: 7 secs: 17",
+					"text" : "Locate 7 - mins: 6 secs: 22",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -2655,7 +2655,7 @@
 					"patching_rect" : [ 652.0, 812.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 627.0, 183.0, 23.0 ],
-					"text" : "Locate 6 - mins: 6 secs: 22",
+					"text" : "Locate 6 - mins: 5 secs: 33",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -2681,7 +2681,7 @@
 					"patching_rect" : [ 641.0, 789.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 604.0, 183.0, 23.0 ],
-					"text" : "Locate 5 - mins: 5 secs: 34",
+					"text" : "Locate 5 - mins: 4 secs: 18",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -2707,7 +2707,7 @@
 					"patching_rect" : [ 630.0, 766.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 581.0, 183.0, 23.0 ],
-					"text" : "Locate 4 - mins: 4 secs: 18",
+					"text" : "Locate 4 - mins: 2 secs: 55",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -2733,7 +2733,7 @@
 					"patching_rect" : [ 619.0, 743.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 558.0, 183.0, 23.0 ],
-					"text" : "Locate 3 - mins: 0 secs: 11",
+					"text" : "Locate 3 - mins: 2 secs: 7",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -2759,7 +2759,7 @@
 					"patching_rect" : [ 608.0, 720.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 535.0, 183.0, 23.0 ],
-					"text" : "Locate 2 - mins: 2 secs: 7",
+					"text" : "Locate 2 - mins: 0 secs: 40",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -2785,7 +2785,7 @@
 					"patching_rect" : [ 597.22222899999997, 697.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 512.0, 183.0, 23.0 ],
-					"text" : "Locate 1 - mins: 0 secs: 40",
+					"text" : "Locate 1 - mins: 0 secs: 0",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -3017,7 +3017,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 15.0, 57.0, 949.0, 650.0 ],
+						"rect" : [ 34.0, 79.0, 949.0, 650.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -3052,7 +3052,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 242.0, 493.0, 105.0, 23.0 ],
+									"patching_rect" : [ 242.0, 493.0, 105.0, 22.0 ],
 									"text" : "<-- cliquez"
 								}
 
@@ -3163,7 +3163,7 @@
 										"lines" : [  ]
 									}
 ,
-									"patching_rect" : [ 6.0, 493.0, 235.0, 23.0 ],
+									"patching_rect" : [ 6.0, 493.0, 235.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -3185,7 +3185,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 461.0, 343.0, 23.0 ],
+									"patching_rect" : [ 6.0, 461.0, 343.0, 22.0 ],
 									"text" : "Fichier de texte (pour les utilisateurs avancés):"
 								}
 
@@ -3199,7 +3199,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 531.0, 595.0, 23.0 ],
+									"patching_rect" : [ 6.0, 531.0, 595.0, 22.0 ],
 									"text" : "Les conventions de la denomination des fichiers audio (pour les utilisateurs avancés):"
 								}
 
@@ -3212,7 +3212,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 300.0, 615.0, 105.0, 23.0 ],
+									"patching_rect" : [ 300.0, 615.0, 105.0, 22.0 ],
 									"text" : "<-- cliquez"
 								}
 
@@ -3226,7 +3226,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 563.0, 593.0, 39.0 ],
+									"patching_rect" : [ 6.0, 563.0, 593.0, 38.0 ],
 									"text" : "Pour garantir que le logiciel reconnait quelles fichiers a passer, il faut mettre QUE les placer dans le répertoire racine du logiciel. Pour savoir en plus, lisez la documentation ci-dessous:"
 								}
 
@@ -3250,7 +3250,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 30.0, 99.0, 1072.0, 616.0 ],
+										"rect" : [ 34.0, 99.0, 1072.0, 616.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -3325,7 +3325,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 528.0, 500.0, 467.0, 48.0 ],
+													"patching_rect" : [ 528.0, 500.0, 467.0, 47.0 ],
 													"text" : "* tous les fichiers (patch, fichiers de son, fichiers associes) doivent etre dans le meme dossier que ce logiciel, au meme niveau, c'est a dire rien sera trouve dedans une dossier supplementaire."
 												}
 
@@ -3366,7 +3366,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 528.0, 352.0, 434.0, 48.0 ],
+													"patching_rect" : [ 528.0, 352.0, 434.0, 47.0 ],
 													"text" : "Chaque piece peut avoir une piste 'clique'\n\nPour inclure une piste 'clique', appelez votre fichier avec une préfixe de \"click\""
 												}
 
@@ -3381,7 +3381,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 544.0, 276.0, 389.0, 62.0 ],
+													"patching_rect" : [ 544.0, 276.0, 389.0, 60.0 ],
 													"text" : "oct1_ma_piece.aif\noct2_ma_piece.aif\noct3_ma_piece.aif\noct4_ma_piece.aif"
 												}
 
@@ -3396,7 +3396,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 528.0, 8.0, 450.0, 48.0 ],
+													"patching_rect" : [ 528.0, 8.0, 450.0, 47.0 ],
 													"text" : "Pour passer une piece, d'abord il faut étiqueter les fichiers de son avec des prefixes. Par exemple, si vous avez une fichier d'audio en stereo, il fallait les separer et étiqueter dans le maniere suivant (L=gauche, R=droit):"
 												}
 
@@ -3411,7 +3411,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 546.0, 180.0, 389.0, 62.0 ],
+													"patching_rect" : [ 546.0, 180.0, 389.0, 60.0 ],
 													"text" : "quad1_ma_piece.aif\nquad2_ma_piece.aif\nquad3_ma_piece.aif\nquad4_ma_piece.aif"
 												}
 
@@ -3426,7 +3426,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 546.0, 112.0, 389.0, 35.0 ],
+													"patching_rect" : [ 546.0, 112.0, 389.0, 33.0 ],
 													"text" : "L_ma_piece.aif\nR_ma_piece.aif"
 												}
 
@@ -3440,7 +3440,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 500.0, 461.0, 34.0 ],
+													"patching_rect" : [ 8.0, 500.0, 461.0, 33.0 ],
 													"text" : "*  all files (program patch, soundfiles, associated files) must be in the same folder as this program, at the top level with no sub-folders. "
 												}
 
@@ -3481,7 +3481,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 352.0, 347.0, 48.0 ],
+													"patching_rect" : [ 8.0, 352.0, 347.0, 47.0 ],
 													"text" : "Every piece can also have a click track.\n\nTo include a click track, name your file with the prefix of \"click\""
 												}
 
@@ -3496,7 +3496,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 24.0, 276.0, 389.0, 62.0 ],
+													"patching_rect" : [ 24.0, 276.0, 389.0, 60.0 ],
 													"text" : "oct1_mypiecename.aif\noct2_mypiecename.aif\noct3_mypiecename.aif\noct4_mypiecename.aif"
 												}
 
@@ -3524,7 +3524,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 8.0, 450.0, 62.0 ],
+													"patching_rect" : [ 8.0, 8.0, 450.0, 60.0 ],
 													"text" : "To play a piece, you must first label your files with prefixes.\nFor example, if you have a stereo files you would like to play back, you need two separate audio files on disk, and they should be labelled accordingly.  Below are example filenames for reference in editing your own filenames."
 												}
 
@@ -3539,7 +3539,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 26.0, 180.0, 389.0, 62.0 ],
+													"patching_rect" : [ 26.0, 180.0, 389.0, 60.0 ],
 													"text" : "quad1_mypiecename.aif\nquad2_mypiecename.aif\nquad3_mypiecename.aif\nquad4_mypiecename.aif"
 												}
 
@@ -3567,8 +3567,8 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 26.0, 112.0, 389.0, 35.0 ],
-													"text" : "L_mypiecename.aif\nR_mypiecename.aif"
+													"patching_rect" : [ 26.0, 112.0, 389.0, 33.0 ],
+													"text" : "stereo1_mypiecename.aif\nstereo2_mypiecename.aif"
 												}
 
 											}
@@ -3589,7 +3589,7 @@
 										"lines" : [  ]
 									}
 ,
-									"patching_rect" : [ 6.0, 615.0, 292.0, 23.0 ],
+									"patching_rect" : [ 6.0, 615.0, 292.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -3610,7 +3610,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 425.0, 239.0, 23.0 ],
+									"patching_rect" : [ 6.0, 425.0, 239.0, 22.0 ],
 									"text" : "• Envoyez des problems a:"
 								}
 
@@ -3649,7 +3649,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 237.0, 450.0, 332.0, 28.0 ],
+									"patching_rect" : [ 237.0, 450.0, 332.0, 31.0 ],
 									"text" : ";\rmax launch_browser http://cnmat.berkeley.edu/people/edmund_campion"
 								}
 
@@ -3663,7 +3663,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 261.0, 910.0, 152.0 ],
+									"patching_rect" : [ 6.0, 261.0, 910.0, 147.0 ],
 									"text" : "Characteristiques importants::\n\n• Quand le patch est ferme, toutes les parametres sont compté et seront rapeller la prochaine fois le patch est ouvert\n• Les parametres par defaut peuvent etre remise a l'etat initial dans le fenetre 'advanced settings'\n• Les parametres par defaut des cues 1-10 d'allocation peuvent etre edité par le/la utilisateur/-trice. (voie les 'advanced settings' de la fenetre primaire)\n• Toutes les boutons de pousser en position silence- 'mute'- eteint que des sorties finales\n• Toutes les reverbs sont preserver meme avec 'mute'\n• La vitesse de lecture peut être régler avec le paramètre 'speed,' trouve dans la transport (des valeurs positifs sont plus vite, négatif plus lent)."
 								}
 
@@ -3746,7 +3746,7 @@
 										"lines" : [  ]
 									}
 ,
-									"patching_rect" : [ 6.0, 229.0, 207.0, 23.0 ],
+									"patching_rect" : [ 6.0, 229.0, 207.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -3768,7 +3768,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 205.0, 333.0, 23.0 ],
+									"patching_rect" : [ 6.0, 205.0, 333.0, 22.0 ],
 									"text" : "Disposition des haut-parleurs:"
 								}
 
@@ -3782,7 +3782,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 69.0, 738.0, 120.0 ],
+									"patching_rect" : [ 6.0, 69.0, 738.0, 132.0 ],
 									"text" : "Pour garantir le fonction du logiciel:\n\n• Eteint tout les depositifs connecte sans fil ou ethernet a votre ordinateur pour les repetitions et performances.\n\n• Ne faites pas fonctionner d'autres logiciel sur l'ordi au meme-temps.\n\n• Suivez les indications d'initialization sur l'écran primaire (1, 2, 3, et 4).\n"
 								}
 
@@ -3797,7 +3797,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 3.0, 930.0, 57.0 ],
+									"patching_rect" : [ 7.0, 3.0, 930.0, 56.0 ],
 									"text" : "'PIECEPLAYER': Ce logiciel charge une 'piece' (fichiers de son diverses) soit en stereo, quadrophonique, ou octophonique, et en joue pour performance."
 								}
 
@@ -20373,7 +20373,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 8.0, 62.0, 889.0, 677.0 ],
+						"rect" : [ 34.0, 79.0, 889.0, 677.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -20408,7 +20408,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 437.0, 239.0, 23.0 ],
+									"patching_rect" : [ 12.0, 437.0, 239.0, 22.0 ],
 									"text" : "• Report problems with this patch to: "
 								}
 
@@ -20421,7 +20421,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 248.0, 523.0, 105.0, 23.0 ],
+									"patching_rect" : [ 248.0, 523.0, 105.0, 22.0 ],
 									"text" : "<-- double click"
 								}
 
@@ -20445,7 +20445,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 10.0, 55.0, 961.0, 642.0 ],
+										"rect" : [ 34.0, 79.0, 961.0, 642.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -20481,7 +20481,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 4.0, 125.0, 23.0 ],
+													"patching_rect" : [ 4.0, 4.0, 125.0, 22.0 ],
 													"text" : "User Presets:"
 												}
 
@@ -20495,7 +20495,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 5.0, 31.0, 747.0, 55.0 ],
+													"patching_rect" : [ 5.0, 31.0, 747.0, 53.0 ],
 													"text" : "User settings are automatically saved  to the file titled z_userpresets.txt each time the program is closed.\nFacoty default settings are found in the  file titled Z_factory_defaults.txt and can only be over-written with a text editor. \nFactory settings Z_factory_defaults can be restored at anytime by going into \"advanced_settings\" "
 												}
 
@@ -20509,7 +20509,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 100.0, 204.0, 23.0 ],
+													"patching_rect" : [ 4.0, 100.0, 204.0, 22.0 ],
 													"text" : "How to edit Factory Defaults:"
 												}
 
@@ -20523,7 +20523,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 132.0, 935.0, 490.0 ],
+													"patching_rect" : [ 4.0, 132.0, 935.0, 476.0 ],
 													"text" : "Below is an overview of each parameter in Z_factory_defaults with a description on what it does.  \nTo change the factory default, simply open the z_factory_defaults.txt file in a text editor and change the values.\n\n• mutes: mutes for channels 1-8, then click channel, headphone tape mix, and reverb output.\n\n• pickup: this is the value of the pickup point (in ms) that was last used when the user hit pause\n\n• allgains: gains on channels 1-8, then headphone tape mix, then mic 1 output, mic 2 output, reverb level, mic 1 input, mic 2 input\n\n• micmutes: mutes for mic 1 and mic 2\n\n• cues: a list of cues for cues 1-10, in ms.  These are edited as one edits the patch, but can be hard-coded in.\n\n• size: reverb size parameter\n\n• decay: reverb decay parameter\n\n• damping: reverb damping parameter\n\n• diffusion: reverb diffusion parameter\n\n• reverbenable: reverb enable for channels 1-8, then mic input 1, and mic input 2\n\n• mixroute: the destination of the headphone tape mix output.  0=9, 1=10, 2=9+10\n\n• clickroute: the destination of the click track's audio output.  0=9, 1=10, 2=9+10\n\n• tapelist: the gain levels for each element which can be monitored in the headphone tape mix.  channels 1-8, then mic 1, mic 2, and reverb output\n\n• delstart: the amount by which to delay playback when hitting resume, play from user play point, and play from beginning."
 												}
 
@@ -20532,7 +20532,7 @@
 										"lines" : [  ]
 									}
 ,
-									"patching_rect" : [ 12.0, 523.0, 235.0, 23.0 ],
+									"patching_rect" : [ 12.0, 523.0, 235.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -20554,7 +20554,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 491.0, 199.0, 23.0 ],
+									"patching_rect" : [ 12.0, 491.0, 199.0, 22.0 ],
 									"text" : "Text Files (advanced users):"
 								}
 
@@ -20568,7 +20568,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 213.0, 161.0, 23.0 ],
+									"patching_rect" : [ 12.0, 213.0, 161.0, 22.0 ],
 									"text" : "Speaker Assignments:"
 								}
 
@@ -20582,7 +20582,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 561.0, 342.0, 23.0 ],
+									"patching_rect" : [ 12.0, 561.0, 342.0, 22.0 ],
 									"text" : "Audio File naming conventions (advanced users):"
 								}
 
@@ -20595,7 +20595,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 223.0, 244.0, 105.0, 23.0 ],
+									"patching_rect" : [ 223.0, 244.0, 105.0, 22.0 ],
 									"text" : "<-- double click"
 								}
 
@@ -20619,7 +20619,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 20.0, 80.0, 665.0, 454.0 ],
+										"rect" : [ 34.0, 80.0, 665.0, 454.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -20655,7 +20655,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 5.0, 60.0, 644.0, 377.0 ],
+													"patching_rect" : [ 5.0, 60.0, 644.0, 366.0 ],
 													"text" : "• A window will pop up, indicating that you can set which physical soundcard outputs you would like mapped to the program's numbered outputs.\n\n• Two microphones are available for routing in any fashion.  Plug the inputs in that you want, then edit your input assignments.  Your audio interface should provide the proper gain stage for your microphone, but there is a separate attenuation per mic input available.\n\n• If you would like to experiment with alternate routings for audio playback outputs , you can edit those here.\n\n\nOUTPUT mappings:\n\n• the output mappings 1-8 are for your piece's channels, whether that piece be 1, 2, 4, or 8 channels...\n\n• output mapping 9 and 10 are reserved for either click track, tape/mic submix, or a combination thereof.\nYou can set what is routed to these reserved outputs via the front page underneath the relevant section headings (either \"CLICK TRACK\" or \"SUBMIX\").\n\n• output mapping 11 and 12 are thru-puts on microphone inputs 1 and 2.\n\n• output mapping 13 and 14 are the outputs of the reverb units 1 and 2."
 												}
 
@@ -20669,7 +20669,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.0, 12.0, 619.0, 25.0 ],
+													"patching_rect" : [ 4.0, 12.0, 619.0, 24.0 ],
 													"text" : "Speaker assignments can be edited via the \"set speaker assignments\" button."
 												}
 
@@ -20678,7 +20678,7 @@
 										"lines" : [  ]
 									}
 ,
-									"patching_rect" : [ 12.0, 244.0, 207.0, 23.0 ],
+									"patching_rect" : [ 12.0, 244.0, 207.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -20699,7 +20699,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 306.0, 641.0, 105.0, 23.0 ],
+									"patching_rect" : [ 306.0, 641.0, 105.0, 22.0 ],
 									"text" : "<-- double click"
 								}
 
@@ -20738,7 +20738,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 243.0, 462.0, 332.0, 28.0 ],
+									"patching_rect" : [ 243.0, 462.0, 332.0, 31.0 ],
 									"text" : ";\rmax launch_browser http://cnmat.berkeley.edu/people/edmund_campion"
 								}
 
@@ -20752,7 +20752,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 280.0, 859.0, 136.0 ],
+									"patching_rect" : [ 12.0, 280.0, 859.0, 132.0 ],
 									"text" : "Important features:\n\n• when the patch is closed, all user settings are remembered and will be recalled next time the patch is opened\n• factory default settings can be reset in advanced settings window\n• factory default locate cues 1-10 can be over-written by user  (see the advanced settings section from the main window)\n• all MUTES only effect the final output \n• all reverb sends are not affected by MUTE\n• speed of playback can be adjusted with the speed parameter, located in the transport area (positive values are faster, negative slower)"
 								}
 
@@ -20766,7 +20766,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 73.0, 696.0, 120.0 ],
+									"patching_rect" : [ 9.0, 73.0, 696.0, 132.0 ],
 									"text" : "TO INSURE PROPER WORKING OF THIS SOFTWARE:\n\n• Turn off all wireless and ethernet connected devices to your computer during a performance or rehearsal.\n\n• Do not run or operate any other software on the same machine at the same time.\n\n• Follow the initialization guidelines on the main screen (1, 2, 3, and 4).\n"
 								}
 
@@ -20780,7 +20780,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 593.0, 816.0, 39.0 ],
+									"patching_rect" : [ 12.0, 593.0, 816.0, 38.0 ],
 									"text" : "In order to get the program to recognize which files you would like to play, you need to put ONLY the files that you would like the program to play in the root directory of the program itself.  For details on this process, please read the documentation stub below:"
 								}
 
@@ -20795,7 +20795,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 4.0, 782.0, 57.0 ],
+									"patching_rect" : [ 8.0, 4.0, 782.0, 56.0 ],
 									"text" : "PIECEPLAYER:  This program loads a piece (various soundfiles) of either stereo, quad, or octophonic files and plays it back for performance."
 								}
 
@@ -20819,7 +20819,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 72.0, 44.0, 483.0, 593.0 ],
+										"rect" : [ 72.0, 79.0, 483.0, 593.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -20882,7 +20882,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 552.0, 461.0, 34.0 ],
+													"patching_rect" : [ 8.0, 552.0, 461.0, 33.0 ],
 													"text" : "*  all files (program patch, soundfiles, associated files) must be in the same folder as this program, at the top level with no sub-folders. "
 												}
 
@@ -20923,7 +20923,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 412.0, 347.0, 48.0 ],
+													"patching_rect" : [ 8.0, 412.0, 347.0, 47.0 ],
 													"text" : "Every piece can also have a click track.\n\nTo include a click track, name your file with the prefix of \"click\""
 												}
 
@@ -20938,7 +20938,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 24.0, 336.0, 389.0, 62.0 ],
+													"patching_rect" : [ 24.0, 336.0, 389.0, 60.0 ],
 													"text" : "oct1_mypiecename.aif\noct2_mypiecename.aif\noct3_mypiecename.aif\noct4_mypiecename.aif"
 												}
 
@@ -20966,7 +20966,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 8.0, 450.0, 62.0 ],
+													"patching_rect" : [ 8.0, 8.0, 450.0, 60.0 ],
 													"text" : "To play a piece, you must first label your files with prefixes.\nFor example, if you have a stereo files you would like to play back, you need two separate audio files on disk, and they should be labelled accordingly.  Below are example filenames for reference in editing your own filenames."
 												}
 
@@ -20981,7 +20981,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 26.0, 240.0, 389.0, 62.0 ],
+													"patching_rect" : [ 26.0, 240.0, 389.0, 60.0 ],
 													"text" : "quad1_mypiecename.aif\nquad2_mypiecename.aif\nquad3_mypiecename.aif\nquad4_mypiecename.aif"
 												}
 
@@ -21009,8 +21009,8 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 26.0, 172.0, 389.0, 35.0 ],
-													"text" : "L_mypiecename.aif\nR_mypiecename.aif"
+													"patching_rect" : [ 26.0, 172.0, 389.0, 33.0 ],
+													"text" : "stereo1_mypiecename.aif\nstereo2_mypiecename.aif"
 												}
 
 											}
@@ -21031,7 +21031,7 @@
 										"lines" : [  ]
 									}
 ,
-									"patching_rect" : [ 12.0, 641.0, 292.0, 23.0 ],
+									"patching_rect" : [ 12.0, 641.0, 292.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -38410,7 +38410,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "yafr2.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -38423,21 +38423,21 @@
 , 			{
 				"name" : "z_userpreset.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z_factory_defaults.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
 				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../../../media/Images",
+				"patcherrelativepath" : "../../../../Max 8/Packages/CNMAT-MMJ-Depot/media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}

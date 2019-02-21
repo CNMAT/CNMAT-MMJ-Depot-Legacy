@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 749.0, 104.0, 969.0, 764.0 ],
+		"rect" : [ 35.0, 62.0, 969.0, 764.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -5120,7 +5120,7 @@
 					"patching_rect" : [ 696.0, 904.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 719.0, 183.0, 23.0 ],
-					"text" : "Locate 10 - mins: 15 secs: 11",
+					"text" : "Locate 10 - mins: 10 secs: 0",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -5147,7 +5147,7 @@
 					"patching_rect" : [ 685.0, 881.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 696.0, 183.0, 23.0 ],
-					"text" : "Locate 9 - mins: 13 secs: 47",
+					"text" : "Locate 9 - mins: 9 secs: 16",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -5174,7 +5174,7 @@
 					"patching_rect" : [ 674.0, 858.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 673.0, 183.0, 23.0 ],
-					"text" : "Locate 8 - mins: 9 secs: 16",
+					"text" : "Locate 8 - mins: 7 secs: 16",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -5201,7 +5201,7 @@
 					"patching_rect" : [ 663.0, 835.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 650.0, 183.0, 23.0 ],
-					"text" : "Locate 7 - mins: 7 secs: 17",
+					"text" : "Locate 7 - mins: 6 secs: 22",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -5228,7 +5228,7 @@
 					"patching_rect" : [ 652.0, 812.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 627.0, 183.0, 23.0 ],
-					"text" : "Locate 6 - mins: 6 secs: 22",
+					"text" : "Locate 6 - mins: 5 secs: 33",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -5255,7 +5255,7 @@
 					"patching_rect" : [ 641.0, 789.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 604.0, 183.0, 23.0 ],
-					"text" : "Locate 5 - mins: 5 secs: 34",
+					"text" : "Locate 5 - mins: 4 secs: 18",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -5282,7 +5282,7 @@
 					"patching_rect" : [ 630.0, 766.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 581.0, 183.0, 23.0 ],
-					"text" : "Locate 4 - mins: 4 secs: 18",
+					"text" : "Locate 4 - mins: 2 secs: 55",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -5309,7 +5309,7 @@
 					"patching_rect" : [ 619.0, 743.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 558.0, 183.0, 23.0 ],
-					"text" : "Locate 3 - mins: 0 secs: 11",
+					"text" : "Locate 3 - mins: 2 secs: 7",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -5336,7 +5336,7 @@
 					"patching_rect" : [ 608.0, 720.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 535.0, 183.0, 23.0 ],
-					"text" : "Locate 2 - mins: 2 secs: 7",
+					"text" : "Locate 2 - mins: 0 secs: 40",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -5363,7 +5363,7 @@
 					"patching_rect" : [ 597.22222899999997, 697.0, 181.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 512.0, 183.0, 23.0 ],
-					"text" : "Locate 1 - mins: 0 secs: 40",
+					"text" : "Locate 1 - mins: 0 secs: 0",
 					"textcolor" : [ 0.878431, 0.933333, 0.933333, 1.0 ]
 				}
 
@@ -23522,7 +23522,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 78.0, 860.0, 642.0 ],
+						"rect" : [ 34.0, 79.0, 860.0, 642.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -23886,7 +23886,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 243.0, 438.0, 332.0, 27.0 ],
+									"patching_rect" : [ 243.0, 438.0, 332.0, 31.0 ],
 									"text" : ";\rmax launch_browser http://cnmat.berkeley.edu/people/edmund_campion"
 								}
 
@@ -23914,7 +23914,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 73.0, 696.0, 116.0 ],
+									"patching_rect" : [ 9.0, 73.0, 696.0, 132.0 ],
 									"text" : "TO INSURE PROPER WORKING OF THIS SOFTWARE:\n\n• Turn off all wireless and ethernet connected devices to your computer during a performance or rehearsal.\n\n• Do not run or operate any other software on the same machine at the same time.\n\n• Follow the initialization guidelines on the main screen (1, 2, 3, and 4).\n"
 								}
 
@@ -23967,7 +23967,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 72.0, 78.0, 483.0, 593.0 ],
+										"rect" : [ 72.0, 79.0, 483.0, 593.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -24158,7 +24158,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 26.0, 172.0, 389.0, 33.0 ],
-													"text" : "L_mypiecename.aif\nR_mypiecename.aif"
+													"text" : "stereo1_mypiecename.aif\nstereo2_mypiecename.aif"
 												}
 
 											}
@@ -36143,28 +36143,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "pp.namedgain.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
+				"bootpath" : "~/Documents/cnmat/pieceplayer_builds/Losing Touch/pieceplayer_patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pp.mixsend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
+				"bootpath" : "~/Documents/cnmat/pieceplayer_builds/Losing Touch/pieceplayer_patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pp.reverbsend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
+				"bootpath" : "~/Documents/cnmat/pieceplayer_builds/Losing Touch/pieceplayer_patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pp.reverbmodule.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
+				"bootpath" : "~/Documents/cnmat/pieceplayer_builds/Losing Touch/pieceplayer_patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -36172,27 +36172,27 @@
 , 			{
 				"name" : "yafr2.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pp.micinput.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
+				"bootpath" : "~/Documents/cnmat/pieceplayer_builds/Losing Touch/pieceplayer_patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z_userpreset.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
+				"bootpath" : "~/Documents/cnmat/pieceplayer_builds/Losing Touch/pieceplayer_patchers",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z_factory_defaults.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/extras/CNMAT-MMJ-Depot/applications/soundfiles-sampling/pieceplayer/pieceplayer_click_submix",
+				"bootpath" : "~/Documents/cnmat/pieceplayer_builds/Losing Touch/pieceplayer_patchers",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -36200,14 +36200,14 @@
 , 			{
 				"name" : "cnmat_blue.gif",
 				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/media/Images",
-				"patcherrelativepath" : "../../../../../../media/Images",
+				"patcherrelativepath" : "../../../../Max 8/Packages/CNMAT-MMJ-Depot/media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-bcf2000.js",
-				"bootpath" : "~/Desktop/enabled",
-				"patcherrelativepath" : "../../../../../../../../../../Desktop/enabled",
+				"name" : "osc-bcf2000.js",
+				"bootpath" : "~/Documents/cnmat/pieceplayer_builds/Losing Touch/pieceplayer_patchers",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
