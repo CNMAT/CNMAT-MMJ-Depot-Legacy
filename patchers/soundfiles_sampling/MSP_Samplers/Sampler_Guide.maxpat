@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 835.0, 515.0 ],
-		"bgcolor" : [ 0.6921, 0.695967, 0.688234, 1.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 616.0, 136.0, 835.0, 515.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,22 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"linecount" : 16,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 378.0, 426.0, 50.0, 223.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 314.0, 440.5, 421.0, 49.0 ],
+					"text" : ";\rmax launch_browser https://github.com/CNMAT/CNMAT-MMJ-Depot-2.0/wiki/OSC-Sampler-Library"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-34",
@@ -48,13 +64,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 25.0, 69.0, 368.0, 746.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -89,8 +106,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 27.333313, 10.0, 20.0, 20.0 ],
-									"style" : ""
+									"parameter_enable" : 0,
+									"patching_rect" : [ 27.333313, 10.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -104,7 +121,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "dump", "clear" ],
 									"patching_rect" : [ 27.333313, 40.0, 77.0, 20.0 ],
-									"style" : "",
 									"text" : "t dump clear"
 								}
 
@@ -120,8 +136,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 60.0, 230.0, 275.333313, 496.0 ],
-									"style" : "",
+									"patching_rect" : [ 60.0, 230.0, 275.333312999999976, 496.0 ],
 									"tabs" : [ "non-looping mono 1", "non-looping mono 2", "non-looping cent-based", "non-looping multisample player", "looping multisample player", "looping mono", "non-looping multisample decay mono", "non-looping single decay mono", "non-looping multisample poly decay", "utility for loading samples", "the OSC sampler module", "OSC sample mapping layer", "OSC sampler speaker router", "OSC version of VSamp", "non-transposing mono", "transposing with random looping", "non-transposing non-looping with panning", "non-transposing non-looping", "non-transposing looping", "transposing non-looping panning", "transposing non-looping", "transposing random looping", "non-looping operates in cents", "non-looping", "non-looping with decay" ]
 								}
 
@@ -136,7 +151,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 60.0, 190.0, 81.0, 20.0 ],
-									"style" : "",
 									"text" : "prepend tabs"
 								}
 
@@ -151,7 +165,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 60.0, 110.0, 79.0, 20.0 ],
-									"style" : "",
 									"text" : "route symbol"
 								}
 
@@ -166,7 +179,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 60.0, 160.0, 53.0, 20.0 ],
-									"style" : "",
 									"text" : "zl.group"
 								}
 
@@ -177,47 +189,47 @@
 										"count" : 25,
 										"data" : [ 											{
 												"key" : "mono multisample non-looping",
-												"value" : [ "mono-msp-nl.maxpat" ]
+												"value" : [ "mono-msp-nl.maxhelp" ]
 											}
 , 											{
 												"key" : "mono single non-looping",
-												"value" : [ "mono-sample-player-noloop.maxpat" ]
+												"value" : [ "mono-sample-player-noloop.maxhelp" ]
 											}
 , 											{
 												"key" : "non-looping multisample cents",
-												"value" : [ "poly~-msp-mcents.maxpat" ]
+												"value" : [ "poly~-msp-mcents.maxhelp" ]
 											}
 , 											{
 												"key" : "non-looping multisample player",
-												"value" : [ "poly~-multisample-player.maxpat" ]
+												"value" : [ "poly~-multisample-player.maxhelp" ]
 											}
 , 											{
 												"key" : "looping multisample player",
-												"value" : [ "mono-multisample-player.maxpat" ]
+												"value" : [ "mono-multisample-player.maxhelp" ]
 											}
 , 											{
 												"key" : "looping mono",
-												"value" : [ "mono-sample-player.maxpat" ]
+												"value" : [ "mono-sample-player.maxhelp" ]
 											}
 , 											{
 												"key" : "non-looping multisample decay mono",
-												"value" : [ "mono-s-multisamp-player-nl-d.maxpat" ]
+												"value" : [ "mono-s-multisamp-player-nl-d.maxhelp" ]
 											}
 , 											{
 												"key" : "non-looping single decay mono",
-												"value" : [ "mono-sample-player-nl-d.maxpat" ]
+												"value" : [ "mono-sample-player-nl-d.maxhelp" ]
 											}
 , 											{
 												"key" : "non-looping multisample poly decay",
-												"value" : [ "poly~-s-nl-d-multisample-player.maxpat" ]
+												"value" : [ "poly~-s-nl-d-multisample-player.maxhelp" ]
 											}
 , 											{
 												"key" : "utility for loading samples",
-												"value" : [ "multibuf.maxpat" ]
+												"value" : [ "multibuf.maxhelp" ]
 											}
 , 											{
 												"key" : "the OSC sampler module",
-												"value" : [ "OSC-sampler.maxpat" ]
+												"value" : [ "OSC-sampler.maxhelp" ]
 											}
 , 											{
 												"key" : "OSC sample mapping layer",
@@ -225,11 +237,11 @@
 											}
 , 											{
 												"key" : "OSC sampler speaker router",
-												"value" : [ "OSC-sampler-speaker-router.maxpat" ]
+												"value" : [ "OSC-sampler-speaker-router.maxhelp" ]
 											}
 , 											{
 												"key" : "OSC version of VSamp",
-												"value" : [ "OSC-vsamp.maxpat" ]
+												"value" : [ "OSC-vsamp.maxhelp" ]
 											}
 , 											{
 												"key" : "non-transposing mono",
@@ -290,7 +302,6 @@
 										"embed" : 1
 									}
 ,
-									"style" : "",
 									"text" : "coll sampler_lookup"
 								}
 
@@ -299,8 +310,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -308,8 +317,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -317,8 +324,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-30", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-17", 0 ]
 								}
 
@@ -326,8 +331,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -335,8 +338,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -344,8 +345,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -353,8 +352,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-30", 1 ]
 								}
 
@@ -362,8 +359,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-30", 3 ]
 								}
 
@@ -371,16 +366,14 @@
  ]
 					}
 ,
-					"patching_rect" : [ 529.0, 43.0, 75.0, 20.0 ],
+					"patching_rect" : [ 529.0, 43.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p build_tabs"
 				}
 
@@ -398,10 +391,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 569.109253, 117.0, 242.867981, 382.0 ],
+					"patching_rect" : [ 569.109252999999967, 117.0, 242.867980999999986, 382.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 571.109253, 139.0, 242.867981, 298.0 ],
-					"style" : "",
+					"presentation_rect" : [ 571.109252999999967, 139.0, 242.867980999999986, 298.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "non-transposing mono", "transposing with random looping", "non-transposing non-looping with panning", "non-transposing non-looping", "non-transposing looping", "transposing non-looping panning", "transposing non-looping", "transposing random looping", "non-looping operates in cents", "non-looping", "non-looping with decay" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -417,10 +409,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 569.109253, 86.0, 116.0, 22.0 ],
+					"patching_rect" : [ 569.109252999999967, 86.0, 116.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 571.109253, 88.0, 116.0, 22.0 ],
-					"style" : "",
+					"presentation_rect" : [ 571.109252999999967, 88.0, 116.0, 22.0 ],
 					"text" : "Sample Voices:",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -439,10 +430,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 298.699554, 272.5, 237.860397, 28.0 ],
+					"patching_rect" : [ 298.699553999999978, 272.5, 237.860397000000006, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.188171, 274.5, 245.37178, 28.0 ],
-					"style" : "",
+					"presentation_rect" : [ 293.188171000000011, 274.5, 245.371780000000001, 28.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "OSC version of VSamp" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -458,10 +448,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 298.699554, 252.5, 120.0, 22.0 ],
+					"patching_rect" : [ 307.699553999999978, 246.5, 120.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.188171, 253.5, 120.0, 22.0 ],
-					"style" : "",
+					"presentation_rect" : [ 293.188171000000011, 253.5, 120.0, 22.0 ],
 					"text" : "VSamp:",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -480,10 +469,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 291.188171, 200.0, 245.37178, 86.0 ],
+					"patching_rect" : [ 291.188171000000011, 143.0, 245.371780000000001, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.188171, 139.0, 245.37178, 82.0 ],
-					"style" : "",
+					"presentation_rect" : [ 293.188171000000011, 139.0, 245.371780000000001, 82.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "the OSC sampler module", "OSC sample mapping layer", "OSC sampler speaker router" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -499,10 +487,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.188171, 86.0, 118.0, 22.0 ],
+					"patching_rect" : [ 291.188171000000011, 86.0, 118.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.188171, 88.0, 118.0, 22.0 ],
-					"style" : "",
+					"presentation_rect" : [ 293.188171000000011, 88.0, 118.0, 22.0 ],
 					"text" : "OSC Sampler:",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -520,7 +507,6 @@
 					"patching_rect" : [ 9.511383, 117.0, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.511383, 119.0, 103.0, 20.0 ],
-					"style" : "",
 					"text" : "non-looping",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.64 ]
 				}
@@ -539,10 +525,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.511383, 473.0, 250.379364, 26.0 ],
+					"patching_rect" : [ 9.511383, 473.0, 250.37936400000001, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.511383, 475.0, 250.379364, 26.0 ],
-					"style" : "",
+					"presentation_rect" : [ 11.511383, 475.0, 250.37936400000001, 26.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "utility for loading samples" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -561,7 +546,6 @@
 					"patching_rect" : [ 2.0, 453.0, 52.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 455.0, 52.0, 20.0 ],
-					"style" : "",
 					"text" : "utilities",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.64 ]
 				}
@@ -580,10 +564,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.511383, 357.0, 250.379364, 86.0 ],
+					"patching_rect" : [ 9.511383, 357.0, 250.37936400000001, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.511383, 359.0, 250.379364, 86.0 ],
-					"style" : "",
+					"presentation_rect" : [ 11.511383, 359.0, 250.37936400000001, 86.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "non-looping multisample decay mono", "non-looping single decay mono", "non-looping multisample poly decay" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -602,7 +585,6 @@
 					"patching_rect" : [ 9.511383, 337.0, 119.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.511383, 339.0, 119.0, 20.0 ],
-					"style" : "",
 					"text" : "non-looping+decay",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.64 ]
 				}
@@ -621,10 +603,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.511383, 272.5, 250.379364, 55.0 ],
+					"patching_rect" : [ 9.511383, 272.5, 250.37936400000001, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.511383, 274.5, 250.379364, 55.0 ],
-					"style" : "",
+					"presentation_rect" : [ 11.511383, 274.5, 250.37936400000001, 55.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "looping multisample player", "looping mono" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -643,7 +624,6 @@
 					"patching_rect" : [ 9.511383, 252.5, 52.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.511383, 254.5, 52.0, 20.0 ],
-					"style" : "",
 					"text" : "looping",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.64 ]
 				}
@@ -666,7 +646,7 @@
 					"offset" : [ -6.0, 0.0 ],
 					"patching_rect" : [ 349.0, 563.0, 281.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 488.609253, 5.0, 281.0, 69.0 ],
+					"presentation_rect" : [ 488.609253000000024, 5.0, 281.0, 69.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -702,8 +682,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 219.0, 587.0, 73.0, 19.0 ],
-					"style" : "",
+					"patching_rect" : [ 219.0, 587.0, 73.0, 21.0 ],
 					"text" : "route symbol"
 				}
 
@@ -721,10 +700,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.511383, 137.0, 250.379364, 110.0 ],
+					"patching_rect" : [ 9.511383, 137.0, 250.37936400000001, 110.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.511383, 139.0, 250.379364, 110.0 ],
-					"style" : "",
+					"presentation_rect" : [ 11.511383, 139.0, 250.37936400000001, 110.0 ],
 					"tabcolor" : [ 0.156863, 0.356863, 0.466667, 1.0 ],
 					"tabs" : [ "mono multisample non-looping", "mono single non-looping", "non-looping multisample cents", "non-looping multisample player" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -737,47 +715,47 @@
 						"count" : 25,
 						"data" : [ 							{
 								"key" : "mono multisample non-looping",
-								"value" : [ "mono-msp-nl.maxpat" ]
+								"value" : [ "mono-msp-nl.maxhelp" ]
 							}
 , 							{
 								"key" : "mono single non-looping",
-								"value" : [ "mono-sample-player-noloop.maxpat" ]
+								"value" : [ "mono-sample-player-noloop.maxhelp" ]
 							}
 , 							{
 								"key" : "non-looping multisample cents",
-								"value" : [ "poly~-msp-mcents.maxpat" ]
+								"value" : [ "poly~-msp-mcents.maxhelp" ]
 							}
 , 							{
 								"key" : "non-looping multisample player",
-								"value" : [ "poly~-multisample-player.maxpat" ]
+								"value" : [ "poly~-multisample-player.maxhelp" ]
 							}
 , 							{
 								"key" : "looping multisample player",
-								"value" : [ "mono-multisample-player.maxpat" ]
+								"value" : [ "mono-multisample-player.maxhelp" ]
 							}
 , 							{
 								"key" : "looping mono",
-								"value" : [ "mono-sample-player.maxpat" ]
+								"value" : [ "mono-sample-player.maxhelp" ]
 							}
 , 							{
 								"key" : "non-looping multisample decay mono",
-								"value" : [ "mono-s-multisamp-player-nl-d.maxpat" ]
+								"value" : [ "mono-s-multisamp-player-nl-d.maxhelp" ]
 							}
 , 							{
 								"key" : "non-looping single decay mono",
-								"value" : [ "mono-sample-player-nl-d.maxpat" ]
+								"value" : [ "mono-sample-player-nl-d.maxhelp" ]
 							}
 , 							{
 								"key" : "non-looping multisample poly decay",
-								"value" : [ "poly~-s-nl-d-multisample-player.maxpat" ]
+								"value" : [ "poly~-s-nl-d-multisample-player.maxhelp" ]
 							}
 , 							{
 								"key" : "utility for loading samples",
-								"value" : [ "multibuf.maxpat" ]
+								"value" : [ "multibuf.maxhelp" ]
 							}
 , 							{
 								"key" : "the OSC sampler module",
-								"value" : [ "OSC-sampler.maxpat" ]
+								"value" : [ "OSC-sampler.maxhelp" ]
 							}
 , 							{
 								"key" : "OSC sample mapping layer",
@@ -785,11 +763,11 @@
 							}
 , 							{
 								"key" : "OSC sampler speaker router",
-								"value" : [ "OSC-sampler-speaker-router.maxpat" ]
+								"value" : [ "OSC-sampler-speaker-router.maxhelp" ]
 							}
 , 							{
 								"key" : "OSC version of VSamp",
-								"value" : [ "OSC-vsamp.maxpat" ]
+								"value" : [ "OSC-vsamp.maxhelp" ]
 							}
 , 							{
 								"key" : "non-transposing mono",
@@ -845,12 +823,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 219.0, 563.0, 108.0, 19.0 ],
+					"patching_rect" : [ 219.0, 563.0, 108.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
 ,
-					"style" : "",
 					"text" : "coll sampler_lookup"
 				}
 
@@ -867,7 +844,6 @@
 					"patching_rect" : [ 9.511383, 86.0, 125.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.511383, 88.0, 125.0, 22.0 ],
-					"style" : "",
 					"text" : "Basic Samplers:  ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -882,8 +858,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 219.0, 633.0, 51.0, 19.0 ],
-					"style" : "",
+					"patching_rect" : [ 219.0, 633.0, 51.0, 21.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -897,8 +872,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 219.0, 611.0, 76.0, 19.0 ],
-					"style" : "",
+					"patching_rect" : [ 219.0, 611.0, 76.0, 21.0 ],
 					"text" : "prepend load"
 				}
 
@@ -907,8 +881,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-10", 1 ]
 				}
 
@@ -916,17 +888,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-18", 0 ]
+					"source" : [ "obj-18", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -934,8 +902,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -943,8 +909,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -952,8 +916,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 1 ]
 				}
 
@@ -961,8 +923,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-33", 1 ]
 				}
 
@@ -970,8 +930,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -979,8 +937,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -988,8 +944,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-49", 1 ]
 				}
 
@@ -997,8 +951,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -1006,41 +958,42 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "banner.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNMAT_logo.png",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/media/Images",
 				"patcherrelativepath" : "../../../media/Images",
-				"type" : "PNG ",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/patchers/depot_support",
 				"patcherrelativepath" : "../../depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot/media/Images",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot/media/Images",
 				"patcherrelativepath" : "../../../media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.6921, 0.695967, 0.688234, 1.0 ]
 	}
 
 }
