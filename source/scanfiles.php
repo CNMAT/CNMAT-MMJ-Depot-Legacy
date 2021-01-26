@@ -77,13 +77,13 @@ function script_header($section){
 
 function check_file($infile, $section){
     $test = file_get_contents($infile);
-    //$test = implode("", file($patchfile));
     $obj = json_decode($test, true);
     $outtest = false;
     $is_banner = false;
     $is_badge = false;
-    
-    for ($i = 0; $i <= sizeof($obj['patcher']['boxes']); $i++) {
+    $boxes = (array)$obj['patcher']['boxes'];
+
+    for ($i = 0; $i <= count($boxes); $i++) {
 	if ($obj['patcher']['boxes'][$i]['box']['name'] == "badge.maxpat") {
 	   $is_badge = true;
 	}
@@ -91,11 +91,6 @@ function check_file($infile, $section){
 	    $is_banner = true;
 	}
     }
-    /*
-    if($is_banner and !$is_badge){
-	   echo "only banner: " . $infile . "\n";
-    }
-     */
     if($is_badge and !$is_banner){
 	   echo "only badge: " . $infile . "\n";
     }
@@ -177,10 +172,10 @@ function osc_script_objects($content, $vname, $loc_id, $y, $case, $section){
 }
 
 get_patches('../javascript', false);
-get_patches('../extras/tutorials', false);
-get_patches('../extras/tutors', false);
-get_patches('../examples/applications', false);
-get_patches('../examples/demos', false);
+get_patches('../extras/CNMAT-MMJ-Depot/tutorials', false);
+get_patches('../extras/CNMAT-MMJ-Depot/tutors', false);
+get_patches('../extras/CNMAT-MMJ-Depot/applications', false);
+get_patches('../extras/CNMAT-MMJ-Depot/demos', false);
 get_patches('../patchers', true);
 
 ?>	
